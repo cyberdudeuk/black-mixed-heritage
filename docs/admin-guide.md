@@ -66,7 +66,7 @@ All workflows are in `.github/workflows/`. Each has a comment at the top saying 
 | **Monthly triage and freshness check** (`monthly-triage.yml`) | 1st of each month; by hand | write issues | Opens the month's checklist issue labelled `routine` | — |
 | **Release** (`release.yml`) | A tag `v*` is pushed | write contents | Creates the GitHub release with notes from `docs/release-notes.md` and attaches the hub, data and Teams app | Make sure the version heading exists in the release notes |
 | **CodeQL** (`codeql.yml`) | Pull requests and pushes to `main` touching scripts; weekly | read contents, write security events | Scans the JavaScript and the workflows for security problems; results in Security → Code scanning | Triage alerts there; dismiss false positives with a reason |
-| **Dependabot** (`.github/dependabot.yml`) | Monthly | — | Opens pull requests to update the actions the workflows use | Merge when checks pass; merge `upload-pages-artifact` and `deploy-pages` together |
+| **Dependabot** (`.github/dependabot.yml`) | Monthly | — | Opens one grouped pull request for the actions the workflows use, and one for the test tools | Merge when checks pass. Merge one Dependabot pull request at a time and let the next rebase: two that edit the same workflow can otherwise merge into a broken file |
 
 To run a workflow by hand: **Actions** → choose it → **Run workflow**.
 
@@ -91,7 +91,7 @@ On the 1st, the **Monthly triage and freshness check** issue appears with a chec
 3. Work through the latest `link-check` issue: replace or remove dead sources (two independent sources, at least one authoritative).
 4. Re-read any source older than 12 months that a page relies on for a figure.
 5. Add the coming month's events (from `event` issues) to the calendar data in `src/`.
-6. Merge Dependabot pull requests whose checks pass.
+6. Merge Dependabot pull requests whose checks pass, one at a time.
 7. Agree what goes into the next release; close the checklist issue.
 
 Ideas are ranked on the hub by thumbs-up reactions. Treat support as one input among others: fit with the hub's purpose, effort, evidence and who it helps.

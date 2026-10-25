@@ -1,4 +1,5 @@
-# Keeps the GitHub Actions used by the workflows up to date.
+# Keeps the GitHub Actions used by the workflows up to date, in one grouped pull request a month,
+# so that updates to the same workflow file never conflict with each other.
 version: 2
 updates:
   - package-ecosystem: github-actions
@@ -6,3 +7,14 @@ updates:
     schedule:
       interval: monthly
     labels: [enhancement]
+    groups:
+      actions:
+        patterns: ["*"]
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: monthly
+    labels: [enhancement]
+    groups:
+      test-tools:
+        patterns: ["*"]
