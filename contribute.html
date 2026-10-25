@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Explore the journey of African roots and diaspora heritage across Africa, the Caribbean, Europe, the Americas and the wider global community."
+      content="Contribute a story, event, resource or community voice to the Black & Mixed Heritage portal."
     />
-    <title>Heritage Map | Black & Mixed Heritage</title>
+    <title>Contribute | Black & Mixed Heritage</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -38,8 +38,8 @@
           <a href="resources.html">Resources</a>
           <a href="annual-programme.html">Annual Programme</a>
           <a href="global-initiatives.html">Global Initiatives</a>
-          <a href="heritage-map.html" class="active">Heritage Map</a>
-          <a href="contribute.html">Contribute</a>
+          <a href="heritage-map.html">Heritage Map</a>
+          <a href="contribute.html" class="active">Contribute</a>
           <a href="black-history-month.html">Black History Month</a>
         </nav>
 
@@ -50,64 +50,73 @@
     <main id="main-content">
       <section class="page-hero">
         <div class="container narrow">
-          <p class="eyebrow">Heritage map</p>
-          <h1>Tracing roots, movement and belonging across the world.</h1>
+          <p class="eyebrow">Contribute</p>
+          <h1>Share your story. Grow the archive.</h1>
           <p>
-            African heritage is not confined to a single place. It lives in cities, coastlines, communities and family narratives stretching across continents.
+            We invite individuals, families, educators, organisers and cultural practitioners to contribute experiences and expertise to this growing community archive.
           </p>
         </div>
       </section>
 
       <section class="section">
-        <div class="container">
-          <div class="map-grid">
-            <article class="map-card reveal">
-              <h3>Africa</h3>
-              <p>Origins, ancestral traditions, cultural continuity and the diversity of languages, communities and kingdoms.</p>
-            </article>
-            <article class="map-card reveal">
-              <h3>Caribbean</h3>
-              <p>Afro-Caribbean identity shaped by migration, resilience, music, faith, innovation and community memory.</p>
-            </article>
-            <article class="map-card reveal">
-              <h3>North America</h3>
-              <p>Black histories of migration, labour, resistance, artistry and political struggle across generations.</p>
-            </article>
-            <article class="map-card reveal">
-              <h3>Europe</h3>
-              <p>Black British and European diaspora communities building new homes while sustaining cultural roots.</p>
-            </article>
-            <article class="map-card reveal">
-              <h3>Latin America</h3>
-              <p>Afro-Latin identities shaped by colonial history, cultural survival and diasporic creativity.</p>
-            </article>
-            <article class="map-card reveal">
-              <h3>The Atlantic world</h3>
-              <p>Shared routes, familiar rhythms and a connected story across the Black Atlantic and beyond.</p>
-            </article>
+        <div class="container two-col">
+          <div class="section-copy reveal">
+            <p class="eyebrow">Submission guide</p>
+            <h2>What we welcome</h2>
+          </div>
+          <div class="section-body reveal">
+            <ul class="check-list">
+              <li>Personal stories and family histories</li>
+              <li>Community event submissions</li>
+              <li>Educational resources and reading lists</li>
+              <li>Art, poetry, interviews and oral histories</li>
+              <li>Local heritage and diaspora reflections</li>
+            </ul>
           </div>
         </div>
       </section>
 
       <section class="section alt">
         <div class="container">
-          <div class="section-heading reveal">
-            <p class="eyebrow">Core themes</p>
-            <h2>From roots to return, from memory to movement.</h2>
-          </div>
+          <form class="contribution-form reveal" aria-label="Contribution form">
+            <div class="field-group">
+              <label for="name">Full name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" />
+            </div>
 
-          <div class="topic-list reveal">
-            <div>Origins</div>
-            <div>Migration</div>
-            <div>Identity</div>
-            <div>Belonging</div>
-            <div>Resilience</div>
-            <div>Culture</div>
-            <div>Art</div>
-            <div>Community</div>
-            <div>Movement</div>
-            <div>Return</div>
-          </div>
+            <div class="field-group">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" />
+            </div>
+
+            <div class="field-group">
+              <label for="organisation">Organisation or community</label>
+              <input id="organisation" name="organisation" type="text" placeholder="Community, school, group or organisation" />
+            </div>
+
+            <div class="field-group">
+              <label for="submission-type">Submission type</label>
+              <select id="submission-type" name="submission-type">
+                <option>Story</option>
+                <option>Event</option>
+                <option>Resource</option>
+                <option>Artwork</option>
+                <option>Research</option>
+              </select>
+            </div>
+
+            <div class="field-group full">
+              <label for="title">Title</label>
+              <input id="title" name="title" type="text" placeholder="Your story or resource title" />
+            </div>
+
+            <div class="field-group full">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" placeholder="Tell us about your submission, community, heritage, or event."></textarea>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Submit contribution</button>
+          </form>
         </div>
       </section>
     </main>
