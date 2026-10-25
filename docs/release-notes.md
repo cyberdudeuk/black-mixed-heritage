@@ -1,8 +1,12 @@
 # BHM 2026 Hub: release notes and verification log
 
-Repository: https://github.com/cyberdudeuk/black-mixed-heritage. Current version: 2.19.0 (25 October 2026).
+Repository: https://github.com/cyberdudeuk/black-mixed-heritage. Current version: 2.19.1 (25 October 2026).
 
 
+
+## 2.19.1 (25 October 2026): keyboard access to redrawn charts
+- The new accessibility scan in CI found the volunteer-hours chart on Help run the hub scrolling sideways at phone width without a keyboard tab stop for a moment after it was drawn. Charts and tables redrawn after start-up are now re-marked straight away, and a new self-check (C162) confirms every sideways-scrolling region on the page in view can be reached by keyboard. Shown failing on 2.19.0 with a simulated redraw and passing on 2.19.1.
+- The CI accessibility scan waits for on-demand charts to finish drawing before scanning each page.
 
 ## 2.19.0 (25 October 2026): user manual, admin guide and a complete repository
 - **Documentation:** a user manual and a repository admin guide (settings, workflows, labels, monthly routine, issues, personal data and moderation, reviews, releases, Projects, Discussions options, troubleshooting), plus architecture, content style guide and data dictionary, indexed in `docs/README.md`. The hub's Help run the hub page links to the manual and the guide.
