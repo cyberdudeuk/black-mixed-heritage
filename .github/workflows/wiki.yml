@@ -1,0 +1,42 @@
+# Publishes docs/wiki/ to the repository's wiki, so the wiki is reviewed like everything else and never drifts:
+# edit the pages in docs/wiki/ through a pull request; this workflow copies them to the wiki on merge.
+# The wiki must already have one page (GitHub creates the wiki's git store only when the first page is saved);
+# until then this workflow says so and stops without failing. Edits made directly in the wiki are overwritten.
+name: Sync wiki
+on:
+  push:
+    branches: [main]
+    paths: ["docs/wiki/**"]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: wiki
+  cancel-in-progress: true
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # the wiki is a git store that this token can push to
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Copy docs/wiki to the wiki
+        env:
+          TOKEN: ${{ github.token }}
+        run: |
+          url="https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.wiki.git"
+          if ! git clone --depth 1 "$url" wiki 2>/dev/null; then
+            echo "::notice::The wiki has no pages yet. Open the Wiki tab, save the suggested Home page once, then run this workflow again."
+            exit 0
+          fi
+          find wiki -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          cp docs/wiki/*.md wiki/
+          cd wiki
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "Wiki already up to date"; exit 0; fi
+          git commit -m "Sync wiki from docs/wiki at ${GITHUB_SHA::7}"
+          git push origin HEAD

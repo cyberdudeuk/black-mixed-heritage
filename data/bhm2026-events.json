@@ -1,6 +1,6 @@
 {
   "title": "BHM 2026 Hub: Honouring Our Communities events",
-  "version": "2.19.1",
+  "version": "2.20.0",
   "generated": "2026-10-21",
   "events": [
     {
@@ -215,7 +215,11 @@
       "type": "Remembrance",
       "where": null,
       "description": null,
-      "source": null
+      "source": {
+        "id": "S240",
+        "title": "George Padmore Institute: New Cross Massacre Campaign 1980–1985",
+        "url": "https://www.georgepadmoreinstitute.org/collections/new-cross-massacre-campaign-1980-1985"
+      }
     },
     {
       "id": "obs0",
@@ -225,7 +229,11 @@
       "type": "Observances",
       "where": null,
       "description": "UN day marking the 1960 Sharpeville massacre.",
-      "source": null
+      "source": {
+        "id": "S235",
+        "title": "United Nations: International Day for the Elimination of Racial Discrimination",
+        "url": "https://www.un.org/en/observances/end-racism-day"
+      }
     },
     {
       "id": "obs1",
@@ -235,7 +243,11 @@
       "type": "Remembrance",
       "where": null,
       "description": "UN day of remembrance.",
-      "source": null
+      "source": {
+        "id": "S236",
+        "title": "UN News: Celebrating emancipation, 25 March",
+        "url": "https://news.un.org/en/node/578742"
+      }
     },
     {
       "id": "p-review",
@@ -269,7 +281,11 @@
       "type": "Observances",
       "where": null,
       "description": "Marks the 1948 arrival of the Empire Windrush and the contribution of the Windrush generation.",
-      "source": null
+      "source": {
+        "id": "S237",
+        "title": "GOV.UK: Annual day of celebrations for the Windrush generation",
+        "url": "https://www.gov.uk/government/news/annual-day-of-celebrations-for-the-windrush-generation"
+      }
     },
     {
       "id": "obs4",
@@ -279,7 +295,11 @@
       "type": "Observances",
       "where": null,
       "description": "Anniversary of the Slavery Abolition Act 1833 taking effect in 1834.",
-      "source": null
+      "source": {
+        "id": "S238",
+        "title": "The National Archives: 1833 Abolition of Slavery Act and compensation claims",
+        "url": "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/georgians/1833-abolition-of-slavery-act-and-compensation-claims/"
+      }
     },
     {
       "id": "obs5",
@@ -289,7 +309,11 @@
       "type": "Remembrance",
       "where": null,
       "description": "UNESCO day linked to the 1791 uprising in Saint-Domingue (Haiti).",
-      "source": null
+      "source": {
+        "id": "S239",
+        "title": "UNESCO: International Day for the Remembrance of the Slave Trade and its Abolition",
+        "url": "https://www.unesco.org/en/days/slave-trade-remembrance"
+      }
     }
   ]
 }

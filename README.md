@@ -3,11 +3,14 @@
 [![Checks](https://github.com/cyberdudeuk/black-mixed-heritage/actions/workflows/checks.yml/badge.svg)](https://github.com/cyberdudeuk/black-mixed-heritage/actions/workflows/checks.yml)
 [![Deploy](https://github.com/cyberdudeuk/black-mixed-heritage/actions/workflows/pages.yml/badge.svg)](https://github.com/cyberdudeuk/black-mixed-heritage/actions/workflows/pages.yml)
 [![CodeQL](https://github.com/cyberdudeuk/black-mixed-heritage/actions/workflows/codeql.yml/badge.svg)](https://github.com/cyberdudeuk/black-mixed-heritage/actions/workflows/codeql.yml)
+[![Website health](https://github.com/cyberdudeuk/black-mixed-heritage/actions/workflows/uptime.yml/badge.svg)](https://github.com/cyberdudeuk/black-mixed-heritage/actions/workflows/uptime.yml)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/cyberdudeuk/black-mixed-heritage/badge)](https://scorecard.dev/viewer/?uri=github.com/cyberdudeuk/black-mixed-heritage)
+[![Release](https://img.shields.io/github/v/release/cyberdudeuk/black-mixed-heritage)](https://github.com/cyberdudeuk/black-mixed-heritage/releases/latest)
 [![Code: MIT](https://img.shields.io/badge/code-MIT-blue)](LICENSE)
 [![Content: CC BY 4.0](https://img.shields.io/badge/content-CC%20BY%204.0-green)](LICENSE-CONTENT.md)
 [![WCAG 2.2 AA](https://img.shields.io/badge/WCAG-2.2%20AA-purple)](ACCESSIBILITY.md)
 
-**[Open the hub](https://cyberdudeuk.github.io/black-mixed-heritage/)** · [User manual](docs/user-manual.md) · [Admin guide](docs/admin-guide.md) · [Report a problem](https://github.com/cyberdudeuk/black-mixed-heritage/issues/new/choose) · [Release notes](docs/release-notes.md)
+**[Open the hub](https://cyberdudeuk.github.io/black-mixed-heritage/)** · [User manual](docs/user-manual.md) · [Admin guide](docs/admin-guide.md) · [Report a problem](https://github.com/cyberdudeuk/black-mixed-heritage/issues/new/choose) · [Release notes](docs/release-notes.md) · [Wiki](https://github.com/cyberdudeuk/black-mixed-heritage/wiki) · [Discussions](https://github.com/cyberdudeuk/black-mixed-heritage/discussions)
 
 A hub celebrating Black and Black-Mixed history, heritage and cultures, Africa and the African diaspora, built for Black History Month 2026 in the UK and designed to run all year. It is written for colleagues across the UK public sector and for the communities they serve.
 
@@ -17,7 +20,7 @@ Made in a personal capacity. Unofficial: not published or endorsed by Black Hist
 
 ## Use it
 - **Website (GitHub Pages):** https://cyberdudeuk.github.io/black-mixed-heritage/ (see [docs/teams-and-github-pages.md](docs/teams-and-github-pages.md)).
-- **Single file:** `dist/bhm-2026-hub.html` is the whole hub in one self-contained page; it works offline with system fonts (the web fonts, QR codes and barcodes need a connection).
+- **Single file:** `dist/bhm-2026-hub.html` (also attached to each [release](https://github.com/cyberdudeuk/black-mixed-heritage/releases/latest), with checksums and a signed build attestation) is the whole hub in one self-contained page; it works offline with system fonts (the web fonts, QR codes and barcodes need a connection).
 - **Open data:** `data/` holds JSON-LD (Schema.org and SKOS), a glossary CSV, and the events calendar as JSON and ICS.
 - **Microsoft Teams:** `teams/bhm-hub-teams-app-1.1.0.zip` shows the hub as a Teams tab.
 
@@ -29,7 +32,8 @@ Made in a personal capacity. Unofficial: not published or endorsed by Black Hist
 - Read `CONTRIBUTING.md` before opening a pull request.
 
 ## How it is checked
-- 162 self-checks run in every visitor's browser (sources, accessibility, language, privacy, coverage, links); each has a deliberate-break test that proves it can fail.
+- 163 self-checks run in every visitor's browser (sources, accessibility, language, privacy, coverage, links); each has a deliberate-break test that proves it can fail.
+- Open data, website files, size budgets and third-party licences are validated on every pull request, and `tests/negative.sh` injects known defects to prove each CI check fails when it should.
 - Playwright and axe-core tests run at desktop and phone widths in light and dark modes (`tests/test.mjs`), including a negative run that injects known defects.
 - Sources must be read in full and triangulated: two independent sources, at least one authoritative. Wikipedia is never counted as a source.
 - The hub never classifies any person's ethnicity itself; it uses published counts only.
@@ -42,6 +46,10 @@ npx playwright install chromium
 npm run build:all                # dist/, site/ and data/ from src/
 npm run test:quick               # all in-page self-checks, both editions, desktop and phone
 npm run check:privacy            # nothing personal in the pages or their embedded files
+npm run check:data               # open data and website files valid, sourced, within size budgets
+npm run check:licences           # every vendored file and dependency has a recorded licence
+npm run test:checks              # checks of the checks: injected defects must be caught
+npm run test:a11y                # axe-core on every page (about 30 minutes)
 npm test                         # the full suite (accessibility, layout, links); npm run test:negative injects known defects
 ```
 Builds are deterministic: CI rebuilds `dist/` and `site/` and fails if the committed files differ.
@@ -53,20 +61,24 @@ Builds are deterministic: CI rebuilds `dist/` and `site/` and fails if the commi
 | Triage and privacy | `issue-triage.yml` labels new issues `triage`, thanks the author, and labels any issue with an email address, phone number or National Insurance number `needs-redaction`, which keeps it off the hub | When an issue is opened or edited |
 | Status shown on the hub | Labels `status: accepted`, `planned`, `in-progress`, `done`, `declined` | Set at the monthly triage |
 | Labels | `labels.yml` creates and updates labels from `.github/labels.json` | When that file changes |
-| Quality | `checks.yml`: privacy scan of the tree and of every embedded file; checks the committed pages match a fresh build; all in-page self-checks on both editions; axe-core on every page at 1280px light and 390px dark | Every pull request and push to `main` |
-| Security | `codeql.yml` scans the JavaScript and the workflows | Pull requests and pushes that change scripts or workflows, and weekly |
+| Quality | `checks.yml`: privacy scan of the tree and of every embedded file; open data and licence checks; checks the committed pages match a fresh build; all in-page self-checks on both editions; checks of the checks; axe-core on every page at 1280px light and 390px dark | Every pull request and push to `main` |
+| Security | `codeql.yml` scans the JavaScript and the workflows; `scorecard.yml` rates supply-chain practices (all actions pinned by commit, least-privilege tokens) | Pull requests and pushes that change scripts or workflows, and weekly |
+| Availability | `uptime.yml` checks the website, calendar, linked data, ideas list and security contact, and opens an `uptime` issue if any fails | Every six hours |
 | Sources | `link-check.yml` checks every external link and opens a report issue | Monthly |
 | Routine | `monthly-triage.yml` opens the monthly triage and freshness checklist | First of each month |
-| Releases | `release.yml` publishes a release with the single-file hub, open data and Teams app | When a `v*` tag is pushed |
+| Releases | `release.yml` publishes a release with the single-file hub, open data, Teams app, SHA-256 checksums and a signed build-provenance attestation | When a merge changes the version, or a `v*` tag is pushed |
+| Wiki | `wiki.yml` publishes `docs/wiki/` to the wiki | When `docs/wiki/` changes on `main` |
+| Project board | `project.yml` adds ideas, wishes and reports to the roadmap board (optional; needs a token) | When an issue is opened or labelled |
+| Discussions | Forms in `.github/DISCUSSION_TEMPLATE/` for Q&A, Show and tell and General | When a discussion is started |
 | Events | The "Event for the calendar" issue form | Any time |
 | Dependencies | Dependabot opens grouped monthly updates for the workflow actions and the test tools | Monthly |
 
 The calendar (ICS) and open data are also served from the website, under `data/`.
 
 ## Documentation
-See [docs/](docs/README.md): user manual, admin guide, architecture, content style guide, data dictionary and release notes.
+See [docs/](docs/README.md): user manual, admin guide, operations (resilience, security, capacity, recovery), release management, architecture and decision records, content style guide, data dictionary and release notes.
 
 ## Licence
 - Code: MIT (`LICENSE`).
 - Text and data created for the hub: Creative Commons Attribution 4.0 (`LICENSE-CONTENT.md`).
-- Third-party content keeps its own licence: public sector information under the Open Government Licence v3.0; fonts under the SIL Open Font License 1.1; see the hub's "Credits, licences and notices".
+- Third-party content keeps its own licence: public sector information under the Open Government Licence v3.0; fonts under the SIL Open Font License 1.1; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) (with the licence assessment) and the hub's "Credits, licences and notices".

@@ -10,7 +10,7 @@ jobs:
   open:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/github-script@v9
+      - uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         with:
           script: |
             const month = new Date().toLocaleString('en-GB', { month: 'long', year: 'numeric', timeZone: 'Europe/London' });
@@ -25,6 +25,10 @@ jobs:
               '- [ ] Freshness check: re-read any source older than 12 months that a page relies on',
               '- [ ] Work through the latest link check report (label `link-check`)',
               '- [ ] Add the coming month\'s events to the calendar',
+              '- [ ] Merge Dependabot pull requests whose checks pass, one at a time',
+              '- [ ] Check Security → Code scanning (CodeQL, Scorecard) and any open `uptime` issue',
+              '- [ ] Look through new Discussions, if categories other than Announcements are open',
+              '- [ ] Refresh the off-GitHub mirror clone of the repository',
               '- [ ] Agree what goes into the next release and record it in docs/release-notes.md'
             ].join('\n');
             await github.rest.issues.create({ ...context.repo, title, body, labels: ['routine'] });

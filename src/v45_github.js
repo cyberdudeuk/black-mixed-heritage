@@ -47,3 +47,46 @@ BUILD_TESTS["D-124"]="The accessibility scan in CI found the volunteer-hours cha
 function scrAudit(){const v=document.querySelector(".view:not([hidden])")||document;const bad=[];let n=0;v.querySelectorAll(".tablewrap,.chartscroll,#roMatrix").forEach(w=>{if(w.scrollWidth>w.clientWidth+4){n++;const ok=w.getAttribute("tabindex")==="0"||w.querySelector("a,button,input,select,textarea,[tabindex='0']");if(!ok)bad.push((w.parentElement&&w.parentElement.id?"#"+w.parentElement.id+" ":"")+"."+w.className.split(" ")[0])}});return{n,bad}}
 const _ctx73=ctxV15;ctxV15=function(){const c=_ctx73();c.scr=scrAudit();return c};
 const _v45Boot0=v45Boot;v45Boot=function(){_v45Boot0();v45KeepScrollersFocusable()};
+/* 2.20.0: sources for the calendar's observances and the New Cross remembrance, which had none; found by the open-data validator in CI (D-125) */
+Object.assign(SOURCES,{
+ S235:{t:"United Nations: International Day for the Elimination of Racial Discrimination",u:"https://www.un.org/en/observances/end-racism-day",s:"Observed on 21 March; commemorates the Sharpeville Massacre in 1960"},
+ S236:{t:"UN News: Celebrating emancipation, 25 March",u:"https://news.un.org/en/node/578742",s:"\u201c25 March is observed as the International Day of Remembrance of the Victims of Slavery and the Transatlantic Slave Trade.\u201d"},
+ S237:{t:"GOV.UK: Annual day of celebrations for the Windrush generation",u:"https://www.gov.uk/government/news/annual-day-of-celebrations-for-the-windrush-generation",s:"\u201cA national Windrush Day backed by new government funding will take place on 22 June every year\u201d"},
+ S238:{t:"The National Archives: 1833 Abolition of Slavery Act and compensation claims",u:"https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/georgians/1833-abolition-of-slavery-act-and-compensation-claims/",s:"\u201cWhen the Act came into effect on 1 August 1834\u201d"},
+ S239:{t:"UNESCO: International Day for the Remembrance of the Slave Trade and its Abolition",u:"https://www.unesco.org/en/days/slave-trade-remembrance",s:"\u201cOn the night of 22 to 23 August 1791, in Saint Domingue, today the Republic of Haiti\u201d"},
+ S240:{t:"George Padmore Institute: New Cross Massacre Campaign 1980\u20131985",u:"https://www.georgepadmoreinstitute.org/collections/new-cross-massacre-campaign-1980-1985",s:"\u201cThe fire occurred in the early morning of 18 January 1981\u201d; 13 young Black people died"}});
+BUILD_TESTS["D-125"]="The open-data validator added in 2.20.0 found five observance days and the New Cross remembrance in the calendar with no source; each now cites an authoritative page that was read (UN, UN News, GOV.UK, The National Archives, UNESCO, George Padmore Institute). The validator fails CI if a dated event other than the hub's own programme has no https source";
+/* 2.20.0: WCAG 2.5.3 Label in Name. A control's accessible name must contain the words it shows, so that people using
+   speech recognition can say what they see. axe-core 4.14 flagged the masthead logo and the shortened labels in the
+   knowledge graph, the futures quadrants and the network map. Controls drawn in SVG keep their full name and their
+   shortened on-screen text is hidden from assistive technology; other controls put their visible words first (D-126). */
+/* SVG controls: (1) a label shortened with an ellipsis shows its full words, clipped to the same box, so what is on screen is
+   the start of the name; (2) several text lines become one text element with line breaks, so the words read as one run */
+let _lnClip=0;
+function lnFixSvg(el,lab){const NS="http://www.w3.org/2000/svg";if(!el.querySelector("text"))return;
+  const full=lab.replace(/,\s*\d+\s+items?$/i,"").trim();
+  [...el.querySelectorAll("text")].forEach(t=>{const v=(t.textContent||"").trim();const m=v.match(/^(.*?)\u2026(\s*\u00b7\s*\d+)?$/);if(!m)return;const pre=m[1].trim(),tail=m[2]||"";
+    if(!full.toLowerCase().startsWith(pre.toLowerCase()))return;const svg=t.ownerSVGElement;if(!svg)return;let bb;try{bb=t.getBBox()}catch(e){return}
+    const r=el.querySelector("rect");let defs=svg.querySelector("defs");if(!defs){defs=document.createElementNS(NS,"defs");svg.insertBefore(defs,svg.firstChild)}
+    const id="lnclip"+(++_lnClip);const cp=document.createElementNS(NS,"clipPath");cp.id=id;const cr=document.createElementNS(NS,"rect");
+    const x=r?+r.getAttribute("x"):bb.x,w=r?+r.getAttribute("width"):bb.width+4;cr.setAttribute("x",x);cr.setAttribute("y",bb.y-4);cr.setAttribute("width",Math.max(0,w-6));cr.setAttribute("height",bb.height+8);
+    cp.appendChild(cr);defs.appendChild(cp);t.textContent=full+tail;t.setAttribute("clip-path","url(#"+id+")")});
+  const tx=[...el.querySelectorAll("text")];if(tx.length>1&&tx.every(t=>!t.querySelector("tspan"))&&tx.every(t=>t.parentNode===tx[0].parentNode)){const first=tx[0];
+    tx.slice(1).forEach(t=>{const ts=document.createElementNS(NS,"tspan");["x","y","dx","dy","class","style","text-anchor","fill"].forEach(a=>{if(t.hasAttribute(a))ts.setAttribute(a,t.getAttribute(a))});
+      ts.textContent=" "+(t.textContent||"").trim();first.appendChild(ts);t.remove()})}}
+function lnText(el){return (el.textContent||"").replace(/\s+/g," ").trim()}
+function v45LabelInName(root){(root||document).querySelectorAll("[aria-label]:is(a,button,[role=button],[role=link],[role=tab])").forEach(el=>{
+  const vis=lnText(el),lab=(el.getAttribute("aria-label")||"").trim();if(!vis||!lab)return;
+  if(lnHas(lab,lnVisible(el)))return;
+  if(el.namespaceURI==="http://www.w3.org/2000/svg"){lnFixSvg(el,lab);return}
+  el.setAttribute("aria-label",vis+", "+lab.charAt(0).toLowerCase()+lab.slice(1))})}
+function lnAudit(){const bad=[];document.querySelectorAll("[aria-label]:is(a,button,[role=button],[role=link],[role=tab])").forEach(el=>{if(el.closest("[hidden]"))return;
+  const vis=lnClean(lnVisible(el));if(vis&&!lnHas(el.getAttribute("aria-label")||"",vis))bad.push((el.id?"#"+el.id:el.tagName.toLowerCase())+" \u201c"+vis.slice(0,30)+"\u201d")});return{bad}}
+function lnVisible(el){const w=document.createTreeWalker(el,NodeFilter.SHOW_TEXT);let t="",n;while((n=w.nextNode()))t+=n.nodeValue;return t} /* like axe-core: text runs joined as they are */
+function lnHas(label,visible){const v=lnClean(visible);return !v||(" "+lnClean(label)+" ").includes(" "+v+" ")} /* whole words, as axe-core compares */
+function lnClean(t){return String(t).toLowerCase().replace(/\u2026/g,"").replace(/[^\p{L}\p{N}\s]/gu,"").replace(/\s+/g," ").trim()}
+CHECKS.push({id:"C163",n:"Every labelled control's accessible name contains the words it shows (WCAG 2.5.3 Label in Name; D-126)",run:c=>({ok:!c.lbl.bad.length,d:c.lbl.bad.length?"Name does not contain the visible words: "+c.lbl.bad.slice(0,4).join("; "):"Every labelled control on the page in view says what it shows"}),
+  breakIt:c=>{c.lbl={bad:["#mastLogo “BHM 2026 Hub”"]};return c}});
+BUILD_TESTS["D-126"]="axe-core 4.14 found the masthead logo and the shortened labels in the knowledge graph, futures quadrants and network map breaking WCAG 2.5.3 Label in Name: their accessible names did not contain the words shown. SVG controls now hide their shortened text from assistive technology and keep the full name; other controls put their visible words first. C163 checks every labelled control on the page in view";
+const _ctx74=ctxV15;ctxV15=function(){v45LabelInName();const c=_ctx74();c.lbl=lnAudit();return c};
+const _v45Boot1=v45Boot;v45Boot=function(){_v45Boot1();v45LabelInName();let t=0;new MutationObserver(()=>{clearTimeout(t);t=setTimeout(()=>v45LabelInName(),150)}).observe($("#main")||document.body,{childList:true,subtree:true});addEventListener("hashchange",()=>setTimeout(()=>v45LabelInName(),200))};

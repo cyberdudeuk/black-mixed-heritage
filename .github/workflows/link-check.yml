@@ -12,7 +12,9 @@ jobs:
   links:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
       - name: Collect the external links from the hub
         run: |
           grep -oE 'https://[A-Za-z0-9._~:/?#@!$&()*+,;=%-]+' dist/bhm-2026-hub.html \
@@ -21,7 +23,7 @@ jobs:
           wc -l links.txt
       - name: Check the links
         id: lychee
-        uses: lycheeverse/lychee-action@v2
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
         with:
           args: --no-progress --max-concurrency 8 --timeout 30 --max-retries 2 --accept 200..=299,403,429 links.txt
           output: link-report.md
@@ -29,7 +31,7 @@ jobs:
       - name: Find last month's report, if still open
         id: open
         if: steps.lychee.outputs.exit_code != 0
-        uses: actions/github-script@v9
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         with:
           result-encoding: string
           script: |
@@ -37,7 +39,7 @@ jobs:
             return open.data.length ? String(open.data[0].number) : '';
       - name: Open or update the link report
         if: steps.lychee.outputs.exit_code != 0
-        uses: peter-evans/create-issue-from-file@v6
+        uses: peter-evans/create-issue-from-file@fca9117c27cdc29c6c4db3b86c48e4115a786710 # v6.0.0
         with:
           title: Monthly link check found broken links
           content-filepath: link-report.md

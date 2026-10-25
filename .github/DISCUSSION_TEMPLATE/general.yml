@@ -1,0 +1,21 @@
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        General conversation about the hub and Black History Month. Please follow the [code of conduct](https://github.com/cyberdudeuk/black-mixed-heritage/blob/main/CODE_OF_CONDUCT.md).
+        Corrections, bugs and accessibility barriers go through the [issue forms](https://github.com/cyberdudeuk/black-mixed-heritage/issues/new/choose); ideas and feature wishes too, so that they appear on the hub with their support.
+        Public: no personal or sensitive information.
+  - type: textarea
+    id: body
+    attributes:
+      label: Your message
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: My message holds no personal or sensitive information
+          required: true
