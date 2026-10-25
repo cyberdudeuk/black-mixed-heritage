@@ -1,20 +1,28 @@
-# Deploys the prebuilt hub in site/ to GitHub Pages on every push to main.
-# The site is built locally with: node build_pages.mjs https://OWNER.github.io/REPO/ site
+# Deploys the hub to GitHub Pages, with a list of open ideas and feature wishes (ideas.json) that the hub shows
+# in its ideas box. The list holds titles, labels, support counts and links only: no issue text and no usernames.
+# The site itself is built locally with: node src/build_pages.mjs https://OWNER.github.io/REPO/ site
 name: Deploy hub to GitHub Pages
 on:
   push:
     branches: [main]
-    paths: ["site/**", ".github/workflows/pages.yml"]
+    paths: ["site/**", "data/**", ".github/workflows/pages.yml"]
+  issues:
+    types: [opened, edited, closed, reopened, labeled, unlabeled, deleted]
+  schedule:
+    - cron: "17 */6 * * *" # reactions (thumbs-up support) do not trigger events, so refresh every six hours
   workflow_dispatch:
 permissions:
   contents: read
   pages: write
   id-token: write
+  issues: read
 concurrency:
   group: pages
   cancel-in-progress: false
 jobs:
-  check:
+  build:
+    # issue events only matter for ideas and wishes
+    if: github.event_name != 'issues' || contains(join(github.event.issue.labels.*.name, ','), 'idea') || contains(join(github.event.issue.labels.*.name, ','), 'wishlist') || github.event.action == 'unlabeled' || github.event.action == 'deleted'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -23,17 +31,53 @@ jobs:
           test -s site/index.html
           grep -q '<html lang="en-GB">' site/index.html
           grep -q 'microsoftTeams' site/index.html
+      - name: Assemble the site
+        run: |
+          mkdir -p _site/data
+          cp -r site/. _site/
+          cp data/* _site/data/
+      - name: Publish the list of ideas and wishes
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const STATUS = ['accepted', 'planned', 'in-progress', 'done', 'declined'];
+            const issues = await github.paginate(github.rest.issues.listForRepo, {
+              owner: context.repo.owner, repo: context.repo.repo, state: 'open', per_page: 100
+            });
+            const items = [];
+            for (const i of issues) {
+              if (i.pull_request) continue;
+              const labels = i.labels.map(l => (typeof l === 'string' ? l : l.name));
+              const isWish = labels.includes('wishlist');
+              if (!isWish && !labels.includes('idea')) continue;
+              if (labels.includes('needs-redaction')) continue; // never republish an issue that may hold personal data
+              const st = (labels.find(l => l.startsWith('status: ')) || '').slice(8);
+              const page = ((i.body || '').match(/###\s*Page\s*\n+\s*(.+)/) || [])[1] || '';
+              items.push({
+                n: i.number,
+                url: i.html_url,
+                title: i.title.replace(/^\[(Idea|Wish)\]\s*/i, '').slice(0, 140),
+                kind: isWish ? 'wish' : 'idea',
+                status: STATUS.includes(st) ? st : 'new',
+                votes: (i.reactions && i.reactions['+1']) || 0,
+                comments: i.comments || 0,
+                created: i.created_at.slice(0, 10),
+                page: page === '_No response_' ? '' : page.trim().slice(0, 80)
+              });
+            }
+            fs.writeFileSync('_site/ideas.json', JSON.stringify({ generated: new Date().toISOString(), repo: context.repo.owner + '/' + context.repo.repo, items }, null, 1));
+            core.info(`ideas.json: ${items.length} items`);
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
   deploy:
-    needs: check
+    needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
       - id: deployment
         uses: actions/deploy-pages@v4

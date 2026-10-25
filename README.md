@@ -19,7 +19,7 @@ Made in a personal capacity. Unofficial: not published or endorsed by Black Hist
 - Read `CONTRIBUTING.md` before opening a pull request.
 
 ## How it is checked
-- 160 self-checks run in every visitor's browser (sources, accessibility, language, privacy, coverage, links); each has a deliberate-break test that proves it can fail.
+- 161 self-checks run in every visitor's browser (sources, accessibility, language, privacy, coverage, links); each has a deliberate-break test that proves it can fail.
 - Playwright and axe-core tests run at desktop and phone widths in light and dark modes (`tests/test.mjs`), including a negative run that injects known defects.
 - Sources must be read in full and triangulated: two independent sources, at least one authoritative. Wikipedia is never counted as a source.
 - The hub never classifies any person's ethnicity itself; it uses published counts only.
@@ -29,6 +29,22 @@ The page is built from `src/` by `src/patch_v15.py` and `src/build.mjs`; the Pag
 
 ## Switch on GitHub Pages
 In **Settings → Pages**, set **Source** to **GitHub Actions**. The workflow in `.github/workflows/pages.yml` then deploys `site/` on every push to `main`. GitHub Pages sites are public. See [docs/teams-and-github-pages.md](docs/teams-and-github-pages.md).
+
+## How the repository supports the hub
+| What | How | When |
+|---|---|---|
+| Ideas and feature wishes | Issue forms (prefilled from the hub's ideas box); `pages.yml` publishes `ideas.json`, which the hub shows with each idea's support (thumbs-up reactions) and status | On every idea or wish change, and every six hours |
+| Triage and privacy | `issue-triage.yml` labels new issues `triage`, thanks the author, and labels any issue with an email address, phone number or National Insurance number `needs-redaction`, which keeps it off the hub | When an issue is opened or edited |
+| Status shown on the hub | Labels `status: accepted`, `planned`, `in-progress`, `done`, `declined` | Set at the monthly triage |
+| Labels | `labels.yml` creates and updates labels from `.github/labels.json` | When that file changes |
+| Quality | `checks.yml` runs all in-page self-checks on both editions at desktop and phone widths, and a privacy scan | Every pull request and push to `main` |
+| Sources | `link-check.yml` checks every external link and opens a report issue | Monthly |
+| Routine | `monthly-triage.yml` opens the monthly triage and freshness checklist | First of each month |
+| Releases | `release.yml` publishes a release with the single-file hub, open data and Teams app | When a `v*` tag is pushed |
+| Events | The "Event for the calendar" issue form | Any time |
+| Dependencies | Dependabot keeps the workflow actions up to date | Monthly |
+
+The calendar (ICS) and open data are also served from the website, under `data/`.
 
 ## Release notes
 See [docs/release-notes.md](docs/release-notes.md).

@@ -1,0 +1,34 @@
+# Runs on every pull request and push to main: the hub's in-page self-checks on the Pages edition and the
+# single-file edition, plus a privacy scan of the whole tree (no email addresses, no private artifact links).
+name: Checks
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  privacy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: No personal contact details or private links
+        run: |
+          set +e
+          bad=$(grep -rIlE '[A-Za-z0-9._%+-]+@(gmail|hotmail|outlook|yahoo|icloud)\.[a-z.]+|claude\.ai/(code/)?artifact/' --exclude-dir=.git --exclude=teamsjs-2.56.0.min.js . )
+          if [ -n "$bad" ]; then echo "::error::Personal email or private link found in: $bad"; exit 1; fi
+          echo "clean"
+  selfchecks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install Playwright and Chromium
+        run: |
+          npm install --no-save playwright@1.48.2
+          npx playwright install --with-deps chromium
+      - name: Run the in-page self-checks
+        run: node tests/ci-selfcheck.mjs site/index.html dist/bhm-2026-hub.html

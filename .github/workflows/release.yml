@@ -1,0 +1,24 @@
+# When a version tag (for example v2.17.0) is pushed, publishes a GitHub release with the single-file hub,
+# the open data and the Teams app attached, and the matching section of the release notes as its description.
+name: Release
+on:
+  push:
+    tags: ["v*"]
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Release notes for this version
+        run: |
+          v="${GITHUB_REF_NAME#v}"
+          awk -v v="$v" '$0 ~ "^## "v" " {p=1; print; next} p && /^## / {exit} p' docs/release-notes.md > notes.md
+          test -s notes.md || echo "Release $v" > notes.md
+      - name: Publish the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" --title "BHM 2026 Hub $GITHUB_REF_NAME" --notes-file notes.md \
+            dist/bhm-2026-hub.html data/* teams/*.zip
