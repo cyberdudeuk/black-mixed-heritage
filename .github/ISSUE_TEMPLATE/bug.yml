@@ -1,0 +1,50 @@
+name: "Bug or problem"
+description: "Something does not work as it should"
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Issues are public. Do not include names, contact details, health information or anything sensitive."
+  - type: dropdown
+    id: page
+    attributes:
+      label: "Page"
+      options:
+        - "Whole hub"
+        - "Overview"
+        - "History and arc"
+        - "Maps"
+        - "Life stages and identities"
+        - "Inequalities and action"
+        - "Benchmarks"
+        - "Culture, sport and enterprise"
+        - "Book and film club"
+        - "Learning, games and community"
+        - "Talent, leadership and research"
+        - "Help run the hub"
+        - "Dashboards"
+        - "Knowledge layer"
+        - "Review and assessment"
+        - "Other"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: "What happened"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "What you expected"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: "Device and browser"
+      description: "For example, Windows laptop with Edge, or iPhone with Safari"
+    validations:
+      required: false

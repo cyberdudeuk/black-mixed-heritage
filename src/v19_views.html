@@ -1,0 +1,32 @@
+<!-- SUSTAIN THE HUB -->
+<div class="view" id="v-sustain" data-title="Help run the hub" hidden>
+  <section class="block" id="su-proposal" data-icon="handheart" data-label="The proposal">
+    <div class="sechead"><span class="eyebrow">A proposal for comment</span><h2>Help run the hub all year round</h2><p>Black history is not only for October. This proposal sets out how a small group of volunteers could run, maintain and grow the hub through the year, alongside existing networks. Comment on it, suggest changes, or say you would like to help.</p></div>
+    <div class="grid g3 vtskip"><div class="card"><h3>Why</h3><p>One person built the hub. To stay accurate, accessible and useful it needs shared ownership, regular checks and people from the communities it describes.</p></div><div class="card"><h3>What we propose</h3><p>Thirteen roles at four levels of commitment, a monthly, quarterly and annual rhythm, and clear ways to suggest ideas and report problems.</p></div><div class="card"><h3>How to respond</h3><p>Leave a comment on this page, add to the ideas box below, or send an expression of interest. Nothing is decided yet.</p></div></div>
+  </section>
+  <section class="block" id="su-charter" data-icon="star" data-label="Mission, charter and rules"><div class="sechead"><span class="eyebrow">How we work together</span><h2>Mission, charter, rules of engagement and terms of reference</h2><p>What the hub is for, the principles it keeps, how people engage with it and with each other, and how the group that runs it works.</p></div><div id="suCharter"></div></section>
+  <section class="block" id="su-roles" data-icon="people" data-label="Roles and commitment"><div class="sechead"><h2>Roles, profiles and commitment</h2></div><div class="grid g3" id="suRoles"></div></section>
+  <section class="block" id="su-capacity" data-icon="clock" data-label="Capacity"><div class="sechead"><h2>Capacity needed</h2></div><div id="suCapacity"></div></section>
+  <section class="block" id="su-year" data-icon="calendar" data-label="The year at a glance"><div class="sechead"><h2>The year at a glance</h2><p>Monthly, quarterly and annual activity, with dates from the hub's own calendar.</p></div><div id="suYear"></div><div id="suRhythm"></div></section>
+  <section class="block" id="su-align" data-icon="branch" data-label="Working with networks"><div class="sechead"><h2>Working with existing communities and networks</h2></div><div id="suAlign"></div></section>
+  <section class="block" id="su-eoi" data-icon="hands" data-label="Express interest">
+    <div class="sechead"><h2>Express interest</h2><p>Tell us how you might help. Your answers are saved under your account ID, are visible only to the hub owner, and you can update or withdraw them at any time. Please do not include contact details or health information.</p></div>
+    <form class="card" id="eoiForm" novalidate><fieldset><legend>Roles you are interested in</legend><div class="ckgrid" id="eoiRoles"></div></fieldset>
+      <div class="objform"><label for="eoi-level">Commitment<select id="eoi-level"></select></label><label for="eoi-nation">Where you are based<select id="eoi-nation"><option>England</option><option>Wales</option><option>Scotland</option><option>Northern Ireland</option><option>Outside the UK</option><option value="">Prefer not to say</option></select></label></div>
+      <fieldset><legend>Months you could help</legend><div class="ckgrid" id="eoiMonths"></div></fieldset>
+      <fieldset><legend>Skills you could offer</legend><div class="ckgrid" id="eoiSkills"></div></fieldset>
+      <label for="eoi-networks">Networks you belong to (optional)<input id="eoi-networks" maxlength="200" placeholder="for example, your department's race network"></label>
+      <label for="eoi-note">Anything else (optional)<textarea id="eoi-note" maxlength="600" rows="3"></textarea></label>
+      <label class="ck"><input type="checkbox" id="eoi-consent"> I agree that my answers are saved and seen by the hub owner, who may contact me through Claude about volunteering.</label>
+      <div class="btnrow"><button class="btn solid" type="submit">Send my interest</button><button class="btn" type="button" id="eoiWithdraw" hidden>Withdraw my interest</button></div><p id="eoiState" aria-live="polite"></p></form>
+  </section>
+  <section class="block" id="su-ideas" data-icon="bulb" data-label="Ideas, wishes and issues">
+    <div class="sechead"><h2>Ideas, wishlist, bugs and corrections</h2><p>Suggest an idea, wish for a feature, report a bug or correct a fact. Everyone can see the list and support what matters most. Bugs and corrections can also be raised on GitHub, where maintainers track the fix.</p></div>
+    <form class="card" id="ideaForm" novalidate><div class="objform"><label for="id-kind">Type<select id="id-kind"></select></label><label for="id-area">Page<select id="id-area"></select></label></div>
+      <label for="id-title">Title<input id="id-title" maxlength="120" required></label><label for="id-detail">Details<textarea id="id-detail" maxlength="1500" rows="3"></textarea></label>
+      <div class="btnrow"><button class="btn solid" type="submit">Add to the list</button></div><p id="idState" aria-live="polite"></p></form>
+    <div class="filters" role="group" aria-label="Filter the list"><label for="idFilter">Show<select id="idFilter"></select></label><label for="idSort">Order<select id="idSort"><option value="votes">Most supported</option><option value="new">Newest</option></select></label><span class="resultcount" id="idCount" aria-live="polite"></span></div>
+    <div class="grid g3" id="idList"></div>
+  </section>
+  <section class="block" id="su-github" data-icon="link" data-label="On GitHub"><div class="sechead"><h2>On GitHub</h2><p>The source code, issue forms and contribution guide live in a public repository. You need a free GitHub account to raise an issue. Do not include personal or sensitive information: issues are public.</p></div><div class="btnrow" id="suGit"></div></section>
+</div>

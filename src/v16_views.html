@@ -1,0 +1,40 @@
+<!-- BOOK AND FILM CLUB -->
+<div class="view" id="v-club" data-title="Book and film club" hidden>
+  <section class="block" id="cl-picks" data-icon="book" data-label="Picks and discussion guides">
+    <div class="sechead"><span class="eyebrow">Read, watch, talk</span><h2>Book and film club</h2><p>Books, films and series by Black writers and film-makers from Britain, Africa, the Caribbean and the wider diaspora, each with checked facts and a discussion guide. Vote for next month's pick; facilitators can ask the AI assistant for more questions.</p></div>
+    <div class="filters" role="group" aria-label="Filter picks"><div class="chips" id="clubChips"></div>
+      <label for="clubGenre">Genre<select id="clubGenre"></select></label><label for="clubReg">Setting<select id="clubReg"></select></label>
+      <label for="clubAud">Audience<select id="clubAud"><option value="all">Everyone</option><option value="adult">Adult</option><option value="ya">Young adult</option><option value="family">Family</option></select></label>
+      <label for="clubQ">Search<input id="clubQ" type="search" placeholder="title or author"></label><span class="resultcount" id="clubCount" aria-live="polite"></span></div>
+    <div class="grid g3" id="clubList"></div>
+  </section>
+  <section class="block" id="cl-vote" data-icon="check" data-label="Votes">
+    <div class="sechead"><span class="eyebrow">Choose together</span><h2>What members are voting for</h2></div>
+    <div class="grid g3" id="clubTop"></div>
+  </section>
+  <section class="block" id="cl-run" data-icon="people" data-label="Run a club">
+    <div class="sechead"><span class="eyebrow">For facilitators</span><h2>Run a club that everyone can join</h2></div>
+    <div class="grid g3" id="clubRun"></div>
+    <div class="card" style="margin-top:var(--s4)"><h3>Plan your meetings</h3><div class="objform"><label for="clubStart">First meeting<input type="date" id="clubStart"></label><label for="clubN">Meetings<input type="number" id="clubN" min="1" max="12" value="4"></label><label for="clubWhere">Where<input id="clubWhere" placeholder="Room, or online"></label></div>
+      <div class="btnrow"><button class="btn solid" type="button" id="clubPlanBtn">Plan monthly meetings</button><button class="btn" type="button" id="clubIcs" hidden>Save to calendar</button></div><div id="clubPlan" aria-live="polite"></div></div>
+  </section>
+</div>
+<!-- CULTURE, SPORT AND ENTERPRISE -->
+<div class="view" id="v-culture" data-title="Culture, sport and enterprise" hidden>
+  <section class="block" id="cu-people" data-icon="star" data-label="People and milestones">
+    <div class="sechead"><span class="eyebrow">Sport, media, arts, music, business, science, digital</span><h2>People and milestones</h2><p>Black Britons and others whose work shaped sport, broadcasting, the arts, business, science and technology. Every entry is sourced; where a "first" is disputed, we say so.</p></div>
+    <div class="filters" role="group" aria-label="Filter people and milestones"><div class="chips" id="cultChips"></div>
+      <label for="cultEra">Era<select id="cultEra"><option value="all">All eras</option><option value="pre1900">Before 1900</option><option value="1900">1900 to 1947</option><option value="1948">1948 to 1999</option><option value="2000">2000 to today</option></select></label>
+      <label for="cultSort">Order<select id="cultSort"><option value="asc">Oldest first</option><option value="desc">Newest first</option><option value="name">A to Z</option></select></label>
+      <label for="cultQ">Search<input id="cultQ" type="search" placeholder="name or field"></label><span class="resultcount" id="cultCount" aria-live="polite"></span></div>
+    <div class="grid g3" id="cultList"></div>
+  </section>
+  <section class="block" id="cu-timeline" data-icon="clock" data-label="Timeline by field">
+    <div class="sechead"><span class="eyebrow">Over time</span><h2>Timeline by field</h2><p>Each dot is an entry above. Select one to read it.</p></div>
+    <div class="chartfig" id="cultTimeline"></div>
+  </section>
+  <section class="block" id="cu-insights" data-icon="chart" data-label="Data and insights">
+    <div class="sechead"><span class="eyebrow">Representation today</span><h2>Data and insights</h2><p>Sourced figures on representation across these fields. Definitions and years differ between sources, so compare with care.</p></div>
+    <div class="grid g3" id="cultInsights"></div>
+  </section>
+</div>

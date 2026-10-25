@@ -1,133 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Contribute a story, event, resource or community voice to the Black & Mixed Heritage portal."
-    />
-    <title>Contribute | Black & Mixed Heritage</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <a class="skip-link" href="#main-content">Skip to content</a>
+# BHM 2026 Hub: Honouring Our Communities
 
-    <header class="site-header">
-      <div class="container nav-wrap">
-        <a class="brand" href="index.html" aria-label="Black and Mixed Heritage home">
-          <span class="brand-mark">B</span>
-          <span>Black &amp; Mixed Heritage</span>
-        </a>
+A hub celebrating Black and Black-Mixed history, heritage and cultures, Africa and the African diaspora, built for Black History Month 2026 in the UK and designed to run all year. It is written for colleagues across the UK public sector and for the communities they serve.
 
-        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
+It covers history and journeys, Africa and the diaspora around the world, language and terms, myths and facts, identities and life stages, recognition and representation, inequalities and action, learning and a curriculum, events and a calendar, games, a book and film club, careers and leadership routes, dashboards, a knowledge graph and benchmarks. Every figure links to a source that was opened and read; anything unconfirmed is labelled.
 
-        <nav class="main-nav" aria-label="Main navigation">
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="stories.html">Stories</a>
-          <a href="heritage.html">Heritage</a>
-          <a href="community.html">Community</a>
-          <a href="resources.html">Resources</a>
-          <a href="annual-programme.html">Annual Programme</a>
-          <a href="global-initiatives.html">Global Initiatives</a>
-          <a href="heritage-map.html">Heritage Map</a>
-          <a href="contribute.html" class="active">Contribute</a>
-          <a href="black-history-month.html">Black History Month</a>
-        </nav>
+Made in a personal capacity. Unofficial: not published or endorsed by Black History Month UK or HM Government.
 
-        <a class="btn btn-primary" href="community.html#join">Join the movement</a>
-      </div>
-    </header>
+## Use it
+- **Website (GitHub Pages):** https://cyberdudeuk.github.io/black-mixed-heritage/ once Pages is switched on (see below).
+- **Single file:** `dist/bhm-2026-hub.html` is the whole hub in one self-contained page; it works offline.
+- **Open data:** `data/` holds JSON-LD (Schema.org and SKOS), a glossary CSV, and the events calendar as JSON and ICS.
+- **Microsoft Teams:** `teams/bhm-hub-teams-app-1.1.0.zip` shows the hub as a Teams tab.
 
-    <main id="main-content">
-      <section class="page-hero">
-        <div class="container narrow">
-          <p class="eyebrow">Contribute</p>
-          <h1>Share your story. Grow the archive.</h1>
-          <p>
-            We invite individuals, families, educators, organisers and cultural practitioners to contribute their experiences and expertise to this growing community archive.
-          </p>
-        </div>
-      </section>
+## Help
+- **Report a bug, an accessibility barrier or a wrong fact:** open an issue using the forms. Issues are public, so do not include personal or sensitive information.
+- **Suggest an idea or a feature:** use the idea or wishlist forms, or the ideas box on the hub's "Help run the hub" page.
+- **Volunteer:** see `docs/sustainability-proposal.md`.
+- Read `CONTRIBUTING.md` before opening a pull request.
 
-      <section class="section">
-        <div class="container two-col">
-          <div class="section-copy reveal">
-            <p class="eyebrow">Submission guide</p>
-            <h2>What we welcome</h2>
-          </div>
-          <div class="section-body reveal">
-            <ul class="check-list">
-              <li>Personal stories and family histories</li>
-              <li>Community event submissions</li>
-              <li>Educational resources and reading lists</li>
-              <li>Art, poetry, interviews and oral histories</li>
-              <li>Local heritage and diaspora reflections</li>
-            </ul>
-          </div>
-        </div>
-      </section>
+## How it is checked
+- 160 self-checks run in every visitor's browser (sources, accessibility, language, privacy, coverage, links); each has a deliberate-break test that proves it can fail.
+- Playwright and axe-core tests run at desktop and phone widths in light and dark modes (`tests/test.mjs`), including a negative run that injects known defects.
+- Sources must be read in full and triangulated: two independent sources, at least one authoritative. Wikipedia is never counted as a source.
+- The hub never classifies any person's ethnicity itself; it uses published counts only.
 
-      <section class="section alt">
-        <div class="container">
-          <form class="contribution-form reveal" aria-label="Contribution form">
-            <div class="field-group">
-              <label for="name">Full name</label>
-              <input id="name" name="name" type="text" placeholder="Your name" />
-            </div>
+## Build
+The page is built from `src/` by `src/patch_v15.py` and `src/build.mjs`; the Pages edition by `src/build_pages.mjs https://OWNER.github.io/REPO/ site`.
 
-            <div class="field-group">
-              <label for="email">Email</label>
-              <input id="email" name="email" type="email" placeholder="you@example.com" />
-            </div>
+## Switch on GitHub Pages
+In **Settings → Pages**, set **Source** to **GitHub Actions**. The workflow in `.github/workflows/pages.yml` then deploys `site/` on every push to `main`. GitHub Pages sites are public. See [docs/teams-and-github-pages.md](docs/teams-and-github-pages.md).
 
-            <div class="field-group">
-              <label for="organisation">Organisation or community</label>
-              <input id="organisation" name="organisation" type="text" placeholder="Community, school, group or organisation" />
-            </div>
+## Release notes
+See [docs/release-notes.md](docs/release-notes.md).
 
-            <div class="field-group">
-              <label for="submission-type">Submission type</label>
-              <select id="submission-type" name="submission-type">
-                <option>Story</option>
-                <option>Event</option>
-                <option>Resource</option>
-                <option>Artwork</option>
-                <option>Research</option>
-              </select>
-            </div>
-
-            <div class="field-group full">
-              <label for="title">Title</label>
-              <input id="title" name="title" type="text" placeholder="Your story or resource title" />
-            </div>
-
-            <div class="field-group full">
-              <label for="message">Message</label>
-              <textarea id="message" name="message" rows="6" placeholder="Tell us about your submission, community, heritage, or event."></textarea>
-            </div>
-
-            <button class="btn btn-primary" type="submit">Submit contribution</button>
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="container footer-wrap">
-        <p>© <span id="year"></span> Black &amp; Mixed Heritage</p>
-        <p>Celebrating culture, history, heritage and diaspora worldwide.</p>
-      </div>
-    </footer>
-
-    <script src="script.js"></script>
-  </body>
-</html>
+## Licence
+- Code: MIT (`LICENSE`).
+- Text and data created for the hub: Creative Commons Attribution 4.0 (`LICENSE-CONTENT.md`).
+- Third-party content keeps its own licence: public sector information under the Open Government Licence v3.0; fonts under the SIL Open Font License 1.1; see the hub's "Credits, licences and notices".

@@ -1,0 +1,109 @@
+
+<!-- MYTHS -->
+<div class="view" id="v-myths" data-title="Myths and facts" hidden>
+  <section class="block" id="my-list" data-icon="bulb" data-label="Myths and facts">
+    <div class="sechead"><span class="eyebrow">Setting the record straight</span><h2>Common myths, and what the evidence shows</h2>
+      <p>Preconceived ideas travel faster than footnotes. Each card leads with the fact, gives the myth it corrects, cites a source we have read, and says what the evidence does not show. Turn a card over to see the myth first if you are using it in a quiz.</p></div>
+    <div class="filters" role="group" aria-label="Filter myths"><div class="chips" id="myChips"></div>
+      <label for="myQ">Search<input id="myQ" type="search" placeholder="e.g. Windrush"></label>
+      <label for="myMode">Show<select id="myMode"><option value="fact">Fact first</option><option value="quiz">Quiz: myth first</option></select></label>
+      <span class="resultcount" id="myCount" aria-live="polite"></span></div>
+    <div class="grid g2" id="myths"></div>
+  </section>
+  <section class="block" id="my-stereo" data-icon="people" data-label="Common stereotypes">
+    <div class="sechead"><span class="eyebrow">Stereotypes</span><h2>Common stereotypes, and what the evidence shows</h2><p>A stereotype is a generalisation about a whole group. Even when it seems harmless, it shapes how people are judged at work, at school and in services. We name each one briefly, then set out sourced evidence and its limits.</p></div>
+    <div class="grid g2" id="stereos"></div>
+  </section>
+  <section class="block" id="my-how" data-icon="quote" data-label="How to correct a myth">
+    <div class="sechead"><span class="eyebrow">In conversation</span><h2>How to correct a myth without spreading it</h2><p>Correcting a myth can repeat it. These habits keep the fact in people's memory, not the myth.</p></div>
+    <div class="mythhow"><ol id="mythHow"></ol><div class="card relief" aria-hidden="true" id="mythRelief"></div></div>
+  </section>
+  <section class="block" id="my-sources" data-icon="shield" data-label="Evidence and limits">
+    <div class="sechead"><span class="eyebrow">Transparency</span><h2>What we checked, and what we dropped</h2></div>
+    <div class="grid g2">
+      <div class="card"><h3>Checked for this edition</h3><p>Every fact on this page was checked against the cited page on 21 October 2026. Where a figure is commonly repeated but we could not confirm it, we left it out: for example the often-quoted size of the 1835 loan, the exact launch year of the Halo Code, and a single "true" count of African languages.</p></div>
+      <div class="card"><h3>The strongest objections</h3><p><b>"Roman soldiers are not a community."</b> Agreed: the card says an African unit, not continuous settlement. <b>"Oldest university depends on definitions."</b> Agreed: we quote Guinness's wording, "higher-learning institution". <b>"One study does not prove a trend."</b> Agreed: the hiring card says so.</p></div>
+    </div>
+  </section>
+</div>
+
+<!-- GET INVOLVED -->
+<div class="view" id="v-involve" data-title="Get involved" hidden>
+  <section class="block" id="iv-roles" data-icon="people" data-label="Roles">
+    <div class="sechead"><span class="eyebrow">Everyone has a part</span><h2>Allies, advocates, campaigners, sponsors and ambassadors</h2>
+      <p>These words are often used loosely. Here is what each role means in a public sector workplace, what it does and does not involve, and who it works with. Most people hold more than one role over a career.</p></div>
+    <div class="filters" role="group" aria-label="Choose a role"><div class="chips" id="roleChips"></div></div>
+    <div class="grid g2" id="roles"></div>
+  </section>
+  <section class="block" id="iv-induction" data-icon="doc" data-label="Induction packs">
+    <div class="sechead"><span class="eyebrow">Your first 30 to 60 days</span><h2>Induction packs</h2><p>A short, practical pack for each role. Tick the steps as you go; ticks stay in this browser only. The full set is also in the Word induction pack in the <a href="#br-templates">brand hub templates</a>.</p></div>
+    <div class="tablist" role="tablist" aria-label="Induction pack by role" id="packTabs"></div>
+    <div id="packPanels"></div>
+  </section>
+  <section class="block" id="iv-collab" data-icon="route" data-label="How roles work together">
+    <div class="sechead"><span class="eyebrow">Collaboration</span><h2>How the roles work together within networks</h2><p>Networks sit at the centre. Each role adds something different, and the work moves round the circle: priorities become local action, proposals, decisions and new capability. Select a role to see who it works with.</p></div>
+    <div class="collabwrap"><svg id="collabSvg" viewBox="0 0 520 440" role="img" aria-labelledby="collabT"><title id="collabT">Diagram: staff networks at the centre, surrounded by six roles linked in a cycle</title></svg>
+      <div><div class="tablewrap"><table><caption>Who does what, and who they work with</caption><thead><tr><th scope="col">Role</th><th scope="col">Contributes</th><th scope="col">Works most with</th></tr></thead><tbody id="collabBody"></tbody></table></div>
+      <p class="muted" style="margin-top:var(--s3);font-size:.9rem">Find a network to join on the <a href="#networks">Networks</a> page.</p></div></div>
+  </section>
+  <section class="block" id="iv-speakup" data-icon="megaphone" data-label="Stand up and speak up">
+    <div class="sechead"><span class="eyebrow">Bullying, harassment and discrimination</span><h2>Stand up and speak up</h2><p>Everyone has the right to work free from racism, bullying and harassment. Here is what to do if it happens to you, what to do if you see it, what the law says, and where to get help. This is general information, not legal advice.</p></div>
+    <div class="grid g2">
+      <div class="card"><div class="mhead"><span class="ricon"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-8-5-8-11a5 5 0 019-3 5 5 0 019 3c0 6-8 11-8 11z"/></svg></span><h3>If it happens to you</h3></div><ol class="steps" id="spYou"></ol></div>
+      <div class="card"><div class="mhead"><span class="ricon"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12zM12 15a3 3 0 100-6 3 3 0 000 6"/></svg></span><h3>If you see it: the five Ds</h3></div><ol class="steps" id="spSee"></ol></div>
+      <div class="card"><div class="mhead"><span class="ricon"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v18M5 7h14M5 7l-3 7a3 3 0 006 0zm14 0l-3 7a3 3 0 006 0z"/></svg></span><h3>What the law says</h3></div><ul class="steps" id="spLaw"></ul></div>
+      <div class="card"><div class="mhead"><span class="ricon"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 11a4 4 0 100-8 4 4 0 000 8zM2 21v-1a6 6 0 0112 0v1M17 11a3 3 0 100-6M22 21v-1a5 5 0 00-4-5"/></svg></span><h3>Where to get help</h3></div><ul class="steps" id="spHelp"></ul></div>
+    </div>
+    <div class="card" style="margin-top:var(--s4);border-left:5px solid var(--green)"><h3>If you are a manager</h3><ul id="spMgr" style="margin:0;padding-left:18px;display:grid;gap:6px"></ul></div>
+  </section>
+  <section class="block" id="iv-levels" data-icon="hands" data-label="Volunteer and lead at every level">
+    <div class="sechead"><span class="eyebrow">Participation and leadership</span><h2>Volunteer and lead at every level</h2><p>Leadership is not a grade. Choose one action at the level that fits your time this year.</p></div>
+    <div class="levels" id="levels"></div>
+  </section>
+  <section class="block" id="iv-objectives" data-icon="check" data-label="Make it part of your objectives">
+    <div class="sechead"><span class="eyebrow">Performance and development</span><h2>Make it part of your objectives</h2>
+      <p>Many organisations ask staff to set a contribution, corporate or inclusion objective as part of performance management. Check your own organisation's policy and use these examples as a starting point. Network and volunteering work is real work: agree protected time with your manager and record what you did.</p></div>
+    <div class="tablewrap"><table><caption>Example objectives you can adapt</caption><thead><tr><th scope="col">If you are</th><th scope="col">Example objective</th><th scope="col">Evidence</th></tr></thead><tbody id="objBody"></tbody></table></div>
+    <div class="card" style="margin-top:var(--s4)"><h3>Write your own</h3><div class="objform">
+      <label for="objRole">I am<select id="objRole"></select></label><label for="objAct">I will<input id="objAct" value="volunteer at two network events and share what I learned"></label><label for="objBy">By<input id="objBy" value="31 March 2027"></label></div>
+      <pre class="code" id="objOut" aria-live="polite"></pre><div class="btnrow"><button class="btn solid" type="button" id="objCopy">Copy objective</button></div></div>
+  </section>
+</div>
+
+<!-- CAREERS -->
+<div class="view" id="v-careers" data-title="Careers and development" hidden>
+  <section class="block" id="ca-path" data-icon="trend" data-label="Pathways">
+    <div class="sechead"><span class="eyebrow">Progression</span><h2>Career development pathways</h2><p>A simple map of how people progress in public service, and where development support, sponsorship and networks help at each stage. Grades and titles differ between organisations.</p></div>
+    <div class="pathway" id="pathway"></div>
+  </section>
+  <section class="block" id="ca-schemes" data-icon="briefcase" data-label="Schemes and programmes">
+    <div class="sechead"><span class="eyebrow">Recruitment, talent and development</span><h2>Schemes and programmes</h2>
+      <p>Schemes that are aimed at, or actively encourage applications from, people from ethnic minority backgrounds, plus open schemes with strong diversity outreach. Each one shows when its status was last checked. Schemes open and close often: always check the official page before you apply or advertise.</p></div>
+    <div class="filters" role="group" aria-label="Filter schemes">
+      <label for="scSector">Sector<select id="scSector"></select></label>
+      <label for="scStage">Stage<select id="scStage"></select></label>
+      <label for="scStatus">Status<select id="scStatus"><option value="all">Any status</option><option value="open">Running</option><option value="changed">Changed or replaced</option><option value="closed">Closed</option><option value="unconfirmed">Unconfirmed</option></select></label>
+      <span class="resultcount" id="scCount" aria-live="polite"></span></div>
+    <div class="grid g2" id="schemes"></div>
+  </section>
+  <section class="block" id="ca-learn" data-icon="book" data-label="Learning and development">
+    <div class="sechead"><span class="eyebrow">Personal development</span><h2>Learning and development</h2></div>
+    <div class="grid g3" id="learnCards"></div>
+  </section>
+  <section class="block" id="ca-courses" data-icon="award" data-label="Courses and training">
+    <div class="sechead"><span class="eyebrow">Ethnic and cultural awareness in practice</span><h2>Courses and training</h2><p>Courses, guidance and programmes on culturally aware policy, content and service design, communications and engagement, health and social care, education and history, and leadership. Each shows its provider, format and when its availability was last confirmed (21 October 2026). Some are guidance rather than assessed courses.</p></div>
+    <div class="filters" role="group" aria-label="Filter courses by topic"><div class="chips" id="courseChips"></div></div>
+    <div class="grid g3" id="courses"></div>
+  </section>
+  <section class="block" id="ca-academic" data-icon="book" data-label="Academic and educational sources">
+    <div class="sechead"><span class="eyebrow">Universities, archives and research</span><h2>Academic and educational sources</h2><p>Degrees, research centres, archives and learning programmes for going deeper into Black British, African and diaspora history.</p></div>
+    <div class="grid g3" id="academic"></div>
+  </section>
+  <section class="block" id="ca-law" data-icon="scale" data-label="Positive action and the law">
+    <div class="sechead"><span class="eyebrow">For managers and recruiters</span><h2>Positive action and the law</h2><p>The Equality Act 2010 lets employers take proportionate steps to help under-represented groups. It does not allow positive discrimination.</p></div>
+    <div class="grid g2">
+      <div class="card"><h3>Section 158: general positive action</h3><p>Lawful where you reasonably think people who share a protected characteristic are disadvantaged, have different needs or are under-represented, and the step is proportionate. Examples: targeted outreach, application workshops, mentoring and development programmes.</p><div class="tags"><a class="tag src" href="https://www.legislation.gov.uk/ukpga/2010/15/section/158" target="_blank" rel="noopener">Sourced · S93</a></div></div>
+      <div class="card"><h3>Section 159: recruitment and promotion</h3><p>You may treat someone more favourably only if they are as qualified as the other candidate, the group is under-represented or disadvantaged, and you do not have a policy of always doing so. Take HR and legal advice first.</p><div class="tags"><a class="tag src" href="https://www.legislation.gov.uk/ukpga/2010/15/section/159" target="_blank" rel="noopener">Sourced · S94</a></div></div>
+    </div>
+  </section>
+</div>

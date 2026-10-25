@@ -1,0 +1,295 @@
+{
+  "title": "BHM 2026 Hub: Honouring Our Communities events",
+  "version": "2.16.1",
+  "generated": "2026-10-21",
+  "events": [
+    {
+      "id": "x-leic",
+      "start": "2026-10-01",
+      "end": "2026-10-01",
+      "title": "Black Classics in Concert",
+      "type": "Public events",
+      "where": "Leicester Cathedral",
+      "description": null,
+      "source": {
+        "id": "S5",
+        "title": "Awareness Days: Black History Month 2026",
+        "url": "https://www.awarenessdays.com/awareness-days-calendar/black-history-month-2026/"
+      }
+    },
+    {
+      "id": "bhm",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "title": "Black History Month 2026: Honouring Our Communities",
+      "type": "Black History Month",
+      "where": "UK-wide",
+      "description": "The whole month of October.",
+      "source": {
+        "id": "S1",
+        "title": "University of York: Black History Month 2026",
+        "url": "https://www.york.ac.uk/about/equality/news-events/2026/black-history-month-2026/"
+      }
+    },
+    {
+      "id": "x-lboro",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "title": "Honouring Our Community exhibition",
+      "type": "Public events",
+      "where": "Pilkington Library, Loughborough",
+      "description": null,
+      "source": {
+        "id": "S41",
+        "title": "Loughborough University: Honouring Our Community exhibition",
+        "url": "https://www.lboro.ac.uk/news-events/events/black-history-month-2026-honouring-our-community-from-the-library-and-archive-.html"
+      }
+    },
+    {
+      "id": "x-reel",
+      "start": "2026-10-01",
+      "end": "2026-10-28",
+      "title": "Reel Histories film programme",
+      "type": "Public events",
+      "where": "Leicester",
+      "description": null,
+      "source": {
+        "id": "S5",
+        "title": "Awareness Days: Black History Month 2026",
+        "url": "https://www.awarenessdays.com/awareness-days-calendar/black-history-month-2026/"
+      }
+    },
+    {
+      "id": "wk0",
+      "start": "2026-10-01",
+      "end": "2026-10-07",
+      "title": "Week 1: Launch",
+      "type": "Comms plan",
+      "where": null,
+      "description": "Leader message goes out; Posters up; Nominations open",
+      "source": null
+    },
+    {
+      "id": "x-exe1",
+      "start": "2026-10-02",
+      "end": "2026-10-03",
+      "title": "Black History Month event, University of Exeter",
+      "type": "Public events",
+      "where": "Princess Pavilion, Falmouth",
+      "description": null,
+      "source": {
+        "id": "S39",
+        "title": "University of Exeter: Black History Month 2026",
+        "url": "https://www.exeter.ac.uk/departments/inclusion/nep/events/blackhistorymonth/bhm2026/"
+      }
+    },
+    {
+      "id": "x-exe2",
+      "start": "2026-10-08",
+      "end": "2026-10-08",
+      "title": "Nubiyan Twist live",
+      "type": "Public events",
+      "where": "Princess Pavilion, Falmouth",
+      "description": null,
+      "source": {
+        "id": "S39",
+        "title": "University of Exeter: Black History Month 2026",
+        "url": "https://www.exeter.ac.uk/departments/inclusion/nep/events/blackhistorymonth/bhm2026/"
+      }
+    },
+    {
+      "id": "wk1",
+      "start": "2026-10-08",
+      "end": "2026-10-14",
+      "title": "Week 2: Stories",
+      "type": "Comms plan",
+      "where": null,
+      "description": "First community profiles; Archive hour; Network blog",
+      "source": null
+    },
+    {
+      "id": "x-exe3",
+      "start": "2026-10-13",
+      "end": "2026-10-13",
+      "title": "University of Exeter online session",
+      "type": "Public events",
+      "where": "Online (Microsoft Teams)",
+      "description": null,
+      "source": {
+        "id": "S39",
+        "title": "University of Exeter: Black History Month 2026",
+        "url": "https://www.exeter.ac.uk/departments/inclusion/nep/events/blackhistorymonth/bhm2026/"
+      }
+    },
+    {
+      "id": "x-pac",
+      "start": "2026-10-15",
+      "end": "2026-10-21",
+      "title": "81st anniversary of the Fifth Pan-African Congress",
+      "type": "Observances",
+      "where": "Manchester, 1945",
+      "description": null,
+      "source": {
+        "id": "S20",
+        "title": "People's History Museum: Africa Speaks in Manchester",
+        "url": "https://phm.org.uk/blogposts/africa-speaks-in-manchester-pan-africanism-manchester-and-a-collection-gem/"
+      }
+    },
+    {
+      "id": "wk2",
+      "start": "2026-10-15",
+      "end": "2026-10-21",
+      "title": "Week 3: Learn",
+      "type": "Comms plan",
+      "where": null,
+      "description": "Pan-African Congress anniversary, 15–21 Oct; Local history walk; Data spotlight",
+      "source": null
+    },
+    {
+      "id": "wk3",
+      "start": "2026-10-22",
+      "end": "2026-10-31",
+      "title": "Week 4: Honour and commit",
+      "type": "Comms plan",
+      "where": null,
+      "description": "Honours wall unveiled; Listening session; Commitments published",
+      "source": null
+    },
+    {
+      "id": "x-bpd",
+      "start": "2026-10-23",
+      "end": "2026-10-23",
+      "title": "Black Pound Day evening",
+      "type": "Public events",
+      "where": "Coates Auditorium, University of Nottingham",
+      "description": null,
+      "source": {
+        "id": "S38",
+        "title": "University of Nottingham: Black History Month 2026",
+        "url": "https://www.nottingham.ac.uk/currentstudents/news/black-history-month-2026"
+      }
+    },
+    {
+      "id": "x-rcn",
+      "start": "2026-10-23",
+      "end": "2026-10-23",
+      "title": "RCN Eastern: Honouring Our Communities",
+      "type": "Public events",
+      "where": "Kneesworth House Hospital and online",
+      "description": null,
+      "source": {
+        "id": "S18",
+        "title": "Royal College of Nursing Eastern: Honouring Our Communities",
+        "url": "https://www.rcn.org.uk/news-and-events/events/E-Black-History-Month-Event-Eastern-231026"
+      }
+    },
+    {
+      "id": "x-rgu",
+      "start": "2026-10-28",
+      "end": "2026-10-28",
+      "title": "Community Conversations",
+      "type": "Public events",
+      "where": "Robert Gordon University, Aberdeen",
+      "description": null,
+      "source": {
+        "id": "S40",
+        "title": "Robert Gordon University: Black History Month 2026",
+        "url": "https://www.rgu.ac.uk/black-history-month-2026"
+      }
+    },
+    {
+      "id": "p-commit",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "title": "Publish your three commitments",
+      "type": "Comms plan",
+      "where": null,
+      "description": null,
+      "source": null
+    },
+    {
+      "id": "m-newcross",
+      "start": "2027-01-18",
+      "end": "2027-01-18",
+      "title": "Remembering the New Cross fire (1981)",
+      "type": "Remembrance",
+      "where": null,
+      "description": null,
+      "source": null
+    },
+    {
+      "id": "obs0",
+      "start": "2027-03-21",
+      "end": "2027-03-21",
+      "title": "International Day for the Elimination of Racial Discrimination",
+      "type": "Observances",
+      "where": null,
+      "description": "UN day marking the 1960 Sharpeville massacre.",
+      "source": null
+    },
+    {
+      "id": "obs1",
+      "start": "2027-03-25",
+      "end": "2027-03-25",
+      "title": "International Day of Remembrance of the Victims of Slavery and the Transatlantic Slave Trade",
+      "type": "Remembrance",
+      "where": null,
+      "description": "UN day of remembrance.",
+      "source": null
+    },
+    {
+      "id": "p-review",
+      "start": "2027-04-22",
+      "end": "2027-04-22",
+      "title": "Review commitments on Stephen Lawrence Day",
+      "type": "Comms plan",
+      "where": null,
+      "description": null,
+      "source": null
+    },
+    {
+      "id": "obs2",
+      "start": "2027-04-22",
+      "end": "2027-04-22",
+      "title": "Stephen Lawrence Day",
+      "type": "Remembrance",
+      "where": null,
+      "description": "Remembers Stephen Lawrence, murdered in 1993, and celebrates young people's potential.",
+      "source": {
+        "id": "S16",
+        "title": "ITV News: April 22 to become Stephen Lawrence Day",
+        "url": "https://itv.com/news/2018-04-23/theresa-may-sets-out-annual-stephen-lawrence-day"
+      }
+    },
+    {
+      "id": "obs3",
+      "start": "2027-06-22",
+      "end": "2027-06-22",
+      "title": "Windrush Day",
+      "type": "Observances",
+      "where": null,
+      "description": "Marks the 1948 arrival of the Empire Windrush and the contribution of the Windrush generation.",
+      "source": null
+    },
+    {
+      "id": "obs4",
+      "start": "2027-08-01",
+      "end": "2027-08-01",
+      "title": "Emancipation Day",
+      "type": "Observances",
+      "where": null,
+      "description": "Anniversary of the Slavery Abolition Act 1833 taking effect in 1834.",
+      "source": null
+    },
+    {
+      "id": "obs5",
+      "start": "2027-08-23",
+      "end": "2027-08-23",
+      "title": "International Day for the Remembrance of the Slave Trade and its Abolition",
+      "type": "Remembrance",
+      "where": null,
+      "description": "UNESCO day linked to the 1791 uprising in Saint-Domingue (Haiti).",
+      "source": null
+    }
+  ]
+}

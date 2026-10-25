@@ -1,0 +1,50 @@
+name: "Correction to content"
+description: "A fact, figure, date or source is wrong or out of date"
+title: "[Correction] "
+labels: ["correction", "content"]
+body:
+  - type: markdown
+    attributes:
+      value: "Issues are public. Do not include names, contact details, health information or anything sensitive."
+  - type: dropdown
+    id: page
+    attributes:
+      label: "Page"
+      options:
+        - "Whole hub"
+        - "Overview"
+        - "History and arc"
+        - "Maps"
+        - "Life stages and identities"
+        - "Inequalities and action"
+        - "Benchmarks"
+        - "Culture, sport and enterprise"
+        - "Book and film club"
+        - "Learning, games and community"
+        - "Talent, leadership and research"
+        - "Help run the hub"
+        - "Dashboards"
+        - "Knowledge layer"
+        - "Review and assessment"
+        - "Other"
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: "What the hub says now"
+    validations:
+      required: true
+  - type: textarea
+    id: correct
+    attributes:
+      label: "What it should say"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: "Source for the correction"
+      description: "A link to a source you have read"
+    validations:
+      required: true

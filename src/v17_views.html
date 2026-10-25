@@ -1,0 +1,128 @@
+
+<!-- LIFE STAGES AND IDENTITIES -->
+<div class="view" id="v-lives" data-title="Life stages and identities" hidden>
+  <section class="block" id="ls-groups" data-icon="people" data-label="Life stages and groups">
+    <div class="sechead"><span class="eyebrow">Children, young people, adults, older people, women, men, parents</span><h2>Life stages and groups</h2><p>What official statistics and research say about Black people at different stages of life and in different groups. Every group shows strengths as well as gaps. Each fact says what it measures, when, where, and its limits: "Black" often hides real differences between Black African, Black Caribbean and mixed heritage groups.</p></div>
+    <div class="filters" role="group" aria-label="Filter facts"><div class="chips" id="lsChips"></div>
+      <label for="lsGroup">Group<select id="lsGroup"><option value="all">All groups</option></select></label>
+      <label for="lsVal">Type<select id="lsVal"><option value="all">All types</option></select></label>
+      <label for="lsGeo">Where<select id="lsGeo"><option value="all">Anywhere</option><option value="UK">UK</option><option value="England">England</option><option value="Wales">Wales</option><option value="Scotland">Scotland</option></select></label>
+      <label for="lsQ">Search<input id="lsQ" type="search" placeholder="topic or word"></label><span class="resultcount" id="lsCount" aria-live="polite"></span></div>
+    <div id="lsList"></div>
+  </section>
+  <section class="block" id="ls-inter" data-icon="branch" data-label="Intersectionality">
+    <div class="sechead"><span class="eyebrow">Identities overlap</span><h2>Intersectionality</h2><p>People are not only Black, or only a woman, or only disabled. This section explains the idea, the law, the main criticisms and the replies to them, and what is known about overlapping identities.</p></div>
+    <div id="liInter"></div>
+  </section>
+  <section class="block" id="ls-data" data-icon="table" data-label="All facts as a table">
+    <div class="sechead"><span class="eyebrow">Sort, filter, group and download</span><h2>All facts as a table</h2></div>
+    <div class="tablewrap" id="lsTable"></div>
+  </section>
+</div>
+<!-- DASHBOARDS -->
+<div class="view" id="v-dash" data-title="Dashboards" hidden>
+  <section class="block" id="da-kpi" data-icon="chart" data-label="At a glance">
+    <div class="sechead"><span class="eyebrow">Analytics</span><h2>Dashboards</h2><p>What the hub holds, how well it is evidenced and how it is performing, counted live from the page itself. Every chart has a table view; nothing is tracked about you.</p></div>
+    <div class="grid g3 vtskip" id="dashKpi"></div>
+  </section>
+  <section class="block" id="da-content" data-icon="grid" data-label="Content"><div class="sechead"><h2>Content</h2></div><div class="dvstack"><div id="dashContent"></div><div id="dashPages"></div></div></section>
+  <section class="block" id="da-time" data-icon="clock" data-label="Time and fields"><div class="sechead"><h2>Time and fields</h2></div><div class="dvstack"><div id="dashTime"></div><div id="dashHeat"></div></div></section>
+  <section class="block" id="da-people" data-icon="people" data-label="Groups"><div class="sechead"><h2>Life stages and groups</h2><p>How many findings each group has, by type. A group with only gaps would fail the balance routine.</p></div><div id="dashPeople"></div></section>
+  <section class="block" id="da-equity" data-icon="scale" data-label="Inequalities and action"><div class="sechead"><h2>Inequalities and action</h2></div><div class="dvstack"><div id="dashEquity"></div><div id="dashGames"></div></div></section>
+  <section class="block" id="da-evidence" data-icon="book" data-label="Evidence"><div class="sechead"><h2>Evidence</h2></div><div id="dashEvidence"></div></section>
+  <section class="block" id="da-quality" data-icon="shield" data-label="Quality"><div class="sechead"><h2>Quality</h2></div><div id="dashQuality"></div></section>
+  <section class="block" id="da-club" data-icon="film" data-label="Club votes"><div class="sechead"><h2>Book and film club votes</h2></div><div id="dashClub"></div></section>
+</div>
+<!-- SELF-CHECKS, STORIES AND JOURNEYS -->
+<div class="view" id="v-routines" data-title="Self-checks, stories and journeys" hidden>
+  <section class="block" id="ro-run" data-icon="shield" data-label="Self-* routines">
+    <div class="sechead"><span class="eyebrow">Self-verify, repair, assess, update, protect, measure, balance, heal, report, explain</span><h2>Self-* routines</h2><p>Routines the hub runs on itself. Each one is linked to the people it protects, the user stories it assures and the stage of the journey where it matters.</p></div>
+    <div class="btnrow"><button type="button" class="btn solid" id="roAll">Run all routines</button><button type="button" class="btn" id="roReport">Download the self-report</button></div>
+    <div class="grid g3" id="roList"></div>
+  </section>
+  <section class="block" id="ro-matrix" data-icon="grid" data-label="Routines by journey stage"><div class="sechead"><h2>Routines by journey stage</h2><p>Letters are the first initial of each persona the routine protects at that stage.</p></div><div class="tablewrap" id="roMatrix"></div></section>
+  <section class="block" id="ro-journeys" data-icon="route" data-label="Journeys"><div class="sechead"><h2>Journeys</h2><p>Each persona's path through the six stages of the service blueprint, how it feels at each stage, and which routine assures it.</p></div>
+    <label for="roPersona">Persona<select id="roPersona"></select></label><div id="roJourney"></div></section>
+  <section class="block" id="ro-stories" data-icon="doc" data-label="User stories"><div class="sechead"><h2>User stories</h2><p>Personas are assumptions until tested with real users.</p></div><div class="tablewrap" id="roStories"></div></section>
+</div>
+<!-- LEARNING, GAMES AND COMMUNITY -->
+<div class="view" id="v-learn" data-title="Learning, games and community" hidden>
+  <section class="block" id="lg-schools" data-icon="school" data-label="Schools and learners">
+    <div class="sechead"><span class="eyebrow">Early years to adult learning</span><h2>Curriculum aids and resources</h2><p>Free and official resources for every stage of learning, checked on 21 October 2026. Filter by stage, nation and type.</p></div>
+    <div class="filters" role="group" aria-label="Filter learning resources"><div class="chips" id="edChips"></div>
+      <label for="edNation">Nation<select id="edNation"><option value="all">All nations</option><option>UK</option><option>England</option><option>Wales</option><option>Scotland</option><option>Northern Ireland</option></select></label>
+      <label for="edType">Type<select id="edType"><option value="all">All types</option></select></label>
+      <label for="edQ">Search<input id="edQ" type="search" placeholder="topic or provider"></label><span class="resultcount" id="edCount" aria-live="polite"></span></div>
+    <div class="grid g3" id="edList"></div>
+  </section>
+  <section class="block" id="lg-curric" data-icon="book" data-label="Curriculum by nation"><div class="sechead"><h2>What the curriculum says, nation by nation</h2></div><div class="grid g2 vtskip" id="edCurric"></div>
+    <div class="sechead" style="margin-top:16px"><h3>Teaching Black history well</h3></div><ul class="checklist" id="edTips"></ul></section>
+  <section class="block" id="lg-games" data-icon="game" data-label="Games and quizzes">
+    <div class="sechead"><span class="eyebrow">For families, friends, classes and teams</span><h2>Games and quizzes</h2><p id="qzInfo"></p></div>
+    <div class="card"><h3>Quiz</h3>
+      <div class="objform"><label for="qzLevel">Level<select id="qzLevel"><option value="1">Family (ages 8 and up)</option><option value="2">Standard</option><option value="3">Expert</option></select></label>
+      <label for="qzTeams">Players<select id="qzTeams"><option value="1">One player</option><option value="2">Two teams</option><option value="3">Three teams</option><option value="4">Four teams</option></select></label>
+      <label for="qzN">Questions<select id="qzN"><option>5</option><option selected>10</option><option>15</option></select></label></div>
+      <div class="btnrow"><button type="button" class="btn solid" id="qzStart">Start the quiz</button></div><div id="qzBox" aria-live="polite"></div></div>
+    <div class="grid g2 vtskip" style="margin-top:16px">
+      <div class="card"><h3>Timeline challenge</h3><p class="muted">Put the five events in order, earliest first.</p><div id="tlBox"></div><div class="btnrow"><button type="button" class="btn solid" id="tlCheck">Check my order</button><button type="button" class="btn" id="tlNew">New events</button></div></div>
+      <div class="card"><h3>Match-up</h3><p class="muted">Match each person to the field they are known for.</p><div id="muBox"></div><div class="btnrow"><button type="button" class="btn" id="muNew">New people</button></div></div></div>
+    <div class="card" style="margin-top:16px"><h3>Black History Month bingo</h3><p class="muted">Tick off squares through October. Print a card for each player.</p><div id="bgBox"></div><div class="btnrow"><button type="button" class="btn" id="bgNew">New card</button><button type="button" class="btn" id="bgPrint">Print</button></div></div>
+    <div class="card" style="margin-top:16px"><h3>Conversation cards</h3><p class="muted">Questions for families, friends and teams. There are no wrong answers.</p><div id="cvBox"></div><div class="btnrow"><button type="button" class="btn" id="cvNew">Shuffle</button></div></div>
+  </section>
+  <section class="block" id="lg-community" data-icon="handheart" data-label="Community and practice">
+    <div class="sechead"><span class="eyebrow">Community leaders and members, social workers, youth workers, educators</span><h2>Resources for community and practice</h2><p>Guidance, standards, training and funding, grouped by who it is for. Each link was opened and checked.</p></div>
+    <div class="filters" role="group" aria-label="Filter community resources"><div class="chips" id="cmChips"></div>
+      <label for="cmNation">Nation<select id="cmNation"><option value="all">All nations</option><option>UK</option><option>England</option><option>Wales</option><option>Scotland</option><option>Northern Ireland</option></select></label>
+      <label for="cmQ">Search<input id="cmQ" type="search" placeholder="topic or provider"></label><span class="resultcount" id="cmCount" aria-live="polite"></span></div>
+    <div class="grid g3" id="cmList"></div>
+    <div class="sechead" style="margin-top:16px"><h3>Why it matters in practice</h3></div><div class="grid g3" id="cmFacts"></div>
+  </section>
+</div>
+<!-- INEQUALITIES AND ACTION -->
+<div class="view" id="v-equity" data-title="Inequalities and action" hidden>
+  <section class="block" id="eq-overview" data-icon="scale" data-label="Overview">
+    <div class="sechead"><span class="eyebrow">Health, care, education, housing, work, wealth, power, media, technology, policing, justice, immigration</span><h2>Inequalities and action</h2><p>Where official evidence shows inequalities for Black people, ways to prevent, detect, fix and remedy them, and what government, public bodies, business, voluntary groups and industry are doing, including whether it is known to work. Where the evidence is disputed, both sides are shown.</p></div>
+    <div class="tablewrap" id="eqMatrix"></div>
+  </section>
+  <section class="block" id="eq-who" data-icon="people" data-label="Who is most affected"><div class="sechead"><h2>Who is most affected</h2><p>Which communities, groups and layers of society the evidence shows are most affected, across every domain.</p></div><div class="tablewrap" id="eqWho"></div></section>
+  <section class="block" id="eq-domains" data-icon="layers" data-label="By domain">
+    <div class="sechead"><h2>By domain</h2></div>
+    <div class="filters" role="group" aria-label="Filter inequalities and actions"><div class="chips" id="eqChips"></div>
+      <label for="eqGroup">Affected group<select id="eqGroup"><option value="all">All groups</option></select></label>
+      <label for="eqActor">Who is acting<select id="eqActor"><option value="all">Everyone</option></select></label>
+      <label for="eqStatus">Status<select id="eqStatus"><option value="all">Any status</option><option>in force</option><option>in progress</option><option>planned</option><option>proposed</option><option>voluntary</option><option>ended</option></select></label><span class="resultcount" id="eqCount" aria-live="polite"></span></div>
+    <div id="eqList"></div>
+  </section>
+  <section class="block" id="eq-actions" data-icon="table" data-label="All actions as a table"><div class="sechead"><h2>All actions as a table</h2></div><div class="tablewrap" id="eqTable"></div></section>
+</div>
+<!-- TALENT AND NETWORKS -->
+<div class="view" id="v-talent" data-title="Talent, leadership and research" hidden>
+  <section class="block" id="tn-routes" data-icon="ladder" data-label="Recruitment and career routes">
+    <div class="sechead"><span class="eyebrow">Recruit, develop and progress</span><h2>Recruitment and career routes</h2><p>Entry routes, apprenticeships, graduate schemes, positive action, leadership development, outreach partners, mentoring and inclusive recruitment practice, each checked against its official page on 21 October 2026. See also <a href="#careers">Careers and learning</a> for schemes aimed at ethnic minority staff.</p></div>
+    <div class="filters" role="group" aria-label="Filter routes"><div class="chips" id="tnChips"></div>
+      <label for="tnSector">Sector<select id="tnSector"><option value="all">All sectors</option><option value="public">Public</option><option value="private">Private</option><option value="voluntary">Voluntary</option><option value="cross-sector">Cross-sector</option></select></label>
+      <label for="tnStage">Stage<select id="tnStage"><option value="all">Any stage</option><option value="school">At school</option><option value="student">Student</option><option value="graduate">Graduate</option><option value="early-career">Early career</option><option value="mid-career">Mid-career</option><option value="senior">Senior</option><option value="returner">Returner</option></select></label>
+      <label for="tnQ">Search<input id="tnQ" type="search" placeholder="scheme or employer"></label><span class="resultcount" id="tnCount" aria-live="polite"></span></div>
+    <div class="grid g3" id="tnList"></div>
+    <div class="card" style="margin-top:16px"><h3>What the law allows</h3><ul class="checklist" id="tnLaw"></ul></div>
+  </section>
+  <section class="block" id="tn-lead" data-icon="award" data-label="Leadership, funding and fellowships">
+    <div class="sechead"><span class="eyebrow">Senior representation, sponsorship, grants, bursaries, scholarships, fellowships, secondments</span><h2>Leadership, funding and fellowships</h2><p>Schemes that sponsor or increase representation in leadership, senior management, boards and senior civil service grades, and money and placements that open doors, each checked against its official page.</p></div>
+    <div role="tablist" aria-label="Choose a list" id="lfTabs" class="tabsrow" data-own="1"><button type="button" role="tab" data-m="lead" id="lfTabLead" aria-controls="lfPanel">Leadership and representation</button><button type="button" role="tab" data-m="fund" id="lfTabFund" aria-controls="lfPanel">Grants, scholarships, fellowships and secondments</button></div>
+    <div id="lfPanel" role="tabpanel" aria-labelledby="lfTabLead"><div class="filters" role="group" aria-label="Filter"><label for="lfLevel">Level<select id="lfLevel"><option value="all">Any level</option><option value="student">Students</option><option value="early">Early career</option><option value="mid">Mid-career</option><option value="senior">Senior</option><option value="board">Board</option><option value="organisation">Organisations</option></select></label><label for="lfQ">Search<input id="lfQ" type="search" placeholder="scheme or organisation"></label><span class="resultcount" id="lfCount" aria-live="polite"></span></div>
+    <div class="grid g3" id="lfList"></div><p class="muted" id="lfAlso"></p></div>
+  </section>
+  <section class="block" id="tn-research" data-icon="bulb" data-label="Doctorates and research">
+    <div class="sechead"><span class="eyebrow">PhDs, fellowships and research across every field</span><h2>Doctorates and research</h2><p>Routes into doctoral study and research careers, what the data says about who gets them, and a guide to research centres, funders, open data and evidence gaps in each field.</p></div>
+    <div class="grid g3" id="rsFacts"></div><div class="grid g3" id="rsPhd" style="margin-top:12px"></div>
+    <div class="card" style="margin-top:16px"><h3>Research explorer</h3><label for="rsField">Field<select id="rsField"></select></label><div id="rsOut" aria-live="polite"></div></div>
+  </section>
+  <section class="block" id="tn-networks" data-icon="people" data-label="Networks to connect with">
+    <div class="sechead"><span class="eyebrow">Professional, academic, research, education, social, cultural, international</span><h2>Networks to connect with</h2><p>Organisations to exchange information, ideas and resources with. See also <a href="#networks">staff networks</a> and <a href="#lg-community">community and practice resources</a>.</p></div>
+    <div class="filters" role="group" aria-label="Filter networks"><div class="chips" id="n2Chips"></div>
+      <label for="n2Offer">Offers<select id="n2Offer"><option value="all">Anything</option></select></label>
+      <label for="n2Q">Search<input id="n2Q" type="search" placeholder="field or name"></label><span class="resultcount" id="n2Count" aria-live="polite"></span></div>
+    <div class="grid g3" id="n2List"></div>
+  </section>
+</div>

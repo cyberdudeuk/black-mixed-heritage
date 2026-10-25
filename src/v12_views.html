@@ -1,0 +1,132 @@
+<!-- REMEMBER -->
+<div class="view" id="v-remember" data-title="Remember" hidden>
+  <section class="block" id="rm-space" data-icon="spark" data-label="A space to remember">
+    <div class="sechead"><span class="eyebrow">Remembrance</span><h2>A quiet space to remember</h2>
+      <p>Honouring our communities means celebrating, and it also means remembering: the ancestors, the people taken, the lives cut short, and the people who fought so others could live freely. This page is deliberately still.</p></div>
+    <div class="remember">
+      <div class="candlewrap"><div class="candle" id="candle" aria-hidden="true"><span class="flame"></span><span class="wax"></span></div>
+        <button class="btn" type="button" id="lightCandle" aria-pressed="false">Light a candle</button>
+        <p class="muted" id="candleNote" aria-live="polite">Your candle stays lit in this browser only.</p></div>
+      <div class="prose">
+        <h3>A minute's reflection</h3>
+        <p>Take a minute, alone or as a group, before an event begins. Some communities open gatherings by naming ancestors or pouring a libation; ask your partners before including a ritual that belongs to them.</p>
+        <div class="btnrow"><button class="btn solid" type="button" id="minuteBtn">Start one minute</button><span class="stat" id="minuteLeft" aria-live="polite" style="font-size:1.6rem">1:00</span></div>
+        <p id="prompt" class="lede" style="font-style:italic"></p>
+        <button class="btn" type="button" id="nextPrompt">Another reflection</button>
+      </div>
+    </div>
+  </section>
+  <section class="block" id="rm-who" data-icon="book" data-label="Whom we remember">
+    <div class="sechead"><span class="eyebrow">In memory</span><h2>Whom we remember</h2><p>Dates are listed so they can be marked through the year, not only in October.</p></div>
+    <div class="grid g2" id="memorials"></div>
+  </section>
+  <section class="block" id="rm-tone" data-icon="scale" data-label="Joy and remembrance">
+    <div class="sechead"><span class="eyebrow">Getting the tone right</span><h2>Joy and remembrance, side by side</h2></div>
+    <div class="grid g2">
+      <div class="card"><h3>Celebrate loudly</h3><p>Food, music, stories, achievements, jokes and the jollof debate. Black history is full of joy, invention and community, and it deserves a party.</p></div>
+      <div class="card"><h3>Remember gently</h3><p>Give slavery, colonial violence, racist killings and the Windrush scandal their own quiet moment. Don't put them next to games or giveaways, and warn people before showing distressing material.</p></div>
+      <div class="card"><h3>Let people opt in</h3><p>Some colleagues carry this history personally. Make attendance optional, offer a quiet room and signpost support, such as your employee assistance programme.</p></div>
+      <div class="card"><h3>Follow the lead of those affected</h3><p>Ask your staff network and community partners how they want ancestors and loss to be marked. Different communities do this differently.</p></div>
+    </div>
+  </section>
+</div>
+
+<!-- FOOD -->
+<div class="view" id="v-food" data-title="Food and heritage" hidden>
+  <section class="block" id="fd-intro" data-icon="spark" data-label="Pull up a chair">
+    <div class="sechead"><span class="eyebrow">Food and heritage</span><h2>Pull up a chair</h2>
+      <p>Nothing says "community" like a shared pot. Food travelled with African people everywhere they went, by choice and by force, and kept memory, language and family alive. Here are dishes from across Africa and the diaspora, the ingredients behind them, and home-style recipes to cook for your team. Every family does it differently, and every family is sure theirs is right.</p></div>
+    <div class="filters" role="group" aria-label="Filter dishes">
+      <label for="fdRegion">Region<select id="fdRegion"></select></label>
+      <label for="fdDiet">Diet<select id="fdDiet"><option value="all">Any</option><option value="vegan">Vegan</option><option value="vegetarian">Vegetarian or vegan</option><option value="fish">Contains fish</option><option value="meat">Contains meat</option></select></label>
+      <span class="resultcount" id="fdCount" aria-live="polite"></span>
+    </div>
+    <div class="grid g3" id="dishes"></div>
+  </section>
+  <section class="block" id="fd-ingredients" data-icon="layers" data-label="Ingredient spotlight">
+    <div class="sechead"><span class="eyebrow">Spotlight</span><h2>Ingredients that crossed oceans</h2><p>Some ingredients went from Africa to the Americas with enslaved people; others came the other way. The kitchen is a map of history.</p></div>
+    <div class="grid g3" id="ingredients"></div>
+  </section>
+  <section class="block" id="fd-recipes" data-icon="tool" data-label="Recipes">
+    <div class="sechead"><span class="eyebrow">Cook it</span><h2>Recipes for a shared table</h2><p>Home-style versions, each for about four people. Check allergens and dietary needs before a team event, and label every dish.</p></div>
+    <div id="recipes" class="grid" style="gap:var(--s5)"></div>
+  </section>
+</div>
+
+<!-- CALENDAR -->
+<div class="view" id="v-calendar" data-title="Calendar" hidden>
+  <section class="block" id="cal-month" data-icon="calendar" data-label="Month view">
+    <div class="sechead"><span class="eyebrow">Calendar</span><h2>What's on</h2><p>Black History Month events, anniversaries and year-round dates, plus anything you add. Add any event to Google Calendar or Outlook, or copy it as an .ics file for Apple Calendar and other apps.</p></div>
+    <div class="calbar">
+      <div class="btnrow"><button class="btn" type="button" id="calPrev" aria-label="Previous month">‹</button><h3 id="calTitle" aria-live="polite" style="min-width:11ch;text-align:center"></h3><button class="btn" type="button" id="calNext" aria-label="Next month">›</button><button class="btn" type="button" id="calToday">Today</button></div>
+      <div class="chips" id="calKinds" role="group" aria-label="Show event types"></div>
+    </div>
+    <div class="calgrid" id="calGrid" role="grid" aria-labelledby="calTitle"></div>
+    <div class="card" id="calDetail" style="margin-top:var(--s4)"><p class="muted">Select an event to see details and add it to your calendar.</p></div>
+  </section>
+  <section class="block" id="cal-agenda" data-icon="book" data-label="Agenda and export">
+    <div class="sechead"><span class="eyebrow">List view</span><h2>Agenda and export</h2><p>The same events as a list, for screen readers and quick scanning. Export everything or only what is shown.</p></div>
+    <div class="btnrow" style="margin-bottom:var(--s3)"><button class="btn solid" type="button" id="copyIcs">Copy all as .ics</button><button class="btn" type="button" id="copyCsv">Copy as CSV</button><a class="btn" href="data/bhm2026-events.ics" target="_blank" rel="noopener">Open calendar file</a><a class="btn" href="data/bhm2026-events.json" target="_blank" rel="noopener">Open JSON</a></div>
+    <div class="tablewrap"><table><thead><tr><th>Date</th><th>Event</th><th>Type</th><th>Where</th><th>Add</th></tr></thead><tbody id="agendaBody"></tbody></table></div>
+  </section>
+  <section class="block" id="cal-add" data-icon="edit" data-label="Add your own">
+    <div class="sechead"><span class="eyebrow">Your events</span><h2>Add your own events</h2><p>Add your organisation's events to the calendar, then export them with everything else. They are kept in this browser only.</p></div>
+    <form id="calForm" class="maker" novalidate>
+      <label for="ceTitle">Event name<input type="text" id="ceTitle" required></label>
+      <label for="ceDate">Date<input type="date" id="ceDate" required min="2026-01-01" max="2027-12-31"></label>
+      <label for="ceWhere">Where<input type="text" id="ceWhere" placeholder="Online, or a venue"></label>
+      <label for="ceNote">Notes<input type="text" id="ceNote"></label>
+      <div style="display:flex;align-items:end;gap:8px"><button class="btn solid" type="submit">Add event</button></div>
+      <p class="muted" id="ceMsg" role="alert" style="grid-column:1/-1;font-size:.9rem"></p>
+    </form>
+  </section>
+  <section class="block" id="dt-next" data-icon="calendar" data-label="Year-round dates">
+    <div class="sechead"><span class="eyebrow">Beyond October</span><h2>Honour communities all year</h2><p>Sorted from today. Use these dates to keep commitments visible between Black History Months.</p></div>
+    <div class="tablewrap"><table><thead><tr><th>Next date</th><th>Observance</th><th>In</th><th>Why it matters</th><th>Evidence</th></tr></thead><tbody id="datesBody"></tbody></table></div>
+  </section>
+</div>
+
+<!-- NETWORKS -->
+<div class="view" id="v-networks" data-title="Networks and communities" hidden>
+  <section class="block" id="nw-list" data-icon="compass" data-label="Directory">
+    <div class="sechead"><span class="eyebrow">Find your people</span><h2>Networks, forums and communities</h2><p>Groups across central and local government, the devolved administrations, health, policing and justice, and the private and voluntary sectors. Inclusion here is not endorsement. Check each group's current status before you contact it.</p></div>
+    <div class="filters" role="group" aria-label="Filter networks">
+      <label for="nwSector">Sector<select id="nwSector"></select></label>
+      <label for="nwNation">Nation<select id="nwNation"><option value="all">All UK</option><option>UK-wide</option><option>England</option><option>Scotland</option><option>Wales</option><option>Northern Ireland</option></select></label>
+      <label for="nwQ">Search<input type="search" id="nwQ" placeholder="police, health, Wales…"></label>
+      <span class="resultcount" id="nwCount" aria-live="polite"></span>
+    </div>
+    <div id="networks" class="grid g2"></div>
+  </section>
+  <section class="block" id="nw-start" data-icon="flag" data-label="Start a network">
+    <div class="sechead"><span class="eyebrow">No network yet?</span><h2>Starting one in your organisation</h2></div>
+    <ol class="card" style="padding-left:2.2em;display:grid;gap:6px;margin:0">
+      <li>Find a senior sponsor and agree time for the chair and committee in their objectives.</li>
+      <li>Write short terms of reference: purpose, membership (open to allies), decision-making and data protection.</li>
+      <li>Ask your HR or EDI team for a budget line and a channel in your collaboration tools.</li>
+      <li>Connect with cross-government groups such as the Civil Service Race Forum so you don't start from scratch.</li>
+      <li>Agree with leaders how the network's advice will be answered, and publish the answers.</li>
+    </ol>
+  </section>
+</div>
+
+<!-- CONNECT -->
+<div class="view" id="v-connect" data-title="Connect and share" hidden>
+  <section class="block" id="cn-share" data-icon="mail" data-label="Share">
+    <div class="sechead"><span class="eyebrow">Share</span><h2>Share the hub</h2><p>The hub is private until its owner shares it from the Share menu. Once shared, use these links. Each opens in a new tab.</p></div>
+    <div class="grid g3" id="shareCards"></div>
+    <h3 style="margin:var(--s5) 0 var(--s2)">Ready-made message</h3>
+    <pre class="code" id="shareMsg" style="white-space:pre-wrap"></pre>
+    <div class="btnrow" style="margin-top:var(--s2)"><button class="btn solid" type="button" id="copyShare">Copy message</button></div>
+  </section>
+  <section class="block" id="cn-apps" data-icon="tool" data-label="Your apps">
+    <div class="sechead"><span class="eyebrow">Work where you work</span><h2>Add it to your tools</h2><p>Step-by-step routes for the main collaboration and productivity platforms. No installation is needed: everything uses links, calendar files and open data.</p></div>
+    <div class="filters" role="group" aria-label="Filter by platform"><div class="chips" id="appChips"></div></div>
+    <div class="grid g2" id="apps"></div>
+  </section>
+  <section class="block" id="cn-data" data-icon="graph" data-label="Open data">
+    <div class="sechead"><span class="eyebrow">For developers and other portals</span><h2>Open data feeds</h2><p>Published alongside the hub, so other portals, catalogues and automations can reuse the content. They are visible to whoever can see the hub.</p></div>
+    <div class="tablewrap"><table><thead><tr><th>File</th><th>Format</th><th>Contents</th><th>Standard</th></tr></thead><tbody id="feeds"></tbody></table></div>
+  </section>
+</div>
+
