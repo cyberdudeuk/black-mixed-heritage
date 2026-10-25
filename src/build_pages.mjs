@@ -8,7 +8,7 @@ if(!/^https:\/\/[^/]+\.github\.io\/[^/]+\/$/.test(url||'')){console.error('Usage
 mkdirSync(out,{recursive:true});
 execFileSync('node',['build.mjs',url,out+'/_body.html'],{stdio:'inherit'});
 const body=readFileSync(out+'/_body.html','utf8');
-const teams=readFileSync('teamsjs-2.56.0.min.js','utf8');
+const teams=readFileSync(new URL('./vendor/teamsjs-2.56.0.min.js',import.meta.url),'utf8');
 const init=`(function(){window.__HOST="pages";if(window.parent===window||typeof microsoftTeams==="undefined")return;
 var T=microsoftTeams;function theme(t){var r=document.documentElement;r.classList.remove("a11y-contrast");if(t==="dark")r.setAttribute("data-theme","dark");else if(t==="contrast"){r.setAttribute("data-theme","dark");r.classList.add("a11y-contrast")}else if(t==="default")r.setAttribute("data-theme","light")}
 T.app.initialize().then(function(){window.__TEAMS=true;try{T.app.notifySuccess()}catch(e){}try{T.app.registerOnThemeChangeHandler(theme)}catch(e){}return T.app.getContext()}).then(function(c){if(c&&c.app)theme(c.app.theme)}).catch(function(){window.__TEAMS=false})})();`;

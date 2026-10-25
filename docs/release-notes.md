@@ -1,8 +1,15 @@
 # BHM 2026 Hub: release notes and verification log
 
-Repository: https://github.com/cyberdudeuk/black-mixed-heritage. Current version: 2.17.0 (25 October 2026).
+Repository: https://github.com/cyberdudeuk/black-mixed-heritage. Current version: 2.18.0 (25 October 2026).
 
 
+
+## 2.18.0 (25 October 2026): privacy fix for the templates; the repository builds anywhere
+- **Privacy:** the three downloadable Office templates (slides, report, induction pack) carried a personal name in their document properties. They now carry only the hub's name. A new scan (`tests/privacy_scan.py`) opens every file embedded in the pages and fails if an author field is not the hub's name, if an image carries author metadata, or if a personal email address or private link appears; it runs in CI and was shown to fail on the previous build.
+- **Reproducible build:** the map outlines, comparison data, templates and the Teams library now live in `src/vendor/`, scripts use paths relative to the repository, and `package.json` pins the test tools. A clean copy builds byte-for-byte the same pages; CI rebuilds `dist/` and `site/` and fails if they differ from what is committed.
+
+## 2.17.1 (25 October 2026): In memoriam
+- A few words about the maker's mother and about the women of the family, drawn from the family's own archive and anonymised: no names, places, dates beyond the two already shown, occupations, migration details or health.
 
 ## 2.17.0 (25 October 2026): ideas through GitHub; In memoriam
 - **Ideas, wishes and issues through the public repository:** the hub opens GitHub issue forms prefilled field by field, including the page the reader was on. On the public website, the ideas box shows the open ideas and feature wishes raised on GitHub, with their support (thumbs-up reactions), comments and status, from a list that a repository workflow publishes every six hours and on every change. The list holds titles, labels, counts and links only; the page holds no token; items that fail checks are dropped and titles are shown as text, never HTML (C161, D-123).
