@@ -37,7 +37,7 @@ jobs:
             return open.data.length ? String(open.data[0].number) : '';
       - name: Open or update the link report
         if: steps.lychee.outputs.exit_code != 0
-        uses: peter-evans/create-issue-from-file@v5
+        uses: peter-evans/create-issue-from-file@v6
         with:
           title: Monthly link check found broken links
           content-filepath: link-report.md
