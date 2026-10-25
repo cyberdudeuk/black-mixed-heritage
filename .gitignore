@@ -1,0 +1,114 @@
+const yearNode = document.getElementById('year');
+if (yearNode) {
+  yearNode.textContent = new Date().getFullYear();
+}
+
+const revealItems = document.querySelectorAll('.reveal');
+const revealObserver = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  },
+  {
+    threshold: 0.15,
+  }
+);
+
+revealItems.forEach((item) => revealObserver.observe(item));
+
+const filterButtons = document.querySelectorAll('.filter-btn');
+const storyCards = document.querySelectorAll('.story-card');
+
+filterButtons.forEach((button) => {
+  button.addEventListener('click', () => {
+    filterButtons.forEach((btn) => btn.classList.toggle('active', btn === button));
+
+    const filter = button.dataset.filter;
+
+    storyCards.forEach((card) => {
+      const matches = filter === 'all' || card.dataset.category === filter;
+      card.classList.toggle('hidden', !matches);
+    });
+  });
+});
+
+const navLinks = document.querySelectorAll('.main-nav a');
+const sections = [...document.querySelectorAll('main section[id]')];
+
+const activateNav = () => {
+  const scrollPosition = window.scrollY + 120;
+
+  sections.forEach((section) => {
+    const top = section.offsetTop;
+    const bottom = top + section.offsetHeight;
+
+    const link = document.querySelector(`.main-nav a[href="#${section.id}"]`);
+    if (!link) return;
+
+    if (scrollPosition >= top && scrollPosition < bottom) {
+      navLinks.forEach((item) => item.classList.remove('active'));
+      link.classList.add('active');
+    }
+  });
+};
+
+window.addEventListener('scroll', activateNav);
+activateNav();
+
+const navStyles = document.createElement('style');
+navStyles.textContent = `
+  .main-nav a.active {
+    color: var(--text);
+  }
+`;
+document.head.appendChild(navStyles);
+
+const accent = document.createElement('div');
+accent.setAttribute('aria-hidden', 'true');
+accent.style.position = 'fixed';
+accent.style.pointerEvents = 'none';
+accent.style.inset = 'auto 0 0 auto';
+accent.style.width = '160px';
+accent.style.height = '160px';
+accent.style.borderRadius = '50%';
+accent.style.filter = 'blur(60px)';
+accent.style.opacity = '0.18';
+accent.style.background = 'radial-gradient(circle, rgba(243, 198, 107, 0.8), transparent 60%)';
+accent.style.bottom = '-30px';
+accent.style.right = '10%';
+document.body.appendChild(accent);
+
+const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+if (prefersReducedMotion) {
+  revealItems.forEach((item) => item.classList.add('visible'));
+}
+
+const root = document.documentElement;
+root.style.setProperty('--gold-soft', '#f6dba0');
+
+const footerText = document.querySelector('.site-footer p:last-child');
+if (footerText) {
+  footerText.setAttribute('role', 'note');
+}
+
+const contactLink = document.querySelector('.btn-primary[href^="mailto:"]');
+if (contactLink) {
+  contactLink.setAttribute('aria-label', 'Contact Black and Mixed Heritage');
+}
+
+window.addEventListener('load', () => {
+  document.body.classList.add('loaded');
+});
+
+const applyFilter = () => {
+  const activeFilter = document.querySelector('.filter-btn.active')?.dataset.filter || 'all';
+  storyCards.forEach((card) => {
+    const matches = activeFilter === 'all' || card.dataset.category === activeFilter;
+    card.classList.toggle('hidden', !matches);
+  });
+};
+
+applyFilter();

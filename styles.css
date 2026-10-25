@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Black & Mixed Heritage celebrates Black and mixed cultures, history, heritage, and the African diaspora worldwide."
+    />
+    <title>Black & Mixed Heritage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#top" aria-label="Black and Mixed Heritage home">
+          <span class="brand-mark">B</span>
+          <span>Black &amp; Mixed Heritage</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#stories">Stories</a>
+          <a href="#heritage">Heritage</a>
+          <a href="#community">Community</a>
+          <a href="#resources">Resources</a>
+        </nav>
+
+        <a class="btn btn-primary" href="#join">Join the movement</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Black &amp; Mixed Cultures</p>
+            <h1>Honouring the past. Empowering the present. Building the future.</h1>
+            <p class="lead">
+              A global portal celebrating Black and mixed heritage, African diaspora history,
+              and the living cultures that continue to shape communities across every region.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#stories">Explore stories</a>
+              <a class="btn btn-secondary" href="#resources">Learn &amp; connect</a>
+            </div>
+
+            <ul class="hero-metrics" aria-label="Portal statistics">
+              <li><strong>60+</strong><span>heritage stories</span></li>
+              <li><strong>120+</strong><span>community partners</span></li>
+              <li><strong>6</strong><span>continents connected</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="visual-card main-card">
+              <div class="card-glow"></div>
+              <div class="mini-stat">
+                <span>Shared memory</span>
+                <strong>1 global story</strong>
+              </div>
+              <div class="portrait-grid" aria-hidden="true">
+                <div class="portrait portrait-one"></div>
+                <div class="portrait portrait-two"></div>
+                <div class="portrait portrait-three"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-band">
+        <div class="container mini-grid">
+          <div class="mini-item">
+            <span class="label">Culture</span>
+            <strong>Art, language, music, food and identity</strong>
+          </div>
+          <div class="mini-item">
+            <span class="label">History</span>
+            <strong>Truth, memory and the stories that shaped us</strong>
+          </div>
+          <div class="mini-item">
+            <span class="label">Heritage</span>
+            <strong>Roots, ancestry and belonging across generations</strong>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container two-col">
+          <div class="section-copy reveal">
+            <p class="eyebrow">Our mission</p>
+            <h2>Celebrating Black and mixed heritage with dignity, pride and belonging.</h2>
+          </div>
+
+          <div class="section-body reveal">
+            <p>
+              Black &amp; Mixed Heritage exists to honour the richness of Black identity and mixed
+              heritage in all its forms—across the African diaspora, global communities, and the
+              many borders, languages, and traditions that shape lived experience.
+            </p>
+            <p>
+              Through storytelling, historical reflection, cultural exchange, and community-led
+              learning, this portal brings people together in celebration, recognition, and care.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="stories" class="section alt">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Featured stories</p>
+            <h2>Voices, memories and pathways of belonging</h2>
+          </div>
+
+          <div class="story-filters reveal" aria-label="Story categories">
+            <button class="filter-btn active" type="button" data-filter="all">All</button>
+            <button class="filter-btn" type="button" data-filter="history">History</button>
+            <button class="filter-btn" type="button" data-filter="culture">Culture</button>
+            <button class="filter-btn" type="button" data-filter="diaspora">Diaspora</button>
+          </div>
+
+          <div class="story-grid">
+            <article class="story-card reveal" data-category="history">
+              <div class="story-image story-one"></div>
+              <div class="story-content">
+                <span class="tag">History</span>
+                <h3>Reclaiming African memory in the modern age</h3>
+                <p>
+                  A deeper look at how the African diaspora keeps memory alive through archives,
+                  oral tradition and intergenerational learning.
+                </p>
+              </div>
+            </article>
+
+            <article class="story-card reveal" data-category="culture">
+              <div class="story-image story-two"></div>
+              <div class="story-content">
+                <span class="tag">Culture</span>
+                <h3>Expressions of identity through art and music</h3>
+                <p>
+                  From jazz to dance, spoken word to visual art, cultural expression tells a living
+                  story of resilience and creativity.
+                </p>
+              </div>
+            </article>
+
+            <article class="story-card reveal" data-category="diaspora">
+              <div class="story-image story-three"></div>
+              <div class="story-content">
+                <span class="tag">Diaspora</span>
+                <h3>Building bridges across oceans and generations</h3>
+                <p>
+                  Community stories reveal how cultural roots travel, transform, and return—even
+                  across continents and new homes.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="heritage" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Heritage timeline</p>
+            <h2>From ancestral roots to shared futures</h2>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item reveal">
+              <span class="year">Ancient</span>
+              <div>
+                <h3>Civilisations, trade routes and cultural exchange</h3>
+                <p>
+                  African societies and global communities shaped one another through trade,
+                  migration, language and knowledge.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal">
+              <span class="year">Colonial</span>
+              <div>
+                <h3>Resilience in the face of displacement</h3>
+                <p>
+                  Communities navigated forced migration, labour, and systems designed to erase
+                  identity—with collective resistance at the centre.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal">
+              <span class="year">Modern</span>
+              <div>
+                <h3>Creative renewal and diasporic pride</h3>
+                <p>
+                  Cultural revival, political advocacy, and intergenerational learning continue to
+                  deepen Black visibility and belonging.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="community" class="section alt">
+        <div class="container community-grid">
+          <div class="community-copy reveal">
+            <p class="eyebrow">Community</p>
+            <h2>Rooted in solidarity, guided by joy.</h2>
+            <p>
+              We build a world where Black and mixed communities can discover, celebrate, and share
+              their heritage without barrier or erasure.
+            </p>
+          </div>
+
+          <div class="event-list reveal">
+            <article>
+              <span class="date">Nov 14</span>
+              <div>
+                <h3>Global Black Heritage Forum</h3>
+                <p>Virtual panel with community historians, artists and educators.</p>
+              </div>
+            </article>
+            <article>
+              <span class="date">Dec 02</span>
+              <div>
+                <h3>Mixed Identity Stories Night</h3>
+                <p>An evening of oral histories, spoken word and cultural reflection.</p>
+              </div>
+            </article>
+            <article>
+              <span class="date">Jan 18</span>
+              <div>
+                <h3>African Diaspora Learning Circle</h3>
+                <p>Interactive workshops exploring ancestry, migration and belonging.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="resources" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Resources</p>
+            <h2>Learn, reflect, and connect.</h2>
+          </div>
+
+          <div class="resource-grid">
+            <div class="resource-card reveal">
+              <h3>Reading lists</h3>
+              <p>Books, essays and perspectives that centre Black life, heritage and memory.</p>
+            </div>
+            <div class="resource-card reveal">
+              <h3>Archives</h3>
+              <p>Collections, institutions and digital repositories that preserve culture and history.</p>
+            </div>
+            <div class="resource-card reveal">
+              <h3>Community guides</h3>
+              <p>Learning pathways for schools, families and intergenerational community groups.</p>
+            </div>
+            <div class="resource-card reveal">
+              <h3>Creative practices</h3>
+              <p>Art, poetry, music and cultural programming to inspire expression and reflection.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="join" class="section cta-section">
+        <div class="container cta-wrap reveal">
+          <div>
+            <p class="eyebrow">Take part</p>
+            <h2>Join the global conversation on Black and mixed heritage.</h2>
+          </div>
+          <a class="btn btn-primary" href="mailto:hello@blackmixedheritage.example">Get involved</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> Black &amp; Mixed Heritage</p>
+        <p>Celebrating culture, history, heritage and diaspora worldwide.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
