@@ -1,5 +1,5 @@
-# Runs on every pull request and push to main: the hub's in-page self-checks on the Pages edition and the
-# single-file edition, plus a privacy scan of the whole tree (no email addresses, no private artifact links).
+# Runs on every pull request and push to main: a privacy scan, the hub's in-page self-checks on both editions
+# (after checking the committed pages match a fresh build), and an axe-core accessibility scan of every page.
 name: Checks
 on:
   pull_request:
@@ -39,3 +39,16 @@ jobs:
           git diff --stat --exit-code -- dist/bhm-2026-hub.html site/index.html || { echo "::error::dist/ or site/ is out of date: run npm run build:all and commit"; exit 1; }
       - name: Run the in-page self-checks
         run: npm run -s test:quick
+  accessibility:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install dependencies and Chromium
+        run: |
+          npm ci || npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+      - name: axe-core on every page, 1280px light and 390px dark
+        run: node tests/ci-axe.mjs site/index.html

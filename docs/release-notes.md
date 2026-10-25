@@ -1,8 +1,14 @@
 # BHM 2026 Hub: release notes and verification log
 
-Repository: https://github.com/cyberdudeuk/black-mixed-heritage. Current version: 2.18.0 (25 October 2026).
+Repository: https://github.com/cyberdudeuk/black-mixed-heritage. Current version: 2.19.0 (25 October 2026).
 
 
+
+## 2.19.0 (25 October 2026): user manual, admin guide and a complete repository
+- **Documentation:** a user manual and a repository admin guide (settings, workflows, labels, monthly routine, issues, personal data and moderation, reviews, releases, Projects, Discussions options, troubleshooting), plus architecture, content style guide and data dictionary, indexed in `docs/README.md`. The hub's Help run the hub page links to the manual and the guide.
+- **Community files:** SUPPORT, GOVERNANCE, ACCESSIBILITY, PRIVACY, CHANGELOG and CITATION.cff; CONTRIBUTING and SECURITY rewritten; a source suggestion form; a fuller pull request checklist; `.editorconfig` and `.gitattributes` (built files marked as generated).
+- **CI:** an axe-core scan of all 55 pages at 1280px light and 390px dark on every pull request; CodeQL scanning of the JavaScript and the workflows.
+- **Website:** a 404 page, `robots.txt`, `sitemap.xml` and `.well-known/security.txt`.
 
 ## 2.18.0 (25 October 2026): privacy fix for the templates; the repository builds anywhere
 - **Privacy:** the three downloadable Office templates (slides, report, induction pack) carried a personal name in their document properties. They now carry only the hub's name. A new scan (`tests/privacy_scan.py`) opens every file embedded in the pages and fails if an author field is not the hub's name, if an image carries author metadata, or if a personal email address or private link appears; it runs in CI and was shown to fail on the previous build.

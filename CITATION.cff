@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use or adapt the hub, please cite it as below."
+title: "BHM 2026 Hub: Honouring Our Communities"
+type: software
+authors:
+  - name: "BHM 2026 Hub contributors"
+version: "2.19.0"
+date-released: "2026-10-25"
+url: "https://cyberdudeuk.github.io/black-mixed-heritage/"
+repository-code: "https://github.com/cyberdudeuk/black-mixed-heritage"
+license: MIT
+keywords:
+  - black history
+  - African diaspora
+  - heritage
+  - accessibility
+  - open data

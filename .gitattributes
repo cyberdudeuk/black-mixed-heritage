@@ -1,0 +1,11 @@
+* text=auto eol=lf
+# Built files: generated from src/ by npm run build:all
+dist/** linguist-generated=true -diff
+site/index.html linguist-generated=true -diff
+data/** linguist-generated=true
+src/vendor/** linguist-vendored=true
+tests/vendor/** linguist-vendored=true
+*.docx binary
+*.pptx binary
+*.png binary
+*.zip binary

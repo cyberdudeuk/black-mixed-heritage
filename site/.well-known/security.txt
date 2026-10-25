@@ -1,0 +1,5 @@
+Contact: https://github.com/cyberdudeuk/black-mixed-heritage/security/advisories/new
+Expires: 2027-10-25T00:00:00Z
+Preferred-Languages: en
+Canonical: https://cyberdudeuk.github.io/black-mixed-heritage/.well-known/security.txt
+Policy: https://github.com/cyberdudeuk/black-mixed-heritage/blob/main/SECURITY.md
