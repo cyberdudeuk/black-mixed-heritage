@@ -22,7 +22,7 @@ for (const [w, scheme] of [[1280, 'light'], [390, 'dark']]) {
     await page.waitForTimeout(160);
     await page.mouse.move(1, 1);
     await page.evaluate(() => { if (document.activeElement) document.activeElement.blur(); if (typeof hideTip2 === 'function') hideTip2(true); });
-    await page.waitForTimeout(220);
+    await page.waitForTimeout(600); // let on-demand charts draw and scroll regions be marked (300 ms debounce in the page)
     const found = await page.evaluate(async v => (await axe.run({ include: [['#v-' + v], ['header'], ['#main-nav'], ['footer']].filter(([sel]) => document.querySelector(sel)) }, { runOnly: { type: 'tag', values: ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa'] }, resultTypes: ['violations'] })).violations.map(x => x.id + ': ' + x.nodes.slice(0, 2).map(n => n.target.join(' ')).join(' | ')), v);
     found.forEach(x => all.push(`${w}px ${scheme} #${v} ${x}`));
   }

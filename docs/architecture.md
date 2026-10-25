@@ -1,7 +1,7 @@
 # Architecture
 
 ## In one paragraph
-The hub is one self-contained HTML page. All content, data, styles and scripts are inside it, so it works from a website, as a single downloaded file, offline, inside Microsoft Teams and inside Claude. Pages are views inside that one document, switched by the address after `#` (for example `#calendar`). There is no server, database or login. The page checks itself: 161 self-checks run in every visitor's browser and are shown on **About → Self-checks, stories and journeys**.
+The hub is one self-contained HTML page. All content, data, styles and scripts are inside it, so it works from a website, as a single downloaded file, offline, inside Microsoft Teams and inside Claude. Pages are views inside that one document, switched by the address after `#` (for example `#calendar`). There is no server, database or login. The page checks itself: 162 self-checks run in every visitor's browser and are shown on **About → Self-checks, stories and journeys**.
 
 ## How the page is built
 ```

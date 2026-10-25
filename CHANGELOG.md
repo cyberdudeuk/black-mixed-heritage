@@ -4,6 +4,7 @@ Full release notes, with what was checked for each release, are in [docs/release
 
 | Version | Date | Summary |
 |---|---|---|
+| 2.19.1 | 25 Oct 2026 | Keyboard access to charts redrawn after start-up (C162) |
 | 2.19.0 | 25 Oct 2026 | Admin guide, user manual and standard community files; accessibility scan of every page in CI; 404 page, sitemap and security contact for the website; links to the guides from the hub |
 | 2.18.0 | 25 Oct 2026 | Personal metadata removed from the Office templates; privacy scan of embedded files; reproducible build |
 | 2.17.1 | 25 Oct 2026 | In memoriam: a few anonymised words |
