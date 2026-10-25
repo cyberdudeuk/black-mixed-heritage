@@ -1,10 +1,10 @@
 import {readFileSync,writeFileSync} from 'fs';
-const SP='/tmp/claude-0/-home-claude/85fc9058-1d74-50e0-91e4-0414f5b30b7d/scratchpad';
+const SP=new URL('./vendor',import.meta.url).pathname; // build inputs kept in the repository
 const uk=JSON.parse(readFileSync(SP+'/uk.json'));
 const world=readFileSync(SP+'/world.json','utf8');
 const compare=readFileSync(SP+'/compare.json','utf8');
 const globe=readFileSync(SP+'/globe.txt','utf8');
-const tpl=JSON.stringify(Object.fromEntries(['bhm2026-slide-template.pptx','bhm2026-report-template.docx','bhm2026-induction-pack.docx'].map(f=>[f,readFileSync('dist/templates/'+f).toString('base64')])));
+const tpl=JSON.stringify(Object.fromEntries(['bhm2026-slide-template.pptx','bhm2026-report-template.docx','bhm2026-induction-pack.docx'].map(f=>[f,readFileSync(SP+'/templates/'+f).toString('base64')])));
 const url=process.argv[2]||'';
 let s=readFileSync('src.html','utf8');
 const n0=(s.match(/%%(UK|IE|URL|WORLD|COMPARE|GLOBE|TPL)%%/g)||[]).length;

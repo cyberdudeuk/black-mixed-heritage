@@ -12,7 +12,7 @@ jobs:
   links:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Collect the external links from the hub
         run: |
           grep -oE 'https://[A-Za-z0-9._~:/?#@!$&()*+,;=%-]+' dist/bhm-2026-hub.html \

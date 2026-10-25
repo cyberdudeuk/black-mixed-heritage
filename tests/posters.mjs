@@ -1,10 +1,10 @@
 // Renders the six posters from the portal's own poster code to A3 PDFs and PNGs.
 import {readFileSync,writeFileSync,mkdirSync} from 'fs';
 import {createRequire} from 'module';
-const SP='/tmp/claude-0/-home-claude/85fc9058-1d74-50e0-91e4-0414f5b30b7d/scratchpad';
+const SP=new URL('..',import.meta.url).pathname.replace(/\/$/,'');
 const require=createRequire(SP+'/x.js');
-const {chromium}=require('/opt/npm-tools/node_modules/playwright');
-const {PDFDocument}=require('/opt/npm-tools/node_modules/pdf-lib');
+const {chromium}=require('playwright');
+const {PDFDocument}=require('pdf-lib');
 const F=SP+'/node_modules/@fontsource/';
 const ff=(fam,file,w,st='normal')=>`@font-face{font-family:'${fam}';font-style:${st};font-weight:${w};src:url(data:font/woff2;base64,${readFileSync(F+file).toString('base64')}) format('woff2')}`;
 const FONTCSS=[ff('Bricolage Grotesque','bricolage-grotesque/files/bricolage-grotesque-latin-600-normal.woff2',600),ff('Bricolage Grotesque','bricolage-grotesque/files/bricolage-grotesque-latin-700-normal.woff2',700),ff('Bricolage Grotesque','bricolage-grotesque/files/bricolage-grotesque-latin-800-normal.woff2',800),ff('Source Serif 4','source-serif-4/files/source-serif-4-latin-400-normal.woff2',400),ff('IBM Plex Mono','ibm-plex-mono/files/ibm-plex-mono-latin-400-normal.woff2',400),ff('IBM Plex Mono','ibm-plex-mono/files/ibm-plex-mono-latin-500-normal.woff2',500)].join('\n');

@@ -1,4 +1,6 @@
 node_modules/
+out/
 .DS_Store
 *.log
 site/_body.html
+src/src.html
