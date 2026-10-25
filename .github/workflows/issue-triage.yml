@@ -1,0 +1,40 @@
+# Welcomes new issues, labels them for triage, and checks for personal data. Issues are public; if an issue
+# seems to contain an email address, phone number or National Insurance number, it is labelled
+# needs-redaction (which also keeps it out of the hub's ideas list) and the author is asked to edit it.
+name: Issue triage
+on:
+  issues:
+    types: [opened, edited]
+permissions:
+  issues: write
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const text = `${issue.title}\n${issue.body || ''}`;
+            const checks = [
+              ['an email address', /[\w.+-]+@[\w-]+\.[\w.-]+/],
+              ['a phone number', /(?:\+44\s?|\b0)(?:\d[\s-]?){9,10}\b/],
+              ['a National Insurance number', /\b[A-CEGHJ-PR-TW-Z]{2}\s?\d{2}\s?\d{2}\s?\d{2}\s?[A-D]\b/i]
+            ];
+            const found = checks.filter(([, rx]) => rx.test(text)).map(([n]) => n);
+            const labels = issue.labels.map(l => l.name);
+            const req = { owner: context.repo.owner, repo: context.repo.repo, issue_number: issue.number };
+            if (context.payload.action === 'opened' && !labels.includes('triage')) {
+              await github.rest.issues.addLabels({ ...req, labels: ['triage'] });
+              const kind = labels.includes('idea') || labels.includes('wishlist');
+              await github.rest.issues.createComment({ ...req, body:
+                'Thank you for raising this. A maintainer will look at it at the next monthly triage.' +
+                (kind ? '\n\nIdeas and feature wishes appear in the ideas box on the hub within a few hours. Anyone can support this one by adding a thumbs-up reaction to the first post.' : '') +
+                '\n\nIssues are public. If you included anything personal or sensitive, please edit it out.' });
+            }
+            if (found.length && !labels.includes('needs-redaction')) {
+              await github.rest.issues.addLabels({ ...req, labels: ['needs-redaction'] });
+              await github.rest.issues.createComment({ ...req, body:
+                `This issue seems to contain ${found.join(' and ')}. Issues are public, so please edit the issue to remove it. ` +
+                'Until a maintainer removes the needs-redaction label, this issue is kept out of the hub.' });
+            }

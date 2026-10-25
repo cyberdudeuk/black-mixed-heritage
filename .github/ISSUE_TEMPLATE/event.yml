@@ -1,0 +1,37 @@
+name: "Event for the calendar"
+description: "Suggest an event, anniversary or day of remembrance for the hub's calendar"
+title: "[Event] "
+labels: ["event"]
+body:
+  - type: markdown
+    attributes:
+      value: "Issues are public. Do not include names of private individuals, contact details or anything sensitive. Organisers' public event pages are welcome."
+  - type: input
+    id: what
+    attributes:
+      label: "Event or day"
+    validations:
+      required: true
+  - type: input
+    id: when
+    attributes:
+      label: "Date or dates"
+      description: "For example 1 August, or 3 to 5 October 2027"
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: "Where"
+      description: "Town or city, online, or nationwide"
+  - type: input
+    id: source
+    attributes:
+      label: "Public link"
+      description: "The organiser's page or an official source"
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: "Why it belongs in the calendar"

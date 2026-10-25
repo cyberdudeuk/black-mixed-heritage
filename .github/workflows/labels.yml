@@ -1,0 +1,24 @@
+# Keeps the repository's labels in step with .github/labels.json (creates or updates; never deletes).
+name: Sync labels
+on:
+  push:
+    branches: [main]
+    paths: [".github/labels.json"]
+  workflow_dispatch:
+permissions:
+  issues: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const want = JSON.parse(require('fs').readFileSync('.github/labels.json', 'utf8'));
+            const have = await github.paginate(github.rest.issues.listLabelsForRepo, { ...context.repo, per_page: 100 });
+            for (const l of want) {
+              const cur = have.find(h => h.name.toLowerCase() === l.name.toLowerCase());
+              if (!cur) { await github.rest.issues.createLabel({ ...context.repo, name: l.name, color: l.color, description: l.description }); core.info('created ' + l.name); }
+              else if (cur.color !== l.color || (cur.description || '') !== l.description) { await github.rest.issues.updateLabel({ ...context.repo, name: cur.name, color: l.color, description: l.description }); core.info('updated ' + l.name); }
+            }

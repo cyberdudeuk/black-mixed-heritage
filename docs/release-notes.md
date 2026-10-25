@@ -1,8 +1,14 @@
 # BHM 2026 Hub: release notes and verification log
 
-Repository: https://github.com/cyberdudeuk/black-mixed-heritage. Current version: 2.16.1 (25 October 2026).
+Repository: https://github.com/cyberdudeuk/black-mixed-heritage. Current version: 2.17.0 (25 October 2026).
 
 
+
+## 2.17.0 (25 October 2026): ideas through GitHub; In memoriam
+- **Ideas, wishes and issues through the public repository:** the hub opens GitHub issue forms prefilled field by field, including the page the reader was on. On the public website, the ideas box shows the open ideas and feature wishes raised on GitHub, with their support (thumbs-up reactions), comments and status, from a list that a repository workflow publishes every six hours and on every change. The list holds titles, labels, counts and links only; the page holds no token; items that fail checks are dropped and titles are shown as text, never HTML (C161, D-123).
+- **Repository workflows:** issue triage with a privacy check (needs-redaction keeps an issue off the hub); label sync with status labels; in-page self-checks and a privacy scan on every pull request; a monthly link check; a monthly triage checklist; release packaging; Dependabot. A new issue form suggests events for the calendar; page lists in the forms now match the hub's 55 pages.
+- **About this hub:** more on how the hub came to be, without personal details, and an In memoriam dedication to the maker's mother (17 April 1930 to 25 October 2018) and to all the women of the family, in keeping with the matrilineal tradition of the family's south-west African clan.
+- Verified: 161/161 in-page checks on both editions at 1280px light and 390px dark; a broken page makes the CI check fail; accessibility scans of the About page and the GitHub ideas section clean at both widths; a mock feed with an unsafe link and an HTML title showed only the safe items, as text.
 
 ## 2.16.1 (25 October 2026): public repository
 - The hub's issue, correction, idea and accessibility forms now open in github.com/cyberdudeuk/black-mixed-heritage; the GitHub Pages and Teams editions are built for https://cyberdudeuk.github.io/black-mixed-heritage/.

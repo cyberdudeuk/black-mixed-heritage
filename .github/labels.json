@@ -48,5 +48,60 @@
   "name": "volunteer",
   "color": "1d76db",
   "description": "Help running the hub"
+ },
+ {
+  "name": "triage",
+  "color": "ededed",
+  "description": "New: waiting for the monthly triage"
+ },
+ {
+  "name": "needs-redaction",
+  "color": "b60205",
+  "description": "May contain personal data: kept off the hub until edited"
+ },
+ {
+  "name": "status: accepted",
+  "color": "0e8a16",
+  "description": "Agreed; not yet scheduled"
+ },
+ {
+  "name": "status: planned",
+  "color": "1d76db",
+  "description": "Planned for a coming release"
+ },
+ {
+  "name": "status: in-progress",
+  "color": "fbca04",
+  "description": "Being worked on"
+ },
+ {
+  "name": "status: done",
+  "color": "0e8a16",
+  "description": "Released"
+ },
+ {
+  "name": "status: declined",
+  "color": "cccccc",
+  "description": "Not taken forward; the reason is in the comments"
+ },
+ {
+  "name": "event",
+  "color": "f9d0c4",
+  "description": "An event for the calendar"
+ },
+ {
+  "name": "source",
+  "color": "bfd4f2",
+  "description": "A source to add or check"
+ },
+ {
+  "name": "link-check",
+  "color": "d4c5f9",
+  "description": "Report from the monthly link check"
+ },
+ {
+  "name": "routine",
+  "color": "c2e0c6",
+  "description": "Monthly triage and freshness check"
  }
 ]
