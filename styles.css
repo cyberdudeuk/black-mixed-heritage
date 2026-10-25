@@ -1,56 +1,118 @@
-# Black & Mixed Heritage
+.map-grid,
+.year-programme-grid,
+.full-grid,
+.full-resource-grid {
+  display: grid;
+  gap: 1.5rem;
+}
 
-A global portal celebrating Black and mixed cultures, history, heritage and the African diaspora.
+.map-grid,
+.year-programme-grid,
+.full-grid,
+.full-resource-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
 
-## Mission
+.map-card,
+.programme-card {
+  background: rgba(17, 23, 31, 0.82);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.5rem 1.2rem;
+}
 
-This project exists to celebrate the rich, diverse, interconnected heritage of Black and mixed communities worldwide, particularly those connected by common roots in Africa. It is designed as a year-round platform for education, remembrance, cultural pride and community belonging.
+.map-card h3,
+.programme-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.65rem;
+}
 
-## The portal includes
+.map-card p,
+.programme-card p {
+  color: var(--muted);
+  margin-bottom: 0;
+}
 
-- a multi-page, accessible landing experience
-- a UK Black History Month programme page
-- annual yearly celebration content
-- an annual programme calendar for heritage themes across the year
-- global initiative and partnership pages
-- heritage map and storytelling sections
-- community contribution and engagement pathways
-- a DEEIA-informed, user-centred design approach
+.programme-card span {
+  display: inline-block;
+  margin-bottom: 0.65rem;
+  color: var(--gold-soft);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
 
-## Run locally
+.contribution-form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(15, 21, 28, 0.86);
+}
 
-Open `index.html` directly in a browser, or serve the folder locally:
+.field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
 
-```bash
-python3 -m http.server 8000
-```
+.field-group.full {
+  grid-column: 1 / -1;
+}
 
-Then visit `http://localhost:8000`.
+.contribution-form label {
+  display: block;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
 
-## Project vision
+.contribution-form input,
+.contribution-form textarea,
+.contribution-form select {
+  width: 100%;
+  padding: 0.85rem 0.9rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--text);
+  font: inherit;
+}
 
-The objective is to evolve the platform from a simple landing page into a living heritage ecosystem that celebrates:
+.contribution-form textarea {
+  min-height: 150px;
+  resize: vertical;
+}
 
-- Black and mixed cultures
-- African diaspora history and memory
-- intergenerational heritage
-- community storytelling and participation
-- annual and global heritage cycles
-- the rich socio-cultural, geo-political, ethno-linguistic and socio-economic diversity of African-rooted communities worldwide
+.contribution-form input:focus,
+.contribution-form textarea:focus,
+.contribution-form select:focus {
+  outline: 2px solid rgba(243, 198, 107, 0.7);
+  outline-offset: 1px;
+}
 
-## Files
+.contribution-form button {
+  align-self: end;
+}
 
-- `index.html` — home page
-- `about.html` — mission and values
-- `stories.html` — storytelling archive
-- `heritage.html` — heritage timeline and regions
-- `community.html` — community and events
-- `resources.html` — learning resources
-- `annual-programme.html` — year-long celebration plan
-- `global-initiatives.html` — global programmes and partnerships
-- `heritage-map.html` — heritage pathways and diaspora map
-- `contribute.html` — community submissions
-- `black-history-month.html` — UK and global Black History Month focus
-- `styles.css` — site styling and responsive layout
-- `script.js` — interactivity and accessibility improvements
+@media (max-width: 980px) {
+  .map-grid,
+  .year-programme-grid,
+  .full-grid,
+  .full-resource-grid,
+  .contribution-form {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 
+@media (max-width: 680px) {
+  .map-grid,
+  .year-programme-grid,
+  .full-grid,
+  .full-resource-grid,
+  .contribution-form {
+    grid-template-columns: 1fr;
+  }
+}
