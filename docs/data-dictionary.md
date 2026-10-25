@@ -37,7 +37,7 @@ Published by `.github/workflows/pages.yml` beside the website; not in the reposi
 |---|---|
 | `generated` | When the list was made (UTC) |
 | `repo` | `owner/repository` |
-| `items[].n`, `url` | Issue number and link |
+| `items[].n`, `items[].url` | Issue number and link |
 | `items[].title` | Issue title without the `[Idea]` or `[Wish]` prefix |
 | `items[].kind` | `idea` or `wish` |
 | `items[].status` | `new`, `accepted`, `planned`, `in-progress`, `done` or `declined`, from the `status: …` label |
@@ -45,4 +45,5 @@ Published by `.github/workflows/pages.yml` beside the website; not in the reposi
 | `items[].comments` | Number of comments |
 | `items[].created` | Date opened |
 | `items[].page` | The page chosen in the form |
-Issues labelled `needs-redaction` are never included. No issue text or usernames are published.
+
+Issues labelled `needs-redaction`, and any whose title or text looks like it holds an email address, phone number or National Insurance number, are never included. No issue text or usernames are published.

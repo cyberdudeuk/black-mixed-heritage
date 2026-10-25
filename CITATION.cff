@@ -8,7 +8,7 @@ version: "2.19.0"
 date-released: "2026-10-25"
 url: "https://cyberdudeuk.github.io/black-mixed-heritage/"
 repository-code: "https://github.com/cyberdudeuk/black-mixed-heritage"
-license: MIT
+license: [MIT, CC-BY-4.0]
 keywords:
   - black history
   - African diaspora

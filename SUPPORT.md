@@ -10,7 +10,7 @@
 | Suggest an event for the calendar | Open an [event suggestion](../../issues/new?template=event.yml). |
 | Suggest a source to add | Open a [source suggestion](../../issues/new?template=source.yml). |
 | Report a security problem | Follow [SECURITY.md](SECURITY.md); do not open a public issue. |
-| Volunteer | Read the [sustainability proposal](docs/sustainability-proposal.md) and use the expression-of-interest form on the hub's **Help run the hub** page. |
+| Volunteer | Read the [sustainability proposal](docs/sustainability-proposal.md). The expression-of-interest form on the hub's **Help run the hub** page saves only inside Claude; on the website, open an [idea](../../issues/new?template=idea.yml) titled "Volunteer: " and the role. |
 
 Issues are public. Do not include names of private individuals, contact details, health information or anything sensitive.
 

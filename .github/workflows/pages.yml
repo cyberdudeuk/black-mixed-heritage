@@ -52,6 +52,9 @@ jobs:
               const isWish = labels.includes('wishlist');
               if (!isWish && !labels.includes('idea')) continue;
               if (labels.includes('needs-redaction')) continue; // never republish an issue that may hold personal data
+              // the same patterns as issue-triage.yml, applied here too: triage runs at the same time and its label does not start a new deploy
+              const PII = [/[\w.+-]+@[\w-]+\.[\w.-]+/, /(?:\+44\s?|\b0)(?:\d[\s-]?){9,10}\b/, /\b[A-CEGHJ-PR-TW-Z]{2}\s?\d{2}\s?\d{2}\s?\d{2}\s?[A-D]\b/i];
+              if (PII.some(rx => rx.test(i.title + '\n' + (i.body || '')))) continue;
               const st = (labels.find(l => l.startsWith('status: ')) || '').slice(8);
               const page = ((i.body || '').match(/###\s*Page\s*\n+\s*(.+)/) || [])[1] || '';
               items.push({
@@ -72,6 +75,7 @@ jobs:
       - uses: actions/upload-pages-artifact@v5
         with:
           path: _site
+          include-hidden-files: true # keeps .well-known/security.txt and .nojekyll
   deploy:
     needs: build
     runs-on: ubuntu-latest

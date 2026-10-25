@@ -27,7 +27,7 @@ npm run build:all          # rebuilds dist/, site/ and data/
 npm run test:quick         # all in-page self-checks on both editions
 npm run check:privacy      # nothing personal in the pages
 ```
-Commit the rebuilt `dist/`, `site/` and `data/` with your change: CI rebuilds them and fails if they differ. Never edit `dist/` or `site/index.html` by hand.
+Commit the rebuilt `dist/`, `site/` and `data/` with your change: CI rebuilds `dist/` and `site/` and fails if they differ. Never edit `dist/` or `site/index.html` by hand.
 
 The full suite (`npm test`, about an hour) runs every page at several widths and themes with axe-core; `npm run test:negative` injects known defects and must fail. Maintainers run both before a release.
 

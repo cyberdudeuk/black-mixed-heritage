@@ -1,4 +1,5 @@
-// Accessibility scan for CI: axe-core (WCAG 2.0, 2.1 and 2.2, levels A and AA) on every page of the hub,
+// Accessibility scan for CI: axe-core (WCAG 2.0, 2.1 and 2.2, levels A and AA) on every page of the hub (the page itself plus the
+// header and footer, which is much faster than the whole document; hidden pages are skipped by axe either way),
 // at 1280px light and 390px dark. Fails if any page has a violation. The full suite (tests/test.mjs) runs more widths.
 import { chromium } from 'playwright';
 import { readFileSync } from 'fs';
@@ -22,7 +23,7 @@ for (const [w, scheme] of [[1280, 'light'], [390, 'dark']]) {
     await page.mouse.move(1, 1);
     await page.evaluate(() => { if (document.activeElement) document.activeElement.blur(); if (typeof hideTip2 === 'function') hideTip2(true); });
     await page.waitForTimeout(220);
-    const found = await page.evaluate(async () => (await axe.run(document, { runOnly: { type: 'tag', values: ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa'] }, resultTypes: ['violations'] })).violations.map(x => x.id + ': ' + x.nodes.slice(0, 2).map(n => n.target.join(' ')).join(' | ')));
+    const found = await page.evaluate(async v => (await axe.run({ include: [['#v-' + v], ['header'], ['#main-nav'], ['footer']].filter(([sel]) => document.querySelector(sel)) }, { runOnly: { type: 'tag', values: ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa'] }, resultTypes: ['violations'] })).violations.map(x => x.id + ': ' + x.nodes.slice(0, 2).map(n => n.target.join(' ')).join(' | ')), v);
     found.forEach(x => all.push(`${w}px ${scheme} #${v} ${x}`));
   }
   console.log(`${w}px ${scheme}: ${views.length} pages scanned`);

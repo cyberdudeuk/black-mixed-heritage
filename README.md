@@ -16,15 +16,15 @@ It covers history and journeys, Africa and the diaspora around the world, langua
 Made in a personal capacity. Unofficial: not published or endorsed by Black History Month UK or HM Government.
 
 ## Use it
-- **Website (GitHub Pages):** https://cyberdudeuk.github.io/black-mixed-heritage/ once Pages is switched on (see below).
-- **Single file:** `dist/bhm-2026-hub.html` is the whole hub in one self-contained page; it works offline.
+- **Website (GitHub Pages):** https://cyberdudeuk.github.io/black-mixed-heritage/ (see [docs/teams-and-github-pages.md](docs/teams-and-github-pages.md)).
+- **Single file:** `dist/bhm-2026-hub.html` is the whole hub in one self-contained page; it works offline with system fonts (the web fonts, QR codes and barcodes need a connection).
 - **Open data:** `data/` holds JSON-LD (Schema.org and SKOS), a glossary CSV, and the events calendar as JSON and ICS.
 - **Microsoft Teams:** `teams/bhm-hub-teams-app-1.1.0.zip` shows the hub as a Teams tab.
 
 ## Help
 - **Report a bug, an accessibility barrier or a wrong fact:** open an issue using the forms. Issues are public, so do not include personal or sensitive information.
 - **Suggest an idea or a feature:** use the idea or wishlist forms, or the ideas box on the hub's "Help run the hub" page.
-- **Volunteer:** see `docs/sustainability-proposal.md` and [GOVERNANCE.md](GOVERNANCE.md).
+- **Volunteer:** see [docs/sustainability-proposal.md](docs/sustainability-proposal.md) and [GOVERNANCE.md](GOVERNANCE.md).
 - **Get help:** see [SUPPORT.md](SUPPORT.md). Report security problems privately: [SECURITY.md](SECURITY.md).
 - Read `CONTRIBUTING.md` before opening a pull request.
 
@@ -54,12 +54,12 @@ Builds are deterministic: CI rebuilds `dist/` and `site/` and fails if the commi
 | Status shown on the hub | Labels `status: accepted`, `planned`, `in-progress`, `done`, `declined` | Set at the monthly triage |
 | Labels | `labels.yml` creates and updates labels from `.github/labels.json` | When that file changes |
 | Quality | `checks.yml`: privacy scan of the tree and of every embedded file; checks the committed pages match a fresh build; all in-page self-checks on both editions; axe-core on every page at 1280px light and 390px dark | Every pull request and push to `main` |
-| Security | `codeql.yml` scans the JavaScript and the workflows | Pull requests, pushes and weekly |
+| Security | `codeql.yml` scans the JavaScript and the workflows | Pull requests and pushes that change scripts or workflows, and weekly |
 | Sources | `link-check.yml` checks every external link and opens a report issue | Monthly |
 | Routine | `monthly-triage.yml` opens the monthly triage and freshness checklist | First of each month |
 | Releases | `release.yml` publishes a release with the single-file hub, open data and Teams app | When a `v*` tag is pushed |
 | Events | The "Event for the calendar" issue form | Any time |
-| Dependencies | Dependabot keeps the workflow actions up to date | Monthly |
+| Dependencies | Dependabot opens grouped monthly updates for the workflow actions and the test tools | Monthly |
 
 The calendar (ICS) and open data are also served from the website, under `data/`.
 

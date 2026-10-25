@@ -24,10 +24,6 @@ jobs:
       - uses: github/codeql-action/init@v3
         with:
           languages: ${{ matrix.language }}
-          paths-ignore: |
-            dist
-            site
-            data
-            src/vendor
-            tests/vendor
+          config: |
+            paths-ignore: [dist, site, data, src/vendor, tests/vendor]
       - uses: github/codeql-action/analyze@v3

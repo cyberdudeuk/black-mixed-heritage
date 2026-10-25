@@ -102,7 +102,7 @@ Generated data files (`v34_lens_data.js`, `v36_world_data.js`, `v41_pagekit_data
 | `v19_charter.js` | MISSION, CHARTER, RULES OF ENGAGEMENT AND TERMS OF REFERENCE (proposed, for comment) |
 | `v19_glue.js` | glue: sustain the hub |
 | `v19_sustain.js` | SUSTAIN THE HUB: proposal, roles, year-round programme, expressions of interest, ideas and issues |
-| `v20_data.js` | partners, boards, funders and archives: every organisation page opened 21 October 2026; organisation contact pages only, |
+| `v20_data.js` | partners, boards, funders and archives: every organisation page opened 21 October 2026; organisation contact pages only |
 | `v20_fix.js` | FIXES from the forensic code review and the visual inspection |
 | `v20_partners.js` | GOVERNANCE, PARTNERS, FUNDERS AND ARCHIVES |
 | `v21_ia.js` | INFORMATION ARCHITECTURE: grouping, order of precedence, labels, titles, related pages, search, source summaries |
@@ -133,7 +133,7 @@ Generated data files (`v34_lens_data.js`, `v36_world_data.js`, `v41_pagekit_data
 | `v36_world_data.js` | World civilisations in parallel: researched and checked 24 October 2026 |
 | `v37_repeat.js` | REPETITION AUDIT: find content said twice, and stop new content repeating old (D-105) |
 | `v41_pagekit.js` | PAGE KIT: features of the newer pages carried to the older ones, and similar content co-located (D-110 to D-113) |
-| `v41_pagekit_data.js` | page kit data: summaries and vantage points written from each page's own content (checked by C153, C154); cross-page lin |
+| `v41_pagekit_data.js` | page kit data: summaries and vantage points written from each page's own content (checked by C153, C154); cross-page links |
 | `v42_lt.js` | LANGUAGE OF THE TIME: explain historical terms instead of banning them blindly (D-116, D-117) |
 | `v42_lt_data.js` | Language of the time: researched and checked 25 October 2026; every entry has two or more independent sources |
 | `v43_global.js` | BLACK COMMUNITIES AROUND THE WORLD, HONOURING OUR COMMUNITIES, AND A GLOBAL COVERAGE AUDIT (D-119, D-120) |
