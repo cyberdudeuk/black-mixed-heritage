@@ -103,5 +103,10 @@
   "name": "routine",
   "color": "c2e0c6",
   "description": "Monthly triage and freshness check"
+ },
+ {
+  "name": "dependencies",
+  "color": "0366d6",
+  "description": "Updates to the tools the workflows and tests use"
  }
 ]

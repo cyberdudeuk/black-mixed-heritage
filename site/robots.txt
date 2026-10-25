@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cyberdudeuk.github.io/black-mixed-heritage/sitemap.xml

@@ -4,4 +4,4 @@ We expect everyone taking part to be respectful, patient and kind, and to assume
 
 We follow the spirit of the Contributor Covenant, version 2.1: https://www.contributor-covenant.org/version/2/1/code_of_conduct/
 
-To report a problem with behaviour, contact the repository owner through GitHub. Public sector colleagues can also use their own organisation's procedures.
+To report a problem with behaviour, use **… → Report content** on the comment or issue, which reaches GitHub and the maintainers. Public sector colleagues can also use their own organisation's procedures.

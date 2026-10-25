@@ -1,0 +1,29 @@
+# Code scanning: looks for security problems in the hub's JavaScript and in the workflows.
+# Results appear in Security → Code scanning.
+name: CodeQL
+on:
+  pull_request:
+    paths: ["src/**/*.js", "src/**/*.mjs", "tests/**", ".github/workflows/**"]
+  push:
+    branches: [main]
+    paths: ["src/**/*.js", "src/**/*.mjs", "tests/**", ".github/workflows/**"]
+  schedule:
+    - cron: "23 5 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: read
+  security-events: write
+jobs:
+  analyse:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        language: [javascript-typescript, actions]
+    steps:
+      - uses: actions/checkout@v7
+      - uses: github/codeql-action/init@v3
+        with:
+          languages: ${{ matrix.language }}
+          config: |
+            paths-ignore: [dist, site, data, src/vendor, tests/vendor]
+      - uses: github/codeql-action/analyze@v3

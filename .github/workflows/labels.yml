@@ -6,15 +6,14 @@ on:
     paths: [".github/labels.json"]
   workflow_dispatch:
 permissions:
+  contents: read
   issues: write
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/github-script@v9
       - uses: actions/checkout@v7
-      - uses: actions/github-script@v7
+      - uses: actions/github-script@v9
         with:
           script: |
             const want = JSON.parse(require('fs').readFileSync('.github/labels.json', 'utf8'));

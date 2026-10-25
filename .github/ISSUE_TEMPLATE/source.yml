@@ -1,0 +1,36 @@
+name: "Source suggestion"
+description: "Suggest a source the hub should cite or read"
+title: "[Source] "
+labels: ["source"]
+body:
+  - type: markdown
+    attributes:
+      value: "Issues are public. Do not include names of private individuals, contact details or anything sensitive. Authoritative sources (official statistics, regulators, peer-reviewed research, archives, the organisation itself) are preferred; Wikipedia is not counted as a source."
+  - type: input
+    id: link
+    attributes:
+      label: "Link to the source"
+    validations:
+      required: true
+  - type: input
+    id: publisher
+    attributes:
+      label: "Who published it, and when"
+    validations:
+      required: true
+  - type: textarea
+    id: supports
+    attributes:
+      label: "What it supports or changes on the hub"
+      description: "Quote the exact words if you can, and say which page."
+    validations:
+      required: true
+  - type: dropdown
+    id: read
+    attributes:
+      label: "Have you read it in full?"
+      options:
+        - "Yes, in full"
+        - "Only a summary or abstract"
+    validations:
+      required: true

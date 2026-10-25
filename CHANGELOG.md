@@ -1,0 +1,16 @@
+# Changelog
+
+Full release notes, with what was checked for each release, are in [docs/release-notes.md](docs/release-notes.md). Releases are tagged `v<version>` and published on the [releases page](../../releases).
+
+| Version | Date | Summary |
+|---|---|---|
+| 2.19.0 | 25 Oct 2026 | Admin guide, user manual and standard community files; accessibility scan of every page in CI; 404 page, sitemap and security contact for the website; links to the guides from the hub |
+| 2.18.0 | 25 Oct 2026 | Personal metadata removed from the Office templates; privacy scan of embedded files; reproducible build |
+| 2.17.1 | 25 Oct 2026 | In memoriam: a few anonymised words |
+| 2.17.0 | 25 Oct 2026 | Ideas and wishes through GitHub; repository workflows; In memoriam |
+| 2.16.1 | 25 Oct 2026 | Public repository and GitHub Pages |
+| 2.16.0 | 25 Oct 2026 | Collecting ethnicity data |
+| 2.15.0 | 25 Oct 2026 | Recognition and representation; Central Africa; private-project references removed |
+| 2.14.0 | 25 Oct 2026 | Black communities around the world; honouring our communities; coverage audit |
+| 2.13.x | 25 Oct 2026 | Curriculum and reference works; language of the time; made in a personal capacity |
+| 1.0.0 | 21 Oct 2026 | First edition |
