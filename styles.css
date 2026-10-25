@@ -1,163 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Celebrate Black History Month in the UK and connect it to a yearly global programme of heritage, remembrance, and African diaspora celebration."
-    />
-    <title>Black History Month | Black & Mixed Heritage</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <a class="skip-link" href="#main-content">Skip to content</a>
+# Black & Mixed Heritage
 
-    <header class="site-header">
-      <div class="container nav-wrap">
-        <a class="brand" href="index.html" aria-label="Black and Mixed Heritage home">
-          <span class="brand-mark">B</span>
-          <span>Black &amp; Mixed Heritage</span>
-        </a>
+A global portal celebrating Black and mixed cultures, history, heritage and the African diaspora.
 
-        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
+## Mission
 
-        <nav class="main-nav" aria-label="Main navigation">
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="stories.html">Stories</a>
-          <a href="heritage.html">Heritage</a>
-          <a href="community.html">Community</a>
-          <a href="resources.html">Resources</a>
-          <a href="black-history-month.html" class="active">Black History Month</a>
-        </nav>
+This project exists to celebrate the rich, diverse, interconnected heritage of Black and mixed communities worldwide, particularly those connected by common roots in Africa. It is designed as a year-round platform for education, remembrance, cultural pride and community belonging.
 
-        <a class="btn btn-primary" href="community.html#join">Join the movement</a>
-      </div>
-    </header>
+## The portal includes
 
-    <main id="main-content">
-      <section class="page-hero">
-        <div class="container narrow">
-          <p class="eyebrow">Black History Month</p>
-          <h1>Celebrating Black life, history and heritage in the UK and beyond.</h1>
-          <p>
-            This portal supports the UK Black History Month and positions it as part of a wider, year-round global movement rooted in African history, memory, achievement and cultural continuity.
-          </p>
-        </div>
-      </section>
+- a multi-page, accessible landing experience
+- a UK Black History Month programme page
+- annual yearly celebration content
+- an annual programme calendar for heritage themes across the year
+- global initiative and partnership pages
+- heritage map and storytelling sections
+- community contribution and engagement pathways
+- a DEEIA-informed, user-centred design approach
 
-      <section class="section">
-        <div class="container two-col">
-          <div class="section-copy reveal">
-            <p class="eyebrow">Why it matters</p>
-            <h2>Black History Month should be a catalyst, not a single moment.</h2>
-          </div>
-          <div class="section-body reveal">
-            <p>
-              The UK Black History Month is an opportunity to deepen public awareness, celebrate Black excellence, and recognise the historical and current contributions of Black communities in Britain and across the world.
-            </p>
-            <p>
-              We believe it should evolve from a month of observance into a year-round system of recognition, teaching, storytelling, arts, community engagement and policy reflection.
-            </p>
-          </div>
-        </div>
-      </section>
+## Run locally
 
-      <section class="section alt">
-        <div class="container">
-          <div class="section-heading reveal">
-            <p class="eyebrow">October 2026 programme</p>
-            <h2>The rest of this month</h2>
-          </div>
+Open `index.html` directly in a browser, or serve the folder locally:
 
-          <div class="calendar-list reveal">
-            <div class="calendar-entry"><span>Week 1</span><strong>Black British history and early pioneers</strong></div>
-            <div class="calendar-entry"><span>Week 2</span><strong>Arts, music and creative expression</strong></div>
-            <div class="calendar-entry"><span>Week 3</span><strong>Education, heritage and intergenerational dialogue</strong></div>
-            <div class="calendar-entry"><span>Week 4</span><strong>Global diaspora connections and future visions</strong></div>
-          </div>
-        </div>
-      </section>
+```bash
+python3 -m http.server 8000
+```
 
-      <section id="initiatives" class="section">
-        <div class="container">
-          <div class="section-heading reveal">
-            <p class="eyebrow">Global links</p>
-            <h2>Connecting UK Black History Month to similar initiatives around the world</h2>
-          </div>
+Then visit `http://localhost:8000`.
 
-          <div class="initiative-grid">
-            <article class="initiative-card reveal">
-              <h3>UK Black History Month</h3>
-              <p>A national observance focused on Black history, contributions and cultural visibility in Britain.</p>
-              <a href="https://www.blackhistorymonth.org.uk" target="_blank" rel="noreferrer">Visit official portal</a>
-            </article>
+## Project vision
 
-            <article class="initiative-card reveal">
-              <h3>Black History Month Canada</h3>
-              <p>Celebrating Black excellence and the contributions of Black communities in Canada.</p>
-              <a href="https://blackhistorycanada.ca" target="_blank" rel="noreferrer">Visit official portal</a>
-            </article>
+The objective is to evolve the platform from a simple landing page into a living heritage ecosystem that celebrates:
 
-            <article class="initiative-card reveal">
-              <h3>National African American History Month</h3>
-              <p>Recognising the African American story and its role in shaping the United States.</p>
-              <a href="https://nmaahc.si.edu" target="_blank" rel="noreferrer">Visit museum</a>
-            </article>
+- Black and mixed cultures
+- African diaspora history and memory
+- intergenerational heritage
+- community storytelling and participation
+- annual and global heritage cycles
+- the rich socio-cultural, geo-political, ethno-linguistic and socio-economic diversity of African-rooted communities worldwide
 
-            <article class="initiative-card reveal">
-              <h3>UNESCO / African heritage</h3>
-              <p>Global advocacy for preserving African heritage, history and cultural memory.</p>
-              <a href="https://www.unesco.org" target="_blank" rel="noreferrer">Visit UNESCO</a>
-            </article>
-          </div>
-        </div>
-      </section>
+## Files
 
-      <section class="section alt">
-        <div class="container">
-          <div class="section-heading reveal">
-            <p class="eyebrow">Yearly recurrence</p>
-            <h2>Building this into a permanent annual programme</h2>
-          </div>
-
-          <div class="yearly-grid">
-            <div class="yearly-item reveal">
-              <span>Annual mission</span>
-              <h3>Keep Black heritage visible all year</h3>
-              <p>Use Black History Month as the anchor moment, not the only moment, in a sustained annual cycle of remembrance, celebration and learning.</p>
-            </div>
-            <div class="yearly-item reveal">
-              <span>Core principles</span>
-              <h3>Celebrate, educate, reflect, connect</h3>
-              <p>Each year should include public education, cultural programming, school engagement, community storytelling and diaspora conversation.</p>
-            </div>
-            <div class="yearly-item reveal">
-              <span>Global objective</span>
-              <h3>One connected heritage story</h3>
-              <p>Rooted in Africa, spanning the Black Atlantic, the Caribbean, Europe, the Americas and beyond, this platform can become a living archive of shared ancestry and contemporary life.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="container footer-wrap">
-        <p>© <span id="year"></span> Black &amp; Mixed Heritage</p>
-        <p>Celebrating culture, history, heritage and diaspora worldwide.</p>
-      </div>
-    </footer>
-
-    <script src="script.js"></script>
-  </body>
-</html>
+- `index.html` — home page
+- `about.html` — mission and values
+- `stories.html` — storytelling archive
+- `heritage.html` — heritage timeline and regions
+- `community.html` — community and events
+- `resources.html` — learning resources
+- `annual-programme.html` — year-long celebration plan
+- `global-initiatives.html` — global programmes and partnerships
+- `heritage-map.html` — heritage pathways and diaspora map
+- `contribute.html` — community submissions
+- `black-history-month.html` — UK and global Black History Month focus
+- `styles.css` — site styling and responsive layout
+- `script.js` — interactivity and accessibility improvements
 

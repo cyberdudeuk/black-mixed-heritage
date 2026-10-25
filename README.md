@@ -1,102 +1,133 @@
-const yearNode = document.getElementById('year');
-if (yearNode) {
-  yearNode.textContent = new Date().getFullYear();
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contribute a story, event, resource or community voice to the Black & Mixed Heritage portal."
+    />
+    <title>Contribute | Black & Mixed Heritage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
 
-const navToggle = document.querySelector('.nav-toggle');
-const mainNav = document.querySelector('.main-nav');
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html" aria-label="Black and Mixed Heritage home">
+          <span class="brand-mark">B</span>
+          <span>Black &amp; Mixed Heritage</span>
+        </a>
 
-if (navToggle && mainNav) {
-  navToggle.addEventListener('click', () => {
-    const isOpen = mainNav.classList.toggle('open');
-    navToggle.setAttribute('aria-expanded', String(isOpen));
-  });
-}
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
 
-const revealItems = document.querySelectorAll('.reveal');
-if ('IntersectionObserver' in window) {
-  const revealObserver = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-          revealObserver.unobserve(entry.target);
-        }
-      });
-    },
-    { threshold: 0.15 }
-  );
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="stories.html">Stories</a>
+          <a href="heritage.html">Heritage</a>
+          <a href="community.html">Community</a>
+          <a href="resources.html">Resources</a>
+          <a href="annual-programme.html">Annual Programme</a>
+          <a href="global-initiatives.html">Global Initiatives</a>
+          <a href="heritage-map.html">Heritage Map</a>
+          <a href="contribute.html" class="active">Contribute</a>
+          <a href="black-history-month.html">Black History Month</a>
+        </nav>
 
-  revealItems.forEach((item) => revealObserver.observe(item));
-} else {
-  revealItems.forEach((item) => item.classList.add('visible'));
-}
+        <a class="btn btn-primary" href="community.html#join">Join the movement</a>
+      </div>
+    </header>
 
-const filterButtons = document.querySelectorAll('.filter-btn');
-const storyCards = document.querySelectorAll('.story-card');
+    <main id="main-content">
+      <section class="page-hero">
+        <div class="container narrow">
+          <p class="eyebrow">Contribute</p>
+          <h1>Share your story. Grow the archive.</h1>
+          <p>
+            We invite individuals, families, educators, organisers and cultural practitioners to contribute their experiences and expertise to this growing community archive.
+          </p>
+        </div>
+      </section>
 
-filterButtons.forEach((button) => {
-  button.addEventListener('click', () => {
-    const filter = button.dataset.filter;
+      <section class="section">
+        <div class="container two-col">
+          <div class="section-copy reveal">
+            <p class="eyebrow">Submission guide</p>
+            <h2>What we welcome</h2>
+          </div>
+          <div class="section-body reveal">
+            <ul class="check-list">
+              <li>Personal stories and family histories</li>
+              <li>Community event submissions</li>
+              <li>Educational resources and reading lists</li>
+              <li>Art, poetry, interviews and oral histories</li>
+              <li>Local heritage and diaspora reflections</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-    filterButtons.forEach((btn) => btn.classList.toggle('active', btn === button));
+      <section class="section alt">
+        <div class="container">
+          <form class="contribution-form reveal" aria-label="Contribution form">
+            <div class="field-group">
+              <label for="name">Full name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" />
+            </div>
 
-    storyCards.forEach((card) => {
-      const matches = filter === 'all' || card.dataset.category === filter;
-      card.classList.toggle('hidden', !matches);
-    });
-  });
-});
+            <div class="field-group">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" />
+            </div>
 
-const signupForm = document.querySelector('.signup-form');
-if (signupForm) {
-  signupForm.addEventListener('submit', (event) => {
-    event.preventDefault();
+            <div class="field-group">
+              <label for="organisation">Organisation or community</label>
+              <input id="organisation" name="organisation" type="text" placeholder="Community, school, group or organisation" />
+            </div>
 
-    const button = signupForm.querySelector('button');
-    if (button) {
-      const originalText = button.textContent;
-      button.textContent = 'You’re in!';
-      button.disabled = true;
+            <div class="field-group">
+              <label for="submission-type">Submission type</label>
+              <select id="submission-type" name="submission-type">
+                <option>Story</option>
+                <option>Event</option>
+                <option>Resource</option>
+                <option>Artwork</option>
+                <option>Research</option>
+              </select>
+            </div>
 
-      setTimeout(() => {
-        button.textContent = originalText;
-        button.disabled = false;
-        signupForm.reset();
-      }, 1800);
-    }
-  });
-}
+            <div class="field-group full">
+              <label for="title">Title</label>
+              <input id="title" name="title" type="text" placeholder="Your story or resource title" />
+            </div>
 
-const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-if (prefersReducedMotion) {
-  revealItems.forEach((item) => item.classList.add('visible'));
-}
+            <div class="field-group full">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" placeholder="Tell us about your submission, community, heritage, or event."></textarea>
+            </div>
 
-const activeNav = document.querySelectorAll('.main-nav a');
-const activePage = window.location.pathname.split('/').pop() || 'index.html';
-activeNav.forEach((link) => {
-  const href = link.getAttribute('href');
-  if (href === activePage) {
-    link.classList.add('active');
-  }
-});
+            <button class="btn btn-primary" type="submit">Submit contribution</button>
+          </form>
+        </div>
+      </section>
+    </main>
 
-if (document.querySelector('.main-nav a.active') === null) {
-  const homeLink = document.querySelector('.main-nav a[href="index.html"]');
-  if (homeLink) homeLink.classList.add('active');
-}
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> Black &amp; Mixed Heritage</p>
+        <p>Celebrating culture, history, heritage and diaspora worldwide.</p>
+      </div>
+    </footer>
 
-const root = document.documentElement;
-root.style.setProperty('--gold-soft', '#f6dba0');
-
-const footerText = document.querySelector('.site-footer p:last-child');
-if (footerText) {
-  footerText.setAttribute('role', 'note');
-}
-
-const focusableFooter = document.querySelector('.site-footer a');
-if (focusableFooter) {
-  focusableFooter.setAttribute('aria-label', 'Explore Black and Mixed Heritage');
-}
-
+    <script src="script.js"></script>
+  </body>
+</html>
