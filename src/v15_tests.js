@@ -1,0 +1,35 @@
+  // ---- v1.5 functional tests (D-010 to D-016) ----
+  // D-010: maps must zoom and pan by button and keyboard, and every alternative view must render with data
+  {await p.evaluate(()=>{location.hash='diaspora'});await p.waitForTimeout(200);
+   const m=await p.evaluate(async()=>{const vb0=document.querySelector('#worldSvg').getAttribute('viewBox');document.querySelector('#mb-world [data-z="in"]').click();const vb1=document.querySelector('#worldSvg').getAttribute('viewBox');
+     const s=document.querySelector('#worldSvg');s.focus();s.dispatchEvent(new KeyboardEvent('keydown',{key:'ArrowRight',bubbles:true}));const vb2=s.getAttribute('viewBox');document.querySelector('#mb-world [data-z="reset"]').click();
+     const out={zoom:vb0!==vb1,key:vb1!==vb2,reset:s.getAttribute('viewBox')===vb0,views:{}};
+     for(const [id,k,sel] of [['world','table','#alt-world tbody tr'],['world','globe','#globeSvg .dpin'],['world','regions','#alt-world .ptile'],['world','chart','#alt-world rect'],['africa','tiles','#alt-africa .aftile'],['africa','table','#alt-africa tbody tr'],['africa','chart','#alt-africa rect'],['uk','time','#alt-uk circle'],['uk','nations','#alt-uk .uktile'],['uk','table','#alt-uk tbody tr']]){MAPS[id].setView(k);out.views[id+':'+k]=document.querySelectorAll(sel).length}
+     MAPS.africa.setView('heat');out.views['africa:heat']=[...document.querySelectorAll('#afSvg .af')].filter(p=>p.style.fill).length;MAPS.africa.setView('map');
+     MAPS.world.setView('globe');const n0=window.__globe.n;document.querySelector('[data-c="120,0"]').click();const n1=window.__globe.n;out.globeTurns=window.__globe.c.lon===120;out.globeChange=n0!==n1;
+     ['world','africa','uk'].forEach(i=>MAPS[i].setView(MAPS[i].cfg.views[0].k));out.expect={world:DIASPORA.length,af:WORLD.countries.filter(c=>c.r).length,uk:PLACES.length};return out});
+   const vbad=Object.entries(m.views).filter(([k,v])=>!v);const rows=m.views['world:table']===m.expect.world&&m.views['africa:table']===m.expect.af&&m.views['uk:table']===m.expect.uk;
+   (m.zoom&&m.key&&m.reset&&!vbad.length&&rows&&m.globeTurns)?pass(`Interactive maps ${tag}`,`zoom, keyboard pan, reset, ${Object.keys(m.views).length} views, tables complete, globe turns`):fail(`Interactive maps ${tag}`,JSON.stringify(m));}
+  // D-011: the masthead shows the logo; the drawer toggle sits outside it, is visible and works
+  {await p.evaluate(()=>{location.hash='history'});await p.waitForTimeout(200);
+   const t=await p.evaluate(()=>{const b=document.querySelector('#drawerToggle');const r=b.getBoundingClientRect();const m=document.querySelector('.mast').getBoundingClientRect();const before=document.querySelector('#shell').classList.contains('closed');b.click();const after=document.querySelector('#shell').classList.contains('closed');b.click();
+     return{inMast:!!b.closest('.mast'),vis:r.width>20&&r.height>20&&r.right<=innerWidth&&r.bottom<=innerHeight,overlapsMast:r.top<m.bottom-1,toggles:before!==after,logo:!!document.querySelector('.mast #mastLogo svg'),fav:(document.querySelector('link[rel="icon"]')||{}).href||''}});
+   (!t.inMast&&t.vis&&!t.overlapsMast&&t.toggles&&t.logo&&t.fav.startsWith('data:image/svg'))?pass(`Logo, favicon and drawer toggle ${tag}`,'toggle at the drawer edge, works'):fail(`Logo, favicon and drawer toggle ${tag}`,JSON.stringify(t));}
+  // D-012: no card grid ends with a gap, on every page
+  {const gaps=[];for(const v of VIEWS){await p.evaluate(v=>{location.hash=v},v);await p.waitForTimeout(160);const g=await p.evaluate(()=>{fillGaps();return gridsComplete()});if(g.length)gaps.push(v+':'+g.join(','))}
+   gaps.length?fail(`Grids filled ${tag}`,gaps.join(' ')):pass(`Grids filled ${tag}`,`${VIEWS.length} pages, no gaps`);}
+  // D-013: AI assistant opens, falls back to search when AI is not available, and closes with Escape
+  {await p.evaluate(()=>{location.hash='overview'});const a=await p.evaluate(async()=>{document.querySelector('#aiBtn').click();const open=!document.querySelector('#aiDlg').hidden;await new Promise(r=>setTimeout(r,50));document.querySelector('#aiQ').value='Windrush';document.querySelector('#aiAsk').click();await new Promise(r=>setTimeout(r,100));const res=document.querySelectorAll('#aiOut .sres').length;
+     document.querySelector('#aiDlg').dispatchEvent(new KeyboardEvent('keydown',{key:'Escape',bubbles:true}));return{open,res,closed:document.querySelector('#aiDlg').hidden,skills:document.querySelectorAll('#aiSkills .chip').length,spec:(document.querySelector('#aiSpec')||{}).textContent.length||0}});
+   (a.open&&a.res>0&&a.closed&&a.skills>=5&&a.spec>500)?pass(`AI assistant ${tag}`,`${a.skills} skills, fallback found ${a.res} results`):fail(`AI assistant ${tag}`,JSON.stringify(a));}
+  // D-014: agentic tools act on the page and can be undone
+  if(w===1280){const g=await p.evaluate(async()=>{const T=n=>AI_TOOLS.find(t=>t.name===n);const before=document.querySelector('#pTitle').value;T('fill_poster').execute({title:'Test lunch'});const filled=document.querySelector('#pTitle').value;const undo=document.querySelector('#aiLog [data-undo]');if(undo)undo.click();const restored=document.querySelector('#pTitle').value===before;
+     const r=T('search_hub').execute({q:'Windrush'}).length;const nets=T('filter_networks').execute({nation:'Wales'}).length;document.querySelector('#nwNation').value='all';renderNetworks();let threw=false;try{T('navigate').execute({href:'javascript:alert(1)'})}catch(e){threw=true}return{filled:filled==='Test lunch',restored,r,nets,threw}});
+   (g.filled&&g.restored&&g.r>0&&g.nets>0&&g.threw)?pass(`AI page tools ${tag}`,`fill and undo, search ${g.r}, Wales networks ${g.nets}, unsafe link refused`):fail(`AI page tools ${tag}`,JSON.stringify(g));}
+  // D-015: every page that cites sources has a matching bibliography, and myths/schemes trace into the lineage
+  {const b=await p.evaluate(()=>{const r=VIEWS.filter(([id])=>id!=='assurance').map(([id])=>{const v=document.querySelector('#v-'+id);return{id,c:citedIn(v).length,l:document.querySelectorAll('#'+id+'-sources li').length}});return{bad:r.filter(x=>x.c!==x.l),pages:r.filter(x=>x.c).length,refs:r.reduce((a,x)=>a+x.l,0),lin:window.__lineage}});
+   (!b.bad.length&&b.lin&&b.lin.bad===0&&b.lin.sumTier===b.lin.items)?pass(`Bibliographies and lineage ${tag}`,`${b.pages} pages, ${b.refs} references; ${b.lin.items} items traced`):fail(`Bibliographies and lineage ${tag}`,JSON.stringify(b));}
+  // D-016: new text in diagrams must stay inside its frame
+  for(const [v,svg] of [['involve','#collabSvg'],['knowledge','#linSvg']]){await p.evaluate(v=>{location.hash=v},v);await p.waitForTimeout(200);
+    const out=await p.evaluate(sel=>{const s=document.querySelector(sel);const R=s.getBoundingClientRect();const bad=[];s.querySelectorAll('text').forEach(t=>{const b=t.getBoundingClientRect();if(!b.width)return;if(b.left<R.left-1||b.right>R.right+1||b.top<R.top-1||b.bottom>R.bottom+1)bad.push(t.textContent.slice(0,20))});return bad},svg);
+    out.length?fail(`Text inside frame ${tag} ${svg}`,out.join(' | ')):0;}

@@ -1,0 +1,43 @@
+name: "Idea or suggestion"
+description: "Suggest an improvement or new content"
+title: "[Idea] "
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: "Issues are public. Do not include names, contact details, health information or anything sensitive."
+  - type: dropdown
+    id: page
+    attributes:
+      label: "Page"
+      options:
+        - "Whole hub"
+        - "Overview"
+        - "History and arc"
+        - "Maps"
+        - "Life stages and identities"
+        - "Inequalities and action"
+        - "Benchmarks"
+        - "Culture, sport and enterprise"
+        - "Book and film club"
+        - "Learning, games and community"
+        - "Talent, leadership and research"
+        - "Help run the hub"
+        - "Dashboards"
+        - "Knowledge layer"
+        - "Review and assessment"
+        - "Other"
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: "Your idea"
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: "Who it would help and how"
+    validations:
+      required: false

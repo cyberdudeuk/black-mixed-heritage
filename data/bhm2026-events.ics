@@ -1,0 +1,233 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//BHM 2026 Hub//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Black History Month 2026 Hub
+BEGIN:VEVENT
+UID:x-leic@bhm2026-hub
+DTSTAMP:20261025T190342Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Black Classics in Concert
+LOCATION:Leicester Cathedral
+DESCRIPTION: Source: https://www.awarenessdays.com/awareness-days-calendar/black-history-month-2026/
+CATEGORIES:Public events
+END:VEVENT
+BEGIN:VEVENT
+UID:bhm@bhm2026-hub
+DTSTAMP:20261025T190342Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261101
+SUMMARY:Black History Month 2026: Honouring Our Communities
+LOCATION:UK-wide
+DESCRIPTION:The whole month of October. Source: https://www.york.ac.uk/about/equality/news-events/2026/black-history-month-2026/
+CATEGORIES:Black History Month
+END:VEVENT
+BEGIN:VEVENT
+UID:x-lboro@bhm2026-hub
+DTSTAMP:20261025T190342Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261101
+SUMMARY:Honouring Our Community exhibition
+LOCATION:Pilkington Library\, Loughborough
+DESCRIPTION: Source: https://www.lboro.ac.uk/news-events/events/black-history-month-2026-honouring-our-community-from-the-library-and-archive-.html
+CATEGORIES:Public events
+END:VEVENT
+BEGIN:VEVENT
+UID:x-reel@bhm2026-hub
+DTSTAMP:20261025T190342Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261029
+SUMMARY:Reel Histories film programme
+LOCATION:Leicester
+DESCRIPTION: Source: https://www.awarenessdays.com/awareness-days-calendar/black-history-month-2026/
+CATEGORIES:Public events
+END:VEVENT
+BEGIN:VEVENT
+UID:wk0@bhm2026-hub
+DTSTAMP:20261025T190342Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261008
+SUMMARY:Week 1: Launch
+DESCRIPTION:Leader message goes out\; Posters up\; Nominations open
+CATEGORIES:Comms plan
+END:VEVENT
+BEGIN:VEVENT
+UID:x-exe1@bhm2026-hub
+DTSTAMP:20261025T190342Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261004
+SUMMARY:Black History Month event\, University of Exeter
+LOCATION:Princess Pavilion\, Falmouth
+DESCRIPTION: Source: https://www.exeter.ac.uk/departments/inclusion/nep/events/blackhistorymonth/bhm2026/
+CATEGORIES:Public events
+END:VEVENT
+BEGIN:VEVENT
+UID:x-exe2@bhm2026-hub
+DTSTAMP:20261025T190342Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:Nubiyan Twist live
+LOCATION:Princess Pavilion\, Falmouth
+DESCRIPTION: Source: https://www.exeter.ac.uk/departments/inclusion/nep/events/blackhistorymonth/bhm2026/
+CATEGORIES:Public events
+END:VEVENT
+BEGIN:VEVENT
+UID:wk1@bhm2026-hub
+DTSTAMP:20261025T190342Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261015
+SUMMARY:Week 2: Stories
+DESCRIPTION:First community profiles\; Archive hour\; Network blog
+CATEGORIES:Comms plan
+END:VEVENT
+BEGIN:VEVENT
+UID:x-exe3@bhm2026-hub
+DTSTAMP:20261025T190342Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:University of Exeter online session
+LOCATION:Online (Microsoft Teams)
+DESCRIPTION: Source: https://www.exeter.ac.uk/departments/inclusion/nep/events/blackhistorymonth/bhm2026/
+CATEGORIES:Public events
+END:VEVENT
+BEGIN:VEVENT
+UID:x-pac@bhm2026-hub
+DTSTAMP:20261025T190342Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261022
+SUMMARY:81st anniversary of the Fifth Pan-African Congress
+LOCATION:Manchester\, 1945
+DESCRIPTION: Source: https://phm.org.uk/blogposts/africa-speaks-in-manchester-pan-africanism-manchester-and-a-collection-gem/
+CATEGORIES:Observances
+END:VEVENT
+BEGIN:VEVENT
+UID:wk2@bhm2026-hub
+DTSTAMP:20261025T190342Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261022
+SUMMARY:Week 3: Learn
+DESCRIPTION:Pan-African Congress anniversary\, 15–21 Oct\; Local history walk\; Data spotlight
+CATEGORIES:Comms plan
+END:VEVENT
+BEGIN:VEVENT
+UID:wk3@bhm2026-hub
+DTSTAMP:20261025T190342Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261101
+SUMMARY:Week 4: Honour and commit
+DESCRIPTION:Honours wall unveiled\; Listening session\; Commitments published
+CATEGORIES:Comms plan
+END:VEVENT
+BEGIN:VEVENT
+UID:x-bpd@bhm2026-hub
+DTSTAMP:20261025T190342Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Black Pound Day evening
+LOCATION:Coates Auditorium\, University of Nottingham
+DESCRIPTION: Source: https://www.nottingham.ac.uk/currentstudents/news/black-history-month-2026
+CATEGORIES:Public events
+END:VEVENT
+BEGIN:VEVENT
+UID:x-rcn@bhm2026-hub
+DTSTAMP:20261025T190342Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:RCN Eastern: Honouring Our Communities
+LOCATION:Kneesworth House Hospital and online
+DESCRIPTION: Source: https://www.rcn.org.uk/news-and-events/events/E-Black-History-Month-Event-Eastern-231026
+CATEGORIES:Public events
+END:VEVENT
+BEGIN:VEVENT
+UID:x-rgu@bhm2026-hub
+DTSTAMP:20261025T190342Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:Community Conversations
+LOCATION:Robert Gordon University\, Aberdeen
+DESCRIPTION: Source: https://www.rgu.ac.uk/black-history-month-2026
+CATEGORIES:Public events
+END:VEVENT
+BEGIN:VEVENT
+UID:p-commit@bhm2026-hub
+DTSTAMP:20261025T190342Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Publish your three commitments
+DESCRIPTION:
+CATEGORIES:Comms plan
+END:VEVENT
+BEGIN:VEVENT
+UID:m-newcross@bhm2026-hub
+DTSTAMP:20261025T190342Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:Remembering the New Cross fire (1981)
+DESCRIPTION:
+CATEGORIES:Remembrance
+END:VEVENT
+BEGIN:VEVENT
+UID:obs0@bhm2026-hub
+DTSTAMP:20261025T190342Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+SUMMARY:International Day for the Elimination of Racial Discrimination
+DESCRIPTION:UN day marking the 1960 Sharpeville massacre.
+CATEGORIES:Observances
+END:VEVENT
+BEGIN:VEVENT
+UID:obs1@bhm2026-hub
+DTSTAMP:20261025T190342Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:International Day of Remembrance of the Victims of Slavery and the Transatlantic Slave Trade
+DESCRIPTION:UN day of remembrance.
+CATEGORIES:Remembrance
+END:VEVENT
+BEGIN:VEVENT
+UID:p-review@bhm2026-hub
+DTSTAMP:20261025T190342Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:Review commitments on Stephen Lawrence Day
+DESCRIPTION:
+CATEGORIES:Comms plan
+END:VEVENT
+BEGIN:VEVENT
+UID:obs2@bhm2026-hub
+DTSTAMP:20261025T190342Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:Stephen Lawrence Day
+DESCRIPTION:Remembers Stephen Lawrence\, murdered in 1993\, and celebrates young people's potential. Source: https://itv.com/news/2018-04-23/theresa-may-sets-out-annual-stephen-lawrence-day
+CATEGORIES:Remembrance
+END:VEVENT
+BEGIN:VEVENT
+UID:obs3@bhm2026-hub
+DTSTAMP:20261025T190342Z
+DTSTART;VALUE=DATE:20270622
+DTEND;VALUE=DATE:20270623
+SUMMARY:Windrush Day
+DESCRIPTION:Marks the 1948 arrival of the Empire Windrush and the contribution of the Windrush generation.
+CATEGORIES:Observances
+END:VEVENT
+BEGIN:VEVENT
+UID:obs4@bhm2026-hub
+DTSTAMP:20261025T190342Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270802
+SUMMARY:Emancipation Day
+DESCRIPTION:Anniversary of the Slavery Abolition Act 1833 taking effect in 1834.
+CATEGORIES:Observances
+END:VEVENT
+BEGIN:VEVENT
+UID:obs5@bhm2026-hub
+DTSTAMP:20261025T190342Z
+DTSTART;VALUE=DATE:20270823
+DTEND;VALUE=DATE:20270824
+SUMMARY:International Day for the Remembrance of the Slave Trade and its Abolition
+DESCRIPTION:UNESCO day linked to the 1791 uprising in Saint-Domingue (Haiti).
+CATEGORIES:Remembrance
+END:VEVENT
+END:VCALENDAR

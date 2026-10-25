@@ -1,0 +1,42 @@
+
+<!-- AFRICA'S PEOPLES, PLACES, BORDERS AND DISPLACEMENT -->
+<div class="view" id="v-peoples" data-title="Africa's peoples, regions, borders and displacement" hidden>
+  <section class="block" id="pp-scale" data-icon="globe" data-label="The scale of diversity">
+    <div class="sechead"><span class="eyebrow">One continent, many peoples</span><h2>The scale of Africa's diversity</h2><p>Africa has about a third of the world's languages and more human genetic diversity than any other continent, and its countries were shaped by borders mostly drawn in a few decades. Counts vary by source and method; where they do, both are given. Every point links to its source.</p></div>
+    <div class="grid g4" id="ppKpi"></div>
+    <div class="grid g3 vtskip" id="ppScale"></div>
+  </section>
+  <section class="block" id="pp-regions" data-icon="map" data-label="How the regions differ">
+    <div class="sechead"><span class="eyebrow">North, Sahel, West, Central, East, Southern, the islands and the Mediterranean</span><h2>How Africa's regions differ</h2><p id="ppRegIntro"></p></div>
+    <figure class="ppmapfig" id="pp-map"><div class="filters"><label>Show a people divided by borders<select id="ppPartSel"><option value="">None</option></select></label><button type="button" class="btn" id="ppMapReset">Show all regions</button></div>
+      <svg id="ppMap" role="img" aria-labelledby="ppMapT ppMapD"><title id="ppMapT">Map of Africa by African Union region, with island states and territories and the surrounding seas</title><desc id="ppMapD">Select a country to show its region below. Island positions are approximate. The same information is in the tables on this page.</desc></svg>
+      <figcaption class="muted" id="ppMapCap">Countries coloured by African Union region. Circles mark island states (filled) and territories (outlined); positions are approximate. Select a country or a region below.</figcaption></figure>
+    <div class="grid g2 vtskip" id="ppFrame"></div>
+    <div class="chiprow" id="ppRegChips" role="group" aria-label="Region" style="display:flex;flex-wrap:wrap;gap:6px"></div>
+    <div id="ppRegion" aria-live="polite"></div>
+  </section>
+  <section class="block" id="pp-seas" data-icon="compass" data-label="Seas, oceans and islands">
+    <div class="sechead"><span class="eyebrow">Connectors as well as barriers</span><h2>The seas, oceans and islands around Africa</h2><p id="ppSeaIntro"></p></div>
+    <div class="grid g3 vtskip" id="ppSeas"></div>
+    <h3 class="lsh">Island states and territories</h3>
+    <div class="tablewrap"><table class="dt" id="ppIslands"><caption class="vh">Island states and territories around Africa</caption><thead><tr><th scope="col">Island or group</th><th scope="col">Status</th><th scope="col">Note</th><th scope="col">Sources</th></tr></thead><tbody></tbody></table></div>
+  </section>
+  <section class="block" id="pp-borders" data-icon="flag" data-label="How the borders were made">
+    <div class="sechead"><span class="eyebrow">The Scramble for Africa and after</span><h2>How Africa's borders were made, and whom they divided</h2><p id="ppBordIntro"></p></div>
+    <div class="grid g3 vtskip" id="ppBorders"></div>
+    <h3 class="lsh">Peoples divided by borders: examples</h3>
+    <div class="tablewrap"><table class="dt" id="ppPart"><caption class="vh">Examples of peoples divided by colonial borders</caption><thead><tr><th scope="col">People</th><th scope="col">Countries</th><th scope="col">Note</th><th scope="col">Sources</th></tr></thead><tbody></tbody></table></div>
+  </section>
+  <section class="block" id="pp-displacement" data-icon="route" data-label="Displacement over the centuries">
+    <div class="sechead"><span class="eyebrow">Forced movement, from the slave trades to today</span><h2>Displacement over the centuries</h2><p id="ppDispIntro"></p></div>
+    <div class="grid g3 vtskip" id="ppDisp"></div>
+  </section>
+  <section class="block" id="pp-timeline" data-icon="clock" data-label="Timeline">
+    <div class="sechead"><span class="eyebrow">In date order</span><h2>Timeline</h2></div>
+    <ol class="pptl" id="ppTime"></ol>
+  </section>
+  <section class="block" id="pp-limits" data-icon="debate" data-label="Myths and the limits of the evidence">
+    <div class="sechead"><span class="eyebrow">Arguing against ourselves</span><h2>Myths, disputes and the limits of the evidence</h2><p id="ppLimIntro"></p></div>
+    <div class="grid g2 vtskip" id="ppLimits"></div>
+  </section>
+</div>

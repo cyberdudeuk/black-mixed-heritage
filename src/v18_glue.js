@@ -1,0 +1,18 @@
+/* ================= v1.9 glue: graph, tooltips, navigation ================= */
+REQS.push({id:"R52",t:"NF",r:"Tooltips across the portal, usable by mouse and keyboard and dismissible",o:"Request 26",sat:["kp-graph","kp-az"],ver:["C80","D-029"]},
+ {id:"R53",t:"F",r:"A dynamic, fully interactive knowledge graph with network, radial, matrix, outline and table modes, plus breadcrumbs, previous and next links and an A to Z index",o:"Request 26",sat:["kp-graph","kp-az"],ver:["C81","C82","D-029"]});
+BUILD_TESTS["D-029"]="Graph search, focus, details and every mode work; tooltips show on hover and focus and close with Escape; tab sets that share one panel keep it visible";
+LLD.push(["Graph and navigation","kgBuild","renderKG","kgFocus","kgSelect","setupKG","annotateTips","showTip2","addBreadcrumbs","renderAZ"]);
+const _ctx20=ctxV15;ctxV15=function(){kgBuild();const seen=new Set(["theme:hoc"]);const q=["theme:hoc"];while(q.length){const id=q.shift();KG.adj.get(id).forEach(n=>{if(!seen.has(n)){seen.add(n);q.push(n)}})}
+  return{..._ctx20(),kg:{nodes:KG.nodes.size,edges:KG.edges.length,reach:seen.size,iso:[...KG.adj.values()].filter(s=>!s.size).length,modes:$$("#kgModes [role=tab]").length,assures:KG.edges.filter(e=>e[2]==="assures").length,storyLinks:USER_STORIES.reduce((n,x)=>n+ROUTINES.filter(r=>r.stories.includes(x.id)).length,0)},tips:tipCoverage(),nav:{views:VIEWS.length,crumbs:$$(".view > .crumbs").length,pagenav:$$(".view > .pagenav").length,az:(AZ||buildAZ()).list.length,escape:typeof hideTip2==="function"}}};
+CHECKS.push(
+ {id:"C80",n:"Navigation, contents, sources, icon buttons and badges all have tooltips",run:c=>{const r=c.tips.n?c.tips.tipped/c.tips.n:0;return{ok:c.tips.n>100&&r>=0.98&&c.tips.terms>=10,d:`${c.tips.tipped} of ${c.tips.n} controls have tooltips (${Math.round(r*100)}%); ${c.tips.terms} glossary terms explained in place`+(c.tips.missing.length&&r<0.98?"; missing: "+c.tips.missing.join(" | "):"")}},
+  breakIt:c=>{c.tips={...c.tips,tipped:Math.floor(c.tips.n*.8)};return c}},
+ {id:"C81",n:"The knowledge graph links everything on the hub and offers five views",run:c=>({ok:c.kg.nodes>=1000&&c.kg.reach===c.kg.nodes&&!c.kg.iso&&c.kg.modes===5&&c.kg.assures>0&&c.kg.assures===c.kg.storyLinks,d:`${c.kg.nodes} nodes and ${c.kg.edges} links; ${c.kg.reach} reachable from the theme; ${c.kg.iso} isolated; ${c.kg.modes} views; ${c.kg.assures} of ${c.kg.storyLinks} routine-to-story links`}),
+  breakIt:c=>{c.kg={...c.kg,reach:c.kg.reach-1};return c}},
+ {id:"C82",n:"Every page has breadcrumbs and previous and next links; the A to Z indexes everything",run:c=>({ok:c.nav.crumbs===c.nav.views&&c.nav.pagenav===c.nav.views&&c.nav.az>=800,d:`${c.nav.crumbs} of ${c.nav.views} pages with breadcrumbs, ${c.nav.pagenav} with previous and next; ${c.nav.az} entries in the A to Z`}),
+  breakIt:c=>{c.nav={...c.nav,crumbs:c.nav.crumbs-1};return c}});
+AI_TOOLS.push({name:"graph_neighbours",description:"Find a node in the hub's knowledge graph by name and list what it is linked to (pages, sources, categories, places, terms).",inputSchema:{type:"object",properties:{name:{type:"string"}},required:["name"]},
+  execute:({name})=>{kgBuild();const q=String(name||"").toLowerCase();const n=[...KG.nodes.values()].find(x=>x.l.toLowerCase()===q)||[...KG.nodes.values()].find(x=>x.l.toLowerCase().includes(q));if(!n)return{found:false};return{found:true,node:n.l,type:KG_TYPES[n.t][0],href:n.href,links:[...KG.adj.get(n.id)].slice(0,40).map(id=>({name:KG.nodes.get(id).l,type:KG_TYPES[KG.nodes.get(id).t][0]}))}}});
+AI_SKILLS.forEach(s=>{if(s.id==="ask")s.tools.push("graph_neighbours")});
+function v20Boot(){setupKG();setupAZ();addBreadcrumbs();try{renderTraceNav()}catch(e){}setupTips()}

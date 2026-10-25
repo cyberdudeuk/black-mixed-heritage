@@ -1,0 +1,44 @@
+name: "Accessibility barrier"
+description: "Something is hard or impossible to use with your setup"
+title: "[Accessibility] "
+labels: ["accessibility", "bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Issues are public. Do not include names, contact details, health information or anything sensitive."
+  - type: dropdown
+    id: page
+    attributes:
+      label: "Page"
+      options:
+        - "Whole hub"
+        - "Overview"
+        - "History and arc"
+        - "Maps"
+        - "Life stages and identities"
+        - "Inequalities and action"
+        - "Benchmarks"
+        - "Culture, sport and enterprise"
+        - "Book and film club"
+        - "Learning, games and community"
+        - "Talent, leadership and research"
+        - "Help run the hub"
+        - "Dashboards"
+        - "Knowledge layer"
+        - "Review and assessment"
+        - "Other"
+    validations:
+      required: true
+  - type: textarea
+    id: barrier
+    attributes:
+      label: "What stopped you"
+    validations:
+      required: true
+  - type: input
+    id: tech
+    attributes:
+      label: "Assistive technology, if any"
+      description: "For example, NVDA with Firefox, VoiceOver, magnifier, keyboard only"
+    validations:
+      required: false

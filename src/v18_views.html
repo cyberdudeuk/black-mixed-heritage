@@ -1,0 +1,23 @@
+<!-- REVIEW AND ASSESSMENT -->
+<div class="view" id="v-review" data-title="Review and assessment" hidden>
+  <section class="block" id="rv-summary" data-icon="scale" data-label="Scorecard">
+    <div class="sechead"><span class="eyebrow">Content, design, interaction, accessibility, evidence, architecture, engineering and more</span><h2>Review and assessment</h2><p>How the hub measures up against published standards and good practice, with live evidence, the strongest challenge for each domain and what to do next. This is a self-assessment by the builder, not an independent review: treat the scores as a starting point for one.</p></div>
+    <div id="rvSummary"></div><div class="dvstack"><div id="rvScore"></div></div>
+  </section>
+  <section class="block" id="rv-domains" data-icon="layers" data-label="By domain"><div class="sechead"><h2>By domain</h2></div><div class="grid g2" id="rvList"></div></section>
+  <section class="block" id="rv-service" data-icon="check" data-label="GDS Service Standard"><div class="sechead"><h2>Against the GDS Service Standard</h2></div><div class="tablewrap" id="rvSvc"></div></section>
+  <section class="block" id="rv-actions" data-icon="route" data-label="What to do next"><div class="sechead"><h2>What to do next</h2></div><div class="grid g3 vtskip" id="rvRecs"></div></section>
+  <section class="block" id="rv-noms" data-icon="trophy" data-label="Possible nominations"><div class="sechead"><span class="eyebrow">Awards and recognition</span><h2>Possible nominations for this hub</h2><p>Awards where this work could be entered, checked against each organiser's page on 21 October 2026. Check eligibility for work done in a personal capacity, fees, and whether an organisation must enter. <span id="rvNomCount"></span></p></div><div class="grid g3" id="rvNoms"></div></section>
+</div>
+<!-- BENCHMARKS -->
+<div class="view" id="v-bench" data-title="Benchmarks and comparisons" hidden>
+  <section class="block" id="bm-overview" data-icon="globe" data-label="Benchmarks">
+    <div class="sechead"><span class="eyebrow">UK nations, other countries, Europe, the UN and the African Union</span><h2>Benchmarks and comparisons</h2><p>How the UK compares, on figures, law, rights and practice. Comparisons across countries are rarely like for like: each one says why.</p></div>
+    <div class="filters" role="group" aria-label="Filter benchmarks"><div class="chips" id="bmChips"></div>
+      <label for="bmLevel">Level<select id="bmLevel"><option value="all">All levels</option><option value="uk-nations">UK nations</option><option value="international">Other countries</option><option value="supranational">Supranational</option></select></label>
+      <label for="bmQ">Search<input id="bmQ" type="search" placeholder="country or topic"></label><span class="resultcount" id="bmCount" aria-live="polite"></span></div>
+    <div class="grid g2" id="bmList"></div>
+  </section>
+  <section class="block" id="bm-portals" data-icon="compass2" data-label="How other portals compare"><div class="sechead"><h2>How other portals compare</h2><p>Features seen on comparable public heritage and education portals, set against this hub.</p></div><div class="tablewrap" id="bmPortals"></div></section>
+  <section class="block" id="bm-table" data-icon="table" data-label="All benchmarks as a table"><div class="sechead"><h2>All benchmarks as a table</h2></div><div class="tablewrap" id="bmTable"></div></section>
+</div>
