@@ -13,12 +13,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: No personal contact details or private links
+      - name: No personal contact details or private links in the repository
         run: |
           set +e
-          bad=$(grep -rIlE '[A-Za-z0-9._%+-]+@(gmail|hotmail|outlook|yahoo|icloud)\.[a-z.]+|claude\.ai/(code/)?artifact/' --exclude-dir=.git --exclude=teamsjs-2.56.0.min.js . )
+          bad=$(grep -rIlE '[A-Za-z0-9._%+-]+@(gmail|hotmail|outlook|yahoo|icloud)\.[a-z.]+|claude\.ai/(code/)?artifact/' --exclude-dir=.git --exclude-dir=node_modules . )
           if [ -n "$bad" ]; then echo "::error::Personal email or private link found in: $bad"; exit 1; fi
           echo "clean"
+      - name: Nothing personal inside the built pages or their embedded files
+        run: python3 tests/privacy_scan.py dist/bhm-2026-hub.html site/index.html
   selfchecks:
     runs-on: ubuntu-latest
     steps:
@@ -26,9 +28,14 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Install Playwright and Chromium
+      - name: Install dependencies and Chromium
         run: |
-          npm install --no-save playwright@1.48.2
+          npm ci || npm install --no-audit --no-fund
           npx playwright install --with-deps chromium
+      - name: The committed pages match a fresh build from src/
+        run: |
+          npm run -s build
+          npm run -s build:pages
+          git diff --stat --exit-code -- dist/bhm-2026-hub.html site/index.html || { echo "::error::dist/ or site/ is out of date: run npm run build:all and commit"; exit 1; }
       - name: Run the in-page self-checks
-        run: node tests/ci-selfcheck.mjs site/index.html dist/bhm-2026-hub.html
+        run: npm run -s test:quick

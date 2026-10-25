@@ -24,8 +24,17 @@ Made in a personal capacity. Unofficial: not published or endorsed by Black Hist
 - Sources must be read in full and triangulated: two independent sources, at least one authoritative. Wikipedia is never counted as a source.
 - The hub never classifies any person's ethnicity itself; it uses published counts only.
 
-## Build
-The page is built from `src/` by `src/patch_v15.py` and `src/build.mjs`; the Pages edition by `src/build_pages.mjs https://OWNER.github.io/REPO/ site`.
+## Build and test
+You need Node.js 20 or later and Python 3.
+```
+npm install                      # Playwright, axe-core, fonts for the tests
+npx playwright install chromium
+npm run build:all                # dist/, site/ and data/ from src/
+npm run test:quick               # all in-page self-checks, both editions, desktop and phone
+npm run check:privacy            # nothing personal in the pages or their embedded files
+npm test                         # the full suite (accessibility, layout, links); npm run test:negative injects known defects
+```
+Builds are deterministic: CI rebuilds `dist/` and `site/` and fails if the committed files differ.
 
 ## Switch on GitHub Pages
 In **Settings → Pages**, set **Source** to **GitHub Actions**. The workflow in `.github/workflows/pages.yml` then deploys `site/` on every push to `main`. GitHub Pages sites are public. See [docs/teams-and-github-pages.md](docs/teams-and-github-pages.md).

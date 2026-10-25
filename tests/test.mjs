@@ -2,9 +2,9 @@
 // Usage: node test.mjs [--negative]   (--negative injects known defects to prove the checks fail)
 import {readFileSync,writeFileSync,mkdirSync} from 'fs';
 import {createRequire} from 'module';
-const SP='/tmp/claude-0/-home-claude/85fc9058-1d74-50e0-91e4-0414f5b30b7d/scratchpad';
+const SP=new URL('..',import.meta.url).pathname.replace(/\/$/,''); // repository root: node_modules and tests/vendor
 const require=createRequire(SP+'/x.js');
-const {chromium}=require('/opt/npm-tools/node_modules/playwright');
+const {chromium}=require('playwright');
 const NEG=process.argv.includes('--negative');
 const F=SP+'/node_modules/@fontsource/';
 const ff=(fam,file,w,st='normal')=>`@font-face{font-family:'${fam}';font-style:${st};font-weight:${w};src:url(data:font/woff2;base64,${readFileSync(F+file).toString('base64')}) format('woff2')}`;
@@ -23,7 +23,7 @@ const FONTCSS=[
  ff('Atkinson Hyperlegible','atkinson-hyperlegible/files/atkinson-hyperlegible-latin-400-normal.woff2',400),
  ff('Atkinson Hyperlegible','atkinson-hyperlegible/files/atkinson-hyperlegible-latin-700-normal.woff2',700)].join('\n');
 export {FONTCSS};
-let html=readFileSync('bhm-2026-hub.html','utf8');
+let html=readFileSync(process.env.HUB_FILE||'dist/bhm-2026-hub.html','utf8');
 if(NEG){ // injected defects: each must be caught
   html=html.replace('"Honouring Our Communities",year','"Honouring Our Community",year') // C01 theme mismatch
            .replace('src:"S13",place:"westminster"','src:"S99",place:"westminster"') // C02
@@ -113,8 +113,8 @@ const results=[];const fail=(n,d)=>results.push({ok:false,n,d}),pass=(n,d)=>resu
 async function mk(width,scheme,reduced){
   const ctx=await browser.newContext({viewport:{width,height:900},colorScheme:scheme,reducedMotion:reduced?'reduce':'no-preference'});
   await ctx.route('**/*',async r=>{const u=r.request().url();
-    if(u.includes('qrcodejs'))return r.fulfill({contentType:'application/javascript',body:readFileSync(SP+'/cdn/qrcode.min.js'),headers:{'Access-Control-Allow-Origin':'*'}});
-    if(u.includes('jsbarcode'))return r.fulfill({contentType:'application/javascript',body:readFileSync(SP+'/cdn/JsBarcode.all.min.js'),headers:{'Access-Control-Allow-Origin':'*'}});
+    if(u.includes('qrcodejs'))return r.fulfill({contentType:'application/javascript',body:readFileSync(SP+'/tests/vendor/qrcode.min.js'),headers:{'Access-Control-Allow-Origin':'*'}});
+    if(u.includes('jsbarcode'))return r.fulfill({contentType:'application/javascript',body:readFileSync(SP+'/tests/vendor/JsBarcode.all.min.js'),headers:{'Access-Control-Allow-Origin':'*'}});
     if(u.includes('fonts.googleapis'))return r.fulfill({contentType:'text/css',body:FONTCSS});
     if(u.startsWith('file:'))return r.continue();
     return r.abort();});
