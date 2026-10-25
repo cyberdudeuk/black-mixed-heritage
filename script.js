@@ -117,9 +117,10 @@ button {
 .main-nav {
   display: flex;
   align-items: center;
-  gap: 1.4rem;
+  gap: 1.2rem;
   color: var(--muted);
   font-size: 0.96rem;
+  flex-wrap: wrap;
 }
 
 .main-nav a {
@@ -258,7 +259,12 @@ h2 {
 .process-card p,
 .region-card p,
 .join-card p,
-.check-list {
+.check-list,
+.focus-card p,
+.initiative-card p,
+.yearly-item p,
+.calendar-entry,
+.calendar-card span {
   color: var(--muted);
 }
 
@@ -389,7 +395,11 @@ h2 {
 .feature-grid,
 .process-grid,
 .region-grid,
-.join-grid {
+.join-grid,
+.focus-grid,
+.initiative-grid,
+.yearly-grid,
+.calendar-grid {
   display: grid;
   gap: 1.3rem;
 }
@@ -445,7 +455,11 @@ h2 {
 .resource-card,
 .join-card,
 .process-card,
-.region-card {
+.region-card,
+.focus-card,
+.initiative-card,
+.yearly-item,
+.calendar-card {
   background: rgba(17, 23, 31, 0.82);
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -484,7 +498,11 @@ h2 {
 .resource-card:hover,
 .process-card:hover,
 .region-card:hover,
-.join-card:hover {
+.join-card:hover,
+.focus-card:hover,
+.initiative-card:hover,
+.yearly-item:hover,
+.calendar-card:hover {
   transform: translateY(-3px);
   border-color: rgba(243, 198, 107, 0.4);
 }
@@ -591,7 +609,11 @@ h2 {
 }
 
 .region-grid,
-.join-grid {
+.join-grid,
+.initiative-grid,
+.yearly-grid,
+.focus-grid
+{
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
@@ -717,6 +739,82 @@ h2 {
   font-size: 0.95rem;
 }
 
+.focus-type {
+  display: inline-block;
+  margin-bottom: 0.85rem;
+  color: var(--gold-soft);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.text-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--gold-soft);
+  font-weight: 600;
+}
+
+.calendar-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.calendar-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.calendar-card span {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.7rem;
+}
+
+.calendar-card strong {
+  font-size: 1.2rem;
+}
+
+.calendar-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.calendar-entry {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 1rem;
+  padding: 1rem 1.2rem;
+  background: rgba(17, 23, 31, 0.8);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.calendar-entry span {
+  color: var(--gold-soft);
+  font-weight: 700;
+}
+
+.initiative-card a {
+  display: inline-block;
+  margin-top: 0.8rem;
+  color: var(--gold-soft);
+  font-weight: 600;
+}
+
+.yearly-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.yearly-item span {
+  display: inline-block;
+  margin-bottom: 0.8rem;
+  color: var(--gold-soft);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
 .hidden {
   display: none !important;
 }
@@ -740,17 +838,19 @@ h2 {
   .feature-grid,
   .region-grid,
   .join-grid,
+  .focus-grid,
+  .initiative-grid,
+  .yearly-grid,
   .story-grid,
-  .resource-grid {
+  .resource-grid,
+  .calendar-grid {
     grid-template-columns: 1fr 1fr;
   }
 
-  .feature-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .story-grid,
-  .resource-grid {
+  .feature-grid,
+  .focus-grid,
+  .initiative-grid,
+  .calendar-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -793,6 +893,10 @@ h2 {
   .region-grid,
   .join-grid,
   .mini-grid,
+  .focus-grid,
+  .initiative-grid,
+  .yearly-grid,
+  .calendar-grid,
   .signup-form {
     grid-template-columns: 1fr;
   }
@@ -802,7 +906,8 @@ h2 {
   }
 
   .timeline-item,
-  .event-list article {
+  .event-list article,
+  .calendar-entry {
     grid-template-columns: 1fr;
   }
 
@@ -833,3 +938,4 @@ h2 {
     transform: none;
   }
 }
+
