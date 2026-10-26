@@ -4,6 +4,7 @@ Full release notes, with what was checked for each release, are in [docs/release
 
 | Version | Date | Summary |
 |---|---|---|
+| 2.21.1 | 26 Oct 2026 | How the hub and repository describe themselves: page head (canonical, sharing card, linked data), data package, README summary, package, citation and codemeta metadata, social preview; checks that keep them in step |
 | 2.21.0 | 26 Oct 2026 | Community events into the calendar through pull requests; nomination deadlines with reminders; repository check results and source freshness on the Assurance page; sources, deadlines and release feed as open data; public volunteer form; Discussions links |
 | 2.20.0 | 25 Oct 2026 | Repository: automatic signed releases, data and licence checks, checks of the checks, website health monitoring, Scorecard, wiki and Discussions forms, operations and release-management docs, decision records; hub: Label in Name fixes (C163) and sources for observance dates |
 | 2.19.1 | 25 Oct 2026 | Keyboard access to charts redrawn after start-up (C162) |

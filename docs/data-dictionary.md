@@ -10,6 +10,7 @@ The files in `data/` are generated from the hub's own data model by `src/export.
 | `bhm2026-hub.jsonld` | JSON-LD | The hub as linked data: Schema.org types and SKOS concepts |
 | `bhm2026-sources.json` | JSON | Every source, with the date it was last read and the date it is due to be read again |
 | `bhm2026-deadlines.json` | JSON | Published award and nomination deadlines |
+| `datapackage.json` | JSON | A [Frictionless Data Package](https://specs.frictionlessdata.io/data-package/) describing every file here: title, description, format, media type, licence, and the glossary's columns |
 | `bhm2026-releases.atom` | Atom | What is new: the 30 latest releases. Add `https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-releases.atom` to a feed reader |
 
 ## `bhm2026-events.json`

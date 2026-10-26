@@ -80,6 +80,33 @@ for name, field in re.findall(r'\[\"([a-z]+\.yml)\",\"([a-z]+)\"', re.search(r'I
     linked.add(name)
     need(name in forms and re.search(rf'id:\s*{field}\b', open('.github/ISSUE_TEMPLATE/' + name, encoding='utf8').read()), f'issue form {name}: missing, or has no field "{field}" for the hub to fill in')
 need(linked <= forms, f'the hub links to issue forms that do not exist: {sorted(linked - forms)}')
+# the figures in the README's "What's inside" match the build, so the description never goes stale
+readme = open('README.md', encoding='utf8').read()
+hub = open('dist/bhm-2026-hub.html', encoding='utf8').read()
+facts = {'pages': len(set(re.findall(r'<div class="view" id="v-([a-z0-9-]+)"', hub))), 'sources': len(srcs), 'events': len(ids),
+         'terms': len(rows), 'self-checks': len(set(re.findall(r'\{id:"(C\d+)",n:', hub)))}
+pats = {'pages': r'\*\*([\d,]+)\*\* pages', 'sources': r'\*\*([\d,]+)\+?\*\* sources', 'events': r'calendar of \*\*([\d,]+)\+?\*\* events',
+        'terms': r'glossary of \*\*([\d,]+)\*\* terms', 'self-checks': r'\*\*([\d,]+)\*\* self-checks'}
+for k, rx in pats.items():
+    m = re.search(rx, readme)
+    if not m: need(False, f'README: no figure for {k}'); continue
+    n = int(m.group(1).replace(',', '')); plus = readme[m.end(1):m.end(1) + 1] == '+'
+    # "N+" is a floor (sources and events grow as community events are accepted); a bare number must be exact
+    need(facts[k] >= n if plus else facts[k] == n, f'README: {k} says {m.group(1)}{"+" if plus else ""}, the build has {facts[k]}')
+m = re.search(r'\*\*Version\*\* \| \*\*([\d.]+)\*\*', readme)
+need(m and m.group(1) == pkg_version, f'README: version says {m.group(1) if m else "nothing"}, package.json has {pkg_version}')
+# metadata files agree on the version
+need(re.search(r'^version: "' + re.escape(pkg_version) + '"$', open('CITATION.cff', encoding='utf8').read(), re.M), 'CITATION.cff: version differs from package.json')
+need(json.load(open('codemeta.json', encoding='utf8')).get('version') == pkg_version, 'codemeta.json: version differs from package.json')
+dp = json.load(open('data/datapackage.json', encoding='utf8'))
+need(dp.get('version') == pkg_version, 'datapackage.json: version differs from package.json')
+listed = {r['path'] for r in dp.get('resources', [])}
+present = {f for f in os.listdir('data') if f != 'datapackage.json'}
+need(listed == present, f'datapackage.json: lists {sorted(listed - present)} that do not exist, misses {sorted(present - listed)}')
+site_head = open('site/index.html', encoding='utf8').read(6000)
+for tag in ('rel="canonical"', 'property="og:image"', 'application/ld+json', 'name="description"'):
+    need(tag in site_head, f'site/index.html: no {tag} in the page head')
+need(os.path.isfile('site/og.png'), 'site/og.png: missing (the image shown when the link is shared)')
 # site static files
 for f in ['site/index.html', 'site/404.html', 'site/robots.txt', 'site/sitemap.xml', 'site/.well-known/security.txt']:
     need(os.path.isfile(f), f'missing {f}')

@@ -1,8 +1,39 @@
 {
   "name": "black-mixed-heritage",
-  "version": "2.21.0",
+  "version": "2.21.1",
   "private": true,
-  "description": "BHM 2026 Hub: Black and Black-Mixed history, heritage and cultures, Africa and the African diaspora. Source, build and tests.",
+  "description": "Black and Black-Mixed history, heritage and cultures, Africa and the African diaspora: an evidence-based hub for Black History Month 2026 and all year, for the UK public sector and the communities it serves. Every figure is sourced. Source, build, tests and open data.",
+  "keywords": [
+    "black-history",
+    "black-history-month",
+    "african-diaspora",
+    "africa",
+    "heritage",
+    "black-mixed",
+    "mixed-heritage",
+    "public-sector",
+    "uk",
+    "inclusion",
+    "race-equality",
+    "history",
+    "education",
+    "open-data",
+    "linked-data",
+    "accessibility",
+    "wcag",
+    "github-pages",
+    "microsoft-teams",
+    "single-file"
+  ],
+  "homepage": "https://cyberdudeuk.github.io/black-mixed-heritage/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cyberdudeuk/black-mixed-heritage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cyberdudeuk/black-mixed-heritage/issues/new/choose"
+  },
+  "author": "BHM 2026 Hub",
   "license": "MIT",
   "type": "module",
   "engines": {

@@ -1,8 +1,16 @@
 # BHM 2026 Hub: release notes and verification log
 
-Repository: https://github.com/cyberdudeuk/black-mixed-heritage. Current version: 2.21.0 (26 October 2026).
+Repository: https://github.com/cyberdudeuk/black-mixed-heritage. Current version: 2.21.1 (26 October 2026).
 
 
+
+## 2.21.1 (26 October 2026): how the hub and the repository describe themselves
+- **Website:** a fuller description; a canonical address; a card for when the link is shared (`og.png`, with alternative text); and linked data in the page head describing the website, its accessibility features and its seven open datasets, so search engines and data catalogues can find them. The sitemap now lists every open data file.
+- **Open data:** `data/datapackage.json`, a Frictionless Data Package describing every file (title, description, format, media type, licence, and the glossary's columns), generated on every build.
+- **Repository:** the README opens with *What's inside*: content, evidence, things to do, reference, open data, quality, editions and version. Fuller `package.json` (description, 20 keywords, homepage, repository, issues); `CITATION.cff` with an abstract and keywords (validated against the CFF 1.2.0 schema); new `codemeta.json`; a social preview image (`docs/assets/social-preview.png`); the wiki's home page; and the admin guide's About-box text and topics.
+- **Checks:** the data validator now fails if the README's figures differ from the build (exact for pages, terms and self-checks; a floor for sources and events, which grow as community events are accepted), if the version differs across `package.json`, `CITATION.cff`, `codemeta.json` and the data package, if the data package misses or invents a file, or if the page head loses its description, canonical address, social image or linked data.
+- **Checks of the checks are stricter:** each of the ten injected defects must now fail with its own expected message; a check that crashes, or fails for another reason, is reported as *caught for the wrong reason* and fails the run. (Building this release showed why: a broken export made several data checks crash, which the old test counted as caught.) Shown working with a deliberately wrong expected message.
+- Verified: 165/165 in-page checks on both editions; deterministic build; data, privacy, licence, intake and workflow checks clean; all ten injected defects caught, each for its own reason.
 
 ## 2.21.0 (26 October 2026): features the repository supports
 - **Calendar, community events:** a maintainer accepts an "Event for the calendar" issue by adding `status: accepted`. The **Event intake** workflow checks the details (dates written YYYY-MM-DD, not already over, an https link to the organiser's page, sensible lengths, no personal data, not added before), adds the event to `src/community-events.json`, rebuilds the hub and opens a pull request that closes the issue. If a check fails it comments with the reasons. The hub checks every community event again before showing it and uses the organiser's page as its source.
