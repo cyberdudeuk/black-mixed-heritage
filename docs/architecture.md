@@ -22,7 +22,7 @@ dist/bhm-2026-hub.html ──► src/export.mjs ──► data/ (JSON-LD, glossa
 ## Inside the page
 | Part | What it does |
 |---|---|
-| `VIEWS`, `NAV_GROUPS` | The 57 pages and the seven menus (at most nine pages each); `data/bhm2026-pages.json` lists them, and `scripts/sync_forms.py` keeps the issue forms' page lists the same |
+| `VIEWS`, `NAV_GROUPS` | The 58 pages and the seven menus (at most nine pages each); `data/bhm2026-pages.json` lists them, and `scripts/sync_forms.py` keeps the issue forms' page lists the same |
 | `SOURCES`, `SRCQ(...)` | Every source, with the quote that supports each point and the date it was read |
 | `LP` (lens pages) | Sourced points grouped into sections, with "In short" summaries and "From where you stand" vantage points |
 | `CHECKS` | Self-checks. Each has `run` (returns ok and a detail) and `breakIt` (proves the check can fail) |

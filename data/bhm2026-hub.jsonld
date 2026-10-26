@@ -8,7 +8,7 @@
       "@type": "CreativeWork",
       "@id": "urn:bhm26:hub",
       "name": "Black History Month 2026 Hub",
-      "version": "2.22.0",
+      "version": "2.23.0",
       "dateModified": "2026-10-21",
       "about": "Honouring Our Communities"
     },
@@ -24532,6 +24532,181 @@
         "https://statssa.gov.za/?p=16716",
         "https://unstats.un.org/sdgs/files/meetings/egm-data-dissaggregation/PPT21-Booysen.pdf",
         "https://resource.capetown.gov.za/documentcentre/Documents/City%20research%20reports%20and%20review/2022_Census_Cape_Town_profile.pdf"
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:bhm26:dataset-profession",
+      "name": "Your profession",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#profession",
+      "isPartOf": "urn:bhm26:hub"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pr-prdata-operational-delivery-is-over-half-the-ci",
+      "name": "Operational Delivery is over half the Civil Service",
+      "isPartOf": "urn:bhm26:dataset-profession",
+      "citation": [
+        "https://www.gov.uk/government/statistics/civil-service-statistics-2026/statistical-bulletin-civil-service-statistics-2026",
+        "https://assets.publishing.service.gov.uk/media/6a677302dbf59f1cdb3622ee/Statistical_tables_-_Civil_Service_Statistics_2026.ods"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pr-prdata-civil-service-ethnic-minority-share-at-a",
+      "name": "Civil Service ethnic minority share at a record 19.2%",
+      "isPartOf": "urn:bhm26:dataset-profession",
+      "citation": [
+        "https://www.gov.uk/government/statistics/civil-service-statistics-2026/statistical-bulletin-civil-service-statistics-2026"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pr-prdata-highest-ethnic-minority-shares-tax-debt-",
+      "name": "Highest ethnic minority shares: Tax, Debt, Legal, Economics",
+      "isPartOf": "urn:bhm26:dataset-profession",
+      "citation": [
+        "https://civil-service-statistics.jdac.service.cabinetoffice.gov.uk/data_browser_2026/Ethnicity/Profession_of_post/index.html"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pr-prdata-lowest-ethnic-minority-shares-planning-i",
+      "name": "Lowest ethnic minority shares: Planning Inspectors, Geography, Veterinarian",
+      "isPartOf": "urn:bhm26:dataset-profession",
+      "citation": [
+        "https://civil-service-statistics.jdac.service.cabinetoffice.gov.uk/data_browser_2026/Ethnicity/Profession_of_post/index.html"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pr-prdata-black-shares-by-profession-range-from-ab",
+      "name": "Black shares by profession range from about 1% to 7.9%",
+      "isPartOf": "urn:bhm26:dataset-profession",
+      "citation": [
+        "https://civil-service-statistics.jdac.service.cabinetoffice.gov.uk/data_browser_2026/Ethnicity/Profession_of_post/index.html"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pr-prdata-ethnicity-by-profession-is-in-the-data-b",
+      "name": "Ethnicity by profession is in the data browser, not the tables",
+      "isPartOf": "urn:bhm26:dataset-profession",
+      "citation": [
+        "https://assets.publishing.service.gov.uk/media/6a677302dbf59f1cdb3622ee/Statistical_tables_-_Civil_Service_Statistics_2026.ods",
+        "https://civil-service-statistics.jdac.service.cabinetoffice.gov.uk/data_browser_2026/Ethnicity/Profession_of_post/index.html"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pr-prown-policy-profession-18-1-ethnic-minority-i",
+      "name": "Policy Profession: 18.1% ethnic minority in 2021",
+      "isPartOf": "urn:bhm26:dataset-profession",
+      "citation": [
+        "https://www.gov.uk/government/statistics/summary-of-civil-servants-in-the-policy-profession-2021"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pr-prown-government-legal-department-21-7-ethnic-",
+      "name": "Government Legal Department: 21.7% ethnic minority staff",
+      "isPartOf": "urn:bhm26:dataset-profession",
+      "citation": [
+        "https://www.gov.uk/government/publications/government-legal-department-annual-report-and-accounts-2025-26"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pr-prown-government-legal-service-19-from-ethnic-",
+      "name": "Government Legal Service: 19% from ethnic minorities in 2017",
+      "isPartOf": "urn:bhm26:dataset-profession",
+      "citation": [
+        "https://www.gov.uk/government/organisations/civil-service-government-legal-service/about/statistics"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pr-prown-government-social-research-9-ethnic-mino",
+      "name": "Government Social Research: 9% ethnic minority in 2019",
+      "isPartOf": "urn:bhm26:dataset-profession",
+      "citation": [
+        "https://www.gov.uk/government/publications/gsr-diversity-and-inclusion-strategy-2021-2025"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pr-prown-analysis-function-survey-33-of-black-res",
+      "name": "Analysis Function survey: 33% of Black respondents reported discrimination",
+      "isPartOf": "urn:bhm26:dataset-profession",
+      "citation": [
+        "https://analysisfunction.civilservice.gov.uk/news/analysis-function-diversity-and-inclusion-survey-results/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pr-prown-government-economic-service-diversity-re",
+      "name": "Government Economic Service: diversity reports, no public figures",
+      "isPartOf": "urn:bhm26:dataset-profession",
+      "citation": [
+        "https://www.gov.uk/government/publications/ges-strategy-2024-2027"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pr-prdo-frontline-services-benefits-employment-p",
+      "name": "Frontline services: benefits, employment, prisons, licences",
+      "isPartOf": "urn:bhm26:dataset-profession",
+      "citation": [
+        "https://www.gov.uk/government/statistics/civil-service-statistics-2026/statistical-bulletin-civil-service-statistics-2026",
+        "https://moderncivilservice.blog.gov.uk/2025/09/30/welcome-to-the-operational-delivery-profession-delivering-excellence-every-day/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pr-prdo-300-080-people-the-largest-civil-service",
+      "name": "300,080 people: the largest Civil Service profession",
+      "isPartOf": "urn:bhm26:dataset-profession",
+      "citation": [
+        "https://assets.publishing.service.gov.uk/media/6a677302dbf59f1cdb3622ee/Statistical_tables_-_Civil_Service_Statistics_2026.ods",
+        "https://www.gov.uk/government/organisations/civil-service-operational-delivery-profession/about"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pr-prdo-concentrated-in-justice-dwp-home-office-",
+      "name": "Concentrated in Justice, DWP, Home Office and HMRC",
+      "isPartOf": "urn:bhm26:dataset-profession",
+      "citation": [
+        "https://assets.publishing.service.gov.uk/media/6a677302dbf59f1cdb3622ee/Statistical_tables_-_Civil_Service_Statistics_2026.ods"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pr-prdo-mostly-junior-grades-and-lowest-median-p",
+      "name": "Mostly junior grades and lowest median pay after Debt",
+      "isPartOf": "urn:bhm26:dataset-profession",
+      "citation": [
+        "https://www.gov.uk/government/statistics/civil-service-statistics-2026/statistical-bulletin-civil-service-statistics-2026",
+        "https://civil-service-statistics.jdac.service.cabinetoffice.gov.uk/data_browser_2026/Profession_of_post/Responsibility_level_grouped/index.html"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pr-prdo-home-to-62-of-all-black-civil-servants",
+      "name": "Home to 62% of all Black civil servants",
+      "isPartOf": "urn:bhm26:dataset-profession",
+      "citation": [
+        "https://civil-service-statistics.jdac.service.cabinetoffice.gov.uk/data_browser_2026/Ethnicity/Profession_of_post/index.html",
+        "https://civil-service-statistics.jdac.service.cabinetoffice.gov.uk/data_browser_2025/Ethnicity/Profession_of_post/index.html"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pr-prdo-a-profession-with-its-own-skills-framewo",
+      "name": "A profession with its own skills framework and routes",
+      "isPartOf": "urn:bhm26:dataset-profession",
+      "citation": [
+        "https://www.gov.uk/government/news/we-are-the-operational-delivery-profession"
       ]
     }
   ]
