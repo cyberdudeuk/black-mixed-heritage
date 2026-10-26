@@ -8,7 +8,7 @@
       "@type": "CreativeWork",
       "@id": "urn:bhm26:hub",
       "name": "Black History Month 2026 Hub",
-      "version": "2.23.0",
+      "version": "2.24.0",
       "dateModified": "2026-10-21",
       "about": "Honouring Our Communities"
     },
@@ -4209,7 +4209,7 @@
       "@id": "urn:bhm26:in-20",
       "name": "Census: Mixed groups most likely LGB+",
       "about": "LGBTQ+",
-      "description": "Census 2021 found people in Mixed or Multiple ethnic groups, which include Mixed White and Black Caribbean and Mixed White and Black African, were the most likely to identify as LGB+. Their younger age profile partly explains this.",
+      "description": "Census 2021 found people in Mixed or Multiple ethnic groups, which include Mixed White and Black Caribbean and Mixed White and Black African, were the most likely to identify as LGB+. ONS says this is likely to be related to their younger age profile.",
       "citation": [
         "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/sexuality/articles/sexualorientationfurtherpersonalcharacteristicsenglandandwales/census2021"
       ]
@@ -24707,6 +24707,241 @@
       "isPartOf": "urn:bhm26:dataset-profession",
       "citation": [
         "https://www.gov.uk/government/news/we-are-the-operational-delivery-profession"
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:bhm26:dataset-beyond",
+      "name": "Beyond government",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#beyond",
+      "isPartOf": "urn:bhm26:hub"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bg-bgemploy-ethnicity-pay-gap-reporting-is-still-vol",
+      "name": "Ethnicity pay gap reporting is still voluntary",
+      "isPartOf": "urn:bhm26:dataset-beyond",
+      "citation": [
+        "https://www.gov.uk/government/consultations/equality-race-and-disability-bill-mandatory-ethnicity-and-disability-pay-gap-reporting/outcome/consultation-on-mandatory-ethnicity-and-disability-pay-gap-reporting-government-response",
+        "https://www.gov.uk/government/publications/ethnicity-pay-reporting-guidance-for-employers/introduction-and-overview",
+        "https://fullfact.org/government-tracker/race-equality-act/",
+        "https://www.lexisnexis.co.uk/legal/news/equality-race-disability-bill-absent-from-kings-speech",
+        "https://www.linklaters.com/insights/blogs/employmentlinks/2026/march/mandatory-ethnicity-and-disability-pay-gap-reporting"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bg-bgemploy-a-black-pay-gap-may-not-show-in-publishe",
+      "name": "A Black pay gap may not show in published figures",
+      "isPartOf": "urn:bhm26:dataset-beyond",
+      "citation": [
+        "https://www.gov.uk/government/consultations/equality-race-and-disability-bill-mandatory-ethnicity-and-disability-pay-gap-reporting/outcome/consultation-on-mandatory-ethnicity-and-disability-pay-gap-reporting-government-response",
+        "https://www.gov.uk/government/publications/ethnicity-pay-reporting-guidance-for-employers/understanding-and-reporting-your-data"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bg-bgemploy-most-large-employers-already-hold-staff-",
+      "name": "Most large employers already hold staff ethnicity data",
+      "isPartOf": "urn:bhm26:dataset-beyond",
+      "citation": [
+        "https://www.gov.uk/government/consultations/equality-race-and-disability-bill-mandatory-ethnicity-and-disability-pay-gap-reporting/outcome/final-stage-impact-assessment-mandatory-ethnicity-and-disability-pay-gap-reporting-including-workforce-reporting-and-action-plans",
+        "https://hrreview.co.uk/hr-news/diversity-news/44-of-employers-voluntarily-publish-their-ethnicity-pay-gap-new-research-finds/372959"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bg-bgemploy-social-value-in-central-government-contr",
+      "name": "Social value in central government contracts",
+      "isPartOf": "urn:bhm26:dataset-beyond",
+      "citation": [
+        "https://www.gov.uk/government/publications/ppn-002-taking-account-of-social-value-in-the-award-of-contracts/procurement-policy-note-002-the-social-value-model-html",
+        "https://assets.publishing.service.gov.uk/media/67c8206b2ecc810ad1fc656b/2025-02-08_PPN_002_Guide_to_using_the_social_value_model.docx__3_.pdf",
+        "https://www.gca.gov.uk/news/what-does-the-new-social-value-model-mean-for-public-sector-procurement"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bg-bgemploy-the-equality-duty-follows-public-money-i",
+      "name": "The equality duty follows public money into contracts",
+      "isPartOf": "urn:bhm26:dataset-beyond",
+      "citation": [
+        "https://www.legislation.gov.uk/ukpga/2010/15/section/149",
+        "https://assets.publishing.service.gov.uk/media/67c8206b2ecc810ad1fc656b/2025-02-08_PPN_002_Guide_to_using_the_social_value_model.docx__3_.pdf",
+        "https://bills-api.parliament.uk/api/v1/Bills/4189"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bg-bgemploy-supplier-diversity-local-commitments-lit",
+      "name": "Supplier diversity: local commitments, little national data",
+      "isPartOf": "urn:bhm26:dataset-beyond",
+      "citation": [
+        "https://democracy.cityoflondon.gov.uk/documents/s186833/Policy%20and%20Resources%20-%20Supplier%20Diversity%20Sponsorship%20FINAL.pdf",
+        "https://resources.msduk.org.uk/hubfs/Resources/5.Minority-Businesses-Matter-FINAL.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bg-bgvol-black-trustees-3-overall-7-among-under-6",
+      "name": "Black trustees: 3% overall, 7% among under-60s",
+      "isPartOf": "urn:bhm26:dataset-beyond",
+      "citation": [
+        "https://www.gov.uk/government/publications/charity-commission-research-into-trusteeship-and-the-trustee-population/trusteeship-a-positive-opportunity-understanding-skills-experience-and-demographics-in-england-and-wales",
+        "https://www.civilsociety.co.uk/news/lack-of-diversity-and-legal-expertise-on-charity-boards-regulators-research-finds.html"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bg-bgvol-black-staff-are-3-8-of-the-voluntary-sec",
+      "name": "Black staff are 3.8% of the voluntary sector workforce",
+      "isPartOf": "urn:bhm26:dataset-beyond",
+      "citation": [
+        "https://www.ncvo.org.uk/news-and-insights/news-index/uk-civil-society-almanac-2024/workforce/who-works-in-the-voluntary-sector/",
+        "https://www.charitytimes.com/ct/Charities-less-ethnically-diverse-than-the-private-and-public-sectors-research-finds.php"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bg-bgvol-small-groups-with-thin-reserves",
+      "name": "Small groups with thin reserves",
+      "isPartOf": "urn:bhm26:dataset-beyond",
+      "citation": [
+        "https://diversityuk.org/wp-content/uploads/2020/05/Ubele-The-impact-of-Covid-19-on-the-BAME-Community.pdf",
+        "https://charitytimes.com/ct/coronavirus-nine-in-ten-bame-charities-set-to-close.php"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bg-bgvol-funding-and-commissioning-barriers-named",
+      "name": "Funding and commissioning barriers named by Black and minoritised-led groups",
+      "isPartOf": "urn:bhm26:dataset-beyond",
+      "citation": [
+        "https://ubele.org/wp-content/uploads/2021/04/Booska-Paper-2021.pdf",
+        "https://manchestercommunitycentral.org/node/46513"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bg-bgvol-black-majority-churches-and-london-churc",
+      "name": "Black majority churches and London church growth",
+      "isPartOf": "urn:bhm26:dataset-beyond",
+      "citation": [
+        "https://www.brin.ac.uk/london-churchgoing-and-other-news/",
+        "https://www.eauk.org/church/one-people-commission/stories/black-and-ethnic-christians-lead-london-church-growth.cfm",
+        "https://researchonline.lse.ac.uk/id/eprint/69662"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bg-bgvol-churches-as-partners-in-the-vaccine-roll",
+      "name": "Churches as partners in the vaccine rollout",
+      "isPartOf": "urn:bhm26:dataset-beyond",
+      "citation": [
+        "https://www.voice-online.co.uk/faith/2021/03/02/uks-black-majority-churches-want-their-congregations-to-consider-taking-the-covid-19-vaccine/",
+        "https://cte.org.uk/black-church-leaders-speak-out-in-support-of-covid-vaccine/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bg-bgfund-funder-audits-about-5-of-funding-reached",
+      "name": "Funder audits: about 5% of funding reached minority-led groups",
+      "isPartOf": "urn:bhm26:dataset-beyond",
+      "citation": [
+        "https://www.equallyours.org.uk/resources/funding-audit-current-practice-in-racial-justice-funding/",
+        "https://www.acevo.org.uk/2021/05/funding-and-racial-justice-data-driving-change/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bg-bgfund-foundations-now-publish-their-own-racial",
+      "name": "Foundations now publish their own racial equity figures",
+      "isPartOf": "urn:bhm26:dataset-beyond",
+      "citation": [
+        "https://www.phf.org.uk/assets/documents/PHF_Grant-making-review-FREA-audit-2025_AW.pdf?v=1764067777",
+        "https://esmeefairbairn.org.uk/latest-news/who-our-funding-is-reaching-2025/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bg-bgfund-national-lottery-grants-for-projects-ser",
+      "name": "National Lottery grants for projects serving Black communities",
+      "isPartOf": "urn:bhm26:dataset-beyond",
+      "citation": [
+        "https://assets.publishing.service.gov.uk/media/6890721c486754ec2887839e/National_Lottery_Community_Fund_-_Annual_Report_and_Accounts_24-25_V3.pdf",
+        "https://www.civilsociety.co.uk/news/national-lottery-community-fund-s-grants-up-by-over-80m-last-year-accounts-show.html"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bg-bgfund-the-phoenix-fund-and-phoenix-way-communi",
+      "name": "The Phoenix Fund and Phoenix Way: community-led grant-making",
+      "isPartOf": "urn:bhm26:dataset-beyond",
+      "citation": [
+        "https://www.ubele.org/our-work/the-phoenix-way",
+        "https://www.alliancemagazine.org/blog/50m-for-black-minority-communities-in-new-partnership/",
+        "https://www.charitytimes.com/ct/National-Lottery-announces-50m-partnership-to-boost-funding-for-Black-and-minority-led-charities.php"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bg-bgfund-social-investment-blended-loans-and-gran",
+      "name": "Social investment: blended loans and grants",
+      "isPartOf": "urn:bhm26:dataset-beyond",
+      "citation": [
+        "https://www.sibgroup.org.uk/fund/flexible-finance/",
+        "https://www.charitytimes.com/ct/Grants-and-loans-fund-worth-4m-launches-for-global-majority-led-charities.php"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bg-bgunion-black-employees-have-the-highest-union-m",
+      "name": "Black employees have the highest union membership rate",
+      "isPartOf": "urn:bhm26:dataset-beyond",
+      "citation": [
+        "https://www.gov.uk/government/statistics/trade-union-statistics-2025/trade-union-membership-uk-1995-to-2025-statistical-bulletin",
+        "https://assets.publishing.service.gov.uk/media/6a170add65bc5f798327f407/trade-union-membership-2025-confidence-intervals-may-2026.ods"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bg-bgunion-insecure-work-among-black-and-minority-e",
+      "name": "Insecure work among Black and minority ethnic workers",
+      "isPartOf": "urn:bhm26:dataset-beyond",
+      "citation": [
+        "https://workplacejournal.co.uk/2025/09/tuc-research-finds-4-million-people-in-insecure-work-across-the-uk/",
+        "https://www.personneltoday.com/hr/ethnic-minority-workers-insecure/",
+        "https://www.tuc.org.uk/cy/node/531535"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bg-bgunion-unions-organise-black-members-in-their-o",
+      "name": "Unions organise Black members in their own structures",
+      "isPartOf": "urn:bhm26:dataset-beyond",
+      "citation": [
+        "https://www.unison.org.uk/about/what-we-do/fairness-equality/black-members/",
+        "https://poauk.org.uk/news-events/news-room/posts/2026/july/poa-delegation-at-the-tuc-black-workers-conference-2026/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bg-bgunion-black-barristers-3-6-of-the-bar-1-2-of-k",
+      "name": "Black barristers: 3.6% of the Bar, 1.2% of KCs",
+      "isPartOf": "urn:bhm26:dataset-beyond",
+      "citation": [
+        "https://www.barstandardsboard.org.uk/asset/DD916C89%2D8287%2D442B%2DB1748C91B54B619C/",
+        "https://www.legalcheek.com/2026/04/six-in-ten-pupil-barristers-are-women-new-figures-show/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bg-bgunion-nursing-and-midwifery-a-third-from-ethni",
+      "name": "Nursing and midwifery: a third from ethnic minority backgrounds",
+      "isPartOf": "urn:bhm26:dataset-beyond",
+      "citation": [
+        "https://www.nmc.org.uk/globalassets/sitedocuments/data-reports/2026/0184ca-data-report-uk-web.pdf",
+        "https://www.nationalhealthexecutive.com/articles/diversity-soars-uk-nursing-yet-international-joiners-drop-30-whats-going"
       ]
     }
   ]

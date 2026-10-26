@@ -40,7 +40,7 @@ All of them hold the same content. Saving votes, shared ideas and the AI assista
 | Menu | Pages |
 |---|---|
 | **This month** | The 2026 theme · Calendar · Organiser toolkit · Posters · Get involved · Networks and communities · Book and film club · Remember · Food and heritage |
-| **Lead** | For leaders · Inequalities and action · Life stages and identities · Careers and development · Talent, leadership and research · Black enterprise · Young lives: NEET, BEET and CHEET · Representation across the state |
+| **Lead** | For leaders · Inequalities and action · Life stages and identities · Careers and development · Talent, leadership and research · Black enterprise · Young lives: NEET, BEET and CHEET · Representation across the state · Beyond government |
 | **Practice** | Designing for Black and Mixed-heritage people (policy, service, content and data design) · Your profession (routes into the hub for every profession and function) · Words matter: race, ethnicity and language · Benchmarks and comparisons · Dashboards · Through other lenses · The DEEIA lens |
 | **Learn** | History · Africa's knowledge and its journeys · What was taken, lost and might have been · Who built the stereotypes · Africa: patterns, symbols and languages · Innovation and invention · Frontier tech in Africa · Culture, sport and enterprise · Futures 2030 to 2100 |
 | **Understand** | What it means to be Black · Mixed heritage · The African diaspora · Africa: many cultures, many kinds of knowledge · Africa: peoples, regions, borders and displacement · DNA, genomes and African ancestry · Myths and facts · Identity, heritage and respect · Current debates |
