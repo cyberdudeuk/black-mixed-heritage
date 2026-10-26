@@ -1,6 +1,6 @@
 {
   "title": "BHM 2026 Hub pages",
-  "version": "2.22.0",
+  "version": "2.23.0",
   "generated": "2026-10-21",
   "pages": [
     {
@@ -116,6 +116,12 @@
       "title": "Designing for Black and Mixed-heritage people",
       "menu": "Practice",
       "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#designing"
+    },
+    {
+      "id": "profession",
+      "title": "Your profession",
+      "menu": "Practice",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#profession"
     },
     {
       "id": "language",

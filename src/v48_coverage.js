@@ -2,12 +2,12 @@
    Every menu held nine pages, the most the navigation allows. A seventh menu, Practice, gathers the pages people use
    when applying the hub at work (design, words, benchmarks, dashboards and the lenses), which frees room in Understand
    for the Mixed heritage page. Pages keep their addresses; only where they are listed changes. */
-const NEW22=[["designing","Designing for Black and Mixed-heritage people"],["mixed","Mixed heritage"]].filter(([id])=>typeof LP!=="undefined"&&LP[id]&&document.getElementById("v-"+id));VIEWS.push(...NEW22);const HAS22=id=>NEW22.some(v=>v[0]===id);
-(function(){const move=["designing","language","bench","dash","lenses","deeia"].filter(i=>i!=="designing"||HAS22(i));NAV_ORDER_V21.forEach(g=>{g.items=g.items.filter(i=>!move.includes(i))});
+const NEW22=[["designing","Designing for Black and Mixed-heritage people"],["mixed","Mixed heritage"],["profession","Your profession"]].filter(([id])=>typeof LP!=="undefined"&&LP[id]&&document.getElementById("v-"+id));VIEWS.push(...NEW22);const HAS22=id=>NEW22.some(v=>v[0]===id);
+(function(){const move=["designing","profession","language","bench","dash","lenses","deeia"].filter(i=>!["designing","profession"].includes(i)||HAS22(i));NAV_ORDER_V21.forEach(g=>{g.items=g.items.filter(i=>!move.includes(i))});
   const lead=NAV_ORDER_V21.findIndex(g=>g.g==="Lead");NAV_ORDER_V21.splice(lead+1,0,{g:"Practice",items:move});
   const u=NAV_ORDER_V21.find(g=>g.g==="Understand");if(HAS22("mixed"))u.items.splice(u.items.indexOf("blackness")+1,0,"mixed");applyNavV21()})();
-ACCENT_V23.Practice="prac";GROUP_ICONS.Practice="tool";VIEW_ICONS.designing="tool";VIEW_ICONS.mixed="people";
-LABEL_V21.designing="Designing for Black and Mixed-heritage people";LABEL_V21.mixed="Mixed heritage";
+ACCENT_V23.Practice="prac";GROUP_ICONS.Practice="tool";VIEW_ICONS.designing="tool";VIEW_ICONS.mixed="people";VIEW_ICONS.profession="route";
+LABEL_V21.designing="Designing for Black and Mixed-heritage people";LABEL_V21.mixed="Mixed heritage";LABEL_V21.profession="Your profession";
 NEW22.forEach(([id])=>{PK_CONTENT.push(id);RP_NEW.push(id)});
 NEW22.map(v=>v[0]).forEach(id=>DATASETS.push({k:id,n:(LP[id]||{}).name||id,ic:VIEW_ICONS[id]||"globe",arr:()=>LP[id]?lpAllPoints(LP[id]).map(x=>({...x.p,id:x.id})):[],id:x=>x.id,lab:x=>x.h,srcs:x=>x.src||[],view:({global:"diaspora",honour:"theme"})[id]||id,href:x=>"#"+x.id,out:["pages","jsonld"],chk:["C138"]}));
 RELATED_V21.push(["designing","language"],["designing","lenses"],["designing","deeia"],["designing","bench"],["mixed","blackness"],["mixed","belonging"],["mixed","language"],["mixed","younglives"]);

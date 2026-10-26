@@ -41,7 +41,7 @@ All of them hold the same content. Saving votes, shared ideas and the AI assista
 |---|---|
 | **This month** | The 2026 theme · Calendar · Organiser toolkit · Posters · Get involved · Networks and communities · Book and film club · Remember · Food and heritage |
 | **Lead** | For leaders · Inequalities and action · Life stages and identities · Careers and development · Talent, leadership and research · Black enterprise · Young lives: NEET, BEET and CHEET · Representation across the state |
-| **Practice** | Designing for Black and Mixed-heritage people (policy, service, content and data design) · Words matter: race, ethnicity and language · Benchmarks and comparisons · Dashboards · Through other lenses · The DEEIA lens |
+| **Practice** | Designing for Black and Mixed-heritage people (policy, service, content and data design) · Your profession (routes into the hub for every profession and function) · Words matter: race, ethnicity and language · Benchmarks and comparisons · Dashboards · Through other lenses · The DEEIA lens |
 | **Learn** | History · Africa's knowledge and its journeys · What was taken, lost and might have been · Who built the stereotypes · Africa: patterns, symbols and languages · Innovation and invention · Frontier tech in Africa · Culture, sport and enterprise · Futures 2030 to 2100 |
 | **Understand** | What it means to be Black · Mixed heritage · The African diaspora · Africa: many cultures, many kinds of knowledge · Africa: peoples, regions, borders and displacement · DNA, genomes and African ancestry · Myths and facts · Identity, heritage and respect · Current debates |
 | **Resources** | For schools and educators · Curriculum and reference works · Resources · Partners and archives · Brand and media · Connect and share · Questions people ask |
@@ -98,7 +98,7 @@ Go to **About → Help run the hub**.
 - Every figure links to a source that was opened and read, with the date it was read. Where possible there are two independent sources, at least one authoritative. Wikipedia is not counted as a source.
 - Disputed figures are marked, and both are shown.
 - The hub never classifies any person's ethnicity: it uses counts published by others.
-- The hub checks itself: **About → Self-checks, stories and journeys** shows 167 checks that run in your browser each time you open it, including sources, accessibility, language, privacy and coverage. Each check has a deliberate-break test proving it can fail.
+- The hub checks itself: **About → Self-checks, stories and journeys** shows 168 checks that run in your browser each time you open it, including sources, accessibility, language, privacy and coverage. Each check has a deliberate-break test proving it can fail.
 - **About → Review and assessment** and **Assurance** set out quality scores and what still needs work. The **Coverage map** on Review and assessment shows how many sourced points the hub holds for each field, design discipline, government function, Civil Service profession and part of the public sector, and what is being added next. On the website, **Assurance → Repository checks** shows the latest result of each check that runs on every change in the public repository, and **Source freshness** lists every source with the date it was last read and when it is due to be read again.
 - It is unofficial, made in a personal capacity, and not endorsed by Black History Month UK or HM Government.
 
