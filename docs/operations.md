@@ -32,7 +32,7 @@ How the hub and this repository meet their non-functional requirements, how each
 | Self-checks in the page | 165 checks run in every visitor's browser: sources, links, accessibility, language, privacy, coverage, data integrity | `npm run test:quick` at desktop and phone widths on both editions, on every pull request |
 | Checks that can fail | Every in-page check has a deliberate-break test; the CI checks have injected-defect tests | `tests/negative.sh` (every pull request) and `npm run test:negative` (before larger releases) |
 | Valid open data | Events are sourced (https), ICS and JSON agree, the glossary is complete, the linked data parses, `security.txt` has not expired, pages stay within size budgets | `tests/validate_data.py` (every pull request) |
-| Accessibility | WCAG 2.2 AA | axe-core on all 58 pages at 1280px light and 390px dark (every pull request); manual checks quarterly ([ACCESSIBILITY.md](../ACCESSIBILITY.md)) |
+| Accessibility | WCAG 2.2 AA | axe-core on all 59 pages at 1280px light and 390px dark (every pull request); manual checks quarterly ([ACCESSIBILITY.md](../ACCESSIBILITY.md)) |
 | Safe defaults | Unknown or missing data degrades to text; features that need Claude say so and offer an alternative elsewhere | Self-checks on each edition |
 | Change control | `main` is protected: pull requests only, required checks, no force pushes | Branch protection; OpenSSF Scorecard reports any weakening |
 
@@ -93,7 +93,7 @@ Private vulnerability reporting (see [SECURITY.md](../SECURITY.md)); `/.well-kno
 | Page weight | Budget 6.3 MB (website) and 6.0 MB (single file), enforced by `validate_data.py` | 4.9 MB and 4.7 MB | About 25% |
 | CI time | Accessibility job timeout 60 minutes | About 30 minutes | Split the job by page group if it grows past 45 minutes |
 | Ideas list | All open issues are read, 100 at a time, on each refresh | Few | Large; close or decline stale ideas at the monthly triage to keep the list useful |
-| Content | One document, pages loaded on demand | 58 pages | Pages draw only when opened; heavy charts draw on demand |
+| Content | One document, pages loaded on demand | 59 pages | Pages draw only when opened; heavy charts draw on demand |
 
 Rate limiting: GitHub may answer `429` under very heavy load. The hub is one request plus optional fonts, so it is unlikely to trigger this.
 
