@@ -1,0 +1,14 @@
+  <section class="block" id="su-cpd" data-icon="doc" data-label="Record your contribution">
+    <div class="sechead"><span class="eyebrow">Recognition</span><h2>Record your contribution</h2><p>Keep a note of what you do for the hub, to use in objectives, appraisals or a CPD record. Each entry can be mapped to the Civil Service Success Profiles behaviours. The record stays in this browser only: nothing is sent anywhere. Save or copy it when you need it.</p></div>
+    <form class="card" id="cpdForm" novalidate>
+      <div class="objform"><label for="cpdDate">Date<input type="date" id="cpdDate"></label><label for="cpdRole">Role<select id="cpdRole"></select></label><label for="cpdHours">Hours<input type="number" id="cpdHours" min="0.25" max="200" step="0.25" value="1"></label></div>
+      <label for="cpdWhat">What you did<input type="text" id="cpdWhat" maxlength="300" placeholder="For example: re-read five sources on the History page and corrected one date"></label>
+      <fieldset><legend>Behaviours shown (optional) <span id="cpdSrc"></span></legend><div class="ckgrid" id="cpdBeh"></div></fieldset>
+      <label for="cpdLink">Evidence link (optional: an issue, pull request or discussion in the hub's repository)<input type="url" id="cpdLink" placeholder="https://github.com/cyberdudeuk/black-mixed-heritage/issues/12"></label>
+      <div class="btnrow"><button class="btn solid" type="submit">Add the entry</button></div>
+      <p id="cpdState" class="muted" role="status"></p>
+    </form>
+    <h3>Your record</h3>
+    <ul id="cpdList"></ul><p id="cpdTotal" class="muted" role="status"></p>
+    <div class="btnrow"><button class="btn" type="button" id="cpdDownload">Save as a text file</button><button class="btn" type="button" id="cpdCopy">Copy</button><button class="btn" type="button" id="cpdClear">Clear the record</button></div>
+  </section>

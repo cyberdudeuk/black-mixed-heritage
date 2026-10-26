@@ -10,6 +10,7 @@ jobs:
   open:
     runs-on: ubuntu-latest
     permissions:
+      contents: read # checkout, and release download counts
       issues: write
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -46,5 +47,14 @@ jobs:
               due.slice(0, 25).forEach(s => body.push(`- [ ] ${s.id}: [${String(s.title).replace(/[\[\]]/g, '')}](${s.url}), due ${s.due || 'now (no read date)'}`));
               if (due.length > 25) body.push(`- …and ${due.length - 25} more`);
             } catch (e) { body.push('', '(The list of sources could not be read: ' + e.message + ')'); }
+            // reach, counted without tracking anyone: downloads of release files, and ideas, events and volunteers raised on GitHub
+            try {
+              const rel = await github.paginate(github.rest.repos.listReleases, { ...context.repo, per_page: 100 });
+              const dl = rel.reduce((s, r) => s + r.assets.reduce((t, a) => t + a.download_count, 0), 0);
+              const since = new Date(Date.now() - 31 * 864e5).toISOString();
+              const recent = await github.paginate(github.rest.issues.listForRepo, { ...context.repo, state: 'all', since, per_page: 100 });
+              const n = l => recent.filter(i => !i.pull_request && Date.parse(i.created_at) >= Date.parse(since) && i.labels.some(x => (x.name || x) === l)).length;
+              body.push('', '### Reach this month (no tracking: counts only)', `- Release file downloads, all time: ${dl}`, `- New ideas and wishes: ${n('idea') + n('wishlist')}; events suggested: ${n('event')}; volunteers: ${n('volunteer')}; corrections: ${n('correction')}`, '- Website visits: see Insights → Traffic (visible to the owner only).');
+            } catch (e) { body.push('', '(Reach figures could not be read: ' + e.message + ')'); }
             const text = body.join('\n');
             await github.rest.issues.create({ ...context.repo, title, body: text, labels: ['routine'] });

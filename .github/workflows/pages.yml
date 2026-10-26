@@ -27,8 +27,8 @@ concurrency:
   cancel-in-progress: false
 jobs:
   build:
-    # issue events only matter for ideas and wishes
-    if: github.event_name != 'issues' || contains(join(github.event.issue.labels.*.name, ','), 'idea') || contains(join(github.event.issue.labels.*.name, ','), 'wishlist') || github.event.action == 'unlabeled' || github.event.action == 'deleted'
+    # issue events only matter for ideas and wishes, and for anything marked done
+    if: "github.event_name != 'issues' || contains(join(github.event.issue.labels.*.name, ','), 'idea') || contains(join(github.event.issue.labels.*.name, ','), 'wishlist') || contains(join(github.event.issue.labels.*.name, ','), 'status: done') || github.event.action == 'unlabeled' || github.event.action == 'deleted'"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -53,6 +53,8 @@ jobs:
             const issues = await github.paginate(github.rest.issues.listForRepo, {
               owner: context.repo.owner, repo: context.repo.repo, state: 'open', per_page: 100
             });
+            // the same patterns as issue-triage.yml, applied here too: triage runs at the same time and its label does not start a new deploy
+            const PII = [/[\w.+-]+@[\w-]+\.[\w.-]+/, /(?:\+44\s?|\b0)(?:\d[\s-]?){9,10}\b/, /\b[A-CEGHJ-PR-TW-Z]{2}\s?\d{2}\s?\d{2}\s?\d{2}\s?[A-D]\b/i];
             const items = [];
             for (const i of issues) {
               if (i.pull_request) continue;
@@ -60,8 +62,6 @@ jobs:
               const isWish = labels.includes('wishlist');
               if (!isWish && !labels.includes('idea')) continue;
               if (labels.includes('needs-redaction')) continue; // never republish an issue that may hold personal data
-              // the same patterns as issue-triage.yml, applied here too: triage runs at the same time and its label does not start a new deploy
-              const PII = [/[\w.+-]+@[\w-]+\.[\w.-]+/, /(?:\+44\s?|\b0)(?:\d[\s-]?){9,10}\b/, /\b[A-CEGHJ-PR-TW-Z]{2}\s?\d{2}\s?\d{2}\s?\d{2}\s?[A-D]\b/i];
               if (PII.some(rx => rx.test(i.title + '\n' + (i.body || '')))) continue;
               const st = (labels.find(l => l.startsWith('status: ')) || '').slice(8);
               const page = ((i.body || '').match(/###\s*Page\s*\n+\s*(.+)/) || [])[1] || '';
@@ -77,8 +77,23 @@ jobs:
                 page: page === '_No response_' ? '' : page.trim().slice(0, 80)
               });
             }
-            fs.writeFileSync('_site/ideas.json', JSON.stringify({ generated: new Date().toISOString(), repo: context.repo.owner + '/' + context.repo.repo, items }, null, 1));
-            core.info(`ideas.json: ${items.length} items`);
+            // "You said, we did": closed suggestions labelled "status: done" (titles, kind and date only), shown on Help run the hub
+            const TYPES = { idea: 'idea', wishlist: 'wish', correction: 'correction', bug: 'bug', accessibility: 'accessibility' };
+            const closed = await github.paginate(github.rest.issues.listForRepo, {
+              owner: context.repo.owner, repo: context.repo.repo, state: 'closed', labels: 'status: done', per_page: 100
+            });
+            const done = [];
+            for (const i of closed) {
+              if (i.pull_request) continue;
+              const labels = i.labels.map(l => (typeof l === 'string' ? l : l.name));
+              if (labels.includes('needs-redaction')) continue;
+              const type = Object.keys(TYPES).find(k => labels.includes(k));
+              if (!type) continue;
+              if (PII.some(rx => rx.test(i.title))) continue;
+              done.push({ n: i.number, url: i.html_url, title: i.title.replace(/^\[[A-Za-z ]+\]\s*/, '').slice(0, 140), type: TYPES[type], closed: (i.closed_at || '').slice(0, 10) });
+            }
+            fs.writeFileSync('_site/ideas.json', JSON.stringify({ generated: new Date().toISOString(), repo: context.repo.owner + '/' + context.repo.repo, items, done }, null, 1));
+            core.info(`ideas.json: ${items.length} open items, ${done.length} done`);
       - name: Publish the latest repository check results
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         with:

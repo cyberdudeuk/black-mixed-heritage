@@ -107,6 +107,24 @@ site_head = open('site/index.html', encoding='utf8').read(6000)
 for tag in ('rel="canonical"', 'property="og:image"', 'application/ld+json', 'name="description"'):
     need(tag in site_head, f'site/index.html: no {tag} in the page head')
 need(os.path.isfile('site/og.png'), 'site/og.png: missing (the image shown when the link is shared)')
+# contributors named by their own choice (src/contributors.json): GitHub-style names or "Anonymous", known roles, nothing else
+ROLES = set(re.findall(r'\{id:"([a-z0-9]+)",n:"', open('src/v19_sustain.js', encoding='utf8').read() + open('src/v47_community.js', encoding='utf8').read())) | {'code', 'content', 'review', 'translation', 'design'}
+co = json.load(open('src/contributors.json', encoding='utf8'))
+need(isinstance(co, list), 'contributors.json: not a list')
+for x in co if isinstance(co, list) else []:
+    nm = str(x.get('name', ''))
+    need(nm == 'Anonymous' or re.fullmatch(r'[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?', nm), f'contributors.json: "{nm[:40]}" is not a GitHub name or "Anonymous"')
+    need(isinstance(x.get('roles'), list) and 0 < len(x['roles']) <= 6 and set(x['roles']) <= ROLES, f'contributors.json {nm[:40]}: roles must be one to six known roles')
+    need(set(x) <= {'name', 'roles', 'since'}, f'contributors.json {nm[:40]}: only name, roles and since are allowed')
+    need(not x.get('since') or re.fullmatch(r'\d{4}-\d{2}', str(x['since'])), f'contributors.json {nm[:40]}: since must be YYYY-MM')
+# every page is listed, in menu order and spelt as in the menus, in the issue forms the hub prefills
+sys.path.insert(0, 'scripts')
+import sync_forms
+pg = json.load(open('data/bhm2026-pages.json', encoding='utf8')).get('pages', [])
+need(len(pg) == facts['pages'], f"pages.json lists {len(pg)} pages, the hub has {facts['pages']}")
+want = sync_forms.expected()
+for f, _t, m in sync_forms.forms():
+    need(sync_forms.current(m) == want, f'{f}: the Page list differs from the hub\'s pages; run python3 scripts/sync_forms.py')
 # site static files
 for f in ['site/index.html', 'site/404.html', 'site/robots.txt', 'site/sitemap.xml', 'site/.well-known/security.txt']:
     need(os.path.isfile(f), f'missing {f}')

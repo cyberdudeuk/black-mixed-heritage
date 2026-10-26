@@ -37,5 +37,22 @@ The full suite (`npm test`, about an hour) runs every page at several widths and
 - `main` is protected: the Checks workflow must pass and a maintainer reviews every pull request.
 - If users will notice the change, add a line to `docs/release-notes.md`.
 
+## Being thanked
+Contributors are named on the hub's **Help run the hub → Thanks, and what changed** only if they choose to be.
+
+1. In a pull request, add yourself to `src/contributors.json`:
+   ```json
+   [
+    {"name": "your-github-username", "roles": ["checker"], "since": "2026-10"}
+   ]
+   ```
+   Use `"name": "Anonymous"` to be counted without being named. `roles` takes one to six of: `owner`, `deputy`, `steward`, `checker`, `a11y`, `community`, `data`, `eng`, `events`, `nations`, `learning`, `comms`, `sponsor`, `champions`, `panels`, `code`, `content`, `review`, `translation`, `design`. `since` is the month you started (YYYY-MM, optional).
+2. Add nothing else about yourself: no real name unless it is your GitHub name, no employer, no contact details.
+3. To be removed, open a pull request deleting your line, or ask in an issue; it is removed at the next release.
+
+The hub checks each entry before showing it (C166), and `tests/validate_data.py` checks the file on every pull request.
+
+To keep a record of what you have done for objectives, appraisals or CPD, use **Record your contribution** on the same page. It stays in your browser.
+
 ## Licence
 By contributing you agree that code is licensed under MIT and text and data under CC BY 4.0, as set out in `LICENSE` and `LICENSE-CONTENT.md`.
