@@ -103,6 +103,29 @@ need(dp.get('version') == pkg_version, 'datapackage.json: version differs from p
 listed = {r['path'] for r in dp.get('resources', [])}
 present = {f for f in os.listdir('data') if f != 'datapackage.json'}
 need(listed == present, f'datapackage.json: lists {sorted(listed - present)} that do not exist, misses {sorted(present - listed)}')
+# 2.25.0: every item as open data, what changed, the API description and the catalogue agree with each other
+pts = json.load(open('data/bhm2026-points.json', encoding='utf8'))
+need(pts.get('version') == pkg_version, 'bhm2026-points.json: version differs from package.json')
+keys = [p.get('key') for p in pts.get('points', [])]
+need(len(keys) > 1000 and len(keys) == pts.get('count'), f'bhm2026-points.json: {len(keys)} items, count says {pts.get("count")}')
+dup = sorted({k for k in keys if keys.count(k) > 1}) if len(keys) < 20000 else []
+need(not dup, f'bhm2026-points.json: duplicate keys {dup[:3]}')
+for p in pts.get('points', []):
+    if not (p.get('key') and re.fullmatch(r'[0-9a-f]{8}', str(p.get('hash', ''))) and str(p.get('url', '')).startswith('https://')):
+        need(False, f'bhm2026-points.json: item {str(p.get("key"))[:60]} lacks a key, fingerprint or https address'); break
+    if any(not str(s.get('url', '')).startswith('https://') for s in p.get('sources', [])):
+        need(False, f'bhm2026-points.json: item {p["key"][:60]} has a source without an https link'); break
+ch = json.load(open('data/bhm2026-changes.json', encoding='utf8'))
+base = pts.get('baseline') or {}
+need(ch.get('version') == pkg_version and ch.get('base') == base.get('version'), 'bhm2026-changes.json: version or base differs from the points file')
+need(base.get('version') != pkg_version, 'bhm2026-points.json: compared with its own version, so nothing would show as changed')
+kset = set(keys)
+need({c['key'] for c in ch.get('added', []) + ch.get('changed', [])} <= kset, 'bhm2026-changes.json: lists an item that is not in the points file')
+oa = json.load(open('data/openapi.json', encoding='utf8'))
+need(oa.get('openapi', '').startswith('3.1') and oa.get('info', {}).get('version') == pkg_version, 'openapi.json: not OpenAPI 3.1 or version differs')
+need({'/data/' + r['path'] for r in dp.get('resources', [])} <= set(oa.get('paths', {})), 'openapi.json: a data file has no path')
+cat = json.load(open('data/catalog.jsonld', encoding='utf8'))
+need(cat.get('@type') == 'dcat:Catalog' and len(cat.get('dcat:dataset', [])) == len(dp.get('resources', [])) - 2, 'catalog.jsonld: not a DCAT catalogue of every dataset')
 site_head = open('site/index.html', encoding='utf8').read().split('</head>')[0]
 for tag in ('rel="canonical"', 'property="og:image"', 'application/ld+json', 'name="description"'):
     need(tag in site_head, f'site/index.html: no {tag} in the page head')

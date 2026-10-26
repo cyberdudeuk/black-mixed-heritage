@@ -13,6 +13,10 @@ The files in `data/` are generated from the hub's own data model by `src/export.
 | `bhm2026-pages.json` | JSON | Every page: `id`, `title` (as in the menus), `menu` and `url`. The issue forms' page lists are generated from it |
 | `datapackage.json` | JSON | A [Frictionless Data Package](https://specs.frictionlessdata.io/data-package/) describing every file here: title, description, format, media type, licence, and the glossary's columns |
 | `bhm2026-releases.atom` | Atom | What is new: the 30 latest releases. Add `https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-releases.atom` to a feed reader |
+| `bhm2026-points.json` | JSON | Every item and sourced point the hub publishes, with its sources (see below) |
+| `bhm2026-changes.json` | JSON | Items added, changed or removed since the previous release |
+| `openapi.json` | JSON | An [OpenAPI 3.1](https://spec.openapis.org/oas/v3.1.0) description of these files as a read-only API (no key or sign-in) |
+| `catalog.jsonld` | JSON-LD | A [DCAT](https://www.w3.org/TR/vocab-dcat-3/) catalogue of the datasets, for data catalogues to harvest |
 
 ## `bhm2026-events.json`
 | Field | Type | Meaning |
@@ -27,6 +31,18 @@ The files in `data/` are generated from the hub's own data model by `src/export.
 | `events[].source` | object | `id`, `title` and `url` of the source the event was checked against |
 
 In the calendar, events of type "Nomination deadlines" carry two reminders (`VALARM`, 14 days and 2 days before), which subscribed calendars show as alerts. Events with an `id` starting `c-` were suggested by the community on GitHub; their source is the organiser's page.
+
+## `bhm2026-points.json`
+| Field | Type | Meaning |
+|---|---|---|
+| `points[].key` | string | Stable key, `dataset:id`, unique across the file |
+| `points[].id` | string | The item's anchor on the website; `url` is the full address |
+| `points[].dataset`, `datasetTitle`, `page` | string | The dataset it belongs to and the page that shows it |
+| `points[].heading`, `text`, `figure`, `year`, `note` | string | What the hub says; empty where the item has no such field |
+| `points[].disputed` | boolean | Whether the sources disagree or the figure is uncertain |
+| `points[].sources[]` | object | `id` (where the source is in `bhm2026-sources.json`), `title`, `url` |
+| `points[].hash` | string | Fingerprint of heading, text, figure, note and source links, used to find changes between releases |
+| `baseline` | object | The previous release's version and fingerprints, which `bhm2026-changes.json` is measured against |
 
 ## `bhm2026-sources.json`
 | Field | Type | Meaning |

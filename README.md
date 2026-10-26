@@ -26,15 +26,15 @@ Made in a personal capacity. Unofficial: not published or endorsed by Black Hist
 | **Evidence** | **2,700+** sources, each with the date it was read and when it is due to be read again; two independent sources where possible, at least one authoritative; Wikipedia never counted; disputed figures show both sides; nobody's ethnicity is ever classified by the hub |
 | **Things to do** | A calendar of **25+** events (observances, remembrance, public events, nomination deadlines with reminders) to subscribe to; an organiser toolkit; posters; templates; a book and film club; nomination routes; quizzes and games; guided tours; search; dashboards; a knowledge graph |
 | **Reference** | A glossary of **54** terms; a curriculum and reference works; partners and archives; benchmarks against other countries |
-| **Open data** | Calendar (ICS, JSON), glossary (CSV), the whole hub as linked data (JSON-LD), sources, nomination deadlines and a release feed, described by a [data package](data/datapackage.json); see the [data dictionary](docs/data-dictionary.md) |
-| **Quality** | **168** self-checks run in every visitor's browser, each proven able to fail; WCAG 2.2 AA, with axe-core on every page at desktop and phone widths in CI; no personal data, cookies or tracking |
+| **Open data** | Calendar (ICS, JSON), glossary (CSV), the whole hub as linked data (JSON-LD), sources, nomination deadlines, a release feed, and every item and sourced point with what changed since the last release, described by a [data package](data/datapackage.json), an [OpenAPI description](data/openapi.json) and a [DCAT catalogue](data/catalog.jsonld); see the [data dictionary](docs/data-dictionary.md) |
+| **Quality** | **169** self-checks run in every visitor's browser, each proven able to fail; WCAG 2.2 AA, with axe-core on every page at desktop and phone widths in CI; no personal data, cookies or tracking |
 | **Editions** | Website (GitHub Pages), one self-contained file that works offline, a Microsoft Teams tab, and inside Claude (where club votes and the shared ideas box are saved) |
-| **Version** | **2.24.0**: see the [release notes](docs/release-notes.md) and the [releases](https://github.com/cyberdudeuk/black-mixed-heritage/releases) |
+| **Version** | **2.25.0**: see the [release notes](docs/release-notes.md) and the [releases](https://github.com/cyberdudeuk/black-mixed-heritage/releases) |
 
 ## Use it
 - **Website (GitHub Pages):** https://cyberdudeuk.github.io/black-mixed-heritage/ (see [docs/teams-and-github-pages.md](docs/teams-and-github-pages.md)).
 - **Single file:** `dist/bhm-2026-hub.html` (also attached to each [release](https://github.com/cyberdudeuk/black-mixed-heritage/releases/latest), with checksums and a signed build attestation) is the whole hub in one self-contained page; it works offline with system fonts (the web fonts, QR codes and barcodes need a connection).
-- **Open data:** `data/` holds JSON-LD (Schema.org and SKOS), a glossary CSV, the events calendar as JSON and ICS (with deadline reminders), every source with its read and re-read dates, nomination deadlines, and a release feed (Atom).
+- **Open data:** `data/` holds JSON-LD (Schema.org and SKOS), a glossary CSV, the events calendar as JSON and ICS (with deadline reminders), every source with its read and re-read dates, nomination deadlines, a release feed (Atom), every item and sourced point (`bhm2026-points.json`) with what changed since the last release, an OpenAPI 3.1 description and a DCAT catalogue. Every point on the website can be cited, linked to or corrected from its card.
 - **Microsoft Teams:** `teams/bhm-hub-teams-app-1.1.0.zip` shows the hub as a Teams tab.
 
 ## Help
@@ -45,7 +45,7 @@ Made in a personal capacity. Unofficial: not published or endorsed by Black Hist
 - Read `CONTRIBUTING.md` before opening a pull request.
 
 ## How it is checked
-- 168 self-checks run in every visitor's browser (sources, accessibility, language, privacy, coverage, links, injected script); each has a deliberate-break test that proves it can fail.
+- 169 self-checks run in every visitor's browser (sources, accessibility, language, privacy, coverage, links, injected script); each has a deliberate-break test that proves it can fail.
 - Open data, website files, size budgets and third-party licences are validated on every pull request, and `tests/negative.sh` injects known defects to prove each CI check fails when it should.
 - Playwright and axe-core tests run at desktop and phone widths in light and dark modes (`tests/test.mjs`), including a negative run that injects known defects.
 - Sources must be read in full and triangulated: two independent sources, at least one authoritative. Wikipedia is never counted as a source.

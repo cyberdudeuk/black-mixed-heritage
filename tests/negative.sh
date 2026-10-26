@@ -80,5 +80,13 @@ sed -i '/        - "Mixed heritage"/d' "$T/pl-repo/.github/ISSUE_TEMPLATE/bug.ym
 grep -q '"Mixed heritage"' "$T/pl-repo/.github/ISSUE_TEMPLATE/bug.yml" && { echo "injection 11 did not apply"; exit 2; }
 expect_fail "data validation on an issue form missing a page" "bug.yml: the Page list differs" bash -c "cd '$T/pl-repo' && python3 tests/validate_data.py"
 
+# 12. data validation: two items in the open data share a key
+mkdir -p "$T/pt-repo"; cp -r data site dist tests src scripts package.json .github README.md CITATION.cff codemeta.json "$T/pt-repo/"
+python3 - "$T/pt-repo/data/bhm2026-points.json" <<'PY'
+import json, sys
+f = sys.argv[1]; d = json.load(open(f)); d['points'][1]['key'] = d['points'][0]['key']; json.dump(d, open(f, 'w'))
+PY
+expect_fail "data validation on a duplicate key in the open data" "duplicate keys" bash -c "cd '$T/pt-repo' && python3 tests/validate_data.py"
+
 if [ "$fails" -gt 0 ]; then echo "$fails check(s) did not catch their defect"; exit 1; fi
 echo "all injected defects were caught"
