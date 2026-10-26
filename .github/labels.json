@@ -118,5 +118,10 @@
   "name": "release",
   "color": "0e8a16",
   "description": "Release planning and publishing"
+ },
+ {
+  "name": "deadline",
+  "color": "d4c5f9",
+  "description": "An award or nomination deadline is coming up"
  }
 ]

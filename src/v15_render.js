@@ -65,7 +65,7 @@ function renderCareers(){
     return `<article class="card scard2" id="${s.id}" ${v?"":"hidden"}><div class="mhead">${icon(s.focus==="framework"?"shield":s.focus==="targeted"?"star":"briefcase")}<h3>${esc(s.n)}</h3></div>
     <div class="tags"><span class="tag">${esc(s.sec)}</span><span class="tag">${esc(s.stage)}</span><span class="tag st-${s.st}">${SC_STATUS[s.st]} · checked ${META.reviewed}</span><span class="tag">${esc(SC_FOCUS[s.focus])}</span></div>
     <dl><dt>Who it is for</dt><dd>${esc(s.who)}</dd><dt>What it offers</dt><dd>${esc(s.what)}</dd>${s.note?`<dt>Note</dt><dd>${esc(s.note)}</dd>`:""}</dl>
-    <div class="tags"><a class="tag" href="${s.u}" target="_blank" rel="noopener">${icon("link")} Official page</a>${s.src.map(evTag).join("")}<button type="button" class="tag" data-trace="schemes:${s.id}" style="cursor:pointer">${icon("branch")} Trace</button></div></article>`}).join("");
+    <div class="tags"><a class="tag" href="${esc(s.u)}" target="_blank" rel="noopener">${icon("link")} Official page</a>${s.src.map(evTag).join("")}<button type="button" class="tag" data-trace="schemes:${s.id}" style="cursor:pointer">${icon("branch")} Trace</button></div></article>`}).join("");
   $("#scCount").textContent=`${n} of ${SCHEMES.length} schemes`;bindTrace($("#schemes"));buildDrawerCounts();scheduleFill()}
 
 /* ================= v1.5: LINEAGE AND TRACEABILITY ================= */

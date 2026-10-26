@@ -5,33 +5,50 @@ labels: ["event"]
 body:
   - type: markdown
     attributes:
-      value: "Issues are public. Do not include names of private individuals, contact details or anything sensitive. Organisers' public event pages are welcome."
+      value: |
+        Issues are public. Do not include names of private individuals, contact details or anything sensitive. Organisers' public event pages are welcome.
+        When a maintainer accepts the event, a workflow opens a pull request that adds it to the calendar, using the details below exactly as written, so please check them.
   - type: input
     id: what
     attributes:
       label: "Event or day"
+      description: "The name as the organiser gives it, up to 120 characters"
     validations:
       required: true
   - type: input
-    id: when
+    id: start
     attributes:
-      label: "Date or dates"
-      description: "For example 1 August, or 3 to 5 October 2027"
+      label: "Start date"
+      description: "As YYYY-MM-DD, for example 2027-02-06"
+      placeholder: "2027-02-06"
     validations:
       required: true
+  - type: input
+    id: end
+    attributes:
+      label: "End date"
+      description: "As YYYY-MM-DD; leave empty for a one-day event"
+      placeholder: "2027-02-06"
   - type: input
     id: where
     attributes:
       label: "Where"
-      description: "Town or city, online, or nationwide"
+      description: "Town or city, online, or nationwide (up to 80 characters). Not a street address or postcode"
   - type: input
     id: source
     attributes:
       label: "Public link"
-      description: "The organiser's page or an official source"
+      description: "The organiser's page or an official source, starting https://"
     validations:
       required: true
   - type: textarea
     id: why
     attributes:
       label: "Why it belongs in the calendar"
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: "Privacy"
+      options:
+        - label: "My suggestion holds no personal or sensitive information"
+          required: true

@@ -142,7 +142,7 @@ function initCalendar(){$("#calPrev").addEventListener("click",()=>{calMonth=new
 function renderNetworks(){if(!$("#nwSector").options.length)$("#nwSector").innerHTML=`<option value="all">All sectors</option>`+[...new Set(NETWORKS.map(n=>n.sec))].sort().map(s=>`<option>${s}</option>`).join("");
   const sc=$("#nwSector").value,na=$("#nwNation").value,q=$("#nwQ").value.trim().toLowerCase();
   const list=NETWORKS.filter(n=>(sc==="all"||n.sec===sc)&&(na==="all"||n.na===na||n.na==="UK-wide")&&(!q||(n.n+" "+n.d+" "+n.sec+" "+n.na).toLowerCase().includes(q))).sort((a,b)=>a.sec.localeCompare(b.sec)||a.n.localeCompare(b.n));
-  $("#networks").innerHTML=list.map(n=>`<article class="card ncard"><span class="mono muted">${esc(n.sec)} · ${esc(n.na)}</span><h3><a href="${n.u}" target="_blank" rel="noopener">${esc(n.n)}</a></h3><p>${esc(n.d)}</p><div class="tags"><span class="tag">${esc(n.ty)}</span>${n.src?evTag(n.src):'<span class="tag ref">Address not checked this edition</span>'}</div></article>`).join("")||"<p>No groups match. Try All sectors or a shorter search.</p>";
+  $("#networks").innerHTML=list.map(n=>`<article class="card ncard"><span class="mono muted">${esc(n.sec)} · ${esc(n.na)}</span><h3><a href="${esc(n.u)}" target="_blank" rel="noopener">${esc(n.n)}</a></h3><p>${esc(n.d)}</p><div class="tags"><span class="tag">${esc(n.ty)}</span>${n.src?evTag(n.src):'<span class="tag ref">Address not checked this edition</span>'}</div></article>`).join("")||"<p>No groups match. Try All sectors or a shorter search.</p>";
   $("#nwCount").textContent=`${list.length} of ${NETWORKS.length}`;buildDrawerCounts()}
 
 /* ---------- connect ---------- */

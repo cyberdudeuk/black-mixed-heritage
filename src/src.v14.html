@@ -2181,7 +2181,7 @@ function renderOverview(){
 /* ================= EVIDENCE TIERS ================= */
 /* src = read in full this edition; loc = source located, not read in full; ref = reference history, not checked */
 function tier(id){if(!id)return"ref";const s=SOURCES[id];if(!s)return"unknown";return s.loc?"loc":"src"}
-function evTag(id){const s=SOURCES[id];if(!s)return `<span class="tag ref">Unknown source ${esc(id)}</span>`;return `<a class="tag ${s.loc?"loc":"src"}" href="${s.u}" target="_blank" rel="noopener" title="${esc(s.t)}">${s.loc?"Source located":"Sourced"} · ${id}</a>`}
+function evTag(id){const s=SOURCES[id];if(!s)return `<span class="tag ref">Unknown source ${esc(id)}</span>`;return `<a class="tag ${s.loc?"loc":"src"}" href="${esc(s.u)}" target="_blank" rel="noopener" title="${esc(s.t)}">${s.loc?"Source located":"Sourced"} · ${id}</a>`}
 
 /* ================= HISTORY ================= */
 let tlCats=new Set(Object.keys(CATS));
@@ -2343,7 +2343,7 @@ function renderResources(){const types=[...new Set(RESOURCES.map(r=>r.ty))].sort
   if(!$("#rType").options.length)$("#rType").innerHTML=`<option value="all">All types</option>`+types.map(t=>`<option>${t}</option>`).join("");
   const ty=$("#rType").value,q=$("#rQ").value.trim().toLowerCase();
   const list=RESOURCES.filter(r=>(ty==="all"||r.ty===ty)&&(!q||(r.t+" "+r.d).toLowerCase().includes(q)));
-  $("#resources").innerHTML=types.filter(t=>list.some(r=>r.ty===t)).map(t=>`<div><h3 style="margin-bottom:var(--s3)">${t} <span class="count">${list.filter(r=>r.ty===t).length}</span></h3><div class="grid g2">${list.filter(r=>r.ty===t).sort((a,b)=>a.t.localeCompare(b.t)).map(r=>`<div class="card rcard"><h3><a href="${r.u}" target="_blank" rel="noopener">${esc(r.t)}</a></h3><p>${esc(r.d)}</p><div class="tags">${r.chk?'<span class="tag src">Checked 21 Oct 2026</span>':'<span class="tag ref">Address not checked this edition</span>'}<span class="tag">${new URL(r.u).hostname.replace("www.","")}</span></div></div>`).join("")}</div></div>`).join("")||"<p>No resources match your search.</p>";
+  $("#resources").innerHTML=types.filter(t=>list.some(r=>r.ty===t)).map(t=>`<div><h3 style="margin-bottom:var(--s3)">${t} <span class="count">${list.filter(r=>r.ty===t).length}</span></h3><div class="grid g2">${list.filter(r=>r.ty===t).sort((a,b)=>a.t.localeCompare(b.t)).map(r=>`<div class="card rcard"><h3><a href="${esc(r.u)}" target="_blank" rel="noopener">${esc(r.t)}</a></h3><p>${esc(r.d)}</p><div class="tags">${r.chk?'<span class="tag src">Checked 21 Oct 2026</span>':'<span class="tag ref">Address not checked this edition</span>'}<span class="tag">${new URL(r.u).hostname.replace("www.","")}</span></div></div>`).join("")}</div></div>`).join("")||"<p>No resources match your search.</p>";
   $("#rCount").textContent=`${list.length} of ${RESOURCES.length}`;}
 $("#rType").addEventListener("change",renderResources);$("#rQ").addEventListener("input",renderResources);
 
@@ -2645,7 +2645,7 @@ function initCalendar(){$("#calPrev").addEventListener("click",()=>{calMonth=new
 function renderNetworks(){if(!$("#nwSector").options.length)$("#nwSector").innerHTML=`<option value="all">All sectors</option>`+[...new Set(NETWORKS.map(n=>n.sec))].sort().map(s=>`<option>${s}</option>`).join("");
   const sc=$("#nwSector").value,na=$("#nwNation").value,q=$("#nwQ").value.trim().toLowerCase();
   const list=NETWORKS.filter(n=>(sc==="all"||n.sec===sc)&&(na==="all"||n.na===na||n.na==="UK-wide")&&(!q||(n.n+" "+n.d+" "+n.sec+" "+n.na).toLowerCase().includes(q))).sort((a,b)=>a.sec.localeCompare(b.sec)||a.n.localeCompare(b.n));
-  $("#networks").innerHTML=list.map(n=>`<article class="card ncard"><span class="mono muted">${esc(n.sec)} · ${esc(n.na)}</span><h3><a href="${n.u}" target="_blank" rel="noopener">${esc(n.n)}</a></h3><p>${esc(n.d)}</p><div class="tags"><span class="tag">${esc(n.ty)}</span>${n.src?evTag(n.src):'<span class="tag ref">Address not checked this edition</span>'}</div></article>`).join("")||"<p>No groups match. Try All sectors or a shorter search.</p>";
+  $("#networks").innerHTML=list.map(n=>`<article class="card ncard"><span class="mono muted">${esc(n.sec)} · ${esc(n.na)}</span><h3><a href="${esc(n.u)}" target="_blank" rel="noopener">${esc(n.n)}</a></h3><p>${esc(n.d)}</p><div class="tags"><span class="tag">${esc(n.ty)}</span>${n.src?evTag(n.src):'<span class="tag ref">Address not checked this edition</span>'}</div></article>`).join("")||"<p>No groups match. Try All sectors or a shorter search.</p>";
   $("#nwCount").textContent=`${list.length} of ${NETWORKS.length}`;buildDrawerCounts()}
 
 /* ---------- connect ---------- */
@@ -2970,7 +2970,7 @@ $("#rerun").addEventListener("click",()=>{runChecks();toast("Checks run")});
 /* ================= ASSURANCE TEXT ================= */
 function renderAssurance(){
   $("#challenges").innerHTML=CHALLENGES.map(c=>`<div class="card"><h3>${esc(c.q)}</h3><p>${esc(c.a)}</p></div>`).join("");
-  $("#srcBody").innerHTML=Object.entries(SOURCES).map(([k,s])=>`<tr><td class="mono">${k}</td><td><a href="${s.u}" target="_blank" rel="noopener">${esc(s.t)}</a></td><td>${esc(s.s)}</td><td>${s.loc?'<span class="tag loc">Located</span>':'<span class="tag src">Read</span>'}</td></tr>`).join("");
+  $("#srcBody").innerHTML=Object.entries(SOURCES).map(([k,s])=>`<tr><td class="mono">${k}</td><td><a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.t)}</a></td><td>${esc(s.s)}</td><td>${s.loc?'<span class="tag loc">Located</span>':'<span class="tag src">Read</span>'}</td></tr>`).join("");
   $("#verLine").textContent=`Version ${META.version} · ${META.docId} · reviewed ${META.reviewed}`;
   $("#changelog").innerHTML=CHANGELOG.map(c=>`<li>${esc(c)}</li>`).join("");
   $("#checkpoint").textContent=`Brief: a Black History Month portal for a cross-government and wider public sector audience, with posters, and visual elements relevant to the 2026 theme. Delivered: ${VIEWS.length} sections, ${POSTERS.length} customisable posters (plus print files), ${IDEAS.length} activities, ${EVENTS.length} timeline entries, ${MOTIFS.length} motifs, ${DIASPORA.length} diaspora places, a mapped history, a knowledge layer with JSON-LD export, and ${CHECKS.length} live self-checks. Version 1.1 added, on request: iconography from every African Union region, a world diaspora map including peoples classed as Black, a debates section on reparations, the curriculum and erasure, the hub\'s mission, objectives and outcomes, an inclusion rationale, guidance on people in vulnerable circumstances, an accessibility statement and Access panel, and the author\'s note; the team email was removed. Open gaps: thin coverage outside England, community review of motifs and words, and confirming reference-history items.`;

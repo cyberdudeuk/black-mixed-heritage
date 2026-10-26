@@ -23,7 +23,7 @@ mkdir -p "$T/repo"; cp -r THIRD_PARTY_NOTICES.md package.json src tests "$T/repo
 expect_fail "licence check on an unlisted vendored file" bash -c "cd '$T/repo' && python3 tests/licence_check.py"
 
 # 4. data validation: a dated event without a source
-mkdir -p "$T/data-repo"; cp -r data site dist tests "$T/data-repo/"
+mkdir -p "$T/data-repo"; cp -r data site dist tests src package.json .github "$T/data-repo/"
 python3 - "$T/data-repo/data/bhm2026-events.json" <<'PY'
 import json, sys
 p = sys.argv[1]; d = json.load(open(p))
@@ -31,6 +31,37 @@ e = next(e for e in d['events'] if e.get('type') != 'Comms plan'); e['source'] =
 json.dump(d, open(p, 'w'))
 PY
 expect_fail "data validation on an event with no source" bash -c "cd '$T/data-repo' && python3 tests/validate_data.py"
+
+# 5. data validation: an unsafe community event (plain http link, markup in the name)
+mkdir -p "$T/ce-repo"; cp -r data site dist tests src package.json .github "$T/ce-repo/"
+echo '[{"issue":9,"s":"2027-02-06","e":"2027-02-06","t":"<b>Walk</b>","where":"","url":"http://example.org","accepted":"2026-10-26"}]' > "$T/ce-repo/src/community-events.json"
+expect_fail "data validation on an unsafe community event" bash -c "cd '$T/ce-repo' && python3 tests/validate_data.py"
+
+# 6. data validation: a nomination deadline whose reminders were lost
+mkdir -p "$T/dl-repo"; cp -r data site dist tests src package.json .github "$T/dl-repo/"
+python3 - "$T/dl-repo/data/bhm2026-events.ics" <<'EOF'
+import re, sys
+p = sys.argv[1]; t = open(p, encoding='utf8', newline='').read()
+open(p, 'w', encoding='utf8', newline='').write(re.sub(r'BEGIN:VALARM.*?END:VALARM\r?\n', '', t, count=1, flags=re.S))
+EOF
+expect_fail "data validation on a deadline without reminders" bash -c "cd '$T/dl-repo' && python3 tests/validate_data.py"
+
+# 7. event intake: the intake tests must fail if the script stops refusing unsafe links
+mkdir -p "$T/in-repo/scripts" "$T/in-repo/tests"; cp tests/test_event_intake.py "$T/in-repo/tests/"
+sed "s/p.scheme != 'https'/p.scheme not in ('https', 'http')/" scripts/event_intake.py > "$T/in-repo/scripts/event_intake.py"
+grep -q "('https', 'http')" "$T/in-repo/scripts/event_intake.py" || { echo "injection 7 did not apply"; exit 2; }
+expect_fail "event intake tests on a script that accepts http links" python3 "$T/in-repo/tests/test_event_intake.py"
+
+# 8. data validation: the hub links to an issue form that is missing from the repository
+mkdir -p "$T/form-repo"; cp -r data site dist tests src package.json .github "$T/form-repo/"; rm "$T/form-repo/.github/ISSUE_TEMPLATE/volunteer.yml"
+expect_fail "data validation on a linked issue form that is missing" bash -c "cd '$T/form-repo' && python3 tests/validate_data.py"
+
+# 9. workflow lint: a workflow with an unquoted condition containing ": " (only where actionlint is installed)
+if command -v actionlint >/dev/null 2>&1; then
+  mkdir -p "$T/wf"; sed "s|    if: \"github.event.label.name == 'status: accepted' \&\& contains(github.event.issue.labels.\*.name, 'event')\"|    if: github.event.label.name == 'status: accepted'|" .github/workflows/event-intake.yml > "$T/wf/event-intake.yml"
+  grep -q "^    if: github.event.label.name == 'status: accepted'$" "$T/wf/event-intake.yml" || { echo "injection 9 did not apply"; exit 2; }
+  expect_fail "actionlint on a broken workflow" actionlint "$T/wf/event-intake.yml"
+fi
 
 if [ "$fails" -gt 0 ]; then echo "$fails check(s) did not catch their defect"; exit 1; fi
 echo "all injected defects were caught"

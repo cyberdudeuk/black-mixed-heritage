@@ -28,6 +28,8 @@ For the owner and maintainers of `cyberdudeuk/black-mixed-heritage`. It covers s
 | `site/404.html`, `robots.txt`, `sitemap.xml`, `.well-known/security.txt` | Static website files | Yes |
 | `data/` | Open data exports | No: `npm run build:data` |
 | `teams/` | Teams app manifest, icons and package | Through `teams/mkmanifest.mjs` and `teams/package.py` |
+| `src/community-events.json` | Community events accepted through **Event intake** pull requests | No: the workflow writes it |
+| `scripts/` | `event_intake.py`, which turns an accepted event issue into calendar data | Yes, with `tests/test_event_intake.py` |
 | `tests/` | `ci-selfcheck.mjs` (fast), `ci-axe.mjs` (accessibility), `privacy_scan.py`, `validate_data.py` (open data and website files), `licence_check.py`, `negative.sh` (checks of the checks), `test.mjs` (full suite), `posters.mjs` | Yes |
 | `docs/` | This guide, the user manual, operations, release management, architecture and decision records (`adr/`), content style guide, data dictionary, release notes, sustainability proposal, Teams and Pages guide | Yes |
 | `docs/wiki/` | The wiki's pages; `wiki.yml` copies them to the wiki on merge | Yes (not in the wiki itself) |
@@ -48,7 +50,7 @@ Settings cannot be changed by the workflows; do these by hand in **Settings**.
 | Dependabot alerts and security updates | Same page | Enable |
 | Secret scanning and push protection | Same page | Enable (free for public repositories) |
 | Code scanning | Same page | The `codeql.yml` workflow runs it; or choose "Default setup" instead and delete the workflow |
-| Actions permissions | Settings → Actions → General | Allow GitHub Actions and verified creators; **Workflow permissions: read repository contents** (each workflow asks for only what it needs) |
+| Actions permissions | Settings → Actions → General | Allow GitHub Actions and verified creators; **Workflow permissions: read repository contents** (each workflow asks for only what it needs); tick **Allow GitHub Actions to create and approve pull requests**, which the **Event intake** workflow needs to open its pull requests (no workflow approves anything) |
 | About box | The cog next to "About" on the repository front page | Description: *BHM 2026 Hub: Black and Black-Mixed history, heritage and cultures, Africa and the African diaspora.* Website: `https://cyberdudeuk.github.io/black-mixed-heritage/` (tick "Use your GitHub Pages website"). Topics: `black-history`, `black-history-month`, `african-diaspora`, `heritage`, `accessibility`, `open-data`, `public-sector`, `github-pages`, `uk` |
 | Social preview | Settings → General → Social preview | Upload a 1280×640 image (for example a poster from the hub) |
 | Features | Settings → General | Issues on; Projects on (done); Wiki on (done), generated from `docs/wiki/`, see section 12; Discussions on (done), see section 12. Under **Wiki**, tick **Restrict editing to collaborators only**, so the public cannot edit it |
@@ -62,8 +64,8 @@ All workflows are in `.github/workflows/`. Each has a comment at the top saying 
 
 | Workflow | Runs when | Permissions | What it does | If it fails |
 |---|---|---|---|---|
-| **Deploy hub to GitHub Pages** (`pages.yml`) | Push to `main` touching `site/` or `data/`; idea or wish issue changes; every 6 hours; by hand | read contents, write Pages, read issues | Copies `site/` and `data/`, writes `ideas.json` from open idea and wishlist issues (titles, labels and counts only; skips `needs-redaction`), deploys | "Get Pages site failed": Pages is not set to GitHub Actions. Otherwise re-run once; see section 13 |
-| **Checks** (`checks.yml`) | Every pull request; push to `main`; by hand | read contents | **privacy**: no personal emails or private links in the tree, `tests/privacy_scan.py` on both editions, `tests/validate_data.py` (open data valid and sourced, website files, size budgets, `security.txt` not expired) and `tests/licence_check.py` (every vendored file and dependency listed). **selfchecks** also runs `tests/negative.sh`, which injects known defects and fails if any check misses one. **selfchecks**: rebuilds `dist/` and `site/` and fails if they differ from the committed files, then runs all in-page self-checks. **accessibility**: axe-core on every page at 1280px light and 390px dark (takes about 30 minutes) | Read the log: it names the file, the check or the page. "out of date" means run `npm run build:all` and commit |
+| **Deploy hub to GitHub Pages** (`pages.yml`) | Push to `main` touching `site/` or `data/`; idea or wish issue changes; every 6 hours; by hand | read contents, write Pages, read issues | Copies `site/` and `data/`, writes `ideas.json` from open idea and wishlist issues (titles, labels and counts only; skips `needs-redaction`) and `checks.json` with the latest result of each repository workflow on `main` (shown on the Assurance page), deploys. Also runs when one of those workflows finishes on `main` | "Get Pages site failed": Pages is not set to GitHub Actions. Otherwise re-run once; see section 13 |
+| **Checks** (`checks.yml`) | Every pull request; push to `main`; by hand | read contents | **privacy**: no personal emails or private links in the tree, `tests/privacy_scan.py` on both editions, `tests/validate_data.py` (open data valid and sourced, website files, size budgets, `security.txt` not expired) and `tests/licence_check.py` (every vendored file and dependency listed), `tests/test_event_intake.py`, and actionlint with shellcheck on every workflow. **selfchecks** also runs `tests/negative.sh`, which injects known defects and fails if any check misses one. **selfchecks**: rebuilds `dist/` and `site/` and fails if they differ from the committed files, then runs all in-page self-checks. **accessibility**: axe-core on every page at 1280px light and 390px dark (takes about 30 minutes) | Read the log: it names the file, the check or the page. "out of date" means run `npm run build:all` and commit |
 | **Issue triage** (`issue-triage.yml`) | Issue opened or edited | write issues | Adds `triage`, thanks the author, and adds `needs-redaction` with a comment if it finds an email address, UK phone number or National Insurance number | Rare; re-run from the Actions tab |
 | **Sync labels** (`labels.yml`) | `.github/labels.json` changes on `main`; by hand | write issues | Creates or updates labels; never deletes | Check the JSON is valid |
 | **Monthly link check** (`link-check.yml`) | 2nd of each month; by hand | read contents, write issues | Checks every external link in the hub; updates the open `link-check` issue, or opens one | 403 and 429 answers count as working, because many sites block robots; anything else is worth a look |
@@ -72,6 +74,8 @@ All workflows are in `.github/workflows/`. Each has a comment at the top saying 
 | **Website health** (`uptime.yml`) | Every 6 hours; by hand | write issues | Fetches the website, calendar, linked data, `ideas.json` and `security.txt` (three tries each) and checks each is what it should be. Opens or comments on an `uptime` issue on failure; closes it when all pass | Check githubstatus.com; re-run Deploy |
 | **Scorecard** (`scorecard.yml`) | Weekly; push to `main`; branch protection changes | read all, write security events | OpenSSF Scorecard of supply-chain practices; results in Security → Code scanning | Each finding names the practice to fix |
 | **Sync wiki** (`wiki.yml`) | Push to `main` touching `docs/wiki/`; by hand | write contents | Copies `docs/wiki/*.md` to the wiki | "The wiki has no pages yet": save the first page once (section 12), then re-run |
+| **Event intake** (`event-intake.yml`) | `status: accepted` added to an `event` issue | write contents, pull requests, issues; start workflows | Checks the suggestion with `scripts/event_intake.py` (dates as YYYY-MM-DD, end not before start, not over, https link, lengths, no personal data, not already added). If it passes: adds it to `src/community-events.json`, rebuilds, opens a pull request labelled `event` that closes the issue, and starts **Checks** on it. If not: comments with the reasons | "GitHub Actions is not permitted to create pull requests": tick the setting in section 2. To retry after the author fixes the issue, remove and re-add `status: accepted`. Runs one at a time; if two event pull requests are open, merge one, then close the other and re-add its label so it is rebuilt on the new `main`. Before merging, tick the pull request's three by-eye checks: no private individual named, the link is the organiser's page, the details match the issue you reviewed |
+| **Nomination deadline reminders** (`deadline-reminders.yml`) | Mondays; by hand | write issues | Opens an issue labelled `deadline` four weeks and one week before each deadline in `data/bhm2026-deadlines.json`; never duplicates | Check the deadlines file exists (run `npm run build:data`) |
 | **Add to project board** (`project.yml`) | Issue opened or labelled | — (uses `PROJECT_TOKEN`) | Adds ideas, wishes, bugs, corrections and accessibility reports to the board. Skipped unless `PROJECT_URL` is set | Check the token has Projects read and write and has not expired |
 | **CodeQL** (`codeql.yml`) | Pull requests and pushes to `main` touching scripts; weekly | read contents, write security events | Scans the JavaScript and the workflows for security problems; results in Security → Code scanning | Triage alerts there; dismiss false positives with a reason |
 | **Dependabot** (`.github/dependabot.yml`) | Monthly | — | Opens one grouped pull request for the actions the workflows use, and one for the test tools | Merge when checks pass. Merge one Dependabot pull request at a time and let the next rebase: two that edit the same workflow can otherwise merge into a broken file |
@@ -92,7 +96,8 @@ Labels are defined in `.github/labels.json`. Edit that file and merge; **Sync la
 | `needs-redaction` | May contain personal data; kept off the hub. Remove only after the data is gone (section 7) |
 | `status: accepted`, `status: planned`, `status: in-progress`, `status: done`, `status: declined` | Shown on the hub beside ideas and wishes. Use one at a time |
 | `good first issue`, `help wanted`, `volunteer` | For people who want to help |
-| `link-check`, `routine` | Opened by the scheduled workflows |
+| `link-check`, `routine`, `uptime`, `deadline` | Opened by the scheduled workflows |
+| `release` | Release planning |
 
 ## 5. The monthly routine
 On the 1st, the **Monthly triage and freshness check** issue appears with a checklist. In about an hour:
@@ -100,7 +105,7 @@ On the 1st, the **Monthly triage and freshness check** issue appears with a chec
 2. Filter by `label:needs-redaction` and clear any that have been fixed.
 3. Work through the latest `link-check` issue: replace or remove dead sources (two independent sources, at least one authoritative).
 4. Re-read any source older than 12 months that a page relies on for a figure.
-5. Add the coming month's events (from `event` issues) to the calendar data in `src/`.
+5. Accept the coming month's `event` issues (the **Event intake** workflow opens a pull request for each) and merge those pull requests; work through the **Sources due for re-reading** list in the checklist.
 6. Merge Dependabot pull requests whose checks pass, one at a time.
 7. Glance at Security → Code scanning (CodeQL and Scorecard) and any open `uptime` issue.
 8. Look through new Discussions, if categories other than Announcements are open.
@@ -116,7 +121,9 @@ Ideas are ranked on the hub by thumbs-up reactions. Treat support as one input a
 | Bug | Reproduce in the website and the single file, at phone and desktop width | Fix, with a check that fails on the old version |
 | Accessibility | Reproduce with keyboard and a screen reader if possible | Treat as high priority |
 | Idea or wish | Fit, effort, evidence, who it helps | `status:` label; comment with the reason when declining |
-| Event | Organiser's public page; date and place | Add to the calendar data; close when released |
+| Event | Organiser's public page; date and place; the dates are written YYYY-MM-DD | Add `status: accepted`: the **Event intake** workflow opens a pull request; review and merge it (the issue closes). Decline with a reason otherwise |
+| Volunteer | The roles they named; nothing personal in the issue | Thank them, agree next steps on the issue (or move to a private channel they choose), label `status: accepted`, update GOVERNANCE or CODEOWNERS if they take a role |
+| Deadline reminder | The deadline on the organiser's page | Share it; close after the deadline |
 | Source | Read in full; authoritative? independent? | Add to the relevant point with its quote |
 
 Closing: link the pull request (`Closes #12`) so the issue closes on merge. Duplicates: comment "Duplicate of #N" and close.

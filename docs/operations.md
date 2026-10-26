@@ -29,7 +29,7 @@ How the hub and this repository meet their non-functional requirements, how each
 |---|---|---|
 | One source of truth | Everything is built from `src/`; built files are never edited by hand | CI rebuilds `dist/` and `site/` and fails if they differ from what is committed (`checks.yml`, selfchecks job) |
 | Deterministic build | Pinned inputs in `src/vendor/`, pinned tools in `package-lock.json`, no timestamps or randomness in the output | The same CI step; two clean builds produce identical bytes |
-| Self-checks in the page | 163 checks run in every visitor's browser: sources, links, accessibility, language, privacy, coverage, data integrity | `npm run test:quick` at desktop and phone widths on both editions, on every pull request |
+| Self-checks in the page | 165 checks run in every visitor's browser: sources, links, accessibility, language, privacy, coverage, data integrity | `npm run test:quick` at desktop and phone widths on both editions, on every pull request |
 | Checks that can fail | Every in-page check has a deliberate-break test; the CI checks have injected-defect tests | `tests/negative.sh` (every pull request) and `npm run test:negative` (before larger releases) |
 | Valid open data | Events are sourced (https), ICS and JSON agree, the glossary is complete, the linked data parses, `security.txt` has not expired, pages stay within size budgets | `tests/validate_data.py` (every pull request) |
 | Accessibility | WCAG 2.2 AA | axe-core on all 55 pages at 1280px light and 390px dark (every pull request); manual checks quarterly ([ACCESSIBILITY.md](../ACCESSIBILITY.md)) |
@@ -71,6 +71,7 @@ The integrity of the content (people trust its facts), the reputation of the com
 | Threat | Control |
 |---|---|
 | Script injection through the ideas list (titles are user-supplied) | The list holds titles, labels, counts and links only; titles are inserted as text, never HTML; links must be issue links on this repository; self-check C161 fails on unsafe items |
+| Unsafe text reaching the calendar through an event suggestion | `scripts/event_intake.py` reads the issue from the event file (never through a shell), checks dates, length, https link and personal data, and only writes data; the change arrives as a pull request with the full checks; the hub checks every community event again (C164) and the data validator a third time; any `<` or `>` is encoded when the data is embedded |
 | Personal data published through issues | `issue-triage.yml` labels likely personal data `needs-redaction`; `pages.yml` skips such issues and any title or text with an email address, phone number or National Insurance number; moderation steps in the admin guide |
 | Personal data in the pages or embedded files | `privacy_scan.py` decodes every embedded Office file and image; in-page privacy check; repository-wide grep in CI |
 | Malicious pull request | Pull requests from forks run with a read-only token and no secrets; workflows never check out and run pull-request code with write permissions (`pull_request`, not `pull_request_target`) |
@@ -108,6 +109,9 @@ Rate limiting: GitHub may answer `429` under very heavy load. The hub is one req
 |---|---|---|
 | Website, calendar, linked data, ideas list and `security.txt` answer correctly | `uptime.yml`, every 6 hours | Opens an issue labelled `uptime`; closes it when everything is back |
 | External links still work | `link-check.yml`, monthly | Updates the `link-check` issue |
+| Sources falling due for re-reading | `monthly-triage.yml`, monthly, from `data/bhm2026-sources.json` | Listed in the monthly checklist issue; all sources on the Assurance page |
+| Nomination deadlines | `deadline-reminders.yml`, weekly | Opens a `deadline` issue four weeks and one week before |
+| Latest result of every workflow | `pages.yml` writes `checks.json` | Shown on the hub's Assurance page, for anyone to see |
 | Supply-chain practices | `scorecard.yml`, weekly | Security → Code scanning |
 | Code and workflow security | `codeql.yml`, weekly and on change | Security → Code scanning |
 | Dependencies | Dependabot, monthly | Pull requests labelled `dependencies` |
@@ -117,7 +121,7 @@ Rate limiting: GitHub may answer `429` under very heavy load. The hub is one req
 | Standard | How the repository meets it |
 |---|---|
 | Version control and review | All changes through pull requests; required checks; squash merges |
-| Continuous integration | `checks.yml`: privacy, data, licences, reproducible build, self-checks, checks of the checks, accessibility |
+| Continuous integration | `checks.yml`: privacy, data, licences, workflow lint (actionlint and shellcheck), event-intake tests, reproducible build, self-checks, checks of the checks, accessibility |
 | Continuous delivery | Merging to `main` deploys the website; a version change in `package.json` publishes a release |
 | Semantic versioning and release notes | [release-management.md](release-management.md) |
 | Infrastructure as code | Workflows, labels, issue and discussion forms, wiki and Dependabot settings are files in the repository |

@@ -70,7 +70,9 @@ To report a barrier, see [section 7](#7-ideas-wishes-corrections-and-bugs).
 ## 6. Things you can do
 | Task | Where | How |
 |---|---|---|
-| Add an event to your calendar | This month → Calendar | Choose an event, then Google Calendar or Outlook, or download the `.ics` file. To subscribe to the whole calendar, add `https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-events.ics` as an internet calendar |
+| Add an event to your calendar | This month → Calendar | Choose an event, then Google Calendar or Outlook, or download the `.ics` file. To subscribe to the whole calendar, add `https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-events.ics` as an internet calendar. Award and nomination deadlines are included (filter **Nomination deadlines**), and subscribed calendars remind you 14 days and 2 days before each one |
+| Suggest an event for the calendar | GitHub: the **Event for the calendar** form | Write the dates as YYYY-MM-DD and give the organiser's public page. Once a maintainer accepts it, it is added through a reviewed change and appears in the calendar, marked as suggested by the community |
+| Follow what is new | Any feed reader | Add `https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-releases.atom` |
 | Plan an event | This month → Organiser toolkit | Checklist and activity ideas filtered by setting, effort and format |
 | Make a poster | This month → Posters | Type your event's title, date and place once; every poster updates. Choose a palette, then download or copy. Add alternative text when you share it |
 | Download templates | Resources → Brand and media | Slide, report and induction pack templates |
@@ -86,21 +88,21 @@ Go to **About → Help run the hub**.
 - **Ideas box:** choose a type (idea, feature wish, bug, correction or accessibility barrier), give a short title and details, and add it. Do not include personal information. To share it with everyone, select **send it to GitHub**: this opens the right GitHub form already filled in, including the page you were on.
 - **Ideas and wishes on GitHub:** on the website, the same page lists the ideas and feature wishes raised on GitHub, with how many people support each one and its status (new, accepted, planned, in progress, done, declined). To support one, open it on GitHub and add a thumbs-up reaction. The list updates within a few hours.
 - **On GitHub:** buttons to report a bug, correct a fact or source, report an accessibility barrier, suggest an idea or request a feature. You need a free GitHub account. Issues are public.
-- **Volunteer:** the same page sets out the roles that keep the hub going, and has a form to express interest (saved inside Claude only).
+- **Volunteer:** the same page sets out the roles that keep the hub going, and has a form to express interest. Inside Claude, your answers are saved privately. Elsewhere, the form offers to open GitHub's **Volunteer** form with your roles, months, skills and commitment filled in; it does not copy your notes or networks, because GitHub issues are public.
 
 ## 8. Can I trust it?
 - Every figure links to a source that was opened and read, with the date it was read. Where possible there are two independent sources, at least one authoritative. Wikipedia is not counted as a source.
 - Disputed figures are marked, and both are shown.
 - The hub never classifies any person's ethnicity: it uses counts published by others.
-- The hub checks itself: **About → Self-checks, stories and journeys** shows 163 checks that run in your browser each time you open it, including sources, accessibility, language, privacy and coverage. Each check has a deliberate-break test proving it can fail.
-- **About → Review and assessment** and **Assurance** set out quality scores and what still needs work.
+- The hub checks itself: **About → Self-checks, stories and journeys** shows 165 checks that run in your browser each time you open it, including sources, accessibility, language, privacy and coverage. Each check has a deliberate-break test proving it can fail.
+- **About → Review and assessment** and **Assurance** set out quality scores and what still needs work. On the website, **Assurance → Repository checks** shows the latest result of each check that runs on every change in the public repository, and **Source freshness** lists every source with the date it was last read and when it is due to be read again.
 - It is unofficial, made in a personal capacity, and not endorsed by Black History Month UK or HM Government.
 
 ## 9. Reusing content and data
 - Text and data created for the hub: Creative Commons Attribution 4.0. Credit "BHM 2026 Hub".
 - Code: MIT.
 - Third-party content keeps its own licence (for example the Open Government Licence for public sector information).
-- Open data in `data/` and on the website: the events calendar (ICS and JSON), the glossary (CSV) and the whole hub as linked data (JSON-LD). See the [data dictionary](data-dictionary.md).
+- Open data in `data/` and on the website: the events calendar (ICS and JSON), the glossary (CSV), the whole hub as linked data (JSON-LD), every source with its read date (JSON), nomination deadlines (JSON) and a release feed (Atom). See the [data dictionary](data-dictionary.md).
 
 ## 10. Privacy
 The hub collects no personal data and uses no analytics or tracking. Your preferences stay in your browser. See [PRIVACY.md](../PRIVACY.md).

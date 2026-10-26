@@ -6,7 +6,8 @@
 | Support an idea | Add a thumbs-up reaction to its issue; the hub shows support within a few hours |
 | Correct a fact or a source | The correction form; please say which source you read |
 | Report a bug or an accessibility barrier | The bug or accessibility form |
-| Suggest an event for the calendar | The event form |
+| Suggest an event for the calendar | The event form (dates as YYYY-MM-DD and the organiser's public page); once accepted, it is added through a reviewed change |
+| Volunteer | The volunteer form, or the hub's **Help run the hub** form, which fills it in for you |
 | Ask a question or share how you used the hub | [Discussions](https://github.com/cyberdudeuk/black-mixed-heritage/discussions), where they are open |
 | Report a security problem | Privately, through **Security → Report a vulnerability** ([SECURITY.md](https://github.com/cyberdudeuk/black-mixed-heritage/blob/main/SECURITY.md)) |
 

@@ -27,6 +27,15 @@ jobs:
         run: python3 tests/validate_data.py
       - name: Every vendored file and dependency has a recorded licence
         run: python3 tests/licence_check.py
+      - name: Event suggestions are checked before they reach the calendar
+        run: python3 tests/test_event_intake.py
+      - name: Workflows are valid (actionlint, with shellcheck on every script)
+        run: |
+          python3 -m pip install --quiet --user --break-system-packages actionlint-py==1.7.12.25 shellcheck-py==0.11.0.1
+          base=$(python3 -m site --user-base)
+          export PATH="$base/bin:$PATH"
+          actionlint .github/workflows/*.yml
+          shellcheck tests/negative.sh
   selfchecks:
     runs-on: ubuntu-latest
     steps:

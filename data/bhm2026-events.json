@@ -1,6 +1,6 @@
 {
   "title": "BHM 2026 Hub: Honouring Our Communities events",
-  "version": "2.20.0",
+  "version": "2.21.0",
   "generated": "2026-10-21",
   "events": [
     {
@@ -184,6 +184,20 @@
       }
     },
     {
+      "id": "dl-aw-csa",
+      "start": "2026-10-27",
+      "end": "2026-10-27",
+      "title": "Nomination deadline: Civil Service Awards 2026 (Developing and Supporting People; Collaboration; Outstanding Community Service; Rising Star)",
+      "type": "Nomination deadlines",
+      "where": "Civil Service Awards team",
+      "description": "Last day to nominate or enter. Online form on organiser site; 600 words (about 100 overview + 500 STAR). Check departmental approval route first",
+      "source": {
+        "id": "S388",
+        "title": "Civil Service Awards 2026 (Developing and Supporting People; Collaboration; Outstanding Community Service; Rising Star)",
+        "url": "https://www.civilserviceawards.com/"
+      }
+    },
+    {
       "id": "x-rgu",
       "start": "2026-10-28",
       "end": "2026-10-28",
@@ -206,6 +220,48 @@
       "where": null,
       "description": null,
       "source": null
+    },
+    {
+      "id": "dl-aw-bda",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "title": "Nomination deadline: British Diversity Awards 2027",
+      "type": "Nomination deadlines",
+      "where": "British Diversity Awards",
+      "description": "Last day to nominate or enter. Online nomination on organiser site; pick the specific category; get employer approval",
+      "source": {
+        "id": "S389",
+        "title": "British Diversity Awards 2027",
+        "url": "https://www.britishdiversityawards.com/keydates2026"
+      }
+    },
+    {
+      "id": "dl-aw-kavs",
+      "start": "2026-12-01",
+      "end": "2026-12-01",
+      "title": "Nomination deadline: King's Award for Voluntary Service 2027",
+      "type": "Nomination deadlines",
+      "where": "DCMS",
+      "description": "Last day to nominate or enter. Check eligibility page, then nominate online",
+      "source": {
+        "id": "S397",
+        "title": "King's Award for Voluntary Service 2027",
+        "url": "https://kavs.dcms.gov.uk/make-a-nomination/"
+      }
+    },
+    {
+      "id": "dl-aw-iese",
+      "start": "2027-01-15",
+      "end": "2027-01-15",
+      "title": "Nomination deadline: iESE Public Sector Transformation Awards 2027",
+      "type": "Nomination deadlines",
+      "where": "iESE",
+      "description": "Last day to nominate or enter. Organiser nomination; check entry fees and departmental approval",
+      "source": {
+        "id": "S395",
+        "title": "iESE Public Sector Transformation Awards 2027",
+        "url": "https://iese.org.uk/awards/"
+      }
     },
     {
       "id": "m-newcross",

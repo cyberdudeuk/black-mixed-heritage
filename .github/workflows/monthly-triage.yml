@@ -5,11 +5,16 @@ on:
     - cron: "7 8 1 * *"
   workflow_dispatch:
 permissions:
-  issues: write
+  contents: read
 jobs:
   open:
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
     steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
       - uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         with:
           script: |
@@ -30,5 +35,16 @@ jobs:
               '- [ ] Look through new Discussions, if categories other than Announcements are open',
               '- [ ] Refresh the off-GitHub mirror clone of the repository',
               '- [ ] Agree what goes into the next release and record it in docs/release-notes.md'
-            ].join('\n');
-            await github.rest.issues.create({ ...context.repo, title, body, labels: ['routine'] });
+            ];
+            // sources falling due for re-reading in the next 31 days, or overdue (from the open data the build writes)
+            try {
+              const fs = require('fs');
+              const src = JSON.parse(fs.readFileSync('data/bhm2026-sources.json', 'utf8')).sources || [];
+              const soon = Date.now() + 31 * 864e5;
+              const due = src.filter(s => !s.due || Date.parse(s.due) <= soon).sort((a, b) => (a.due || '').localeCompare(b.due || ''));
+              body.push('', `### Sources due for re-reading (${due.length})`, due.length ? 'Read each in full again, update its read date in src/, and fix or replace any point it no longer supports. Full list: the hub\'s Assurance page, Source freshness.' : 'None this month.');
+              due.slice(0, 25).forEach(s => body.push(`- [ ] ${s.id}: [${String(s.title).replace(/[\[\]]/g, '')}](${s.url}), due ${s.due || 'now (no read date)'}`));
+              if (due.length > 25) body.push(`- …and ${due.length - 25} more`);
+            } catch (e) { body.push('', '(The list of sources could not be read: ' + e.message + ')'); }
+            const text = body.join('\n');
+            await github.rest.issues.create({ ...context.repo, title, body: text, labels: ['routine'] });
