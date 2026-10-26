@@ -2,5 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://cyberdudeuk.github.io/black-mixed-heritage/</loc><changefreq>weekly</changefreq></url>
   <url><loc>https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-events.ics</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-events.json</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-releases.atom</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://cyberdudeuk.github.io/black-mixed-heritage/data/datapackage.json</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-hub.jsonld</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-glossary.csv</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-sources.json</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-deadlines.json</loc><changefreq>weekly</changefreq></url>
 </urlset>

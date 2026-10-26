@@ -1,0 +1,68 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "type": "SoftwareSourceCode",
+  "name": "BHM 2026 Hub: Honouring Our Communities",
+  "description": "Black and Black-Mixed history, heritage and cultures, Africa and the African diaspora: an evidence-based hub for Black History Month 2026 and all year, for the UK public sector and the communities it serves. Every figure is sourced.",
+  "version": "2.21.1",
+  "dateModified": "2026-10-26",
+  "codeRepository": "https://github.com/cyberdudeuk/black-mixed-heritage",
+  "url": "https://cyberdudeuk.github.io/black-mixed-heritage/",
+  "issueTracker": "https://github.com/cyberdudeuk/black-mixed-heritage/issues",
+  "license": [
+    "https://spdx.org/licenses/MIT",
+    "https://spdx.org/licenses/CC-BY-4.0"
+  ],
+  "programmingLanguage": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Python"
+  ],
+  "runtimePlatform": [
+    "Web browser",
+    "Node.js 20 or later (build and tests)"
+  ],
+  "operatingSystem": "Any",
+  "applicationCategory": "Education; public sector; heritage",
+  "keywords": [
+    "black-history",
+    "black-history-month",
+    "african-diaspora",
+    "africa",
+    "heritage",
+    "black-mixed",
+    "mixed-heritage",
+    "public-sector",
+    "uk",
+    "inclusion",
+    "race-equality",
+    "history",
+    "education",
+    "open-data",
+    "linked-data",
+    "accessibility",
+    "wcag",
+    "github-pages",
+    "microsoft-teams",
+    "single-file"
+  ],
+  "inLanguage": "en-GB",
+  "isAccessibleForFree": true,
+  "developmentStatus": "active",
+  "author": [
+    {
+      "type": "Organization",
+      "name": "BHM 2026 Hub contributors"
+    }
+  ],
+  "readme": "https://github.com/cyberdudeuk/black-mixed-heritage/blob/main/README.md",
+  "releaseNotes": "https://github.com/cyberdudeuk/black-mixed-heritage/blob/main/docs/release-notes.md",
+  "softwareHelp": "https://github.com/cyberdudeuk/black-mixed-heritage/blob/main/docs/user-manual.md",
+  "continuousIntegration": "https://github.com/cyberdudeuk/black-mixed-heritage/actions/workflows/checks.yml",
+  "softwareRequirements": [
+    "Node.js 20 or later",
+    "Python 3",
+    "Playwright 1.64.1 (tests)",
+    "axe-core 4.14.0 (tests)"
+  ]
+}

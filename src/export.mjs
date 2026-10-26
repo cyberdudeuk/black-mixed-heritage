@@ -16,6 +16,24 @@ const d=await p.evaluate(()=>({ics:ics(calEvents()),json:JSON.stringify({title:d
  jsonld:JSON.stringify(jsonld(),null,2),csv:["term,category,definition",...GLOSSARY.map(g=>[g.t,g.c,g.d].map(v=>`"${String(v).replace(/"/g,'""')}"`).join(","))].join("\r\n"),n:calEvents().length}));
 await b.close();mkdirSync('data',{recursive:true});
 writeFileSync('data/bhm2026-events.ics',d.ics);writeFileSync('data/bhm2026-events.json',d.json);writeFileSync('data/bhm2026-hub.jsonld',d.jsonld);writeFileSync('data/bhm2026-glossary.csv',d.csv);writeFileSync('data/bhm2026-sources.json',d.sources);writeFileSync('data/bhm2026-deadlines.json',d.deadlines);writeFileSync('data/bhm2026-releases.atom',d.atom);
+// 2.21.1: a Frictionless Data Package describing every file, so the open data documents itself
+const R=(name,path,format,mediatype,title,description,extra)=>({name,path,format,mediatype,encoding:'utf-8',title,description,licenses:[{name:'CC-BY-4.0',path:'https://creativecommons.org/licenses/by/4.0/',title:'Creative Commons Attribution 4.0'}],...(extra||{})});
+const pkg={profile:'data-package',name:'bhm-2026-hub',id:'https://cyberdudeuk.github.io/black-mixed-heritage/data/datapackage.json',title:'BHM 2026 Hub open data',
+ description:'Open data from the BHM 2026 Hub: Black and Black-Mixed history, heritage and cultures, Africa and the African diaspora, for the UK public sector and the communities it serves. Generated from the hub itself on every build. Every event and figure links to the source it was checked against.',
+ version:JSON.parse(d.json).version,created:JSON.parse(d.json).generated,homepage:'https://cyberdudeuk.github.io/black-mixed-heritage/',
+ keywords:['Black history','Black History Month','African diaspora','Africa','heritage','Black-Mixed','public sector','United Kingdom','calendar','glossary','linked data'],
+ licenses:[{name:'CC-BY-4.0',path:'https://creativecommons.org/licenses/by/4.0/',title:'Creative Commons Attribution 4.0'}],
+ contributors:[{title:'BHM 2026 Hub',role:'author'}],
+ sources:[{title:'Sources listed in bhm2026-sources.json',path:'https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-sources.json'}],
+ resources:[
+  R('events-ics','bhm2026-events.ics','ics','text/calendar','Events calendar','Black History Month events, observances, remembrance days and nomination deadlines; deadlines carry reminders 14 and 2 days before. Subscribe in any calendar app.'),
+  R('events','bhm2026-events.json','json','application/json','Events','The calendar as JSON: id, start, end, title, type, where, description and the source each event was checked against.'),
+  R('glossary','bhm2026-glossary.csv','csv','text/csv','Glossary','Terms and plain-English definitions.',{schema:{fields:[{name:'term',type:'string',description:'The term'},{name:'category',type:'string',description:'Group, for example Observance'},{name:'definition',type:'string',description:'Plain-English definition'}],primaryKey:['term']}}),
+  R('hub','bhm2026-hub.jsonld','jsonld','application/ld+json','The hub as linked data','Pages, sourced points, statistics, people, organisations, places, events and glossary concepts, as Schema.org and SKOS.'),
+  R('sources','bhm2026-sources.json','json','application/json','Sources','Every source: id, title, link, the date it was last read and the date it is due to be read again.'),
+  R('deadlines','bhm2026-deadlines.json','json','application/json','Nomination deadlines','Published award and nomination deadlines, with how to take part and the sources checked.'),
+  R('releases','bhm2026-releases.atom','atom','application/atom+xml','What is new','The latest releases of the hub, with what changed and how it was checked.')]};
+writeFileSync('data/datapackage.json',JSON.stringify(pkg,null,2));
 // verify: parse back
 const j=JSON.parse(d.json);JSON.parse(d.jsonld);const sj=JSON.parse(d.sources),dj=JSON.parse(d.deadlines);if(!sj.sources.length||!d.atom.includes('<entry>')){console.error('EXPORT FAIL: sources or feed empty');process.exit(1)}const nv=(d.ics.match(/BEGIN:VEVENT/g)||[]).length;
 if(j.events.length!==d.n||nv!==d.n){console.error('EXPORT FAIL',j.events.length,nv,d.n);process.exit(1)}
