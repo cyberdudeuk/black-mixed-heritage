@@ -33,7 +33,7 @@ body:
     id: where
     attributes:
       label: "Where"
-      description: "Town or city, online, or nationwide (up to 80 characters)"
+      description: "Town or city, online, or nationwide (up to 80 characters). Not a street address or postcode"
   - type: input
     id: source
     attributes:

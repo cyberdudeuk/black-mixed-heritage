@@ -29,7 +29,7 @@ How the hub and this repository meet their non-functional requirements, how each
 |---|---|---|
 | One source of truth | Everything is built from `src/`; built files are never edited by hand | CI rebuilds `dist/` and `site/` and fails if they differ from what is committed (`checks.yml`, selfchecks job) |
 | Deterministic build | Pinned inputs in `src/vendor/`, pinned tools in `package-lock.json`, no timestamps or randomness in the output | The same CI step; two clean builds produce identical bytes |
-| Self-checks in the page | 164 checks run in every visitor's browser: sources, links, accessibility, language, privacy, coverage, data integrity | `npm run test:quick` at desktop and phone widths on both editions, on every pull request |
+| Self-checks in the page | 165 checks run in every visitor's browser: sources, links, accessibility, language, privacy, coverage, data integrity | `npm run test:quick` at desktop and phone widths on both editions, on every pull request |
 | Checks that can fail | Every in-page check has a deliberate-break test; the CI checks have injected-defect tests | `tests/negative.sh` (every pull request) and `npm run test:negative` (before larger releases) |
 | Valid open data | Events are sourced (https), ICS and JSON agree, the glossary is complete, the linked data parses, `security.txt` has not expired, pages stay within size budgets | `tests/validate_data.py` (every pull request) |
 | Accessibility | WCAG 2.2 AA | axe-core on all 55 pages at 1280px light and 390px dark (every pull request); manual checks quarterly ([ACCESSIBILITY.md](../ACCESSIBILITY.md)) |

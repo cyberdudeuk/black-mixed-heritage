@@ -1,6 +1,6 @@
 """Validates the open data files and the site's static files, and enforces a page-size budget.
 Usage: python3 tests/validate_data.py"""
-import csv, json, re, sys, os
+import csv, json, re, sys, os, unicodedata
 problems = []
 def need(cond, msg):
     if not cond: problems.append(msg)
@@ -42,7 +42,10 @@ for x in ce if isinstance(ce, list) else []:
     n = x.get('issue')
     need(isinstance(n, int) and n > 0, f'community event {n}: bad issue number')
     need(all(re.fullmatch(r'\d{4}-\d{2}-\d{2}', str(x.get(k) or '')) for k in ('s', 'e', 'accepted')) and x.get('e', '') >= x.get('s', ''), f'community event {n}: bad dates')
-    need(str(x.get('url', '')).startswith('https://') and not re.search(r'[<>]', str(x.get('t', '')) + str(x.get('where', ''))), f'community event {n}: unsafe link or text')
+    url = str(x.get('url', ''))
+    host = (re.match(r'https://([^/?#:]+)', url) or [None, ''])[1]
+    need(re.fullmatch(r'[a-z0-9-]+(\.[a-z0-9-]+)+', host) and not re.search(r'[\s"\'<>`\\]', url) and not re.search(r'[<>`]', str(x.get('t', '')) + str(x.get('where', ''))), f'community event {n}: unsafe link or text')
+    need(not any(unicodedata.category(ch) == 'Cf' for ch in json.dumps(x, ensure_ascii=False)), f'community event {n}: invisible formatting characters')
     need(0 < len(str(x.get('t', ''))) <= 120 and len(str(x.get('where', ''))) <= 80, f'community event {n}: name or place too long')
     need(not re.search(r'[\w.+-]+@[\w-]+\.[\w.-]+', json.dumps(x)), f'community event {n}: contains an email address')
     need(f'c-{n}' in ids, f'community event {n}: not in the published calendar')

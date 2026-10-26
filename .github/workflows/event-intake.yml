@@ -1,7 +1,8 @@
 # When a maintainer adds "status: accepted" to an "Event for the calendar" issue, this checks the details and opens
 # a pull request that adds the event to src/community-events.json and rebuilds the hub, so the event goes through the
 # same review and checks as any other change. If the details fail a check, it comments with the reasons instead.
-# The issue is read from the event file by a Python script; no issue text is ever placed in a shell command.
+# The issue is read from the event file by a Python script; no issue text is ever placed in a shell command, and the
+# write token is given only to the steps that comment or open the pull request, never to npm or the build.
 # Needs Settings -> Actions -> General -> "Allow GitHub Actions to create and approve pull requests".
 name: Event intake
 on:
@@ -10,7 +11,7 @@ on:
 permissions:
   contents: read
 concurrency:
-  group: event-intake-${{ github.event.issue.number }}
+  group: event-intake # one at a time, so two accepted events never race to edit the same file
   cancel-in-progress: false
 jobs:
   intake:
@@ -22,16 +23,28 @@ jobs:
       issues: write         # comment on the issue
       actions: write        # start the checks on the new branch
     env:
-      GH_TOKEN: ${{ github.token }}
       ISSUE: ${{ github.event.issue.number }}
+      BRANCH: calendar/event-${{ github.event.issue.number }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
+      - name: Stop if a pull request for this event is already open
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          open=$(gh pr list --repo "$GITHUB_REPOSITORY" --head "$BRANCH" --state open --json url --jq '.[0].url')
+          if [ -n "$open" ]; then
+            gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY" --body "A pull request for this event is already open: $open. Review or close it before accepting the event again."
+            echo "stop=true" >> "$GITHUB_ENV"
+          fi
       - name: Check the suggestion and add it to the community events
+        if: env.stop != 'true'
         run: python3 -I scripts/event_intake.py "$GITHUB_EVENT_PATH" src/community-events.json
       - name: Explain what needs fixing
-        if: hashFiles('intake-result.json') != ''
+        if: env.stop != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           ok=$(python3 -c "import json;print(json.load(open('intake-result.json'))['ok'])")
           echo "ok=$ok" >> "$GITHUB_ENV"
@@ -52,25 +65,40 @@ jobs:
       - name: Rebuild the hub and its open data
         if: env.ok == 'True'
         run: |
-          npm ci || npm install --no-audit --no-fund
+          npm ci --ignore-scripts
           npx playwright install --with-deps chromium
           npm run -s build:all
           python3 tests/validate_data.py
       - name: Open the pull request
         if: env.ok == 'True'
         env:
-          TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ github.token }}
         run: |
-          branch="calendar/event-$ISSUE"
           title=$(python3 -c "import json;print(json.load(open('intake-result.json'))['title'])")
+          python3 - <<'PY' > pr.md
+          import json, os
+          r = json.load(open('intake-result.json')); e = r['entry']; n = os.environ['ISSUE']
+          print(f'Adds the community event suggested in #{n} to the calendar, with its public link as the source.\n')
+          print('Checked automatically by `scripts/event_intake.py`: dates, plain https link, lengths, invisible characters, email addresses, phone numbers, National Insurance numbers, postcodes and street addresses. The hub checks it again (C164, C165).\n')
+          print('**Before merging, please check by eye** (a machine cannot):')
+          print('- [ ] the name and place do not identify a private individual')
+          print('- [ ] the link opens the organiser\'s own public page for this event')
+          print('- [ ] the details below match the issue as you reviewed it (it may have been edited since)\n')
+          print('```json'); print(json.dumps(e, ensure_ascii=False, indent=1)); print('```\n')
+          print(f'Closes #{n}')
+          PY
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git checkout -b "$branch"
+          git checkout -b "$BRANCH"
           git add src/community-events.json dist/ site/ data/
           git commit -m "Calendar: add community event from #$ISSUE"
-          git push --force "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "HEAD:refs/heads/$branch"
-          # shellcheck disable=SC2016 # the backticks are Markdown, meant literally
-          printf 'Adds the community event suggested in #%s to the calendar, with its public link as the source.\n\nChecked by `scripts/event_intake.py`: dates, https link, length, no personal data. The hub checks it again (C164).\n\nCloses #%s\n' "$ISSUE" "$ISSUE" > pr.md
-          url=$(gh pr create --repo "$GITHUB_REPOSITORY" --base main --head "$branch" --title "Calendar: $title" --body-file pr.md --label event)
-          gh workflow run checks.yml --repo "$GITHUB_REPOSITORY" --ref "$branch"
+          git push --force "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "HEAD:refs/heads/$BRANCH"
+          url=$(gh pr create --repo "$GITHUB_REPOSITORY" --base main --head "$BRANCH" --title "Calendar: $title" --body-file pr.md --label event)
+          gh workflow run checks.yml --repo "$GITHUB_REPOSITORY" --ref "$BRANCH"
           gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY" --body "Thank you. Pull request $url adds this event to the calendar; it will appear on the hub once it is reviewed and merged."
+      - name: Say so if anything above failed
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY" --body "The event could not be added automatically because a step of the Event intake workflow failed. A maintainer will look at the run: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"

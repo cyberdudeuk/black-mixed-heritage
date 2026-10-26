@@ -166,7 +166,7 @@ async function aiInit(){try{aiSample=await claude.use("sample")}catch(e){aiSampl
   else{st.innerHTML=`${icon("shield")} Uses your own Claude account. The first time, Claude asks your permission. Answers come only from this hub; check drafts before you use them.`;$("#aiAsk").dataset.mode="ai"}
   window.__ai={available:!!aiSample}}
 function aiOffline(q){const r=AI_TOOLS[0].execute({q});$("#aiOut").innerHTML=r.length?`<p class="muted">Matches in the hub (no AI used):</p><div class="sresults">${r.map(x=>`<a class="sres" href="${x.href}"><span class="tag">${esc(x.type)}</span><b>${esc(x.title)}</b><span class="muted">${esc(x.snippet.slice(0,140))}</span></a>`).join("")}</div>`:`<p>No matches. Try fewer or different words.</p>`}
-function aiRender(text){const safe=esc(text).replace(/(#[a-z][\w-]+)/g,'<a href="$1">$1</a>').replace(/\b(S\d{1,5})\b/g,(m)=>SOURCES[m]?`<a class="tag ${SOURCES[m].loc?"loc":"src"}" href="${SOURCES[m].u}" target="_blank" rel="noopener">${m}</a>`:m);return safe.split(/\n{2,}/).map(p=>`<p>${p.replace(/\n/g,"<br>")}</p>`).join("")}
+function aiRender(text){const safe=esc(text).replace(/(#[a-z][\w-]+)/g,'<a href="$1">$1</a>').replace(/\b(S\d{1,5})\b/g,(m)=>SOURCES[m]?`<a class="tag ${SOURCES[m].loc?"loc":"src"}" href="${esc(SOURCES[m].u)}" target="_blank" rel="noopener">${m}</a>`:m);return safe.split(/\n{2,}/).map(p=>`<p>${p.replace(/\n/g,"<br>")}</p>`).join("")}
 async function aiRun(){const q=$("#aiQ").value.trim();if(!q){$("#aiQ").focus();return}
   if($("#aiAsk").dataset.mode!=="ai"||!aiSample){aiOffline(q);return}
   const s=AI_SKILLS.find(x=>x.id===aiSkill);const tools=AI_TOOLS.filter(t=>s.tools.includes(t.name));

@@ -94,7 +94,7 @@ Go to **About → Help run the hub**.
 - Every figure links to a source that was opened and read, with the date it was read. Where possible there are two independent sources, at least one authoritative. Wikipedia is not counted as a source.
 - Disputed figures are marked, and both are shown.
 - The hub never classifies any person's ethnicity: it uses counts published by others.
-- The hub checks itself: **About → Self-checks, stories and journeys** shows 164 checks that run in your browser each time you open it, including sources, accessibility, language, privacy and coverage. Each check has a deliberate-break test proving it can fail.
+- The hub checks itself: **About → Self-checks, stories and journeys** shows 165 checks that run in your browser each time you open it, including sources, accessibility, language, privacy and coverage. Each check has a deliberate-break test proving it can fail.
 - **About → Review and assessment** and **Assurance** set out quality scores and what still needs work. On the website, **Assurance → Repository checks** shows the latest result of each check that runs on every change in the public repository, and **Source freshness** lists every source with the date it was last read and when it is due to be read again.
 - It is unofficial, made in a personal capacity, and not endorsed by Black History Month UK or HM Government.
 

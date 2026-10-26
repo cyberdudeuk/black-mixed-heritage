@@ -32,7 +32,7 @@ Made in a personal capacity. Unofficial: not published or endorsed by Black Hist
 - Read `CONTRIBUTING.md` before opening a pull request.
 
 ## How it is checked
-- 164 self-checks run in every visitor's browser (sources, accessibility, language, privacy, coverage, links); each has a deliberate-break test that proves it can fail.
+- 165 self-checks run in every visitor's browser (sources, accessibility, language, privacy, coverage, links); each has a deliberate-break test that proves it can fail.
 - Open data, website files, size budgets and third-party licences are validated on every pull request, and `tests/negative.sh` injects known defects to prove each CI check fails when it should.
 - Playwright and axe-core tests run at desktop and phone widths in light and dark modes (`tests/test.mjs`), including a negative run that injects known defects.
 - Sources must be read in full and triangulated: two independent sources, at least one authoritative. Wikipedia is never counted as a source.
