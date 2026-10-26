@@ -4,7 +4,7 @@
   "id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/datapackage.json",
   "title": "BHM 2026 Hub open data",
   "description": "Open data from the BHM 2026 Hub: Black and Black-Mixed history, heritage and cultures, Africa and the African diaspora, for the UK public sector and the communities it serves. Generated from the hub itself on every build. Every event and figure links to the source it was checked against.",
-  "version": "2.21.1",
+  "version": "2.22.0",
   "created": "2026-10-21",
   "homepage": "https://cyberdudeuk.github.io/black-mixed-heritage/",
   "keywords": [
@@ -166,6 +166,22 @@
       "encoding": "utf-8",
       "title": "What is new",
       "description": "The latest releases of the hub, with what changed and how it was checked.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/",
+          "title": "Creative Commons Attribution 4.0"
+        }
+      ]
+    },
+    {
+      "name": "pages",
+      "path": "bhm2026-pages.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "title": "Pages",
+      "description": "Every page of the hub: id, title, the menu it sits in, and its address.",
       "licenses": [
         {
           "name": "CC-BY-4.0",

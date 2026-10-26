@@ -22,7 +22,7 @@ dist/bhm-2026-hub.html ──► src/export.mjs ──► data/ (JSON-LD, glossa
 ## Inside the page
 | Part | What it does |
 |---|---|
-| `VIEWS`, `NAV_GROUPS` | The 55 pages and the six menus (at most nine pages each) |
+| `VIEWS`, `NAV_GROUPS` | The 57 pages and the seven menus (at most nine pages each); `data/bhm2026-pages.json` lists them, and `scripts/sync_forms.py` keeps the issue forms' page lists the same |
 | `SOURCES`, `SRCQ(...)` | Every source, with the quote that supports each point and the date it was read |
 | `LP` (lens pages) | Sourced points grouped into sections, with "In short" summaries and "From where you stand" vantage points |
 | `CHECKS` | Self-checks. Each has `run` (returns ok and a detail) and `breakIt` (proves the check can fail) |
@@ -139,3 +139,8 @@ Generated data files (`v34_lens_data.js`, `v36_world_data.js`, `v41_pagekit_data
 | `v43_global.js` | BLACK COMMUNITIES AROUND THE WORLD, HONOURING OUR COMMUNITIES, AND A GLOBAL COVERAGE AUDIT (D-119, D-120) |
 | `v44_awards.js` | RECOGNITION AND REPRESENTATION: PRIZES, HONOURS, MEDALS, FELLOWSHIPS AND SCHOLARSHIPS (D-121) |
 | `v45_github.js` | IDEAS AND WISHES ON GITHUB (D-123) |
+
+
+## Build guards
+- `src/ctxkeys.py` (run by `patch_v15.py`): each self-check adds its evidence to one shared object under its own key; the build fails if two checks use the same key, which once made a check silently read another check's evidence (D-135).
+- `scripts/sync_forms.py`: the issue forms' page lists are generated from `data/bhm2026-pages.json`; `tests/validate_data.py` fails if they differ.

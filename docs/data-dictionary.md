@@ -10,6 +10,7 @@ The files in `data/` are generated from the hub's own data model by `src/export.
 | `bhm2026-hub.jsonld` | JSON-LD | The hub as linked data: Schema.org types and SKOS concepts |
 | `bhm2026-sources.json` | JSON | Every source, with the date it was last read and the date it is due to be read again |
 | `bhm2026-deadlines.json` | JSON | Published award and nomination deadlines |
+| `bhm2026-pages.json` | JSON | Every page: `id`, `title` (as in the menus), `menu` and `url`. The issue forms' page lists are generated from it |
 | `datapackage.json` | JSON | A [Frictionless Data Package](https://specs.frictionlessdata.io/data-package/) describing every file here: title, description, format, media type, licence, and the glossary's columns |
 | `bhm2026-releases.atom` | Atom | What is new: the 30 latest releases. Add `https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-releases.atom` to a feed reader |
 
@@ -81,6 +82,10 @@ Published by `.github/workflows/pages.yml` beside the website; not in the reposi
 | `items[].comments` | Number of comments |
 | `items[].created` | Date opened |
 | `items[].page` | The page chosen in the form |
+
+| `done[].n`, `done[].url`, `done[].title` | Closed issues labelled `status: done`: number, link and title |
+| `done[].type` | `idea`, `wish`, `correction`, `bug` or `accessibility` |
+| `done[].closed` | Date closed |
 
 Issues labelled `needs-redaction`, and any whose title or text looks like it holds an email address, phone number or National Insurance number, are never included. No issue text or usernames are published.
 

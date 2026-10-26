@@ -70,7 +70,7 @@ eids = [e.find(A + 'id').text for e in entries]
 need(len(eids) == len(set(eids)), 'releases.atom: duplicate entry ids')
 pkg_version = json.load(open('package.json'))['version']
 need(entries and entries[0].find(A + 'title').text.endswith(pkg_version), f'releases.atom: newest entry is not version {pkg_version}')
-need('application/atom+xml' in open('site/index.html', encoding='utf8').read(2000), 'site/index.html: no link to the release feed')
+need('application/atom+xml' in open('site/index.html', encoding='utf8').read().split('</head>')[0], 'site/index.html: no link to the release feed')
 # every issue form the hub links to exists in the repository, and has the field the hub fills in
 import glob
 forms = {os.path.basename(f) for f in glob.glob('.github/ISSUE_TEMPLATE/*.yml')}
@@ -103,7 +103,7 @@ need(dp.get('version') == pkg_version, 'datapackage.json: version differs from p
 listed = {r['path'] for r in dp.get('resources', [])}
 present = {f for f in os.listdir('data') if f != 'datapackage.json'}
 need(listed == present, f'datapackage.json: lists {sorted(listed - present)} that do not exist, misses {sorted(present - listed)}')
-site_head = open('site/index.html', encoding='utf8').read(6000)
+site_head = open('site/index.html', encoding='utf8').read().split('</head>')[0]
 for tag in ('rel="canonical"', 'property="og:image"', 'application/ld+json', 'name="description"'):
     need(tag in site_head, f'site/index.html: no {tag} in the page head')
 need(os.path.isfile('site/og.png'), 'site/og.png: missing (the image shown when the link is shared)')
