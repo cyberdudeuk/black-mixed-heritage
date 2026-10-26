@@ -7,7 +7,7 @@ This manual explains how to open the hub, find your way, use its tools and take 
 ## Contents
 1. [Ways to open the hub](#1-ways-to-open-the-hub)
 2. [Finding your way](#2-finding-your-way)
-3. [The six menus](#3-the-six-menus)
+3. [The seven menus](#3-the-seven-menus)
 4. [What is on every page](#4-what-is-on-every-page)
 5. [Accessibility settings](#5-accessibility-settings)
 6. [Things you can do](#6-things-you-can-do)
@@ -28,7 +28,7 @@ This manual explains how to open the hub, find your way, use its tools and take 
 All of them hold the same content. Saving votes, shared ideas and the AI assistant work only inside Claude; elsewhere the hub says so and offers an alternative.
 
 ## 2. Finding your way
-- **Menus:** six menus across the top (on phones, one **Menu** button). Each menu has its own colour.
+- **Menus:** seven menus across the top (on phones, one **Menu** button). Each menu has its own colour.
 - **Search:** select **Search** or press `/` from anywhere. It finds sections, headings and every listed item. Try "jollof", "Windrush", "Wales", "patent" or "reparations".
 - **Contents:** the **Contents** switch opens the list of sections on the page you are on, with counts and flags for what is **new** or **updated** since your last visit. You can filter the list.
 - **Related pages, previous and next:** at the end of every page.
@@ -36,15 +36,16 @@ All of them hold the same content. Saving votes, shared ideas and the AI assista
 - **Links to a section:** every section has its own address, so you can share a link straight to it.
 - **Guided tours:** **About → User guide and tours** has five tours: First visit, Plan an event, For leaders, For schools and educators, and Can I trust this?
 
-## 3. The six menus
+## 3. The seven menus
 | Menu | Pages |
 |---|---|
 | **This month** | The 2026 theme · Calendar · Organiser toolkit · Posters · Get involved · Networks and communities · Book and film club · Remember · Food and heritage |
-| **Lead** | For leaders · Inequalities and action · Benchmarks and comparisons · Life stages and identities · Careers and development · Talent, leadership and research · Black enterprise · Young lives: NEET, BEET and CHEET · Representation across the state |
+| **Lead** | For leaders · Inequalities and action · Life stages and identities · Careers and development · Talent, leadership and research · Black enterprise · Young lives: NEET, BEET and CHEET · Representation across the state |
+| **Practice** | Designing for Black and Mixed-heritage people (policy, service, content and data design) · Words matter: race, ethnicity and language · Benchmarks and comparisons · Dashboards · Through other lenses · The DEEIA lens |
 | **Learn** | History · Africa's knowledge and its journeys · What was taken, lost and might have been · Who built the stereotypes · Africa: patterns, symbols and languages · Innovation and invention · Frontier tech in Africa · Culture, sport and enterprise · Futures 2030 to 2100 |
-| **Understand** | What it means to be Black · The African diaspora · Words matter: race, ethnicity and language · Africa: many cultures, many kinds of knowledge · Africa: peoples, regions, borders and displacement · DNA, genomes and African ancestry · Myths and facts · Identity, heritage and respect · Current debates |
-| **Resources** | For schools and educators · Curriculum and reference works · Resources · Partners and archives · Brand and media · Connect and share · Through other lenses · The DEEIA lens · Questions people ask |
-| **About** | User guide and tours · About this hub · Help run the hub · Knowledge layer · Dashboards · Design and architecture · Self-checks, stories and journeys · Review and assessment · Assurance |
+| **Understand** | What it means to be Black · Mixed heritage · The African diaspora · Africa: many cultures, many kinds of knowledge · Africa: peoples, regions, borders and displacement · DNA, genomes and African ancestry · Myths and facts · Identity, heritage and respect · Current debates |
+| **Resources** | For schools and educators · Curriculum and reference works · Resources · Partners and archives · Brand and media · Connect and share · Questions people ask |
+| **About** | User guide and tours · About this hub · Help run the hub · Knowledge layer · Design and architecture · Self-checks, stories and journeys · Review and assessment · Assurance |
 
 The **Overview** (the front page) changes through the month: highlights, today's spotlight, a proverb and what is coming up.
 
@@ -88,14 +89,17 @@ Go to **About → Help run the hub**.
 - **Ideas box:** choose a type (idea, feature wish, bug, correction or accessibility barrier), give a short title and details, and add it. Do not include personal information. To share it with everyone, select **send it to GitHub**: this opens the right GitHub form already filled in, including the page you were on.
 - **Ideas and wishes on GitHub:** on the website, the same page lists the ideas and feature wishes raised on GitHub, with how many people support each one and its status (new, accepted, planned, in progress, done, declined). To support one, open it on GitHub and add a thumbs-up reaction. The list updates within a few hours.
 - **On GitHub:** buttons to report a bug, correct a fact or source, report an accessibility barrier, suggest an idea or request a feature. You need a free GitHub account. Issues are public.
-- **Volunteer:** the same page sets out the roles that keep the hub going, and has a form to express interest. Inside Claude, your answers are saved privately. Elsewhere, the form offers to open GitHub's **Volunteer** form with your roles, months, skills and commitment filled in; it does not copy your notes or networks, because GitHub issues are public.
+- **Champion pack:** words to copy for your intranet, a team message and a social post, and six steps to share the hub in your organisation, profession or network.
+- **Record your contribution:** keep a log of what you do for the hub, with hours and the Civil Service Success Profiles behaviours, for objectives or CPD. It stays in your browser; save it as a text file or copy it.
+- **Thanks, and what changed:** contributors who chose to be named, and on the website the suggestions that became changes.
+- **Volunteer:** the same page sets out the roles that keep the hub going (now including champions and ambassadors, and field review panels), and has a form to express interest. Inside Claude, your answers are saved privately. Elsewhere, the form offers to open GitHub's **Volunteer** form with your roles, months, skills and commitment filled in; it does not copy your notes or networks, because GitHub issues are public.
 
 ## 8. Can I trust it?
 - Every figure links to a source that was opened and read, with the date it was read. Where possible there are two independent sources, at least one authoritative. Wikipedia is not counted as a source.
 - Disputed figures are marked, and both are shown.
 - The hub never classifies any person's ethnicity: it uses counts published by others.
-- The hub checks itself: **About → Self-checks, stories and journeys** shows 165 checks that run in your browser each time you open it, including sources, accessibility, language, privacy and coverage. Each check has a deliberate-break test proving it can fail.
-- **About → Review and assessment** and **Assurance** set out quality scores and what still needs work. On the website, **Assurance → Repository checks** shows the latest result of each check that runs on every change in the public repository, and **Source freshness** lists every source with the date it was last read and when it is due to be read again.
+- The hub checks itself: **About → Self-checks, stories and journeys** shows 167 checks that run in your browser each time you open it, including sources, accessibility, language, privacy and coverage. Each check has a deliberate-break test proving it can fail.
+- **About → Review and assessment** and **Assurance** set out quality scores and what still needs work. The **Coverage map** on Review and assessment shows how many sourced points the hub holds for each field, design discipline, government function, Civil Service profession and part of the public sector, and what is being added next. On the website, **Assurance → Repository checks** shows the latest result of each check that runs on every change in the public repository, and **Source freshness** lists every source with the date it was last read and when it is due to be read again.
 - It is unofficial, made in a personal capacity, and not endorsed by Black History Month UK or HM Government.
 
 ## 9. Reusing content and data

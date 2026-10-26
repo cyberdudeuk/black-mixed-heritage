@@ -8,7 +8,7 @@
       "@type": "CreativeWork",
       "@id": "urn:bhm26:hub",
       "name": "Black History Month 2026 Hub",
-      "version": "2.21.1",
+      "version": "2.22.0",
       "dateModified": "2026-10-21",
       "about": "Honouring Our Communities"
     },
@@ -23962,6 +23962,576 @@
         "https://www.wipo.int/ipadvantage/en/details.jsp?id=2594",
         "https://www.cbd.int/doc/meetings/abs/abswg-06/other/abswg-06-cs-07-en.pdf",
         "https://www.culturalsurvival.org/news/sharing-secrets-hoodia-san-reap-financial-benefits-traditional-knowledge"
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:bhm26:dataset-designing",
+      "name": "Designing for Black and Mixed-heritage people",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#designing",
+      "isPartOf": "urn:bhm26:hub"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:dg-policy-the-public-sector-equality-duty-applies-",
+      "name": "The public sector equality duty applies to every function",
+      "isPartOf": "urn:bhm26:dataset-designing",
+      "citation": [
+        "https://www.legislation.gov.uk/ukpga/2010/15/section/149",
+        "https://www.equalityhumanrights.com/guidance/public-sector-equality-duty-psed"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:dg-policy-due-regard-means-meeting-different-needs",
+      "name": "Due regard means meeting different needs, not only avoiding harm",
+      "isPartOf": "urn:bhm26:dataset-designing",
+      "citation": [
+        "https://www.legislation.gov.uk/ukpga/2010/15/section/149",
+        "https://www.gov.uk/service-manual/service-standard/point-5-make-sure-everyone-can-use-the-service"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:dg-policy-assess-impact-before-you-decide-and-keep",
+      "name": "Assess impact before you decide, and keep a record",
+      "isPartOf": "urn:bhm26:dataset-designing",
+      "citation": [
+        "https://www.gov.uk/government/publications/public-sector-equality-duty-guidance-for-public-authorities/public-sector-equality-duty-guidance-for-public-authorities",
+        "https://www.legislation.gov.uk/ssi/2012/162/regulation/5",
+        "https://www.legislation.gov.uk/wsi/2011/1064/regulation/8"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:dg-policy-involve-the-people-affected-not-only-the",
+      "name": "Involve the people affected, not only their data",
+      "isPartOf": "urn:bhm26:dataset-designing",
+      "citation": [
+        "https://www.legislation.gov.uk/wsi/2011/1064/regulation/5",
+        "https://www.gov.uk/government/publications/public-sector-equality-duty-guidance-for-public-authorities/public-sector-equality-duty-guidance-for-public-authorities",
+        "https://www.gov.uk/government/publications/consultation-principles-guidance/consultation-principles-2018"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:dg-policy-start-from-published-ethnicity-data-befo",
+      "name": "Start from published ethnicity data before commissioning new research",
+      "isPartOf": "urn:bhm26:dataset-designing",
+      "citation": [
+        "https://www.gov.uk/government/organisations/race-disparity-unit",
+        "https://www.ethnicity-facts-figures.service.gov.uk/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:dg-policy-plan-evaluation-that-can-show-different-",
+      "name": "Plan evaluation that can show different effects for different groups",
+      "isPartOf": "urn:bhm26:dataset-designing",
+      "citation": [
+        "https://www.gov.uk/government/publications/the-magenta-book/magenta-book-central-government-guidance-on-evaluation-html"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:dg-service-the-service-standard-solve-whole-problem",
+      "name": "The Service Standard: solve whole problems and exclude no group",
+      "isPartOf": "urn:bhm26:dataset-designing",
+      "citation": [
+        "https://www.gov.uk/service-manual/service-standard/point-5-make-sure-everyone-can-use-the-service",
+        "https://www.gov.uk/service-manual/service-standard/point-2-solve-a-whole-problem"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:dg-service-recruit-research-participants-who-reflec",
+      "name": "Recruit research participants who reflect your actual users",
+      "isPartOf": "urn:bhm26:dataset-designing",
+      "citation": [
+        "https://www.gov.uk/service-manual/user-research/find-user-research-participants",
+        "https://www.gov.uk/service-manual/service-standard/point-5-make-sure-everyone-can-use-the-service",
+        "https://www.communications.gov.uk/blog/4-tips-to-make-your-campaign-imagery-more-diverse"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:dg-service-recent-internet-use-was-not-lower-in-bla",
+      "name": "Recent internet use was not lower in Black or Mixed groups (UK, 2019)",
+      "isPartOf": "urn:bhm26:dataset-designing",
+      "citation": [
+        "https://www.ethnicity-facts-figures.service.gov.uk/culture-and-community/digital/internet-use/latest",
+        "https://www.gov.uk/service-manual/service-standard/point-5-make-sure-everyone-can-use-the-service"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:dg-service-confidence-in-local-police-was-lowest-fo",
+      "name": "Confidence in local police was lowest for some Black and Mixed groups",
+      "isPartOf": "urn:bhm26:dataset-designing",
+      "citation": [
+        "https://www.ethnicity-facts-figures.service.gov.uk/crime-justice-and-the-law/policing/confidence-in-the-local-police/latest/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:dg-service-language-needs-vary-widely-within-black-",
+      "name": "Language needs vary widely within Black and Mixed groups",
+      "isPartOf": "urn:bhm26:dataset-designing",
+      "citation": [
+        "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/language/bulletins/languageenglandandwales/census2021",
+        "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/demographics/english-language-skills/latest",
+        "https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/plan-manage-content/consider-translations"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:dg-content-do-not-use-the-acronyms-that-group-every",
+      "name": "Do not use the acronyms that group everyone together",
+      "isPartOf": "urn:bhm26:dataset-designing",
+      "citation": [
+        "https://www.ethnicity-facts-figures.service.gov.uk/style-guide/writing-about-ethnicity",
+        "https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/style-guides/a-to-z-style-guide/",
+        "https://service-manual.nhs.uk/content/inclusive-content/ethnicity-religion-and-nationality"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:dg-content-name-specific-groups-because-broad-group",
+      "name": "Name specific groups, because broad groups hide differences",
+      "isPartOf": "urn:bhm26:dataset-designing",
+      "citation": [
+        "https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/style-guides/a-to-z-style-guide/",
+        "https://www.ethnicity-facts-figures.service.gov.uk/style-guide/writing-about-ethnicity",
+        "https://service-manual.nhs.uk/content/inclusive-content/ethnicity-religion-and-nationality"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:dg-content-use-phrases-people-accepted-in-research-",
+      "name": "Use phrases people accepted in research, with capital letters",
+      "isPartOf": "urn:bhm26:dataset-designing",
+      "citation": [
+        "https://www.ethnicity-facts-figures.service.gov.uk/style-guide/writing-about-ethnicity",
+        "https://service-manual.nhs.uk/content/inclusive-content/ethnicity-religion-and-nationality"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:dg-content-plain-english-is-mandatory-on-gov-uk",
+      "name": "Plain English is mandatory on GOV.UK",
+      "isPartOf": "urn:bhm26:dataset-designing",
+      "citation": [
+        "https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/writing-guidelines/clear-language/",
+        "https://www.gov.uk/government/publications/consultation-principles-guidance"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:dg-content-show-a-range-of-people-in-images-and-avo",
+      "name": "Show a range of people in images, and avoid stereotypes",
+      "isPartOf": "urn:bhm26:dataset-designing",
+      "citation": [
+        "https://design-system.service.gov.uk/styles/images",
+        "https://www.communications.gov.uk/blog/4-tips-to-make-your-campaign-imagery-more-diverse"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:dg-content-accessibility-is-a-legal-requirement-for",
+      "name": "Accessibility is a legal requirement for public sector websites",
+      "isPartOf": "urn:bhm26:dataset-designing",
+      "citation": [
+        "https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps",
+        "https://www.legislation.gov.uk/uksi/2018/952/contents"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:dg-data-use-the-harmonised-ethnicity-standard-so",
+      "name": "Use the harmonised ethnicity standard so data can be compared",
+      "isPartOf": "urn:bhm26:dataset-designing",
+      "citation": [
+        "https://analysisfunction.civilservice.gov.uk/policy-store/ethnicity-harmonised-standard/",
+        "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/bulletins/ethnicgroupenglandandwales/census2021"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:dg-data-design-forms-for-self-identification-cho",
+      "name": "Design forms for self-identification, choice and write-in answers",
+      "isPartOf": "urn:bhm26:dataset-designing",
+      "citation": [
+        "https://www.gov.uk/government/publications/standards-for-ethnicity-data/standards-for-ethnicity-data",
+        "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/bulletins/ethnicgroupenglandandwales/census2021",
+        "https://www.ethnicity-facts-figures.service.gov.uk/style-guide/writing-about-ethnicity"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:dg-data-leaving-ethnicity-out-of-a-model-does-no",
+      "name": "Leaving ethnicity out of a model does not stop bias",
+      "isPartOf": "urn:bhm26:dataset-designing",
+      "citation": [
+        "https://www.gov.uk/government/publications/cdei-publishes-review-into-bias-in-algorithmic-decision-making/main-report-cdei-review-into-bias-in-algorithmic-decision-making",
+        "https://www.gov.uk/government/publications/cdei-publishes-review-into-bias-in-algorithmic-decision-making"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:dg-data-facial-recognition-accuracy-for-black-pe",
+      "name": "Facial recognition accuracy for Black people depends on settings",
+      "isPartOf": "urn:bhm26:dataset-designing",
+      "citation": [
+        "https://science.police.uk/site/assets/files/3396/frt-equitability-study_mar2023.pdf",
+        "https://assets.publishing.service.gov.uk/media/693002a4cdec734f4dff4149/1a_Cognitec_NPL_Equitability_Report_October_25.pdf",
+        "https://www.gov.uk/government/publications/facial-recognition-technology-tests-national-physical-laboratory/summary-accuracy-and-equitability-evaluation-of-cognitec-facevacs-dbscan-id-v55"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:dg-data-publish-how-algorithmic-tools-work-inclu",
+      "name": "Publish how algorithmic tools work, including bias testing",
+      "isPartOf": "urn:bhm26:dataset-designing",
+      "citation": [
+        "https://www.gov.uk/government/collections/algorithmic-transparency-recording-standard-hub",
+        "https://www.gov.uk/government/publications/guidance-for-organisations-using-the-algorithmic-transparency-recording-standard/algorithmic-transparency-recording-standard-guidance-for-public-sector-bodies",
+        "https://www.gov.uk/government/publications/cdei-publishes-review-into-bias-in-algorithmic-decision-making"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:dg-data-protect-small-groups-when-you-publish-da",
+      "name": "Protect small groups when you publish data",
+      "isPartOf": "urn:bhm26:dataset-designing",
+      "citation": [
+        "https://analysisfunction.civilservice.gov.uk/policy-store/an-introduction-to-sdc/",
+        "https://www.gov.uk/government/publications/standards-for-ethnicity-data/standards-for-ethnicity-data",
+        "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/bulletins/ethnicgroupenglandandwales/census2021"
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:bhm26:dataset-mixed",
+      "name": "Mixed heritage",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#mixed",
+      "isPartOf": "urn:bhm26:hub"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-numbers-1-7-million-people-in-england-and-wales-",
+      "name": "1.7 million people in England and Wales are in a Mixed ethnic group",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/national-and-regional-populations/population-of-england-and-wales/latest",
+        "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/bulletins/ethnicgroupenglandandwales/census2021"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-numbers-white-and-black-caribbean-is-the-largest",
+      "name": "White and Black Caribbean is the largest Mixed group",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/national-and-regional-populations/population-of-england-and-wales/latest"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-numbers-mixed-groups-are-the-youngest-in-england",
+      "name": "Mixed groups are the youngest in England and Wales",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/articles/ethnicgroupbyageandsexenglandandwales/census2021",
+        "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/demographics/age-groups/latest"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-numbers-scotland-mixed-group-tripled-to-about-61",
+      "name": "Scotland: Mixed group tripled to about 61,000 people",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://www.scotlandscensus.gov.uk/2022-results/scotland-s-census-2022-ethnic-group-national-identity-language-and-religion/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-numbers-northern-ireland-mixed-is-the-largest-mi",
+      "name": "Northern Ireland: Mixed is the largest minority ethnic group",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://www.nisra.gov.uk/system/files/statistics/census-2021-main-statistics-for-northern-ireland-phase-1-statistical-bulletin-ethnic-group.pdf",
+        "https://www.ethnicity-facts-figures.service.gov.uk/style-guide/ethnic-groups"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-numbers-one-in-ten-households-has-members-of-dif",
+      "name": "One in ten households has members of different ethnic groups",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/bulletins/ethnicgroupenglandandwales/census2021",
+        "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/marriagecohabitationandcivilpartnerships/articles/whatdoesthe2011censustellusaboutinterethnicrelationships/2014-07-03"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-words-government-style-people-with-a-mixed-eth",
+      "name": "Government style: 'people with a Mixed ethnic background'",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://www.ethnicity-facts-figures.service.gov.uk/style-guide/writing-about-ethnicity"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-words-mixed-race-mixed-heritage-dual-heritage-",
+      "name": "Mixed race, mixed heritage, dual heritage: terms people use",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://kar.kent.ac.uk/24454",
+        "https://exhibition.mixedmuseum.org.uk/parenting/whats-in-a-name",
+        "https://cdn.websitebuilder.service.justice.gov.uk/uploads/sites/32/2025/03/The-experiences-of-black-and-mixed-heritage-boys-in-the-youth-justice-system-thematic-report-v1.0.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-words-each-uk-nation-asks-the-question-differe",
+      "name": "Each UK nation asks the question differently",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://analysisfunction.civilservice.gov.uk/policy-store/ethnicity-harmonised-standard/",
+        "https://www.ethnicity-facts-figures.service.gov.uk/style-guide/ethnic-groups"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-words-testing-found-some-people-uneasy-with-th",
+      "name": "Testing found some people uneasy with the word 'Mixed'",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://www.ons.gov.uk/census/censustransformationprogramme/questiondevelopment/nationalidentityethnicgrouplanguageandreligionquestiondevelopmentforcensus2021"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-words-the-same-person-may-answer-differently-o",
+      "name": "The same person may answer differently over time",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://hummedia.manchester.ac.uk/institutes/code/briefingsupdated/how-have-people's-ethnic-identities-changed-in-england-and-wales.pdf",
+        "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthinequalities/articles/understandingconsistencyofethnicitydatarecordedinhealthrelatedadministrativedatasetsinengland2011to2021/2023-01-16"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-outcomes-white-and-black-caribbean-pupils-suspens",
+      "name": "White and Black Caribbean pupils: suspension rate almost twice average",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://www.ethnicity-facts-figures.service.gov.uk/education-skills-and-training/absence-and-exclusions/pupil-exclusions/latest"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-outcomes-higher-permanent-exclusion-rates-even-af",
+      "name": "Higher permanent exclusion rates, even after other factors",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://www.ethnicity-facts-figures.service.gov.uk/education-skills-and-training/absence-and-exclusions/permanent-exclusions/latest",
+        "https://www.gov.uk/government/news/edward-timpson-publishes-landmark-exclusions-review"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-outcomes-children-from-mixed-groups-are-over-repr",
+      "name": "Children from Mixed groups are over-represented in care",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://explore-education-statistics.service.gov.uk/find-statistics/children-looked-after-in-england-including-adoptions"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-outcomes-mixed-children-are-over-represented-in-y",
+      "name": "Mixed children are over-represented in youth custody",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://www.gov.uk/government/statistics/youth-justice-statistics-2024-to-2025/youth-justice-statistics-2024-to-2025",
+        "https://cdn.websitebuilder.service.justice.gov.uk/uploads/sites/32/2025/03/The-experiences-of-black-and-mixed-heritage-boys-in-the-youth-justice-system-thematic-report-v1.0.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-outcomes-employment-69-of-people-from-mixed-group",
+      "name": "Employment: 69% of people from Mixed groups were in work",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://www.ethnicity-facts-figures.service.gov.uk/work-pay-and-benefits/employment/employment/latest"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-outcomes-higher-detention-rates-under-the-mental-",
+      "name": "Higher detention rates under the Mental Health Act",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://www.ethnicity-facts-figures.service.gov.uk/health/mental-health/detentions-under-the-mental-health-act/latest"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-history-dido-elizabeth-belle-1761-to-1804-raised",
+      "name": "Dido Elizabeth Belle (1761 to 1804), raised at Kenwood",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://www.english-heritage.org.uk/visit/places/kenwood/history/dido-belle/",
+        "https://scone-palace.co.uk/dido-belle"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-history-samuel-coleridge-taylor-1875-to-1912-com",
+      "name": "Samuel Coleridge-Taylor (1875 to 1912), composer",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://www.nationalarchives.gov.uk/explore-the-collection/stories/samuel-coleridge-taylor/",
+        "https://www.english-heritage.org.uk/visit/blue-plaques/samuel-coleridge-taylor/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-history-the-1930-fletcher-report-stigmatised-mix",
+      "name": "The 1930 Fletcher Report stigmatised mixed families in Liverpool",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://exhibition.mixedmuseum.org.uk/museum/timeline/the-fletcher-report",
+        "https://sca-archives.liverpool.ac.uk/Record/111438"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-history-about-2-000-brown-babies-born-during-the",
+      "name": "About 2,000 'brown babies' born during the Second World War",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://blog.nationalarchives.gov.uk/brown-babies-second-world-war/",
+        "https://www.liverpoolmuseums.org.uk/stories/brown-babies-of-second-world-war",
+        "https://aru.ac.uk/news/heartbreaking-history-of-babies-they-left-behind"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-history-mixed-categories-first-appeared-in-the-e",
+      "name": "Mixed categories first appeared in the England and Wales census in 2001",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://hummedia.manchester.ac.uk/institutes/code/briefingsupdated/how-have-people's-ethnic-identities-changed-in-england-and-wales.pdf",
+        "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/marriagecohabitationandcivilpartnerships/articles/whatdoesthe2011censustellusaboutinterethnicrelationships/2014-07-03"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-data-health-records-agree-least-with-census-f",
+      "name": "Health records agree least with census for Mixed groups",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthinequalities/articles/understandingconsistencyofethnicitydatarecordedinhealthrelatedadministrativedatasetsinengland2011to2021/2023-01-16"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-data-admin-data-can-undercount-mixed-young-ad",
+      "name": "Admin data can undercount Mixed young adults",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/articles/producingadminbasedethnicitystatisticsforenglandchangestodataandmethods/2022-05-23"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-data-aggregated-mixed-figures-hide-difference",
+      "name": "Aggregated 'Mixed' figures hide differences",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://www.gov.uk/government/publications/standards-for-ethnicity-data/standards-for-ethnicity-data",
+        "https://www.ethnicity-facts-figures.service.gov.uk/style-guide/ethnic-groups"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-data-what-designers-and-analysts-should-do",
+      "name": "What designers and analysts should do",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://www.gov.uk/government/publications/standards-for-ethnicity-data/standards-for-ethnicity-data",
+        "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/methodologies/ethnicgroupnationalidentitylanguageandreligionqualityinformationforcensus2021"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-world-latin-america-about-134-million-afro-des",
+      "name": "Latin America: about 134 million Afro-descendants (ECLAC estimate)",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://www.cepal.org/es/notas/sintesis-documento-afrodescendientes-la-matriz-la-desigualdad-social-america-latina-retos-la",
+        "https://www.unfpa.org/es/updates/poner-fin-al-racismo-es-tarea-de-todos-y-constituye-un-aspecto-central-en-la-construcci%C3%B3n",
+        "https://cepal.org/sites/default/files/presentation/files/201028_final_fiinal-28_de_octubre_alicia_barcena_afrodescendientes.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-world-brazil-pardo-brown-mixed-became-the-larg",
+      "name": "Brazil: 'pardo' (brown, mixed) became the largest group in 2022",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://agenciadenoticias.ibge.gov.br/media/com_mediaibge/arquivos/13ee0337cffc1de37bf0cd4da3988e1f.pdf",
+        "https://educa.ibge.gov.br/jovens/conheca-o-brasil/populacao/18319-cor-ou-raca.html",
+        "https://monitormercantil.com.br/censo-maior-parte-da-populacao-do-brasil-se-declara-parda/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-world-colombia-one-census-option-joins-negro-m",
+      "name": "Colombia: one census option joins 'negro', 'mulato' and Afro-Colombian",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://www.dane.gov.co/files/investigaciones/boletines/grupos-etnicos/CIDH_poblaci%C3%B3n_narp.pdf",
+        "https://www.dane.gov.co/files/investigaciones/boletines/grupos-etnicos/comunicado-grupos-etnicos-poblacion-NARP-2019-debate-ctrl-politico-camara-rep.pdf",
+        "https://www.lasillavacia.com/detector-de-mentiras/detector-la-cifra-de-afros-en-colombia-de-francia-marquez-es-debatible/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-world-mexico-2-6-million-people-identified-as-",
+      "name": "Mexico: 2.6 million people identified as Afro-Mexican in 2020",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://inegi.org.mx/contenidos/inegi/ccu/2021/primera_sesion/presentaciones/result_cues_cpv20.pdf",
+        "https://cdhcm.org.mx/wp-content/uploads/2021/01/Bol1121.pdf",
+        "https://www.wilsoncenter.org/article/infografia-afrodescendientes-en-mexico",
+        "https://cdhcm.org.mx/wp-content/uploads/2021/11/Folleto-Afro-digital.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-world-united-states-two-or-more-races-rose-to-",
+      "name": "United States: 'Two or More Races' rose to 33.8 million in 2020",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://census.gov/library/stories/2021/08/improved-race-ethnicity-measures-reveal-united-states-population-much-more-multiracial.html",
+        "https://www.pewresearch.org/short-reads/2023/02/10/key-facts-about-black-americans/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mx-world-south-africa-coloured-is-a-population-gr",
+      "name": "South Africa: 'Coloured' is a population group used in statistics",
+      "isPartOf": "urn:bhm26:dataset-mixed",
+      "citation": [
+        "https://statssa.gov.za/?p=16716",
+        "https://unstats.un.org/sdgs/files/meetings/egm-data-dissaggregation/PPT21-Booysen.pdf",
+        "https://resource.capetown.gov.za/documentcentre/Documents/City%20research%20reports%20and%20review/2022_Census_Cape_Town_profile.pdf"
       ]
     }
   ]

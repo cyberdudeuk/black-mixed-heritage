@@ -392,3 +392,7 @@ details.dvtable > summary{cursor:pointer;color:var(--link,var(--green));text-dec
 .kc-deadline{background:#F3B6C9}
 .ciresult{display:inline-flex;gap:.3em;align-items:center;font-weight:600}
 .ci-flag{text-decoration:underline;text-decoration-thickness:2px}
+/* 2.22.0: the Practice menu */
+[data-accent="prac"]{--ac:#0B6B6B}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) [data-accent="prac"]{--ac:#5FD0C9}}
+:root[data-theme="dark"] [data-accent="prac"]{--ac:#5FD0C9}

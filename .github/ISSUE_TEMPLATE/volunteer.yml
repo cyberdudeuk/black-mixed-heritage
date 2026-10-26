@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for offering to help. The roles are described on the hub's **Help run the hub** page: hub owner and deputy, page stewards, evidence checkers, accessibility champions, community reviewers, data and dashboards lead, maintainers, events and outreach coordinators, nation leads, learning curators, communications partner and senior sponsor.
+        Thank you for offering to help. The roles are described on the hub's **Help run the hub** page: hub owner and deputy, page stewards, evidence checkers, accessibility champions, community reviewers, data and dashboards lead, maintainers, events and outreach coordinators, nation leads, learning curators, communications partner, senior sponsor, champions and ambassadors, and field review panels.
 
         **This issue is public.** Do not include your email address, phone number, employer, or anything else that identifies you beyond your GitHub account. A maintainer will reply here.
   - type: textarea
@@ -16,6 +16,27 @@ body:
       description: "The hub fills this in when you use its form; otherwise list the roles you are interested in, the months you could help, your skills and roughly how much time you have"
     validations:
       required: true
+  - type: dropdown
+    id: panel
+    attributes:
+      label: "Field review panel (optional)"
+      description: "If you would review the points in your own field, choose it"
+      options:
+        - "None"
+        - "Policy design"
+        - "Service design"
+        - "Content design"
+        - "Data, statistics and analysis"
+        - "Engineering, architecture and the built environment"
+        - "Science, technology and innovation"
+        - "Health and care"
+        - "Law and justice"
+        - "Education"
+        - "Culture, arts and media"
+        - "Sport"
+        - "Business, enterprise and finance"
+        - "Mixed-heritage reviewer"
+        - "Another field (say which below)"
   - type: textarea
     id: notes
     attributes:

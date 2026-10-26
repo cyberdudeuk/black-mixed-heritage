@@ -19,7 +19,8 @@ function seo(base){const repo="https://github.com/cyberdudeuk/black-mixed-herita
       ds("The hub as linked data","bhm2026-hub.jsonld","JSON-LD","application/ld+json","Pages, sourced points, statistics, people, organisations, places and glossary concepts (Schema.org and SKOS)"),
       ds("Sources","bhm2026-sources.json","JSON","application/json","Every source, with the date it was last read and the date it is due to be read again"),
       ds("Nomination deadlines","bhm2026-deadlines.json","JSON","application/json","Published award and nomination deadlines"),
-      ds("What is new","bhm2026-releases.atom","Atom","application/atom+xml","Releases of the hub")]}]};
+      ds("What is new","bhm2026-releases.atom","Atom","application/atom+xml","Releases of the hub"),
+      ds("Pages","bhm2026-pages.json","JSON","application/json","Every page of the hub, its menu and its address")]}]};
   return [`<link rel="canonical" href="${base}">`,`<meta name="author" content="BHM 2026 Hub">`,
     `<meta property="og:type" content="website">`,`<meta property="og:site_name" content="BHM 2026 Hub">`,`<meta property="og:locale" content="en_GB">`,`<meta property="og:url" content="${base}">`,
     `<meta property="og:title" content="BHM 2026 Hub: Honouring Our Communities">`,`<meta property="og:description" content="${esc(d)}">`,

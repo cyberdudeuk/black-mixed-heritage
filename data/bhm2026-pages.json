@@ -1,0 +1,349 @@
+{
+  "title": "BHM 2026 Hub pages",
+  "version": "2.22.0",
+  "generated": "2026-10-21",
+  "pages": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "menu": null,
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#overview"
+    },
+    {
+      "id": "theme",
+      "title": "The 2026 theme",
+      "menu": "This month",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#theme"
+    },
+    {
+      "id": "calendar",
+      "title": "Calendar",
+      "menu": "This month",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#calendar"
+    },
+    {
+      "id": "toolkit",
+      "title": "Organiser toolkit",
+      "menu": "This month",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#toolkit"
+    },
+    {
+      "id": "posters",
+      "title": "Posters",
+      "menu": "This month",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#posters"
+    },
+    {
+      "id": "involve",
+      "title": "Get involved",
+      "menu": "This month",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#involve"
+    },
+    {
+      "id": "networks",
+      "title": "Networks and communities",
+      "menu": "This month",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#networks"
+    },
+    {
+      "id": "club",
+      "title": "Book and film club",
+      "menu": "This month",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#club"
+    },
+    {
+      "id": "remember",
+      "title": "Remember",
+      "menu": "This month",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#remember"
+    },
+    {
+      "id": "food",
+      "title": "Food and heritage",
+      "menu": "This month",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#food"
+    },
+    {
+      "id": "leaders",
+      "title": "For leaders",
+      "menu": "Lead",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#leaders"
+    },
+    {
+      "id": "equity",
+      "title": "Inequalities and action",
+      "menu": "Lead",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#equity"
+    },
+    {
+      "id": "lives",
+      "title": "Life stages and identities",
+      "menu": "Lead",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#lives"
+    },
+    {
+      "id": "careers",
+      "title": "Careers and development",
+      "menu": "Lead",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#careers"
+    },
+    {
+      "id": "talent",
+      "title": "Talent, leadership and research",
+      "menu": "Lead",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#talent"
+    },
+    {
+      "id": "enterprise",
+      "title": "Black enterprise",
+      "menu": "Lead",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#enterprise"
+    },
+    {
+      "id": "younglives",
+      "title": "Young lives: NEET, BEET and CHEET",
+      "menu": "Lead",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#younglives"
+    },
+    {
+      "id": "represent",
+      "title": "Representation across the state",
+      "menu": "Lead",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#represent"
+    },
+    {
+      "id": "designing",
+      "title": "Designing for Black and Mixed-heritage people",
+      "menu": "Practice",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#designing"
+    },
+    {
+      "id": "language",
+      "title": "Words matter: race, ethnicity and language",
+      "menu": "Practice",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#language"
+    },
+    {
+      "id": "bench",
+      "title": "Benchmarks and comparisons",
+      "menu": "Practice",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#bench"
+    },
+    {
+      "id": "dash",
+      "title": "Dashboards",
+      "menu": "Practice",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#dash"
+    },
+    {
+      "id": "lenses",
+      "title": "Through other lenses",
+      "menu": "Practice",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#lenses"
+    },
+    {
+      "id": "deeia",
+      "title": "The DEEIA lens",
+      "menu": "Practice",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#deeia"
+    },
+    {
+      "id": "history",
+      "title": "History",
+      "menu": "Learn",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#history"
+    },
+    {
+      "id": "journeys",
+      "title": "Africa’s knowledge and its journeys",
+      "menu": "Learn",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#journeys"
+    },
+    {
+      "id": "whatwaslost",
+      "title": "What was taken, lost and might have been",
+      "menu": "Learn",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#whatwaslost"
+    },
+    {
+      "id": "stereotypes",
+      "title": "Who built the stereotypes",
+      "menu": "Learn",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#stereotypes"
+    },
+    {
+      "id": "africa",
+      "title": "Africa: patterns, symbols and languages",
+      "menu": "Learn",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#africa"
+    },
+    {
+      "id": "innovation",
+      "title": "Innovation and invention",
+      "menu": "Learn",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#innovation"
+    },
+    {
+      "id": "tech",
+      "title": "Frontier tech in Africa",
+      "menu": "Learn",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tech"
+    },
+    {
+      "id": "culture",
+      "title": "Culture, sport and enterprise",
+      "menu": "Learn",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#culture"
+    },
+    {
+      "id": "futures",
+      "title": "Futures 2030 to 2100",
+      "menu": "Learn",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#futures"
+    },
+    {
+      "id": "blackness",
+      "title": "What it means to be Black",
+      "menu": "Understand",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#blackness"
+    },
+    {
+      "id": "mixed",
+      "title": "Mixed heritage",
+      "menu": "Understand",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#mixed"
+    },
+    {
+      "id": "diaspora",
+      "title": "The African diaspora",
+      "menu": "Understand",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#diaspora"
+    },
+    {
+      "id": "knowafrica",
+      "title": "Africa: many cultures, many kinds of knowledge",
+      "menu": "Understand",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#knowafrica"
+    },
+    {
+      "id": "peoples",
+      "title": "Africa: peoples, regions, borders and displacement",
+      "menu": "Understand",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#peoples"
+    },
+    {
+      "id": "genome",
+      "title": "DNA, genomes and African ancestry",
+      "menu": "Understand",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#genome"
+    },
+    {
+      "id": "myths",
+      "title": "Myths and facts",
+      "menu": "Understand",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#myths"
+    },
+    {
+      "id": "belonging",
+      "title": "Identity, heritage and respect",
+      "menu": "Understand",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#belonging"
+    },
+    {
+      "id": "debates",
+      "title": "Current debates",
+      "menu": "Understand",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#debates"
+    },
+    {
+      "id": "learn",
+      "title": "For schools and educators",
+      "menu": "Resources",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#learn"
+    },
+    {
+      "id": "curriculum",
+      "title": "Curriculum and reference works",
+      "menu": "Resources",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#curriculum"
+    },
+    {
+      "id": "resources",
+      "title": "Resources",
+      "menu": "Resources",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#resources"
+    },
+    {
+      "id": "partners",
+      "title": "Partners and archives",
+      "menu": "Resources",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#partners"
+    },
+    {
+      "id": "brand",
+      "title": "Brand and media",
+      "menu": "Resources",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#brand"
+    },
+    {
+      "id": "connect",
+      "title": "Connect and share",
+      "menu": "Resources",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#connect"
+    },
+    {
+      "id": "faq",
+      "title": "Questions people ask",
+      "menu": "Resources",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#faq"
+    },
+    {
+      "id": "guide",
+      "title": "User guide and tours",
+      "menu": "About",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#guide"
+    },
+    {
+      "id": "about",
+      "title": "About this hub",
+      "menu": "About",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#about"
+    },
+    {
+      "id": "sustain",
+      "title": "Help run the hub",
+      "menu": "About",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#sustain"
+    },
+    {
+      "id": "knowledge",
+      "title": "Knowledge layer",
+      "menu": "About",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#knowledge"
+    },
+    {
+      "id": "design",
+      "title": "Design and architecture",
+      "menu": "About",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#design"
+    },
+    {
+      "id": "routines",
+      "title": "Self-checks, stories and journeys",
+      "menu": "About",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#routines"
+    },
+    {
+      "id": "review",
+      "title": "Review and assessment",
+      "menu": "About",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#review"
+    },
+    {
+      "id": "assurance",
+      "title": "Assurance",
+      "menu": "About",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#assurance"
+    }
+  ]
+}

@@ -9,7 +9,7 @@ function applyAccents(){NAV_GROUPS.forEach(g=>g.items.forEach(id=>{const v=$("#v
 const TOURS=[
  {id:"first",n:"First visit: find your way",ic:"compass2",steps:[
   ["overview","#hero","Start here","The front page changes through the month: highlights, today's spotlight, a proverb and what is coming up."],
-  ["overview","#gnav","Six menus","Everything is in six menus: This month, Lead, Learn, Understand, Resources and About. Each has its own colour."],
+  ["overview","#gnav","Seven menus","Everything is in seven menus: This month, Lead, Practice, Learn, Understand, Resources and About. Each has its own colour."],
   ["overview","#searchBtn","Search","Search everything on the hub. Press the forward slash key (/) from anywhere to open it."],
   ["calendar","#drawerToggle","Contents of this page","The Contents switch opens the list of sections on the page you are on, with counts and what is new."],
   ["calendar","#v-calendar .related","Related pages","At the end of every page, related pages take you to what usually comes next."],
@@ -50,7 +50,7 @@ const TUTORIALS=[
  ["Suggest an idea or report a mistake","sustain",["Open About, then Help run the hub.","Use the ideas box: choose a type, give a short title and details. Do not include personal information.","For a bug, correction or accessibility barrier you can also raise it on GitHub, where maintainers track the fix."]],
  ["Use the hub with a keyboard or screen reader","guide",["Press Tab to move through links and buttons; the first link skips to the content.","Press / to search; Escape closes search, menus and tooltips.","Every chart has a 'Show the data as a table' option.","Change theme, text size and motion from the buttons at the top right."]]];
 const GUIDE_FIND=[
- ["Menus","The six menus group pages by what you want to do: This month (events and organising), Lead (evidence and leadership), Learn (history and culture), Understand (myths, identity, debates, questions), Resources (education, partners, library, brand) and About (how the hub works and is checked).","layers"],
+ ["Menus","The seven menus group pages by what you want to do: This month (events and organising), Lead (evidence and leadership), Practice (design, words, data and lenses for your work), Learn (history and culture), Understand (myths, identity, debates, questions), Resources (education, partners, library, brand) and About (how the hub works and is checked).","layers"],
  ["Contents switch","Opens the list of sections on the page you are on, with item counts and flags for what is new or changed since your last visit.","layers"],
  ["Search","Finds sections, headings and every listed item. Press / from anywhere.","search"],
  ["A to Z and knowledge graph","On the Knowledge layer page: every term and item, and an interactive map of how they connect.","graph"],

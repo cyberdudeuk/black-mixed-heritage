@@ -30,6 +30,8 @@ For the owner and maintainers of `cyberdudeuk/black-mixed-heritage`. It covers s
 | `teams/` | Teams app manifest, icons and package | Through `teams/mkmanifest.mjs` and `teams/package.py` |
 | `src/community-events.json` | Community events accepted through **Event intake** pull requests | No: the workflow writes it |
 | `scripts/` | `event_intake.py`, which turns an accepted event issue into calendar data | Yes, with `tests/test_event_intake.py` |
+| `src/contributors.json` | Contributors who chose to be named | By pull request, by the contributor |
+| `scripts/sync_forms.py` | Regenerates the issue forms' page lists from the hub | Run it after adding or renaming a page |
 | `tests/` | `ci-selfcheck.mjs` (fast), `ci-axe.mjs` (accessibility), `privacy_scan.py`, `validate_data.py` (open data and website files), `licence_check.py`, `negative.sh` (checks of the checks), `test.mjs` (full suite), `posters.mjs` | Yes |
 | `docs/` | This guide, the user manual, operations, release management, architecture and decision records (`adr/`), content style guide, data dictionary, release notes, sustainability proposal, Teams and Pages guide | Yes |
 | `docs/wiki/` | The wiki's pages; `wiki.yml` copies them to the wiki on merge | Yes (not in the wiki itself) |
@@ -98,6 +100,13 @@ Labels are defined in `.github/labels.json`. Edit that file and merge; **Sync la
 | `good first issue`, `help wanted`, `volunteer` | For people who want to help |
 | `link-check`, `routine`, `uptime`, `deadline` | Opened by the scheduled workflows |
 | `release` | Release planning |
+
+## 4a. Contributors, champions and recognition
+- **Being thanked:** contributors add themselves to `src/contributors.json` by pull request (see CONTRIBUTING, "Being thanked"). Check each entry is a GitHub name or "Anonymous", with roles only; the validator and self-check C166 enforce the format. Remove anyone who asks, at the next release.
+- **You said, we did:** when a suggestion, correction or report becomes a change, close its issue with the `status: done` label. The website lists it on Help run the hub within six hours.
+- **Release notes:** thank contributors by GitHub name, if they are listed in `src/contributors.json`, or as "a contributor".
+- **Champions and field review panels:** volunteers choose these on the Volunteer form. Reply on the issue, add them to the right Discussions thread or a private channel they choose, and point champions to Help run the hub → Champion pack.
+- **Contribution records:** contributors keep their own record in the hub; maintainers do not hold it. If asked, confirm a contribution by linking to its public issue or pull request.
 
 ## 5. The monthly routine
 On the 1st, the **Monthly triage and freshness check** issue appears with a checklist. In about an hour:
