@@ -1,0 +1,413 @@
+{
+  "@context": {
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dct": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/catalog.jsonld",
+  "@type": "dcat:Catalog",
+  "dct:title": "BHM 2026 Hub open data",
+  "dct:description": "Open data from the BHM 2026 Hub: Black and Black-Mixed history, heritage and cultures, Africa and the African diaspora, for the UK public sector and the communities it serves. Generated from the hub itself on every build. Every event and figure links to the source it was checked against.",
+  "dct:language": {
+    "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+  },
+  "dct:license": {
+    "@id": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "foaf:homepage": {
+    "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/"
+  },
+  "dct:modified": {
+    "@value": "2026-10-21",
+    "@type": "xsd:date"
+  },
+  "dct:publisher": {
+    "@type": "foaf:Organization",
+    "foaf:name": "BHM 2026 Hub"
+  },
+  "dcat:dataset": [
+    {
+      "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-events.ics#dataset",
+      "@type": "dcat:Dataset",
+      "dct:title": "Events calendar",
+      "dct:description": "Black History Month events, observances, remembrance days and nomination deadlines; deadlines carry reminders 14 and 2 days before. Subscribe in any calendar app.",
+      "dcat:keyword": [
+        "Black history",
+        "Black History Month",
+        "African diaspora",
+        "Africa",
+        "heritage",
+        "Black-Mixed",
+        "public sector",
+        "United Kingdom",
+        "calendar",
+        "glossary",
+        "linked data"
+      ],
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-events.ics"
+          },
+          "dcat:downloadURL": {
+            "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-events.ics"
+          },
+          "dcat:mediaType": {
+            "@id": "https://www.iana.org/assignments/media-types/text/calendar"
+          },
+          "dct:format": "ics"
+        }
+      ]
+    },
+    {
+      "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-events.json#dataset",
+      "@type": "dcat:Dataset",
+      "dct:title": "Events",
+      "dct:description": "The calendar as JSON: id, start, end, title, type, where, description and the source each event was checked against.",
+      "dcat:keyword": [
+        "Black history",
+        "Black History Month",
+        "African diaspora",
+        "Africa",
+        "heritage",
+        "Black-Mixed",
+        "public sector",
+        "United Kingdom",
+        "calendar",
+        "glossary",
+        "linked data"
+      ],
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-events.json"
+          },
+          "dcat:downloadURL": {
+            "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-events.json"
+          },
+          "dcat:mediaType": {
+            "@id": "https://www.iana.org/assignments/media-types/application/json"
+          },
+          "dct:format": "json"
+        }
+      ]
+    },
+    {
+      "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-glossary.csv#dataset",
+      "@type": "dcat:Dataset",
+      "dct:title": "Glossary",
+      "dct:description": "Terms and plain-English definitions.",
+      "dcat:keyword": [
+        "Black history",
+        "Black History Month",
+        "African diaspora",
+        "Africa",
+        "heritage",
+        "Black-Mixed",
+        "public sector",
+        "United Kingdom",
+        "calendar",
+        "glossary",
+        "linked data"
+      ],
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-glossary.csv"
+          },
+          "dcat:downloadURL": {
+            "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-glossary.csv"
+          },
+          "dcat:mediaType": {
+            "@id": "https://www.iana.org/assignments/media-types/text/csv"
+          },
+          "dct:format": "csv"
+        }
+      ]
+    },
+    {
+      "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-hub.jsonld#dataset",
+      "@type": "dcat:Dataset",
+      "dct:title": "The hub as linked data",
+      "dct:description": "Pages, sourced points, statistics, people, organisations, places, events and glossary concepts, as Schema.org and SKOS.",
+      "dcat:keyword": [
+        "Black history",
+        "Black History Month",
+        "African diaspora",
+        "Africa",
+        "heritage",
+        "Black-Mixed",
+        "public sector",
+        "United Kingdom",
+        "calendar",
+        "glossary",
+        "linked data"
+      ],
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-hub.jsonld"
+          },
+          "dcat:downloadURL": {
+            "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-hub.jsonld"
+          },
+          "dcat:mediaType": {
+            "@id": "https://www.iana.org/assignments/media-types/application/ld+json"
+          },
+          "dct:format": "jsonld"
+        }
+      ]
+    },
+    {
+      "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-sources.json#dataset",
+      "@type": "dcat:Dataset",
+      "dct:title": "Sources",
+      "dct:description": "Every source: id, title, link, the date it was last read and the date it is due to be read again.",
+      "dcat:keyword": [
+        "Black history",
+        "Black History Month",
+        "African diaspora",
+        "Africa",
+        "heritage",
+        "Black-Mixed",
+        "public sector",
+        "United Kingdom",
+        "calendar",
+        "glossary",
+        "linked data"
+      ],
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-sources.json"
+          },
+          "dcat:downloadURL": {
+            "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-sources.json"
+          },
+          "dcat:mediaType": {
+            "@id": "https://www.iana.org/assignments/media-types/application/json"
+          },
+          "dct:format": "json"
+        }
+      ]
+    },
+    {
+      "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-deadlines.json#dataset",
+      "@type": "dcat:Dataset",
+      "dct:title": "Nomination deadlines",
+      "dct:description": "Published award and nomination deadlines, with how to take part and the sources checked.",
+      "dcat:keyword": [
+        "Black history",
+        "Black History Month",
+        "African diaspora",
+        "Africa",
+        "heritage",
+        "Black-Mixed",
+        "public sector",
+        "United Kingdom",
+        "calendar",
+        "glossary",
+        "linked data"
+      ],
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-deadlines.json"
+          },
+          "dcat:downloadURL": {
+            "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-deadlines.json"
+          },
+          "dcat:mediaType": {
+            "@id": "https://www.iana.org/assignments/media-types/application/json"
+          },
+          "dct:format": "json"
+        }
+      ]
+    },
+    {
+      "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-releases.atom#dataset",
+      "@type": "dcat:Dataset",
+      "dct:title": "What is new",
+      "dct:description": "The latest releases of the hub, with what changed and how it was checked.",
+      "dcat:keyword": [
+        "Black history",
+        "Black History Month",
+        "African diaspora",
+        "Africa",
+        "heritage",
+        "Black-Mixed",
+        "public sector",
+        "United Kingdom",
+        "calendar",
+        "glossary",
+        "linked data"
+      ],
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-releases.atom"
+          },
+          "dcat:downloadURL": {
+            "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-releases.atom"
+          },
+          "dcat:mediaType": {
+            "@id": "https://www.iana.org/assignments/media-types/application/atom+xml"
+          },
+          "dct:format": "atom"
+        }
+      ]
+    },
+    {
+      "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-pages.json#dataset",
+      "@type": "dcat:Dataset",
+      "dct:title": "Pages",
+      "dct:description": "Every page of the hub: id, title, the menu it sits in, and its address.",
+      "dcat:keyword": [
+        "Black history",
+        "Black History Month",
+        "African diaspora",
+        "Africa",
+        "heritage",
+        "Black-Mixed",
+        "public sector",
+        "United Kingdom",
+        "calendar",
+        "glossary",
+        "linked data"
+      ],
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-pages.json"
+          },
+          "dcat:downloadURL": {
+            "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-pages.json"
+          },
+          "dcat:mediaType": {
+            "@id": "https://www.iana.org/assignments/media-types/application/json"
+          },
+          "dct:format": "json"
+        }
+      ]
+    },
+    {
+      "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-points.json#dataset",
+      "@type": "dcat:Dataset",
+      "dct:title": "Items and sourced points",
+      "dct:description": "Every item the hub publishes: a stable key, the dataset and page it belongs to, its address, heading, text, figure, year, note, whether it is disputed, its sources, and a fingerprint used to detect changes between releases.",
+      "dcat:keyword": [
+        "Black history",
+        "Black History Month",
+        "African diaspora",
+        "Africa",
+        "heritage",
+        "Black-Mixed",
+        "public sector",
+        "United Kingdom",
+        "calendar",
+        "glossary",
+        "linked data"
+      ],
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-points.json"
+          },
+          "dcat:downloadURL": {
+            "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-points.json"
+          },
+          "dcat:mediaType": {
+            "@id": "https://www.iana.org/assignments/media-types/application/json"
+          },
+          "dct:format": "json"
+        }
+      ]
+    },
+    {
+      "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-changes.json#dataset",
+      "@type": "dcat:Dataset",
+      "dct:title": "What changed",
+      "dct:description": "Items added, changed or removed since the previous release.",
+      "dcat:keyword": [
+        "Black history",
+        "Black History Month",
+        "African diaspora",
+        "Africa",
+        "heritage",
+        "Black-Mixed",
+        "public sector",
+        "United Kingdom",
+        "calendar",
+        "glossary",
+        "linked data"
+      ],
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-changes.json"
+          },
+          "dcat:downloadURL": {
+            "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-changes.json"
+          },
+          "dcat:mediaType": {
+            "@id": "https://www.iana.org/assignments/media-types/application/json"
+          },
+          "dct:format": "json"
+        }
+      ]
+    }
+  ],
+  "dcat:service": [
+    {
+      "@type": "dcat:DataService",
+      "dct:title": "BHM 2026 Hub open data (static API)",
+      "dcat:endpointURL": {
+        "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/"
+      },
+      "dcat:endpointDescription": {
+        "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/openapi.json"
+      }
+    }
+  ]
+}

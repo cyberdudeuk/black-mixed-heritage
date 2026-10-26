@@ -396,3 +396,9 @@ details.dvtable > summary{cursor:pointer;color:var(--link,var(--green));text-dec
 [data-accent="prac"]{--ac:#0B6B6B}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) [data-accent="prac"]{--ac:#5FD0C9}}
 :root[data-theme="dark"] [data-accent="prac"]{--ac:#5FD0C9}
+/* 2.25.0 cite, link or correct; new and changed labels */
+.ptact{margin-top:8px;font-size:.85rem;border-top:1px solid var(--line);padding-top:6px}
+.ptact summary{cursor:pointer;color:var(--muted);font-family:var(--f-display);font-weight:600;min-height:24px}
+.ptact summary:focus-visible{outline:3px solid var(--gold-ink);outline-offset:2px}
+.ptact p{margin:6px 0}.ptact .ptcite{display:inline;white-space:normal;word-break:break-word;font-size:.8rem}
+.ptst{font-size:.72rem;font-weight:700;border:1px solid var(--line);border-radius:4px;padding:1px 6px;margin-bottom:4px;display:inline-block;color:var(--ink);background:var(--surface)}

@@ -4,7 +4,7 @@
   "id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/datapackage.json",
   "title": "BHM 2026 Hub open data",
   "description": "Open data from the BHM 2026 Hub: Black and Black-Mixed history, heritage and cultures, Africa and the African diaspora, for the UK public sector and the communities it serves. Generated from the hub itself on every build. Every event and figure links to the source it was checked against.",
-  "version": "2.24.0",
+  "version": "2.25.0",
   "created": "2026-10-21",
   "homepage": "https://cyberdudeuk.github.io/black-mixed-heritage/",
   "keywords": [
@@ -182,6 +182,70 @@
       "encoding": "utf-8",
       "title": "Pages",
       "description": "Every page of the hub: id, title, the menu it sits in, and its address.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/",
+          "title": "Creative Commons Attribution 4.0"
+        }
+      ]
+    },
+    {
+      "name": "points",
+      "path": "bhm2026-points.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "title": "Items and sourced points",
+      "description": "Every item the hub publishes: a stable key, the dataset and page it belongs to, its address, heading, text, figure, year, note, whether it is disputed, its sources, and a fingerprint used to detect changes between releases.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/",
+          "title": "Creative Commons Attribution 4.0"
+        }
+      ]
+    },
+    {
+      "name": "changes",
+      "path": "bhm2026-changes.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "title": "What changed",
+      "description": "Items added, changed or removed since the previous release.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/",
+          "title": "Creative Commons Attribution 4.0"
+        }
+      ]
+    },
+    {
+      "name": "openapi",
+      "path": "openapi.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "title": "API description",
+      "description": "OpenAPI 3.1 description of the open data files as a read-only API.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/",
+          "title": "Creative Commons Attribution 4.0"
+        }
+      ]
+    },
+    {
+      "name": "catalog",
+      "path": "catalog.jsonld",
+      "format": "jsonld",
+      "mediatype": "application/ld+json",
+      "encoding": "utf-8",
+      "title": "Data catalogue",
+      "description": "DCAT catalogue of the open data, for data catalogues to harvest.",
       "licenses": [
         {
           "name": "CC-BY-4.0",

@@ -4,6 +4,7 @@ Full release notes, with what was checked for each release, are in [docs/release
 
 | Version | Date | Summary |
 |---|---|---|
+| 2.25.0 | 26 Oct 2026 | Every item and sourced point as open data, with an OpenAPI description and a DCAT catalogue; cite, link or correct any point; what changed since the previous release; injected sections and Recognition points registered |
 | 2.24.0 | 26 Oct 2026 | Beyond government (employers, voluntary and faith sector, funders, unions); intersections (older, disabled, LGBT+ people); place across the four nations; what other governments do; every point independently re-read |
 | 2.23.0 | 26 Oct 2026 | Your profession: routes into the hub for 33 professions and 13 functions, with ethnicity by profession; science, engineering and the built environment; sport; uniformed and frontline public services; every point independently re-read |
 | 2.22.0 | 26 Oct 2026 | Designing for Black and Mixed-heritage people; Mixed heritage (UK and world); Practice menu; champion pack, contributor recognition, contribution record; live coverage map of 96 areas; forms generated from the hub's pages |

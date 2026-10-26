@@ -88,6 +88,7 @@ To report a barrier, see [section 7](#7-ideas-wishes-corrections-and-bugs).
 Go to **About → Help run the hub**.
 - **Ideas box:** choose a type (idea, feature wish, bug, correction or accessibility barrier), give a short title and details, and add it. Do not include personal information. To share it with everyone, select **send it to GitHub**: this opens the right GitHub form already filled in, including the page you were on.
 - **Ideas and wishes on GitHub:** on the website, the same page lists the ideas and feature wishes raised on GitHub, with how many people support each one and its status (new, accepted, planned, in progress, done, declined). To support one, open it on GitHub and add a thumbs-up reaction. The list updates within a few hours.
+- **Cite, link or correct a single point:** every sourced point has **Cite, link or correct** at its foot: a permanent link, a citation with the version to copy, and **Suggest a correction on GitHub**, which opens the correction form already filled in with the point.
 - **On GitHub:** buttons to report a bug, correct a fact or source, report an accessibility barrier, suggest an idea or request a feature. You need a free GitHub account. Issues are public.
 - **Champion pack:** words to copy for your intranet, a team message and a social post, and six steps to share the hub in your organisation, profession or network.
 - **Record your contribution:** keep a log of what you do for the hub, with hours and the Civil Service Success Profiles behaviours, for objectives or CPD. It stays in your browser; save it as a text file or copy it.
@@ -97,8 +98,9 @@ Go to **About → Help run the hub**.
 ## 8. Can I trust it?
 - Every figure links to a source that was opened and read, with the date it was read. Where possible there are two independent sources, at least one authoritative. Wikipedia is not counted as a source.
 - Disputed figures are marked, and both are shown.
+- **Assurance → What changed** lists the items added, changed or removed since the previous release; cards that are new or changed carry a label. **About → Knowledge layer → Open data and API** links every open data file, including every sourced point.
 - The hub never classifies any person's ethnicity: it uses counts published by others.
-- The hub checks itself: **About → Self-checks, stories and journeys** shows 168 checks that run in your browser each time you open it, including sources, accessibility, language, privacy and coverage. Each check has a deliberate-break test proving it can fail.
+- The hub checks itself: **About → Self-checks, stories and journeys** shows 169 checks that run in your browser each time you open it, including sources, accessibility, language, privacy and coverage. Each check has a deliberate-break test proving it can fail.
 - **About → Review and assessment** and **Assurance** set out quality scores and what still needs work. The **Coverage map** on Review and assessment shows how many sourced points the hub holds for each field, design discipline, government function, Civil Service profession and part of the public sector, and what is being added next. On the website, **Assurance → Repository checks** shows the latest result of each check that runs on every change in the public repository, and **Source freshness** lists every source with the date it was last read and when it is due to be read again.
 - It is unofficial, made in a personal capacity, and not endorsed by Black History Month UK or HM Government.
 

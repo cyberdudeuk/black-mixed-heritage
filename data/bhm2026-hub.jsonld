@@ -8,7 +8,7 @@
       "@type": "CreativeWork",
       "@id": "urn:bhm26:hub",
       "name": "Black History Month 2026 Hub",
-      "version": "2.24.0",
+      "version": "2.25.0",
       "dateModified": "2026-10-21",
       "about": "Honouring Our Communities"
     },
@@ -24942,6 +24942,3146 @@
       "citation": [
         "https://www.nmc.org.uk/globalassets/sitedocuments/data-reports/2026/0184ca-data-report-uk-web.pdf",
         "https://www.nationalhealthexecutive.com/articles/diversity-soars-uk-nursing-yet-international-joiners-drop-30-whats-going"
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:bhm26:dataset-lp-awards",
+      "name": "Recognition and representation",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#culture",
+      "isPartOf": "urn:bhm26:hub"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-ukhonours-new-year-honours-2025-black-recipients-3",
+      "name": "New Year Honours 2025: Black recipients 3.7%",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.ethnicity-facts-figures.service.gov.uk/culture-and-community/civic-participation/honours-recipients/latest",
+        "https://honours.cabinetoffice.gov.uk/about/diversity"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-ukhonours-king-s-birthday-honours-2024-black-recip",
+      "name": "King's Birthday Honours 2024: Black recipients 3%",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.ethnicity-facts-figures.service.gov.uk/culture-and-community/civic-participation/honours-recipients/10.0",
+        "https://honours.cabinetoffice.gov.uk/about/diversity"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-ukhonours-new-year-honours-2024-black-recipients-4",
+      "name": "New Year Honours 2024: Black recipients 4.8%",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.ethnicity-facts-figures.service.gov.uk/culture-and-community/civic-participation/honours-recipients/9.0",
+        "https://honours.cabinetoffice.gov.uk/about/diversity"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-ukhonours-new-year-honours-2023-highest-black-shar",
+      "name": "New Year Honours 2023: highest Black share published, 6.1%",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.ethnicity-facts-figures.service.gov.uk/culture-and-community/civic-participation/honours-recipients/8.0",
+        "https://assets.publishing.service.gov.uk/media/646e3922ab40bf00101969f2/2023-Three-Year-Report-to-Parliament-on-the-Operation-of-the-Honours-System.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-ukhonours-queen-s-birthday-honours-2021-black-reci",
+      "name": "Queen's Birthday Honours 2021: Black recipients 4.2%",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.ethnicity-facts-figures.service.gov.uk/culture-and-community/civic-participation/honours-recipients/5.0",
+        "https://assets.publishing.service.gov.uk/media/646e3922ab40bf00101969f2/2023-Three-Year-Report-to-Parliament-on-the-Operation-of-the-Honours-System.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-ukhonours-queen-s-birthday-honours-2019-black-reci",
+      "name": "Queen's Birthday Honours 2019: Black recipients 3.2%",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.ethnicity-facts-figures.service.gov.uk/culture-and-community/civic-participation/honours-recipients/1.0",
+        "https://assets.publishing.service.gov.uk/media/646e3922ab40bf00101969f2/2023-Three-Year-Report-to-Parliament-on-the-Operation-of-the-Honours-System.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-ukhonours-ethnic-minority-share-of-honours-roughly",
+      "name": "Ethnic minority share of honours roughly doubled since 2014–15",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.ethnicity-facts-figures.service.gov.uk/culture-and-community/civic-participation/honours-recipients/latest",
+        "https://assets.publishing.service.gov.uk/media/646e3922ab40bf00101969f2/2023-Three-Year-Report-to-Parliament-on-the-Operation-of-the-Honours-System.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-ukhonours-ten-lists-2021-to-2025-minority-share-be",
+      "name": "Ten lists, 2021 to 2025: minority share between 9.9% and 16.4%",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://honours.cabinetoffice.gov.uk/about/diversity",
+        "https://assets.publishing.service.gov.uk/media/646e3922ab40bf00101969f2/2023-Three-Year-Report-to-Parliament-on-the-Operation-of-the-Honours-System.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-ukhonours-higher-honours-white-share-ranged-from-7",
+      "name": "Higher honours: White share ranged from 73% to 97%",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.ethnicity-facts-figures.service.gov.uk/culture-and-community/civic-participation/honours-recipients/5.0",
+        "https://www.ethnicity-facts-figures.service.gov.uk/culture-and-community/civic-participation/honours-recipients/10.0"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-ukhonours-ethnic-minority-damehoods-and-knighthood",
+      "name": "Ethnic minority damehoods and knighthoods: 1 to 8 per list",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://assets.publishing.service.gov.uk/media/646e3922ab40bf00101969f2/2023-Three-Year-Report-to-Parliament-on-the-Operation-of-the-Honours-System.pdf",
+        "https://www.ethnicity-facts-figures.service.gov.uk/culture-and-community/civic-participation/honours-recipients/8.0"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-ukhonours-new-year-2026-minority-share-of-higher-a",
+      "name": "New Year 2026: minority share of higher awards doubled to 14%",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://gov.uk/government/news/uk-celebrates-community-champions-in-hm-the-kings-new-years-honours-list",
+        "https://honours.cabinetoffice.gov.uk/about/diversity"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-ukhonours-order-of-the-garter-first-black-member-a",
+      "name": "Order of the Garter: first Black member appointed in 2022",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.univ.ox.ac.uk/?p=20448",
+        "https://www.hellorayo.co.uk/downtown/uk/news/order-garter-tony-blair"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-ukhonours-learie-constantine-first-black-life-peer",
+      "name": "Learie Constantine: first Black life peer",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://gloucestershire.gov.uk/your-community/black-history-month/black-history-month-2020/celebrating-bame-community-successes/and-now-some-firsts-in-the-uk",
+        "https://webtest.parliament.uk/business/lords/media-centre/house-of-lords-media-notices/2019/march-2019/50th-anniversary-of-lord-constantine-the-first-black-life-peer--taking-his-seat-in-the-house-of-lords-"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-ukhonours-walter-tull-was-not-a-vc-holder-his-mili",
+      "name": "Walter Tull was not a VC holder: his Military Cross was never awarded",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.history.co.uk/articles/lets-see-if-we-can-adjust-history-the-campaign-to-award-walter-tull-a-posthumous-military",
+        "https://www.forcesnews.com/news/mps-call-medal-be-awarded-first-black-army-officer"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-ukhonours-cwgc-2021-up-to-54-000-unequally-commemo",
+      "name": "CWGC 2021: up to 54,000 unequally commemorated",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.forcesnews.com/news/pervasive-racism-behind-failure-honour-black-and-asian-troops",
+        "https://www.aljazeera.com/amp/news/2021/4/22/britains-unequal-troop-commemorations-due-to-pervasive-racism"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-ukhonours-black-share-of-honours-is-close-to-the-b",
+      "name": "Black share of honours is close to the Black population share",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/national-and-regional-populations/population-of-england-and-wales/latest/",
+        "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/bulletins/ethnicgroupenglandandwales/census2021"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-ukhonours-overall-minority-share-remains-below-the",
+      "name": "Overall minority share remains below the 18.3% minority population",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/bulletins/ethnicgroupenglandandwales/census2021",
+        "https://assets.publishing.service.gov.uk/media/646e3922ab40bf00101969f2/2023-Three-Year-Report-to-Parliament-on-the-Operation-of-the-Honours-System.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-ukhonours-no-published-ethnicity-data-on-honours-n",
+      "name": "No published ethnicity data on honours nominations",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://assets.publishing.service.gov.uk/media/646e3922ab40bf00101969f2/2023-Three-Year-Report-to-Parliament-on-the-Operation-of-the-Honours-System.pdf",
+        "https://honours.cabinetoffice.gov.uk/about/diversity"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-military-william-hall-first-black-recipient-of-th",
+      "name": "William Hall: first Black recipient of the Victoria Cross, 1857",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.veterans.gc.ca/en/node/449356",
+        "https://thecanadianencyclopedia.ca/en/article/william-neilson-hall"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-military-samuel-hodge-first-black-soldier-awarded",
+      "name": "Samuel Hodge: first Black soldier awarded the VC, 1866",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.historyanswers.co.uk/history-of-war/samuel-hodge-the-west-india-regiments-britains-forgotten-african-caribbean-soldiers/",
+        "https://westindiacommittee.org/historyheritageculture/wp-content/uploads/2025/06/Caribbean-Service-Personnel-in-the-British-Armed-Forces.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-military-william-gordon-vc-west-india-regiment-18",
+      "name": "William Gordon VC, West India Regiment, 1892",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.thegazette.co.uk/London/issue/26352/data.pdf",
+        "https://www.historyanswers.co.uk/history-of-war/samuel-hodge-the-west-india-regiments-britains-forgotten-african-caribbean-soldiers/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-military-johnson-beharry-vc-first-living-vc-recip",
+      "name": "Johnson Beharry VC: first living VC recipient since 1965",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.npg.org.uk/collections/search/portraitLarge/mw119769/Johnson-Gideon-Beharry",
+        "https://www.historyofwar.org/articles/people_beharry_johnson.html"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-military-caribbean-volunteers-in-the-second-world",
+      "name": "Caribbean volunteers in the Second World War: about 10,000",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://westindiacommittee.org/historyheritageculture/wp-content/uploads/2025/06/Caribbean-Service-Personnel-in-the-British-Armed-Forces.pdf",
+        "https://media.nationalarchives.gov.uk/index.php/untold-story-raf-black-second-world-war-fliers-europe/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-military-ulric-cross-dfc-dso-most-decorated-carib",
+      "name": "Ulric Cross DFC DSO: most decorated Caribbean airman of WW2",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.raf.mod.uk/news/articles/black-history-month-royal-air-force-heroes/",
+        "https://www.rafbf.org/news-and-stories/raf-history/black-history-month-remarkable-legacy-squadron-leader-ulric-cross"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-military-us-medal-of-honor-7-black-ww2-soldiers-r",
+      "name": "US Medal of Honor: 7 Black WW2 soldiers recognised in 1997",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://clintonwhitehouse6.archives.gov/1997/01/1997-01-13-president-remarks-at-medals-of-honor-presentation.html",
+        "https://www.militarytimes.com/news/your-army/2023/02/06/will-more-minority-veterans-receive-the-medal-of-honor/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-military-black-medal-of-honor-recipients-92-93-of",
+      "name": "Black Medal of Honor recipients: 92–93 of about 3,500 (2.6%)",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.militarytimes.com/news/your-army/2023/02/06/will-more-minority-veterans-receive-the-medal-of-honor/",
+        "https://vfw.org/media-and-events/latest-releases/archives/2020/2/vfw-honors-african-american-medal-of-honor-recipients?p=1"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-military-josephine-baker-first-black-woman-in-the",
+      "name": "Josephine Baker: first Black woman in the Panthéon, 2021",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://aber.ac.uk/en/news/archive/2021/08/title-247242-en.html",
+        "https://www.publicsenat.fr/actualites/societe/josephine-baker-190194"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-military-jamaica-s-order-of-national-hero-7-holde",
+      "name": "Jamaica's Order of National Hero: 7 holders since 1969",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://jis.gov.jm/information/awards/order-of-national-hero/",
+        "https://acij-ioj.org.jm/jamaicas-highest-honour-the-order-of-national-hero/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-military-barbados-11-national-heroes-the-11th-nam",
+      "name": "Barbados: 11 National Heroes, the 11th named in 2021",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://gisbarbados.gov.bb/?p=566079",
+        "https://www.aljazeera.com/news/2021/11/30/new-republic-barbados-names-rihanna-national-hero"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-military-us-presidential-medal-of-freedom-18-of-o",
+      "name": "US Presidential Medal of Freedom: 18% of Obama's awards were Black",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://politicalwire.com/2015/11/25/different-view-on-americas-highest-honor/",
+        "https://theconversation.com/what-trumps-picks-for-the-presidential-medal-of-freedom-say-about-him-107081"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-military-order-of-canada-no-black-specific-count-",
+      "name": "Order of Canada: no Black-specific count published",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://policyoptions.irpp.org/2017/03/the-order-of-canada-and-diversity/",
+        "https://policyoptions.irpp.org/2024/06/diversity-order-canada/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-science-nobel-prizes-1-012-laureates-to-2024",
+      "name": "Nobel Prizes: 1,012 laureates to 2024",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.nobelprize.org/prizes/lists/all-nobel-prizes/",
+        "https://www.worldatlas.com/articles/black-nobel-prize-winners.html"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-science-black-nobel-laureates-published-counts-d",
+      "name": "Black Nobel laureates: published counts differ, 14 to 17",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.sciencealert.com/a-black-scientist-has-never-won-a-nobel-prize-for-science",
+        "https://www.worldatlas.com/articles/black-nobel-prize-winners.html",
+        "https://www.scientificamerican.com/article/nobel-prizes-overlook-black-scientists-because-of-this-quiet-bias"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-science-no-black-laureate-in-physics-chemistry-o",
+      "name": "No Black laureate in physics, chemistry or medicine",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.nature.com/nature-index/news/nobel-prizes-have-a-diversity-problem-even-worse-than-the-scientific-fields-they-honor",
+        "https://www.sciencealert.com/a-black-scientist-has-never-won-a-nobel-prize-for-science",
+        "https://www.popsci.com/racial-inequality-nobel-prize/",
+        "https://www.scientificamerican.com/article/nobel-prizes-overlook-black-scientists-because-of-this-quiet-bias"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-science-most-black-laureates-won-peace-or-litera",
+      "name": "Most Black laureates won Peace or Literature",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://bigthink.com/politics-current-affairs/no-black-scientist-has-ever-won-a-nobel-thats-bad-for-science-and-bad-for-society/",
+        "https://globalvoices.org/2020/12/10/google-doodle-of-economist-and-nobel-laureate-sir-arthur-lewis-makes-the-caribbean-proud/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-science-ralph-bunche-first-black-nobel-laureate-",
+      "name": "Ralph Bunche: first Black Nobel laureate, Peace 1950",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://newsone.com/2807838/ralph-j-bunche-nobel-prize/",
+        "https://mississippitoday.org/2023/12/10/1950-ralph-bunche-nobel-peace-prize/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-science-arthur-lewis-only-black-economics-laurea",
+      "name": "Arthur Lewis: only Black economics laureate (to 2020)",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://spia.princeton.edu/news/legacy-nobel-laureate-sir-w-arthur-lewis-commemorated-robertson-hall",
+        "https://globalvoices.org/2020/12/10/google-doodle-of-economist-and-nobel-laureate-sir-arthur-lewis-makes-the-caribbean-proud/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-science-wole-soyinka-first-african-literature-la",
+      "name": "Wole Soyinka: first African Literature laureate, 1986",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://pen.org/?p=16619",
+        "https://www.biography.com/writer/wole-soyinka"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-science-toni-morrison-first-black-woman-nobel-la",
+      "name": "Toni Morrison: first Black woman Nobel laureate, 1993",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://globalnews.ca/news/5730547/toni-morrison-dead-author-beloved/",
+        "https://www.essence.com/news/toni-morrison-nobel-prize-in-literature"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-science-abdulrazak-gurnah-first-black-literature",
+      "name": "Abdulrazak Gurnah: first Black Literature laureate since 1993",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.npr.org/2021/10/07/1043436576/nobel-prize-literature-2021",
+        "https://blackenterprise.com/black-writer-wins-nobel-prize-in-literature-for-first-time-since-1993/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-science-wangari-maathai-first-african-woman-peac",
+      "name": "Wangari Maathai: first African woman Peace laureate, 2004",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://nobelprize.org/prizes/peace/2004/press-release",
+        "https://www.aljazeera.com/news/2004/10/8/kenyan-wins-nobel-peace-prize"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-science-argument-the-science-prizes-lag-even-the",
+      "name": "Argument: the science prizes lag even their own fields",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://theconversation.com/nobel-prizes-have-a-diversity-problem-even-worse-than-the-scientific-fields-they-honor-145799",
+        "https://bigthink.com/politics-current-affairs/no-black-scientist-has-ever-won-a-nobel-thats-bad-for-science-and-bad-for-society/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-science-counter-argument-the-count-depends-on-wh",
+      "name": "Counter-argument: the count depends on what counts as science",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://spia.princeton.edu/news/legacy-nobel-laureate-sir-w-arthur-lewis-commemorated-robertson-hall",
+        "https://www.popsci.com/racial-inequality-nobel-prize/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-science-lasker-awards-17-of-397-winners-non-whit",
+      "name": "Lasker Awards: 17 of 397 winners ‘non-white’, 1946–2022",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10189906",
+        "https://bmjgroup.com/women-and-non-white-groups-still-missing-out-on-top-us-research-prize"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-science-pritzker-prize-francis-k-r-first-black-a",
+      "name": "Pritzker Prize: Francis Kéré first Black and African winner",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.npr.org/2022/03/15/1085457169/pritzker-architecture-prize-2022-diebedo-francis-kere",
+        "https://allafrica.com/stories/202203160081.html",
+        "https://www.aljazeera.com/video/talk-to-al-jazeera/2022/8/13/francis-kere-world-class-architecture-mudbrick-by-mudbrick"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-science-templeton-prize-desmond-tutu-2013",
+      "name": "Templeton Prize: Desmond Tutu, 2013",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://anglicanjournal.com/tutu-wins-templeton-prize/",
+        "https://thegrio.com/2013/04/04/desmond-tutu-wins-1-7m-templeton-prize"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-science-turing-award-no-published-ethnicity-coun",
+      "name": "Turing Award: no published ethnicity count",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://cacm.acm.org/opinion/tales-of-two-turings",
+        "https://science.thewire.in/?p=426082"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-science-royal-society-fellows-0-black-respondent",
+      "name": "Royal Society Fellows: 0 Black respondents of 671 in 2021",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://royalsociety.org/-/media/policy/topics/diversity-in-science/2021-diversity-data-report.pdf",
+        "https://royalsociety.org/-/media/about-us/who-we-are/diversity/diversity-data-2022-23.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-science-royal-society-fellows-2-black-respondent",
+      "name": "Royal Society Fellows: 2 Black respondents of 721 in 2024",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://royalsociety.org/-/media/about-us/who-we-are/diversity/diversity-data-2023-24.pdf",
+        "https://royalsociety.org/-/media/about-us/who-we-are/diversity/diversity-data-2022-23.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-science-academy-of-medical-sciences-six-fellows-",
+      "name": "Academy of Medical Sciences: six Fellows Black or Latin",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://acmedsci.ac.uk/file-download/academy-of-medical-sciences-diversity-report-2020-24-final",
+        "https://acmedsci.ac.uk/news-and-insights/news/progress-revealed-academys-seventh-annual-diversity-report"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-science-academy-of-medical-sciences-29-of-new-fe",
+      "name": "Academy of Medical Sciences: 29% of new Fellows ethnic minority",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://acmedsci.ac.uk/file-download/academy-of-medical-sciences-diversity-report-2020-24-final",
+        "https://www.researchprofessionalnews.com/?p=439760"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-science-royal-academy-of-engineering-6-5-ethnic-",
+      "name": "Royal Academy of Engineering: 6.5% ethnic minority Fellows",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://raeng.org.uk/blogs/racial-parity-in-engineering-looking-beyond-black-history-month/",
+        "https://www.thechemicalengineer.com/news/raeng-working-to-deliver-more-representative-fellowship/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-science-us-national-academy-of-sciences-does-not",
+      "name": "US National Academy of Sciences does not publish race data",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://jbhe.com/2019/05/four-black-scholars-elected-to-the-national-academy-of-sciences"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-funding-no-black-british-applicants-to-two-royal",
+      "name": "No Black British applicants to two Royal Society schemes, 2018–20",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.timeshighereducation.com/node/711777",
+        "https://royalsociety.org/news-resources/projects/trends-ethnic-minorities-stem/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-funding-royal-society-2022-23-5-offers-to-72-bla",
+      "name": "Royal Society 2022–23: 5 offers to 72 Black applicants",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://royalsociety.org/-/media/about-us/who-we-are/diversity/diversity-data-2022-23.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-funding-royal-society-2023-24-0-offers-to-45-bla",
+      "name": "Royal Society 2023–24: 0 offers to 45 Black applicants",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://royalsociety.org/-/media/about-us/who-we-are/diversity/diversity-data-2023-24.pdf",
+        "https://chemistryworld.com/news/new-royal-society-fellowship-to-support-black-researchers/4018115.article"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-funding-royal-society-2021-ethnic-minority-succe",
+      "name": "Royal Society 2021: ethnic minority success rate 4.9% vs White 11.5%",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://royalsociety.org/-/media/policy/topics/diversity-in-science/2021-diversity-data-report.pdf",
+        "https://www.timeshighereducation.com/node/711777"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-funding-royal-society-2025-black-researchers-1-o",
+      "name": "Royal Society 2025: Black researchers 1% of URF applicants",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.royalsociety.org/news-resources/publications/2026/early-career-fellowship-applications-diversity/",
+        "https://www.timeshighereducation.com/node/711777"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-funding-royal-society-career-development-fellows",
+      "name": "Royal Society Career Development Fellowship for Black researchers",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://chemistryworld.com/news/new-royal-society-fellowship-to-support-black-researchers/4018115.article",
+        "https://www.thechemicalengineer.com/news/royal-society-launches-fellowship-to-support-underrepresented-black-researchers/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-funding-ukri-black-lead-applicants-won-13-of-bid",
+      "name": "UKRI: Black lead applicants won 13% of bids, White 34% (2023–24)",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.ukri.org/publications/ukri-equalities-monitoring/ukri-equalities-monitoring-2023-to-2024/",
+        "https://www.ukri.org/wp-content/uploads/2022/12/UKRI-151222-Main-report-UKRI-diversity-data-for-funding-applicants-and-awardees-2020-to-2021-update.pdf",
+        "https://www.timeshighereducation.com/node/731904"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-funding-ukri-90-black-lead-awardees-against-10-5",
+      "name": "UKRI: 90 Black lead awardees against 10,510 White over five years",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.ukri.org/publications/ukri-equalities-monitoring/ukri-equalities-monitoring-2023-to-2024/",
+        "https://www.ukri.org/news/ukri-publishes-ethnicity-analysis-of-funding-applicants-and-awardees"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-funding-ukri-black-lead-researchers-median-award",
+      "name": "UKRI: Black lead researchers' median award £161,000 v £367,000 White",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.ukri.org/publications/ukri-equalities-monitoring/ukri-equalities-monitoring-2023-to-2024/",
+        "https://www.timeshighereducation.com/node/731904"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-funding-black-lead-applicants-to-ukri-halved-to-",
+      "name": "Black lead applicants to UKRI halved to 80 in 2021–22",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.timeshighereducation.com/node/731904",
+        "https://www.ukri.org/wp-content/uploads/2022/12/UKRI-151222-Main-report-UKRI-diversity-data-for-funding-applicants-and-awardees-2020-to-2021-update.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-funding-broken-pipeline-245-of-19-868-ukri-phd-s",
+      "name": "Broken Pipeline: 245 of 19,868 UKRI PhD studentships (1.2%) to Black",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://blog.royalhistsoc.org/?p=1195",
+        "https://wonkhe.com/blogs/black-students-arent-getting-funded-phds-whos-responsible-for-fixing-that/",
+        "https://ycede.ac.uk/barriers-to-black-phd-students-a-reflection-on-progress-and-the-work-that-still-needs-to-be-done-by-ayo-barley-chair-ycede-external-advisory-board/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-funding-ukri-studentship-starts-about-2-black-in",
+      "name": "UKRI studentship starts: about 2% Black in 2023–24",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.ukri.org/publications/ukri-equalities-monitoring/ukri-equalities-monitoring-2023-to-2024/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-funding-wellcome-uk-minority-ethnic-success-rate",
+      "name": "Wellcome: UK minority-ethnic success rate 8% v White 14%",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://wellcome.org/insights/reports/grant-funding-data-2019-2020",
+        "https://www.chemistryworld.com/4016089.article",
+        "https://revistapesquisa.fapesp.br/en/battle-against-institutional-racism-in-science/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-funding-wellcome-2024-25-black-or-black-british-",
+      "name": "Wellcome 2024–25: Black or Black British 9.7% of UK awards",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://wellcome.org/research-funding/funding-portfolio/funding-data-2024",
+        "https://wellcome.org/research-funding/funding-portfolio/funding-data-2023"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-funding-royal-society-no-black-uk-applicants-to-",
+      "name": "Royal Society: no Black UK applicants to URF or DHF, 2018–2020",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://royalsociety.org:443/-/media/policy/publications/2021/trends-ethnic-minorities-stem/diversity-application-data-for-uk-early-career-fellowship-programmes.pdf",
+        "https://www.timeshighereducation.com/node/711777"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-funding-royal-society-black-about-1-of-urf-appli",
+      "name": "Royal Society: Black about 1% of URF applicants; under 5 awards",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.royalsociety.org/-/media/policy/publications/2026/diversity-applications-royals-society-early-career-fellowship-programmes-2025.pdf",
+        "https://www.royalsociety.org/news-resources/publications/2026/early-career-fellowship-applications-diversity/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-funding-british-academy-no-black-only-fellowship",
+      "name": "British Academy: no Black-only fellowship data found",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.timeshighereducation.com/node/728190",
+        "https://www.thebritishacademy.ac.uk/news/promising-results-from-first-year-of-innovative-grant-awarding-trial/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-funding-leverhulme-bhf-erc-no-published-black-sp",
+      "name": "Leverhulme, BHF, ERC: no published Black-specific counts",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.bhf.org.uk/what-we-do/equality-diversity-and-inclusion/diversity-data-in-research-funding",
+        "https://erc.europa.eu/news-events/magazine/erc-adopts-new-gender-equality-plan"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-funding-nih-black-applicants-10-points-less-like",
+      "name": "NIH: Black applicants 10 points less likely to win R01s (2000–06)",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.nih.gov/node/26636",
+        "https://news.ku.edu/news/article/2011/08/18/black-scientists-less-likely-white-counterparts-receive-nih-funding-study-shows"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-funding-nih-r01-black-applications-1-4-of-total-",
+      "name": "NIH R01: Black applications 1.4% of total, funded 17.1% v 29.3%",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://elifesciences.org/articles/65697",
+        "https://www.geneticsandsociety.org/biopolitical-times/racial-disparities-funding-nih"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-funding-nih-follow-up-black-10-7-v-white-17-7-r0",
+      "name": "NIH follow-up: Black 10.7% v White 17.7% R01 award rate (2011–15)",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.stat.cmu.edu/~brian/valerie/617-2022/617-2021/0%20-%20NIH%20Peer%20review/Topic%20Choice%20-%20eaaw7238.full.pdf",
+        "https://www.nprillinois.org/health-harvest/2019-10-18/whats-behind-the-research-funding-gap-for-black-scientists"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-funding-topic-choice-explains-part-of-the-nih-ga",
+      "name": "Topic choice explains part of the NIH gap: a contested reading",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://elifesciences.org/articles/65697",
+        "https://www.nprillinois.org/health-harvest/2019-10-18/whats-behind-the-research-funding-gap-for-black-scientists"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-funding-black-professors-250-of-25-670-uk-profes",
+      "name": "Black professors: 250 of 25,670 UK professors (just under 1%)",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.timeshighereducation.com/news/number-non-eu-academics-uk-rises-again",
+        "https://hesa.ac.uk/node/140761",
+        "https://www.hesa.ac.uk/node/142008"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-funding-royal-society-black-heritage-fellowship-",
+      "name": "Royal Society Black-heritage fellowship: 8 fellows a year, 2024–25",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://royalsociety.org/news/2024/09/career-development-fellowship-cohort-1",
+        "https://royalsociety.org/news/2025/10/career-development-fellowship-cohort-2",
+        "https://researchprofessionalnews.com/rr-news-uk-charities-and-societies-2023-9-royal-society-launches-new-fellowships-for-black-researchers"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-funding-stormzy-scholarship-81-students-funded-b",
+      "name": "Stormzy Scholarship: 81 students funded by 2026",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://cam.ac.uk/node/241081",
+        "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-doubles-support-for-stormzy-scholars-at-the-university-of-cambridge"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-funding-10-000-black-interns-over-4-000-placed-b",
+      "name": "10,000 Black Interns: over 4,000 placed by 2022",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.raconteur.net/hr/diversity-inclusion/10000-black-interns-diversity-hiring/",
+        "https://www.insurancebusinessmag.com/uk/news/breaking-news/almost-500-firms-have-joined-10000-black-interns-campaign-241599.aspx"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-funding-amos-bursary-no-published-cumulative-tot",
+      "name": "Amos Bursary: no published cumulative total found",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://amosbursary.org.uk/wp-content/uploads/2021/05/AMOS-Impact-Report-2020_revised_3.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-scholarships-rhodes-trust-black-scholars-about-20-of-",
+      "name": "Rhodes Trust: Black scholars about 20% of recent cohorts",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.rhodeshouse.ox.ac.uk/impact-legacy/legacy-equity-inclusion/race-and-the-rhodes-scholarship/",
+        "https://www.rhodeshouse.ox.ac.uk/about/key-facts/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-scholarships-us-rhodes-6-of-32-black-in-2022-5-of-32-",
+      "name": "US Rhodes: 6 of 32 Black in 2022, 5 of 32 in 2026 class",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.diverseeducation.com/news-roundup/article/15281943/2022-american-rhodes-class-feature-six-black-students-and-most-women-ever-selected",
+        "https://jbhe.com/2025/11/five-blacks-among-the-latest-cohort-of-32-rhodes-scholars-from-the-united-states/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-scholarships-rhodes-first-black-scholar-alain-locke-1",
+      "name": "Rhodes: first Black scholar Alain Locke, 1907; next US Black 1963",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.rhodeshouse.ox.ac.uk/impact-legacy/legacy-equity-inclusion/race-and-the-rhodes-scholarship/",
+        "https://nmaahc.si.edu/alain-locke"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-scholarships-marshall-black-scholar-numbers-not-publi",
+      "name": "Marshall: Black scholar numbers not published",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://jbhe.com/?p=69948",
+        "https://jbhe.com/2017/12/four-african-americans-win-marshall-scholarships-2017"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-scholarships-fulbright-us-students-black-recipients-t",
+      "name": "Fulbright US Students: Black recipients tripled to 99 (5.2%)",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://thepienews.com/us-fulbright-doubles-down-on-diversity-aims/",
+        "https://international.wisc.edu/fulbright-emphasizes-diversity-among-its-fellows-the-chronicle-of-higher-education/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-scholarships-chevening-and-commonwealth-published-by-",
+      "name": "Chevening and Commonwealth: published by country, not ethnicity",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://westminsterbrief.co.uk/archive/pq/113409",
+        "https://assets.publishing.service.gov.uk/media/69402965cfacd5e888491ffc/Commonwealth-Scholarship-Commission-Annual-Report-2025.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-scholarships-gates-cambridge-and-macarthur-no-publish",
+      "name": "Gates Cambridge and MacArthur: no published Black counts",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.cam.ac.uk/stories/gates-cambridge-class-2025",
+        "https://www.adonis-abbey.com/book_detail.php?bookid=259"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-black-actors-69-of-1-021-oscar-acting-no",
+      "name": "Black actors: 69 of 1,021 Oscar acting nominations, 1970 to 2020",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://interactives.dallasnews.com/2016/oscars-diversity"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-17-black-acting-winners-at-the-oscars-19",
+      "name": "17 Black acting winners at the Oscars, 1970 to 2020",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.amctheatres.com/amc-scene/historic-moments-for-black-actors-at-the-academy-awards"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-halle-berry-is-still-the-only-black-winn",
+      "name": "Halle Berry is still the only Black winner of Best Actress",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://abc7.com/11535287",
+        "https://www.pbs.org/newshour/amp/arts/heres-a-full-list-of-2026-academy-awards-winners"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-first-black-winners-hattie-mcdaniel-1940",
+      "name": "First Black winners: Hattie McDaniel (1940) and Sidney Poitier (1964)",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.amctheatres.com/amc-scene/historic-moments-for-black-actors-at-the-academy-awards",
+        "https://www.goldradio.com/news/tv-film/sidney-poitier-first-black-best-actor-oscars/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-oscarssowhite-all-20-acting-nominees-wer",
+      "name": "#OscarsSoWhite: all 20 acting nominees were white in 2015 and 2016",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.cbsnews.com/news/oscars-2016-oscarssowhite-academy-awards-slammed-for-lack-of-diversity/?ftag=",
+        "https://www.aljazeera.com/features/2017/1/24/oscar-nominations-more-diverse-after-oscarssowhite-row"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-usc-annenberg-nominees-of-colour-rose-fr",
+      "name": "USC Annenberg: nominees of colour rose from 8% to 17% after 2015",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://dramaticarts.usc.edu/usc-programs-trace-oscars-past-and-work-to-change-oscars-future/",
+        "https://www.rollingstone.com/tv-movies/tv-movie-news/oscars-still-so-white-diversity-improvements-study-1234689140/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-best-director-7-black-nominees-and-no-bl",
+      "name": "Best Director: 7 Black nominees and no Black winner in 98 ceremonies",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.thewrap.com/industry-news/awards/oscars-2026-diversity-report-sinners-chloe-zhao-wagner-moura/",
+        "https://thegrio.com/2026/02/26/ryan-coogler-oscars-best-director-black-nominees",
+        "https://globalnews.ca/news/11729892/2026-oscars-winners-list/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-2026-4-of-20-acting-nominees-were-black-",
+      "name": "2026: 4 of 20 acting nominees were Black and one Black actor won",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.thewrap.com/industry-news/awards/oscars-2026-diversity-report-sinners-chloe-zhao-wagner-moura/",
+        "https://atlantatribune.com/2026/01/27/2026-oscars-the-black-nominees/?amp=1",
+        "https://www.pbs.org/newshour/amp/arts/heres-a-full-list-of-2026-academy-awards-winners"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-2026-first-black-winner-of-the-oscar-for",
+      "name": "2026: first Black winner of the Oscar for cinematography",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.clickondetroit.com/entertainment/2026/03/16/autumn-durald-arkapaw-becomes-first-woman-to-win-an-oscar-for-cinematography/",
+        "https://globalnews.ca/news/11729892/2026-oscars-winners-list/",
+        "https://au.variety.com/2026/film/news/autumn-arkapaw-cinematography-oscar-sinners-first-woman-34297"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-best-picture-1-black-led-winner-and-12-o",
+      "name": "Best Picture: 1 Black-led winner and 12 of 592 nominees, 1980 to 2020",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.bfi.org.uk/features/steve-mcqueen-making-history"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-news-desk-counts-black-actors-had-9-to-1",
+      "name": "News-desk counts: Black actors had 9% to 10% of acting nominations",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://fullsite.motherjones.com/?p=294681",
+        "https://interactives.dallasnews.com/2016/oscars-diversity"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-2012-academy-voters-were-94-white-and-2-",
+      "name": "2012: Academy voters were 94% white and 2% Black",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://thegrio.com/2012/02/20/study-oscar-voters-mainly-white-male",
+        "https://www.comingsoon.net/movies/news/562906-oscar-voters-are-94-white-and-77-are-males-with-a-median-age-of-62"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-academy-after-2025-22-from-underrepresen",
+      "name": "Academy after 2025: 22% from underrepresented racial or ethnic groups",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.thewrap.com/new-members-academy-motion-pictures-arts-sciences-2025/",
+        "https://www.aol.com/ariana-grande-fernanda-torres-kieran-183032089.html"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-inclusion-standards-best-picture-films-m",
+      "name": "Inclusion standards: Best Picture films must meet 2 of 4 from 2024",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.cbsnews.com/news/academy-announces-new-oscar-eligibility-standards-diversity-inclusion-requirements",
+        "https://www.etonline.com/oscars-set-inclusion-requirements-for-best-picture-category-that-will-take-full-effect-in-2024"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-2021-the-golden-globes-voting-body-had-n",
+      "name": "2021: the Golden Globes' voting body had no Black members",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://thegrio.com/2021/02/22/hollywood-foreign-press-black-journalists",
+        "https://lamag.com/theindustry/how-the-golden-globes-addressed-the-total-lack-of-black-hfpa-members/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-2023-new-golden-globes-voting-body-about",
+      "name": "2023: new Golden Globes voting body about 10% to 11% Black",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://avclub.com/golden-globes-voter-base-diversity-2024-1850323446",
+        "https://www.gmanetwork.com/news/showbiz/showbizabroad/883964/golden-globes-expands-to-300-members-highlighting-diversity-gains/story/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-bafta-12-2-of-members-from-minority-ethn",
+      "name": "BAFTA: 12.2% of members from minority ethnic groups in 2021",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.bafta.org/media-centre/press-releases/membership-survey-results-commitment-targets-2025",
+        "https://screendaily.com/news/bafta-makes-progress-in-diversifying-membership-figures-reveal/5199825.article"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-bafta-film-1970-to-2020-31-of-885-acting",
+      "name": "BAFTA Film 1970 to 2020: 31 of 885 acting nominations to Black actors",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://weforum.org/agenda/2018/02/94-of-all-bafta-film-award-nominees-have-been-white-according-to-a-new-report"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-bafta-2020-all-20-acting-nominees-were-w",
+      "name": "BAFTA 2020: all 20 acting nominees were white, then 120 changes",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.aljazeera.com/features/2020/1/7/laughable-anger-as-bafta-awards-recognise-only-white-actors",
+        "https://amp.cbc.ca/news/entertainment/bafta-vows-change-lack-diversity-1.5737840",
+        "https://www.geo.tv/latest/309775-bafta-film-awards-organisers-announce-changes-after-diversity-row"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-bafta-2021-16-of-24-acting-nominees-were",
+      "name": "BAFTA 2021: 16 of 24 acting nominees were from ethnic minority groups",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.techradar.com/news/bafta-2021-nominations-list-reveals-a-diverse-selection-of-film-nominees",
+        "https://kvia.com/entertainment/2021/03/09/bafta-film-awards-2021-nominees-announced-with-huge-rise-in-diverse-talent-featured/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-bafta-tv-2023-all-six-leading-actress-no",
+      "name": "BAFTA TV 2023: all six leading actress nominees were white",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://uk.news.yahoo.com/bafta-says-older-white-women-110516485.html",
+        "https://thedailybeast.com/baftas-celebrate-diversity-of-all-white-best-tv-actress-nominees"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-oliviers-karla-burns-was-the-first-black",
+      "name": "Oliviers: Karla Burns was the first Black performer to win, in 1991",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.bostonglobe.com/2021/06/15/metro/karla-burns-who-broke-british-tonys-color-barrier-dies-66",
+        "https://officiallondontheatre.com/news/karla-burns-dies-at-66/",
+        "https://www.legacy.com/news/karla-burns-1954-2021-tony-nominated-singer-and-actress"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-bfi-diversity-standards-had-not-yet-resp",
+      "name": "BFI Diversity Standards had 'not yet responded' to racial inequality",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.hollywoodreporter.com/news/bfi-diversity-standards-have-not-tackled-racial-inequality-report-1303275",
+        "https://www.screendaily.com/news/bfi-to-support-bafta-and-bifa-to-ensure-british-entries-meet-specific-diversity-standards/5146358.article"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-uk-tv-black-share-of-off-screen-work-fel",
+      "name": "UK TV: Black share of off-screen work fell to 2.7% in 2025",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.c21media.net/news/efforts-to-ensure-greater-representation-of-black-creatives-off-screen-in-uk-have-stalled/",
+        "https://www.televisual.com/news/report-number-of-black-creatives-in-tv-stalled/",
+        "https://thegrio.com/2026/07/28/uk-tv-diversity-report-black-lives-matter-pledges/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-ofcom-2020-1-of-senior-tv-managers-were-",
+      "name": "Ofcom 2020: 1% of senior TV managers were Black",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.ofcom.org.uk/news-centre/2020/broadcasters-must-look-beyond-london",
+        "https://www.c21media.net/news/ofcom-industry-diversity-slow-to-improve/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-emmys-2020-a-record-35-of-102-acting-nom",
+      "name": "Emmys 2020: a record 35 of 102 acting nominees were Black",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://lamag.com/tv/emmy-nominations-2020/",
+        "https://www.harpersbazaar.com.sg/life/a-record-number-of-black-actors-landed-emmy-nominations/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-emmys-2025-24-performers-of-colour-among",
+      "name": "Emmys 2025: 24 performers of colour among 92 or 94 acting nominees",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.thewrap.com/emmys-diversity-report-2025/",
+        "https://www.aol.com/entertainment/emmys-2025-diversity-report-worst-171152999.html"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-tonys-2022-about-half-of-performance-nom",
+      "name": "Tonys 2022: about half of performance nominees Black (counts differ)",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.voanews.com/a/on-broadway-more-visibility-but-also-an-unseen-threat-/6606255.html",
+        "https://www.broadwaynews.com/the-2022-tony-nominations-mark-a-historic-shift-on-broadway/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-viola-davis-first-black-actor-to-win-an-",
+      "name": "Viola Davis: first Black actor to win an acting Oscar, Emmy and Tony",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.csmonitor.com/Arts-Culture/Movies/2017/0227/Following-Oscar-win-Viola-Davis-is-first-black-winner-of-acting-triple-crown",
+        "https://www.marieclaire.co.uk/entertainment/tv-and-film/viola-davis-first-black-woman-oscar-emmy-tony-acting-479526"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-cannes-mati-diop-first-black-woman-direc",
+      "name": "Cannes: Mati Diop, first Black woman director in competition (2019)",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.essence.com/entertainment/mati-diop-first-black-woman-cannes-film-festival-competition",
+        "https://scrippsnews.com/stories/mati-diop-is-first-black-woman-to-win-cannes-grand-prix/",
+        "https://www.voice-online.co.uk/entertainment/film/2019/06/27/mati-diop-1st-black-woman-to-win-award-at-cannes-film-fest/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-screen-cannes-spike-lee-named-first-black-jury-",
+      "name": "Cannes: Spike Lee named first Black jury president (for 2020)",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.nbcnews.com/pop-culture/pop-culture-news/spike-lee-first-black-person-lead-cannes-film-festival-jury-n1115246",
+        "https://www.scrippsnews.com/entertainment/celebrity/spike-lee-named-first-black-jury-president-at-cannes"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-arts-booker-prize-first-black-woman-winner-in",
+      "name": "Booker Prize: first Black woman winner in 2019",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://thebookerprizes.com/the-booker-library/authors/bernadine-evaristo",
+        "https://scmp.com/news/world/europe/article/3032917/authors-margaret-atwood-and-bernardine-evaristo-share-2019-booker"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-arts-booker-no-published-count-of-black-winne",
+      "name": "Booker: no published count of Black winners or nominees",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://mediadiversified.org/2013/09/12/the-colour-of-the-prize/",
+        "https://data.post45.org/posts/british-literary-prizes/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-arts-carnegie-medal-no-writer-of-colour-won-i",
+      "name": "Carnegie Medal: no writer of colour won in its first 83 years",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.writermag.com/?p=31553",
+        "https://english.umd.edu/news/carnegie-medal-goes-elizabeth-acevedo-first-writer-color-medals-history",
+        "https://discovery-pp.ucl.ac.uk/id/eprint/10053872/1/Ramdarshan%20Bold_The%20Eight%20Percent%20Problem.%20Authors%20of%20Colour%20in%20the%20British%20Young%20Adult%20Market%20%282006%E2%80%932016%29_VoR.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-arts-cilip-diversity-review-followed-an-all-w",
+      "name": "CILIP diversity review followed an all-white longlist in 2017",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.cilip.org.uk/CKGDiversityReviewFinal",
+        "https://thebookseller.com/news/cilip-review-carnegie-and-kate-greenaway-medals-500231"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-arts-authors-of-colour-wrote-8-of-uk-young-ad",
+      "name": "Authors of colour wrote 8% of UK young adult authors, 2006 to 2016",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://discovery-pp.ucl.ac.uk/id/eprint/10053872/1/Ramdarshan%20Bold_The%20Eight%20Percent%20Problem.%20Authors%20of%20Colour%20in%20the%20British%20Young%20Adult%20Market%20%282006%E2%80%932016%29_VoR.pdf",
+        "https://www.londonmet.ac.uk/news/articles/first-year-of-jhalak-prize-finds-diversity-is-an-overlooked-issue/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-arts-jhalak-prize-created-in-2016-for-british",
+      "name": "Jhalak Prize created in 2016 for British writers of colour",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.londonmet.ac.uk/news/articles/first-year-of-jhalak-prize-finds-diversity-is-an-overlooked-issue/",
+        "https://theasianwriter.co.uk/2016/02/23/the-jhalak-prize-to-celebrate-the-best-book-written-by-a-bme-writer/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-arts-pulitzer-letters-first-african-american-",
+      "name": "Pulitzer letters: first African American winner was in 1950",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://britannica.com/biography/Gwendolyn-Brooks",
+        "https://language.chinadaily.com.cn/2012-06/05/content_15475648.htm"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-arts-pulitzer-drama-first-african-american-wi",
+      "name": "Pulitzer drama: first African American winner in 1970",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.encyclopedia.com/african-american-focus/news-wires-white-papers-and-books/gordone-charles",
+        "https://blog.history.in.gov/author/jtaylor/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-arts-underrepresented-artists-were-44-6-of-ch",
+      "name": "Underrepresented artists were 44.6% of chart artists in 2024",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://annenberg.usc.edu/node/75454",
+        "https://www.mixonline.com/business/usc-annenberg-inclusion-initiative-releases-2025-report"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-arts-2020-59-of-173-chart-artists-were-from-u",
+      "name": "2020: 59% of 173 chart artists were from underrepresented groups",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://musicrow.com/2021/03/annenberg-inclusion-initiative-study-reveals-no-meaningful-change-for-women-in-recorded-music/",
+        "https://annenberg.usc.edu/node/72558"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-arts-grammy-album-of-the-year-four-black-wome",
+      "name": "Grammy Album of the Year: four Black women winners by 2025",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.westernmassnews.com/2025/02/03/beyonc-wins-her-first-album-year-grammy-award-cowboy-carter/",
+        "https://www.khaleejtimes.com/entertainment/grammys-2025-beyonce-wins-first-ever-album-of-the-year-award-for-cowboy-carter?amp=1"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-arts-recording-academy-voters-of-colour-up-fr",
+      "name": "Recording Academy: voters of colour up from 24% to 38%",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.blackenterprise.com/recording-academy-2400-people-of-color-membership/amp/",
+        "https://www.businesswire.com/news/home/20241003599230/en/Recording-Academy-Surpasses-2025-Membership-Goal-Adds-3000-Women-GRAMMY-Voters-Since-2019"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-arts-brit-awards-2016-all-white-nominees-in-7",
+      "name": "Brit Awards 2016: all-white nominees in 7 of 11 categories",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.newstatesman.com/culture/music/2016/02/britssowhite-audiences-criticise-awards-exclusion-black-british",
+        "https://factmag.com/2016/03/04/brits-chairman-addresses-lack-of-diversity-whiteness"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-arts-brits-voting-academy-17-from-ethnic-mino",
+      "name": "Brits voting academy: 17% from ethnic minorities after 2016 reform",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://i-d.co/article/brit-awards-diversify-voting-membership-after-britssowhite-campaign/",
+        "https://www.nme.com/?p=1189733"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-arts-mercury-prize-first-black-woman-winner-i",
+      "name": "Mercury Prize: first Black woman winner in 2002",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.npg.org.uk/whatson/exhibitions/2007/devotional/ms-dynamite",
+        "https://www.hellomagazine.com/celebrities/469781/mercury-dynamite/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-arts-pulitzer-music-first-jazz-1997-and-first",
+      "name": "Pulitzer music: first jazz (1997) and first hip-hop (2018) winners",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://niemanreports.org/the-story-behind-the-first-pulitzer-for-jazz/",
+        "https://www.fox9.com/news/kendrick-lamar-the-1st-rapper-to-win-pulitzer",
+        "https://www.cbsnews.com/losangeles/news/kendrick-lamar-pulitzer"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-arts-mobo-awards-founded-in-1996-to-recognise",
+      "name": "MOBO Awards founded in 1996 to recognise overlooked Black music",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.musicweek.com/talent/read/trailblazing-mobo-founder-kanya-king-dies-aged-57/094246",
+        "https://www.irishnews.com/news/uk/mobo-awards-founder-kanya-king-dies-at-57-after-cancer-battle-LAXOOT4JNNMBZFC7J5ROE7N2EM"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-arts-black-music-creators-report-racism-63-in",
+      "name": "Black music creators report racism: 63% in 2021 survey",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://musicweek.com/talent/read/black-lives-in-music-survey-highlights-systemic-and-institutionalised-industry-racism/084338",
+        "https://djmag.com/news/majority-black-music-artists-and-professionals-have-faced-racism-industry-black-lives-music-survey-finds"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-arts-turner-prize-first-black-winner-in-1998",
+      "name": "Turner Prize: first Black winner in 1998",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://studiomuseum.org/artists/chris-ofili",
+        "https://www.masterworks.com/academy/artists/chris-ofili"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-arts-turner-prize-first-black-woman-winner-in",
+      "name": "Turner Prize: first Black woman winner in 2017",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://stylist.co.uk/people/turner-prize-2017-winner-lubaina-himid-first-black-woman/177986",
+        "https://www.artnews.com/art-news/news/lubaina-himid-wins-2017-turner-prize-9433"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-arts-riba-royal-gold-medal-first-black-recipi",
+      "name": "RIBA Royal Gold Medal: first Black recipient in 172 years",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.archpaper.com/?p=288288",
+        "https://www.dezeen.com/2020/10/03/david-adjaye-riba-royal-gold-medal-stirling-prize/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-arts-stirling-prize-no-published-count-of-bla",
+      "name": "Stirling Prize: no published count of Black winners",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.dezeen.com/2020/10/03/david-adjaye-riba-royal-gold-medal-stirling-prize/",
+        "https://www.archpaper.com/?p=288288"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-arts-pulitzer-30-african-american-winners-amo",
+      "name": "Pulitzer: 30 African American winners among 943 named winners",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://cjr.org/analysis/100_years_of_data.php",
+        "https://niemanlab.org/reading/100-years-of-pulitzer-prize-data-reveal-a-race-and-gender-disparity"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-arts-pulitzer-4-african-american-winners-in-i",
+      "name": "Pulitzer: 4 African American winners in International Reporting",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.statista.com/statistics/696349/pulitzer-prize-winner-ethnicity",
+        "https://cjr.org/analysis/100_years_of_data.php"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-arts-british-journalism-awards-no-ethnicity-d",
+      "name": "British Journalism Awards: no ethnicity data on winners published",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://pressgazette.co.uk/barbara-blake-hannah-prize-launched-as-press-gazette-bids-to-improve-british-journalism-awards-diversity/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-professions-king-s-counsel-2017-2023-16-of-45-black-",
+      "name": "King's Counsel 2017–2023: 16 of 45 Black applicants appointed",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://kcappointments.org/wp-content/uploads/2025/01/Ethnic-Minority-statistics-2017-2023.pdf",
+        "https://www.legalfutures.co.uk/latest-news/kc-applications-up-as-succees-rate-continues-to-fall"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-professions-king-s-counsel-2024-0-of-10-black-applic",
+      "name": "King's Counsel 2024: 0 of 10 Black applicants appointed",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.legalfutures.co.uk/latest-news/kc-applications-up-as-succees-rate-continues-to-fall",
+        "https://kcappointments.org/wp-content/uploads/2025/01/KCA-Press-Release-2024.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-professions-king-s-counsel-2025-2-of-11-black-applic",
+      "name": "King's Counsel 2025: 2 of 11 Black applicants appointed",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.legalfutures.co.uk/latest-news/success-rate-falls-again-as-96-new-kcs-are-named",
+        "https://kcappointments.org/wp-content/uploads/2026/01/FINAL-Report-to-the-LC-2025.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-professions-ftse-100-top-roles-no-black-chair-ceo-or",
+      "name": "FTSE 100 top roles: no Black chair, CEO or finance chief, 2021",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.green-park.co.uk/insights/green-park-business-leaders-index-britain-s-top-firms-failing-black-leaders/s228945/",
+        "https://www.cnbc.com/2021/02/03/no-black-executives-in-top-three-roles-of-ftse-100-firms-report-shows.html"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-professions-parker-review-2026-black-directors-hold-",
+      "name": "Parker Review 2026: Black directors hold 2.3% of FTSE 100 seats",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://parkerreview.co.uk/wp-content/uploads/2026/03/Parker-Review-2026-Press-Release.pdf",
+        "https://www.easterneye.biz/boardroom-diversity-record-high-parker-review-uk/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-professions-royal-college-of-psychiatrists-first-bla",
+      "name": "Royal College of Psychiatrists: first Black President, 2023",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.kcl.ac.uk/news/dr-lade-smith-cbe-elected-as-the-next-president-of-the-royal-college-of-psychiatrists",
+        "https://www.kingshealthpartners.org/latest/khpeople-dr-lade-smith-cbe"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-professions-acca-first-african-global-president-2022",
+      "name": "ACCA: first African global president, 2022",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://www.consultancy.com.au/news/6169/joseph-owolabi-first-african-elected-as-acca-global-president",
+        "https://www.thisdaylive.com/2022/11/21/owolabi-how-i-emerged-first-african-president-of-global-accountancy-body-acca-at-39/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-professions-bafta-tv-craft-2018-1-black-crew-member-",
+      "name": "BAFTA TV Craft 2018: 1 Black crew member of 99 recognised",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://bectu.org.uk/news/tv-craft-awards-lifting-the-lid-on-structural-racism",
+        "https://www.mediareform.org.uk/blog/tv-craft-awards-lifting-the-lid-on-structural-racism"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:aw-professions-football-black-list-black-led-recognitio",
+      "name": "Football Black List: Black-led recognition since 2008",
+      "isPartOf": "urn:bhm26:dataset-lp-awards",
+      "citation": [
+        "https://skysports.com/football/news/11095/11867270/football-black-list-celebrates-diversity-says-premier-league",
+        "https://www.premierleague.com/news/4298773"
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:bhm26:dataset-ethdata",
+      "name": "Collecting ethnicity data",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#language",
+      "isPartOf": "urn:bhm26:hub"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-how-use-the-gss-harmonised-question-based-on",
+      "name": "Use the GSS harmonised question based on the 2021 Census",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://www.gov.uk/government/publications/standards-for-ethnicity-data/standards-for-ethnicity-data",
+        "https://analysisfunction.civilservice.gov.uk/policy-store/review-of-the-ethnicity-harmonised-standard-overview-of-our-redesign-research-to-date",
+        "https://gov.uk/government/consultations/equality-race-and-disability-bill-mandatory-ethnicity-and-disability-pay-gap-reporting/annex-c-government-statistical-service-harmonised-categories-for-ethnicity"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-how-let-people-describe-themselves-proxy-ans",
+      "name": "Let people describe themselves; proxy answers are lower quality",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://www.gov.uk/government/publications/standards-for-ethnicity-data/standards-for-ethnicity-data",
+        "https://analysisfunction.civilservice.gov.uk/policy-store/review-of-the-ethnicity-harmonised-standard-overview-of-our-redesign-research-to-date",
+        "https://gov.uk/government/statistics/stop-and-search-arrests-and-mental-health-detentions-march-2024/police-powers-and-procedures-stop-and-search-arrests-and-mental-health-detentions-england-and-wales-year-ending-31-march-2024"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-how-always-offer-prefer-not-to-say",
+      "name": "Always offer 'Prefer not to say'",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://www.gov.uk/government/publications/standards-for-ethnicity-data/standards-for-ethnicity-data",
+        "https://gov.uk/government/consultations/equality-race-and-disability-bill-mandatory-ethnicity-and-disability-pay-gap-reporting/annex-c-government-statistical-service-harmonised-categories-for-ethnicity",
+        "https://apply-for-public-appointment.service.gov.uk/roles/6780/documents/2"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-how-give-write-in-space-for-any-other-groups",
+      "name": "Give write-in space for 'Any other' groups",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://www.gov.uk/government/publications/standards-for-ethnicity-data/standards-for-ethnicity-data",
+        "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/methodologies/ethnicgroupnationalidentitylanguageandreligionqualityinformationforcensus2021",
+        "https://analysisfunction.civilservice.gov.uk/policy-store/review-of-the-ethnicity-harmonised-standard-overview-of-our-redesign-research-to-date"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-how-treat-ethnicity-as-special-category-data",
+      "name": "Treat ethnicity as special category data with a Schedule 1 condition",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data/",
+        "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/a-guide-to-lawful-basis/special-category-data",
+        "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-are-the-rules-on-special-category-data/",
+        "https://www.information-compliance.admin.cam.ac.uk/files/appropriate_policy_document.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-how-do-not-infer-ethnicity-from-names-photos",
+      "name": "Do not infer ethnicity from names, photos or appearance",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data/",
+        "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthinequalities/articles/understandingconsistencyofethnicitydatarecordedinhealthrelatedadministrativedatasetsinengland2011to2021/november2023"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-how-suppress-small-numbers-and-publish-decla",
+      "name": "Suppress small numbers and publish declaration rates",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://www.gov.uk/government/publications/standards-for-ethnicity-data/standards-for-ethnicity-data",
+        "https://assets.publishing.service.gov.uk/media/69c14fded588c92c483e4bb1/2026-03-17_-_Pay_Gap_-_Main_Large_Print_ELAY_FINAL.pdf",
+        "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1165466/ethnicity_pay_reporting_consultation_response.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-when-recruitment-ask-at-application-hide-it-f",
+      "name": "Recruitment: ask at application, hide it from the sift",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://apply-for-public-appointment.service.gov.uk/roles/6780/documents/2",
+        "https://civilservice.blog.gov.uk/2015/12/01/name-blind-recruitment-responding-to-your-comments/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-when-evidence-of-name-bias-supports-separatin",
+      "name": "Evidence of name bias supports separating identity from sifting",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://www.nuffield.ox.ac.uk/news-events/news/new-csi-report-on-ethnic-minority-job-discrimination/",
+        "https://civilservice.blog.gov.uk/2015/12/01/name-blind-recruitment-responding-to-your-comments/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-when-anonymised-shortlisting-alone-has-shown-",
+      "name": "Anonymised shortlisting alone has shown mixed results",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://www.canada.ca/en/public-service-commission/news/2018/01/title.html",
+        "https://mcp.apo.org.au/node/97036"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-when-grants-and-fellowships-collect-at-applic",
+      "name": "Grants and fellowships: collect at application, hidden from panels",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://www.ukri.org/publications/ukri-equalities-monitoring/ukri-equalities-monitoring-2023-to-2024/",
+        "https://royalsociety.org/-/media/about-us/who-we-are/diversity/diversity-data-2023-24.pdf",
+        "https://wellcome.org/research-funding/funding-portfolio/funding-data-2024"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-when-honours-and-screen-awards-collect-after-",
+      "name": "Honours and screen awards: collect after selection, kept confidential",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://honours.cabinetoffice.gov.uk/about/diversity",
+        "https://oscars.org/news/academy-establishes-representation-and-inclusion-standards-oscarsr-eligibility",
+        "https://www.hollywoodreporter.com/movies/movie-features/oscars-inclusion-rules-sparking-debate-1235343128/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-when-data-supplied-later-has-bigger-gaps-than",
+      "name": "Data supplied later has bigger gaps than data given at application",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://www.ukri.org/publications/ukri-equalities-monitoring/ukri-equalities-monitoring-2023-to-2024/",
+        "https://www.artscouncil.org.uk/media/22476/download"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-when-public-services-record-it-at-registratio",
+      "name": "Public services: record it at registration or first contact",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://assets.publishing.service.gov.uk/media/696774f897d42030a67b0d71/2025_to_2026_school_census_business_and_technical_specification_v1.4.pdf",
+        "https://gov.uk/government/statistics/stop-and-search-arrests-and-mental-health-detentions-march-2024/police-powers-and-procedures-stop-and-search-arrests-and-mental-health-detentions-england-and-wales-year-ending-31-march-2024",
+        "https://nuffieldtrust.org.uk/news-item/flawed-nhs-records-distort-our-view-of-ethnic-health-gaps-study-shows"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-barriers-unclear-purpose-and-low-trust",
+      "name": "Unclear purpose and low trust",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://understandingpatientdata.org.uk/sites/default/files/2022-04/Diverse%20voices%20on%20Data%20-%20Main%20report_0.pdf",
+        "https://analysisfunction.civilservice.gov.uk/policy-store/review-of-ethnicity-harmonised-standard-findings-from-phase-2-of-our-research/",
+        "https://www.cipd.org/uk/about/news/employers-unable-to-report-ethnicity-pay-due-to-missing-data/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-barriers-fear-that-disclosure-leads-to-worse-trea",
+      "name": "Fear that disclosure leads to worse treatment",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://understandingpatientdata.org.uk/sites/default/files/2022-04/Diverse%20voices%20on%20Data%20-%20Main%20report_0.pdf",
+        "https://www.nuffield.ox.ac.uk/news-events/news/new-csi-report-on-ethnic-minority-job-discrimination/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-barriers-categories-do-not-fit-mixed-african-and-",
+      "name": "Categories do not fit Mixed, African and Caribbean people well",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://analysisfunction.civilservice.gov.uk/policy-store/review-of-ethnicity-harmonised-standard-findings-from-phase-2-of-our-research/",
+        "https://understandingpatientdata.org.uk/sites/default/files/2022-04/Diverse%20voices%20on%20Data%20-%20Main%20report_0.pdf",
+        "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthinequalities/articles/understandingconsistencyofethnicitydatarecordedinhealthrelatedadministrativedatasetsinengland2011to2021/november2023"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-barriers-feeling-compelled-rather-than-asked",
+      "name": "Feeling compelled rather than asked",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://understandingpatientdata.org.uk/sites/default/files/2022-04/Diverse%20voices%20on%20Data%20-%20Main%20report_0.pdf",
+        "https://royalsociety.org/-/media/about-us/who-we-are/diversity/diversity-data-2023-24.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-barriers-employers-legal-uncertainty-about-uk-gdp",
+      "name": "Employers' legal uncertainty about UK GDPR",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1165466/ethnicity_pay_reporting_consultation_response.pdf",
+        "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/a-guide-to-lawful-basis/special-category-data"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-barriers-low-response-and-small-numbers-make-data",
+      "name": "Low response and small numbers make data unusable",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1165466/ethnicity_pay_reporting_consultation_response.pdf",
+        "https://www.linklaters.com/insights/blogs/employmentlinks/2023/july/the-future-of-ethnicity-pay-gap-reporting",
+        "https://assets.publishing.service.gov.uk/media/69c14fded588c92c483e4bb1/2026-03-17_-_Pay_Gap_-_Main_Large_Print_ELAY_FINAL.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-barriers-cost-systems-and-missing-records-more-of",
+      "name": "Cost, systems and missing records, more often than refusal",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://www.civil-service-statistics.jdac.service.cabinetoffice.gov.uk/data_browser_2025/Ethnicity/index.html",
+        "https://www.artscouncil.org.uk/media/22476/download",
+        "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1165466/ethnicity_pay_reporting_consultation_response.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-attitudes-civil-service-about-4-in-5-staff-have-a-",
+      "name": "Civil Service: about 4 in 5 staff have a recorded ethnicity",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://www.civil-service-statistics.jdac.service.cabinetoffice.gov.uk/data_browser_2025/Ethnicity/index.html",
+        "https://www.ethnicity-facts-figures.service.gov.uk/workforce-and-business/workforce-diversity/civil-service-workforce/latest",
+        "https://www.civilserviceworld.com/professions/article/civil-service-statistics-2025-disability-ethnic-minority-record-high"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-attitudes-nhs-workforce-under-5-unknown",
+      "name": "NHS workforce: under 5% unknown",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://www.england.nhs.uk/wp-content/uploads/2025/06/Workforce-Race-Equality-Standard-2024-data-analysis-report.docx",
+        "https://www.ethnicity-facts-figures.service.gov.uk/workforce-and-business/workforce-diversity/nhs-workforce/3.1"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-attitudes-legal-profession-4-of-lawyers-prefer-not",
+      "name": "Legal profession: 4% of lawyers prefer not to say",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://www.sra.org.uk/sra/research-publications/diversity-law-firms-workforce",
+        "https://www.legalfutures.co.uk/latest-news/sra-profession-making-progress-on-diversity-especially-at-small-firms/print/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-attitudes-research-funders-high-disclosure-and-the",
+      "name": "Research funders: high disclosure, and the data shows award gaps",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://www.ukri.org/publications/ukri-equalities-monitoring/ukri-equalities-monitoring-2023-to-2024/",
+        "https://wellcome.org/research-funding/funding-portfolio/funding-data-2024"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-attitudes-honours-share-with-unknown-ethnicity-is-",
+      "name": "Honours: share with unknown ethnicity is disputed",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://www.ethnicity-facts-figures.service.gov.uk/culture-and-community/civic-participation/honours-recipients/latest",
+        "https://honours.cabinetoffice.gov.uk/about/diversity"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-attitudes-arts-and-culture-large-gaps-outside-perm",
+      "name": "Arts and culture: large gaps outside permanent staff",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://www.artscouncil.org.uk/media/22476/download",
+        "https://www.museumsassociation.org/museums-journal/news/2025/03/national-portfolio-museums-are-becoming-more-diverse-ace-report-finds/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-attitudes-health-records-mostly-complete-now-but-l",
+      "name": "Health records: mostly complete now, but less accurate for some",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://link.springer.com/article/10.1186/s12963-023-00302-0",
+        "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthinequalities/articles/understandingconsistencyofethnicitydatarecordedinhealthrelatedadministrativedatasetsinengland2011to2021/november2023",
+        "https://nuffieldtrust.org.uk/news-item/flawed-nhs-records-distort-our-view-of-ethnic-health-gaps-study-shows"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-attitudes-police-self-defined-ethnicity-missing-in",
+      "name": "Police: self-defined ethnicity missing in about 1 in 5 searches",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://gov.uk/government/statistics/stop-and-search-arrests-and-mental-health-detentions-march-2024/police-powers-and-procedures-stop-and-search-arrests-and-mental-health-detentions-england-and-wales-year-ending-31-march-2024",
+        "https://suffolk-pcc.gov.uk/assets/documents/2026/01/c9cc786ff4/Accountability-and-Performance-Panel-Use-of-Police-Powers-Report-16-January-2026.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-attitudes-employers-collection-has-been-patchy",
+      "name": "Employers: collection has been patchy",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://www.cipd.org/uk/about/news/employers-unable-to-report-ethnicity-pay-due-to-missing-data/",
+        "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/746970/BITC_Race_At_Work_Report.pdf",
+        "https://hrreview.co.uk/?p=372959"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-attitudes-stated-willingness-is-higher-than-record",
+      "name": "Stated willingness is higher than recorded disclosure",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://www.peoplemanagement.co.uk/article/1787358/majority-employees-happy-share-ethnicity-data-poll-finds",
+        "https://www.ethnicity-facts-figures.service.gov.uk/workforce-and-business/workforce-diversity/civil-service-workforce/latest"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ed-attitudes-public-trust-and-the-pay-gap-reporting-l",
+      "name": "Public trust and the pay gap reporting law",
+      "isPartOf": "urn:bhm26:dataset-ethdata",
+      "citation": [
+        "https://gov.uk/government/publications/public-attitudes-to-data-and-ai-tracker-survey-wave-4/public-attitudes-to-data-and-ai-tracker-survey-wave-4-report",
+        "https://assets.publishing.service.gov.uk/media/69c14fded588c92c483e4bb1/2026-03-17_-_Pay_Gap_-_Main_Large_Print_ELAY_FINAL.pdf",
+        "https://fullfact.org/government-tracker/race-equality-act/",
+        "https://www.lexisnexis.co.uk/legal/news/equality-race-disability-bill-absent-from-kings-speech"
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:bhm26:dataset-stem",
+      "name": "Science, engineering and the built environment",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#innovation",
+      "isPartOf": "urn:bhm26:hub"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:st-stpicture-black-workers-are-under-represented-in-e",
+      "name": "Black workers are under-represented in engineering and technology jobs",
+      "isPartOf": "urn:bhm26:dataset-stem",
+      "citation": [
+        "https://www.engineeringuk.com/media/vjzowjeq/the-engineering-and-technology-workforce-update-engineeringuk-may-2025.pdf",
+        "https://www.engineeringuk.com/media/mnuhargd/dashboard-engineering-tech-workforce-engineeringuk-april-26.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:st-stpicture-black-women-are-under-represented-among-",
+      "name": "Black women are under-represented among women in engineering roles",
+      "isPartOf": "urn:bhm26:dataset-stem",
+      "citation": [
+        "https://www.engineeringuk.com/media/vjzowjeq/the-engineering-and-technology-workforce-update-engineeringuk-may-2025.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:st-stpicture-about-1-of-uk-registered-architects-are-",
+      "name": "About 1% of UK-registered architects are Black or Black British",
+      "isPartOf": "urn:bhm26:dataset-stem",
+      "citation": [
+        "https://arb.org.uk/architects-today/",
+        "https://www.specificationonline.co.uk/articles/2023-04-13/new-data-highlights-under-represented-groups-in-the-architects-profession"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:st-stpicture-about-5-of-town-planners-are-from-racial",
+      "name": "About 5% of town planners are from racialised minorities",
+      "isPartOf": "urn:bhm26:dataset-stem",
+      "citation": [
+        "https://www.rtpi.org.uk/media/16015/state-of-the-profession-2023-final.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:st-stpicture-black-workers-are-4-of-the-construction-",
+      "name": "Black workers are 4% of the construction site workforce in CITB survey",
+      "isPartOf": "urn:bhm26:dataset-stem",
+      "citation": [
+        "https://www.citb.co.uk/media/dj0fmes3/workforce-mobility-2025-full-report.pdf",
+        "https://www.ethnicity-facts-figures.service.gov.uk/work-pay-and-benefits/employment/employment-by-sector/latest"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:st-stpicture-1-7-of-uk-stem-academic-staff-were-black",
+      "name": "1.7% of UK STEM academic staff were Black in 2018/19",
+      "isPartOf": "urn:bhm26:dataset-stem",
+      "citation": [
+        "https://royalsociety.org/news/2021/03/stem-ethnicity-report",
+        "https://royalsociety.org/-/media/policy/Publications/2021/trends-ethnic-minorities-stem/Ethnicity-STEM-data-for-students-and-academic-staff-in-higher-education.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:st-stpath-8-1-of-engineering-and-technology-studen",
+      "name": "8.1% of engineering and technology students were Black in 2020/21",
+      "isPartOf": "urn:bhm26:dataset-stem",
+      "citation": [
+        "https://www.engineeringuk.com/latest-news/news-articles/engineeringuk-releases-new-report-on-engineering-in-higher-education/",
+        "https://www.electronicspecifier.com/studentzone/studentzone-news/engineeringuk-releases-report-on-engineering-in-higher-education/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:st-stpath-black-stem-graduates-half-as-likely-as-w",
+      "name": "Black STEM graduates half as likely as white peers to get a first",
+      "isPartOf": "urn:bhm26:dataset-stem",
+      "citation": [
+        "https://royalsociety.org/news/2021/03/stem-ethnicity-report",
+        "https://royalsociety.org/-/media/policy/Publications/2021/trends-ethnic-minorities-stem/Ethnicity-STEM-data-for-students-and-academic-staff-in-higher-education.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:st-stpath-ethnic-minority-share-of-construction-ap",
+      "name": "Ethnic minority share of construction apprenticeship starts: about 9%",
+      "isPartOf": "urn:bhm26:dataset-stem",
+      "citation": [
+        "https://explore-education-statistics.service.gov.uk/find-statistics/apprenticeships/2024-25",
+        "https://explore-education-statistics.service.gov.uk/data-catalogue/data-set/d88d482d-4235-4d83-b249-ab60110cf55f"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:st-stpath-black-engineering-graduates-of-2009-10-2",
+      "name": "Black engineering graduates of 2009/10-2013/14 had lowest full-time work rate",
+      "isPartOf": "urn:bhm26:dataset-stem",
+      "citation": [
+        "https://raeng.org.uk/media/u5mcn41w/employment-outcomes-of-engineering-graduates-report.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:st-stpath-black-representation-in-chemistry-falls-",
+      "name": "Black representation in chemistry falls from 4.9% of undergraduates",
+      "isPartOf": "urn:bhm26:dataset-stem",
+      "citation": [
+        "https://www.rsc.org/news/2022/march/new-%C2%A31-5m-unit-to-tackle-racial-inequalities-in-science",
+        "https://www.iom3.org/resource/royal-society-of-chemistry-reports-racial-inequalities-within-chemical-sciences.html"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:st-stpath-engineers-report-race-related-microaggre",
+      "name": "Engineers report race-related microaggressions and family barriers",
+      "isPartOf": "urn:bhm26:dataset-stem",
+      "citation": [
+        "https://raeng.org.uk/media/w5ndkndk/cultural-inclusivity-in-engineering-main-report-final.pdf",
+        "https://www.kcl.ac.uk/news/equality-programme-success-for-black-engineers-awarded-royal-academy-of-engineering-funding"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:st-sthistory-john-edmonstone-taught-charles-darwin-ta",
+      "name": "John Edmonstone taught Charles Darwin taxidermy in Edinburgh",
+      "isPartOf": "urn:bhm26:dataset-stem",
+      "citation": [
+        "https://nhm.ac.uk/discover/john-edmonstone-the-man-who-taught-darwin-taxidermy.html",
+        "https://www.linnean.org/the-society/news/2018/10/02/the-man-who-taught-charles-darwin-taxidermy"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:st-sthistory-andrew-watson-studied-engineering-at-gla",
+      "name": "Andrew Watson studied engineering at Glasgow before football fame",
+      "isPartOf": "urn:bhm26:dataset-stem",
+      "citation": [
+        "https://www.gla.ac.uk/myglasgow/archivespecialcollections/digitisedcollections/internationalarchives/southamerica/guyana",
+        "https://www.ice.org.uk/news-views-insights/inside-infrastructure/black-excellence-isnt-new-finding-the-uks-examples",
+        "https://www.scottishfa.co.uk/news/remembering-andrew-watson"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:st-sthistory-george-bemand-ucl-engineering-student-an",
+      "name": "George Bemand: UCL engineering student and artillery officer",
+      "isPartOf": "urn:bhm26:dataset-stem",
+      "citation": [
+        "https://dulwichcollege1914-18.co.uk/fallen/bemand-gek/",
+        "https://www.westernfrontassociation.com/remembered-on-this-day/december/26-december-1916-2nd-lt-george-edward-kingsley-bemand/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:st-sthistory-lilian-bader-qualified-among-the-first-w",
+      "name": "Lilian Bader qualified among the first WAAF instrument repairers",
+      "isPartOf": "urn:bhm26:dataset-stem",
+      "citation": [
+        "https://www.rafmuseum.org.uk/research/online-exhibitions/pilots-of-the-caribbean/heroes-and-sheroes/technician-leading-aircraftwoman-lilian-bader/",
+        "https://rafbf.org/news-and-stories/raf-history/black-history-month-lilian-bader-trailblazer-raf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:st-sthistory-riba-archives-earliest-black-member-foun",
+      "name": "RIBA archives: earliest Black member found so far elected in 1950",
+      "isPartOf": "urn:bhm26:dataset-stem",
+      "citation": [
+        "https://www.riba.org/explore/riba-collections/inside-our-collections/the-first-black-riba-member/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:st-stgov-government-science-and-engineering-over-",
+      "name": "Government Science and Engineering: over 10,000 civil servants",
+      "isPartOf": "urn:bhm26:dataset-stem",
+      "citation": [
+        "https://www.gov.uk/government/organisations/civil-service-government-science-engineering/about",
+        "https://governmentscienceandengineering.blog.gov.uk/2020/10/01/black-history-month-contributions-to-science-and-engineering/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:st-stgov-black-staff-are-3-1-of-civil-service-sci",
+      "name": "Black staff are 3.1% of Civil Service science and engineering staff",
+      "isPartOf": "urn:bhm26:dataset-stem",
+      "citation": [
+        "https://civil-service-statistics.jdac.service.cabinetoffice.gov.uk/data_browser_2025/Profession_of_post/Ethnicity/index.html",
+        "https://www.gov.uk/government/statistics/civil-service-statistics-2025/statistical-bulletin-civil-service-statistics-2025",
+        "https://governmentscienceandengineering.blog.gov.uk/2020/10/01/black-history-month-contributions-to-science-and-engineering/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:st-stgov-government-planning-profession-numbers-t",
+      "name": "Government Planning Profession: numbers too small for reliable shares",
+      "isPartOf": "urn:bhm26:dataset-stem",
+      "citation": [
+        "https://www.gov.uk/government/organisations/civil-service-the-government-planning-profession/about",
+        "https://civil-service-statistics.jdac.service.cabinetoffice.gov.uk/data_browser_2025/Profession_of_post/Ethnicity/index.html"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:st-stgov-royal-academy-of-engineering-funds-unive",
+      "name": "Royal Academy of Engineering funds university diversity projects",
+      "isPartOf": "urn:bhm26:dataset-stem",
+      "citation": [
+        "https://raeng.org.uk/programmes-and-prizes/programmes/uk-grants-and-prizes/support-for-education/diversity-impact-programme/",
+        "https://raeng.org.uk/news/academy-awards-grants-totalling-1-million-for-innovative-interventions-to-increase-diversity-and-inclusion-in-engineering/",
+        "https://www.kcl.ac.uk/news/equality-programme-success-for-black-engineers-awarded-royal-academy-of-engineering-funding"
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:bhm26:dataset-sport",
+      "name": "Sport: taking part, leading and belonging",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#culture",
+      "isPartOf": "urn:bhm26:hub"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sp-spplay-black-adults-activity-has-not-risen-in-n",
+      "name": "Black adults' activity has not risen in nine years (England)",
+      "isPartOf": "urn:bhm26:dataset-sport",
+      "citation": [
+        "https://www.sportengland.org/activelivesapril26",
+        "https://sportengland-production-files.s3.eu-west-2.amazonaws.com/s3fs-public/2026-04/Active%20Lives%20Adult%20Survey%20November%202024-25%20Report_.pdf?VersionId=eNbVPPXI6E4LS5ozt489Yr_FnGdH84zQ"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sp-spplay-mixed-heritage-adults-were-the-most-acti",
+      "name": "Mixed-heritage adults were the most active group in England, 2016 to 2022",
+      "isPartOf": "urn:bhm26:dataset-sport",
+      "citation": [
+        "https://www.ethnicity-facts-figures.service.gov.uk/health/diet-and-exercise/physical-activity/latest",
+        "https://sportengland-production-files.s3.eu-west-2.amazonaws.com/s3fs-public/2020-02/Sportforallreport.pdf?VersionId=td0pMbTNOs7caOjvMZ0HCRPwsI3jGnFA"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sp-spplay-black-asian-and-other-children-are-the-l",
+      "name": "Black, Asian and 'other' children are the least likely to be active (England)",
+      "isPartOf": "urn:bhm26:dataset-sport",
+      "citation": [
+        "https://www.activenorfolk.org/app/uploads/2025/12/Active-Lives-Children-and-Young-People-Survey-academic-year-2024-25-report_.pdf",
+        "https://www.sportengland.org/research-and-data/research/ethnicity"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sp-spplay-black-adults-and-children-are-under-repr",
+      "name": "Black adults and children are under-represented in swimming",
+      "isPartOf": "urn:bhm26:dataset-sport",
+      "citation": [
+        "https://sportengland-production-files.s3.eu-west-2.amazonaws.com/s3fs-public/2020-02/Sportforallreport.pdf?VersionId=td0pMbTNOs7caOjvMZ0HCRPwsI3jGnFA"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sp-spplay-wales-and-scotland-school-sport-by-ethni",
+      "name": "Wales and Scotland: school sport by ethnicity, and limited data",
+      "isPartOf": "urn:bhm26:dataset-sport",
+      "citation": [
+        "https://sport.wales/research/school-sport-survey/2022",
+        "https://sportscotland.org.uk/media/ygieqn0z/learning-note-race-and-sport.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sp-splead-sport-boards-15-ethnically-diverse-few-c",
+      "name": "Sport boards: 15% ethnically diverse, few chairs or CEOs",
+      "isPartOf": "urn:bhm26:dataset-sport",
+      "citation": [
+        "https://www.uksport.gov.uk/-/media/files/our-work/equality-diversity-inclusion/diversity-in-sport-governance---sport-england-and-uk-sport---november-2024.ashx",
+        "https://www.uksport.gov.uk/news/2024/12/19/diversity-in-sport-governance-report-2024"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sp-splead-football-clubs-13-of-coaches-black-asian",
+      "name": "Football clubs: 13% of coaches Black, Asian or Mixed Heritage",
+      "isPartOf": "urn:bhm26:dataset-sport",
+      "citation": [
+        "https://www.thefa.com/-/media/thefacom-new/files/rules-and-regulations/football-leadership-diversity-code/the-fa-fldc-support-report-2022-23.ashx",
+        "https://www.thefa.com/news/2023/nov/22/fldc-year-3-report",
+        "https://www.premierleague.com/news/3791315"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sp-splead-england-coaching-staff-23-in-the-men-s-g",
+      "name": "England coaching staff: 23% in the men's game, 0% in the women's game",
+      "isPartOf": "urn:bhm26:dataset-sport",
+      "citation": [
+        "https://www.thefa.com/-/media/thefacom-new/files/about-the-fa/2025/fa-equality-diversity-and-inclusion-progress-report-2025.ashx",
+        "https://www.thefa.com/news/2025/dec/02/review-of-2024-2028-edi-strategy"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sp-splead-black-former-players-fewer-reach-managem",
+      "name": "Black former players: fewer reach management, more are dismissed",
+      "isPartOf": "urn:bhm26:dataset-sport",
+      "citation": [
+        "https://www.eur.nl/en/news/black-former-players-get-fewer-chances-management",
+        "https://liverpool.ac.uk/management/blog/research/why-are-there-so-few-black-football-managers"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sp-splead-volunteering-black-adults-had-the-highes",
+      "name": "Volunteering: Black adults had the highest rate shown (England)",
+      "isPartOf": "urn:bhm26:dataset-sport",
+      "citation": [
+        "https://sportengland-production-files.s3.eu-west-2.amazonaws.com/s3fs-public/2026-04/Active%20Lives%20Adult%20Survey%20November%202024-25%20Report_.pdf?VersionId=eNbVPPXI6E4LS5ozt489Yr_FnGdH84zQ",
+        "https://www.activenorfolk.org/app/uploads/2025/12/Active-Lives-Children-and-Young-People-Survey-academic-year-2024-25-report_.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sp-spracism-arrests-and-other-police-actions-for-rac",
+      "name": "Arrests and other police actions for racist and indecent chanting rose to 33 (2024-25)",
+      "isPartOf": "urn:bhm26:dataset-sport",
+      "citation": [
+        "https://assets.publishing.service.gov.uk/media/69119a9243f8a16323729936/football-related-arrests-banning-orders-2025-tables.ods",
+        "https://www.gov.uk/government/statistics/football-related-arrests-banning-orders-202425-domestic-season/football-related-arrests-and-banning-orders-england-and-wales-2024-to-2025-domestic-football-season"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sp-spracism-race-is-the-most-common-hate-crime-incid",
+      "name": "Race is the most common hate crime incident at matches",
+      "isPartOf": "urn:bhm26:dataset-sport",
+      "citation": [
+        "https://www.gov.uk/government/statistics/football-related-arrests-banning-orders-202425-domestic-season/football-related-arrests-and-banning-orders-england-and-wales-2024-to-2025-domestic-football-season",
+        "https://www.gov.uk/government/statistics/football-related-arrests-banning-orders-202425-football-season-update/football-related-arrests-and-banning-orders-england-and-wales-2024-to-2025-football-season-international-update"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sp-spracism-kick-it-out-792-reports-of-racism-in-202",
+      "name": "Kick It Out: 792 reports of racism in 2025-26",
+      "isPartOf": "urn:bhm26:dataset-sport",
+      "citation": [
+        "https://www.kickitout.org/reporting-statistics"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sp-spracism-grassroots-football-1-147-race-related-a",
+      "name": "Grassroots football: 1,147 race-related allegations (2025-26)",
+      "isPartOf": "urn:bhm26:dataset-sport",
+      "citation": [
+        "https://www.thefa.com/-/media/thefacom-new/files/rules-and-regulations/2026-27/300926/2025-26-grassroots-behaviour-and-discipline-report.ashx",
+        "https://www.thefa.com/news/2025/dec/09/annual-discipline-review"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sp-spracism-cricket-75-of-black-respondents-reported",
+      "name": "Cricket: 75% of Black respondents reported discrimination",
+      "isPartOf": "urn:bhm26:dataset-sport",
+      "citation": [
+        "https://kvia.com/cnn-sports/2023/06/27/racism-sexism-and-class-based-discrimination-widespread-in-english-cricket-independent-report-finds/",
+        "https://www.mynewsdesk.com/uk/england-and-wales-cricket-board/pressreleases/ecb-responds-to-icec-report-on-equity-in-cricket-which-finds-evidence-of-discrimination-across-the-game-3261498",
+        "https://www.wisden.com/wisden-cricketers-almanack/the-icec-report-a-game-for-all-wisden-almanack-2024"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sp-sphistory-emma-clarke-the-first-recorded-black-wom",
+      "name": "Emma Clarke: the first recorded black woman footballer (1895)",
+      "isPartOf": "urn:bhm26:dataset-sport",
+      "citation": [
+        "https://haringey.gov.uk/leisure-parks-culture/culture/black-history-haringey-365/timeline/plaques-monuments",
+        "https://hornseyhistorical.org.uk/1895-womens-football-makes-its-official-debut-in-hornsey/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sp-sphistory-rugby-pioneers-james-peters-1906-and-cli",
+      "name": "Rugby pioneers: James Peters (1906) and Clive Sullivan (1972)",
+      "isPartOf": "urn:bhm26:dataset-sport",
+      "citation": [
+        "https://englandrugby.com/follow/news-and-media/jimmy-peters-england-rugbys-black-pioneer",
+        "https://biography.wales/article/s12-SULL-CLI-1943",
+        "https://www.rugby-league.com/article/23664/the-black-pioneers-of-rugby-league"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sp-sphistory-harry-edward-britain-s-first-black-olymp",
+      "name": "Harry Edward: Britain's first Black Olympic medallist (1920)",
+      "isPartOf": "urn:bhm26:dataset-sport",
+      "citation": [
+        "https://www.teamgb.com/article/black-history-month-the-story-of-harry-edward/5hpMtVOaZq5BA01zVGTCvL",
+        "https://dcms.shorthandstories.com/harry-edward-britain-s-first-black-olympian/index.html"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sp-sphistory-jack-leslie-called-up-for-england-in-192",
+      "name": "Jack Leslie: called up for England in 1925, then dropped",
+      "isPartOf": "urn:bhm26:dataset-sport",
+      "citation": [
+        "https://www.thefa.com/news/2025/may/21/jack-leslie-blue-plaque-unveiled-20252105",
+        "https://www.pafc.co.uk/news/blue-plaque-unveiled-honour-argyle-legend-jack-leslie"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sp-sphistory-learie-constantine-cricketer-and-britain",
+      "name": "Learie Constantine: cricketer and Britain's first black peer",
+      "isPartOf": "urn:bhm26:dataset-sport",
+      "citation": [
+        "https://english-heritage.org.uk/visit/blue-plaques/learie-constantine",
+        "https://www.innertemple.org.uk/?p=55384"
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:bhm26:dataset-services",
+      "name": "Uniformed and frontline public services",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#represent",
+      "isPartOf": "urn:bhm26:hub"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sv-svfire-black-firefighters-1-4-of-firefighters-i",
+      "name": "Black firefighters: 1.4% of firefighters in England, 2024",
+      "isPartOf": "urn:bhm26:dataset-services",
+      "citation": [
+        "https://www.ethnicity-facts-figures.service.gov.uk/workforce-and-business/workforce-diversity/fire-and-rescue-services-workforce/latest",
+        "https://www.gov.uk/government/statistics/fire-workforce-and-pension-statistics-year-ending-march-2025/fire-and-rescue-workforce-and-pensions-statistics-england-year-ending-march-2025"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sv-svfire-wholetime-crews-more-diverse-than-on-cal",
+      "name": "Wholetime crews more diverse than on-call crews, 2025",
+      "isPartOf": "urn:bhm26:dataset-services",
+      "citation": [
+        "https://www.gov.uk/government/statistics/fire-workforce-and-pension-statistics-year-ending-march-2025/fire-and-rescue-workforce-and-pensions-statistics-england-year-ending-march-2025",
+        "https://assets.publishing.service.gov.uk/media/692980212a37784b16ecf6db/FIRE1104.xlsx"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sv-svfire-senior-fire-ranks-remain-less-diverse-th",
+      "name": "Senior fire ranks remain less diverse than the frontline, 2025",
+      "isPartOf": "urn:bhm26:dataset-services",
+      "citation": [
+        "https://www.gov.uk/government/statistics/fire-workforce-and-pension-statistics-year-ending-march-2025/fire-and-rescue-workforce-and-pensions-statistics-england-year-ending-march-2025",
+        "https://assets.publishing.service.gov.uk/media/692980212a37784b16ecf6db/FIRE1104.xlsx"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sv-svfire-inspectorate-found-racism-in-at-least-11",
+      "name": "Inspectorate found racism in at least 11 services, 2023",
+      "isPartOf": "urn:bhm26:dataset-services",
+      "citation": [
+        "https://hmicfrs.justiceinspectorates.gov.uk/publication-html/values-and-culture-in-fire-and-rescue-services/",
+        "https://www.ethnicity-facts-figures.service.gov.uk/workforce-and-business/workforce-diversity/fire-and-rescue-services-workforce/latest"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sv-svfire-london-fire-brigade-institutionally-miso",
+      "name": "London Fire Brigade: 'institutionally misogynist and racist', 2022",
+      "isPartOf": "urn:bhm26:dataset-services",
+      "citation": [
+        "https://www.london-fire.gov.uk/about-us/improving-our-workplace-culture/independent-culture-review/",
+        "https://www.thefpa.co.uk/news/damning-workplace-culture-report-reveals-severe-shortcomings-at-london-fire-brigade"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sv-svjustice-7-9-of-prison-and-probation-staff-are-bl",
+      "name": "7.9% of prison and probation staff are Black, 2025",
+      "isPartOf": "urn:bhm26:dataset-services",
+      "citation": [
+        "https://www.gov.uk/government/statistics/hm-prison-probation-service-staff-equalities-report-2024-2025/hm-prison-and-probation-service-annual-staff-equalities-report-2024-to-2025",
+        "https://www.gov.uk/government/statistics/hm-prison-probation-service-workforce-quarterly-june-2026/recruitment-diversity-statistics-june-2026"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sv-svjustice-black-prison-officers-from-2-6-to-4-4-20",
+      "name": "Black prison officers: from 2.6% to 4.4%, 2017 to 2023",
+      "isPartOf": "urn:bhm26:dataset-services",
+      "citation": [
+        "https://www.ethnicity-facts-figures.service.gov.uk/workforce-and-business/workforce-diversity/prison-officer-workforce/latest",
+        "https://www.gov.uk/government/statistics/hm-prison-probation-service-staff-equalities-report-2024-2025/hm-prison-and-probation-service-annual-staff-equalities-report-2024-to-2025"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sv-svjustice-black-applicants-40-3-of-applications-18",
+      "name": "Black applicants: 40.3% of applications, 18.4% of accepted offers",
+      "isPartOf": "urn:bhm26:dataset-services",
+      "citation": [
+        "https://www.gov.uk/government/statistics/hm-prison-probation-service-workforce-quarterly-june-2026/recruitment-diversity-statistics-june-2026"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sv-svjustice-youth-custody-staff-30-5-from-ethnic-min",
+      "name": "Youth custody staff: 30.5% from ethnic minorities, 2026",
+      "isPartOf": "urn:bhm26:dataset-services",
+      "citation": [
+        "https://www.gov.uk/government/statistics/hm-prison-probation-service-workforce-quarterly-june-2026/recruitment-diversity-statistics-june-2026",
+        "https://assets.publishing.service.gov.uk/media/6a7f07803bd75b81e2329a1a/hmpps-workforce-statistics-tables-jun-2026_final.ods"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sv-svjustice-higher-discipline-rates-lower-bonus-rate",
+      "name": "Higher discipline rates, lower bonus rates for ethnic minority staff",
+      "isPartOf": "urn:bhm26:dataset-services",
+      "citation": [
+        "https://www.gov.uk/government/statistics/hm-prison-probation-service-staff-equalities-report-2024-2025/hm-prison-and-probation-service-annual-staff-equalities-report-2024-to-2025"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sv-svjustice-probation-inspectors-45-of-minority-ethn",
+      "name": "Probation inspectors: 45% of minority ethnic staff do not feel safe raising race concerns, 2023",
+      "isPartOf": "urn:bhm26:dataset-services",
+      "citation": [
+        "https://cdn.websitebuilder.service.justice.gov.uk/uploads/sites/32/2023/09/Race-Equality-in-Probation-A-work-in-progress.pdf",
+        "https://hmiprobation.justiceinspectorates.gov.uk/news/race-equality-in-probation-remains-a-work-in-progress"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sv-svother-ambulance-staff-4-2-from-ethnic-minoriti",
+      "name": "Ambulance staff: 4.2% from ethnic minorities, 2022",
+      "isPartOf": "urn:bhm26:dataset-services",
+      "citation": [
+        "https://www.ethnicity-facts-figures.service.gov.uk/workforce-and-business/workforce-diversity/nhs-workforce/latest",
+        "https://www.england.nhs.uk/wp-content/uploads/2025/06/Workforce-Race-Equality-Standard-2024-data-analysis-report.docx"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sv-svother-black-nhs-staff-least-likely-to-see-fair",
+      "name": "Black NHS staff least likely to see fair progression",
+      "isPartOf": "urn:bhm26:dataset-services",
+      "citation": [
+        "https://www.england.nhs.uk/wp-content/uploads/2025/06/Workforce-Race-Equality-Standard-2024-data-analysis-report.docx",
+        "https://www.england.nhs.uk/long-read/nhs-workforce-race-equality-standard-wres-2024-data-analysis-report-for-nhs-trusts/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sv-svother-pcsos-and-special-constables-more-divers",
+      "name": "PCSOs and special constables more diverse than officers, 2026",
+      "isPartOf": "urn:bhm26:dataset-services",
+      "citation": [
+        "https://www.gov.uk/government/statistics/police-workforce-england-and-wales-31-march-2026/police-workforce-england-and-wales-31-march-2026",
+        "https://www.gov.uk/government/statistics/police-workforce-england-and-wales-31-march-2025/police-workforce-england-and-wales-31-march-2025"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sv-svother-home-office-including-border-force-6-2-b",
+      "name": "Home Office, including Border Force: 6.2% Black staff, 2025",
+      "isPartOf": "urn:bhm26:dataset-services",
+      "citation": [
+        "https://www.gov.uk/government/statistics/home-office-workforce-diversity-statistics-2024-to-2025/home-office-workforce-diversity-statistics-2024-to-2025",
+        "https://www.gov.uk/government/statistics/home-office-workforce-diversity-statistics-2023-to-2024/home-office-workforce-diversity-statistics-2023-to-2024"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sv-svother-armed-forces-reserves-7-0-from-ethnic-mi",
+      "name": "Armed forces reserves: 7.0% from ethnic minorities, 2026",
+      "isPartOf": "urn:bhm26:dataset-services",
+      "citation": [
+        "https://www.gov.uk/government/statistics/uk-armed-forces-biannual-diversity-statistics-april-2026/uk-armed-forces-biannual-diversity-statistics-april-2026",
+        "https://www.gov.uk/government/statistics/uk-armed-forces-biannual-diversity-statistics-april-2025/uk-armed-forces-biannual-diversity-statistics-april-2025"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sv-svhistory-west-india-regiments-raised-1795-partly-",
+      "name": "West India Regiments: raised 1795, partly from enslaved men",
+      "isPartOf": "urn:bhm26:dataset-services",
+      "citation": [
+        "https://www.nam.ac.uk/explore/west-india-regiments",
+        "https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/caribbean-ancestors-an-overview/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sv-svhistory-british-west-indies-regiment-15-600-men-",
+      "name": "British West Indies Regiment: 15,600 men, 1915 to 1918",
+      "isPartOf": "urn:bhm26:dataset-services",
+      "citation": [
+        "https://www.iwm.org.uk/history/how-the-west-indies-helped-the-war-effort-in-the-first-world-war",
+        "https://www.iwm.org.uk/history/first-world-war/participation/british-west-indies-regiment"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sv-svhistory-taranto-december-1918-protest-against-un",
+      "name": "Taranto, December 1918: protest against unequal treatment",
+      "isPartOf": "urn:bhm26:dataset-services",
+      "citation": [
+        "https://www.iwm.org.uk/history/first-world-war/participation/black-british-soldiers",
+        "https://research.gold.ac.uk/25273"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sv-svhistory-caribbean-and-african-aircrew-in-the-raf",
+      "name": "Caribbean and African aircrew in the RAF: about 450 flew, over 150 killed",
+      "isPartOf": "urn:bhm26:dataset-services",
+      "citation": [
+        "https://www.rafmuseum.org.uk/research/online-exhibitions/pilots-of-the-caribbean/across-the-commands/the-second-world-war-1939-to-1945-the-record",
+        "https://www.rafmuseum.org.uk/blog/the-empire-windrush/",
+        "https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/caribbean-ancestors-an-overview/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sv-svhistory-blitz-firefighters-george-arthur-roberts",
+      "name": "Blitz firefighters: George Arthur Roberts and Black 'front liners'",
+      "isPartOf": "urn:bhm26:dataset-services",
+      "citation": [
+        "https://www.london-fire.gov.uk/museum/london-fire-brigade-history-and-stories/trailblazers/george-arthur-roberts-bem",
+        "https://www.southwarknews.co.uk/news/blue-plaque-first-black-man-serve-army-fire-brigade-camberwell/",
+        "https://www.london-fire.gov.uk/museum/london-fire-brigade-history-and-stories/black-front-liners-and-fire-service-personnel-during-the-london-blitz"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:sv-svhistory-early-black-and-mixed-heritage-police-of",
+      "name": "Early Black and mixed-heritage police officers: 1835 to 1968",
+      "isPartOf": "urn:bhm26:dataset-services",
+      "citation": [
+        "https://polfed.org/news/latest-news/2021/remembering-britains-first-black-police-officer/",
+        "https://www.voice-online.co.uk/news/uk-news/2019/10/28/britains-first-black-police-officer-honoured-with-blue-plaque/",
+        "https://jeffreygreen.co.uk/173-robert-branford-1817-1869-london-police-superintendent/",
+        "https://www.bbc.co.uk/news/uk-england-london-57742700",
+        "https://policeprofessional.com/news/uks-first-black-female-police-officer-dies-aged-83/"
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:bhm26:dataset-society",
+      "name": "Intersections: age, disability, sexual orientation and gender identity",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#lives",
+      "isPartOf": "urn:bhm26:hub"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:so-soold-mixed-heritage-groups-are-the-youngest-f",
+      "name": "Mixed-heritage groups are the youngest; few are aged 65 or over",
+      "isPartOf": "urn:bhm26:dataset-society",
+      "citation": [
+        "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/articles/ethnicgroupbyageandsexenglandandwales/census2021",
+        "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/demographics/age-groups/latest/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:so-soold-the-windrush-generation-is-now-in-later-",
+      "name": "The Windrush generation is now in later life",
+      "isPartOf": "urn:bhm26:dataset-society",
+      "citation": [
+        "https://www.nao.org.uk/wp-content/uploads/2021/05/Investigation-into-the-Windrush-compensation-scheme-.pdf",
+        "https://www.ageuk.org.uk/siteassets/documents/reports-and-publications/reports-and-briefings/equality-and-human-rights/id205516-windrush-compensation-report_final.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:so-soold-black-pensioners-more-than-twice-the-whi",
+      "name": "Black pensioners: more than twice the White rate of low income",
+      "isPartOf": "urn:bhm26:dataset-society",
+      "citation": [
+        "https://www.gov.uk/government/statistics/households-below-average-income-for-financial-years-ending-1995-to-2025",
+        "https://www.ageuk.org.uk/globalassets/age-uk/documents/reports-and-publications/reports-and-briefings/money-matters/ethincity_and_financial_disadvantge_in_later_life_may_2021.pdf",
+        "https://www.ageuk.org.uk/discover/2021/october/poverty-and-low-income-among-black-older-people/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:so-soold-unpaid-care-similar-rates-for-black-cari",
+      "name": "Unpaid care: similar rates for Black Caribbean and White British women",
+      "isPartOf": "urn:bhm26:dataset-society",
+      "citation": [
+        "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/socialcare/articles/unpaidcareandprotectedcharacteristicsenglandandwales/census2021",
+        "https://www.carersuk.org/briefings/the-experiences-of-ethnic-minority-carers-updated-briefing/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:so-soold-black-workers-are-23-of-the-adult-social",
+      "name": "Black workers are 23% of the adult social care workforce",
+      "isPartOf": "urn:bhm26:dataset-society",
+      "citation": [
+        "https://www.skillsforcare.org.uk/Adult-Social-Care-Workforce-Data/workforceintelligence/resources/Reports/National/The-state-of-the-adult-social-care-sector-and-workforce-in-England-2026.pdf",
+        "https://www.ethnicity-facts-figures.service.gov.uk/health/social-care/adult-social-care-long-term-support/latest",
+        "https://skillsforcare-newsroom.prgloo.com/news/new-skills-for-care-report-highlights-inequity-faced-by-people-from-global-majority-colleagues-working-in-social-care"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:so-soold-dementia-higher-diagnosis-rates-and-youn",
+      "name": "Dementia: higher diagnosis rates and younger deaths",
+      "isPartOf": "urn:bhm26:dataset-society",
+      "citation": [
+        "https://www.dovepress.com/trends-in-dementia-diagnosis-rates-in-uk-ethnic-groups-analysis-of-uk--peer-reviewed-article-CLEP",
+        "https://doi.org/10.1002/alz.12774",
+        "https://www.alzheimers.org.uk/blog/improving-dementia-support-black-communities"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:so-sodis-within-each-age-group-black-african-peop",
+      "name": "Within each age group, Black African people report less disability",
+      "isPartOf": "urn:bhm26:dataset-society",
+      "citation": [
+        "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/disability/articles/protectedcharacteristicsbydisabilitystatusenglandandwalescensus2021/latest",
+        "https://www.gov.uk/government/statistics/the-employment-of-disabled-people-2025"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:so-sodis-disabled-black-adults-52-8-in-work",
+      "name": "Disabled Black adults: 52.8% in work",
+      "isPartOf": "urn:bhm26:dataset-society",
+      "citation": [
+        "https://www.gov.uk/government/statistics/the-employment-of-disabled-people-2025/the-employment-of-disabled-people-2025"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:so-sodis-disability-benefits-by-ethnicity-no-ethn",
+      "name": "Disability benefits by ethnicity; no ethnicity data for Access to Work",
+      "isPartOf": "urn:bhm26:dataset-society",
+      "citation": [
+        "https://www.gov.uk/government/statistics/family-resources-survey-financial-year-2024-to-2025",
+        "https://www.gov.uk/government/statistics/access-to-work-statistics-april-2007-to-march-2025/access-to-work-statistics-april-2007-to-march-2025"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:so-sodis-about-17-000-people-in-england-live-with",
+      "name": "About 17,000 people in England live with sickle cell disease",
+      "isPartOf": "urn:bhm26:dataset-society",
+      "citation": [
+        "https://www.gov.uk/government/news/sickle-cell-patients-to-get-better-treatment-after-9m-boost",
+        "https://hssib.org.uk/patient-safety-investigations/management-of-sickle-cell-crisis/investigation-report"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:so-sodis-the-nhs-response-training-funding-and-a-",
+      "name": "The NHS response: training, funding and a new gene therapy",
+      "isPartOf": "urn:bhm26:dataset-society",
+      "citation": [
+        "https://hssib.org.uk/patient-safety-investigations/management-of-sickle-cell-crisis/investigation-report",
+        "https://www.nice.org.uk/guidance/ta1044",
+        "https://www.gov.uk/government/news/sickle-cell-patients-to-get-better-treatment-after-9m-boost"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:so-solgbt-sexual-orientation-by-ethnic-group-at-ce",
+      "name": "Sexual orientation by ethnic group at Census 2021",
+      "isPartOf": "urn:bhm26:dataset-society",
+      "citation": [
+        "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/sexuality/articles/sexualorientationfurtherpersonalcharacteristicsenglandandwales/census2021",
+        "https://www.ons.gov.uk/visualisations/dvc2745/Fig06/datadownload.xlsx"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:so-solgbt-gender-identity-by-ethnicity-figures-to-",
+      "name": "Gender identity by ethnicity: figures to treat with great caution",
+      "isPartOf": "urn:bhm26:dataset-society",
+      "citation": [
+        "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/genderidentity/articles/qualityofcensus2021genderidentitydata/2023-11-13",
+        "https://osr.statisticsauthority.gov.uk/wp-content/uploads/2024/09/Ed_Humperson_Emma_Rourke_Conclusions_of_OSRs_review_of_gender_identity-_estimates_for_England_and_Wales_from_C.pdf",
+        "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/sexuality/methodologies/sexualorientationandgenderidentityqualityinformationforcensus2021"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:so-solgbt-racism-in-lgbt-spaces-and-pressure-to-ch",
+      "name": "Racism in LGBT spaces and pressure to change",
+      "isPartOf": "urn:bhm26:dataset-society",
+      "citation": [
+        "https://www.stonewall.org.uk/resources/lgbt-britain-home-and-communities-2018",
+        "https://assets.publishing.service.gov.uk/media/5b3b2d1eed915d33e245fbe3/LGBT-survey-research-report.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:so-solgbt-hate-crime-no-official-count-where-race-",
+      "name": "Hate crime: no official count where race and sexuality meet",
+      "isPartOf": "urn:bhm26:dataset-society",
+      "citation": [
+        "https://www.gov.uk/government/statistics/hate-crime-england-and-wales-year-ending-march-2026/hate-crime-england-and-wales-year-ending-march-2026",
+        "https://www.stonewall.org.uk/uploads/files/lgbt_in_britain_hate_crime.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:so-solgbt-uk-black-pride-at-20",
+      "name": "UK Black Pride at 20",
+      "isPartOf": "urn:bhm26:dataset-society",
+      "citation": [
+        "https://londonmuseum.org.uk/collections/london-stories/lady-phyll-activist-co-founder-of-uk-black-pride",
+        "https://queerbritain.org.uk/history-2025-uk-black-pride",
+        "https://www.ukblackpride.org.uk/history"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:so-solgbt-health-poorer-mental-health-and-gaps-in-",
+      "name": "Health: poorer mental health and gaps in HIV prevention",
+      "isPartOf": "urn:bhm26:dataset-society",
+      "citation": [
+        "https://www.stonewall.org.uk/resources/lgbt-britain-health-2018",
+        "https://www.gov.uk/government/statistics/hiv-annual-data/hiv-testing-prep-new-hiv-diagnoses-and-care-outcomes-for-people-accessing-hiv-services-2025-report",
+        "https://www.gov.uk/government/publications/roadmap-for-meeting-the-prep-needs-of-those-at-significant-risk-of-hiv/roadmap-for-meeting-the-prep-needs-of-those-at-significant-risk-of-hiv"
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:bhm26:dataset-place",
+      "name": "Place: the four nations and the regions",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#lives",
+      "isPartOf": "urn:bhm26:hub"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pl-plengland-outside-london-and-the-west-midlands-reg",
+      "name": "Outside London and the West Midlands, regions are under 3% Black",
+      "isPartOf": "urn:bhm26:dataset-place",
+      "citation": [
+        "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/bulletins/ethnicgroupenglandandwales/census2021",
+        "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/national-and-regional-populations/regional-ethnic-diversity/latest/",
+        "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/national-and-regional-populations/regional-ethnic-diversity/latest/downloads/areas-of-england-and-wales-by-ethnicity-table.csv"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pl-plengland-lewisham-southwark-and-lambeth-have-the-",
+      "name": "Lewisham, Southwark and Lambeth have the highest Black shares",
+      "isPartOf": "urn:bhm26:dataset-place",
+      "citation": [
+        "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/national-and-regional-populations/regional-ethnic-diversity/latest/downloads/population-by-ethnicity-and-local-authority-2021.csv",
+        "https://www.southwark.gov.uk/sites/default/files/2025-02/census_2021_profile_-_ethnicity_identity_language_and_religion.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pl-plengland-black-shares-grew-in-birmingham-manchest",
+      "name": "Black shares grew in Birmingham, Manchester, Leicester and Newcastle",
+      "isPartOf": "urn:bhm26:dataset-place",
+      "citation": [
+        "https://www.ons.gov.uk/visualisations/censusareachanges/E08000025/",
+        "https://www.ons.gov.uk/visualisations/censusareachanges/E08000003/",
+        "https://www.ons.gov.uk/visualisations/censusareachanges/E06000016/",
+        "https://www.ons.gov.uk/visualisations/censusareachanges/E08000021/",
+        "https://www.greatermanchester-ca.gov.uk/media/8179/census-2021-briefing_ethnicity_final-v6.pdf",
+        "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/national-and-regional-populations/regional-ethnic-diversity/latest/downloads/population-by-ethnicity-and-local-authority-2021.csv"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pl-plengland-fewer-than-1-in-100-people-in-rural-engl",
+      "name": "Fewer than 1 in 100 people in rural England are Black",
+      "isPartOf": "urn:bhm26:dataset-place",
+      "citation": [
+        "https://assets.publishing.service.gov.uk/media/6966372399fbdc498faecd7c/1_Population_14_01_26.odt",
+        "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/national-and-regional-populations/regional-ethnic-diversity/latest/downloads/population-by-ethnicity-and-local-authority-2021.csv"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pl-plengland-liverpool-s-black-community-dates-back-t",
+      "name": "Liverpool's Black community dates back to the 18th century",
+      "isPartOf": "urn:bhm26:dataset-place",
+      "citation": [
+        "https://images.liverpoolmuseums.org.uk/2020-01/Liverpool-Black-community-trail.pdf",
+        "https://www.heritagefund.org.uk/projects/l8-untold",
+        "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/national-and-regional-populations/regional-ethnic-diversity/latest/downloads/population-by-ethnicity-and-local-authority-2021.csv"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pl-plengland-bristol-s-african-caribbean-community-an",
+      "name": "Bristol's African Caribbean community and St Pauls",
+      "isPartOf": "urn:bhm26:dataset-place",
+      "citation": [
+        "https://www.ons.gov.uk/visualisations/censusareachanges/E06000023/",
+        "https://bristol.ac.uk/city/explore-bristol/old-market-and-st-pauls",
+        "https://www.discoveringbristol.org.uk/slavery/after-slavery/bristol-in-black-and-white/african-caribbean-bristol/19th-century-to-date/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pl-plwales-28-000-people-in-wales-identified-as-bla",
+      "name": "28,000 people in Wales identified as Black in 2021",
+      "isPartOf": "urn:bhm26:dataset-place",
+      "citation": [
+        "https://www.gov.wales/ethnic-group-national-identity-language-and-religion-wales-census-2021-html",
+        "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/bulletins/ethnicgroupenglandandwales/census2021",
+        "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/national-and-regional-populations/regional-ethnic-diversity/latest/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pl-plwales-cardiff-has-the-highest-black-share-in-w",
+      "name": "Cardiff has the highest Black share in Wales, at 3.8%",
+      "isPartOf": "urn:bhm26:dataset-place",
+      "citation": [
+        "https://www.gov.wales/ethnic-group-national-identity-language-and-religion-wales-census-2021-html",
+        "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/national-and-regional-populations/regional-ethnic-diversity/latest/downloads/population-by-ethnicity-and-local-authority-2021.csv"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pl-plwales-black-welsh-was-a-new-census-option-in-w",
+      "name": "'Black Welsh' was a new census option in Wales in 2021",
+      "isPartOf": "urn:bhm26:dataset-place",
+      "citation": [
+        "https://www.gov.wales/ethnic-group-national-identity-language-and-religion-wales-census-2021-html",
+        "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/bulletins/ethnicgroupenglandandwales/census2021"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pl-plwales-the-anti-racist-wales-action-plan-sets-a",
+      "name": "The Anti-racist Wales Action Plan sets a goal for 2030",
+      "isPartOf": "urn:bhm26:dataset-place",
+      "citation": [
+        "https://www.gov.wales/introduction-anti-racist-wales-html",
+        "https://www.gov.wales/anti-racist-wales-action-plan-2024-update-html",
+        "https://democratic.bridgend.gov.uk/documents/s33772/ARWAP%20report%20Nov%2024.pdf?LLL=0"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pl-plwales-a-senedd-committee-found-gaps-in-how-the",
+      "name": "A Senedd committee found gaps in how the plan is delivered",
+      "isPartOf": "urn:bhm26:dataset-place",
+      "citation": [
+        "https://research.senedd.wales/research-articles/the-path-to-an-anti-racist-wales-closing-the-implementation-gap/",
+        "https://democratic.bridgend.gov.uk/documents/s33772/ARWAP%20report%20Nov%2024.pdf?LLL=0"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pl-plwales-tiger-bay-in-cardiff-is-wales-oldest-mul",
+      "name": "Tiger Bay in Cardiff is Wales' oldest multi-ethnic community",
+      "isPartOf": "urn:bhm26:dataset-place",
+      "citation": [
+        "https://coflein.gov.uk/en/site/420177",
+        "https://www.peoplescollection.wales/items/728376",
+        "https://peoplescollection.wales/collections/1543631"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pl-plscot-about-65-400-people-in-scotland-were-afr",
+      "name": "About 65,400 people in Scotland were African, Caribbean or Black",
+      "isPartOf": "urn:bhm26:dataset-place",
+      "citation": [
+        "https://www.scotlandscensus.gov.uk/2022-results/scotland-s-census-2022-ethnic-group-national-identity-language-and-religion/",
+        "https://www.crer.org.uk/blog/census-2022-bme-population"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pl-plscot-scotland-s-census-uses-different-black-e",
+      "name": "Scotland's census uses different Black ethnic group names",
+      "isPartOf": "urn:bhm26:dataset-place",
+      "citation": [
+        "https://www.scotlandscensus.gov.uk/2022-results/scotland-s-census-2022-ethnic-group-national-identity-language-and-religion/",
+        "https://scotpho.org.uk/population-groups/ethnic-minorities/data/population-composition"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pl-plscot-african-people-are-the-largest-non-white",
+      "name": "African people are the largest ‘non-white’ group in Aberdeen",
+      "isPartOf": "urn:bhm26:dataset-place",
+      "citation": [
+        "https://www.understandingglasgow.com/glasgow-indicators/population/ethnicity/scottish-cities",
+        "https://www.understandingglasgow.com/glasgow-indicators/population/ethnicity/trends",
+        "https://scotpho.org.uk/population-groups/ethnic-minorities/data/population-composition"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pl-plscot-the-race-equality-framework-sets-scotlan",
+      "name": "The Race Equality Framework sets Scotland's race equality aims to 2030",
+      "isPartOf": "urn:bhm26:dataset-place",
+      "citation": [
+        "https://dera.ioe.ac.uk/id/eprint/25928/1/00497601.pdf",
+        "https://www.parliament.scot/chamber-and-committees/committees/committee-reports/ehric/2020/11/15/ehrics052020r3/introduction",
+        "https://www.legislation.gov.uk/ukpga/2010/15/section/217"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pl-plscot-an-anti-racism-observatory-for-scotland-",
+      "name": "An Anti-Racism Observatory for Scotland is being set up",
+      "isPartOf": "urn:bhm26:dataset-place",
+      "citation": [
+        "https://blogs.gov.scot/public-procurement/2024/07/11/anti-racism-observatory-for-scotland/",
+        "https://www.strath.ac.uk/whystrathclyde/news/2025/universityofstrathclydeandcrertohostnewbodytotacklesystemicracisminthepublicsector/",
+        "https://www.crer.org.uk/anti-racism-observatory-for-scotland"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pl-plscot-scotland-s-economy-was-tied-to-empire-an",
+      "name": "Scotland's economy was tied to empire and slavery for two centuries",
+      "isPartOf": "urn:bhm26:dataset-place",
+      "citation": [
+        "https://www.museumsgalleriesscotland.org.uk/wp-content/uploads/2023/01/empire-slavery-and-scotlands-museums-recommendations-1.pdf",
+        "https://www.museumsgalleriesscotland.org.uk/projects/empire-slavery-scotlands-museums/",
+        "https://nrscotland.gov.uk/learning-and-events/slavery-and-scotland/the-joseph-knight-case"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pl-plni-about-11-000-people-in-northern-ireland-",
+      "name": "About 11,000 people in Northern Ireland were Black in 2021",
+      "isPartOf": "urn:bhm26:dataset-place",
+      "citation": [
+        "https://www.nisra.gov.uk/system/files/statistics/census-2021-main-statistics-for-northern-ireland-phase-1-statistical-bulletin-ethnic-group.pdf",
+        "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-b01.xlsx",
+        "https://minutes.belfastcity.gov.uk/mgConvert2PDF.aspx?ID=125884"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pl-plni-belfast-and-mid-ulster-have-the-highest-",
+      "name": "Belfast and Mid Ulster have the highest Black shares",
+      "isPartOf": "urn:bhm26:dataset-place",
+      "citation": [
+        "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-b01.xlsx",
+        "https://minutes.belfastcity.gov.uk/mgConvert2PDF.aspx?ID=125884"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pl-plni-the-racial-equality-strategy-2015-2025-s",
+      "name": "The Racial Equality Strategy 2015-2025 set seven shared aims",
+      "isPartOf": "urn:bhm26:dataset-place",
+      "citation": [
+        "https://www.executiveoffice-ni.gov.uk/sites/default/files/publications/ofmdfm/racial-equality-strategy-2015-2025.pdf",
+        "https://www.executiveoffice-ni.gov.uk/sites/default/files/2024-12/teo-response-to-the-final-report-of-the-independent-review-of-progress-on-implementation-of-the-racial-equality-strategy.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pl-plni-a-2024-review-found-the-strategy-lacked-",
+      "name": "A 2024 review found the strategy lacked an action plan",
+      "isPartOf": "urn:bhm26:dataset-place",
+      "citation": [
+        "https://www.executiveoffice-ni.gov.uk/sites/default/files/2024-12/independent-review-of-the-progress-on-the-implementation-of-the-racial.PDF",
+        "https://www.executiveoffice-ni.gov.uk/sites/default/files/2024-12/teo-response-to-the-final-report-of-the-independent-review-of-progress-on-implementation-of-the-racial-equality-strategy.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pl-plni-section-75-differs-from-the-public-secto",
+      "name": "Section 75 differs from the public sector equality duty",
+      "isPartOf": "urn:bhm26:dataset-place",
+      "citation": [
+        "https://www.legislation.gov.uk/ukpga/1998/47/section/75",
+        "https://www.legislation.gov.uk/ukpga/2010/15/section/217",
+        "https://www.executiveoffice-ni.gov.uk/sites/default/files/publications/ofmdfm/racial-equality-strategy-2015-2025.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pl-plni-recorded-race-hate-in-northern-ireland-r",
+      "name": "Recorded race hate in Northern Ireland reached record levels",
+      "isPartOf": "urn:bhm26:dataset-place",
+      "citation": [
+        "https://www.nisra.gov.uk/news/increased-levels-race-hate-incidents-recorded-police",
+        "https://www.nisra.gov.uk/news/police-recorded-over-2500-race-hate-incidents"
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:bhm26:dataset-worldpolicy",
+      "name": "What other governments do",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#diaspora",
+      "isPartOf": "urn:bhm26:hub"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:wp-wplatam-brazil-s-2010-racial-equality-statute-de",
+      "name": "Brazil's 2010 racial equality statute defines who counts as Black",
+      "isPartOf": "urn:bhm26:dataset-worldpolicy",
+      "citation": [
+        "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12288.htm",
+        "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14553.htm",
+        "https://www12.senado.leg.br/noticias/materias/2023/04/24/lei-determina-inclusao-de-dados-sobre-raca-em-documentos-trabalhistas",
+        "https://periodicos.ufes.br/abepss/article/view/22688/15170"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:wp-wplatam-brazil-reserves-half-of-federal-universi",
+      "name": "Brazil reserves half of federal university places, with racial shares",
+      "isPartOf": "urn:bhm26:dataset-worldpolicy",
+      "citation": [
+        "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12711.htm",
+        "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14723.htm",
+        "https://www12.senado.leg.br/noticias/materias/2023/11/14/sancionada-ampliacao-da-lei-de-cotas",
+        "https://noticias.stf.jus.br/postsnoticias/stf-julga-constitucional-politica-de-cotas-na-unb/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:wp-wplatam-brazil-30-of-federal-recruitment-places-",
+      "name": "Brazil: 30% of federal recruitment places reserved by quota law",
+      "isPartOf": "urn:bhm26:dataset-worldpolicy",
+      "citation": [
+        "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15142.htm",
+        "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12990.htm",
+        "https://www12.senado.leg.br/radio/1/noticia/2025/06/06/sancionada-lei-que-retoma-e-amplia-cotas-raciais-em-concursos-publicos-federais",
+        "https://noticias.stf.jus.br/postsnoticias/stf-mantem-decisao-que-prorrogou-lei-de-cotas-raciais-em-concursos-publicos/",
+        "https://www.gov.uk/government/publications/positive-action-in-the-workplace-guidance-for-employers/positive-action-in-the-workplace"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:wp-wplatam-brazil-treats-racism-as-a-crime-with-no-",
+      "name": "Brazil treats racism as a crime with no time limit on prosecution",
+      "isPartOf": "urn:bhm26:dataset-worldpolicy",
+      "citation": [
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14532.htm",
+        "https://www12.senado.leg.br/ril/edicoes/62/245/ril_v62_n245_p181.pdf",
+        "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=475646"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:wp-wplatam-colombia-reserves-two-seats-in-its-lower",
+      "name": "Colombia reserves two seats in its lower house for Afro-descendants",
+      "isPartOf": "urn:bhm26:dataset-worldpolicy",
+      "citation": [
+        "https://www.secretariasenado.gov.co/senado/basedoc/constitucion_politica_1991_pr005.html",
+        "https://revistas.registraduria.gov.co/index.php/democracia/article/download/51/38/44"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:wp-wplatam-colombia-s-equality-ministry-lost-its-le",
+      "name": "Colombia's equality ministry lost its legal basis in June 2026",
+      "isPartOf": "urn:bhm26:dataset-worldpolicy",
+      "citation": [
+        "https://www.secretariasenado.gov.co/senado/basedoc/ley_2281_2023.html",
+        "https://sidn.ramajudicial.gov.co/SIDN/NORMATIVA/TEXTOS_COMPLETOS/97_JURISPRUDENCIA_RELACIONADA/C-161-24.RTF",
+        "https://sidn.ramajudicial.gov.co/SIDN//NORMATIVA/TEXTOS_COMPLETOS/5_DECRETOS/DECRETOS%202026/Decreto%200627%20de%202026.pdf",
+        "https://sidn.ramajudicial.gov.co/SIDN//NORMATIVA/TEXTOS_COMPLETOS/5_DECRETOS/DECRETOS%202026/Decreto%200626%20de%202026.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:wp-wplatam-uruguay-sets-an-8-public-job-quota-for-a",
+      "name": "Uruguay sets an 8% public-job quota for Afro-descendants",
+      "isPartOf": "urn:bhm26:dataset-worldpolicy",
+      "citation": [
+        "https://www.impo.com.uy/bases/leyes/19122-2013",
+        "https://www.gub.uy/ministerio-economia-finanzas/sites/ministerio-economia-finanzas/files/documentos/publicaciones/Ingreso%20de%20personas%20Afro_2024.pdf",
+        "https://www.gub.uy/oficina-nacional-servicio-civil/comunicacion/publicaciones/informe-10-anos-cumplimiento-ley-19122-desafios-su-implementacion"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:wp-wplatam-the-americas-have-a-regional-anti-racism",
+      "name": "The Americas have a regional anti-racism treaty, in force since 2017",
+      "isPartOf": "urn:bhm26:dataset-worldpolicy",
+      "citation": [
+        "https://treaties.un.org/doc/Publication/UNTS/No%20Volume/54915/Part/I-54915-08000002804ec1cd.pdf",
+        "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D10932.htm",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "https://www.oas.org/en/sla/dil/inter_american_treaties_A-68_racism_signatories.asp"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:wp-wpasia-india-lists-siddi-communities-as-schedul",
+      "name": "India lists Siddi communities as Scheduled Tribes in named districts",
+      "isPartOf": "urn:bhm26:dataset-worldpolicy",
+      "citation": [
+        "https://socialjustice.gov.in/public/ckeditor/upload/56951762485904.pdf",
+        "https://prsindia.org/files/bills_acts/bills_parliament/2019/ST%20order%20(Second%20Amendment)%20Bill,%202019.pdf",
+        "https://www.downtoearth.org.in/amp/story/environment/activists-favour-grant-of-scheduled-tribe-status-to-siddis-across-karnataka-63183",
+        "https://prsindia.org/files/bills_acts/bills_parliament/2019/The%20Constitution%20(Scheduled%20Tribes)%20Order%20(Amendment)%20Act,%202020.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:wp-wpasia-pakistan-s-sheedi-community-in-un-race-e",
+      "name": "Pakistan's Sheedi community in UN race-equality reviews",
+      "isPartOf": "urn:bhm26:dataset-worldpolicy",
+      "citation": [
+        "https://digitallibrary.un.org/record/1311154/files/CERD_C_PAK_CO_21-23-EN.pdf",
+        "https://www.ecoi.net/en/file/local/2068717/G2225425.pdf",
+        "https://digitallibrary.un.org/record/4053541/files/CERD_C_PAK_Q_24-26-EN.pdf",
+        "https://www.ungeneva.org/fr/news-media/meeting-summary/2024/08/examen-du-pakistan-au-cerd-des-experts-font-notamment-part-de",
+        "https://tbinternet.ohchr.org/_layouts/15/treatybodyexternal/Download.aspx?symbolno=CERD%2FC%2FPAK%2FCO%2F24-26&Lang=En"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:wp-wpasia-un-reviews-press-iraq-on-discrimination-",
+      "name": "UN reviews press Iraq on discrimination against Black Iraqis",
+      "isPartOf": "urn:bhm26:dataset-worldpolicy",
+      "citation": [
+        "https://hrlibrary.umn.edu/country/iraq2014.html",
+        "https://www.ecoi.net/en/file/local/1458448/1930_1551364867_g1900512.pdf",
+        "https://www.ecoi.net/en/file/local/2104306/G2315196.pdf",
+        "https://tbinternet.ohchr.org/_layouts/15/treatybodyexternal/Download.aspx?symbolno=CERD%2FC%2FIRQ%2FCO%2F26-27&Lang=En"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:wp-wpasia-israel-set-up-a-government-anti-racism-u",
+      "name": "Israel set up a government anti-racism unit after a 2016 review",
+      "isPartOf": "urn:bhm26:dataset-worldpolicy",
+      "citation": [
+        "https://en.achord.huji.ac.il/programs/research-projects-and-reports/policy-eradicate-racism",
+        "https://www.inss.org.il/publication/racism/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:wp-wpasia-the-un-standard-behind-these-reviews-gen",
+      "name": "The UN standard behind these reviews: General Recommendation 34",
+      "isPartOf": "urn:bhm26:dataset-worldpolicy",
+      "citation": [
+        "https://ls-cts.unog.ch/sites/default/files/2019-05/CERD_GC_34_ENG-CHI_BT.html",
+        "https://www.ecoi.net/en/file/local/1458448/1930_1551364867_g1900512.pdf"
       ]
     }
   ]
