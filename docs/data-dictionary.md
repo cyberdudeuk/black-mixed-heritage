@@ -8,6 +8,9 @@ The files in `data/` are generated from the hub's own data model by `src/export.
 | `bhm2026-events.json` | JSON | The same events, with sources |
 | `bhm2026-glossary.csv` | CSV | Glossary terms |
 | `bhm2026-hub.jsonld` | JSON-LD | The hub as linked data: Schema.org types and SKOS concepts |
+| `bhm2026-sources.json` | JSON | Every source, with the date it was last read and the date it is due to be read again |
+| `bhm2026-deadlines.json` | JSON | Published award and nomination deadlines |
+| `bhm2026-releases.atom` | Atom | What is new: the 30 latest releases. Add `https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-releases.atom` to a feed reader |
 
 ## `bhm2026-events.json`
 | Field | Type | Meaning |
@@ -20,6 +23,38 @@ The files in `data/` are generated from the hub's own data model by `src/export.
 | `events[].where` | string or null | Place, "Online" or "Nationwide" |
 | `events[].description` | string or null | Short description |
 | `events[].source` | object | `id`, `title` and `url` of the source the event was checked against |
+
+In the calendar, events of type "Nomination deadlines" carry two reminders (`VALARM`, 14 days and 2 days before), which subscribed calendars show as alerts. Events with an `id` starting `c-` were suggested by the community on GitHub; their source is the organiser's page.
+
+## `bhm2026-sources.json`
+| Field | Type | Meaning |
+|---|---|---|
+| `sources[].id` | string | Source ID used throughout the hub, for example `S235` |
+| `sources[].title`, `sources[].url` | string | What the source is, and where |
+| `sources[].read` | date or null | When it was last read in full |
+| `sources[].due` | date or null | When it is due to be read again (12 months after `read`) |
+
+## `bhm2026-deadlines.json`
+| Field | Type | Meaning |
+|---|---|---|
+| `deadlines[].id` | string | The route's ID on the hub, for example `aw-iese` |
+| `deadlines[].name`, `deadlines[].organiser` | string | Award or route, and who runs it |
+| `deadlines[].deadline` | date | Last day to nominate or enter, as published by the organiser |
+| `deadlines[].url`, `deadlines[].how` | string | Organiser's page and how to take part |
+| `deadlines[].source` | array of URLs | Sources the deadline was checked against |
+
+## `bhm2026-releases.atom`
+An Atom 1.0 feed. Each entry is one release: `title` (version), `updated` (release date), `summary` (what changed) and a link to the release notes.
+
+## `src/community-events.json` (in the repository)
+Community events accepted at triage. Written by `scripts/event_intake.py` through a pull request, never by hand.
+| Field | Type | Meaning |
+|---|---|---|
+| `issue` | integer | The GitHub issue that suggested it |
+| `s`, `e` | date | First and last day |
+| `t`, `where` | string | Name (up to 120 characters) and place (up to 80) |
+| `url` | https URL | The organiser's public page, used as the source |
+| `accepted` | date | When it was accepted; also its read date as a source |
 
 ## `bhm2026-glossary.csv`
 | Column | Meaning |
@@ -47,3 +82,16 @@ Published by `.github/workflows/pages.yml` beside the website; not in the reposi
 | `items[].page` | The page chosen in the form |
 
 Issues labelled `needs-redaction`, and any whose title or text looks like it holds an email address, phone number or National Insurance number, are never included. No issue text or usernames are published.
+
+## `checks.json` (website only)
+Published by `.github/workflows/pages.yml` beside the website, whenever a repository workflow finishes on `main`. The Assurance page shows it.
+| Field | Meaning |
+|---|---|
+| `generated` | When the file was made (UTC) |
+| `runs[].workflow` | One of Checks, CodeQL, Scorecard, Website health, Monthly link check, Release |
+| `runs[].status`, `runs[].conclusion` | GitHub's run status and result (`success`, `failure`, …) |
+| `runs[].when`, `runs[].sha` | When the run last changed, and the commit it ran on |
+| `runs[].url` | Link to the run on GitHub |
+| `runs[].jobs[]` | For Checks only: each job's `name` and `conclusion` |
+
+The hub shows only workflows from that list, results from GitHub's fixed set, and links into this repository's Actions runs; anything else is dropped.

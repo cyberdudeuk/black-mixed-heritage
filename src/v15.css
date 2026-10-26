@@ -388,3 +388,7 @@ details.dvtable > summary{cursor:pointer;color:var(--link,var(--green));text-dec
 .memoriam blockquote{margin:0}
 .memoriam .memname{font-family:var(--f-display);font-size:1.35rem;font-weight:600;margin:0 0 2px}
 .memoriam .memdates{font-variant-numeric:lining-nums;color:var(--muted);margin:0 0 12px;letter-spacing:.02em}
+/* 2.21.0: nomination deadlines in the calendar; repository check results */
+.kc-deadline{background:#F3B6C9}
+.ciresult{display:inline-flex;gap:.3em;align-items:center;font-weight:600}
+.ci-flag{text-decoration:underline;text-decoration-thickness:2px}

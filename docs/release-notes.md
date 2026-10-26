@@ -1,8 +1,20 @@
 # BHM 2026 Hub: release notes and verification log
 
-Repository: https://github.com/cyberdudeuk/black-mixed-heritage. Current version: 2.20.0 (25 October 2026).
+Repository: https://github.com/cyberdudeuk/black-mixed-heritage. Current version: 2.21.0 (26 October 2026).
 
 
+
+## 2.21.0 (26 October 2026): features the repository supports
+- **Calendar, community events:** a maintainer accepts an "Event for the calendar" issue by adding `status: accepted`. The **Event intake** workflow checks the details (dates written YYYY-MM-DD, not already over, an https link to the organiser's page, sensible lengths, no personal data, not added before), adds the event to `src/community-events.json`, rebuilds the hub and opens a pull request that closes the issue. If a check fails it comments with the reasons. The hub checks every community event again before showing it and uses the organiser's page as its source.
+- **Calendar, nomination deadlines:** the published award and nomination deadlines are now calendar entries (filter **Nomination deadlines**), and the calendar file asks subscribed calendars for reminders 14 and 2 days before each. A weekly workflow opens a `deadline` issue four weeks and one week before.
+- **Assurance, repository checks:** on the website, the latest result of each repository workflow on `main` (Checks with its jobs, CodeQL, Scorecard, Website health, the link check and Release), from a `checks.json` the website workflow publishes when any of them finishes. Unknown workflows, results and links are dropped.
+- **Assurance, source freshness:** every source with the date it was last read and the date it is due to be read again, filterable, with counts by status. The monthly checklist issue now lists the sources falling due.
+- **Open data:** `bhm2026-sources.json` (read and re-read dates), `bhm2026-deadlines.json`, and a release feed, `bhm2026-releases.atom`, linked from the website's head and the Help run the hub page.
+- **Volunteering in public:** outside Claude, the expression-of-interest form offers GitHub's new Volunteer form, filled in with the roles, months, skills and commitment chosen; notes and networks are never copied, because issues are public.
+- **Discussions:** Help run the hub links to Discussions for announcements and club polls; the book and film club explains how to hold a vote there outside Claude.
+- **Checks:** C164 (community events, deadlines, freshness and the checks report, with 9 unsafe-input tests); C88 now covers all seven issue forms the hub links to; `tests/test_event_intake.py` (14 cases) runs in CI; the data validator checks the new files, the deadline reminders, the feed's version, and that every linked issue form exists with the field the hub fills in. Every workflow is now linted in CI (actionlint, with shellcheck on every script; it found an unquoted condition and an unsafe `export` before they shipped). Five new injected defects in `tests/negative.sh` (now 9).
+- **Docs:** data dictionary for the new files, admin guide (Event intake, deadline reminders, the Actions setting to allow pull requests), user manual, README, operations, decision record 0009, wiki pages.
+- Verified: 164/164 in-page checks on both editions at 1280px light and 390px dark; a community event appears in the calendar with its source, and an unsafe one (`</script>` in the name) is refused, not shown, and fails C164; a sample `checks.json` with an unknown workflow and a `javascript:` link showed only the two valid rows; axe-core 4.14 clean on Assurance, Calendar and Help run the hub at both widths; all nine injected defects caught, each for its own reason; actionlint and shellcheck clean on every workflow.
 
 ## 2.20.0 (25 October 2026): a resilient, secure and self-releasing repository
 - **Accessibility:** the masthead logo, the futures quadrants, the network map and the knowledge-graph nodes now have accessible names that contain their visible text, including labels shortened to fit (WCAG 2.5.3 Label in Name). Found by axe-core 4.14 when Dependabot updated the CI scanner; a new self-check (C163) confirms it on whichever page is open. Shown failing on 2.19.1 and passing on 2.20.0 at 1280px and 390px.

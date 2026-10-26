@@ -1,6 +1,6 @@
 /* ================= v2.0 glue: sustain the hub ================= */
 VIEW_ICONS.sustain="handheart";
-const REPO_TEMPLATES=["bug.yml","correction.yml","idea.yml","wishlist.yml","accessibility.yml"];
+const REPO_TEMPLATES=["bug.yml","correction.yml","idea.yml","wishlist.yml","accessibility.yml","event.yml","volunteer.yml"];
 DATASETS.push({k:"suroles",n:"Volunteer roles",ic:"people",arr:()=>SU_ROLES,id:r=>r.id,lab:r=>r.n,srcs:()=>[],view:"sustain",href:r=>"#su-"+r.id,out:["pages"],chk:["C87"]});
 REQS.push({id:"R59",t:"F",r:"Mission statement, charter, rules of engagement and terms of reference for communities, networks and stakeholders",o:"Request 30",sat:["su-charter"],ver:["C89"]},{id:"R57",t:"F",r:"A proposal for comment on running the hub all year, with roles, commitment, capacity, a 12-month programme, alignment with networks and expressions of interest",o:"Request 29",sat:["su-proposal","su-roles","su-capacity","su-year","su-align","su-eoi"],ver:["C87"]},
  {id:"R58",t:"F",r:"Ideas box, feature wishlist and bug and correction reports, linked to a GitHub repository",o:"Request 29",sat:["su-ideas","su-github"],ver:["C88","D-031"]});
@@ -10,7 +10,7 @@ const _ctx22=ctxV15;ctxV15=function(){const gl=$$("#su-github a, #idList a").map
 CHECKS.push(
  {id:"C87",n:"The proposal sets out roles, capacity, a 12-month programme, alignment with networks and a private way to express interest",run:c=>{const s=c.sustain;return{ok:s.roles===SU_ROLES.length&&s.roles>=10&&s.months===12&&s.m>=4&&s.q>=4&&s.a>=3&&s.align>=5&&s.consent&&s.noEmailField,d:`${s.roles} roles with profile, tasks and hours; ${s.months} months; ${s.m} monthly, ${s.q} quarterly and ${s.a} annual activities; ${s.align} partner types; consent ${s.consent?"asked":"missing"}; no email field ${s.noEmailField?"yes":"no"}`}},
   breakIt:c=>{c.sustain={...c.sustain,months:11};return c}},
- {id:"C88",n:"Every GitHub link points to the hub's repository and an existing issue form",run:c=>({ok:c.git.links>=7&&!c.git.bad&&c.git.kinds===5,d:`${c.git.links} GitHub links, ${c.git.bad} wrong; ${c.git.kinds} of 5 issue forms linked`}),
+ {id:"C88",n:"Every GitHub link points to the hub's repository and an existing issue form",run:c=>({ok:c.git.links>=7&&!c.git.bad&&c.git.kinds===REPO_TEMPLATES.length,d:`${c.git.links} GitHub links, ${c.git.bad} wrong; ${c.git.kinds} of ${REPO_TEMPLATES.length} issue forms linked`}),
   breakIt:c=>{c.git={...c.git,bad:1};return c}});
 LLD.push(["Sustain","renderSustain","initEOI","saveEOI","initIdeas","addIdea","renderIdeaBox","issueURL"]);
 function v22Boot(){renderCharter();setupSustain();const h=$("#v-sustain .block .sechead h2");if(h&&!h.nextElementSibling?.classList?.contains("motif"))h.insertAdjacentHTML("afterend",motifStrip(10));addBreadcrumbs();renderBibliographies();try{renderTraceNav()}catch(e){}}

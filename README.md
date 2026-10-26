@@ -21,7 +21,7 @@ Made in a personal capacity. Unofficial: not published or endorsed by Black Hist
 ## Use it
 - **Website (GitHub Pages):** https://cyberdudeuk.github.io/black-mixed-heritage/ (see [docs/teams-and-github-pages.md](docs/teams-and-github-pages.md)).
 - **Single file:** `dist/bhm-2026-hub.html` (also attached to each [release](https://github.com/cyberdudeuk/black-mixed-heritage/releases/latest), with checksums and a signed build attestation) is the whole hub in one self-contained page; it works offline with system fonts (the web fonts, QR codes and barcodes need a connection).
-- **Open data:** `data/` holds JSON-LD (Schema.org and SKOS), a glossary CSV, and the events calendar as JSON and ICS.
+- **Open data:** `data/` holds JSON-LD (Schema.org and SKOS), a glossary CSV, the events calendar as JSON and ICS (with deadline reminders), every source with its read and re-read dates, nomination deadlines, and a release feed (Atom).
 - **Microsoft Teams:** `teams/bhm-hub-teams-app-1.1.0.zip` shows the hub as a Teams tab.
 
 ## Help
@@ -32,7 +32,7 @@ Made in a personal capacity. Unofficial: not published or endorsed by Black Hist
 - Read `CONTRIBUTING.md` before opening a pull request.
 
 ## How it is checked
-- 163 self-checks run in every visitor's browser (sources, accessibility, language, privacy, coverage, links); each has a deliberate-break test that proves it can fail.
+- 164 self-checks run in every visitor's browser (sources, accessibility, language, privacy, coverage, links); each has a deliberate-break test that proves it can fail.
 - Open data, website files, size budgets and third-party licences are validated on every pull request, and `tests/negative.sh` injects known defects to prove each CI check fails when it should.
 - Playwright and axe-core tests run at desktop and phone widths in light and dark modes (`tests/test.mjs`), including a negative run that injects known defects.
 - Sources must be read in full and triangulated: two independent sources, at least one authoritative. Wikipedia is never counted as a source.
@@ -70,7 +70,10 @@ Builds are deterministic: CI rebuilds `dist/` and `site/` and fails if the commi
 | Wiki | `wiki.yml` publishes `docs/wiki/` to the wiki | When `docs/wiki/` changes on `main` |
 | Project board | `project.yml` adds ideas, wishes and reports to the roadmap board (optional; needs a token) | When an issue is opened or labelled |
 | Discussions | Forms in `.github/DISCUSSION_TEMPLATE/` for Q&A, Show and tell and General | When a discussion is started |
-| Events | The "Event for the calendar" issue form | Any time |
+| Events | The "Event for the calendar" issue form; when a maintainer adds `status: accepted`, `event-intake.yml` checks it and opens a pull request adding it to the calendar | Any time |
+| Deadlines | Nomination deadlines are calendar entries with reminders; `deadline-reminders.yml` opens a `deadline` issue four weeks and one week before each | Weekly |
+| Assurance | `pages.yml` publishes `checks.json` (latest result of each workflow) for the hub's Assurance page; the monthly checklist lists sources due for re-reading | When a workflow finishes on `main`; monthly |
+| Volunteers | The "Volunteer" issue form, prefilled from the hub's expression-of-interest form | Any time |
 | Dependencies | Dependabot opens grouped monthly updates for the workflow actions and the test tools | Monthly |
 
 The calendar (ICS) and open data are also served from the website, under `data/`.

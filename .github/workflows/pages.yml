@@ -1,5 +1,6 @@
 # Deploys the hub to GitHub Pages, with a list of open ideas and feature wishes (ideas.json) that the hub shows
-# in its ideas box. The list holds titles, labels, support counts and links only: no issue text and no usernames.
+# in its ideas box, and the latest result of each repository workflow (checks.json) that the Assurance page shows.
+# The ideas list holds titles, labels, support counts and links only: no issue text and no usernames.
 # The site itself is built locally with: node src/build_pages.mjs https://OWNER.github.io/REPO/ site
 name: Deploy hub to GitHub Pages
 on:
@@ -8,6 +9,10 @@ on:
     paths: ["site/**", "data/**", ".github/workflows/pages.yml"]
   issues:
     types: [opened, edited, closed, reopened, labeled, unlabeled, deleted]
+  workflow_run: # refresh checks.json when a repository workflow finishes on main
+    workflows: ["Checks", "CodeQL", "Scorecard", "Website health", "Monthly link check", "Release"]
+    types: [completed]
+    branches: [main]
   schedule:
     - cron: "17 */6 * * *" # reactions (thumbs-up support) do not trigger events, so refresh every six hours
   workflow_dispatch:
@@ -16,6 +21,7 @@ permissions:
   pages: write
   id-token: write
   issues: read
+  actions: read
 concurrency:
   group: pages
   cancel-in-progress: false
@@ -73,6 +79,26 @@ jobs:
             }
             fs.writeFileSync('_site/ideas.json', JSON.stringify({ generated: new Date().toISOString(), repo: context.repo.owner + '/' + context.repo.repo, items }, null, 1));
             core.info(`ideas.json: ${items.length} items`);
+      - name: Publish the latest repository check results
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        with:
+          script: |
+            const fs = require('fs');
+            const NAMES = ['Checks', 'CodeQL', 'Scorecard', 'Website health', 'Monthly link check', 'Release'];
+            const wfs = (await github.rest.actions.listRepoWorkflows({ ...context.repo, per_page: 100 })).data.workflows;
+            const runs = [];
+            for (const name of NAMES) {
+              const wf = wfs.find(w => w.name === name);
+              if (!wf) continue;
+              const r = (await github.rest.actions.listWorkflowRuns({ ...context.repo, workflow_id: wf.id, branch: 'main', per_page: 5 })).data.workflow_runs
+                .find(x => x.event !== 'pull_request');
+              if (!r) continue;
+              let jobs = [];
+              if (name === 'Checks') jobs = (await github.rest.actions.listJobsForWorkflowRun({ ...context.repo, run_id: r.id })).data.jobs.map(j => ({ name: j.name, conclusion: j.conclusion || j.status }));
+              runs.push({ workflow: name, status: r.status, conclusion: r.conclusion, when: r.updated_at, url: r.html_url, sha: r.head_sha, jobs });
+            }
+            fs.writeFileSync('_site/checks.json', JSON.stringify({ generated: new Date().toISOString(), runs }, null, 1));
+            core.info(`checks.json: ${runs.length} workflows`);
       - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:

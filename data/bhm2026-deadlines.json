@@ -1,0 +1,51 @@
+{
+  "title": "BHM 2026 Hub nomination deadlines",
+  "version": "2.21.0",
+  "generated": "2026-10-21",
+  "deadlines": [
+    {
+      "id": "aw-csa",
+      "name": "Civil Service Awards 2026 (Developing and Supporting People; Collaboration; Outstanding Community Service; Rising Star)",
+      "organiser": "Civil Service Awards team",
+      "deadline": "2026-10-27",
+      "url": "https://www.civilserviceawards.com/",
+      "how": "Online form on organiser site; 600 words (about 100 overview + 500 STAR). Check departmental approval route first",
+      "source": [
+        "https://www.civilserviceawards.com/"
+      ]
+    },
+    {
+      "id": "aw-bda",
+      "name": "British Diversity Awards 2027",
+      "organiser": "British Diversity Awards",
+      "deadline": "2026-11-20",
+      "url": "https://www.britishdiversityawards.com/keydates2026",
+      "how": "Online nomination on organiser site; pick the specific category; get employer approval",
+      "source": [
+        "https://www.britishdiversityawards.com/keydates2026"
+      ]
+    },
+    {
+      "id": "aw-iese",
+      "name": "iESE Public Sector Transformation Awards 2027",
+      "organiser": "iESE",
+      "deadline": "2027-01-15",
+      "url": "https://iese.org.uk/awards/",
+      "how": "Organiser nomination; check entry fees and departmental approval",
+      "source": [
+        "https://iese.org.uk/awards/"
+      ]
+    },
+    {
+      "id": "aw-kavs",
+      "name": "King's Award for Voluntary Service 2027",
+      "organiser": "DCMS",
+      "deadline": "2026-12-01",
+      "url": "https://kavs.dcms.gov.uk/make-a-nomination/",
+      "how": "Check eligibility page, then nominate online",
+      "source": [
+        "https://kavs.dcms.gov.uk/make-a-nomination/"
+      ]
+    }
+  ]
+}

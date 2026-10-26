@@ -1,0 +1,7 @@
+  <section class="block" id="as-fresh" data-icon="clock" data-label="Source freshness">
+    <div class="sechead"><span class="eyebrow">Self-updating</span><h2>Source freshness</h2><p id="frNote"></p></div>
+    <div class="grid g4" id="frSummary"></div>
+    <div class="objform" style="margin-top:var(--s3)"><label for="frBand">Show<select id="frBand"><option value="due">Due within 3 months, overdue or undated</option><option value="overdue">Overdue</option><option value="soon">Due within 3 months</option><option value="ok">Read within the last 9 months</option><option value="all">All sources</option></select></label></div>
+    <p id="frShown" class="muted" role="status"></p>
+    <div class="tablewrap"><table><caption class="vh">Sources with their read and re-read dates</caption><thead><tr><th scope="col">ID</th><th scope="col">Source</th><th scope="col">Last read</th><th scope="col">Due to be read again</th><th scope="col">Status</th></tr></thead><tbody id="frBody"></tbody></table></div>
+  </section>

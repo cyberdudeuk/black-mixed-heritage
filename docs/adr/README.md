@@ -12,5 +12,6 @@ Short records of the decisions that shape the hub and this repository: the conte
 | [0006](0006-no-personal-data.md) | No personal data, analytics or tracking | Accepted |
 | [0007](0007-supply-chain.md) | Pin actions by commit, least-privilege tokens, signed releases | Accepted |
 | [0008](0008-wiki-from-docs.md) | The wiki is generated from `docs/wiki/`; Discussions start as announcements only | Accepted |
+| [0009](0009-event-intake-through-pull-requests.md) | Community events reach the calendar through pull requests | Accepted |
 
 Template: copy any record, give it the next number, and keep it to one page.

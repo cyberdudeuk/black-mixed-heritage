@@ -44,6 +44,7 @@ jobs:
           v="$VERSION"
           awk -v v="$v" '$0 ~ "^## "v" " {p=1; print; next} p && /^## / {exit} p' docs/release-notes.md > notes.md
           sha256sum dist/bhm-2026-hub.html data/* teams/*.zip > SHA256SUMS.txt
+          # shellcheck disable=SC2016 # the backticks are Markdown, meant literally
           printf '\n---\nVerify a download: `sha256sum -c SHA256SUMS.txt`, or `gh attestation verify <file> --repo %s`.\n' "$GITHUB_REPOSITORY" >> notes.md
       - name: Build-provenance attestation
         if: steps.v.outputs.skip == 'false'

@@ -1,0 +1,43 @@
+# Opens an issue labelled "deadline" four weeks and one week before each award or nomination deadline published in
+# data/bhm2026-deadlines.json, so maintainers and volunteers can prompt nominations. One issue per deadline and stage;
+# reruns never duplicate. Readers get the same deadlines, with reminders, in the hub's calendar file.
+name: Nomination deadline reminders
+on:
+  schedule:
+    - cron: "23 7 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        with:
+          script: |
+            const fs = require('fs');
+            const data = JSON.parse(fs.readFileSync('data/bhm2026-deadlines.json', 'utf8'));
+            const today = new Date(new Date().toISOString().slice(0, 10) + 'T00:00:00Z');
+            const open = await github.paginate(github.rest.issues.listForRepo, { ...context.repo, state: 'all', labels: 'deadline', per_page: 100 });
+            const seen = new Set(open.map(i => i.title));
+            let made = 0;
+            for (const d of data.deadlines || []) {
+              if (!/^\d{4}-\d{2}-\d{2}$/.test(d.deadline || '')) continue;
+              const days = Math.round((new Date(d.deadline + 'T00:00:00Z') - today) / 864e5);
+              const stage = days <= 7 && days >= 0 ? 'one week' : days <= 28 && days > 7 ? 'four weeks' : null;
+              if (!stage) continue;
+              const title = `Nomination deadline in ${stage}: ${String(d.name).slice(0, 120)}`;
+              if (seen.has(title)) continue;
+              const body = [`**${d.name}**${d.organiser ? ' (' + d.organiser + ')' : ''} closes on **${d.deadline}** (${days} day${days === 1 ? '' : 's'} from today).`, '',
+                d.how ? 'How to take part: ' + d.how : '', d.url ? 'Organiser: ' + d.url : '', '',
+                'On the hub: **This month → Get involved** (nomination routes) and the calendar.', '',
+                '- [ ] Share in the networks and on the hub\'s channels', '- [ ] Remind anyone preparing a nomination', '- [ ] Close this issue after the deadline'].filter((l, i, a) => l !== '' || a[i - 1] !== '').join('\n');
+              await github.rest.issues.create({ ...context.repo, title, body, labels: ['deadline'] });
+              made++;
+            }
+            core.info(`${made} reminder issue(s) opened`);
