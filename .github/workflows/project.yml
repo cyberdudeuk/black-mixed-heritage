@@ -1,0 +1,22 @@
+# Adds new ideas, wishes, bugs, corrections and accessibility reports to the "Hub roadmap" project board.
+# Optional: it runs only when the owner has stored two repository settings (see docs/admin-guide.md, section 11):
+#   variable PROJECT_URL  - the board's address, for example https://github.com/users/<owner>/projects/1
+#   secret   PROJECT_TOKEN - a fine-grained personal access token with read and write access to Projects
+# Without them it is skipped. The project's own built-in workflows (no token needed) can do the same job.
+name: Add to project board
+on:
+  issues:
+    types: [opened, labeled]
+permissions:
+  contents: read
+jobs:
+  add:
+    if: vars.PROJECT_URL != ''
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@5afcf98fcd03f1c2f92c3c83f58ae24323cc57fd # v2.0.0
+        with:
+          project-url: ${{ vars.PROJECT_URL }}
+          github-token: ${{ secrets.PROJECT_TOKEN }}
+          labeled: idea, wishlist, bug, correction, accessibility
+          label-operator: OR

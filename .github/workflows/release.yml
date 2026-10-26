@@ -1,24 +1,64 @@
-# When a version tag (for example v2.17.0) is pushed, publishes a GitHub release with the single-file hub,
-# the open data and the Teams app attached, and the matching section of the release notes as its description.
+# Publishes a GitHub release with the single-file hub, the open data and the Teams app attached, a SHA-256
+# checksum file, a signed build-provenance attestation, and the matching section of the release notes.
+# Runs (a) when a pull request that changes the version in package.json is merged into main, or (b) when a
+# version tag such as v2.20.0 is pushed by hand. Does nothing if the release already exists.
 name: Release
 on:
   push:
+    branches: [main]
+    paths: [package.json]
     tags: ["v*"]
+  workflow_dispatch:
 permissions:
-  contents: write
+  contents: read
+concurrency:
+  group: release
+  cancel-in-progress: false
 jobs:
   release:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
+      attestations: write
     steps:
-      - uses: actions/checkout@v7
-      - name: Release notes for this version
-        run: |
-          v="${GITHUB_REF_NAME#v}"
-          awk -v v="$v" '$0 ~ "^## "v" " {p=1; print; next} p && /^## / {exit} p' docs/release-notes.md > notes.md
-          test -s notes.md || echo "Release $v" > notes.md
-      - name: Publish the release
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Work out the version
+        id: v
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "$GITHUB_REF_NAME" --title "BHM 2026 Hub $GITHUB_REF_NAME" --notes-file notes.md \
-            dist/bhm-2026-hub.html data/* teams/*.zip
+          if [ "$GITHUB_REF_TYPE" = tag ]; then v="${GITHUB_REF_NAME#v}"; else v=$(node -p "require('./package.json').version"); fi
+          [[ "$v" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]] || { echo "::error::'$v' is not a semantic version (MAJOR.MINOR.PATCH)"; exit 1; }
+          echo "version=$v" >> "$GITHUB_OUTPUT"
+          if gh release view "v$v" >/dev/null 2>&1; then echo "Release v$v already exists"; echo "skip=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+          grep -q "^## $v " docs/release-notes.md || { echo "::error::docs/release-notes.md has no '## $v (date): title' section"; exit 1; }
+          echo "skip=false" >> "$GITHUB_OUTPUT"
+      - name: Release notes and checksums
+        if: steps.v.outputs.skip == 'false'
+        env:
+          VERSION: ${{ steps.v.outputs.version }}
+        run: |
+          v="$VERSION"
+          awk -v v="$v" '$0 ~ "^## "v" " {p=1; print; next} p && /^## / {exit} p' docs/release-notes.md > notes.md
+          sha256sum dist/bhm-2026-hub.html data/* teams/*.zip > SHA256SUMS.txt
+          printf '\n---\nVerify a download: `sha256sum -c SHA256SUMS.txt`, or `gh attestation verify <file> --repo %s`.\n' "$GITHUB_REPOSITORY" >> notes.md
+      - name: Build-provenance attestation
+        if: steps.v.outputs.skip == 'false'
+        uses: actions/attest-build-provenance@4d101475d8b20a2381f78447822ac1eab6504dd8 # v4.2.2
+        with:
+          subject-path: |
+            dist/bhm-2026-hub.html
+            data/*
+            teams/*.zip
+      - name: Publish the release
+        if: steps.v.outputs.skip == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.v.outputs.version }}
+        run: |
+          v="v$VERSION"
+          gh release create "$v" --target "$GITHUB_SHA" --title "BHM 2026 Hub $v" --notes-file notes.md \
+            dist/bhm-2026-hub.html data/* teams/*.zip SHA256SUMS.txt

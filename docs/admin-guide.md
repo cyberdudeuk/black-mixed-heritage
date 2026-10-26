@@ -1,6 +1,6 @@
 # Repository admin guide
 
-For the owner and maintainers of `cyberdudeuk/black-mixed-heritage`. It covers settings, the workflows, the monthly routine, releases, moderation and what to do when something goes wrong. Contributors should read [CONTRIBUTING.md](../CONTRIBUTING.md) instead; readers of the hub should read the [user manual](user-manual.md).
+For the owner and maintainers of `cyberdudeuk/black-mixed-heritage`. It covers settings, the workflows, the monthly routine, releases, moderation, the wiki and Discussions, and what to do when something goes wrong. Resilience, security, capacity and recovery are in [operations.md](operations.md); versions and releases in [release-management.md](release-management.md); the reasons behind the main choices in [adr/](adr/README.md). Contributors should read [CONTRIBUTING.md](../CONTRIBUTING.md) instead; readers of the hub should read the [user manual](user-manual.md).
 
 ## Contents
 1. [What lives where](#1-what-lives-where)
@@ -14,7 +14,7 @@ For the owner and maintainers of `cyberdudeuk/black-mixed-heritage`. It covers s
 9. [Making a release](#9-making-a-release)
 10. [The website, Teams and the Claude edition](#10-the-website-teams-and-the-claude-edition)
 11. [Projects board](#11-projects-board)
-12. [Discussions: options](#12-discussions-options)
+12. [Wiki and Discussions](#12-wiki-and-discussions)
 13. [When something goes wrong](#13-when-something-goes-wrong)
 14. [Quarterly and annual tasks](#14-quarterly-and-annual-tasks)
 
@@ -28,9 +28,11 @@ For the owner and maintainers of `cyberdudeuk/black-mixed-heritage`. It covers s
 | `site/404.html`, `robots.txt`, `sitemap.xml`, `.well-known/security.txt` | Static website files | Yes |
 | `data/` | Open data exports | No: `npm run build:data` |
 | `teams/` | Teams app manifest, icons and package | Through `teams/mkmanifest.mjs` and `teams/package.py` |
-| `tests/` | `ci-selfcheck.mjs` (fast), `ci-axe.mjs` (accessibility), `privacy_scan.py`, `test.mjs` (full suite), `posters.mjs` | Yes |
-| `docs/` | This guide, the user manual, architecture, content style guide, data dictionary, release notes, sustainability proposal, Teams and Pages guide | Yes |
-| `.github/` | Workflows, issue forms, labels, code owners, Dependabot | Yes |
+| `tests/` | `ci-selfcheck.mjs` (fast), `ci-axe.mjs` (accessibility), `privacy_scan.py`, `validate_data.py` (open data and website files), `licence_check.py`, `negative.sh` (checks of the checks), `test.mjs` (full suite), `posters.mjs` | Yes |
+| `docs/` | This guide, the user manual, operations, release management, architecture and decision records (`adr/`), content style guide, data dictionary, release notes, sustainability proposal, Teams and Pages guide | Yes |
+| `docs/wiki/` | The wiki's pages; `wiki.yml` copies them to the wiki on merge | Yes (not in the wiki itself) |
+| `THIRD_PARTY_NOTICES.md` | Licence assessment and every third-party component | Yes, whenever a vendored file or dependency changes |
+| `.github/` | Workflows, issue forms, discussion forms, labels, code owners, Dependabot | Yes |
 
 See [architecture.md](architecture.md) for which source file holds what.
 
@@ -40,7 +42,7 @@ Settings cannot be changed by the workflows; do these by hand in **Settings**.
 | Setting | Where | Recommended |
 |---|---|---|
 | Pages | Settings → Pages | Source: **GitHub Actions** (done) |
-| Branch protection for `main` | Settings → Branches (or Rules → Rulesets) | Require a pull request; require status checks **privacy**, **selfchecks** and **accessibility** to pass; require branches to be up to date; block force pushes and deletion (done for privacy and selfchecks; add **accessibility** after its first run) |
+| Branch protection for `main` | Settings → Branches (or Rules → Rulesets) | Require a pull request; require status checks **privacy**, **selfchecks** and **accessibility** to pass; require branches to be up to date; block force pushes and deletion; do not allow bypassing (done for privacy and selfchecks; **add accessibility now**: it has run, and merging before it finishes let an accessibility failure reach `main` once) |
 | Code owner review | Same rule | Optional: "Require review from Code Owners" once there is more than one maintainer (an owner cannot approve their own pull request) |
 | Private vulnerability reporting | Settings → Security → Advanced Security (or Code security) | **Enable now**: SECURITY.md and the website's `security.txt` point only to it, so until it is on there is no private way to report a problem |
 | Dependabot alerts and security updates | Same page | Enable |
@@ -49,7 +51,9 @@ Settings cannot be changed by the workflows; do these by hand in **Settings**.
 | Actions permissions | Settings → Actions → General | Allow GitHub Actions and verified creators; **Workflow permissions: read repository contents** (each workflow asks for only what it needs) |
 | About box | The cog next to "About" on the repository front page | Description: *BHM 2026 Hub: Black and Black-Mixed history, heritage and cultures, Africa and the African diaspora.* Website: `https://cyberdudeuk.github.io/black-mixed-heritage/` (tick "Use your GitHub Pages website"). Topics: `black-history`, `black-history-month`, `african-diaspora`, `heritage`, `accessibility`, `open-data`, `public-sector`, `github-pages`, `uk` |
 | Social preview | Settings → General → Social preview | Upload a 1280×640 image (for example a poster from the hub) |
-| Features | Settings → General | Issues on; Projects on (done); Wiki off (docs live in `docs/`); Discussions: see section 12 |
+| Features | Settings → General | Issues on; Projects on (done); Wiki on (done), generated from `docs/wiki/`, see section 12; Discussions on (done), see section 12. Under **Wiki**, tick **Restrict editing to collaborators only**, so the public cannot edit it |
+| Releases | The repository front page, right column | Nothing to set: the **Release** workflow publishes releases (section 9) |
+| Project board variables | Settings → Secrets and variables → Actions | Optional, for `project.yml`: variable `PROJECT_URL` and secret `PROJECT_TOKEN` (section 11) |
 | Interaction limits | Settings → Moderation options | Use temporarily if a thread attracts abuse |
 | Collaborators | Settings → Collaborators | Add maintainers with **Maintain** or **Write**; add their usernames to `.github/CODEOWNERS` |
 
@@ -59,12 +63,16 @@ All workflows are in `.github/workflows/`. Each has a comment at the top saying 
 | Workflow | Runs when | Permissions | What it does | If it fails |
 |---|---|---|---|---|
 | **Deploy hub to GitHub Pages** (`pages.yml`) | Push to `main` touching `site/` or `data/`; idea or wish issue changes; every 6 hours; by hand | read contents, write Pages, read issues | Copies `site/` and `data/`, writes `ideas.json` from open idea and wishlist issues (titles, labels and counts only; skips `needs-redaction`), deploys | "Get Pages site failed": Pages is not set to GitHub Actions. Otherwise re-run once; see section 13 |
-| **Checks** (`checks.yml`) | Every pull request; push to `main`; by hand | read contents | **privacy**: no personal emails or private links in the tree, and `tests/privacy_scan.py` on both editions. **selfchecks**: rebuilds `dist/` and `site/` and fails if they differ from the committed files, then runs all in-page self-checks. **accessibility**: axe-core on every page at 1280px light and 390px dark (takes about 30 minutes) | Read the log: it names the file, the check or the page. "out of date" means run `npm run build:all` and commit |
+| **Checks** (`checks.yml`) | Every pull request; push to `main`; by hand | read contents | **privacy**: no personal emails or private links in the tree, `tests/privacy_scan.py` on both editions, `tests/validate_data.py` (open data valid and sourced, website files, size budgets, `security.txt` not expired) and `tests/licence_check.py` (every vendored file and dependency listed). **selfchecks** also runs `tests/negative.sh`, which injects known defects and fails if any check misses one. **selfchecks**: rebuilds `dist/` and `site/` and fails if they differ from the committed files, then runs all in-page self-checks. **accessibility**: axe-core on every page at 1280px light and 390px dark (takes about 30 minutes) | Read the log: it names the file, the check or the page. "out of date" means run `npm run build:all` and commit |
 | **Issue triage** (`issue-triage.yml`) | Issue opened or edited | write issues | Adds `triage`, thanks the author, and adds `needs-redaction` with a comment if it finds an email address, UK phone number or National Insurance number | Rare; re-run from the Actions tab |
 | **Sync labels** (`labels.yml`) | `.github/labels.json` changes on `main`; by hand | write issues | Creates or updates labels; never deletes | Check the JSON is valid |
 | **Monthly link check** (`link-check.yml`) | 2nd of each month; by hand | read contents, write issues | Checks every external link in the hub; updates the open `link-check` issue, or opens one | 403 and 429 answers count as working, because many sites block robots; anything else is worth a look |
 | **Monthly triage and freshness check** (`monthly-triage.yml`) | 1st of each month; by hand | write issues | Opens the month's checklist issue labelled `routine` | — |
-| **Release** (`release.yml`) | A tag `v*` is pushed | write contents | Creates the GitHub release with notes from `docs/release-notes.md` and attaches the hub, data and Teams app | Make sure the version heading exists in the release notes |
+| **Release** (`release.yml`) | A merge to `main` that changes the version in `package.json`; or a tag `v*` pushed by hand | write contents, attestations | Creates release `vX.Y.Z` from the merge commit with notes from `docs/release-notes.md`, attaches the hub, data, Teams app and `SHA256SUMS.txt`, and signs a build-provenance attestation. Does nothing if the release exists | "has no section": add `## X.Y.Z (date): title` to the release notes and re-run |
+| **Website health** (`uptime.yml`) | Every 6 hours; by hand | write issues | Fetches the website, calendar, linked data, `ideas.json` and `security.txt` (three tries each) and checks each is what it should be. Opens or comments on an `uptime` issue on failure; closes it when all pass | Check githubstatus.com; re-run Deploy |
+| **Scorecard** (`scorecard.yml`) | Weekly; push to `main`; branch protection changes | read all, write security events | OpenSSF Scorecard of supply-chain practices; results in Security → Code scanning | Each finding names the practice to fix |
+| **Sync wiki** (`wiki.yml`) | Push to `main` touching `docs/wiki/`; by hand | write contents | Copies `docs/wiki/*.md` to the wiki | "The wiki has no pages yet": save the first page once (section 12), then re-run |
+| **Add to project board** (`project.yml`) | Issue opened or labelled | — (uses `PROJECT_TOKEN`) | Adds ideas, wishes, bugs, corrections and accessibility reports to the board. Skipped unless `PROJECT_URL` is set | Check the token has Projects read and write and has not expired |
 | **CodeQL** (`codeql.yml`) | Pull requests and pushes to `main` touching scripts; weekly | read contents, write security events | Scans the JavaScript and the workflows for security problems; results in Security → Code scanning | Triage alerts there; dismiss false positives with a reason |
 | **Dependabot** (`.github/dependabot.yml`) | Monthly | — | Opens one grouped pull request for the actions the workflows use, and one for the test tools | Merge when checks pass. Merge one Dependabot pull request at a time and let the next rebase: two that edit the same workflow can otherwise merge into a broken file |
 
@@ -94,7 +102,10 @@ On the 1st, the **Monthly triage and freshness check** issue appears with a chec
 4. Re-read any source older than 12 months that a page relies on for a figure.
 5. Add the coming month's events (from `event` issues) to the calendar data in `src/`.
 6. Merge Dependabot pull requests whose checks pass, one at a time.
-7. Agree what goes into the next release; close the checklist issue.
+7. Glance at Security → Code scanning (CodeQL and Scorecard) and any open `uptime` issue.
+8. Look through new Discussions, if categories other than Announcements are open.
+9. Refresh the off-GitHub mirror clone (`git remote update` in it).
+10. Agree what goes into the next release; close the checklist issue.
 
 Ideas are ranked on the hub by thumbs-up reactions. Treat support as one input among others: fit with the hub's purpose, effort, evidence and who it helps.
 
@@ -130,12 +141,15 @@ Abuse and harassment: hide the comment as abusive, lock the conversation (**Lock
 - Prefer **Squash and merge** with a clear title. The website redeploys automatically after merging.
 
 ## 9. Making a release
+Policy (version numbers, release types, hotfixes, rollback, verifying downloads): [release-management.md](release-management.md).
+
 1. In `src/patch_v15.py`, change the version (`version:"2.x.y",docId:"BHM26-PSH-2.x.y"`) and add a line at the front of `CHANGELOG`.
 2. Add a `## 2.x.y (date): title` section at the top of `docs/release-notes.md` and a row in `CHANGELOG.md`; update `version` in `package.json`, and `version` and `date-released` in `CITATION.cff`.
-3. `npm run build:all`, `npm run check:privacy`, `npm run test:quick`. Before larger releases also run `npm test` and `npm run test:negative` (about an hour each).
+3. `npm run build:all`, `npm run check:privacy`, `npm run check:data`, `npm run check:licences`, `npm run test:quick`, `npm run test:checks`. Before larger releases also run `npm test` and `npm run test:negative` (about an hour each).
 4. If the Teams tab changed, bump its version: `node teams/mkmanifest.mjs https://cyberdudeuk.github.io/black-mixed-heritage/ 1.x.0` then `python3 teams/package.py`.
 5. Open a pull request, let the checks pass, merge.
-6. Tag the merge commit: `git tag v2.x.y && git push origin v2.x.y`. The **Release** workflow publishes the release with the files attached. Do not also create the release by hand in **Releases**: the workflow would then fail because the release already exists.
+6. Nothing more: merging a changed version publishes release `v2.x.y` automatically (**Release** workflow), with checksums and a signed attestation. If it was skipped, push the tag by hand: `git tag v2.x.y <merge commit> && git push origin v2.x.y`. Creating a release by hand in **Releases** also works; the workflow then sees it and does nothing.
+7. For minor and major releases, post a short note in Discussions → **Announcements**.
 
 ## 10. The website, Teams and the Claude edition
 - **Website:** `https://cyberdudeuk.github.io/black-mixed-heritage/`. Pages sites are public. The calendar can be subscribed to at `…/data/bhm2026-events.ics`.
@@ -148,16 +162,35 @@ Projects are enabled. A suggested board, **Hub roadmap**, with a **Status** fiel
 2. In the project's **Workflows**, turn on **Auto-add to project** with the filter `is:issue label:idea,wishlist,bug,correction,accessibility`, and **Item closed → Status: Done**.
 3. Optionally add views: *By page* (group by the page named in the issue), *Accessibility* (filter `label:accessibility`).
 
-The built-in project workflows need no tokens. Syncing the board's Status back to labels would need a personal access token stored as a secret, so it is not set up; set the `status:` label during triage, because that is what the hub shows.
+The built-in project workflows need no tokens and are the simplest option. If you prefer the repository to add items (for example to use the label filter across several boards), `project.yml` does it once you store two settings in **Settings → Secrets and variables → Actions**: variable `PROJECT_URL` (the board's address) and secret `PROJECT_TOKEN` (a fine-grained personal access token, resource owner = you, permission **Projects: read and write**, expiry 1 year; put a reminder in the calendar to renew it). Until then the workflow is skipped.
 
-## 12. Discussions: options
-Discussions are off. Options, from least to most upkeep:
-1. **Keep off.** Ideas and questions go through issues and the ideas box.
-2. **Announcements only.** Maintainers post the monthly highlight and releases; others can react and comment. Almost no upkeep.
-3. **A few categories, best-effort replies.** Announcements, Show and tell, Questions (answered by the community), Polls (book and film club). Pin a note that replies are best effort and corrections go through issue forms. Review only during the monthly triage.
-4. **Routed into triage.** As 3, with a workflow that lists new discussions in the monthly checklist issue. Only once there are volunteers.
+Syncing the board's Status back to labels is not set up; set the `status:` label during triage, because that is what the hub shows.
 
-Recommended: start with 2 and move to 3 when the community reviewer and maintainer roles have volunteers. Turning Discussions off later keeps the content read-only.
+## 12. Wiki and Discussions
+### Wiki
+The wiki is a short front door; the documentation itself stays in `docs/` (see [ADR 0008](adr/0008-wiki-from-docs.md)). Its pages are in `docs/wiki/` and the **Sync wiki** workflow copies them to the wiki whenever they change on `main`.
+
+First time only (GitHub creates the wiki's store only when a first page is saved):
+1. Open the **Wiki** tab → **Create the first page**. Leave the title *Home*, type anything, and **Save page**.
+2. **Actions → Sync wiki → Run workflow.** The workflow replaces the page with `docs/wiki/Home.md` and adds the rest, with a sidebar and footer.
+3. In **Settings → General → Features → Wiki**, tick **Restrict editing to collaborators only**.
+
+After that, change the wiki only by editing `docs/wiki/` in a pull request; direct edits in the wiki are overwritten at the next sync. Page names come from file names (`Taking-part.md` becomes *Taking part*); `[[Page name]]` links between pages.
+
+### Discussions
+Discussions are on. Options, from least to most upkeep:
+1. **Announcements only.** Maintainers post releases and the monthly highlight; others can react and comment. Almost no upkeep.
+2. **A few categories, best-effort replies.** Announcements, Q&A (answered by the community), Show and tell, Polls (book and film club), General. Review during the monthly triage only.
+3. **Routed into triage.** As 2, with new discussions listed in the monthly checklist issue. Only once there are volunteers.
+
+Recommended: start with 1 and move to 2 when the community reviewer and maintainer roles have volunteers.
+
+Set up (in **Discussions → the pencil beside Categories**):
+1. Keep **Announcements** (announcement format: only maintainers can post). Delete or keep **Ideas**: ideas belong in the issue forms so that they appear on the hub, so it is clearer to delete it.
+2. For option 2, keep or create **Q&A** (question and answer format), **Show and tell**, **Polls** (poll format) and **General**. The forms in `.github/DISCUSSION_TEMPLATE/` (`q-a.yml`, `show-and-tell.yml`, `general.yml`) apply automatically when the category's slug matches the file name; each reminds people that discussions are public and that corrections and bugs go through the issue forms.
+3. Post and pin a welcome in Announcements: what Discussions are for, that replies are best effort, and the link to the issue forms.
+4. Moderation is as for issues (section 7): edit or delete personal data, delete earlier revisions, hide or lock threads.
+5. To return to fewer categories later, delete a category and move its discussions; turning Discussions off keeps the content read-only.
 
 ## 13. When something goes wrong
 | Problem | What to do |
@@ -171,8 +204,11 @@ Recommended: start with 2 and move to 3 when the community reviewer and maintain
 | A security report arrives | Acknowledge within 7 days in the private advisory; fix; publish the advisory with credit if wanted |
 | Ideas are missing from the hub | Check the issue has the `idea` or `wishlist` label and not `needs-redaction`, and that its title and text hold no email address, phone number or National Insurance number (those are never published); run the Pages workflow; `ideas.json` is at `…/ideas.json` |
 | The link check reports hundreds of failures | Usually a network problem on the runner; re-run it before acting |
+| An `uptime` issue opens | Open the website; check githubstatus.com; re-run **Deploy hub to GitHub Pages**. The issue closes itself when the next check passes |
+| A release did not appear after merging | **Actions → Release**: if it says the release notes have no section, add it and re-run; or push the tag by hand (section 9) |
+| Scorecard reports a new finding | It names the practice (for example an unpinned action or a token with too much access); fix it in a pull request |
 
 ## 14. Quarterly and annual tasks
 **Quarterly:** accessibility check with assistive technology (keyboard, a screen reader, 200% zoom); community review of new content; data refresh of dashboards and benchmarks when new official statistics are published; review of open `help wanted` issues.
 
-**Annually:** in January, plan the year and confirm volunteer roles; in September, prepare the Black History Month season (theme, calendar, posters); after October, an annual review and release; review this guide, the settings checklist and the governance document; renew `Expires` in `site/.well-known/security.txt` (due 25 October 2027).
+**Annually:** rehearse moving host from the latest release (see [operations.md](operations.md#moving-host-disaster-recovery)) and refresh the off-GitHub mirror clone; in January, plan the year and confirm volunteer roles; in September, prepare the Black History Month season (theme, calendar, posters); after October, an annual review and release; review this guide, the settings checklist and the governance document; renew `Expires` in `site/.well-known/security.txt` (due 25 October 2027).

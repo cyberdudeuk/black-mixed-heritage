@@ -1,0 +1,44 @@
+# Checks every six hours that the website, its open data and the ideas list answer, and that the page
+# is the hub and not an error page. Opens (or comments on) an issue labelled "uptime" if anything fails,
+# and closes it again when everything is back.
+name: Website health
+on:
+  schedule:
+    - cron: "11 */6 * * *"
+  workflow_dispatch:
+permissions:
+  issues: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        with:
+          script: |
+            const base = 'https://cyberdudeuk.github.io/black-mixed-heritage/';
+            const probes = [
+              ['', t => t.includes('Honouring Our Communities') && t.includes('__selfcheck')],
+              ['data/bhm2026-events.ics', t => t.startsWith('BEGIN:VCALENDAR')],
+              ['data/bhm2026-hub.jsonld', t => t.trim().startsWith('{')],
+              ['ideas.json', t => { try { return Array.isArray(JSON.parse(t).items); } catch (e) { return false; } }],
+              ['.well-known/security.txt', t => t.includes('Contact:')]
+            ];
+            const bad = [];
+            for (const [path, ok] of probes) {
+              let status = 0, text = '';
+              for (let attempt = 0; attempt < 3; attempt++) {
+                try { const r = await fetch(base + path, { cache: 'no-store' }); status = r.status; text = await r.text(); if (status === 200 && ok(text)) break; } catch (e) { status = -1; }
+                await new Promise(r => setTimeout(r, 20000));
+              }
+              if (status !== 200 || !ok(text)) bad.push(`- \`${path || '/'}\`: HTTP ${status}${status === 200 ? ', unexpected content' : ''}`);
+            }
+            const open = (await github.rest.issues.listForRepo({ ...context.repo, state: 'open', labels: 'uptime', per_page: 1 })).data[0];
+            if (bad.length) {
+              const body = `The website health check failed at ${new Date().toISOString()}:\n\n${bad.join('\n')}\n\nSee the admin guide, section 13.`;
+              if (open) await github.rest.issues.createComment({ ...context.repo, issue_number: open.number, body });
+              else await github.rest.issues.create({ ...context.repo, title: 'Website health check failed', body, labels: ['uptime'] });
+              core.setFailed(bad.join('; '));
+            } else if (open) {
+              await github.rest.issues.createComment({ ...context.repo, issue_number: open.number, body: 'All checks pass again.' });
+              await github.rest.issues.update({ ...context.repo, issue_number: open.number, state: 'closed' });
+            }

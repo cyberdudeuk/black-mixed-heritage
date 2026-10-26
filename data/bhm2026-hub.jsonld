@@ -8,7 +8,7 @@
       "@type": "CreativeWork",
       "@id": "urn:bhm26:hub",
       "name": "Black History Month 2026 Hub",
-      "version": "2.19.1",
+      "version": "2.20.0",
       "dateModified": "2026-10-21",
       "about": "Honouring Our Communities"
     },
@@ -10554,7 +10554,7 @@
       "name": "Black and British: A Forgotten History (2016)",
       "isPartOf": "urn:bhm26:dataset-books",
       "citation": [
-        "https://en.wikipedia.org/wiki/Black_and_British:_A_Forgotten_History"
+        "https://www.un.org/en/observances/end-racism-day"
       ]
     },
     {
@@ -10563,7 +10563,7 @@
       "name": "Girl, Woman, Other (2019)",
       "isPartOf": "urn:bhm26:dataset-books",
       "citation": [
-        "https://en.wikipedia.org/wiki/Girl,_Woman,_Other"
+        "https://news.un.org/en/node/578742"
       ]
     },
     {
@@ -10572,7 +10572,7 @@
       "name": "Small Island (2004)",
       "isPartOf": "urn:bhm26:dataset-books",
       "citation": [
-        "https://en.wikipedia.org/wiki/Small_Island_(novel)"
+        "https://www.gov.uk/government/news/annual-day-of-celebrations-for-the-windrush-generation"
       ]
     },
     {
@@ -10581,7 +10581,7 @@
       "name": "Things Fall Apart (1958)",
       "isPartOf": "urn:bhm26:dataset-books",
       "citation": [
-        "https://en.wikipedia.org/wiki/Things_Fall_Apart"
+        "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/georgians/1833-abolition-of-slavery-act-and-compensation-claims/"
       ]
     },
     {
@@ -10590,7 +10590,7 @@
       "name": "Half of a Yellow Sun (2006)",
       "isPartOf": "urn:bhm26:dataset-books",
       "citation": [
-        "https://en.wikipedia.org/wiki/Half_of_a_Yellow_Sun"
+        "https://www.unesco.org/en/days/slave-trade-remembrance"
       ]
     },
     {
@@ -10599,7 +10599,7 @@
       "name": "Natives: Race and Class in the Ruins of Empire (2018)",
       "isPartOf": "urn:bhm26:dataset-books",
       "citation": [
-        "https://en.wikipedia.org/wiki/Natives:_Race_and_Class_in_the_Ruins_of_Empire",
+        "https://www.georgepadmoreinstitute.org/collections/new-cross-massacre-campaign-1980-1985",
         "https://www.rmg.co.uk/collections/library/rmgl-157007"
       ]
     },

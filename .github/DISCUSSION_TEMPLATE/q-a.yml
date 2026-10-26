@@ -1,0 +1,36 @@
+title: "Question: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask a question about using the hub, its sources or running an event. Replies are from volunteers and are **best effort**.
+        - To report a wrong fact, a bug or an accessibility barrier, please use an [issue form](https://github.com/cyberdudeuk/black-mixed-heritage/issues/new/choose) instead: those are tracked and fixed.
+        - Discussions are public. Do not include personal or sensitive information about yourself or anyone else.
+  - type: dropdown
+    id: page
+    attributes:
+      label: Which part of the hub is this about?
+      options:
+        - Not about one page
+        - This month (calendar, toolkit, posters, clubs)
+        - Lead (leaders, inequalities, benchmarks, careers)
+        - Learn (history, innovation, culture, futures)
+        - Understand (identity, language, myths, debates)
+        - Resources (schools, curriculum, partners, media)
+        - About (guide, checks, assurance)
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: My question holds no personal or sensitive information
+          required: true

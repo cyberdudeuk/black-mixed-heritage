@@ -108,5 +108,15 @@
   "name": "dependencies",
   "color": "0366d6",
   "description": "Updates to the tools the workflows and tests use"
+ },
+ {
+  "name": "uptime",
+  "color": "b60205",
+  "description": "The website health check found a problem"
+ },
+ {
+  "name": "release",
+  "color": "0e8a16",
+  "description": "Release planning and publishing"
  }
 ]

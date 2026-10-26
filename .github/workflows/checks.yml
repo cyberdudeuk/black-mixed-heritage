@@ -1,4 +1,4 @@
-# Runs on every pull request and push to main: a privacy scan, the hub's in-page self-checks on both editions
+# Runs on every pull request and push to main: a privacy scan, open-data and licence checks, the hub's in-page self-checks on both editions
 # (after checking the committed pages match a fresh build), and an axe-core accessibility scan of every page.
 name: Checks
 on:
@@ -12,7 +12,9 @@ jobs:
   privacy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
       - name: No personal contact details or private links in the repository
         run: |
           set +e
@@ -21,11 +23,17 @@ jobs:
           echo "clean"
       - name: Nothing personal inside the built pages or their embedded files
         run: python3 tests/privacy_scan.py dist/bhm-2026-hub.html site/index.html
+      - name: Open data and website files are valid, sourced and within size budgets
+        run: python3 tests/validate_data.py
+      - name: Every vendored file and dependency has a recorded licence
+        run: python3 tests/licence_check.py
   selfchecks:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
-      - uses: actions/setup-node@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
           node-version: 22
       - name: Install dependencies and Chromium
@@ -39,12 +47,16 @@ jobs:
           git diff --stat --exit-code -- dist/bhm-2026-hub.html site/index.html || { echo "::error::dist/ or site/ is out of date: run npm run build:all and commit"; exit 1; }
       - name: Run the in-page self-checks
         run: npm run -s test:quick
+      - name: Checks of the checks (each check must fail on an injected defect)
+        run: bash tests/negative.sh
   accessibility:
     runs-on: ubuntu-latest
     timeout-minutes: 60 # about 30 minutes: 55 pages at two widths
     steps:
-      - uses: actions/checkout@v7
-      - uses: actions/setup-node@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
           node-version: 22
       - name: Install dependencies and Chromium

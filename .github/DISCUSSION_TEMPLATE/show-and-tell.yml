@@ -1,0 +1,33 @@
+title: "Show and tell: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell others how you used the hub: an event, a lesson, a club meeting, a poster. Others can learn from it.
+        Public: do not name private individuals, and only share photos of people with their consent (better still, none).
+  - type: input
+    id: what
+    attributes:
+      label: What did you do?
+      placeholder: "For example: a lunchtime talk using the History page and two posters"
+    validations:
+      required: true
+  - type: dropdown
+    id: setting
+    attributes:
+      label: Setting
+      options: [Workplace, School or college, Community group, Faith group, Online, Other]
+  - type: textarea
+    id: story
+    attributes:
+      label: How it went and what you would tell someone trying it
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: I have not named private individuals or included personal information
+          required: true

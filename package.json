@@ -1,11 +1,13 @@
 {
   "name": "black-mixed-heritage",
-  "version": "2.19.1",
+  "version": "2.20.0",
   "private": true,
   "description": "BHM 2026 Hub: Black and Black-Mixed history, heritage and cultures, Africa and the African diaspora. Source, build and tests.",
   "license": "MIT",
   "type": "module",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "build": "cd src && cp src.v14.html src.html && python3 patch_v15.py && node build.mjs https://cyberdudeuk.github.io/black-mixed-heritage/ ../dist/bhm-2026-hub.html && rm -f src.html",
     "build:pages": "cd src && cp src.v14.html src.html && python3 patch_v15.py && node build_pages.mjs https://cyberdudeuk.github.io/black-mixed-heritage/ ../site && rm -f src.html",
@@ -14,7 +16,11 @@
     "test:quick": "node tests/ci-selfcheck.mjs site/index.html dist/bhm-2026-hub.html",
     "test": "node tests/test.mjs",
     "test:negative": "node tests/test.mjs --negative",
-    "check:privacy": "python3 tests/privacy_scan.py dist/bhm-2026-hub.html site/index.html"
+    "check:privacy": "python3 tests/privacy_scan.py dist/bhm-2026-hub.html site/index.html",
+    "check:data": "python3 tests/validate_data.py",
+    "check:licences": "python3 tests/licence_check.py",
+    "test:checks": "bash tests/negative.sh",
+    "test:a11y": "node tests/ci-axe.mjs site/index.html"
   },
   "devDependencies": {
     "@fontsource/atkinson-hyperlegible": "5.3.0",

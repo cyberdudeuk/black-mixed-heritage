@@ -6,6 +6,7 @@ import { readFileSync } from 'fs';
 import { createRequire } from 'module';
 import { resolve } from 'path';
 const require = createRequire(import.meta.url);
+// Waits are part of the test: a scan taken mid-animation or before charts are re-marked reports false failures.
 const AXE = readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8');
 const file = resolve(process.argv[2] || 'site/index.html');
 const browser = await chromium.launch();
@@ -16,6 +17,9 @@ for (const [w, scheme] of [[1280, 'light'], [390, 'dark']]) {
   await page.goto('file://' + file);
   await page.waitForFunction(() => window.__selfcheck && window.__selfcheck.total, null, { timeout: 120000 });
   await page.addScriptTag({ content: AXE });
+  // Hold the Overview highlights carousel, as hovering or focusing it does for a reader: it crossfades every
+  // 7 seconds, and a scan that lands mid-crossfade measures a half-faded button as a contrast failure.
+  await page.evaluate(() => { if (typeof slideHold !== 'undefined') slideHold = true; });
   const views = await page.evaluate(() => VIEWS.map(v => v[0]));
   for (const v of views) {
     await page.evaluate(v => { location.hash = v; }, v);
@@ -23,6 +27,12 @@ for (const [w, scheme] of [[1280, 'light'], [390, 'dark']]) {
     await page.mouse.move(1, 1);
     await page.evaluate(() => { if (document.activeElement) document.activeElement.blur(); if (typeof hideTip2 === 'function') hideTip2(true); });
     await page.waitForTimeout(600); // let on-demand charts draw and scroll regions be marked (300 ms debounce in the page)
+    // Wait for finite animations and transitions (fade-ins) to end: axe measures colours as drawn, so a button
+    // scanned mid-fade reports a false contrast failure. Capped at 3 s; endless animations are ignored.
+    await page.evaluate(() => Promise.race([
+      Promise.all(document.getAnimations().filter(a => a.effect && a.effect.getComputedTiming().endTime !== Infinity).map(a => a.finished.catch(() => {}))),
+      new Promise(r => setTimeout(r, 3000))]));
+    await page.waitForTimeout(350); // one more marking pass after anything the animations revealed
     const found = await page.evaluate(async v => (await axe.run({ include: [['#v-' + v], ['header'], ['#main-nav'], ['footer']].filter(([sel]) => document.querySelector(sel)) }, { runOnly: { type: 'tag', values: ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa'] }, resultTypes: ['violations'] })).violations.map(x => x.id + ': ' + x.nodes.slice(0, 2).map(n => n.target.join(' ')).join(' | ')), v);
     found.forEach(x => all.push(`${w}px ${scheme} #${v} ${x}`));
   }

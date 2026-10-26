@@ -10,6 +10,11 @@ The hub is a static site with no server, database or login of its own. Relevant 
 - a workflow that could be abused to write to the repository or publish content;
 - personal data found anywhere in the site or the repository.
 
+## Verifying downloads
+Each release carries `SHA256SUMS.txt` and a signed build-provenance attestation. Check a file with `sha256sum -c SHA256SUMS.txt` or `gh attestation verify bhm-2026-hub.html --repo cyberdudeuk/black-mixed-heritage`.
+
+How the repository protects itself (pinned actions, least-privilege tokens, scanning) is set out in [docs/operations.md](docs/operations.md#4-secure-controls-and-threat-model).
+
 ## Report a problem privately
 Do not open a public issue. Use **Security → Report a vulnerability** on this repository (GitHub private vulnerability reporting). Include what you found, how to reproduce it and the page or file affected.
 

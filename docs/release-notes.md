@@ -1,8 +1,19 @@
 # BHM 2026 Hub: release notes and verification log
 
-Repository: https://github.com/cyberdudeuk/black-mixed-heritage. Current version: 2.19.1 (25 October 2026).
+Repository: https://github.com/cyberdudeuk/black-mixed-heritage. Current version: 2.20.0 (25 October 2026).
 
 
+
+## 2.20.0 (25 October 2026): a resilient, secure and self-releasing repository
+- **Accessibility:** the masthead logo, the futures quadrants, the network map and the knowledge-graph nodes now have accessible names that contain their visible text, including labels shortened to fit (WCAG 2.5.3 Label in Name). Found by axe-core 4.14 when Dependabot updated the CI scanner; a new self-check (C163) confirms it on whichever page is open. Shown failing on 2.19.1 and passing on 2.20.0 at 1280px and 390px.
+- **Sources:** five observance days in the calendar (International Day for the Elimination of Racial Discrimination; the International Day of Remembrance of the Victims of Slavery and the Transatlantic Slave Trade; Windrush Day; Emancipation Day; the International Day for the Remembrance of the Slave Trade and its Abolition) and the New Cross fire remembrance now cite authoritative sources (UN, UN News, GOV.UK, The National Archives, UNESCO, George Padmore Institute). Found by the new open-data validator.
+- **Releases:** merging a new version publishes the GitHub release automatically, with the single-file hub, open data, Teams app, SHA-256 checksums and a signed build-provenance attestation. Release policy, hotfixes and rollback are in `docs/release-management.md`.
+- **Checks in CI:** open data and website files (sources, ICS and JSON agree, linked data, `security.txt` expiry, page-weight budgets); third-party licences; and checks of the checks (`tests/negative.sh` injects four known defects and fails if any check misses one).
+- **Security:** every action pinned to a commit, read-only default tokens with per-job permissions, no persisted checkout credentials, and an OpenSSF Scorecard workflow. A licence assessment and third-party notices (`THIRD_PARTY_NOTICES.md`).
+- **Monitoring:** a website health check every six hours opens an `uptime` issue if the website, calendar, linked data, ideas list or security contact fails, and closes it when they recover.
+- **Wiki and Discussions:** the wiki is generated from `docs/wiki/` on merge; discussion forms for Q&A, Show and tell and General steer corrections and bugs to the issue forms. An optional workflow adds issues to the project board.
+- **Documentation:** `docs/operations.md` (robustness, resilience, backup and moving host, threat model, capacity, sustainability, monitoring, engineering standards), `docs/release-management.md`, eight architecture decision records, and updated admin guide and README.
+- Verified: 163/163 in-page checks on both editions at 1280px light and 390px dark; privacy scan, data validation and licence check clean; all four injected defects caught; axe-core 4.14 on all pages at both widths (see the pull request); the health check run against the live website returned 200 and the expected content for all five addresses.
 
 ## 2.19.1 (25 October 2026): keyboard access to redrawn charts
 - The new accessibility scan in CI found the volunteer-hours chart on Help run the hub scrolling sideways at phone width without a keyboard tab stop for a moment after it was drawn. Charts and tables redrawn after start-up are now re-marked straight away, and a new self-check (C162) confirms every sideways-scrolling region on the page in view can be reached by keyboard. Shown failing on 2.19.0 with a simulated redraw and passing on 2.19.1.
