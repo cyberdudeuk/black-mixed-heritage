@@ -1,0 +1,597 @@
+[
+ {
+  "theme": "Getting in: where to start and what roles exist",
+  "questions": [
+   "How do I get a job in government at all – where do I start?",
+   "Is the Civil Service only desk and admin jobs, or are there tech, law and science roles?",
+   "Which department or profession fits someone like me?",
+   "Is there a route in if I have no contacts inside government?"
+  ],
+  "see": [
+   [
+    "jnroutes",
+    null
+   ]
+  ],
+  "evidence": [
+   {
+    "url": "https://civilservicelocal.blog.gov.uk/2016/09/22/promoting-the-civil-service/",
+    "title": "Civil Service Local blog (GOV.UK): Promoting the Civil Service – school careers fair (22 September 2016)"
+   },
+   {
+    "url": "https://www.openaccessgovernment.org/?p=135648",
+    "title": "Open Access Government: 56% of Black people in tech felt unable to negotiate salary (16 May 2022), reporting Colorintech and Meta research"
+   },
+   {
+    "url": "https://digitalpeople.blog.gov.uk/2018/12/20/inspiring-students-to-work-in-government-digital-data-and-technology-roles/",
+    "title": "Digital People blog (GOV.UK): Inspiring students to work in government digital, data and technology roles (20 December 2018)"
+   },
+   {
+    "url": "https://www.civil-service-careers.gov.uk/home/civil-service-experienced-careers/",
+    "title": "Civil Service Careers: Experienced careers (undated; read 29 October 2026)"
+   },
+   {
+    "url": "https://www.bcs.org/policy-and-influence/equity-diversity-and-inclusion/bcs-diversity-report-2024-ethnicity/ethnicity-key-findings/",
+    "title": "BCS: Diversity report 2024 – Ethnicity: key findings (2024; page undated)"
+   }
+  ]
+ },
+ {
+  "theme": "Applying and preparing for interview",
+  "questions": [
+   "What are Success Profiles and behaviours, and how do I write about them?",
+   "What will the interview be like – how long, who is on the panel, what do they ask?",
+   "Will there be online tests, and can I practise?",
+   "Can I use AI tools like ChatGPT to help with my application?",
+   "How many stages are there?"
+  ],
+  "see": [
+   [
+    "jnapply",
+    null
+   ],
+   [
+    "jninterview",
+    null
+   ]
+  ],
+  "evidence": [
+   {
+    "url": "https://www.civil-service-careers.gov.uk/assessments-and-interviews/",
+    "title": "Civil Service Careers: Assessments and interviews (undated; read 29 October 2026)"
+   },
+   {
+    "url": "https://www.civil-service-careers.gov.uk/a-guide-to-civil-service-success-profiles/",
+    "title": "Civil Service Careers: A guide to Civil Service Success Profiles (undated; read 29 October 2026)"
+   },
+   {
+    "url": "https://www.civil-service-careers.gov.uk/artificial-intelligence-and-recruitment/",
+    "title": "Civil Service Careers: A candidate's guide to AI in recruitment (undated; read 29 October 2026)"
+   },
+   {
+    "url": "https://www.bcs.org/media/9808/cbf-report-2022.pdf",
+    "title": "BCS and Coding Black Females: Experience of Black Women in IT report (October 2022)"
+   },
+   {
+    "url": "https://luma.com/progressinpublictwo",
+    "title": "Colorintech Events (Luma): Progress in Public – A Day in the Life of Digital and Data Non-Technical Civil Servants (20 August 2025)"
+   }
+  ]
+ },
+ {
+  "theme": "A typical day in a government digital role, and the tech used",
+  "questions": [
+   "What does a developer, user researcher or delivery manager actually do day to day?",
+   "Is government work slow and bureaucratic?",
+   "Will I be coding, or in meetings all day?",
+   "What is the team set-up – agile, multidisciplinary?",
+   "What languages and tools do government teams use?",
+   "Do you use open source and cloud?",
+   "Will I be able to keep my skills current?"
+  ],
+  "see": [
+   [
+    "jnday",
+    "typical day"
+   ],
+   [
+    "jnroutes",
+    "Digital"
+   ]
+  ],
+  "evidence": [
+   {
+    "url": "https://gds.blog.gov.uk/2021/09/15/working-at-gds-as-a-developer/",
+    "title": "GDS blog: Working at GDS as a developer (15 September 2021)"
+   },
+   {
+    "url": "https://gds.blog.gov.uk/2021/09/15/working-at-gds-as-a-developer/",
+    "title": "GDS blog: Working at GDS as a developer (15 September 2021)"
+   },
+   {
+    "url": "https://luma.com/progressinpublictwo",
+    "title": "Colorintech Events (Luma): Progress in Public – A Day in the Life of Digital and Data Non-Technical Civil Servants (20 August 2025)"
+   },
+   {
+    "url": "https://dvsadigital.blog.gov.uk/2016/11/18/finding-new-digital-talent-our-first-digital-open-day/",
+    "title": "DVSA Digital blog (GOV.UK): Finding new digital talent – our first digital open day (18 November 2016)"
+   },
+   {
+    "url": "https://digitalpeople.blog.gov.uk/2018/12/20/inspiring-students-to-work-in-government-digital-data-and-technology-roles/",
+    "title": "Digital People blog (GOV.UK): Inspiring students to work in government digital, data and technology roles (20 December 2018)"
+   },
+   {
+    "url": "https://gds-way.digital.cabinet-office.gov.uk/standards/programming-languages.html",
+    "title": "The GDS Way: Programming languages (undated standard; read 29 October 2026)"
+   },
+   {
+    "url": "https://digitalpeople.blog.gov.uk/2018/11/06/government-is-hiring-visit-us-at-tech-job-fair-silicon-milkroundabout",
+    "title": "Digital People blog (GOV.UK): Government is hiring – visit us at tech job fair Silicon Milkroundabout (6 November 2018)"
+   },
+   {
+    "url": "https://www.civil-service-careers.gov.uk/workingforthecivilservice/",
+    "title": "Civil Service Careers: Working for the Civil Service (undated; read 29 October 2026)"
+   }
+  ]
+ },
+ {
+  "theme": "Visas, nationality and sponsorship",
+  "questions": [
+   "I'm on a visa – can I apply for a Civil Service job?",
+   "Will a department sponsor me on a Skilled Worker visa?",
+   "I'm on a dependant visa – am I eligible?",
+   "Are some roles British-citizens-only?"
+  ],
+  "see": [
+   [
+    "cvisa",
+    null
+   ]
+  ],
+  "evidence": [
+   {
+    "url": "https://www.civil-service-careers.gov.uk/nationality-requirements",
+    "title": "Civil Service Careers: Fast Stream nationality requirements (undated; read 29 October 2026)"
+   },
+   {
+    "url": "https://www.civil-service-careers.gov.uk/nationality-requirements",
+    "title": "Civil Service Careers: Fast Stream nationality requirements (undated; read 29 October 2026)"
+   },
+   {
+    "url": "https://www.civil-service-careers.gov.uk/nationality-requirements",
+    "title": "Civil Service Careers: Fast Stream nationality requirements (undated; read 29 October 2026)"
+   },
+   {
+    "url": "https://www.gov.uk/government/publications/nationality-rules/civil-service-nationality-rules-html",
+    "title": "Cabinet Office (GOV.UK): Civil Service Nationality Rules (updated 8 August 2023)"
+   }
+  ]
+ },
+ {
+  "theme": "Work–life balance and second chances: parents, returners, veterans, prison leavers",
+  "questions": [
+   "Can I work part-time, compressed hours or job share?",
+   "I've had a long career break to raise children – will my CV be taken seriously?",
+   "Will the role fit around school hours and caring responsibilities?",
+   "Is there a returners programme?",
+   "Can I join with a criminal conviction?",
+   "When do I have to declare a conviction?",
+   "Is there support for veterans leaving the armed forces?",
+   "Are there schemes for people facing barriers to work?"
+  ],
+  "see": [
+   [
+    "cfamily",
+    null
+   ],
+   [
+    "creturn",
+    null
+   ],
+   [
+    "cvets",
+    null
+   ],
+   [
+    "csecond",
+    null
+   ]
+  ],
+  "evidence": [
+   {
+    "url": "https://www.civil-service-careers.gov.uk/workingforthecivilservice/",
+    "title": "Civil Service Careers: Working for the Civil Service (undated; read 29 October 2026)"
+   },
+   {
+    "url": "https://hodigital.blog.gov.uk/2021/01/21/women-returners-at-the-home-office/",
+    "title": "Home Office Digital blog (GOV.UK): Women returners at the Home Office (21 January 2021)"
+   },
+   {
+    "url": "https://www.bcs.org/media/9808/cbf-report-2022.pdf",
+    "title": "BCS and Coding Black Females: Experience of Black Women in IT report (October 2022)"
+   },
+   {
+    "url": "https://news.virginmediao2.co.uk/toxic-tech-bros-1-in-5-men-believe-women-are-less-suited-to-tech-roles/",
+    "title": "Virgin Media O2 News: Fawcett Society 'System Update' report on the gender gap in tech (30 October 2023)"
+   },
+   {
+    "url": "https://www.civil-service-careers.gov.uk/guide-to-job-sharing/",
+    "title": "Civil Service Careers: A guide to Civil Service job sharing (undated; read 29 October 2026)"
+   },
+   {
+    "url": "https://www.civil-service-careers.gov.uk/prison-leaver-recruitment/",
+    "title": "Civil Service Careers: Prison leaver recruitment (undated; read 29 October 2026)"
+   },
+   {
+    "url": "https://www.civil-service-careers.gov.uk/prison-leaver-recruitment/",
+    "title": "Civil Service Careers: Prison leaver recruitment (undated; read 29 October 2026)"
+   },
+   {
+    "url": "https://www.civil-service-careers.gov.uk/prison-leaver-recruitment/",
+    "title": "Civil Service Careers: Prison leaver recruitment (undated; read 29 October 2026)"
+   },
+   {
+    "url": "https://www.civil-service-careers.gov.uk/about-gfie/",
+    "title": "Civil Service Careers: Going Forward into Employment (undated; read 29 October 2026)"
+   },
+   {
+    "url": "https://www.civil-service-careers.gov.uk/great-place-to-work-for-veterans/",
+    "title": "Civil Service Careers: Great Place to Work for Veterans scheme (undated; read 29 October 2026)"
+   }
+  ]
+ },
+ {
+  "theme": "Pay, grades and progression",
+  "questions": [
+   "What does each grade (EO, HEO, SEO, G7) mean and what does it pay?",
+   "Is government tech pay competitive with the private sector?",
+   "Can I negotiate my starting salary?",
+   "How fast can I progress, and what are the 'unwritten rules'?"
+  ],
+  "see": [
+   [
+    "jnroutes",
+    "Grades"
+   ],
+   [
+    "jnday",
+    "Pension|leave"
+   ]
+  ],
+  "evidence": [
+   {
+    "url": "https://www.civil-service-careers.gov.uk/civil-service-grades-and-pay/",
+    "title": "Civil Service Careers: Civil Service grades and salaries (undated; read 29 October 2026)"
+   },
+   {
+    "url": "https://www.openaccessgovernment.org/?p=135648",
+    "title": "Open Access Government: 56% of Black people in tech felt unable to negotiate salary (16 May 2022), reporting Colorintech and Meta research"
+   },
+   {
+    "url": "https://techinformed.com/black-tech-fest-2023-adding-some-seasoning-to-the-scene/",
+    "title": "TechInformed: Black Tech Fest 2023 – adding some seasoning to the scene (21 October 2023)"
+   },
+   {
+    "url": "https://www.civilserviceworld.com/professions/article/uncompetitive-tech-salaries-hindering-recruitment-and-retention-and-missions",
+    "title": "Civil Service World: Uncompetitive tech salaries hindering recruitment, retention – and missions, report warns (21 January 2025)"
+   },
+   {
+    "url": "https://www.gov.uk/government/publications/navigating-the-labyrinth/navigating-the-labyrinth-socio-economic-background-and-career-progression-within-the-civil-service",
+    "title": "Social Mobility Commission: Navigating the labyrinth – socio-economic background and career progression within the Civil Service (20 May 2021)"
+   }
+  ]
+ },
+ {
+  "theme": "Do I need a degree or a technical background?",
+  "questions": [
+   "Do I need a degree to join?",
+   "Do I need a 2:1 or a Russell Group degree for the Fast Stream?",
+   "Can I get into government tech without a computer science background?",
+   "Are apprenticeships an option if I'm older or changing career?"
+  ],
+  "see": [
+   [
+    "jnroutes",
+    "Apprenticeships|Fast Stream"
+   ],
+   [
+    "cother",
+    "without a degree"
+   ]
+  ],
+  "evidence": [
+   {
+    "url": "https://www.instituteforgovernment.org.uk/explainer/civil-service-fast-stream",
+    "title": "Institute for Government: Civil Service Fast Stream explainer (updated 9 October 2024)"
+   },
+   {
+    "url": "https://framestore.com/news/black-tech-fest",
+    "title": "Framestore: Black Tech Fest – speaker takeaways (13 October 2022)"
+   },
+   {
+    "url": "https://www.civil-service-careers.gov.uk/home/civil-service-experienced-careers/",
+    "title": "Civil Service Careers: Experienced careers (undated; read 29 October 2026)"
+   },
+   {
+    "url": "https://www.bcs.org/media/9808/cbf-report-2022.pdf",
+    "title": "BCS and Coding Black Females: Experience of Black Women in IT report (October 2022)"
+   },
+   {
+    "url": "https://assets.publishing.service.gov.uk/media/6aaa4fcd086ce7c57b818545/Fast_Stream_Annual_Report_2026_V5.pdf",
+    "title": "Cabinet Office: Fast Stream Annual Report 2026 tables, PDF (September 2026)"
+   }
+  ]
+ },
+ {
+  "theme": "Racism, culture and belonging inside government",
+  "questions": [
+   "Will I be the only Black person in the team?",
+   "Is there racism or discrimination in the Civil Service?",
+   "What happens if I experience bullying or a microaggression?",
+   "Is the diversity talk real or performative?"
+  ],
+  "see": [
+   [
+    "jnday",
+    "networks|Race Champion"
+   ],
+   [
+    "jnbarriers",
+    "discrimination|Ethnic minority"
+   ]
+  ],
+  "evidence": [
+   {
+    "url": "https://www.kcl.ac.uk/policy-institute/assets/trends-in-bullying-discrimination-and-inclusion-in-the-civil-service-2025.pdf",
+    "title": "King's College London Policy Institute: Trends in bullying, discrimination and inclusion in the Civil Service, 2025 (December 2025)"
+   },
+   {
+    "url": "https://www.civilserviceworld.com/in-depth/article/people-survey-a-deep-dive-into-bullying-and-discrimination-trends",
+    "title": "Civil Service World: People Survey – a deep dive into bullying and discrimination trends (22 December 2025)"
+   },
+   {
+    "url": "https://peopleofcolorintech.com/articles/this-is-why-some-black-women-are-leaving-the-tech-industry/",
+    "title": "POCIT: This is why some Black women are leaving the tech industry – Black Tech Fest 2025 panel (10 October 2025)"
+   },
+   {
+    "url": "https://www.bcs.org/media/9808/cbf-report-2022.pdf",
+    "title": "BCS and Coding Black Females: Experience of Black Women in IT report (October 2022)"
+   },
+   {
+    "url": "https://news.virginmediao2.co.uk/toxic-tech-bros-1-in-5-men-believe-women-are-less-suited-to-tech-roles/",
+    "title": "Virgin Media O2 News: Fawcett Society 'System Update' report on the gender gap in tech (30 October 2023)"
+   }
+  ]
+ },
+ {
+  "theme": "Networks, mentoring and sponsorship",
+  "questions": [
+   "Are there Black or ethnic minority staff networks I can join?",
+   "Can I get a mentor or a sponsor?",
+   "How do people get noticed for promotion?"
+  ],
+  "see": [
+   [
+    "jnday",
+    "networks|Race Champion"
+   ]
+  ],
+  "evidence": [
+   {
+    "url": "https://www.civil-service-careers.gov.uk/civil-service-networks/",
+    "title": "Civil Service Careers: Civil Service staff networks (undated; read 29 October 2026)"
+   },
+   {
+    "url": "https://civilservice.blog.gov.uk/civil-service-race-forum",
+    "title": "Civil Service blog (GOV.UK): Civil Service Race Forum (undated page; read 29 October 2026)"
+   },
+   {
+    "url": "https://framestore.com/news/black-tech-fest",
+    "title": "Framestore: Black Tech Fest – speaker takeaways (13 October 2022)"
+   },
+   {
+    "url": "https://black-recruiters-network.beehiiv.com/p/brn-black-tech-fest-and-more",
+    "title": "Black Recruiters Network newsletter: BRN @ Black Tech Fest...and more (15 October 2025)"
+   },
+   {
+    "url": "https://www.gov.uk/government/publications/navigating-the-labyrinth/navigating-the-labyrinth-socio-economic-background-and-career-progression-within-the-civil-service",
+    "title": "Social Mobility Commission: Navigating the labyrinth – socio-economic background and career progression within the Civil Service (20 May 2021)"
+   }
+  ]
+ },
+ {
+  "theme": "Hybrid working and location",
+  "questions": [
+   "How many days a week will I need to be in the office?",
+   "Do I have to live in London?",
+   "Can I work from a regional hub near me?"
+  ],
+  "see": [
+   [
+    "jnday",
+    "Hybrid"
+   ],
+   [
+    "cother",
+    "outside London"
+   ]
+  ],
+  "evidence": [
+   {
+    "url": "https://civilserviceworld.com/news/article/hybrid-working-6040-rule-is-here-to-stay-cabinet-office-says",
+    "title": "Civil Service World: Hybrid working 60:40 rule is here to stay, Cabinet Office says (24 October 2024)"
+   },
+   {
+    "url": "https://www.civil-service-careers.gov.uk/our-locations/",
+    "title": "Civil Service Careers: Our locations (undated; read 29 October 2026)"
+   },
+   {
+    "url": "https://www.gov.uk/government/publications/navigating-the-labyrinth/navigating-the-labyrinth-socio-economic-background-and-career-progression-within-the-civil-service",
+    "title": "Social Mobility Commission: Navigating the labyrinth – socio-economic background and career progression within the Civil Service (20 May 2021)"
+   },
+   {
+    "url": "https://www.bcs.org/media/9808/cbf-report-2022.pdf",
+    "title": "BCS and Coding Black Females: Experience of Black Women in IT report (October 2022)"
+   }
+  ]
+ },
+ {
+  "theme": "Security vetting worries",
+  "questions": [
+   "Will I pass security clearance if I've lived abroad or haven't been in the UK long?",
+   "Does a poor credit score or debt stop me getting clearance?",
+   "Can I get clearance with a criminal record?",
+   "How long does vetting take, and does it delay my start date?"
+  ],
+  "see": [
+   [
+    "jnvet",
+    "BPSS|clearance|residence"
+   ],
+   [
+    "csecond",
+    "Security checks"
+   ]
+  ],
+  "evidence": [
+   {
+    "url": "https://www.securityclearedjobs.com/staticpages/10296/security-cleared-jobs-mobile-app/",
+    "title": "SecurityClearedJobs.com: Security clearance questions answered (undated FAQ; read 29 October 2026)"
+   },
+   {
+    "url": "https://community.securityclearedjobs.com/article/what-is-security-clearance/",
+    "title": "SecurityClearedJobs.com: What is security clearance? (24 April 2026)"
+   },
+   {
+    "url": "https://www.securityclearedjobs.com/staticpages/10296/security-cleared-jobs-mobile-app/",
+    "title": "SecurityClearedJobs.com: Security clearance questions answered (undated FAQ; read 29 October 2026)"
+   },
+   {
+    "url": "https://www.gov.scot/publications/recruitment-candidate-guide/pages/pre-employment-checks/",
+    "title": "Scottish Government: Recruitment candidate guide – pre-employment checks (last updated 31 August 2026)"
+   },
+   {
+    "url": "https://www.gov.uk/government/publications/united-kingdom-security-vetting-clearance-levels/national-security-vetting-clearance-levels",
+    "title": "Cabinet Office (GOV.UK): National security vetting – clearance levels (updated 23 September 2024)"
+   }
+  ]
+ },
+ {
+  "theme": "Disability, neurodiversity and adjustments",
+  "questions": [
+   "Can I get questions in advance or extra time?",
+   "Will asking for adjustments count against me?",
+   "Does the Disability Confident scheme guarantee an interview?",
+   "Is there support once I'm in the job?"
+  ],
+  "see": [
+   [
+    "cother",
+    "Disability|Adjustments"
+   ]
+  ],
+  "evidence": [
+   {
+    "url": "https://www.civil-service-careers.gov.uk/reasonable-adjustments/",
+    "title": "Civil Service Careers: Reasonable adjustments (undated; read 29 October 2026)"
+   },
+   {
+    "url": "https://www.civil-service-careers.gov.uk/reasonable-adjustments/",
+    "title": "Civil Service Careers: Reasonable adjustments (undated; read 29 October 2026)"
+   },
+   {
+    "url": "https://www.jobs.gov.scot/?p=2026",
+    "title": "Scottish Government Jobs: Requesting adjustments – a candidate's experience (12 April 2024)"
+   },
+   {
+    "url": "https://www.civil-service-careers.gov.uk/disability-confident-scheme/",
+    "title": "Civil Service Careers: Disability Confident scheme (undated; read 29 October 2026)"
+   }
+  ]
+ },
+ {
+  "theme": "Moving from the private sector or a startup; contract and fixed-term roles",
+  "questions": [
+   "Will my private-sector or startup experience count?",
+   "Will I take a pay cut?",
+   "Can I join on secondment or a short contract first?",
+   "Is this role permanent or fixed-term?",
+   "Can I contract to government instead of joining?"
+  ],
+  "see": [
+   [
+    "jnroutes",
+    "secondment|outside government"
+   ],
+   [
+    "creturn",
+    "Changing career"
+   ]
+  ],
+  "evidence": [
+   {
+    "url": "https://www.civil-service-careers.gov.uk/home/civil-service-experienced-careers/",
+    "title": "Civil Service Careers: Experienced careers (undated; read 29 October 2026)"
+   },
+   {
+    "url": "https://www.civilserviceworld.com/professions/article/uncompetitive-tech-salaries-hindering-recruitment-and-retention-and-missions",
+    "title": "Civil Service World: Uncompetitive tech salaries hindering recruitment, retention – and missions, report warns (21 January 2025)"
+   },
+   {
+    "url": "https://www.civil-service-careers.gov.uk/home/civil-service-experienced-careers/",
+    "title": "Civil Service Careers: Experienced careers (undated; read 29 October 2026)"
+   },
+   {
+    "url": "https://civilservicecommission.independent.gov.uk/recruitment/exceptions",
+    "title": "Civil Service Commission: Exceptions to recruitment on merit (undated; read 29 October 2026)"
+   },
+   {
+    "url": "https://www.bcs.org/policy-and-influence/equity-diversity-and-inclusion/bcs-diversity-report-2024-ethnicity/ethnicity-key-findings/",
+    "title": "BCS: Diversity report 2024 – Ethnicity: key findings (2024; page undated)"
+   }
+  ]
+ },
+ {
+  "theme": "After you apply: how long it takes and feedback after rejection",
+  "questions": [
+   "How long until I hear back after interview?",
+   "Why are pre-employment checks taking so long?",
+   "Can I contact the recruiter for an update?",
+   "Will I get feedback if I'm rejected?",
+   "Why was I rejected without explanation?",
+   "Are rejections quicker than offers?"
+  ],
+  "see": [
+   [
+    "jninterview",
+    "feedback|Reserve"
+   ],
+   [
+    "jnvet",
+    "resign|Probation"
+   ]
+  ],
+  "evidence": [
+   {
+    "url": "https://www.publictechnology.net/2024/10/16/education-and-skills/cabinet-office-signs-22m-deal-for-new-government-jobs-tool-to-resolve-biggest-recruitment-challenges",
+    "title": "PublicTechnology: Cabinet Office signs £22m deal for new government jobs tool (16 October 2024)"
+   },
+   {
+    "url": "https://www.nao.org.uk/reports/recruiting-civil-servants-efficiently/",
+    "title": "National Audit Office: Recruiting civil servants efficiently (13 February 2009)"
+   },
+   {
+    "url": "https://www.civil-service-careers.gov.uk/assessments-and-interviews/",
+    "title": "Civil Service Careers: Assessments and interviews (undated; read 29 October 2026)"
+   },
+   {
+    "url": "https://www.civil-service-careers.gov.uk/fast-stream/fs-how-to-apply/fs-additional-information/",
+    "title": "Civil Service Careers: Fast Stream additional information stage (undated; read 29 October 2026)"
+   },
+   {
+    "url": "https://peopleofcolorintech.com/front/3-in-4-black-women-in-uk-tech-report-workplace-racism/",
+    "title": "POCIT: 3 in 4 Black women in UK tech report workplace racism (2 November 2023)"
+   }
+  ]
+ }
+]

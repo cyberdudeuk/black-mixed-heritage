@@ -1,6 +1,6 @@
 {
   "title": "BHM 2026 Hub pages",
-  "version": "2.25.0",
+  "version": "2.26.0",
   "generated": "2026-10-21",
   "pages": [
     {
@@ -266,6 +266,12 @@
       "title": "Current debates",
       "menu": "Understand",
       "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#debates"
+    },
+    {
+      "id": "joining",
+      "title": "Joining government",
+      "menu": "Resources",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#joining"
     },
     {
       "id": "learn",

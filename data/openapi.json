@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "BHM 2026 Hub open data",
-    "version": "2.25.0",
+    "version": "2.26.0",
     "description": "Read-only open data files published with the BHM 2026 Hub on GitHub Pages. No key or sign-in. Text is licensed under Creative Commons Attribution 4.0.",
     "license": {
       "name": "CC BY 4.0",

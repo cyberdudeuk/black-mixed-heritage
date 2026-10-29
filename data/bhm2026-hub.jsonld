@@ -8,7 +8,7 @@
       "@type": "CreativeWork",
       "@id": "urn:bhm26:hub",
       "name": "Black History Month 2026 Hub",
-      "version": "2.25.0",
+      "version": "2.26.0",
       "dateModified": "2026-10-21",
       "about": "Honouring Our Communities"
     },
@@ -6441,7 +6441,7 @@
     {
       "@type": "Action",
       "@id": "urn:bhm26:eqa-tech-2",
-      "name": "Algorithmic Transparency Recording Standard (DSIT/GDS)",
+      "name": "Algorithmic Transparency Recording Standard (UK government)",
       "description": "Mandatory for government departments and many ALBs to publish records of algorithmic tools; recommended for wider public sector.",
       "actionStatus": "in force",
       "agent": {
@@ -28082,6 +28082,853 @@
       "citation": [
         "https://ls-cts.unog.ch/sites/default/files/2019-05/CERD_GC_34_ENG-CHI_BT.html",
         "https://www.ecoi.net/en/file/local/1458448/1930_1551364867_g1900512.pdf"
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:bhm26:dataset-joining",
+      "name": "Joining government",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#joining",
+      "isPartOf": "urn:bhm26:hub"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnroutes-civil-service-jobs-is-where-you-find-and",
+      "name": "Civil Service Jobs is where you find and apply for roles",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/guidance/using-the-civil-service-jobs-website",
+        "https://www.civil-service-careers.gov.uk/home/civil-service-early-careers/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnroutes-fast-stream-the-graduate-leadership-prog",
+      "name": "Fast Stream: the graduate leadership programme, closing 5 November",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/fast-stream/",
+        "https://www.civil-service-careers.gov.uk/fast-stream/fs-how-to-apply/",
+        "https://www.instituteforgovernment.org.uk/explainer/civil-service-fast-stream",
+        "https://assets.publishing.service.gov.uk/media/68cd421fa1e4472207995dc1/Fast_Stream_Annual_Report_2025_V5.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnroutes-apprenticeships-earn-while-you-learn-fro",
+      "name": "Apprenticeships: earn while you learn from age 16",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/apprenticeships/",
+        "https://www.gov.uk/government/news/internship-scheme-to-get-more-working-class-students-into-civil-service",
+        "https://www.gov.uk/government/news/no-fast-track-application-window-in-2019",
+        "https://www.civilserviceworld.com/professions/article/cabinet-office-halts-fast-track-apprenticeship-applications-for-2019",
+        "https://www.civil-service-careers.gov.uk/home/civil-service-experienced-careers/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnroutes-summer-internship-programme-paid-placeme",
+      "name": "Summer Internship Programme: paid placements for students",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/fast-stream/fs-summer-internship-programme/",
+        "https://www.gov.uk/government/news/internship-scheme-to-get-more-working-class-students-into-civil-service",
+        "https://www.civilserviceworld.com/news/article/civil-service-internship-scheme-now-targets-only-working-class-applicants"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnroutes-supported-routes-for-people-facing-barri",
+      "name": "Supported routes for people facing barriers to work",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/about-gfie/",
+        "https://civilservicecommission.independent.gov.uk/recruitment-principles/exceptions/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnroutes-join-from-outside-government-or-come-in-",
+      "name": "Join from outside government, or come in on a secondment",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/home/civil-service-experienced-careers/",
+        "https://www.civil-service-careers.gov.uk/secondments/",
+        "https://civilservicecommission.independent.gov.uk/document/02a-recruitment-principles-april-2018-final/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnroutes-grades-run-from-administrative-assistant",
+      "name": "Grades run from administrative assistant to Senior Civil Service",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/civil-service-grades-and-pay/",
+        "https://www.instituteforgovernment.org.uk/explainer/civil-service-grades"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnroutes-digital-data-and-technology-roles-includ",
+      "name": "Digital, data and technology roles, including at GDS",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://understand-digital-data-roles-skills.service.gov.uk/",
+        "https://www.gov.uk/government/organisations/government-digital-service/about/recruitment",
+        "https://www.civil-service-careers.gov.uk/",
+        "https://www.gov.uk/government/organisations/government-digital-service"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnapply-success-profiles-the-five-things-you-may",
+      "name": "Success Profiles: the five things you may be assessed on",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/government/publications/success-profiles/success-profiles-candidate-overview",
+        "https://www.civil-service-careers.gov.uk/how-to-apply/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnapply-write-behaviour-examples-with-the-star-m",
+      "name": "Write behaviour examples with the STAR method",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/government/publications/success-profiles/success-profiles-candidate-overview",
+        "https://www.gov.uk/guidance/using-the-civil-service-jobs-website",
+        "https://www.civil-service-careers.gov.uk/artificial-intelligence-and-recruitment/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnapply-cvs-and-personal-statements-match-the-es",
+      "name": "CVs and personal statements: match the essential criteria",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/how-to-write-your-cv/",
+        "https://www.civil-service-careers.gov.uk/how-to-write-your-ps/",
+        "https://www.gov.uk/government/publications/success-profiles/success-profiles-candidate-overview"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnapply-the-sift-aim-for-at-least-4-out-of-7-on-",
+      "name": "The sift: aim for at least 4 out of 7 on each example",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/guidance/using-the-civil-service-jobs-website",
+        "https://www.civil-service-careers.gov.uk/how-to-apply/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnapply-online-tests-practise-first-with-the-fre",
+      "name": "Online tests: practise first with the free official versions",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/guidance/civil-service-online-tests",
+        "https://www.civil-service-careers.gov.uk/assessments-and-interviews/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnapply-use-ai-to-prepare-never-to-answer-for-yo",
+      "name": "Use AI to prepare, never to answer for you",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/artificial-intelligence-and-recruitment/",
+        "https://www.civil-service-careers.gov.uk/fast-stream/fs-how-to-apply/fs-gen-ai/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnapply-by-law-appointments-are-on-merit-after-f",
+      "name": "By law, appointments are on merit after fair and open competition",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://civilservicecommission.independent.gov.uk/document/02a-recruitment-principles-april-2018-final/",
+        "https://civilservicecommission.independent.gov.uk/recruitment-principles/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnapply-when-roles-can-be-filled-without-open-co",
+      "name": "When roles can be filled without open competition",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://civilservicecommission.independent.gov.uk/recruitment-principles/exceptions/",
+        "https://civilservicecommission.independent.gov.uk/document/02a-recruitment-principles-april-2018-final/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jninterview-prepare-real-examples-for-behaviour-ques",
+      "name": "Prepare real examples for behaviour questions",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/guidance/using-the-civil-service-jobs-website",
+        "https://www.civil-service-careers.gov.uk/assessments-and-interviews/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jninterview-strength-questions-answer-genuinely-do-n",
+      "name": "Strength questions: answer genuinely, do not rehearse",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/a-guide-to-civil-service-success-profiles/",
+        "https://www.gov.uk/government/publications/success-profiles/success-profiles-candidate-overview"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jninterview-technical-interviews-presentations-and-e",
+      "name": "Technical interviews, presentations and exercises",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/government/publications/success-profiles/success-profiles-candidate-overview",
+        "https://www.civil-service-careers.gov.uk/a-guide-to-civil-service-success-profiles/",
+        "https://understand-digital-data-roles-skills.service.gov.uk/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jninterview-video-and-pre-recorded-interviews",
+      "name": "Video and pre-recorded interviews",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/assessments-and-interviews/",
+        "https://www.gov.uk/government/publications/success-profiles/success-profiles-candidate-overview"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jninterview-assessment-centres-combine-several-exerc",
+      "name": "Assessment centres combine several exercises",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/assessments-and-interviews/",
+        "https://www.civil-service-careers.gov.uk/fast-stream/fs-how-to-apply/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jninterview-bring-your-own-questions-the-interview-w",
+      "name": "Bring your own questions: the interview works both ways",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/guidance/using-the-civil-service-jobs-website",
+        "https://www.civil-service-careers.gov.uk/how-to-apply/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jninterview-always-ask-for-feedback-whatever-the-out",
+      "name": "Always ask for feedback, whatever the outcome",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/assessments-and-interviews/",
+        "https://www.gov.uk/guidance/civil-service-online-tests"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jninterview-reserve-lists-a-near-miss-can-still-lead",
+      "name": "Reserve lists: a near miss can still lead to a job",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://civilservicecommission.independent.gov.uk/document/02a-recruitment-principles-april-2018-final/",
+        "https://www.civil-service-careers.gov.uk/a-guide-to-civil-service-success-profiles/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnday-no-typical-day-what-digital-and-early-ca",
+      "name": "No typical day: what digital and early careers staff describe",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://gds.blog.gov.uk/2021/09/15/working-at-gds-as-a-developer/",
+        "https://www.civil-service-careers.gov.uk/fast-stream/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnday-hybrid-working-at-least-60-of-your-time-",
+      "name": "Hybrid working: at least 60% of your time in the office",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/government/news/civil-service-continues-commitment-to-minimum-60-office-attendance",
+        "https://www.civilserviceworld.com/professions/article/hybrid-working-departments-working-with-gpa-to-ensure-all-organisations-can-meet-60-mandate",
+        "https://www.fda.org.uk/news/future-office-work/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnday-pension-alpha-a-career-average-defined-b",
+      "name": "Pension: alpha, a career average defined benefit scheme",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civilservicepensionscheme.org.uk/alpha-contributions-explained-factsheet",
+        "https://www.bma.org.uk/pay-and-contracts/pensions/additional-pensions-advice/civil-service-pension-scheme-alpha-scheme",
+        "https://www.civilservicepensionscheme.org.uk/memberhub/joining-the-pension-scheme/contribution-rates/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnday-annual-leave-usually-starts-at-25-days-a",
+      "name": "Annual leave usually starts at 25 days and rises to 30",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/gds-what-its-like-to-work-at-gds/",
+        "https://www.gov.uk/government/organisations/food-standards-agency/about/recruitment",
+        "https://www.gov.uk/government/organisations/valuation-office-agency/about/recruitment"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnday-learning-at-least-5-days-a-year-plus-civ",
+      "name": "Learning: at least 5 days a year, plus Civil Service Learning",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/workingforthecivilservice/",
+        "https://www.civil-service-careers.gov.uk/gds-what-its-like-to-work-at-gds/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnday-one-big-thing-a-yearly-learning-push-for",
+      "name": "One Big Thing: a yearly learning push for every civil servant",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://moderncivilservice.campaign.gov.uk/one-big-thing/",
+        "https://www.civilserviceworld.com/professions/article/civil-servants-ai-training-one-big-thing-2025"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnday-staff-networks-and-the-civil-service-rac",
+      "name": "Staff networks and the Civil Service Race Champion",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/",
+        "https://www.civil-service-careers.gov.uk/civil-service-networks/",
+        "https://civilservice.blog.gov.uk/2025/10/02/black-history-month-2025-standing-firm-in-power-and-pride/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnvet-nationality-rules-decide-which-jobs-you-",
+      "name": "Nationality rules decide which jobs you can apply for",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/government/publications/nationality-rules",
+        "https://www.civil-service-careers.gov.uk/apprenticeships/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnvet-baseline-personnel-security-standard-bps",
+      "name": "Baseline Personnel Security Standard (BPSS): four checks",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/government/publications/government-baseline-personnel-security-standard/uk-government-baseline-personnel-security-standard-version-70-june-2024-html",
+        "https://www.gov.uk/government/publications/united-kingdom-security-vetting-clearance-levels/national-security-vetting-clearance-levels"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnvet-some-roles-need-security-clearance-ctc-s",
+      "name": "Some roles need security clearance: CTC, SC or DV",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/government/publications/united-kingdom-security-vetting-clearance-levels",
+        "https://www.gov.uk/government/publications/united-kingdom-security-vetting-clearance-levels/national-security-vetting-clearance-levels",
+        "https://www.civil-service-careers.gov.uk/fast-stream/fs-summer-internship-programme/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnvet-clearance-usually-needs-years-of-uk-resi",
+      "name": "Clearance usually needs years of UK residence",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.scot/publications/recruitment-candidate-guide/pages/pre-employment-checks/",
+        "https://careers.homeoffice.gov.uk/security-checks"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnvet-prove-your-right-to-work-before-your-fir",
+      "name": "Prove your right to work before your first day",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/prove-right-to-work",
+        "https://www.gov.uk/government/publications/government-baseline-personnel-security-standard/uk-government-baseline-personnel-security-standard-version-70-june-2024-html"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnvet-do-not-resign-until-you-have-a-formal-of",
+      "name": "Do not resign until you have a formal offer",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/guidance/using-the-civil-service-jobs-website",
+        "https://www.civil-service-careers.gov.uk/secondments/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnvet-probation-a-settling-in-period-for-new-j",
+      "name": "Probation: a settling-in period for new joiners",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/guidance/using-the-civil-service-jobs-website",
+        "https://www.gov.uk/government/organisations/food-standards-agency/about/recruitment"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-cvisa-who-can-work-in-the-civil-service-the-na",
+      "name": "Who can work in the Civil Service: the nationality rules",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/government/publications/nationality-rules/civil-service-nationality-rules-html",
+        "https://www.civil-service-careers.gov.uk/nationality-requirements/",
+        "https://www.gov.scot/publications/recruitment-candidate-guide/pages/nationality-requirements/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-cvisa-some-posts-are-reserved-for-uk-nationals",
+      "name": "Some posts are reserved for UK nationals only",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/government/publications/nationality-rules/civil-service-nationality-rules-html",
+        "https://www.civil-service-careers.gov.uk/nationality-requirements/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-cvisa-eu-eea-and-swiss-nationals-and-the-eu-se",
+      "name": "EU, EEA and Swiss nationals and the EU Settlement Scheme",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/government/publications/nationality-rules/civil-service-nationality-rules-html",
+        "https://www.civil-service-careers.gov.uk/nationality-requirements/",
+        "https://www.gov.uk/find-an-immigration-adviser"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-cvisa-visa-sponsorship-is-possible-but-limited",
+      "name": "Visa sponsorship is possible but limited by salary thresholds",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/skilled-worker-visa/your-job",
+        "https://www.civil-service-careers.gov.uk/nationality-requirements/",
+        "https://careers.hmrc.gov.uk/discussions/i-would-also-like-to-mention-that-my-visa-is-valid-until-september-2027-it-would-be-a-great-opportunity-for-me-if-i-could-secure-a-role-that-offers-sponsorship-or-at-least-a-position-that-allows-me-to-gain-valuable-work-experience-over-the-next-couple-o",
+        "https://www.gov.scot/publications/recruitment-candidate-guide/pages/nationality-requirements/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-cvisa-which-departments-hold-a-sponsor-licence",
+      "name": "Which departments hold a sponsor licence",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers",
+        "https://assets.publishing.service.gov.uk/media/6ae304e8976f73ef5cfb67aa/SP_-_Worker_and_Temporary_Worker_Web_Register_-_2026-10-29.csv",
+        "https://cdn.forestresearch.gov.uk/2024/10/Skilled-Worker-sponsorship-Guidance-for-applicants-and-managers.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-cvisa-graduate-visas-dependants-and-proving-yo",
+      "name": "Graduate visas, dependants and proving your right to work",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/graduate-visa",
+        "https://www.gov.uk/prove-right-to-work",
+        "https://www.gov.uk/government/publications/government-baseline-personnel-security-standard/uk-government-baseline-personnel-security-standard-version-70-june-2024-html",
+        "https://www.gov.uk/skilled-worker-visa/your-partner-and-children"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-cvisa-where-to-get-regulated-immigration-advic",
+      "name": "Where to get regulated immigration advice",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/government/organisations/immigration-advice-authority/about",
+        "https://www.gov.uk/find-an-immigration-adviser"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-cfamily-you-can-ask-for-flexible-working-from-yo",
+      "name": "You can ask for flexible working from your first day",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/flexible-working",
+        "https://www.legislation.gov.uk/uksi/2023/1328/made",
+        "https://www.legislation.gov.uk/ukpga/2023/33/enacted"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-cfamily-part-time-work-and-job-shares-in-the-civ",
+      "name": "Part-time work and job shares in the Civil Service",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/guide-to-job-sharing/",
+        "https://www.civil-service-careers.gov.uk/disability-confident-scheme/",
+        "https://civilservice.blog.gov.uk/2022/07/05/how-job-sharing-is-going-mainstream/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-cfamily-maternity-adoption-and-shared-parental-l",
+      "name": "Maternity, adoption and shared parental leave",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/maternity-pay-leave/leave",
+        "https://www.gov.uk/shared-parental-leave-and-pay",
+        "https://assets.publishing.service.gov.uk/media/6a4e187c92f65594cb0299bd/SPL_Having_a_baby_HMG_2026v0c.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-cfamily-partners-can-take-paternity-leave-from-d",
+      "name": "Partners can take paternity leave from day one",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/paternity-pay-leave/eligibility",
+        "https://assets.publishing.service.gov.uk/media/6a4e187c92f65594cb0299bd/SPL_Having_a_baby_HMG_2026v0c.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-cfamily-carer-s-leave-one-week-a-year-from-your-",
+      "name": "Carer's leave: one week a year from your first day",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/carers-leave",
+        "https://www.acas.org.uk/carers-leave",
+        "https://www.legislation.gov.uk/uksi/2024/251/made"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-cfamily-tax-free-childcare-2-for-every-8-you-pay",
+      "name": "Tax-Free Childcare: £2 for every £8 you pay",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/tax-free-childcare",
+        "https://beststartinlife.gov.uk/?p=475",
+        "https://www.rutland.gov.uk/education-learning/early-education-childcare/early-education-childcare-funding/tax-free-childcare"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-creturn-a-returnship-pilot-for-software-develope",
+      "name": "A returnship pilot for software developers",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/government/news/government-breaks-down-barriers-to-help-more-women-and-girls-enter-the-tech-sector",
+        "https://www.manchesterdigital.com/post/gds/senior-software-developer-returnship-programme",
+        "https://www.government-transformation.com/transformation/returnship-scheme-to-bring-women-back-into-civil-service-digital-roles"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-creturn-experience-from-outside-paid-work-counts",
+      "name": "Experience from outside paid work counts",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/a-guide-to-civil-service-success-profiles/",
+        "https://www.gov.uk/government/publications/success-profiles"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-creturn-age-is-not-a-barrier",
+      "name": "Age is not a barrier",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.acas.org.uk/age-discrimination",
+        "https://www.acas.org.uk/retirement",
+        "https://www.civil-service-careers.gov.uk/home/civil-service-experienced-careers/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-creturn-changing-career-no-government-background",
+      "name": "Changing career: no government background needed",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/home/civil-service-experienced-careers/",
+        "https://www.gov.uk/become-apprentice"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-cvets-great-place-to-work-for-veterans-get-thr",
+      "name": "Great Place to Work for Veterans: get through to the next stage",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/great-place-to-work-for-veterans/",
+        "https://valour.campaign.gov.uk/public-sector-careers-after-service/",
+        "https://www.gov.uk/government/news/government-delivers-on-promise-to-veterans-announcing-guaranteed-interviews-for-government-jobs"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-cvets-going-forward-into-employment-for-vetera",
+      "name": "Going Forward into Employment for veterans and military partners",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://gfie.blog.gov.uk/2026/07/01/building-the-bridge-from-military-excellence-to-civil-service-careers/",
+        "https://valour.campaign.gov.uk/public-sector-careers-after-service/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-cvets-the-career-transition-partnership-helps-",
+      "name": "The Career Transition Partnership helps you plan the move",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://valour.campaign.gov.uk/career-transition-partnership/",
+        "https://www.ctp.org.uk/",
+        "https://gfie.blog.gov.uk/2026/07/01/building-the-bridge-from-military-excellence-to-civil-service-careers/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-cvets-the-office-for-veterans-affairs-and-the-",
+      "name": "The Office for Veterans' Affairs and the Armed Forces Covenant",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/government/organisations/office-for-veterans-affairs",
+        "https://www.armedforcescovenant.gov.uk/",
+        "https://www.legislation.gov.uk/ukpga/2021/35/section/8"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-csecond-going-forward-into-employment-started-wi",
+      "name": "Going Forward into Employment started with prison leavers",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/about-gfie/",
+        "https://www.civil-service-careers.gov.uk/prison-leaver-recruitment/",
+        "https://gfie.blog.gov.uk/2022/05/24/all-about-going-forward-into-employment/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-csecond-ban-the-box-no-conviction-questions-at-t",
+      "name": "'Ban the Box': no conviction questions at the first stage",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/prison-leaver-recruitment/",
+        "https://civilservice.blog.gov.uk/2016/02/08/ban-the-box/",
+        "https://www.civilserviceworld.com/articles/news/civil-service-ban-box-help-rehabilitate-ex-convicts-david-cameron-announces"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-csecond-spent-convictions-under-the-rehabilitati",
+      "name": "Spent convictions under the Rehabilitation of Offenders Act 1974",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/tell-employer-or-college-about-criminal-record/what-information-you-need-to-give",
+        "https://www.gov.uk/government/publications/government-baseline-personnel-security-standard/uk-government-baseline-personnel-security-standard-version-70-june-2024-html",
+        "https://www.legislation.gov.uk/ukpga/1974/53/section/4"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-csecond-security-checks-unspent-convictions-are-",
+      "name": "Security checks: unspent convictions are judged case by case",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/government/publications/government-baseline-personnel-security-standard/uk-government-baseline-personnel-security-standard-version-70-june-2024-html",
+        "https://www.civil-service-careers.gov.uk/prison-leaver-recruitment/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-csecond-new-futures-network-links-prisons-with-e",
+      "name": "New Futures Network links prisons with employers",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.newfuturesnetwork.gov.uk/",
+        "https://www.civil-service-careers.gov.uk/prison-leaver-recruitment/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-cother-care-leavers-internship-scheme",
+      "name": "Care Leavers Internship Scheme",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/civil-service-care-leavers-internship-scheme/",
+        "https://kentcarestown.lea.kent.sch.uk/news/2025/07/17/uk-civil-service-care-leavers-internship-scheme/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-cother-refugees-eligibility-depends-on-your-nat",
+      "name": "Refugees: eligibility depends on your nationality",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/government/publications/nationality-rules/civil-service-nationality-rules-html",
+        "https://www.gov.uk/government/publications/nationality-rules/annex-a-nationality-rules-html"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-cother-disability-confident-an-interview-if-you",
+      "name": "Disability Confident: an interview if you meet the minimum criteria",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/disability-confident-scheme/",
+        "https://www.gov.uk/government/publications/disability-confident-guidance-for-levels-1-2-and-3/level-1-disability-confident-committed"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-cother-adjustments-at-every-stage-access-to-wor",
+      "name": "Adjustments at every stage, Access to Work and the passport",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/reasonable-adjustments/",
+        "https://www.gov.uk/access-to-work",
+        "https://www.acas.org.uk/reasonable-adjustments",
+        "https://governmentscienceandengineering.blog.gov.uk/2021/11/29/the-importance-of-the-workplace-adjustment-passport-for-civil-service-employees"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-cother-qualifications-from-overseas-uk-enic",
+      "name": "Qualifications from overseas: UK ENIC",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.enic.org.uk/",
+        "https://www.enic.org.uk/individuals/statement-of-comparability",
+        "https://www.gov.uk/skilled-worker-visa/print"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-cother-faith-and-religious-observance-are-prote",
+      "name": "Faith and religious observance are protected",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.legislation.gov.uk/ukpga/2010/15/section/10",
+        "https://www.acas.org.uk/religion-or-belief-discrimination",
+        "https://www.acas.org.uk/religion-or-belief-discrimination/preventing-religion-or-belief-discrimination"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-cother-more-jobs-outside-london-places-for-grow",
+      "name": "More jobs outside London: Places for Growth",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/government/collections/places-for-growth",
+        "https://www.instituteforgovernment.org.uk/explainer/relocation-civil-service",
+        "https://www.civilserviceworld.com/professions/article/londonbased-civil-service-headcount-to-be-cut-by-12000"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-cother-early-careers-and-routes-without-a-degre",
+      "name": "Early careers and routes without a degree",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/civil-service-early-careers/",
+        "https://www.civil-service-careers.gov.uk/apprenticeships/",
+        "https://www.gov.uk/become-apprentice"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnbarriers-black-african-fast-stream-applicants-14-",
+      "name": "Black African Fast Stream applicants: 14% of applicants, 0.3% success",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/government/publications/civil-service-fast-stream-recruitment-data-2026/civil-service-fast-stream-recruitment-data-2026-html",
+        "https://www.civilserviceworld.com/news/article/fast-stream-gets-biggest-ever-number-of-applicants"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnbarriers-ethnic-minority-fast-stream-success-is-j",
+      "name": "Ethnic minority Fast Stream success is just over half the white rate",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://assets.publishing.service.gov.uk/media/6aaa4fcd086ce7c57b818545/Fast_Stream_Annual_Report_2026_V5.pdf",
+        "https://www.civilserviceworld.com/professions/article/fast-stream-diversity-statistics-white-ethnic-minority-applicants-divide-widens"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnbarriers-black-women-are-1-8-of-the-uk-workforce-",
+      "name": "Black women are 1.8% of the UK workforce but 0.7% of IT professionals",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.bcs.org/articles-opinion-and-research/thousands-of-black-women-missing-from-the-it-industry-report-warns/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnbarriers-black-people-are-3-of-it-specialists-eth",
+      "name": "Black people are 3% of IT specialists; ethnic minority IT unemployment is nearly three times the white rate",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://bcs.org/policy-and-influence/equity-diversity-and-inclusion/bcs-diversity-report-2024-ethnicity/ethnicity-and-it-employment",
+        "https://www.bcs.org/policy-and-influence/equity-diversity-and-inclusion/bcs-diversity-report-2024-ethnicity/ethnicity-key-findings/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnbarriers-61-of-black-graduates-felt-their-ethnici",
+      "name": "61% of Black graduates felt their ethnicity disadvantaged them in job applications",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://hrreview.co.uk/hr-news/diversity-news/male-and-ethnic-minority-graduates-feel-held-back-in-jobs-market/375594",
+        "https://www.fenews.co.uk/employability/more-graduates-feel-held-back-in-jobs-market/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnbarriers-ethnic-minority-civil-servants-report-mo",
+      "name": "Ethnic minority civil servants report more discrimination, every year",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.kcl.ac.uk/policy-institute/assets/trends-in-bullying-discrimination-and-inclusion-in-the-civil-service-2025.pdf",
+        "https://www.civilserviceworld.com/in-depth/article/people-survey-a-deep-dive-into-bullying-and-discrimination-trends"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnbarriers-hidden-unwritten-rules-and-london-tilt-s",
+      "name": "Hidden 'unwritten rules' and London tilt slow progression",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/government/publications/navigating-the-labyrinth/navigating-the-labyrinth-socio-economic-background-and-career-progression-within-the-civil-service"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-jnbarriers-ethnic-minority-staff-are-least-represen",
+      "name": "Ethnic minority staff are least represented in the Senior Civil Service",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/government/statistics/civil-service-statistics-2026/statistical-bulletin-civil-service-statistics-2026"
       ]
     }
   ]
