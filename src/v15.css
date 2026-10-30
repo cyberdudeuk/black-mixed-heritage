@@ -406,8 +406,8 @@ details.dvtable > summary{cursor:pointer;color:var(--link,var(--green));text-dec
 .jnopts{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(18rem,100%),1fr));gap:.3rem .8rem}
 .jnfs{border:0;padding:0;margin:0 0 1rem}
 .jnchk{display:flex;gap:.5rem;align-items:flex-start;min-height:44px;padding:.35rem .5rem;border-radius:8px;cursor:pointer}
-.jnchk input,.jnprep input{width:1.3rem;height:1.3rem;flex:none;margin-top:.15rem}
-.jnprep{padding-left:1.4rem}.jnprep li{margin:.5rem 0}.jnprep .chk{display:inline-flex;gap:.5rem;align-items:flex-start;min-height:44px}
+.jnchk input,.jnprep input{width:1.5rem;height:1.5rem;min-width:24px;min-height:24px;flex:none;margin:.1rem}
+.jnprep{padding-left:1.4rem}.jnprep li{margin:.5rem 0}.jnprep li>.muted{display:block;margin:.15rem 0 0 2rem}.jnprep .chk{display:inline-flex;gap:.5rem;align-items:flex-start;min-height:44px}
 .jngrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(20rem,100%),1fr));gap:1rem;align-items:start}
 /* 2.27.0 Careers menu accent and topic signposts */
 [data-accent="car"]{--ac:#8A3B12}
@@ -430,7 +430,7 @@ details.dvtable > summary{cursor:pointer;color:var(--link,var(--green));text-dec
 .ftn{display:inline-grid;place-items:center;width:2.2rem;height:2.2rem;border-radius:50%;background:var(--ac,#8A3B12);color:#fff;font-weight:700}
 .ftdl{display:grid;grid-template-columns:max-content 1fr;gap:.2rem .8rem;margin:.3rem 0}.ftdl dt{font-weight:600}.ftdl dd{margin:0}
 @media (max-width:480px){.ftdl{grid-template-columns:1fr}}
-#ft-ladder [role=tab][aria-selected=true]{background:var(--ac,#8A3B12);color:#fff;border-color:var(--ac,#8A3B12)}
+#ft-ladder [role=tab][aria-selected=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .tgpr{margin-top:1rem}.tgtable td{vertical-align:top}
-#tgWho [aria-pressed=true]{background:var(--ac,#A3271E);color:#fff;border-color:var(--ac,#A3271E)}
+#tgWho [aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .palist{padding-left:1.1rem}.palist li{margin:.35rem 0}
