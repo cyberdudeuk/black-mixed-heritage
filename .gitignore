@@ -4,3 +4,5 @@ out/
 *.log
 site/_body.html
 src/src.html
+__pycache__/
+*.pyc
