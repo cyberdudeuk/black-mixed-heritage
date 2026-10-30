@@ -402,3 +402,10 @@ details.dvtable > summary{cursor:pointer;color:var(--link,var(--green));text-dec
 .ptact summary:focus-visible{outline:3px solid var(--gold-ink);outline-offset:2px}
 .ptact p{margin:6px 0}.ptact .ptcite{display:inline;white-space:normal;word-break:break-word;font-size:.8rem}
 .ptst{font-size:.72rem;font-weight:700;border:1px solid var(--line);border-radius:4px;padding:1px 6px;margin-bottom:4px;display:inline-block;color:var(--ink);background:var(--surface)}
+/* 2.26.0 Joining government */
+.jnopts{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(18rem,100%),1fr));gap:.3rem .8rem}
+.jnfs{border:0;padding:0;margin:0 0 1rem}
+.jnchk{display:flex;gap:.5rem;align-items:flex-start;min-height:44px;padding:.35rem .5rem;border-radius:8px;cursor:pointer}
+.jnchk input,.jnprep input{width:1.3rem;height:1.3rem;flex:none;margin-top:.15rem}
+.jnprep{padding-left:1.4rem}.jnprep li{margin:.5rem 0}.jnprep .chk{display:inline-flex;gap:.5rem;align-items:flex-start;min-height:44px}
+.jngrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(20rem,100%),1fr));gap:1rem;align-items:start}

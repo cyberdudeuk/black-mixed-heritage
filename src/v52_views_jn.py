@@ -1,0 +1,10 @@
+FINDER='''<section class="block" id="jn-finder" data-icon="compass" data-label="What applies to you"><div class="sechead"><span class="eyebrow">Your circumstances</span><h2>Find what applies to you</h2><p>Tick anything that describes you to see the sourced points that matter most. This is general information, not advice on your own case: for immigration questions, use a regulated adviser.</p></div><fieldset class="jnfs"><legend class="vh">Your circumstances</legend><div class="jnopts" id="jnFinderOpts"></div></fieldset><div id="jnFinderOut" aria-live="polite"></div></section>'''
+PREP='''<section class="block" id="jn-prep" data-icon="tool" data-label="Preparation checklist"><div class="sechead"><span class="eyebrow">Before you apply and interview</span><h2>Preparation checklist</h2><p>Work through these steps. Each links to the sourced points behind it.</p></div><ol class="jnprep" id="jnPrepList"></ol><p class="mono muted" id="jnPrepN" aria-live="polite"></p><button type="button" class="btn" id="jnPrepReset">Clear my ticks</button></section>'''
+ASKS='''<section class="block" id="jn-asks" data-icon="people" data-label="What people ask"><div class="sechead"><span class="eyebrow">At careers fairs and in public forums</span><h2>What people ask about joining government</h2><p>The questions people ask most often about government jobs, each with where to find the answer on this page. They are taken from published event write-ups, official question-and-answer forums, guidance and research. Questions put to stands at particular events are not published, so none is attributed to a named event or person.</p></div><div class="grid g2" id="jnAsksList"></div></section>'''
+def apply(s):
+    def after(anchor,html):
+        a=s.index(anchor);b=s.index('</section>',a)+len('</section>');return s[:b]+'\n  '+html+s[b:]
+    s=after('<section class="block" id="jn-jnroutes"',FINDER)
+    s=after('<section class="block" id="jn-jninterview"',PREP)
+    a=s.index('<section class="block" id="jn-jnbarriers"');s=s[:a]+ASKS+'\n  '+s[a:]
+    return s
