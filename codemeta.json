@@ -3,7 +3,7 @@
   "type": "SoftwareSourceCode",
   "name": "BHM 2026 Hub: Honouring Our Communities",
   "description": "Black and Black-Mixed history, heritage and cultures, Africa and the African diaspora: an evidence-based hub for Black History Month 2026 and all year, for the UK public sector and the communities it serves. Every figure is sourced.",
-  "version": "2.26.0",
+  "version": "2.27.0",
   "dateModified": "2026-10-26",
   "codeRepository": "https://github.com/cyberdudeuk/black-mixed-heritage",
   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/",

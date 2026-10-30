@@ -37,7 +37,7 @@ function setupDtabHide(){const b=$("#drawerToggle");if(!b||b.dataset.hide)return
     if(down&&y>120&&!nearEnd&&!b.matches(":focus"))b.classList.add("tucked");else if(up||nearEnd||y<120)b.classList.remove("tucked");last=y})},{passive:true});
   b.addEventListener("focus",()=>b.classList.remove("tucked"));
   /* D-054: on wide screens keep the toggle just above the drawer, so when the drawer is pushed up at the end of a page the toggle moves with it and never covers drawer links */
-  const d=$("#drawer");const pin=()=>{if(innerWidth<=860||!d||$("#shell")?.classList.contains("closed")){b.style.top="";return}const top=d.getBoundingClientRect().top;b.style.top=Math.min(74,Math.round(top-44))+"px"};
+  const d=$("#drawer");const pin=()=>{if(innerWidth<=860||!d){b.style.top="";if(d)d.style.paddingTop="";return}const mb=(typeof iaMastBottom==="function"?iaMastBottom():66)+8;if($("#shell")?.classList.contains("closed")){b.style.top=mb+"px";return}const extra=Math.max(0,mb-82);d.style.paddingTop=extra?`calc(var(--s4) + ${40+extra}px)`:"";const top=d.getBoundingClientRect().top;b.style.top=Math.max(mb,Math.min(74,Math.round(top-44)))+"px"};
   addEventListener("scroll",()=>requestAnimationFrame(pin),{passive:true});addEventListener("resize",pin);addEventListener("hashchange",()=>setTimeout(pin,50));pin();window.__dtabPin=pin}
 /* --- checks for these fixes, each with a negative proof --- */
 CHECKS.push(

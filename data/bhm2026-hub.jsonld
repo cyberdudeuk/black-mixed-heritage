@@ -8,7 +8,7 @@
       "@type": "CreativeWork",
       "@id": "urn:bhm26:hub",
       "name": "Black History Month 2026 Hub",
-      "version": "2.26.0",
+      "version": "2.27.0",
       "dateModified": "2026-10-21",
       "about": "Honouring Our Communities"
     },
@@ -28345,6 +28345,278 @@
     },
     {
       "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-trwhat-start-with-the-vacancy-s-own-identifiers",
+      "name": "Start with the vacancy's own identifiers: reference, department, grade",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/guidance/using-the-civil-service-jobs-website",
+        "https://www.lancaster.ac.uk/lums/careers/blogs/managing-your-job-search"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-trwhat-save-the-advert-and-the-exact-version-yo",
+      "name": "Save the advert and the exact version you submitted",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/guidance/using-the-civil-service-jobs-website",
+        "https://nationalcareers.service.gov.uk/careers-advice/application-forms",
+        "https://careerswales.gov.wales/getting-a-job/write-applications",
+        "https://www.lancaster.ac.uk/lums/careers/blogs/managing-your-job-search"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-trwhat-note-which-success-profiles-elements-eac",
+      "name": "Note which Success Profiles elements each stage assesses",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/how-to-apply/",
+        "https://www.gov.uk/government/publications/success-profiles/success-profiles-candidate-overview",
+        "https://www.gov.scot/publications/recruitment-candidate-guide/pages/our-application-process/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-trwhat-log-every-stage-its-date-and-its-result",
+      "name": "Log every stage, its date and its result",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/how-to-apply/",
+        "https://www.gov.uk/guidance/using-the-civil-service-jobs-website",
+        "https://www.gov.uk/government/publications/success-profiles/success-profiles-candidate-overview"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-trwhat-if-you-are-put-on-a-reserve-list-record-",
+      "name": "If you are put on a reserve list, record the date and when it ends",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://civilservicecommission.independent.gov.uk/document/02a-recruitment-principles-april-2018-final/",
+        "https://www.gov.scot/publications/recruitment-candidate-guide/pages/use-of-reserve-lists/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-trwhat-track-the-offer-each-pre-employment-chec",
+      "name": "Track the offer, each pre-employment check and the start date",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/guidance/using-the-civil-service-jobs-website",
+        "https://www.gov.scot/publications/recruitment-candidate-guide/pages/pre-employment-checks/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-trtools-use-the-applications-page-in-your-civil-",
+      "name": "Use the Applications page in your Civil Service Jobs account",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/guidance/using-the-civil-service-jobs-website",
+        "https://www.gov.uk/guidance/civil-service-online-tests"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-trtools-keep-your-own-record-for-anything-applie",
+      "name": "Keep your own record for anything applied for elsewhere",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/guidance/using-the-civil-service-jobs-website",
+        "https://www.lancaster.ac.uk/lums/careers/blogs/managing-your-job-search"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-trtools-let-job-alerts-bring-vacancies-to-you-an",
+      "name": "Let job alerts bring vacancies to you, and pause them when needed",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/guidance/using-the-civil-service-jobs-website",
+        "https://careerswales.gov.wales/getting-a-job/job-websites"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-trtools-a-spreadsheet-tracker-one-row-per-applic",
+      "name": "A spreadsheet tracker: one row per application",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.lancaster.ac.uk/lums/careers/blogs/managing-your-job-search",
+        "https://www.liverpool.ac.uk/careers/students/blog/hits-tip-advice/step-by-stepguideforstudentsapplyingforjobsintheuk/",
+        "https://nationalcareers.service.gov.uk/careers-advice/application-forms"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-trtools-calendar-reminders-and-a-task-list-for-t",
+      "name": "Calendar reminders and a task list for the steps in between",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/government/publications/success-profiles/success-profiles-candidate-overview",
+        "https://www.nhs.uk/every-mind-matters/mental-health-issues/stress/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-trtools-one-folder-for-adverts-applications-and-",
+      "name": "One folder for adverts, applications and letters",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.lancaster.ac.uk/lums/careers/blogs/managing-your-job-search",
+        "https://www.gov.uk/jobseekers-allowance/your-jsa-claim"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-trdates-closing-times-often-23-55-on-the-closing",
+      "name": "Closing times: often 23:55 on the closing date",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/guidance/create-and-publish-job-adverts",
+        "https://www.gov.uk/guidance/using-the-civil-service-jobs-website"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-trdates-sift-and-interview-dates-vary-by-campaig",
+      "name": "Sift and interview dates vary by campaign",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/guidance/using-the-civil-service-jobs-website",
+        "https://www.civil-service-careers.gov.uk/how-to-apply/",
+        "https://www.gov.uk/government/publications/success-profiles/success-profiles-candidate-overview"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-trdates-online-tests-have-their-own-completion-w",
+      "name": "Online tests have their own completion window",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/government/publications/success-profiles/success-profiles-candidate-overview",
+        "https://www.gov.uk/guidance/civil-service-online-tests"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-trdates-reserve-lists-last-up-to-12-months",
+      "name": "Reserve lists last up to 12 months",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://civilservicecommission.independent.gov.uk/document/02a-recruitment-principles-april-2018-final/",
+        "https://www.gov.scot/publications/recruitment-candidate-guide/pages/use-of-reserve-lists/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-trdates-pre-employment-checks-several-weeks-long",
+      "name": "Pre-employment checks: several weeks, longer with vetting",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/guidance/using-the-civil-service-jobs-website",
+        "https://www.gov.uk/guidance/united-kingdom-security-vetting-applicant",
+        "https://www.gov.uk/government/publications/united-kingdom-security-vetting-clearance-levels/sc-guidance-pack-for-applicants"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-trdates-notice-periods-check-your-contract-befor",
+      "name": "Notice periods: check your contract before you resign",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/handing-in-your-notice/giving-notice",
+        "https://www.acas.org.uk/notice-periods/notice-when-resigning"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-trdates-complaints-about-fair-recruitment-within",
+      "name": "Complaints about fair recruitment: within 12 months of closing",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://civilservicecommission.independent.gov.uk/document/02a-recruitment-principles-april-2018-final/",
+        "https://civilservicecommission.independent.gov.uk/recruitment-principles/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-trfeedback-ask-for-feedback-whatever-the-outcome",
+      "name": "Ask for feedback whatever the outcome",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/how-to-apply/",
+        "https://nationalcareers.service.gov.uk/careers-advice/interview-advice",
+        "https://careerswales.gov.wales/getting-a-job/interview-techniques"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-trfeedback-know-what-feedback-to-expect-at-each-sta",
+      "name": "Know what feedback to expect at each stage",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/guidance/using-the-civil-service-jobs-website",
+        "https://www.gov.uk/guidance/civil-service-online-tests",
+        "https://civilservicecommission.independent.gov.uk/recruitment-principles/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-trfeedback-record-feedback-against-the-scale-and-th",
+      "name": "Record feedback against the scale and the Success Profiles element",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/a-guide-to-civil-service-success-profiles/",
+        "https://www.gov.uk/guidance/using-the-civil-service-jobs-website"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-trfeedback-build-a-bank-of-star-examples-and-reuse-",
+      "name": "Build a bank of STAR examples and reuse the best",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.gov.uk/government/publications/success-profiles/success-profiles-candidate-overview",
+        "https://www.gov.uk/guidance/using-the-civil-service-jobs-website",
+        "https://careerswales.gov.wales/getting-a-job/interview-techniques"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-trfeedback-treat-setbacks-as-information-and-set-sm",
+      "name": "Treat setbacks as information, and set small goals",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://nationalcareers.service.gov.uk/careers-advice/application-forms",
+        "https://nationalcareers.service.gov.uk/careers-advice/how-to-bounce-back-in-a-tough-jobs-market",
+        "https://www.liverpool.ac.uk/careers/students/blog/hits-tip-advice/step-by-stepguideforstudentsapplyingforjobsintheuk/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-trfeedback-look-after-your-wellbeing-during-a-long-",
+      "name": "Look after your wellbeing during a long search",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://www.nhs.uk/every-mind-matters/mental-health-issues/stress/",
+        "https://www.nhs.uk/every-mind-matters/mental-health-issues/low-mood/",
+        "https://www.nhs.uk/every-mind-matters/lifes-challenges/work-related-stress/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:jn-trfeedback-you-do-not-have-to-do-it-alone",
+      "name": "You do not have to do it alone",
+      "isPartOf": "urn:bhm26:dataset-joining",
+      "citation": [
+        "https://nationalcareers.service.gov.uk/careers-advice/how-to-bounce-back-in-a-tough-jobs-market",
+        "https://careerswales.gov.wales/getting-a-job/write-applications"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
       "@id": "urn:bhm26:jn-jnday-no-typical-day-what-digital-and-early-ca",
       "name": "No typical day: what digital and early careers staff describe",
       "isPartOf": "urn:bhm26:dataset-joining",
@@ -28929,6 +29201,1152 @@
       "isPartOf": "urn:bhm26:dataset-joining",
       "citation": [
         "https://www.gov.uk/government/statistics/civil-service-statistics-2026/statistical-bulletin-civil-service-statistics-2026"
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:bhm26:dataset-fairtreat",
+      "name": "If you are treated unfairly",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#fairtreat",
+      "isPartOf": "urn:bhm26:hub"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdrecruit-equality-law-protects-applicants-not-onl",
+      "name": "Equality law protects applicants, not only employees",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://www.legislation.gov.uk/ukpga/2010/15/section/39",
+        "https://www.gov.uk/employment-tribunals",
+        "https://www.acas.org.uk/asking-and-answering-questions-about-discrimination"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdrecruit-ask-the-recruiting-department-first-usin",
+      "name": "Ask the recruiting department first, using the steps in the advert",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://civilservicecommission.independent.gov.uk/recruitment-principles/",
+        "https://civilservicecommission.independent.gov.uk/wp-content/themes/csc/download-document.php?file=2017-01-01-A-Guide-to-bringing-a-Recruitment-Principles-complaint-to-the-Civil-Service-Commission.pdf",
+        "https://www.acas.org.uk/asking-and-answering-questions-about-discrimination"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdrecruit-the-civil-service-commission-who-can-com",
+      "name": "The Civil Service Commission: who can complain and when",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://www.legislation.gov.uk/ukpga/2010/25/section/10",
+        "https://civilservicecommission.independent.gov.uk/recruitment-principles/",
+        "https://civilservicecommission.independent.gov.uk/wp-content/themes/csc/download-document.php?file=2017-01-01-A-Guide-to-bringing-a-Recruitment-Principles-complaint-to-the-Civil-Service-Commission.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdrecruit-what-the-commission-cannot-look-at",
+      "name": "What the Commission cannot look at",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://civilservicecommission.independent.gov.uk/recruitment-principles/",
+        "https://civilservicecommission.independent.gov.uk/wp-content/themes/csc/download-document.php?file=2017-01-01-A-Guide-to-bringing-a-Recruitment-Principles-complaint-to-the-Civil-Service-Commission.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdrecruit-most-complaints-to-the-commission-are-ou",
+      "name": "Most complaints to the Commission are out of scope",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://civilservicecommission.independent.gov.uk/wp-content/themes/csc/download-document.php?file=2025-04-01-Outcome-of-Recruitment-Complaints-202425.pdf",
+        "https://civilservicecommission.independent.gov.uk/recruitment-principles/",
+        "https://civilservicecommission.independent.gov.uk/wp-content/themes/csc/download-document.php?file=2017-01-01-A-Guide-to-bringing-a-Recruitment-Principles-complaint-to-the-Civil-Service-Commission.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdrecruit-if-a-reasonable-adjustment-is-refused",
+      "name": "If a reasonable adjustment is refused",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://www.legislation.gov.uk/ukpga/2010/15/section/39",
+        "https://www.gov.uk/discrimination-your-rights/discrimination-at-work",
+        "https://www.civil-service-careers.gov.uk/reasonable-adjustments/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdrecruit-northern-ireland-a-separate-civil-servic",
+      "name": "Northern Ireland: a separate Civil Service and separate laws",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://www.legislation.gov.uk/ukpga/2010/25/section/1",
+        "https://www.nicscommissioners.org/what-we-do",
+        "https://www.nicscommissioners.org/files/nicscommissioners/2026-05/Recruitment%20Code%20V.16%20%281%29.DOCX",
+        "https://www.nidirect.gov.uk/articles/racial-discrimination"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdrecruit-scotland-and-wales-same-commission-own-c",
+      "name": "Scotland and Wales: same Commission, own codes",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://www.legislation.gov.uk/ukpga/2010/25/section/1",
+        "https://www.gov.uk/government/publications/civil-service-code/the-civil-service-code",
+        "https://www.acas.org.uk/contact"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdwork-start-informally-where-it-is-safe-to-do-",
+      "name": "Start informally where it is safe to do so",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://www.acas.org.uk/if-youve-been-discriminated-against-at-work",
+        "https://www.gov.uk/discrimination-your-rights/what-you-can-do"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdwork-use-the-department-s-grievance-and-anti-",
+      "name": "Use the department's grievance and anti-bullying procedures",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://www.gov.uk/raise-grievance-at-work",
+        "https://www.acas.org.uk/if-youve-been-discriminated-against-at-work",
+        "https://www.acas.org.uk/asking-and-answering-questions-about-discrimination"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdwork-the-acas-code-sets-the-minimum-standard",
+      "name": "The Acas Code sets the minimum standard",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://www.acas.org.uk/acas-code-of-practice-on-disciplinary-and-grievance-procedures/html",
+        "https://www.gov.uk/raise-grievance-at-work"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdwork-civil-service-code-concerns-nominated-of",
+      "name": "Civil Service Code concerns: nominated officers, then the Commission",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://www.gov.uk/government/publications/civil-service-code/the-civil-service-code",
+        "https://civilservicecommission.independent.gov.uk/code/",
+        "https://www.nicscommissioners.org/what-we-do"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdwork-whistleblowing-covers-public-interest-wr",
+      "name": "Whistleblowing covers public-interest wrongdoing, not grievances",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://www.gov.uk/whistleblowing",
+        "https://www.legislation.gov.uk/ukpga/1996/18/section/43B",
+        "https://www.acas.org.uk/employment-rights-act-2025"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdwork-trade-unions-can-advise-accompany-and-re",
+      "name": "Trade unions can advise, accompany and represent",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://www.gov.uk/join-trade-union",
+        "https://www.acas.org.uk/grievance-procedure-step-by-step/step-2-raising-a-formal-grievance",
+        "https://www.acas.org.uk/asking-and-answering-questions-about-discrimination"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdwork-staff-networks-and-employee-assistance",
+      "name": "Staff networks and employee assistance",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/civil-service-networks",
+        "https://civilservice.blog.gov.uk/2019/05/28/focus-on-staff-networks-civil-service-race-forum/",
+        "https://www.acas.org.uk/if-youve-been-discriminated-against-at-work"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdwork-protection-from-victimisation-and-third-",
+      "name": "Protection from victimisation and third-party harassment",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://www.acas.org.uk/discrimination-and-the-law/victimisation",
+        "https://www.legislation.gov.uk/ukpga/2010/15/section/39",
+        "https://www.acas.org.uk/employment-rights-act-2025/harassment-law-changes",
+        "https://www.legislation.gov.uk/ukpga/2025/36/section/21",
+        "https://www.legislation.gov.uk/uksi/2026/1065/made"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdexternal-acas-early-conciliation-comes-before-mos",
+      "name": "Acas early conciliation comes before most tribunal claims",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://www.acas.org.uk/early-conciliation",
+        "https://www.gov.uk/employment-tribunals",
+        "https://www.acas.org.uk/early-conciliation/how-early-conciliation-works",
+        "https://www.acas.org.uk/contact",
+        "https://www.legislation.gov.uk/uksi/2014/254/schedule"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdexternal-tribunal-time-limit-now-6-months-minus-1",
+      "name": "Tribunal time limit: now 6 months minus 1 day in Great Britain",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://www.acas.org.uk/employment-tribunal-time-limits",
+        "https://www.gov.uk/employment-tribunals",
+        "https://www.legislation.gov.uk/ukpga/2010/15/section/123",
+        "https://www.legislation.gov.uk/uksi/2026/954/made"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdexternal-northern-ireland-labour-relations-agency",
+      "name": "Northern Ireland: Labour Relations Agency and a 3-month limit",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://www.lra.org.uk/early-conciliation",
+        "https://www.legislation.gov.uk/nisi/1997/869/article/65",
+        "https://www.nidirect.gov.uk/articles/racial-discrimination",
+        "https://www.legislation.gov.uk/nisi/1998/3162/article/46"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdexternal-equality-advisory-and-support-service-ea",
+      "name": "Equality Advisory and Support Service (EASS)",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://www.gov.uk/equality-advisory-support-service",
+        "https://www.citizensadvice.org.uk/law-and-courts/discrimination/about-discrimination/equality-advisory-support-service-discrimination-helpline/",
+        "https://checklegalaid.service.gov.uk/public/next-steps",
+        "https://www.equalityadvisoryservice.com/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdexternal-the-equality-commissions-great-britain-a",
+      "name": "The equality commissions: Great Britain and Northern Ireland",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://www.gov.uk/government/organisations/equality-and-human-rights-commission",
+        "https://www.gov.uk/equality-advisory-support-service",
+        "https://www.legislation.gov.uk/ukpga/2006/3/section/28",
+        "https://www.legislation.gov.uk/nisi/1998/3162/article/45",
+        "https://www.legislation.gov.uk/nisi/1997/869/article/64",
+        "https://www.nidirect.gov.uk/articles/racial-discrimination"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdexternal-free-legal-advice-citizens-advice-law-ce",
+      "name": "Free legal advice: Citizens Advice, Law Centres, unions and legal aid",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://www.gov.uk/discrimination-your-rights/what-you-can-do",
+        "https://www.lawcentres.org.uk/what-is-a-law-centre"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdexternal-ombudsmen-do-not-handle-appointments-or-",
+      "name": "Ombudsmen do not handle appointments or personnel matters",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://www.legislation.gov.uk/ukpga/1967/13/schedule/3",
+        "https://www.legislation.gov.uk/asp/2002/11/schedule/4"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdexternal-asking-questions-no-statutory-form-in-gr",
+      "name": "Asking questions: no statutory form in Great Britain since 2014",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://www.legislation.gov.uk/ukpga/2013/24/section/66",
+        "https://www.acas.org.uk/asking-and-answering-questions-about-discrimination",
+        "https://www.legislation.gov.uk/nisi/1997/869/article/63"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdevidence-keep-a-dated-record-from-the-start",
+      "name": "Keep a dated record from the start",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://www.acas.org.uk/if-youve-been-discriminated-against-at-work",
+        "https://civilservicecommission.independent.gov.uk/wp-content/themes/csc/download-document.php?file=2017-01-01-A-Guide-to-bringing-a-Recruitment-Principles-complaint-to-the-Civil-Service-Commission.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdevidence-keep-the-recruitment-paper-trail",
+      "name": "Keep the recruitment paper trail",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://civilservicecommission.independent.gov.uk/wp-content/themes/csc/download-document.php?file=2017-01-01-A-Guide-to-bringing-a-Recruitment-Principles-complaint-to-the-Civil-Service-Commission.pdf",
+        "https://www.acas.org.uk/asking-and-answering-questions-about-discrimination"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdevidence-ask-for-your-own-data-with-a-subject-acc",
+      "name": "Ask for your own data with a subject access request",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://ico.org.uk/for-the-public/getting-copies-of-your-information-subject-access-request/",
+        "https://www.gov.uk/data-protection/find-out-what-data-an-organisation-has-about-you"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdevidence-how-to-word-a-complaint",
+      "name": "How to word a complaint",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://www.acas.org.uk/acas-code-of-practice-on-disciplinary-and-grievance-procedures/html",
+        "https://www.acas.org.uk/asking-and-answering-questions-about-discrimination",
+        "https://civilservicecommission.independent.gov.uk/wp-content/themes/csc/download-document.php?file=2017-01-01-A-Guide-to-bringing-a-Recruitment-Principles-complaint-to-the-Civil-Service-Commission.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdevidence-name-people-in-the-complaint-use-roles-i",
+      "name": "Name people in the complaint, use roles in public",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://www.acas.org.uk/asking-and-answering-questions-about-discrimination",
+        "https://civilservicecommission.independent.gov.uk/wp-content/themes/csc/download-document.php?file=2017-01-01-A-Guide-to-bringing-a-Recruitment-Principles-complaint-to-the-Civil-Service-Commission.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdevidence-do-not-let-internal-steps-run-down-the-c",
+      "name": "Do not let internal steps run down the clock",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://www.acas.org.uk/early-conciliation",
+        "https://www.acas.org.uk/asking-and-answering-questions-about-discrimination"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ft-rdevidence-look-after-your-wellbeing-during-a-compl",
+      "name": "Look after your wellbeing during a complaint",
+      "isPartOf": "urn:bhm26:dataset-fairtreat",
+      "citation": [
+        "https://www.acas.org.uk/race-discrimination/making-and-handling-race-discrimination-complaints",
+        "https://www.acas.org.uk/how-to-raise-a-problem-at-work",
+        "https://www.acas.org.uk/if-youve-been-discriminated-against-at-work"
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:bhm26:dataset-leadtargets",
+      "name": "Targets, commitments and allyship",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#leaders",
+      "isPartOf": "urn:bhm26:hub"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgcs-ethnic-minority-civil-servants-at-a-reco",
+      "name": "Ethnic minority civil servants at a record 19.2%, SCS level at 10.6%",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://www.gov.uk/government/statistics/civil-service-statistics-2026/statistical-bulletin-civil-service-statistics-2026",
+        "https://www.ethnicity-facts-figures.service.gov.uk/workforce-and-business/workforce-diversity/civil-service-workforce/latest",
+        "https://www.instituteforgovernment.org.uk/explainer/civil-service-diversity"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgcs-no-current-civil-service-wide-scs-ethnic",
+      "name": "No current Civil Service-wide SCS ethnicity target",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://www.gov.uk/government/publications/civil-service-diversity-and-inclusion-strategy-2022-to-2025/civil-service-diversity-and-inclusion-strategy-2022-to-2025-html",
+        "https://www.instituteforgovernment.org.uk/explainer/civil-service-diversity",
+        "https://www.civilserviceworld.com/professions/article/civil-service-diversity-strategy-criticised-lack-targets-guidance-disability-gender-race"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgcs-places-for-growth-2030-half-of-uk-based-",
+      "name": "Places for Growth 2030: half of UK-based SCS outside London",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://www.gov.uk/government/collections/places-for-growth",
+        "https://www.gov.uk/government/news/thousands-of-civil-service-roles-moved-out-of-london-in-latest-reform-to-the-state",
+        "https://www.instituteforgovernment.org.uk/explainer/relocation-civil-service",
+        "https://www.ethnicity-facts-figures.service.gov.uk/workforce-and-business/workforce-diversity/civil-service-workforce/latest",
+        "https://www.gov.uk/government/publications/civil-service-diversity-and-inclusion-strategy-2022-to-2025/civil-service-diversity-and-inclusion-strategy-2022-to-2025-html"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgcs-civil-service-ethnicity-pay-gaps-2026-bl",
+      "name": "Civil Service ethnicity pay gaps 2026: Black and Mixed groups",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://www.gov.uk/government/statistics/civil-service-statistics-2026/statistical-bulletin-civil-service-ethnicity-pay-gap-statistics-2026",
+        "https://www.gov.uk/government/statistics/civil-service-statistics-2026"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgcs-people-survey-discrimination-at-7-ethnic",
+      "name": "People Survey: discrimination at 7%, ethnic background cited by 11%",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://www.gov.uk/government/publications/civil-service-people-survey-2025-results/civil-service-people-survey-2025-results-highlights",
+        "https://www.gov.uk/government/organisations/department-for-digital-culture-media-and-sport/about/equality-and-diversity",
+        "https://www.instituteforgovernment.org.uk/explainer/civil-service-diversity"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgdept-dcms-equality-objectives-2025-to-2030-in",
+      "name": "DCMS equality objectives 2025 to 2030 include a sponsorship pilot",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://www.gov.uk/government/organisations/department-for-digital-culture-media-and-sport/about/equality-and-diversity",
+        "https://www.gov.uk/government/organisations/department-for-culture-media-and-sport/about/equality-and-diversity",
+        "https://www.gov.uk/government/organisations/government-digital-service"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgdept-departmental-pay-gap-reporting-gender-pu",
+      "name": "Departmental pay gap reporting: gender published, ethnicity not listed",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://www.gov.uk/government/organisations/department-for-digital-culture-media-and-sport/about/equality-and-diversity",
+        "https://www.gov.uk/government/publications/dcms-gender-pay-gap-report-2025/dcms-gender-pay-gap-report-2025",
+        "https://www.gov.uk/government/statistics/civil-service-statistics-2026/statistical-bulletin-civil-service-ethnicity-pay-gap-statistics-2026"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgdept-psed-publish-information-yearly-and-obje",
+      "name": "PSED: publish information yearly and objectives every four years",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://www.legislation.gov.uk/uksi/2017/353/regulation/4",
+        "https://www.legislation.gov.uk/uksi/2017/353/regulation/5",
+        "https://www.gov.uk/government/publications/public-sector-equality-duty",
+        "https://www.legislation.gov.uk/ukpga/2010/15/section/149"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgdept-ethnicity-pay-gap-law-proposed-not-intro",
+      "name": "Ethnicity pay gap law: proposed, not introduced at 30 October 2026",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://www.gov.uk/government/consultations/equality-race-and-disability-bill-mandatory-ethnicity-and-disability-pay-gap-reporting/outcome/consultation-on-mandatory-ethnicity-and-disability-pay-gap-reporting-government-response",
+        "https://fullfact.org/government-tracker/race-equality-act/",
+        "https://www.lexisnexis.co.uk/legal/news/equality-race-disability-bill-absent-from-kings-speech",
+        "https://www.linklaters.com/insights/blogs/employmentlinks/2026/march/mandatory-ethnicity-and-disability-pay-gap-reporting",
+        "https://www.gov.uk/government/consultations/equality-race-and-disability-bill-mandatory-ethnicity-and-disability-pay-gap-reporting"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgdept-proposed-reporting-would-show-black-and-",
+      "name": "Proposed reporting would show Black and Mixed groups separately",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://www.gov.uk/government/consultations/equality-race-and-disability-bill-mandatory-ethnicity-and-disability-pay-gap-reporting/outcome/consultation-on-mandatory-ethnicity-and-disability-pay-gap-reporting-government-response",
+        "https://www.linklaters.com/insights/blogs/employmentlinks/2026/march/mandatory-ethnicity-and-disability-pay-gap-reporting"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgdept-equality-action-plans-voluntary-to-30-ma",
+      "name": "Equality action plans: voluntary to 30 March 2027, mandatory planned",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://www.gov.uk/government/publications/creating-an-action-plan-guidance-for-employers/overview",
+        "https://www.gov.uk/government/consultations/equality-race-and-disability-bill-mandatory-ethnicity-and-disability-pay-gap-reporting/outcome/consultation-on-mandatory-ethnicity-and-disability-pay-gap-reporting-government-response",
+        "https://www.lewissilkin.com/en/insights/2026/03/13/new-government-guidance-on-equality-actions-plans-published"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgwider-nhs-wres-tenth-national-report-published",
+      "name": "NHS WRES: tenth national report published April 2026",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://www.england.nhs.uk/publication/workforce-race-equality-standard-2025-data-analysis-report-for-nhs-trusts/",
+        "https://www.nhsemployers.org/news/workforce-race-equality-standard-report-published",
+        "https://www.england.nhs.uk/about/equality/equality-hub/workforce-equality-data-standards/equality-standard/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgwider-mann-review-on-nhs-racism-progress-repor",
+      "name": "Mann review on NHS racism: progress reports due 2026 and 2027",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://www.gov.uk/government/publications/government-response-to-the-lord-mann-review-on-antisemitism-and-other-forms-of-racism-in-the-nhs/government-response-to-the-lord-mann-review-into-antisemitism-and-other-forms-of-racism-in-the-nhs",
+        "https://www.nhsemployers.org/news/workforce-race-equality-standard-report-published",
+        "https://www.gov.uk/government/publications/nhs-staff-standards",
+        "https://www.gov.uk/government/publications/lord-mann-review-on-antisemitism-and-other-forms-of-racism-in-the-nhs"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgwider-police-race-action-plan-continues-in-a-n",
+      "name": "Police Race Action Plan continues in a new form after 2026 review",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://www.gov.uk/government/publications/race-equality-engagement-group-one-year-of-action-2025-to-2026/race-equality-engagement-group-one-year-of-action",
+        "https://news.npcc.police.uk/releases/response-to-police-race-action-plan-isob-report-2"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgwider-windrush-compensation-scheme-monthly-dat",
+      "name": "Windrush Compensation Scheme: monthly data, no closing target",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://www.gov.uk/government/statistics/windrush-compensation-scheme-data-august-2026",
+        "https://www.gov.uk/government/news/windrush-compensation-scheme-overhaul-to-deliver-faster-justice"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgwider-no-standalone-uk-race-equality-strategy-",
+      "name": "No standalone UK race equality strategy; REEG and maternity pledge",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://www.gov.uk/government/publications/race-equality-engagement-group-one-year-of-action-2025-to-2026/race-equality-engagement-group-one-year-of-action",
+        "https://fullfact.org/government-tracker/race-equality-act/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgwider-wales-aims-to-be-an-anti-racist-nation-b",
+      "name": "Wales aims to be an anti-racist nation by 2030",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://www.gov.wales/anti-racist-wales-action-plan-2024-update-html",
+        "https://www.gov.wales/anti-racist-wales-action-plan-arwap-progress-update"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgadvocate-ask-for-data-by-black-and-mixed-groups-n",
+      "name": "Ask for data by Black and Mixed groups, not only 'ethnic minority'",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://www.gov.uk/government/consultations/equality-race-and-disability-bill-mandatory-ethnicity-and-disability-pay-gap-reporting/outcome/consultation-on-mandatory-ethnicity-and-disability-pay-gap-reporting-government-response",
+        "https://www.gov.uk/government/statistics/civil-service-statistics-2026/statistical-bulletin-civil-service-ethnicity-pay-gap-statistics-2026",
+        "https://assets.publishing.service.gov.uk/media/5a7f81c6ed915d74e33f6dc4/race-in-workplace-mcgregor-smith-review.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgadvocate-press-for-published-pay-gap-action-plans",
+      "name": "Press for published pay gap action plans with targets",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://assets.publishing.service.gov.uk/media/5a7f81c6ed915d74e33f6dc4/race-in-workplace-mcgregor-smith-review.pdf",
+        "https://www.bitc.org.uk/race-at-work-charter/",
+        "https://www.gov.uk/government/consultations/equality-race-and-disability-bill-mandatory-ethnicity-and-disability-pay-gap-reporting/outcome/consultation-on-mandatory-ethnicity-and-disability-pay-gap-reporting-government-response"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgadvocate-turn-mentoring-into-sponsorship-that-cha",
+      "name": "Turn mentoring into sponsorship that changes careers",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://www.gov.uk/government/publications/offer-mentoring-sponsorship-and-other-development-programmes/offer-mentoring-sponsorship-and-other-development-programmes",
+        "https://www.gov.uk/government/organisations/department-for-digital-culture-media-and-sport/about/equality-and-diversity",
+        "https://civilservice.blog.gov.uk/2020/02/27/how-sponsorship-empowers/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgadvocate-ask-for-a-stated-ambition-for-progressio",
+      "name": "Ask for a stated ambition for progression to senior grades",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://www.gov.uk/government/statistics/civil-service-statistics-2026/statistical-bulletin-civil-service-statistics-2026",
+        "https://assets.publishing.service.gov.uk/media/5a7f81c6ed915d74e33f6dc4/race-in-workplace-mcgregor-smith-review.pdf",
+        "https://www.instituteforgovernment.org.uk/explainer/civil-service-diversity"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgadvocate-use-lawful-positive-action-in-developmen",
+      "name": "Use lawful positive action in development and recruitment",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://www.legislation.gov.uk/ukpga/2010/15/section/158",
+        "https://www.legislation.gov.uk/ukpga/2010/15/section/159",
+        "https://www.gov.uk/government/publications/civil-service-diversity-and-inclusion-strategy-2022-to-2025/civil-service-diversity-and-inclusion-strategy-2022-to-2025-html"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgadvocate-hold-executive-sponsors-to-account-with-",
+      "name": "Hold executive sponsors to account with objectives and reports",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://assets.publishing.service.gov.uk/media/5a7f81c6ed915d74e33f6dc4/race-in-workplace-mcgregor-smith-review.pdf",
+        "https://www.bitc.org.uk/race-at-work-charter/",
+        "https://www.gov.wales/anti-racist-wales-action-plan-2024-update-html"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgadvocate-give-networks-a-formal-advisory-voice",
+      "name": "Give networks a formal advisory voice",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://civilservice.blog.gov.uk/civil-service-race-forum/",
+        "https://www.gov.uk/government/publications/race-equality-engagement-group-one-year-of-action-2025-to-2026/race-equality-engagement-group-one-year-of-action"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgally-executive-sponsors-own-the-race-agenda-v",
+      "name": "Executive sponsors: own the race agenda visibly",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://www.bitc.org.uk/wp-content/uploads/2024/03/bitc-core-meeting-the-bitc-race-at-work-charter-an-employers-guide-mar24.pdf",
+        "https://assets.publishing.service.gov.uk/media/5a7f81c6ed915d74e33f6dc4/race-in-workplace-mcgregor-smith-review.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgally-take-part-in-reverse-mentoring-and-360-d",
+      "name": "Take part in reverse mentoring and 360-degree feedback",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://assets.publishing.service.gov.uk/media/5a7f81c6ed915d74e33f6dc4/race-in-workplace-mcgregor-smith-review.pdf",
+        "https://www.bitc.org.uk/wp-content/uploads/2024/03/bitc-core-meeting-the-bitc-race-at-work-charter-an-employers-guide-mar24.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgally-sponsor-actively-advocate-open-doors-fin",
+      "name": "Sponsor actively: advocate, open doors, find stretch work",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://www.gov.uk/government/publications/offer-mentoring-sponsorship-and-other-development-programmes/offer-mentoring-sponsorship-and-other-development-programmes",
+        "https://civilservice.blog.gov.uk/2020/02/27/how-sponsorship-empowers/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgally-be-an-active-bystander-and-call-out-raci",
+      "name": "Be an active bystander and call out racism",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://www.acas.org.uk/what-do-we-mean-when-we-talk-of-allyship",
+        "https://bitc.org.uk/wp-content/uploads/2024/08/bitc-guide-anti-racism-and-allyship-in-the-workplace-august24-v2.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgally-lead-by-example-on-zero-tolerance-of-har",
+      "name": "Lead by example on zero tolerance of harassment",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://www.bitc.org.uk/race-at-work-charter/",
+        "https://www.bitc.org.uk/wp-content/uploads/2024/03/bitc-core-meeting-the-bitc-race-at-work-charter-an-employers-guide-mar24.pdf",
+        "https://www.gov.uk/government/organisations/department-for-digital-culture-media-and-sport/about/equality-and-diversity"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgally-learn-continuously-and-accept-you-will-m",
+      "name": "Learn continuously and accept you will make mistakes",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://www.acas.org.uk/what-do-we-mean-when-we-talk-of-allyship",
+        "https://bitc.org.uk/wp-content/uploads/2024/08/bitc-guide-anti-racism-and-allyship-in-the-workplace-august24-v2.pdf",
+        "https://www.bitc.org.uk/race-at-work-charter/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:tg-tgally-put-allyship-into-objectives-and-apprais",
+      "name": "Put allyship into objectives and appraisal",
+      "isPartOf": "urn:bhm26:dataset-leadtargets",
+      "citation": [
+        "https://www.bitc.org.uk/wp-content/uploads/2024/03/bitc-core-meeting-the-bitc-race-at-work-charter-an-employers-guide-mar24.pdf",
+        "https://www.gov.wales/anti-racist-wales-action-plan-2024-update-html"
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:bhm26:dataset-participate",
+      "name": "Taking part in public life",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#participate",
+      "isPartOf": "urn:bhm26:hub"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-pavoice-uk-youth-parliament-elected-members-aged",
+      "name": "UK Youth Parliament: elected members aged 11 to 18",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.gov.uk/government/publications/evaluation-of-the-uk-youth-parliament/evaluation-of-the-uk-youth-parliament",
+        "https://www.gov.uk/government/news/government-secures-future-of-uk-youth-parliament",
+        "https://www.northnorthants.gov.uk/local-democracy-and-civic-functions/uk-youth-parliament"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-pavoice-make-your-mark-and-the-house-of-commons-",
+      "name": "Make Your Mark and the House of Commons sitting",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.gov.uk/government/news/government-secures-future-of-uk-youth-parliament",
+        "https://www.gov.uk/government/publications/evaluation-of-the-uk-youth-parliament/evaluation-of-the-uk-youth-parliament"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-pavoice-scottish-youth-parliament-vote-at-12-to-",
+      "name": "Scottish Youth Parliament: vote at 12 to 25, stand at 14 to 25",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://syp.org.uk/?p=13237",
+        "https://www.scotborders.gov.uk/youth-participation/youth-parliament/2"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-pavoice-welsh-youth-parliament-senedd-ieuenctid-",
+      "name": "Welsh Youth Parliament (Senedd Ieuenctid): 60 members",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://youthparliament.senedd.wales/about/",
+        "https://senedd.wales/senedd-now/news/voter-registration-opens-for-new-welsh-youth-parliament"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-pavoice-northern-ireland-youth-assembly-90-membe",
+      "name": "Northern Ireland Youth Assembly: 90 members chosen at random",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://niyouthassembly.org/learn-more/",
+        "https://www.niyouthassembly.org/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-pavoice-children-s-commissioners-young-advisers",
+      "name": "Children's Commissioners' young advisers",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.childrenscommissioner.gov.uk/blog/a-new-youth-advisory-board-to-share-experiences-and-views-on-ai-in-education/",
+        "https://www.cypcs.org.uk/about-us/young-advisors/",
+        "https://www.childrenscommissioner.gov.uk/blog/the-childrens-commissioner-launches-her-childrens-advisory-board/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-pavoice-local-youth-councils-and-young-mayors",
+      "name": "Local youth councils and young mayors",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://lewisham.gov.uk/mayorandcouncil/young-mayor",
+        "https://www.gov.uk/government/publications/evaluation-of-the-uk-youth-parliament/evaluation-of-the-uk-youth-parliament",
+        "https://www.gov.uk/guidance/youth-matters-your-national-youth-strategy-summary-report"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-pavoice-school-and-college-councils",
+      "name": "School and college councils",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.legislation.gov.uk/wsi/2005/3200/regulation/3/made",
+        "https://www.gov.uk/government/publications/the-enrichment-framework-for-schools-and-colleges/enrichment-benchmarks"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-padem-voting-age-now-16-in-scotland-and-wales-",
+      "name": "Voting age now: 16 in Scotland and Wales, 18 elsewhere",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.gov.uk/elections-in-the-uk/print",
+        "https://www.gov.uk/register-to-vote"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-padem-votes-at-16-for-all-uk-elections-a-bill-",
+      "name": "Votes at 16 for all UK elections: a Bill, not yet law",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.gov.uk/government/publications/representation-of-the-people-bill-policy-summaries/votes-at-16",
+        "https://bills-api.parliament.uk/api/v1/Bills/4080",
+        "https://www.gov.uk/guidance/youth-matters-your-national-youth-strategy-summary-report"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-padem-register-to-vote-about-five-minutes-onli",
+      "name": "Register to vote: about five minutes online",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.gov.uk/register-to-vote",
+        "https://www.gov.uk/elections-in-the-uk"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-padem-petitions-thresholds-differ-by-parliamen",
+      "name": "Petitions: thresholds differ by parliament",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://petition.parliament.uk/help",
+        "https://petitions.senedd.wales/help",
+        "https://petitions.parliament.scot/help"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-padem-give-evidence-to-committees-and-answer-c",
+      "name": "Give evidence to committees and answer consultations",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.parliament.uk/get-involved/",
+        "https://www.gov.uk/search/policy-papers-and-consultations",
+        "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-civic-engagement/community-and-engagement-survey-202526-civic-engagement-report--2"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-padem-free-education-services-and-visits-at-ea",
+      "name": "Free education services and visits at each parliament",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.parliament.uk/get-involved/education-programmes/",
+        "https://education.niassembly.gov.uk/",
+        "https://www.parliament.scot/msps"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-paservice-magistrate-from-18-at-least-13-days-a-ye",
+      "name": "Magistrate: from 18, at least 13 days a year",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.gov.uk/become-magistrate/print",
+        "https://www.gov.uk/government/statistics/diversity-of-the-judiciary-2026-statistics/diversity-of-the-judiciary-legal-professions-new-appointments-and-current-post-holders-2026-statistics"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-paservice-special-constable-volunteer-police-offic",
+      "name": "Special constable: volunteer police officer from 18",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.gov.uk/police-community-support-officers-what-they-are/print",
+        "https://www.joiningthepolice.co.uk/career-progression/volunteering-with-the-police"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-paservice-volunteer-police-cadets-a-uniformed-yout",
+      "name": "Volunteer Police Cadets: a uniformed youth group",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://vpc.police.uk/about-us/",
+        "https://vpc.police.uk/Be-a-Cadet",
+        "https://tvpcareers.co.uk/opportunities/cadets/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-paservice-nhs-youth-voice-and-patient-involvement",
+      "name": "NHS youth voice and patient involvement",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.england.nhs.uk/get-involved/get-involved/how/forums/nhs-youth-forum/",
+        "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-civic-engagement/community-and-engagement-survey-202526-civic-engagement-report--2"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-paservice-school-or-academy-governor-from-18",
+      "name": "School or academy governor: from 18",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.gov.uk/government/publications/maintained-schools-governance-guide/maintained-schools-governance-guide",
+        "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-civic-engagement/community-and-engagement-survey-202526-civic-engagement-report--2"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-paservice-independent-custody-visitors-and-monitor",
+      "name": "Independent custody visitors and monitoring boards",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.gov.uk/volunteer-to-check-standards-in-prison/print",
+        "https://icva.org.uk/",
+        "https://imb.org.uk/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-paservice-jury-service-a-civic-duty-from-18",
+      "name": "Jury service: a civic duty from 18",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.gov.uk/jury-service/print",
+        "https://www.scotcourts.gov.uk/coming-to-court/jurors/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-paservice-public-appointments-to-boards-of-public-",
+      "name": "Public appointments to boards of public bodies",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://publicappointments.cabinetoffice.gov.uk/",
+        "https://www.gov.uk/government/publications/public-appointments-data-report-202425/public-appointments-data-report-202425-html"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-paeducation-civil-service-routes-from-age-16",
+      "name": "Civil Service routes from age 16",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/home/civil-service-early-careers/",
+        "https://www.gov.uk/become-apprentice/print"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-paeducation-summer-internship-programme-apply-by-5-n",
+      "name": "Summer Internship Programme: apply by 5 November 2026",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/fast-stream/fs-summer-internship-programme/",
+        "https://www.gov.uk/government/news/internship-scheme-to-get-more-working-class-students-into-civil-service"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-paeducation-care-leavers-internship-scheme-18-months",
+      "name": "Care Leavers Internship Scheme: 18 months, ages 18 to 30",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/civil-service-care-leavers-internship-scheme",
+        "https://childrenssocialcare.blog.gov.uk/2025/07/21/civil-service-care-leavers-internship-scheme-2025-2"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-paeducation-youth-select-committee-12-members-of-the",
+      "name": "Youth Select Committee: 12 members of the Youth Parliament",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.parliament.uk/get-involved/education-programmes/youth-select-committee/",
+        "https://newsroom.carmarthenshire.gov.wales/2025/09/carmarthenshire-youth-council-member-went-to-parliament-as-youth-select-committee-launches-inquiry/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-paeducation-dofe-debating-and-model-un-through-schoo",
+      "name": "DofE, debating and Model UN through school",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.dofe.org/do/",
+        "https://www.gov.uk/government/publications/the-enrichment-framework-for-schools-and-colleges/enrichment-benchmarks"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-paeducation-cadet-forces-over-137-000-young-people",
+      "name": "Cadet forces: over 137,000 young people",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.gov.uk/government/statistics/mod-sponsored-cadet-forces-statistics-2026/mod-sponsored-cadet-forces-1-april-2026",
+        "https://www.gov.uk/government/publications/the-enrichment-framework-for-schools-and-colleges/resources-to-support-schools-and-colleges-with-enrichment"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-paeducation-national-citizen-service-has-closed",
+      "name": "National Citizen Service has closed",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.gov.uk/government/organisations/national-citizen-service",
+        "https://assets.publishing.service.gov.uk/media/686cf722a08d3a3ca3b6789d/Joint_Statement_NCS-DCMS_-_accessible.pdf",
+        "https://www.gov.uk/guidance/youth-matters-your-national-youth-strategy-summary-report"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-paeducation-iwill-and-youth-social-action",
+      "name": "#iWill and youth social action",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.iwill.org.uk/",
+        "https://www.gov.uk/guidance/youth-matters-your-national-youth-strategy-summary-report"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-paholiday-holiday-activities-and-food-programme-en",
+      "name": "Holiday Activities and Food programme (England)",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.gov.uk/government/publications/holiday-activities-and-food-programme/holiday-activities-and-food-programme-2026-to-2027",
+        "https://www.gov.uk/guidance/youth-matters-your-national-youth-strategy-summary-report"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-paholiday-council-and-community-holiday-schemes",
+      "name": "Council and community holiday schemes",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.gov.uk/after-school-holiday-club",
+        "https://www.gov.uk/government/publications/holiday-activities-and-food-programme/holiday-activities-and-food-programme-2026-to-2027"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-paholiday-museums-archives-and-heritage-takeover-d",
+      "name": "Museums, archives and heritage: Takeover Day",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://kidsinmuseums.org.uk/takeover-day/",
+        "https://www.gov.uk/government/publications/the-enrichment-framework-for-schools-and-colleges/resources-to-support-schools-and-colleges-with-enrichment"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-paholiday-gap-year-paid-placements-and-apprentices",
+      "name": "Gap year: paid placements and apprenticeships",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.etrust.org.uk/the-year-in-industry",
+        "https://www.gov.uk/become-apprentice/print"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-paholiday-summer-placements-in-government",
+      "name": "Summer placements in government",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/fast-stream/fs-summer-internship-programme/",
+        "https://www.gov.uk/government/news/internship-scheme-to-get-more-working-class-students-into-civil-service"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-paholiday-volunteering-in-the-holidays-and-gap-yea",
+      "name": "Volunteering in the holidays and gap years",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.volunteersweek.org/about",
+        "https://www.ethnicity-facts-figures.service.gov.uk/culture-and-community/civic-participation/volunteering/latest",
+        "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-volunteering/community-and-engagement-survey-202526-volunteering-and-charitable-giving-report"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-paholiday-working-in-the-holidays-if-you-are-under",
+      "name": "Working in the holidays if you are under 16",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.gov.uk/child-employment/print"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-paholiday-safeguarding-for-under-18s",
+      "name": "Safeguarding for under-18s",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.gov.uk/government/publications/keeping-children-safe-in-out-of-school-settings-code-of-practice",
+        "https://www.gov.uk/child-employment/print",
+        "https://assets.publishing.service.gov.uk/media/6986066acfe7ccf77efbc75b/After-school_clubs__community_activities__and_tuition_-_Safeguarding_guidance_for_providers.pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-parepresent-uk-youth-parliament-black-members-in-lin",
+      "name": "UK Youth Parliament: Black members in line with population",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.gov.uk/government/publications/evaluation-of-the-uk-youth-parliament/evaluation-of-the-uk-youth-parliament"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-parepresent-magistrates-5-black-2-mixed-in-2026",
+      "name": "Magistrates: 5% Black, 2% Mixed in 2026",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.gov.uk/government/statistics/diversity-of-the-judiciary-2026-statistics/diversity-of-the-judiciary-legal-professions-new-appointments-and-current-post-holders-2026-statistics",
+        "https://www.gov.uk/government/statistics/diversity-of-the-judiciary-2025-statistics/diversity-of-the-judiciary-legal-professions-new-appointments-and-current-post-holders-2025-statistics--2"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-parepresent-public-appointments-13-from-ethnic-minor",
+      "name": "Public appointments: 13% from ethnic minorities",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.gov.uk/government/publications/public-appointments-data-report-202425/public-appointments-data-report-202425-html",
+        "https://publicappointments.cabinetoffice.gov.uk/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-parepresent-civic-engagement-black-adults-at-the-eng",
+      "name": "Civic engagement: Black adults at the England average",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-civic-engagement/community-and-engagement-survey-202526-civic-engagement-report--2",
+        "https://assets.publishing.service.gov.uk/media/6a70540d0c36759b5ccaa334/community_and_engagement_2025_26_civic_engagement_data_tables.ods"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-parepresent-voter-registration-gaps-for-black-and-mi",
+      "name": "Voter registration gaps for Black and Mixed-heritage people",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://committees.parliament.uk/writtenevidence/11633/html"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:yp-parepresent-council-candidates-in-wales-about-1-blac",
+      "name": "Council candidates in Wales: about 1% Black, 1% Mixed",
+      "isPartOf": "urn:bhm26:dataset-participate",
+      "citation": [
+        "https://www.gov.wales/local-government-candidates-survey-2022-summary-html"
       ]
     }
   ]

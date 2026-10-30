@@ -4,6 +4,7 @@ Full release notes, with what was checked for each release, are in [docs/release
 
 | Version | Date | Summary |
 |---|---|---|
+| 2.27.0 | 30 Oct 2026 | Careers menu; if you are treated unfairly (routes to notify, report, escalate and seek redress in recruitment and at work, four nations); keeping track of applications, with a tracker that stays on your device; taking part in public life during and after education, gap years and holidays; targets and a MoSCoW list of visible allyship for leaders; information architecture review (Resources merged into Partners, open data feeds moved, signposts, menu toggle fix) |
 | 2.26.0 | 29 Oct 2026 | Joining government: routes in, applying and interviews, a typical day, checks before you start, nationality and visas, parents and carers, returners, veterans, second chances and other circumstances, from questions asked at Black Tech Fest; circumstances finder, preparation checklist, what people ask; GDS shown as part of DCMS |
 | 2.25.0 | 26 Oct 2026 | Every item and sourced point as open data, with an OpenAPI description and a DCAT catalogue; cite, link or correct any point; what changed since the previous release; injected sections and Recognition points registered |
 | 2.24.0 | 26 Oct 2026 | Beyond government (employers, voluntary and faith sector, funders, unions); intersections (older, disabled, LGBT+ people); place across the four nations; what other governments do; every point independently re-read |

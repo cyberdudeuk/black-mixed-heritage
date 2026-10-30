@@ -1,0 +1,111 @@
+{
+ "ladder": [
+  {
+   "step": "Ask for feedback and raise the concern informally",
+   "who": "Named contact on the job advert or the recruiting team",
+   "when": "As soon as possible after the decision",
+   "time_limit": "None in law; tribunal clock runs from the act",
+   "src_url": "https://civilservicecommission.independent.gov.uk/recruitment-principles/"
+  },
+  {
+   "step": "Formal complaint to the recruiting department",
+   "who": "Department or agency, using the complaints steps in the job advert",
+   "when": "Promptly; get a final written response",
+   "time_limit": "As set by the department",
+   "src_url": "https://civilservicecommission.independent.gov.uk/recruitment-principles/"
+  },
+  {
+   "step": "Request your own data",
+   "who": "Department's data protection team (subject access request)",
+   "when": "Early, alongside the complaint",
+   "time_limit": "Reply usually within 1 month",
+   "src_url": "https://ico.org.uk/for-the-public/getting-copies-of-your-information-subject-access-request/"
+  },
+  {
+   "step": "Complaint to the Civil Service Commission (Recruitment Principles)",
+   "who": "Civil Service Commission (not for the Northern Ireland Civil Service, most non-departmental public bodies, internal promotions, scores, feedback, vetting or offer withdrawal)",
+   "when": "After the department's final adjudication",
+   "time_limit": "Competition concluded in the past 12 months",
+   "src_url": "https://civilservicecommission.independent.gov.uk/wp-content/themes/csc/download-document.php?file=2017-01-01-A-Guide-to-bringing-a-Recruitment-Principles-complaint-to-the-Civil-Service-Commission.pdf"
+  },
+  {
+   "step": "Free advice",
+   "who": "Acas helpline, EASS (Great Britain), Citizens Advice, Law Centre, union; in Northern Ireland the Labour Relations Agency, Equality Commission or Advice NI",
+   "when": "Any time, ideally early",
+   "time_limit": "None",
+   "src_url": "https://www.gov.uk/discrimination-your-rights/what-you-can-do"
+  },
+  {
+   "step": "Early conciliation",
+   "who": "Acas (GB) or Labour Relations Agency (NI)",
+   "when": "Before the tribunal deadline",
+   "time_limit": "Must notify within the tribunal limit; GB conciliation up to 12 weeks; NI deadline paused for up to 1 month",
+   "src_url": "https://www.acas.org.uk/early-conciliation"
+  },
+  {
+   "step": "Tribunal claim against the potential employer",
+   "who": "Employment tribunal (GB); Industrial or Fair Employment Tribunal (NI)",
+   "when": "After the conciliation certificate",
+   "time_limit": "GB: 6 months minus 1 day for acts from 1 October 2026 (3 months minus 1 day before); NI: usually 3 months",
+   "src_url": "https://www.acas.org.uk/employment-tribunal-time-limits"
+  }
+ ],
+ "ladder_work": [
+  {
+   "step": "Raise it informally",
+   "who": "Line manager, HR or someone senior",
+   "when": "As soon as possible",
+   "time_limit": "None in law; tribunal clock runs from the act",
+   "src_url": "https://www.acas.org.uk/if-youve-been-discriminated-against-at-work"
+  },
+  {
+   "step": "Written grievance under departmental policy",
+   "who": "A manager not the subject of the grievance, under the grievance or bullying, harassment and discrimination policy",
+   "when": "Without unreasonable delay",
+   "time_limit": "As set by the policy",
+   "src_url": "https://www.acas.org.uk/acas-code-of-practice-on-disciplinary-and-grievance-procedures/html"
+  },
+  {
+   "step": "Grievance meeting, with a companion",
+   "who": "Employer, with a colleague or trade union representative accompanying you",
+   "when": "Without unreasonable delay after the grievance",
+   "time_limit": "If your companion cannot attend, you can propose another time up to 5 working days after the original date",
+   "src_url": "https://www.acas.org.uk/acas-code-of-practice-on-disciplinary-and-grievance-procedures/html"
+  },
+  {
+   "step": "Appeal",
+   "who": "Impartial manager not previously involved",
+   "when": "After the written outcome",
+   "time_limit": "As set by the policy",
+   "src_url": "https://www.acas.org.uk/appealing-a-disciplinary-or-grievance-outcome"
+  },
+  {
+   "step": "Civil Service Code concern (only if a Code issue, not an HR matter)",
+   "who": "Line management chain or nominated officers, then the Civil Service Commission; NICS Commissioners in Northern Ireland",
+   "when": "After the Raising a Concern procedure",
+   "time_limit": "None stated",
+   "src_url": "https://civilservicecommission.independent.gov.uk/code/"
+  },
+  {
+   "step": "Free advice",
+   "who": "Acas helpline, EASS (Great Britain), union, Citizens Advice, Law Centre; in Northern Ireland the Labour Relations Agency or Advice NI",
+   "when": "Any time",
+   "time_limit": "None",
+   "src_url": "https://www.gov.uk/discrimination-your-rights/what-you-can-do"
+  },
+  {
+   "step": "Early conciliation",
+   "who": "Acas (GB) or Labour Relations Agency (NI)",
+   "when": "Before the tribunal deadline",
+   "time_limit": "Must notify within the tribunal limit; at least 1 month after the certificate to claim",
+   "src_url": "https://www.acas.org.uk/early-conciliation/how-early-conciliation-works"
+  },
+  {
+   "step": "Employment tribunal claim",
+   "who": "Employment tribunal (GB); Industrial or Fair Employment Tribunal (NI)",
+   "when": "After the conciliation certificate",
+   "time_limit": "GB: 6 months minus 1 day for acts from 1 October 2026 (3 months minus 1 day before); NI: usually 3 months",
+   "src_url": "https://www.gov.uk/employment-tribunals"
+  }
+ ]
+}

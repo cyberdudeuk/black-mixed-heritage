@@ -1,0 +1,189 @@
+{
+ "note": "This prioritisation is the hub's own reading of the published sources, not an official ranking. Must means a legal duty or a published commitment; Should means a strong published recommendation or proposed law; Could means good practice; Won't (this year) means out of scope for 2026-27, with the reason given. Status is as at 30 October 2026.",
+ "items": [
+  {
+   "priority": "Must",
+   "who": "Organisations",
+   "action": "Publish equality information showing how the organisation meets the public sector equality duty, including employee data where it has 150 or more staff, no more than a year after the last publication.",
+   "when": "ongoing",
+   "basis": "Legal duty: Equality Act 2010 (Specific Duties and Public Authorities) Regulations 2017, regulation 4.",
+   "src_url": "https://www.legislation.gov.uk/uksi/2017/353/regulation/4"
+  },
+  {
+   "priority": "Must",
+   "who": "Organisations",
+   "action": "Keep specific and measurable equality objectives in place and republish them at least every four years.",
+   "when": "ongoing",
+   "basis": "Legal duty: 2017 specific duties regulations, regulation 5.",
+   "src_url": "https://www.legislation.gov.uk/uksi/2017/353/regulation/5"
+  },
+  {
+   "priority": "Must",
+   "who": "Organisations",
+   "action": "Have due regard to the need to advance equality of opportunity, including for Black and Mixed-heritage staff and communities, when making decisions such as relocations and restructures.",
+   "when": "ongoing",
+   "basis": "Legal duty: Equality Act 2010, section 149 (public sector equality duty).",
+   "src_url": "https://www.legislation.gov.uk/ukpga/2010/15/section/149"
+  },
+  {
+   "priority": "Must",
+   "who": "Organisations",
+   "action": "Deliver and report progress on the Department for Digital, Culture, Media and Sport equality objectives for 2025 to 2030, including the sponsorship pilot, using workforce and People Survey data.",
+   "when": "ongoing",
+   "basis": "Published departmental commitment on the equality and diversity page.",
+   "src_url": "https://www.gov.uk/government/organisations/department-for-digital-culture-media-and-sport/about/equality-and-diversity"
+  },
+  {
+   "priority": "Should",
+   "who": "Organisations",
+   "action": "Monitor diversity data through Places for Growth relocations so that moving senior roles out of London does not reduce ethnic minority progression.",
+   "when": "ongoing to 2030",
+   "basis": "Places for Growth 2030 ambition and the monitoring commitment in the 2022 to 2025 Civil Service strategy, whose period has ended.",
+   "src_url": "https://www.gov.uk/government/publications/civil-service-diversity-and-inclusion-strategy-2022-to-2025/civil-service-diversity-and-inclusion-strategy-2022-to-2025-html"
+  },
+  {
+   "priority": "Must",
+   "who": "Organisations",
+   "action": "NHS trusts collect and publish Workforce Race Equality Standard data and act on it.",
+   "when": "ongoing",
+   "basis": "NHS England requirement: the WRES has been mandated through the NHS Standard Contract since 2015/16.",
+   "src_url": "https://www.england.nhs.uk/about/equality/equality-hub/workforce-equality-data-standards/equality-standard/"
+  },
+  {
+   "priority": "Must",
+   "who": "Organisations",
+   "action": "The government reports to Parliament on progress against the Mann review of racism in the NHS, with a detailed report within 12 months of the review's publication.",
+   "when": "by June 2027",
+   "basis": "Published government commitment in the June 2026 response.",
+   "src_url": "https://www.gov.uk/government/publications/government-response-to-the-lord-mann-review-on-antisemitism-and-other-forms-of-racism-in-the-nhs/government-response-to-the-lord-mann-review-into-antisemitism-and-other-forms-of-racism-in-the-nhs"
+  },
+  {
+   "priority": "Should",
+   "who": "Organisations",
+   "action": "Publish a voluntary equality action plan by 30 March 2027 that looks at ethnicity alongside sex, ready for a single combined plan.",
+   "when": "by 30 March 2027",
+   "basis": "Government guidance on action plans and the stated aim of a single equality action plan.",
+   "src_url": "https://www.gov.uk/government/publications/creating-an-action-plan-guidance-for-employers/overview"
+  },
+  {
+   "priority": "Should",
+   "who": "Organisations",
+   "action": "Prepare for ethnicity pay gap reporting by five broad groups, including Black and Mixed, and improve ethnicity declaration rates.",
+   "when": "2027-28",
+   "basis": "Proposed legislation set out in the March 2026 government response.",
+   "src_url": "https://www.gov.uk/government/consultations/equality-race-and-disability-bill-mandatory-ethnicity-and-disability-pay-gap-reporting/outcome/consultation-on-mandatory-ethnicity-and-disability-pay-gap-reporting-government-response"
+  },
+  {
+   "priority": "Should",
+   "who": "Leaders and sponsors",
+   "action": "Set and publish a time-bound aspirational target for ethnic minority representation in senior grades, reporting progress yearly.",
+   "when": "2027-28",
+   "basis": "McGregor-Smith Review recommendation.",
+   "src_url": "https://assets.publishing.service.gov.uk/media/5a7f81c6ed915d74e33f6dc4/race-in-workplace-mcgregor-smith-review.pdf"
+  },
+  {
+   "priority": "Should",
+   "who": "Leaders and sponsors",
+   "action": "Name an executive sponsor for race with written objectives, a reporting line to the board and a published progress update.",
+   "when": "by 31 March 2027",
+   "basis": "McGregor-Smith Review and the Race at Work Charter.",
+   "src_url": "https://www.bitc.org.uk/race-at-work-charter/"
+  },
+  {
+   "priority": "Should",
+   "who": "Communities and networks",
+   "action": "Ask the department to publish workforce, progression and pay data for Black and Mixed groups, building on the Cabinet Office's departmental ethnicity pay gap figures, and the results of the sponsorship pilot.",
+   "when": "by 31 March 2027",
+   "basis": "Departmental commitment to annual pay gap reports and equity audits.",
+   "src_url": "https://www.gov.uk/government/organisations/department-for-digital-culture-media-and-sport/about/equality-and-diversity"
+  },
+  {
+   "priority": "Could",
+   "who": "Organisations",
+   "action": "Track who takes part in mentoring and sponsorship schemes, and their progression, by ethnicity combined with sex.",
+   "when": "ongoing",
+   "basis": "Office for Equality and Opportunity guidance on mentoring and sponsorship.",
+   "src_url": "https://www.gov.uk/government/publications/offer-mentoring-sponsorship-and-other-development-programmes/offer-mentoring-sponsorship-and-other-development-programmes"
+  },
+  {
+   "priority": "Should",
+   "who": "Leaders and sponsors",
+   "action": "Take part in reverse mentoring with a junior ethnic minority colleague and act on what is learned.",
+   "when": "ongoing",
+   "basis": "McGregor-Smith Review recommendation.",
+   "src_url": "https://assets.publishing.service.gov.uk/media/5a7f81c6ed915d74e33f6dc4/race-in-workplace-mcgregor-smith-review.pdf"
+  },
+  {
+   "priority": "Could",
+   "who": "Allies",
+   "action": "Act as an active bystander: challenge racist remarks and bring overlooked colleagues back into the conversation.",
+   "when": "ongoing",
+   "basis": "Acas blog and Business in the Community allyship guide.",
+   "src_url": "https://www.acas.org.uk/what-do-we-mean-when-we-talk-of-allyship"
+  },
+  {
+   "priority": "Could",
+   "who": "Allies",
+   "action": "Keep learning about race at work and add allyship activity to personal objectives and appraisal evidence.",
+   "when": "ongoing",
+   "basis": "CIPD and Business in the Community employer's guide.",
+   "src_url": "https://www.bitc.org.uk/wp-content/uploads/2024/03/bitc-core-meeting-the-bitc-race-at-work-charter-an-employers-guide-mar24.pdf"
+  },
+  {
+   "priority": "Could",
+   "who": "Organisations",
+   "action": "Run lawful positive action schemes, such as development programmes for under-represented groups.",
+   "when": "ongoing",
+   "basis": "Permitted, not required: Equality Act 2010, section 158.",
+   "src_url": "https://www.legislation.gov.uk/ukpga/2010/15/section/158"
+  },
+  {
+   "priority": "Could",
+   "who": "Communities and networks",
+   "action": "Use the People Survey results on discrimination by ethnic background to press for specific actions and follow up each year.",
+   "when": "ongoing",
+   "basis": "Civil Service People Survey 2025 results.",
+   "src_url": "https://www.gov.uk/government/publications/civil-service-people-survey-2025-results/civil-service-people-survey-2025-results-highlights"
+  },
+  {
+   "priority": "Could",
+   "who": "Organisations",
+   "action": "Adopt or adapt a maturity matrix to self-assess progress on anti-racism, as the Welsh Government has published for other organisations to use.",
+   "when": "2027-28",
+   "basis": "Welsh Government progress update on the Anti-racist Wales Action Plan.",
+   "src_url": "https://www.gov.wales/anti-racist-wales-action-plan-arwap-progress-update"
+  },
+  {
+   "priority": "Could",
+   "who": "Communities and networks",
+   "action": "Follow the successor to the Police Race Action Plan and its data in the Police Performance Framework.",
+   "when": "2027-28",
+   "basis": "Government commitment reported by the Race Equality Engagement Group.",
+   "src_url": "https://www.gov.uk/government/publications/race-equality-engagement-group-one-year-of-action-2025-to-2026/race-equality-engagement-group-one-year-of-action"
+  },
+  {
+   "priority": "Won't (this year)",
+   "who": "Organisations",
+   "action": "Treat ethnicity pay gap reporting as a statutory duty in 2026-27.",
+   "when": "by 31 March 2027",
+   "basis": "Out of scope: the Equality (Race and Disability) Bill has not been introduced, so no legal duty exists yet; voluntary reporting remains open.",
+   "src_url": "https://fullfact.org/government-tracker/race-equality-act/"
+  },
+  {
+   "priority": "Won't (this year)",
+   "who": "Organisations",
+   "action": "Reserve posts or set quotas by ethnicity in recruitment or promotion.",
+   "when": "ongoing",
+   "basis": "Not permitted: under the Equality Act 2010, section 159, a candidate may be treated more favourably only if as qualified as the other candidate, the employer has no policy of favouring that group, and the action is proportionate. General information, not legal advice.",
+   "src_url": "https://www.legislation.gov.uk/ukpga/2010/15/section/159"
+  },
+  {
+   "priority": "Won't (this year)",
+   "who": "Organisations",
+   "action": "Wait for a new Civil Service-wide diversity strategy or central SCS ethnicity target before acting.",
+   "when": "by 31 March 2027",
+   "basis": "Out of scope: the 2022 to 2025 strategy chose not to set standalone targets and no successor is published; departmental objectives apply now.",
+   "src_url": "https://www.gov.uk/government/publications/civil-service-diversity-and-inclusion-strategy-2022-to-2025/civil-service-diversity-and-inclusion-strategy-2022-to-2025-html"
+  }
+ ]
+}

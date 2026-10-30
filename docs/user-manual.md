@@ -7,7 +7,7 @@ This manual explains how to open the hub, find your way, use its tools and take 
 ## Contents
 1. [Ways to open the hub](#1-ways-to-open-the-hub)
 2. [Finding your way](#2-finding-your-way)
-3. [The seven menus](#3-the-seven-menus)
+3. [The eight menus](#3-the-eight-menus)
 4. [What is on every page](#4-what-is-on-every-page)
 5. [Accessibility settings](#5-accessibility-settings)
 6. [Things you can do](#6-things-you-can-do)
@@ -28,7 +28,7 @@ This manual explains how to open the hub, find your way, use its tools and take 
 All of them hold the same content. Saving votes, shared ideas and the AI assistant work only inside Claude; elsewhere the hub says so and offers an alternative.
 
 ## 2. Finding your way
-- **Menus:** seven menus across the top (on phones, one **Menu** button). Each menu has its own colour.
+- **Menus:** eight menus across the top (on phones, one **Menu** button). Each menu has its own colour.
 - **Search:** select **Search** or press `/` from anywhere. It finds sections, headings and every listed item. Try "jollof", "Windrush", "Wales", "patent" or "reparations".
 - **Contents:** the **Contents** switch opens the list of sections on the page you are on, with counts and flags for what is **new** or **updated** since your last visit. You can filter the list.
 - **Related pages, previous and next:** at the end of every page.
@@ -36,15 +36,16 @@ All of them hold the same content. Saving votes, shared ideas and the AI assista
 - **Links to a section:** every section has its own address, so you can share a link straight to it.
 - **Guided tours:** **About → User guide and tours** has five tours: First visit, Plan an event, For leaders, For schools and educators, and Can I trust this?
 
-## 3. The seven menus
+## 3. The eight menus
 | Menu | Pages |
 |---|---|
 | **This month** | The 2026 theme · Calendar · Organiser toolkit · Posters · Get involved · Networks and communities · Book and film club · Remember · Food and heritage |
-| **Lead** | For leaders · Inequalities and action · Life stages and identities · Careers and development · Talent, leadership and research · Black enterprise · Young lives: NEET, BEET and CHEET · Representation across the state · Beyond government |
-| **Practice** | Designing for Black and Mixed-heritage people (policy, service, content and data design) · Your profession (routes into the hub for every profession and function) · Words matter: race, ethnicity and language · Benchmarks and comparisons · Dashboards · Through other lenses · The DEEIA lens |
+| **Lead** | For leaders · Inequalities and action · Life stages and identities · Beyond government · Young lives: NEET, BEET and CHEET · Taking part in public life · Representation across the state |
+| **Careers** | Joining government · If you are treated unfairly · Careers and development · Talent, leadership and research · Your profession (routes into the hub for every profession and function) · Black enterprise |
+| **Practice** | Designing for Black and Mixed-heritage people (policy, service, content and data design) · Words matter: race, ethnicity and language · Benchmarks and comparisons · Dashboards · Through other lenses · The DEEIA lens |
 | **Learn** | History · Africa's knowledge and its journeys · What was taken, lost and might have been · Who built the stereotypes · Africa: patterns, symbols and languages · Innovation and invention · Frontier tech in Africa · Culture, sport and enterprise · Futures 2030 to 2100 |
 | **Understand** | What it means to be Black · Mixed heritage · The African diaspora · Africa: many cultures, many kinds of knowledge · Africa: peoples, regions, borders and displacement · DNA, genomes and African ancestry · Myths and facts · Identity, heritage and respect · Current debates |
-| **Resources** | For schools and educators · Curriculum and reference works · Resources · Partners and archives · Brand and media · Connect and share · Questions people ask |
+| **Resources** | For schools and educators · Curriculum and reference works · Resources, partners and archives · Brand and media · Connect and share · Questions people ask |
 | **About** | User guide and tours · About this hub · Help run the hub · Knowledge layer · Design and architecture · Self-checks, stories and journeys · Review and assessment · Assurance |
 
 The **Overview** (the front page) changes through the month: highlights, today's spotlight, a proverb and what is coming up.

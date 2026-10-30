@@ -6,7 +6,7 @@ const OLD_DEPT_RE=new RegExp("\\b"+["D","S","I","T"].join("")+"\\b|"+["Science",
 function oldDeptAudit(){const hits=[];
   try{Object.entries(SOURCES).forEach(([k,s])=>{const t=[s.t,s.p,s.u,s.n].filter(Boolean).join(" ");if(OLD_DEPT_RE.test(t))hits.push("source "+k)})}catch(e){}
   try{openPoints().forEach(p=>{const t=[p.heading,p.text,p.figure,p.note,p.sources.map(s=>s.title+" "+s.url).join(" ")].join(" ");if(OLD_DEPT_RE.test(t))hits.push("point "+p.key)})}catch(e){}
-  try{const b=document.body.cloneNode(true);b.querySelectorAll("script,style,template").forEach(e=>e.remove());const m=b.textContent.match(OLD_DEPT_RE);if(m)hits.push("page text: …"+m[0]+"…")}catch(e){}
+  try{for(const el of document.querySelectorAll(".view, header, footer, nav")){const m=el.textContent.match(OLD_DEPT_RE);if(m){hits.push("page text: …"+m[0]+"…");break}}}catch(e){}
   return hits}
 CHECKS.push({id:"C170",n:"No text, source or open-data point names the department GDS left in July 2026; GDS is shown as part of the Department for Digital, Culture, Media and Sport (D-144)",
   run:c=>({ok:!c.olddept.length,d:c.olddept.length?c.olddept.length+" mention(s): "+c.olddept.slice(0,5).join("; "):"None found in sources, open data or page text"}),

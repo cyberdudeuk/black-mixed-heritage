@@ -1,6 +1,6 @@
 {
   "title": "BHM 2026 Hub sources",
-  "version": "2.26.0",
+  "version": "2.27.0",
   "generated": "2026-10-21",
   "note": "Each source is due to be read again 12 months after it was last read.",
   "sources": [
@@ -20229,2603 +20229,3751 @@
     },
     {
       "id": "S2891",
+      "title": "Lancaster University Management School Careers: Managing your job search (12 February 2024)",
+      "url": "https://www.lancaster.ac.uk/lums/careers/blogs/managing-your-job-search",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S2892",
+      "title": "National Careers Service: Application forms (undated page, read 30 October 2026)",
+      "url": "https://nationalcareers.service.gov.uk/careers-advice/application-forms",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S2893",
+      "title": "Careers Wales: Write applications (undated page, read 30 October 2026)",
+      "url": "https://careerswales.gov.wales/getting-a-job/write-applications",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S2894",
+      "title": "Scottish Government: Recruitment candidate guide, Our application process (last updated 31 August 2026)",
+      "url": "https://www.gov.scot/publications/recruitment-candidate-guide/pages/our-application-process/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S2895",
+      "title": "Scottish Government: Recruitment candidate guide, Use of reserve lists (last updated 31 August 2026)",
+      "url": "https://www.gov.scot/publications/recruitment-candidate-guide/pages/use-of-reserve-lists/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S2896",
+      "title": "Scottish Government: Recruitment candidate guide, Pre-employment checks (last updated 31 August 2026)",
+      "url": "https://www.gov.scot/publications/recruitment-candidate-guide/pages/pre-employment-checks/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S2897",
+      "title": "Careers Wales: Job websites (undated page, read 30 October 2026)",
+      "url": "https://careerswales.gov.wales/getting-a-job/job-websites",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S2898",
+      "title": "University of Liverpool Careers and Employability: Step-by-step guide for students applying for jobs in the UK (undated page, read 30 October 2026)",
+      "url": "https://www.liverpool.ac.uk/careers/students/blog/hits-tip-advice/step-by-stepguideforstudentsapplyingforjobsintheuk/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S2899",
+      "title": "NHS Every Mind Matters: Stress (undated page, read 30 October 2026)",
+      "url": "https://www.nhs.uk/every-mind-matters/mental-health-issues/stress/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S2900",
+      "title": "GOV.UK: New Style Jobseeker's Allowance, Your JSA claim (undated page, read 30 October 2026)",
+      "url": "https://www.gov.uk/jobseekers-allowance/your-jsa-claim",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S2901",
+      "title": "GOV.UK (Civil Service Resourcing): Create and publish job adverts (vX), guidance for recruiters (updated 22 June 2022)",
+      "url": "https://www.gov.uk/guidance/create-and-publish-job-adverts",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S2902",
+      "title": "GOV.UK (United Kingdom Security Vetting): United Kingdom Security Vetting, applicant guidance (updated 26 July 2024)",
+      "url": "https://www.gov.uk/guidance/united-kingdom-security-vetting-applicant",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S2903",
+      "title": "GOV.UK (United Kingdom Security Vetting): SC guidance pack for applicants (updated 23 September 2024)",
+      "url": "https://www.gov.uk/government/publications/united-kingdom-security-vetting-clearance-levels/sc-guidance-pack-for-applicants",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S2904",
+      "title": "GOV.UK: Handing in your notice, Giving notice (undated page, read 30 October 2026)",
+      "url": "https://www.gov.uk/handing-in-your-notice/giving-notice",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S2905",
+      "title": "Acas: Notice when resigning (last updated 24 November 2025)",
+      "url": "https://www.acas.org.uk/notice-periods/notice-when-resigning",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S2906",
+      "title": "National Careers Service: Interview advice (undated page, read 30 October 2026)",
+      "url": "https://nationalcareers.service.gov.uk/careers-advice/interview-advice",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S2907",
+      "title": "Careers Wales: Interview techniques (undated page, read 30 October 2026)",
+      "url": "https://careerswales.gov.wales/getting-a-job/interview-techniques",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S2908",
+      "title": "National Careers Service: How to bounce back in a tough jobs market (undated page, read 30 October 2026)",
+      "url": "https://nationalcareers.service.gov.uk/careers-advice/how-to-bounce-back-in-a-tough-jobs-market",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S2909",
+      "title": "NHS Every Mind Matters: Low mood (undated page, read 30 October 2026)",
+      "url": "https://www.nhs.uk/every-mind-matters/mental-health-issues/low-mood/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S2910",
+      "title": "NHS Every Mind Matters: Work-related stress (undated page, read 30 October 2026)",
+      "url": "https://www.nhs.uk/every-mind-matters/lifes-challenges/work-related-stress/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S2911",
       "title": "Government Digital Service blog: Working at GDS as a developer (15 September 2021)",
       "url": "https://gds.blog.gov.uk/2021/09/15/working-at-gds-as-a-developer/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2892",
+      "id": "S2912",
       "title": "GOV.UK (Cabinet Office): Civil Service continues commitment to minimum 60% office attendance (24 October 2024)",
       "url": "https://www.gov.uk/government/news/civil-service-continues-commitment-to-minimum-60-office-attendance",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2893",
+      "id": "S2913",
       "title": "Civil Service World: Hybrid working, GPA helping departments to meet 60% mandate (27 February 2026)",
       "url": "https://www.civilserviceworld.com/professions/article/hybrid-working-departments-working-with-gpa-to-ensure-all-organisations-can-meet-60-mandate",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2894",
+      "id": "S2914",
       "title": "FDA (union): 78% of civil servants believe office attendance mandate has failed (undated news page, report published February 2025)",
       "url": "https://www.fda.org.uk/news/future-office-work/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2895",
+      "id": "S2915",
       "title": "Civil Service Pension Scheme: alpha contributions explained factsheet (contribution rates for 1 April 2025 to 31 March 2026)",
       "url": "https://www.civilservicepensionscheme.org.uk/alpha-contributions-explained-factsheet",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2896",
+      "id": "S2916",
       "title": "British Medical Association: Civil service pension scheme, Alpha scheme (updated 19 April 2024)",
       "url": "https://www.bma.org.uk/pay-and-contracts/pensions/additional-pensions-advice/civil-service-pension-scheme-alpha-scheme",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2897",
+      "id": "S2917",
       "title": "Civil Service Pension Scheme: Contribution rates, member contribution rates 2026/2027 (read 29 October 2026)",
       "url": "https://www.civilservicepensionscheme.org.uk/memberhub/joining-the-pension-scheme/contribution-rates/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2898",
+      "id": "S2918",
       "title": "Civil Service Careers: What it's like to work at GDS (undated page, read 29 October 2026)",
       "url": "https://www.civil-service-careers.gov.uk/gds-what-its-like-to-work-at-gds/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2899",
+      "id": "S2919",
       "title": "GOV.UK (Food Standards Agency): Working for FSA (updated 26 October 2026)",
       "url": "https://www.gov.uk/government/organisations/food-standards-agency/about/recruitment",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2900",
+      "id": "S2920",
       "title": "GOV.UK (Valuation Office Agency): Working for VOA (updated 31 July 2025)",
       "url": "https://www.gov.uk/government/organisations/valuation-office-agency/about/recruitment",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2901",
+      "id": "S2921",
       "title": "Civil Service Careers: Working for the Civil Service (undated page, read 29 October 2026)",
       "url": "https://www.civil-service-careers.gov.uk/workingforthecivilservice/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2902",
+      "id": "S2922",
       "title": "UK government (Modern Civil Service campaign): One Big Thing (undated page, read 29 October 2026)",
       "url": "https://moderncivilservice.campaign.gov.uk/one-big-thing/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2903",
+      "id": "S2923",
       "title": "Civil Service World: All civil servants to get AI training (9 June 2025)",
       "url": "https://www.civilserviceworld.com/professions/article/civil-servants-ai-training-one-big-thing-2025",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2904",
+      "id": "S2924",
       "title": "Civil Service Careers: Civil Service staff networks (undated page, read 29 October 2026)",
       "url": "https://www.civil-service-careers.gov.uk/civil-service-networks/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2905",
+      "id": "S2925",
       "title": "GOV.UK (Civil Service): Civil Service recruitment, nationality rules (updated 8 August 2023)",
       "url": "https://www.gov.uk/government/publications/nationality-rules",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2906",
+      "id": "S2926",
       "title": "GOV.UK (Cabinet Office): UK Government Baseline Personnel Security Standard, version 7.0 (June 2024)",
       "url": "https://www.gov.uk/government/publications/government-baseline-personnel-security-standard/uk-government-baseline-personnel-security-standard-version-70-june-2024-html",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2907",
+      "id": "S2927",
       "title": "GOV.UK (United Kingdom Security Vetting): National security vetting, clearance levels (collection updated 23 September 2024)",
       "url": "https://www.gov.uk/government/publications/united-kingdom-security-vetting-clearance-levels/national-security-vetting-clearance-levels",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2908",
+      "id": "S2928",
       "title": "GOV.UK (United Kingdom Security Vetting): United Kingdom Security Vetting, clearance levels (updated 23 September 2024)",
       "url": "https://www.gov.uk/government/publications/united-kingdom-security-vetting-clearance-levels",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2909",
-      "title": "Scottish Government: Recruitment candidate guide, pre-employment checks (last updated 31 August 2026)",
-      "url": "https://www.gov.scot/publications/recruitment-candidate-guide/pages/pre-employment-checks/",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
-    },
-    {
-      "id": "S2910",
+      "id": "S2929",
       "title": "Home Office Careers: Security checks (undated page, read 29 October 2026)",
       "url": "https://careers.homeoffice.gov.uk/security-checks",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2911",
+      "id": "S2930",
       "title": "GOV.UK: Prove your right to work to an employer (updated 31 October 2024)",
       "url": "https://www.gov.uk/prove-right-to-work",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2912",
+      "id": "S2931",
       "title": "Cabinet Office / Civil Service: Civil Service Nationality Rules – guidance on checking eligibility (last updated 8 Aug 2023)",
       "url": "https://www.gov.uk/government/publications/nationality-rules/civil-service-nationality-rules-html",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2913",
+      "id": "S2932",
       "title": "Civil Service Careers: Fast Stream nationality requirements (accessed 29 Oct 2026)",
       "url": "https://www.civil-service-careers.gov.uk/nationality-requirements/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2914",
+      "id": "S2933",
       "title": "Scottish Government: Recruitment candidate guide – nationality requirements (updated 31 Aug 2026)",
       "url": "https://www.gov.scot/publications/recruitment-candidate-guide/pages/nationality-requirements/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2915",
+      "id": "S2934",
       "title": "GOV.UK: Find an immigration adviser (accessed 29 Oct 2026)",
       "url": "https://www.gov.uk/find-an-immigration-adviser",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2916",
+      "id": "S2935",
       "title": "UK Visas and Immigration / GOV.UK: Skilled Worker visa – your job (accessed 29 Oct 2026)",
       "url": "https://www.gov.uk/skilled-worker-visa/your-job",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2917",
+      "id": "S2936",
       "title": "HM Revenue and Customs careers: answer to a candidate question on sponsorship (13 May 2026)",
       "url": "https://careers.hmrc.gov.uk/discussions/i-would-also-like-to-mention-that-my-visa-is-valid-until-september-2027-it-would-be-a-great-opportunity-for-me-if-i-could-secure-a-role-that-offers-sponsorship-or-at-least-a-position-that-allows-me-to-gain-valuable-work-experience-over-the-next-couple-o",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2918",
+      "id": "S2937",
       "title": "UK Visas and Immigration: Register of licensed sponsors – workers (last updated 29 Oct 2026)",
       "url": "https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2919",
+      "id": "S2938",
       "title": "UK Visas and Immigration: Worker and Temporary Worker register CSV (29 Oct 2026) – Cabinet Office row",
       "url": "https://assets.publishing.service.gov.uk/media/6ae304e8976f73ef5cfb67aa/SP_-_Worker_and_Temporary_Worker_Web_Register_-_2026-10-29.csv",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2920",
+      "id": "S2939",
       "title": "Forest Research: Skilled Worker sponsorship – guidance for applicants and managers (Oct 2024)",
       "url": "https://cdn.forestresearch.gov.uk/2024/10/Skilled-Worker-sponsorship-Guidance-for-applicants-and-managers.pdf",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2921",
+      "id": "S2940",
       "title": "UK Visas and Immigration / GOV.UK: Graduate visa (accessed 29 Oct 2026)",
       "url": "https://www.gov.uk/graduate-visa",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2922",
+      "id": "S2941",
       "title": "UK Visas and Immigration / GOV.UK: Skilled Worker visa – your partner and children (accessed 29 Oct 2026)",
       "url": "https://www.gov.uk/skilled-worker-visa/your-partner-and-children",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2923",
+      "id": "S2942",
       "title": "Immigration Advice Authority: About us (accessed 29 Oct 2026)",
       "url": "https://www.gov.uk/government/organisations/immigration-advice-authority/about",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2924",
+      "id": "S2943",
       "title": "GOV.UK: Flexible working (accessed 29 Oct 2026)",
       "url": "https://www.gov.uk/flexible-working",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2925",
+      "id": "S2944",
       "title": "legislation.gov.uk: The Flexible Working (Amendment) Regulations 2023 (SI 2023/1328)",
       "url": "https://www.legislation.gov.uk/uksi/2023/1328/made",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2926",
+      "id": "S2945",
       "title": "legislation.gov.uk: Employment Relations (Flexible Working) Act 2023, as enacted",
       "url": "https://www.legislation.gov.uk/ukpga/2023/33/enacted",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2927",
+      "id": "S2946",
       "title": "Civil Service Careers: A guide to Civil Service job sharing (accessed 29 Oct 2026)",
       "url": "https://www.civil-service-careers.gov.uk/guide-to-job-sharing/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2928",
+      "id": "S2947",
       "title": "Civil Service Careers: Disability Confident scheme page – benefits panel (accessed 29 Oct 2026)",
       "url": "https://www.civil-service-careers.gov.uk/disability-confident-scheme/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2929",
+      "id": "S2948",
       "title": "Civil Service blog: How job sharing is going mainstream, by two former Directors General (5 July 2022)",
       "url": "https://civilservice.blog.gov.uk/2022/07/05/how-job-sharing-is-going-mainstream/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2930",
+      "id": "S2949",
       "title": "GOV.UK: Maternity pay and leave – leave (accessed 29 Oct 2026)",
       "url": "https://www.gov.uk/maternity-pay-leave/leave",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2931",
+      "id": "S2950",
       "title": "GOV.UK: Shared Parental Leave and Pay (accessed 29 Oct 2026)",
       "url": "https://www.gov.uk/shared-parental-leave-and-pay",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2932",
+      "id": "S2951",
       "title": "Government People Group: Shared Parental Leave – a guide for civil servants having a baby and their managers (2026)",
       "url": "https://assets.publishing.service.gov.uk/media/6a4e187c92f65594cb0299bd/SPL_Having_a_baby_HMG_2026v0c.pdf",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2933",
+      "id": "S2952",
       "title": "GOV.UK: Paternity pay and leave – eligibility (accessed 29 Oct 2026)",
       "url": "https://www.gov.uk/paternity-pay-leave/eligibility",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2934",
+      "id": "S2953",
       "title": "GOV.UK: Unpaid carer's leave (accessed 29 Oct 2026)",
       "url": "https://www.gov.uk/carers-leave",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2935",
+      "id": "S2954",
       "title": "Acas: Carer's leave (accessed 29 Oct 2026)",
       "url": "https://www.acas.org.uk/carers-leave",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2936",
+      "id": "S2955",
       "title": "legislation.gov.uk: The Carer's Leave Regulations 2024 (SI 2024/251)",
       "url": "https://www.legislation.gov.uk/uksi/2024/251/made",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2937",
+      "id": "S2956",
       "title": "HM Revenue and Customs / GOV.UK: Tax-Free Childcare (accessed 29 Oct 2026)",
       "url": "https://www.gov.uk/tax-free-childcare",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2938",
+      "id": "S2957",
       "title": "Department for Education, Best Start in Life: How Tax-Free Childcare works (accessed 29 Oct 2026)",
       "url": "https://beststartinlife.gov.uk/?p=475",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2939",
+      "id": "S2958",
       "title": "Rutland County Council: Tax-Free Childcare (accessed 29 Oct 2026)",
       "url": "https://www.rutland.gov.uk/education-learning/early-education-childcare/early-education-childcare-funding/tax-free-childcare",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2940",
+      "id": "S2959",
       "title": "GOV.UK press release: Government breaks down barriers to help more women and girls enter the tech sector (12 Mar 2026)",
       "url": "https://www.gov.uk/government/news/government-breaks-down-barriers-to-help-more-women-and-girls-enter-the-tech-sector",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2941",
+      "id": "S2960",
       "title": "Manchester Digital: Senior Software Developer Returnship Programme (2026)",
       "url": "https://www.manchesterdigital.com/post/gds/senior-software-developer-returnship-programme",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2942",
+      "id": "S2961",
       "title": "Government Transformation: Returnship scheme to bring women back into Civil Service digital roles (2026)",
       "url": "https://www.government-transformation.com/transformation/returnship-scheme-to-bring-women-back-into-civil-service-digital-roles",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2943",
+      "id": "S2962",
       "title": "Acas: Age discrimination – what the law says (accessed 29 Oct 2026)",
       "url": "https://www.acas.org.uk/age-discrimination",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2944",
+      "id": "S2963",
       "title": "Acas: Retirement (accessed 29 Oct 2026)",
       "url": "https://www.acas.org.uk/retirement",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2945",
+      "id": "S2964",
       "title": "GOV.UK: Become an apprentice (accessed 29 Oct 2026)",
       "url": "https://www.gov.uk/become-apprentice",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2946",
+      "id": "S2965",
       "title": "Civil Service Careers: Great Place to Work for Veterans scheme (accessed 29 Oct 2026)",
       "url": "https://www.civil-service-careers.gov.uk/great-place-to-work-for-veterans/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2947",
+      "id": "S2966",
       "title": "Ministry of Defence, VALOUR: Top routes into public sector careers for UK veterans and families (accessed 29 Oct 2026)",
       "url": "https://valour.campaign.gov.uk/public-sector-careers-after-service/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2948",
+      "id": "S2967",
       "title": "Cabinet Office and Office for Veterans' Affairs press release: guaranteed interviews for government jobs (6 Feb 2020)",
       "url": "https://www.gov.uk/government/news/government-delivers-on-promise-to-veterans-announcing-guaranteed-interviews-for-government-jobs",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2949",
+      "id": "S2968",
       "title": "Going Forward into Employment blog: Building the bridge from military excellence to Civil Service careers (1 Jul 2026)",
       "url": "https://gfie.blog.gov.uk/2026/07/01/building-the-bridge-from-military-excellence-to-civil-service-careers/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2950",
+      "id": "S2969",
       "title": "Ministry of Defence, VALOUR: The Career Transition Partnership (accessed 29 Oct 2026)",
       "url": "https://valour.campaign.gov.uk/career-transition-partnership/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2951",
+      "id": "S2970",
       "title": "Career Transition Partnership: home page (accessed 29 Oct 2026)",
       "url": "https://www.ctp.org.uk/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2952",
+      "id": "S2971",
       "title": "GOV.UK: Office for Veterans' Affairs (accessed 29 Oct 2026)",
       "url": "https://www.gov.uk/government/organisations/office-for-veterans-affairs",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2953",
+      "id": "S2972",
       "title": "Armed Forces Covenant (accessed 29 Oct 2026)",
       "url": "https://www.armedforcescovenant.gov.uk/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2954",
+      "id": "S2973",
       "title": "legislation.gov.uk: Armed Forces Act 2021, section 8",
       "url": "https://www.legislation.gov.uk/ukpga/2021/35/section/8",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2955",
+      "id": "S2974",
       "title": "Civil Service Careers: Prison leaver recruitment (accessed 29 Oct 2026)",
       "url": "https://www.civil-service-careers.gov.uk/prison-leaver-recruitment/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2956",
+      "id": "S2975",
       "title": "Going Forward into Employment blog: All about Going Forward into Employment (24 May 2022)",
       "url": "https://gfie.blog.gov.uk/2022/05/24/all-about-going-forward-into-employment/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2957",
+      "id": "S2976",
       "title": "Civil Service blog: Ban the Box (8 Feb 2016)",
       "url": "https://civilservice.blog.gov.uk/2016/02/08/ban-the-box/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2958",
+      "id": "S2977",
       "title": "Civil Service World: Civil service to 'ban the box' to help rehabilitate ex-convicts (Feb 2016)",
       "url": "https://www.civilserviceworld.com/articles/news/civil-service-ban-box-help-rehabilitate-ex-convicts-david-cameron-announces",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2959",
+      "id": "S2978",
       "title": "GOV.UK: Telling an employer about your criminal record – what information you need to give (accessed 29 Oct 2026)",
       "url": "https://www.gov.uk/tell-employer-or-college-about-criminal-record/what-information-you-need-to-give",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2960",
+      "id": "S2979",
       "title": "legislation.gov.uk: Rehabilitation of Offenders Act 1974, section 4",
       "url": "https://www.legislation.gov.uk/ukpga/1974/53/section/4",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2961",
+      "id": "S2980",
       "title": "New Futures Network, HM Prison and Probation Service (accessed 29 Oct 2026)",
       "url": "https://www.newfuturesnetwork.gov.uk/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2962",
+      "id": "S2981",
       "title": "Civil Service Careers: Care Leavers Internship Scheme (accessed 29 Oct 2026)",
       "url": "https://www.civil-service-careers.gov.uk/civil-service-care-leavers-internship-scheme/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2963",
+      "id": "S2982",
       "title": "Kent Virtual School: UK Civil Service Care Leavers Internship Scheme (17 Jul 2025)",
       "url": "https://kentcarestown.lea.kent.sch.uk/news/2025/07/17/uk-civil-service-care-leavers-internship-scheme/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2964",
+      "id": "S2983",
       "title": "Cabinet Office / Civil Service: Annex A – Nationality Rules (last updated 8 Aug 2023)",
       "url": "https://www.gov.uk/government/publications/nationality-rules/annex-a-nationality-rules-html",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2965",
+      "id": "S2984",
       "title": "Department for Work and Pensions: Disability Confident guidance – level 1 (updated 23 Jul 2026)",
       "url": "https://www.gov.uk/government/publications/disability-confident-guidance-for-levels-1-2-and-3/level-1-disability-confident-committed",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2966",
+      "id": "S2985",
       "title": "Civil Service Careers: Reasonable adjustments (accessed 29 Oct 2026)",
       "url": "https://www.civil-service-careers.gov.uk/reasonable-adjustments/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2967",
+      "id": "S2986",
       "title": "Department for Work and Pensions / GOV.UK: Access to Work (accessed 29 Oct 2026)",
       "url": "https://www.gov.uk/access-to-work",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2968",
+      "id": "S2987",
       "title": "Acas: Reasonable adjustments at work (accessed 29 Oct 2026)",
       "url": "https://www.acas.org.uk/reasonable-adjustments",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2969",
+      "id": "S2988",
       "title": "Government Science and Engineering blog: The importance of the Workplace Adjustment Passport (29 Nov 2021)",
       "url": "https://governmentscienceandengineering.blog.gov.uk/2021/11/29/the-importance-of-the-workplace-adjustment-passport-for-civil-service-employees",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2970",
+      "id": "S2989",
       "title": "UK ENIC: home page (accessed 29 Oct 2026)",
       "url": "https://www.enic.org.uk/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2971",
+      "id": "S2990",
       "title": "UK ENIC: Statement of Comparability (accessed 29 Oct 2026)",
       "url": "https://www.enic.org.uk/individuals/statement-of-comparability",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2972",
+      "id": "S2991",
       "title": "UK Visas and Immigration / GOV.UK: Skilled Worker visa, printable guide (accessed 29 Oct 2026)",
       "url": "https://www.gov.uk/skilled-worker-visa/print",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2973",
+      "id": "S2992",
       "title": "legislation.gov.uk: Equality Act 2010, section 10 (up to date to 29 Oct 2026)",
       "url": "https://www.legislation.gov.uk/ukpga/2010/15/section/10",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2974",
+      "id": "S2993",
       "title": "Acas: Religion or belief discrimination – what the law says (accessed 29 Oct 2026)",
       "url": "https://www.acas.org.uk/religion-or-belief-discrimination",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2975",
+      "id": "S2994",
       "title": "Acas: Preventing religion or belief discrimination (accessed 29 Oct 2026)",
       "url": "https://www.acas.org.uk/religion-or-belief-discrimination/preventing-religion-or-belief-discrimination",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2976",
+      "id": "S2995",
       "title": "Cabinet Office / GOV.UK: Places for Growth 2030 (accessed 29 Oct 2026)",
       "url": "https://www.gov.uk/government/collections/places-for-growth",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2977",
+      "id": "S2996",
       "title": "Institute for Government: Relocation of the civil service (explainer)",
       "url": "https://www.instituteforgovernment.org.uk/explainer/relocation-civil-service",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2978",
+      "id": "S2997",
       "title": "Civil Service World: London-based civil service headcount to be cut by 12,000 (May 2025)",
       "url": "https://www.civilserviceworld.com/professions/article/londonbased-civil-service-headcount-to-be-cut-by-12000",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2979",
+      "id": "S2998",
       "title": "Civil Service Careers: Early careers (accessed 29 Oct 2026)",
       "url": "https://www.civil-service-careers.gov.uk/civil-service-early-careers/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2980",
+      "id": "S2999",
       "title": "Cabinet Office (GOV.UK): Civil Service Fast Stream: recruitment data 2026 (24 September 2026)",
       "url": "https://www.gov.uk/government/publications/civil-service-fast-stream-recruitment-data-2026/civil-service-fast-stream-recruitment-data-2026-html",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2981",
+      "id": "S3000",
       "title": "Civil Service World: Fast Stream gets biggest ever number of applicants (26 September 2025)",
       "url": "https://www.civilserviceworld.com/news/article/fast-stream-gets-biggest-ever-number-of-applicants",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2982",
+      "id": "S3001",
       "title": "Civil Service World: Fast Stream diversity gaps widen (2 October 2024)",
       "url": "https://www.civilserviceworld.com/professions/article/fast-stream-diversity-statistics-white-ethnic-minority-applicants-divide-widens",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2983",
+      "id": "S3002",
       "title": "BCS: Thousands of black women 'missing' from the IT industry, report warns (27 October 2022)",
       "url": "https://www.bcs.org/articles-opinion-and-research/thousands-of-black-women-missing-from-the-it-industry-report-warns/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2984",
+      "id": "S3003",
       "title": "BCS: Diversity report 2024 – Ethnicity and IT employment (2024; page undated)",
       "url": "https://bcs.org/policy-and-influence/equity-diversity-and-inclusion/bcs-diversity-report-2024-ethnicity/ethnicity-and-it-employment",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2985",
+      "id": "S3004",
       "title": "BCS: Diversity report 2024 – Ethnicity: key findings (2024; page undated)",
       "url": "https://www.bcs.org/policy-and-influence/equity-diversity-and-inclusion/bcs-diversity-report-2024-ethnicity/ethnicity-key-findings/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2986",
+      "id": "S3005",
       "title": "HRreview: Male and ethnic minority graduates feel held back in jobs market – Prospects Early Careers Survey 2024 (30 May 2024)",
       "url": "https://hrreview.co.uk/hr-news/diversity-news/male-and-ethnic-minority-graduates-feel-held-back-in-jobs-market/375594",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2987",
+      "id": "S3006",
       "title": "Prospects at Jisc, on FE News: More graduates feel held back in jobs market (30 May 2024)",
       "url": "https://www.fenews.co.uk/employability/more-graduates-feel-held-back-in-jobs-market/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2988",
+      "id": "S3007",
       "title": "King's College London Policy Institute: Trends in bullying, discrimination and inclusion in the Civil Service, 2025 (December 2025)",
       "url": "https://www.kcl.ac.uk/policy-institute/assets/trends-in-bullying-discrimination-and-inclusion-in-the-civil-service-2025.pdf",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2989",
+      "id": "S3008",
       "title": "Civil Service World: People Survey – a deep dive into bullying and discrimination trends (22 December 2025)",
       "url": "https://www.civilserviceworld.com/in-depth/article/people-survey-a-deep-dive-into-bullying-and-discrimination-trends",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2990",
+      "id": "S3009",
       "title": "Social Mobility Commission: Navigating the labyrinth – socio-economic background and career progression within the Civil Service (20 May 2021)",
       "url": "https://www.gov.uk/government/publications/navigating-the-labyrinth/navigating-the-labyrinth-socio-economic-background-and-career-progression-within-the-civil-service",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2991",
+      "id": "S3010",
+      "title": "legislation.gov.uk: Equality Act 2010, section 39 Employees and applicants (revised text, read 30 October 2026)",
+      "url": "https://www.legislation.gov.uk/ukpga/2010/15/section/39",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3011",
+      "title": "GOV.UK: Make a claim to an employment tribunal, when you can claim (undated page, read 30 October 2026)",
+      "url": "https://www.gov.uk/employment-tribunals",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3012",
+      "title": "Acas: Asking and answering questions about discrimination (last reviewed 24 October 2022)",
+      "url": "https://www.acas.org.uk/asking-and-answering-questions-about-discrimination",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3013",
+      "title": "Civil Service Commission: A guide to bringing a Recruitment Principles complaint to the Civil Service Commission (last updated 3 January 2017)",
+      "url": "https://civilservicecommission.independent.gov.uk/wp-content/themes/csc/download-document.php?file=2017-01-01-A-Guide-to-bringing-a-Recruitment-Principles-complaint-to-the-Civil-Service-Commission.pdf",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3014",
+      "title": "legislation.gov.uk: Constitutional Reform and Governance Act 2010, section 10 Selections for appointments to the civil service (revised text, read 30 October 2026)",
+      "url": "https://www.legislation.gov.uk/ukpga/2010/25/section/10",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3015",
+      "title": "Civil Service Commission: Outcome of Recruitment Complaints 2024-2025 (published 1 April 2025)",
+      "url": "https://civilservicecommission.independent.gov.uk/wp-content/themes/csc/download-document.php?file=2025-04-01-Outcome-of-Recruitment-Complaints-202425.pdf",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3016",
+      "title": "GOV.UK: Discrimination: your rights, discrimination at work (undated page, read 30 October 2026)",
+      "url": "https://www.gov.uk/discrimination-your-rights/discrimination-at-work",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3017",
+      "title": "legislation.gov.uk: Constitutional Reform and Governance Act 2010, section 1 Application of Chapter (revised text, read 30 October 2026)",
+      "url": "https://www.legislation.gov.uk/ukpga/2010/25/section/1",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3018",
+      "title": "Civil Service Commissioners for Northern Ireland: What We Do (undated page, read 30 October 2026)",
+      "url": "https://www.nicscommissioners.org/what-we-do",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3019",
+      "title": "Civil Service Commissioners for Northern Ireland: Recruitment Code, Version 16 (file dated May 2026)",
+      "url": "https://www.nicscommissioners.org/files/nicscommissioners/2026-05/Recruitment%20Code%20V.16%20%281%29.DOCX",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3020",
+      "title": "nidirect (Northern Ireland government): Racial discrimination (undated page, read 30 October 2026)",
+      "url": "https://www.nidirect.gov.uk/articles/racial-discrimination",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3021",
+      "title": "Acas: Contact Acas (undated page, read 30 October 2026)",
+      "url": "https://www.acas.org.uk/contact",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3022",
+      "title": "GOV.UK: Discrimination: your rights, what you can do (undated page, read 30 October 2026)",
+      "url": "https://www.gov.uk/discrimination-your-rights/what-you-can-do",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3023",
+      "title": "GOV.UK: Raise a grievance at work (undated page, read 30 October 2026)",
+      "url": "https://www.gov.uk/raise-grievance-at-work",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3024",
+      "title": "Acas: Code of Practice on disciplinary and grievance procedures (in effect from 11 March 2015)",
+      "url": "https://www.acas.org.uk/acas-code-of-practice-on-disciplinary-and-grievance-procedures/html",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3025",
+      "title": "Civil Service Commission: Code (Raising a Code Complaint) (undated page, read 30 October 2026)",
+      "url": "https://civilservicecommission.independent.gov.uk/code/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3026",
+      "title": "legislation.gov.uk: Employment Rights Act 1996, section 43B Disclosures qualifying for protection (revised text, read 30 October 2026)",
+      "url": "https://www.legislation.gov.uk/ukpga/1996/18/section/43B",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3027",
+      "title": "Acas: Employment Rights Act 2025 (last reviewed 27 October 2026)",
+      "url": "https://www.acas.org.uk/employment-rights-act-2025",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3028",
+      "title": "GOV.UK: Joining a trade union (undated page, read 30 October 2026)",
+      "url": "https://www.gov.uk/join-trade-union",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3029",
+      "title": "Acas: Grievance procedure step 2, raising a formal grievance (last reviewed 21 May 2024)",
+      "url": "https://www.acas.org.uk/grievance-procedure-step-by-step/step-2-raising-a-formal-grievance",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3030",
+      "title": "Civil Service Careers: Civil Service Networks (undated page, read 30 October 2026)",
+      "url": "https://www.civil-service-careers.gov.uk/civil-service-networks",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3031",
+      "title": "Civil Service blog (GOV.UK): Focus on staff networks: Civil Service Race Forum (28 May 2019)",
+      "url": "https://civilservice.blog.gov.uk/2019/05/28/focus-on-staff-networks-civil-service-race-forum/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3032",
+      "title": "Acas: Victimisation (last reviewed 26 August 2026)",
+      "url": "https://www.acas.org.uk/discrimination-and-the-law/victimisation",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3033",
+      "title": "Acas: Harassment law changes (last reviewed 26 August 2026)",
+      "url": "https://www.acas.org.uk/employment-rights-act-2025/harassment-law-changes",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3034",
+      "title": "legislation.gov.uk: Employment Rights Act 2025, section 21 Harassment by third parties (read 30 October 2026)",
+      "url": "https://www.legislation.gov.uk/ukpga/2025/36/section/21",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3035",
+      "title": "Acas: How early conciliation works (last reviewed 1 October 2026)",
+      "url": "https://www.acas.org.uk/early-conciliation/how-early-conciliation-works",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3036",
+      "title": "legislation.gov.uk: Employment Tribunals (Early Conciliation: Exemptions and Rules of Procedure) Regulations 2014, Schedule (revised text, read 30 October 2026)",
+      "url": "https://www.legislation.gov.uk/uksi/2014/254/schedule",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3037",
+      "title": "legislation.gov.uk: Equality Act 2010, section 123 Time limits (revised text, up to date to 29 October 2026)",
+      "url": "https://www.legislation.gov.uk/ukpga/2010/15/section/123",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3038",
+      "title": "Labour Relations Agency (Northern Ireland): Early Conciliation (undated page, read 30 October 2026)",
+      "url": "https://www.lra.org.uk/early-conciliation",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3039",
+      "title": "legislation.gov.uk: Race Relations (Northern Ireland) Order 1997, Article 65 (revised text, up to date to 30 October 2026)",
+      "url": "https://www.legislation.gov.uk/nisi/1997/869/article/65",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3040",
+      "title": "legislation.gov.uk: Fair Employment and Treatment (Northern Ireland) Order 1998, Article 46 Period within which proceedings to be brought (revised text, read 30 October 2026)",
+      "url": "https://www.legislation.gov.uk/nisi/1998/3162/article/46",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3041",
+      "title": "GOV.UK: Equality Advisory Support Service (EASS) (undated page, read 30 October 2026)",
+      "url": "https://www.gov.uk/equality-advisory-support-service",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3042",
+      "title": "Citizens Advice: Equality Advisory Support Service discrimination helpline (England page, undated page, read 30 October 2026)",
+      "url": "https://www.citizensadvice.org.uk/law-and-courts/discrimination/about-discrimination/equality-advisory-support-service-discrimination-helpline/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3043",
+      "title": "GOV.UK Check if you can get legal aid: next steps (undated page, read 30 October 2026)",
+      "url": "https://checklegalaid.service.gov.uk/public/next-steps",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3044",
+      "title": "Equality Advisory and Support Service: home page (undated page, read 30 October 2026)",
+      "url": "https://www.equalityadvisoryservice.com/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3045",
+      "title": "GOV.UK: Equality and Human Rights Commission (undated page, read 30 October 2026)",
+      "url": "https://www.gov.uk/government/organisations/equality-and-human-rights-commission",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3046",
+      "title": "legislation.gov.uk: Equality Act 2006, section 28 Legal assistance (revised text, read 30 October 2026)",
+      "url": "https://www.legislation.gov.uk/ukpga/2006/3/section/28",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3047",
+      "title": "legislation.gov.uk: Fair Employment and Treatment (Northern Ireland) Order 1998, Article 45 (revised text, read 30 October 2026)",
+      "url": "https://www.legislation.gov.uk/nisi/1998/3162/article/45",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3048",
+      "title": "legislation.gov.uk: Race Relations (Northern Ireland) Order 1997, Article 64 Assistance by Commission (revised text, read 30 October 2026)",
+      "url": "https://www.legislation.gov.uk/nisi/1997/869/article/64",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3049",
+      "title": "Law Centres Network: What is a Law Centre? (undated page, read 30 October 2026)",
+      "url": "https://www.lawcentres.org.uk/what-is-a-law-centre",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3050",
+      "title": "legislation.gov.uk: Parliamentary Commissioner Act 1967, Schedule 3 Matters not subject to investigation (revised text, read 30 October 2026)",
+      "url": "https://www.legislation.gov.uk/ukpga/1967/13/schedule/3",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3051",
+      "title": "legislation.gov.uk: Scottish Public Services Ombudsman Act 2002, Schedule 4 Excluded matters (revised text, read 30 October 2026)",
+      "url": "https://www.legislation.gov.uk/asp/2002/11/schedule/4",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3052",
+      "title": "legislation.gov.uk: Enterprise and Regulatory Reform Act 2013, section 66 (revised text, read 30 October 2026)",
+      "url": "https://www.legislation.gov.uk/ukpga/2013/24/section/66",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3053",
+      "title": "legislation.gov.uk: Race Relations (Northern Ireland) Order 1997, Article 63 Help for aggrieved persons in obtaining information (revised text, up to date to 30 October 2026)",
+      "url": "https://www.legislation.gov.uk/nisi/1997/869/article/63",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3054",
+      "title": "Information Commissioner's Office: Getting copies of your information (subject access request) (undated page, read 30 October 2026)",
+      "url": "https://ico.org.uk/for-the-public/getting-copies-of-your-information-subject-access-request/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3055",
+      "title": "GOV.UK: Data protection, find out what data an organisation has about you (undated page, read 30 October 2026)",
+      "url": "https://www.gov.uk/data-protection/find-out-what-data-an-organisation-has-about-you",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3056",
+      "title": "Acas: Making and handling race discrimination complaints (last reviewed 21 August 2023)",
+      "url": "https://www.acas.org.uk/race-discrimination/making-and-handling-race-discrimination-complaints",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3057",
+      "title": "Acas: How to raise a problem at work (last reviewed 29 August 2025)",
+      "url": "https://www.acas.org.uk/how-to-raise-a-problem-at-work",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3058",
+      "title": "Institute for Government: Diversity in the civil service, explainer (undated page, read 30 October 2026)",
+      "url": "https://www.instituteforgovernment.org.uk/explainer/civil-service-diversity",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3059",
+      "title": "Civil Service World: Civil service diversity strategy criticised for lack of targets and guidance (14 December 2022)",
+      "url": "https://www.civilserviceworld.com/professions/article/civil-service-diversity-strategy-criticised-lack-targets-guidance-disability-gender-race",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3060",
+      "title": "UK government: Thousands of Civil Service roles moved out of London in latest reform to the state (press release, 2025)",
+      "url": "https://www.gov.uk/government/news/thousands-of-civil-service-roles-moved-out-of-london-in-latest-reform-to-the-state",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3061",
+      "title": "Cabinet Office: Civil Service ethnicity pay gap statistics 2026, statistical bulletin (28 October 2026)",
+      "url": "https://www.gov.uk/government/statistics/civil-service-statistics-2026/statistical-bulletin-civil-service-ethnicity-pay-gap-statistics-2026",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3062",
+      "title": "Cabinet Office: Civil Service statistics 2026 (published 29 July 2026, updated 28 October 2026)",
+      "url": "https://www.gov.uk/government/statistics/civil-service-statistics-2026",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3063",
+      "title": "Department for Digital, Culture, Media and Sport: Equality and diversity (undated page, read 30 October 2026)",
+      "url": "https://www.gov.uk/government/organisations/department-for-digital-culture-media-and-sport/about/equality-and-diversity",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3064",
+      "title": "Department for Culture, Media and Sport: Equality and diversity (withdrawn 16 September 2026)",
+      "url": "https://www.gov.uk/government/organisations/department-for-culture-media-and-sport/about/equality-and-diversity",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3065",
+      "title": "Department for Culture, Media and Sport: DCMS gender pay gap report 2025 (16 December 2025)",
+      "url": "https://www.gov.uk/government/publications/dcms-gender-pay-gap-report-2025/dcms-gender-pay-gap-report-2025",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3066",
+      "title": "legislation.gov.uk: Equality Act 2010 (Specific Duties and Public Authorities) Regulations 2017, regulation 4 (read 30 October 2026)",
+      "url": "https://www.legislation.gov.uk/uksi/2017/353/regulation/4",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3067",
+      "title": "legislation.gov.uk: Equality Act 2010 (Specific Duties and Public Authorities) Regulations 2017, regulation 5 (read 30 October 2026)",
+      "url": "https://www.legislation.gov.uk/uksi/2017/353/regulation/5",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3068",
+      "title": "Ministry of Justice: Public sector equality duty (undated page, read 30 October 2026)",
+      "url": "https://www.gov.uk/government/publications/public-sector-equality-duty",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3069",
+      "title": "UK government: Creating an action plan, guidance for employers, overview (updated 13 May 2026)",
+      "url": "https://www.gov.uk/government/publications/creating-an-action-plan-guidance-for-employers/overview",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3070",
+      "title": "Lewis Silkin: New government guidance on equality action plans published (13 March 2026)",
+      "url": "https://www.lewissilkin.com/en/insights/2026/03/13/new-government-guidance-on-equality-actions-plans-published",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3071",
+      "title": "NHS England: NHS Workforce Race Equality Standard (undated page, read 30 October 2026)",
+      "url": "https://www.england.nhs.uk/about/equality/equality-hub/workforce-equality-data-standards/equality-standard/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3072",
+      "title": "Department of Health and Social Care: Government response to the Lord Mann review into antisemitism and other forms of racism in the NHS (4 June 2026)",
+      "url": "https://www.gov.uk/government/publications/government-response-to-the-lord-mann-review-on-antisemitism-and-other-forms-of-racism-in-the-nhs/government-response-to-the-lord-mann-review-into-antisemitism-and-other-forms-of-racism-in-the-nhs",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3073",
+      "title": "Department of Health and Social Care: NHS staff standards (6 July 2026)",
+      "url": "https://www.gov.uk/government/publications/nhs-staff-standards",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3074",
+      "title": "Department of Health and Social Care: Lord Mann review on antisemitism and other forms of racism in the NHS (4 June 2026)",
+      "url": "https://www.gov.uk/government/publications/lord-mann-review-on-antisemitism-and-other-forms-of-racism-in-the-nhs",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3075",
+      "title": "Cabinet Office: Race Equality Engagement Group, One year of action 2025 to 2026 (15 July 2026)",
+      "url": "https://www.gov.uk/government/publications/race-equality-engagement-group-one-year-of-action-2025-to-2026/race-equality-engagement-group-one-year-of-action",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3076",
+      "title": "National Police Chiefs' Council: Response to Police Race Action Plan ISOB report (2 April 2026)",
+      "url": "https://news.npcc.police.uk/releases/response-to-police-race-action-plan-isob-report-2",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3077",
+      "title": "Home Office: Windrush Compensation Scheme data, August 2026 (29 October 2026)",
+      "url": "https://www.gov.uk/government/statistics/windrush-compensation-scheme-data-august-2026",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3078",
+      "title": "Home Office: Windrush Compensation Scheme overhaul to deliver faster justice (24 October 2025)",
+      "url": "https://www.gov.uk/government/news/windrush-compensation-scheme-overhaul-to-deliver-faster-justice",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3079",
+      "title": "Welsh Government: Anti-racist Wales Action Plan progress update (28 January 2026)",
+      "url": "https://www.gov.wales/anti-racist-wales-action-plan-arwap-progress-update",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3080",
+      "title": "UK government: Race in the workplace, The McGregor-Smith Review (28 February 2017)",
+      "url": "https://assets.publishing.service.gov.uk/media/5a7f81c6ed915d74e33f6dc4/race-in-workplace-mcgregor-smith-review.pdf",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3081",
+      "title": "Office for Equality and Opportunity: Offer mentoring, sponsorship and other development programmes (4 March 2026)",
+      "url": "https://www.gov.uk/government/publications/offer-mentoring-sponsorship-and-other-development-programmes/offer-mentoring-sponsorship-and-other-development-programmes",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3082",
+      "title": "Civil Service blog: How sponsorship empowers (27 February 2020)",
+      "url": "https://civilservice.blog.gov.uk/2020/02/27/how-sponsorship-empowers/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3083",
+      "title": "Civil Service blog: Civil Service Race Forum (undated page, read 30 October 2026)",
+      "url": "https://civilservice.blog.gov.uk/civil-service-race-forum/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3084",
+      "title": "CIPD and Business in the Community: Meeting the BITC Race at Work Charter, an employer's guide (March 2021)",
+      "url": "https://www.bitc.org.uk/wp-content/uploads/2024/03/bitc-core-meeting-the-bitc-race-at-work-charter-an-employers-guide-mar24.pdf",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3085",
+      "title": "Acas: What do we mean when we talk of allyship? (blog, 16 February 2021)",
+      "url": "https://www.acas.org.uk/what-do-we-mean-when-we-talk-of-allyship",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3086",
+      "title": "Business in the Community: Anti-racism and allyship in the workplace, a guide (August 2024)",
+      "url": "https://bitc.org.uk/wp-content/uploads/2024/08/bitc-guide-anti-racism-and-allyship-in-the-workplace-august24-v2.pdf",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3087",
+      "title": "GOV.UK (Department for Culture, Media and Sport): Evaluation of the UK Youth Parliament (20 October 2025)",
+      "url": "https://www.gov.uk/government/publications/evaluation-of-the-uk-youth-parliament/evaluation-of-the-uk-youth-parliament",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3088",
+      "title": "GOV.UK (Department for Culture, Media and Sport): Government secures future of UK Youth Parliament (press release, 21 May 2024)",
+      "url": "https://www.gov.uk/government/news/government-secures-future-of-uk-youth-parliament",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3089",
+      "title": "North Northamptonshire Council: UK Youth Parliament (undated page, read 30 October 2026)",
+      "url": "https://www.northnorthants.gov.uk/local-democracy-and-civic-functions/uk-youth-parliament",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3090",
+      "title": "Scottish Youth Parliament: SYP Elections 2026 (2026, read 30 October 2026)",
+      "url": "https://syp.org.uk/?p=13237",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3091",
+      "title": "Scottish Borders Council: Scottish Youth Parliament election process (undated page, read 30 October 2026)",
+      "url": "https://www.scotborders.gov.uk/youth-participation/youth-parliament/2",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3092",
+      "title": "Senedd Cymru, Welsh Youth Parliament: About (undated page, read 30 October 2026)",
+      "url": "https://youthparliament.senedd.wales/about/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3093",
+      "title": "Senedd Cymru: Voter registration opens for new Welsh Youth Parliament (31 May 2018, last updated 16 December 2024)",
+      "url": "https://senedd.wales/senedd-now/news/voter-registration-opens-for-new-welsh-youth-parliament",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3094",
+      "title": "Northern Ireland Assembly Commission, NI Youth Assembly: Learn more (undated page, read 30 October 2026)",
+      "url": "https://niyouthassembly.org/learn-more/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3095",
+      "title": "Northern Ireland Assembly Commission, NI Youth Assembly: home page (undated page, read 30 October 2026)",
+      "url": "https://www.niyouthassembly.org/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3096",
+      "title": "Children's Commissioner for England: A new youth advisory board to share experiences and views on AI in education (29 May 2026)",
+      "url": "https://www.childrenscommissioner.gov.uk/blog/a-new-youth-advisory-board-to-share-experiences-and-views-on-ai-in-education/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3097",
+      "title": "Children and Young People's Commissioner Scotland: Young Advisors (undated page, read 30 October 2026)",
+      "url": "https://www.cypcs.org.uk/about-us/young-advisors/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3098",
+      "title": "Children's Commissioner for England: The Children's Commissioner launches her Children's Advisory Board (5 December 2022)",
+      "url": "https://www.childrenscommissioner.gov.uk/blog/the-childrens-commissioner-launches-her-childrens-advisory-board/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3099",
+      "title": "Lewisham Council: The Young Mayor (undated page, read 30 October 2026)",
+      "url": "https://lewisham.gov.uk/mayorandcouncil/young-mayor",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3100",
+      "title": "GOV.UK (Department for Culture, Media and Sport): Youth Matters: Your National Youth Strategy, summary report (10 December 2025)",
+      "url": "https://www.gov.uk/guidance/youth-matters-your-national-youth-strategy-summary-report",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3101",
+      "title": "legislation.gov.uk: The School Councils (Wales) Regulations 2005, regulation 3 (as made, 2005)",
+      "url": "https://www.legislation.gov.uk/wsi/2005/3200/regulation/3/made",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3102",
+      "title": "GOV.UK (Department for Education): The enrichment framework for schools and colleges: enrichment benchmarks (15 June 2026)",
+      "url": "https://www.gov.uk/government/publications/the-enrichment-framework-for-schools-and-colleges/enrichment-benchmarks",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3103",
+      "title": "GOV.UK: Vote in UK elections: check which elections you can vote in (printable guide, undated page, read 30 October 2026)",
+      "url": "https://www.gov.uk/elections-in-the-uk/print",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3104",
+      "title": "GOV.UK: Register to vote (undated page, read 30 October 2026)",
+      "url": "https://www.gov.uk/register-to-vote",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3105",
+      "title": "GOV.UK (Ministry of Housing, Communities and Local Government): Representation of the People Bill policy summaries: Votes at 16 (updated 28 October 2026)",
+      "url": "https://www.gov.uk/government/publications/representation-of-the-people-bill-policy-summaries/votes-at-16",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3106",
+      "title": "UK Parliament Bills API: Representation of the People Bill, bill 4080 (last updated 29 October 2026)",
+      "url": "https://bills-api.parliament.uk/api/v1/Bills/4080",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3107",
+      "title": "GOV.UK: Elections in the UK overview (undated page, read 30 October 2026)",
+      "url": "https://www.gov.uk/elections-in-the-uk",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3108",
+      "title": "UK Parliament Petitions: How petitions work (undated page, read 30 October 2026)",
+      "url": "https://petition.parliament.uk/help",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3109",
+      "title": "Senedd Cymru Petitions: Help (undated page, read 30 October 2026)",
+      "url": "https://petitions.senedd.wales/help",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3110",
+      "title": "Scottish Parliament Petitions: Help (undated page, read 30 October 2026)",
+      "url": "https://petitions.parliament.scot/help",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3111",
+      "title": "UK Parliament: Get involved (undated page, read 30 October 2026)",
+      "url": "https://www.parliament.uk/get-involved/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3112",
+      "title": "GOV.UK: Policy papers and consultations search (undated page, read 30 October 2026)",
+      "url": "https://www.gov.uk/search/policy-papers-and-consultations",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3113",
+      "title": "GOV.UK (Department for Culture, Media and Sport): Community and Engagement Survey 2025/26: civic engagement report (updated 14 August 2026)",
+      "url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-civic-engagement/community-and-engagement-survey-202526-civic-engagement-report--2",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3114",
+      "title": "UK Parliament: Education programmes (undated page, read 30 October 2026)",
+      "url": "https://www.parliament.uk/get-involved/education-programmes/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3115",
+      "title": "Northern Ireland Assembly: Education service (undated page, read 30 October 2026)",
+      "url": "https://education.niassembly.gov.uk/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3116",
+      "title": "Scottish Parliament: Members of the Scottish Parliament (MSPs) (undated page, read 30 October 2026)",
+      "url": "https://www.parliament.scot/msps",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3117",
+      "title": "GOV.UK: Become a magistrate (printable guide, undated page, read 30 October 2026)",
+      "url": "https://www.gov.uk/become-magistrate/print",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3118",
+      "title": "GOV.UK: Police community support officers (PCSOs) and special constables (undated page, read 30 October 2026)",
+      "url": "https://www.gov.uk/police-community-support-officers-what-they-are/print",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3119",
+      "title": "Joining the Police (College of Policing service): Volunteering with the police (undated page, read 30 October 2026)",
+      "url": "https://www.joiningthepolice.co.uk/career-progression/volunteering-with-the-police",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3120",
+      "title": "Volunteer Police Cadets: About us (undated page, read 30 October 2026)",
+      "url": "https://vpc.police.uk/about-us/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3121",
+      "title": "Volunteer Police Cadets: Be a cadet (undated page, read 30 October 2026)",
+      "url": "https://vpc.police.uk/Be-a-Cadet",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3122",
+      "title": "Thames Valley Police careers: Police cadets (undated page, read 30 October 2026)",
+      "url": "https://tvpcareers.co.uk/opportunities/cadets/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3123",
+      "title": "NHS England: NHS Youth Forum (undated page, read 30 October 2026)",
+      "url": "https://www.england.nhs.uk/get-involved/get-involved/how/forums/nhs-youth-forum/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3124",
+      "title": "GOV.UK (Department for Education): Maintained schools: governance guide (updated 15 July 2026)",
+      "url": "https://www.gov.uk/government/publications/maintained-schools-governance-guide/maintained-schools-governance-guide",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3125",
+      "title": "GOV.UK: Volunteer to check standards in prison (undated page, read 30 October 2026)",
+      "url": "https://www.gov.uk/volunteer-to-check-standards-in-prison/print",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3126",
+      "title": "Independent Custody Visitors Association: home page (undated page, read 30 October 2026)",
+      "url": "https://icva.org.uk/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3127",
+      "title": "Independent Monitoring Boards: home page (read 30 October 2026)",
+      "url": "https://imb.org.uk/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3128",
+      "title": "GOV.UK: Jury service (printable guide, undated page, read 30 October 2026)",
+      "url": "https://www.gov.uk/jury-service/print",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3129",
+      "title": "Scottish Courts and Tribunals Service: Jurors (undated page, read 30 October 2026)",
+      "url": "https://www.scotcourts.gov.uk/coming-to-court/jurors/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3130",
+      "title": "Cabinet Office: Apply for a public appointment (undated page, read 30 October 2026)",
+      "url": "https://publicappointments.cabinetoffice.gov.uk/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3131",
+      "title": "GOV.UK: Become an apprentice (printable guide, undated page, read 30 October 2026)",
+      "url": "https://www.gov.uk/become-apprentice/print",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3132",
+      "title": "Civil Service Careers: Civil Service Care Leavers Internship Scheme (undated page, read 30 October 2026)",
+      "url": "https://www.civil-service-careers.gov.uk/civil-service-care-leavers-internship-scheme",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3133",
+      "title": "GOV.UK blog, Children's social care: My path to the Civil Service: a care leaver's perspective (21 July 2025)",
+      "url": "https://childrenssocialcare.blog.gov.uk/2025/07/21/civil-service-care-leavers-internship-scheme-2025-2",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3134",
+      "title": "UK Parliament: Youth Select Committee (undated page, read 30 October 2026)",
+      "url": "https://www.parliament.uk/get-involved/education-programmes/youth-select-committee/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3135",
+      "title": "Carmarthenshire County Council newsroom: Youth Council member went to Parliament as Youth Select Committee launches inquiry (September 2025)",
+      "url": "https://newsroom.carmarthenshire.gov.wales/2025/09/carmarthenshire-youth-council-member-went-to-parliament-as-youth-select-committee-launches-inquiry/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3136",
+      "title": "The Duke of Edinburgh's Award: Do your DofE (undated page, read 30 October 2026)",
+      "url": "https://www.dofe.org/do/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3137",
+      "title": "GOV.UK (Ministry of Defence): MOD sponsored cadet forces: 1 April 2026 (11 June 2026)",
+      "url": "https://www.gov.uk/government/statistics/mod-sponsored-cadet-forces-statistics-2026/mod-sponsored-cadet-forces-1-april-2026",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3138",
+      "title": "GOV.UK (Department for Education): The enrichment framework: resources to support schools and colleges with enrichment (15 June 2026)",
+      "url": "https://www.gov.uk/government/publications/the-enrichment-framework-for-schools-and-colleges/resources-to-support-schools-and-colleges-with-enrichment",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3139",
+      "title": "GOV.UK: National Citizen Service organisation page (undated page, read 30 October 2026)",
+      "url": "https://www.gov.uk/government/organisations/national-citizen-service",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3140",
+      "title": "GOV.UK (NCS Trust Board and Department for Culture, Media and Sport): Joint statement (June 2025)",
+      "url": "https://assets.publishing.service.gov.uk/media/686cf722a08d3a3ca3b6789d/Joint_Statement_NCS-DCMS_-_accessible.pdf",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3141",
+      "title": "#iWill Movement: home page (undated page, read 30 October 2026)",
+      "url": "https://www.iwill.org.uk/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3142",
+      "title": "GOV.UK (Department for Education): Holiday activities and food programme 2026 to 2027 (updated 8 October 2026)",
+      "url": "https://www.gov.uk/government/publications/holiday-activities-and-food-programme/holiday-activities-and-food-programme-2026-to-2027",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3143",
+      "title": "GOV.UK: Find before and after school and holiday clubs (undated page, read 30 October 2026)",
+      "url": "https://www.gov.uk/after-school-holiday-club",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3144",
+      "title": "Kids in Museums: Takeover Day (undated page, read 30 October 2026)",
+      "url": "https://kidsinmuseums.org.uk/takeover-day/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3145",
+      "title": "Engineering Development Trust: The Year in Industry (undated page, read 30 October 2026)",
+      "url": "https://www.etrust.org.uk/the-year-in-industry",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3146",
+      "title": "Volunteers' Week (Volunteer Scotland, Volunteer Now, NCVO and WCVA): About (undated page, read 30 October 2026)",
+      "url": "https://www.volunteersweek.org/about",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3147",
+      "title": "GOV.UK Ethnicity facts and figures: Volunteering (Community Life Survey 2019/20 data)",
+      "url": "https://www.ethnicity-facts-figures.service.gov.uk/culture-and-community/civic-participation/volunteering/latest",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3148",
+      "title": "GOV.UK (Department for Culture, Media and Sport): Community and Engagement Survey 2025/26: volunteering and charitable giving report (16 September 2026)",
+      "url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-volunteering/community-and-engagement-survey-202526-volunteering-and-charitable-giving-report",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3149",
+      "title": "GOV.UK: Child employment (printable guide, undated page, read 30 October 2026)",
+      "url": "https://www.gov.uk/child-employment/print",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3150",
+      "title": "GOV.UK (Department for Education): Out-of-school settings: safeguarding guidance for providers (updated 9 February 2026)",
+      "url": "https://www.gov.uk/government/publications/keeping-children-safe-in-out-of-school-settings-code-of-practice",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3151",
+      "title": "GOV.UK (Department for Education): After-school clubs, community activities and tuition: safeguarding guidance for providers (PDF, updated February 2026)",
+      "url": "https://assets.publishing.service.gov.uk/media/6986066acfe7ccf77efbc75b/After-school_clubs__community_activities__and_tuition_-_Safeguarding_guidance_for_providers.pdf",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3152",
+      "title": "GOV.UK (Department for Culture, Media and Sport): Community and Engagement Survey 2025/26, civic engagement data tables, table A11 (August 2026)",
+      "url": "https://assets.publishing.service.gov.uk/media/6a70540d0c36759b5ccaa334/community_and_engagement_2025_26_civic_engagement_data_tables.ods",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3153",
+      "title": "UK Parliament, Joint Committee on Human Rights: Electoral Commission written evidence to the inquiry into Black people, racism and human rights (2020)",
+      "url": "https://committees.parliament.uk/writtenevidence/11633/html",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3154",
+      "title": "Welsh Government: Local Government Candidates Survey 2022 summary (14 March 2023)",
+      "url": "https://www.gov.wales/local-government-candidates-survey-2022-summary-html",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S3155",
       "title": "Later Stone Age got earlier start in South Africa than was previously thought – University of Colorado Boulder",
       "url": "https://www.colorado.edu/asmagazine-archive/node/999",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2992",
+      "id": "S3156",
       "title": "University of the Witwatersrand news, Aug 2012",
       "url": "https://www.wits.ac.za/alumni/archive/alumni-news-items/alumni-2012-08/modern-culture-44-000-years-ago/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2993",
+      "id": "S3157",
       "title": "Ishango – Bones with notches (Royal Belgian Institute of Natural Sciences)",
       "url": "https://ishango.naturalsciences.be/en/en-ishango-20.html",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2994",
+      "id": "S3158",
       "title": "Ishango – Archaeological material (Royal Belgian Institute of Natural Sciences)",
       "url": "https://ishango.naturalsciences.be/en/en-ishango-13.html",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2995",
+      "id": "S3159",
       "title": "Kuk Early Agricultural Site – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/887/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2996",
+      "id": "S3160",
       "title": "Indigenous aquaculture site Budj Bim (Council of Australasian Museum Directors)",
       "url": "https://camd.org.au/indigenous-aquaculture-site-budj-bim/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2997",
+      "id": "S3161",
       "title": "Old Copper Complex in North America – EBSCO Research Starters",
       "url": "https://ebsco.com/research-starters/anthropology/old-copper-complex-north-america",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2998",
+      "id": "S3162",
       "title": "Amerindian Migrations – Grenada National Museum teacher kit",
       "url": "https://www.grenadaarchaeology.com/TeacherKits/Assets/Lessons%20HTML/01_AmerindianMigrations_LessonPlan.htm",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S2999",
+      "id": "S3163",
       "title": "Humans domesticated horses – The Conversation",
       "url": "https://theconversation.com/humans-domesticated-horses-new-tech-could-help-archaeologists-figure-out-where-and-when-131831",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3000",
+      "id": "S3164",
       "title": "Proto-urban Site of Sarazm – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1141/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3001",
+      "id": "S3165",
       "title": "Watson Brake Archaeological Site – 64 Parishes (Louisiana Endowment for the Humanities)",
       "url": "https://64parishes.org/?p=56285",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3002",
+      "id": "S3166",
       "title": "Archaeological Ruins of Liangzhu City – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1592/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3003",
+      "id": "S3167",
       "title": "Uruk: The First City - The Metropolitan Museum of Art (Heilbrunn Timeline of Art History)",
       "url": "https://www.metmuseum.org/toah/hd/uruk/hd_uruk.htm",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3004",
+      "id": "S3168",
       "title": "MacTutor History of Mathematics (University of St Andrews): Chronology 30000 BC - 500 BC",
       "url": "https://mathshistory.st-andrews.ac.uk/Chronology/1/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3005",
+      "id": "S3169",
       "title": "Dholavira: a Harappan City – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1645/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3006",
+      "id": "S3170",
       "title": "Sacred City of Caral-Supe – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1269/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3007",
+      "id": "S3171",
       "title": "Giza - Great Pyramid of Khufu - Institute of Egyptian Art & Archaeology (University of Memphis)",
       "url": "https://www.memphis.edu/egypt/resources/colortour/giza3.php",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3008",
+      "id": "S3172",
       "title": "Stonehenge, Avebury and Associated Sites - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/373/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3009",
+      "id": "S3173",
       "title": "Archaeological Ruins at Moenjodaro – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/138/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3010",
+      "id": "S3174",
       "title": "An overview of Indian mathematics – MacTutor, University of St Andrews",
       "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Indian_mathematics/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3011",
+      "id": "S3175",
       "title": "Lothal – Britannica",
       "url": "https://www.britannica.com/place/Lothal",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3012",
+      "id": "S3176",
       "title": "State Historical and Cultural Park 'Ancient Merv' – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/886/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3013",
+      "id": "S3177",
       "title": "Quipu – Britannica",
       "url": "https://www.britannica.com/technology/quipu",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3014",
+      "id": "S3178",
       "title": "The Akkadian Period (ca. 2350-2150 B.C.) - The Metropolitan Museum of Art (Heilbrunn Timeline of Art History)",
       "url": "https://www.metmuseum.org/toah/hd/akka/hd_akka.htm",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3015",
+      "id": "S3179",
       "title": "Qal'at al-Bahrain - Ancient Harbour and Capital of Dilmun - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1192/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3016",
+      "id": "S3180",
       "title": "Maloti-Drakensberg Park - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/985/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3017",
+      "id": "S3181",
       "title": "Hattusha: the Hittite Capital - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/377/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3018",
+      "id": "S3182",
       "title": "Minoan Crete - The Metropolitan Museum of Art (Heilbrunn Timeline of Art History)",
       "url": "https://www.metmuseum.org/toah/hd/mino/hd_mino.htm",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3019",
+      "id": "S3183",
       "title": "Code de Hammurabi - Collections du Louvre",
       "url": "https://collections.louvre.fr/en/ark:/53355/cl010174436",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3020",
+      "id": "S3184",
       "title": "Papyrus Edwin Smith - Science in Ancient Egypt (Saxon Academy of Sciences in Leipzig)",
       "url": "https://sae.saw-leipzig.de/en/documents/papyrus-edwin-smith",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3021",
+      "id": "S3185",
       "title": "Monumental Earthworks of Poverty Point – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1435/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3022",
+      "id": "S3186",
       "title": "Lapita culture – Britannica",
       "url": "https://www.britannica.com/topic/Lapita-culture",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3023",
+      "id": "S3187",
       "title": "Chavin (Archaeological Site) – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/330/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3024",
+      "id": "S3188",
       "title": "Ban Chiang Archaeological Site – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/575/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3025",
+      "id": "S3189",
       "title": "Yin Xu – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1114/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3026",
+      "id": "S3190",
       "title": "Tchogha Zanbil - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/113/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3027",
+      "id": "S3191",
       "title": "Olmec – Britannica",
       "url": "https://www.britannica.com/topic/Olmec",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3028",
+      "id": "S3192",
       "title": "The Phoenicians (1500-300 B.C.) - The Metropolitan Museum of Art (Heilbrunn Timeline of Art History)",
       "url": "https://www.metmuseum.org/toah/hd/phoe/hd_phoe.htm",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3029",
+      "id": "S3193",
       "title": "Byblos - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/295/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3030",
+      "id": "S3194",
       "title": "Archaeological Site of Carthage - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/37/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3031",
+      "id": "S3195",
       "title": "The Indian Sulbasutras – MacTutor, University of St Andrews",
       "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Indian_sulbasutras/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3032",
+      "id": "S3196",
       "title": "East Polynesia colonized faster and more recently than previously thought – University of Hawaiʻi",
       "url": "https://manoa.hawaii.edu/news/article.php?aId=4097",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3033",
+      "id": "S3197",
       "title": "Samarkand – Crossroad of Cultures – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/603/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3034",
+      "id": "S3198",
       "title": "What was Ashurbanipal's Library? - British Museum",
       "url": "https://www.britishmuseum.org/research/projects/what-was-ashurbanipals-library",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3035",
+      "id": "S3199",
       "title": "The Coins of Sardis (J. H. Kroll), The Lydians and their World - The Archaeological Exploration of Sardis (Harvard)",
       "url": "https://sardisexpedition.org/en/essays/latw-kroll-coins-of-sardis",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3036",
+      "id": "S3200",
       "title": "Babylon - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/278/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3037",
+      "id": "S3201",
       "title": "Sushruta – Britannica",
       "url": "https://www.britannica.com/biography/Sushruta",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3038",
+      "id": "S3202",
       "title": "Confucius – Britannica",
       "url": "https://www.britannica.com/biography/Confucius",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3039",
+      "id": "S3203",
       "title": "The Achaemenid Persian Empire (550-330 B.C.) - The Metropolitan Museum of Art (Heilbrunn Timeline of Art History)",
       "url": "https://www.metmuseum.org/toah/hd/acha/hd_acha.htm",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3040",
+      "id": "S3204",
       "title": "Panini – Biography – MacTutor, University of St Andrews",
       "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Panini/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3041",
+      "id": "S3205",
       "title": "Persepolis - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/114/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3042",
+      "id": "S3206",
       "title": "Shushtar Historical Hydraulic System - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1315/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3043",
+      "id": "S3207",
       "title": "MacTutor History of Mathematics (University of St Andrews): Chronology 500 BC - 1",
       "url": "https://mathshistory.st-andrews.ac.uk/Chronology/2/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3044",
+      "id": "S3208",
       "title": "Taxila – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/139/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3045",
+      "id": "S3209",
       "title": "The Grand Canal – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1443/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3046",
+      "id": "S3210",
       "title": "Southeast Asian arts – Vietnam – Britannica",
       "url": "https://www.britannica.com/art/Southeast-Asian-arts/Vietnam-kingdom-of-Champa-c-2nd-15th-century",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3047",
+      "id": "S3211",
       "title": "Pazyryk – Britannica",
       "url": "https://www.britannica.com/place/Pazyryk",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3048",
+      "id": "S3212",
       "title": "Historic Centre of Oaxaca and Archaeological Site of Monte Albán – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/415/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3049",
+      "id": "S3213",
       "title": "Lines and Geoglyphs of Nasca and Palpa – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/700/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3050",
+      "id": "S3214",
       "title": "Acropolis, Athens - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/404/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3051",
+      "id": "S3215",
       "title": "Petra - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/326/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3052",
+      "id": "S3216",
       "title": "Pre-Columbian civilizations – Early Intermediate period – Britannica",
       "url": "https://www.britannica.com/topic/pre-Columbian-civilizations/The-Early-Intermediate-period",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3053",
+      "id": "S3217",
       "title": "Library of Alexandria | Britannica",
       "url": "https://www.britannica.com/topic/Library-of-Alexandria",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3054",
+      "id": "S3218",
       "title": "Eratosthenes of Cyrene - Biography - MacTutor History of Mathematics",
       "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Eratosthenes/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3055",
+      "id": "S3219",
       "title": "Archaeological Site of Nalanda Mahavihara at Nalanda, Bihar – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1502/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3056",
+      "id": "S3220",
       "title": "Huangdi neijing – Britannica",
       "url": "https://www.britannica.com/topic/Huangdi-neijing",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3057",
+      "id": "S3221",
       "title": "Ashoka – Britannica",
       "url": "https://www.britannica.com/biography/Ashoka",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3058",
+      "id": "S3222",
       "title": "Mount Qingcheng and the Dujiangyan Irrigation System – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1001/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3059",
+      "id": "S3223",
       "title": "Chankillo Archaeoastronomical Complex – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1624",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3060",
+      "id": "S3224",
       "title": "Mausoleum of the First Qin Emperor – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/441/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3061",
+      "id": "S3225",
       "title": "Chinese examination system – Britannica",
       "url": "https://www.britannica.com/topic/Chinese-examination-system",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3062",
+      "id": "S3226",
       "title": "Buddhist Monuments at Sanchi – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/524/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3063",
+      "id": "S3227",
       "title": "Ajanta Caves – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/242/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3064",
+      "id": "S3228",
       "title": "Nine chapters on the Mathematical Art – MacTutor, University of St Andrews",
       "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Nine_chapters/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3065",
+      "id": "S3229",
       "title": "Pyu Ancient Cities – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1444/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3066",
+      "id": "S3230",
       "title": "Silk Roads: the Routes Network of Chang'an-Tianshan Corridor – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1442/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3067",
+      "id": "S3231",
       "title": "Rice Terraces of the Philippine Cordilleras – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/722/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3068",
+      "id": "S3232",
       "title": "Pre-Columbian civilizations – Late Formative Period – Britannica",
       "url": "https://www.britannica.com/topic/pre-Columbian-civilizations/Late-Formative-Period-300-bce-100-ce",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3069",
+      "id": "S3233",
       "title": "Pre-Hispanic City of Teotihuacan – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/414/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3070",
+      "id": "S3234",
       "title": "Hopewell Ceremonial Earthworks – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1689/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3071",
+      "id": "S3235",
       "title": "Cai Lun – Britannica",
       "url": "https://www.britannica.com/biography/Cai-Lun",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3072",
+      "id": "S3236",
       "title": "MacTutor History of Mathematics (University of St Andrews): Chronology 1 - 500",
       "url": "https://mathshistory.st-andrews.ac.uk/Chronology/3/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3073",
+      "id": "S3237",
       "title": "Galen | Britannica",
       "url": "https://www.britannica.com/biography/Galen",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3074",
+      "id": "S3238",
       "title": "Zhang Heng – Biography – MacTutor, University of St Andrews",
       "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Zhang_Heng/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3075",
+      "id": "S3239",
       "title": "Carbon dating finds Bakhshali manuscript contains oldest recorded origins of the symbol 'zero' – Bodleian Libraries, University of Oxford",
       "url": "https://www.glam.ox.ac.uk/node/218481",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3076",
+      "id": "S3240",
       "title": "The Bakhshali manuscript – MacTutor, University of St Andrews",
       "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Bakhshali_manuscript/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3077",
+      "id": "S3241",
       "title": "Tikal National Park – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/64/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3078",
+      "id": "S3242",
       "title": "My Son Sanctuary – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/949/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3079",
+      "id": "S3243",
       "title": "The Nobel Prize in Physiology or Medicine 2015 – Advanced information, NobelPrize.org",
       "url": "https://www.nobelprize.org/prizes/medicine/2015/advanced-information/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3080",
+      "id": "S3244",
       "title": "The Nobel Prize in Physiology or Medicine 2015 – Press release, NobelPrize.org",
       "url": "https://www.nobelprize.org/prizes/medicine/2015/press-release/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3081",
+      "id": "S3245",
       "title": "Indian Pediatrics 2011;48:914 (news item)",
       "url": "https://www.indianpediatrics.net/nov2011/nov-914.htm",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3082",
+      "id": "S3246",
       "title": "The Trans-Saharan Gold Trade (7th-14th Century) - The Metropolitan Museum of Art (Heilbrunn Timeline of Art History)",
       "url": "https://www.metmuseum.org/toah/hd/gold/hd_gold.htm",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3083",
+      "id": "S3247",
       "title": "Zu Chongzhi – Biography – MacTutor, University of St Andrews",
       "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Zu_Chongzhi/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3084",
+      "id": "S3248",
       "title": "Mesa Verde National Park – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/27/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3085",
+      "id": "S3249",
       "title": "Aryabhata I – Biography – MacTutor, University of St Andrews",
       "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Aryabhata_I/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3086",
+      "id": "S3250",
       "title": "Pre-Hispanic City and National Park of Palenque – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/411/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3087",
+      "id": "S3251",
       "title": "Tiwanaku: Spiritual and Political Centre of the Tiwanaku Culture – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/567/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3088",
+      "id": "S3252",
       "title": "MacTutor History of Mathematics (University of St Andrews): Chronology 500 - 900",
       "url": "https://mathshistory.st-andrews.ac.uk/Chronology/4/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3089",
+      "id": "S3253",
       "title": "Srivijaya empire – Britannica",
       "url": "https://www.britannica.com/place/Srivijaya-empire",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3090",
+      "id": "S3254",
       "title": "Mayan mathematics – MacTutor, University of St Andrews",
       "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Mayan_mathematics/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3091",
+      "id": "S3255",
       "title": "Brahmagupta – Biography – MacTutor, University of St Andrews",
       "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Brahmagupta/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3092",
+      "id": "S3256",
       "title": "[World Heritage Festival ②] Silla heritage shines in Gyeongju – Korea.net",
       "url": "https://www.korea.net/NewsFocus/FoodTravel/view?articleId=279715",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3093",
+      "id": "S3257",
       "title": "Kairouan - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/499/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3094",
+      "id": "S3258",
       "title": "Buddhist Monuments in the Horyu-ji Area – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/660/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3095",
+      "id": "S3259",
       "title": "The Elusive Origin of Zero – Scientific American",
       "url": "https://www.scientificamerican.com/article/the-elusive-origin-of-zero1/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3096",
+      "id": "S3260",
       "title": "Chronology – Japanese – Britannica",
       "url": "https://www.britannica.com/topic/chronology/Japanese",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3097",
+      "id": "S3261",
       "title": "Orhon inscriptions – Britannica",
       "url": "https://www.britannica.com/topic/Orhon-inscriptions",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3098",
+      "id": "S3262",
       "title": "Upemba Depression (N. Nikis, 2021) - Royal Museum for Central Africa",
       "url": "https://www.africamuseum.be/publication_docs/Nikis%202021%20Upemba%20depression.pdf",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3099",
+      "id": "S3263",
       "title": "Borobudur Temple Compounds – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/592/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3100",
+      "id": "S3264",
       "title": "Igbo-Ukwu (ca. 9th Century) - The Metropolitan Museum of Art (Heilbrunn Timeline of Art History)",
       "url": "https://www.metmuseum.org/toah/hd/igbo/hd_igbo.htm",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3101",
+      "id": "S3265",
       "title": "Angkor – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/668/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3102",
+      "id": "S3266",
       "title": "Historic Centre of Bukhara – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/602/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3103",
+      "id": "S3267",
       "title": "Chan Chan Archaeological Zone – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/366/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3104",
+      "id": "S3268",
       "title": "Chaco Culture – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/353/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3105",
+      "id": "S3269",
       "title": "Circulating Now / NLM in Focus – US National Library of Medicine",
       "url": "https://infocus.nlm.nih.gov/2010/06/22/nestled_among_the_national_lib/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3106",
+      "id": "S3270",
       "title": "Haddad 1986, Journal of the Islamic Medical Association 18(1)",
       "url": "https://jima.imana.org/article/view/11732",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3107",
+      "id": "S3271",
       "title": "Oldest university | Guinness World Records (institutional source)",
       "url": "https://sites.brown.edu/archaeology/?p=216",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3108",
+      "id": "S3272",
       "title": "The Diamond Sutra – International Dunhuang Programme, British Library",
       "url": "https://idp.bl.uk/blog/the-diamond-sutra/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3109",
+      "id": "S3273",
       "title": "Historic Cairo - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/89/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3110",
+      "id": "S3274",
       "title": "Harar Jugol, the Fortified Historic Town - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1189/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3111",
+      "id": "S3275",
       "title": "Pre-Hispanic City of Chichen-Itza – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/483/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3112",
+      "id": "S3276",
       "title": "MacTutor History of Mathematics (University of St Andrews): Chronology 900 - 1100",
       "url": "https://mathshistory.st-andrews.ac.uk/Chronology/5/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3113",
+      "id": "S3277",
       "title": "Avicenna – Biography – MacTutor, University of St Andrews",
       "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Avicenna/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3114",
+      "id": "S3278",
       "title": "Ibn Yunus (950 - 1009) - Biography - MacTutor History of Mathematics",
       "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Yunus/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3115",
+      "id": "S3279",
       "title": "Ibn al-Haytham - Biography - MacTutor History of Mathematics",
       "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Haytham/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3116",
+      "id": "S3280",
       "title": "Ancient Ksour of Ouadane, Chinguetti, Tichitt and Oualata - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/750/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3117",
+      "id": "S3281",
       "title": "The Tale of Genji – Britannica",
       "url": "https://www.britannica.com/topic/The-Tale-of-Genji",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3118",
+      "id": "S3282",
       "title": "Bagan – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1588/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3119",
+      "id": "S3283",
       "title": "Rapa Nui National Park – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/715/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3120",
+      "id": "S3284",
       "title": "Great Living Chola Temples – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/250/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3121",
+      "id": "S3285",
       "title": "Al-Biruni – Biography – MacTutor, University of St Andrews",
       "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Biruni/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3122",
+      "id": "S3286",
       "title": "Printing – History of printing – Britannica",
       "url": "https://www.britannica.com/topic/printing-publishing/History-of-printing",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3123",
+      "id": "S3287",
       "title": "Cahokia Mounds State Historic Site – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/198/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3124",
+      "id": "S3288",
       "title": "Temple of Literature – Britannica",
       "url": "https://www.britannica.com/topic/Temple-of-Literature",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3125",
+      "id": "S3289",
       "title": "Shen Kua – Biography – MacTutor, University of St Andrews",
       "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Shen_Kua/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3126",
+      "id": "S3290",
       "title": "Compass – Britannica",
       "url": "https://www.britannica.com/technology/compass-navigational-instrument",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3127",
+      "id": "S3291",
       "title": "Bhaskara II – Biography – MacTutor, University of St Andrews",
       "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Bhaskara_II/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3128",
+      "id": "S3292",
       "title": "Hanseatic City of Lubeck - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/272/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3129",
+      "id": "S3293",
       "title": "MacTutor History of Mathematics (University of St Andrews): Chronology 1100 - 1300",
       "url": "https://mathshistory.st-andrews.ac.uk/Chronology/6/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3130",
+      "id": "S3294",
       "title": "Qutb Minar and its Monuments, Delhi – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/233/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3131",
+      "id": "S3295",
       "title": "Pax Mongolica – Britannica",
       "url": "https://www.britannica.com/event/Pax-Mongolica",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3132",
+      "id": "S3296",
       "title": "Nan Madol: Ceremonial Centre of Eastern Micronesia – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1503/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3133",
+      "id": "S3297",
       "title": "Magna Carta 1214-1225 - The National Archives",
       "url": "https://www.nationalarchives.gov.uk/education/resources/magna-carta/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3134",
+      "id": "S3298",
       "title": "Mapungubwe (ca. 1050-1270) - The Metropolitan Museum of Art (Heilbrunn Timeline of Art History)",
       "url": "https://www.metmuseum.org/en/essays/mapungubwe-ca-1050-1270",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3135",
+      "id": "S3299",
       "title": "Orkhon Valley Cultural Landscape – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1081/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3136",
+      "id": "S3300",
       "title": "Great Mosque and Hospital of Divrigi - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/358/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3137",
+      "id": "S3301",
       "title": "Haeinsa Temple Janggyeong Panjeon – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/737/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3138",
+      "id": "S3302",
       "title": "Qin Jiushao – Biography – MacTutor, University of St Andrews",
       "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Qin_Jiushao/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3139",
+      "id": "S3303",
       "title": "History – Te Ara: The Encyclopedia of New Zealand",
       "url": "https://teara.govt.nz/en/history/page-1",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3140",
+      "id": "S3304",
       "title": "Nasir al-Din al-Tusi - Biography - MacTutor History of Mathematics",
       "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Tusi_Nasir/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3141",
+      "id": "S3305",
       "title": "Yang Hui – Biography – MacTutor, University of St Andrews",
       "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Yang_Hui/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3142",
+      "id": "S3306",
       "title": "Guo Shoujing – Biography – MacTutor, University of St Andrews",
       "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Guo_Shoujing/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3143",
+      "id": "S3307",
       "title": "Mbanza Kongo, Vestiges of the Capital of the former Kingdom of Kongo - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1511/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3144",
+      "id": "S3308",
       "title": "Taputapuātea – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1529/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3145",
+      "id": "S3309",
       "title": "The Empires of the Western Sudan: Mali Empire - The Metropolitan Museum of Art (Heilbrunn Timeline of Art History)",
       "url": "https://www.metmuseum.org/toah/hd/mali/hd_mali.htm",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3146",
+      "id": "S3310",
       "title": "Tenochtitlán – Britannica",
       "url": "https://www.britannica.com/place/Tenochtitlan",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3147",
+      "id": "S3311",
       "title": "Ibn Khaldun | Britannica",
       "url": "https://www.britannica.com/biography/Ibn-Khaldun",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3148",
+      "id": "S3312",
       "title": "Yaron Ayalon, 'The Black Death and the Rise of the Ottomans', ch. 1 of Natural Disasters in the Ottoman Empire: Plague, Famine, and Other Misfortunes (Cambridge University Press, 2015)",
       "url": "https://www.cambridge.org/core/books/natural-disasters-in-the-ottoman-empire/black-death-and-the-rise-of-the-ottomans/D83E412C0BB3C092E79683722AFFFC33",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3149",
+      "id": "S3313",
       "title": "Ibn Battuta, Travels in Asia and Africa 1325–1354, trans. and ed. H. A. R. Gibb (London: Broadway House, 1929) – Internet Medieval Sourcebook, Fordham University",
       "url": "https://sourcebooks.web.fordham.edu/halsall/source/1354ibnbattuta-plague.asp",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3150",
+      "id": "S3314",
       "title": "Madhava – Biography – MacTutor, University of St Andrews",
       "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Madhava/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3151",
+      "id": "S3315",
       "title": "Historic City of Ayutthaya – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/576/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3152",
+      "id": "S3316",
       "title": "'Jikji', a treasure of the world of printing – Bibliothèque nationale de France",
       "url": "https://www.bnf.fr/en/jikji-treasure-world-printing",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3153",
+      "id": "S3317",
       "title": "Plaque with equestrian oba (king) and attendants, ca. 1540-70 - The Metropolitan Museum of Art",
       "url": "https://www.metmuseum.org/art/collection/search/310752",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3154",
+      "id": "S3318",
       "title": "Melaka and George Town, Historic Cities of the Straits of Malacca – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1223/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3155",
+      "id": "S3319",
       "title": "Qhapaq Ñan, Andean Road System – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1459/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3156",
+      "id": "S3320",
       "title": "Zheng He timeline – Britannica",
       "url": "https://www.britannica.com/summary/Zheng-He-Timeline",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3157",
+      "id": "S3321",
       "title": "Ulugh Beg – Biography – MacTutor, University of St Andrews",
       "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Ulugh_Beg/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3158",
+      "id": "S3322",
       "title": "al-Kashi – Biography – MacTutor, University of St Andrews",
       "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Kashi/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3159",
+      "id": "S3323",
       "title": "Hunminjeongum Manuscript – UNESCO Memory of the World",
       "url": "https://www.unesco.org/en/memory-world/hunminjeongum-manuscript",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3160",
+      "id": "S3324",
       "title": "Khami Ruins National Monument - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/365/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3161",
+      "id": "S3325",
       "title": "Historic Sanctuary of Machu Picchu – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/274/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3162",
+      "id": "S3326",
       "title": "The Gutenberg Bible - Library of Congress Bible Collection",
       "url": "https://www.loc.gov/exhibits/bibles/the-gutenberg-bible.html",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3163",
+      "id": "S3327",
       "title": "Tomb of Askia - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1139/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3164",
+      "id": "S3328",
       "title": "Sukur Cultural Landscape - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/938/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3165",
+      "id": "S3329",
       "title": "Kongo Ivories - The Metropolitan Museum of Art (Heilbrunn Timeline of Art History)",
       "url": "https://www.metmuseum.org/toah/hd/kong/hd_kong.htm",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3166",
+      "id": "S3330",
       "title": "Monastery of the Hieronymites and Tower of Belem in Lisbon - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/263/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3167",
+      "id": "S3331",
       "title": "MacTutor History of Mathematics (University of St Andrews): Chronology 1500 - 1600",
       "url": "https://mathshistory.st-andrews.ac.uk/Chronology/8/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3168",
+      "id": "S3332",
       "title": "Historical Anatomies on the Web: Vesalius - US National Library of Medicine",
       "url": "https://sites.wip.nlm.nih.gov/exhibition/historicalanatomies/vesalius_bio.html",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3169",
+      "id": "S3333",
       "title": "Botanical Garden (Orto Botanico), Padua - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/824/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3170",
+      "id": "S3334",
       "title": "Concerning the Badianus manuscript, an Aztec herbal – Wellcome Collection",
       "url": "https://wellcomecollection.org/works/bbup7ftn",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3171",
+      "id": "S3335",
       "title": "Iwo Amelung, 'Successful smallpox prevention and inoculation in China in the 17th and 18th centuries', Forschung Frankfurt 1.2021, Goethe University Frankfurt",
       "url": "https://www.uni-frankfurt.de/108535770.pdf",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3172",
+      "id": "S3336",
       "title": "Indiana University Libraries exhibit: Qing Dynasty",
       "url": "https://collections.libraries.indiana.edu/iulibraries/s/smallpox-vaccine-exhibit/page/great-qing",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3173",
+      "id": "S3337",
       "title": "Konso Cultural Landscape - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1333/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3174",
+      "id": "S3338",
       "title": "Kingdoms of the Savanna: The Luba and Lunda Empires - The Metropolitan Museum of Art (Heilbrunn Timeline of Art History)",
       "url": "https://www.metmuseum.org/toah/hd/luba/hd_luba.htm",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3175",
+      "id": "S3339",
       "title": "Chief Roi Mata’s Domain – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1280/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3176",
+      "id": "S3340",
       "title": "MacTutor History of Mathematics (University of St Andrews): Chronology 1600 - 1625",
       "url": "https://mathshistory.st-andrews.ac.uk/Chronology/9/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3177",
+      "id": "S3341",
       "title": "Royal Palaces of Abomey - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/323/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3178",
+      "id": "S3342",
       "title": "Kingdoms of the Savanna: The Kuba Kingdom - The Metropolitan Museum of Art (Heilbrunn Timeline of Art History)",
       "url": "https://www.metmuseum.org/en/essays/kingdoms-of-the-savanna-the-kuba-kingdom",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3179",
+      "id": "S3343",
       "title": "Taj Mahal – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/252/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3180",
+      "id": "S3344",
       "title": "Fasil Ghebbi, Gondar Region - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/19/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3181",
+      "id": "S3345",
       "title": "Agathosma crenulata – PlantZAfrica, South African National Biodiversity Institute",
       "url": "https://pza.sanbi.org/node/9673",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3182",
+      "id": "S3346",
       "title": "Skosana, Aboua and Du Plessis, 'Buchu – The Multi-Purpose Ethnomedicinally Important Specie' (IntechOpen, 2014), Cape Peninsula University of Technology repository",
       "url": "https://digitalknowledge.cput.ac.za/handle/11189/7313?mode=full",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3183",
+      "id": "S3347",
       "title": "'buchu, n.', Dictionary of South African English (Dictionary Unit for South African English, Rhodes University), 2025",
       "url": "https://dsae.co.za/entry/buchu/e01320",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3184",
+      "id": "S3348",
       "title": "'Medicinal Plants Used in the Western Cape', Western Cape Department of Cultural Affairs and Sport, Museum Service (Google Arts & Culture)",
       "url": "https://artsandculture.google.com/story/medicinal-plants-used-in-the-western-cape-department-of-cultural-affars-and-sport-western-cape/WwWR6tT1K2Tlrg?hl=en",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3185",
+      "id": "S3349",
       "title": "MacTutor History of Mathematics (University of St Andrews): Chronology 1650 - 1675",
       "url": "https://mathshistory.st-andrews.ac.uk/Chronology/11/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3186",
+      "id": "S3350",
       "title": "Takakazu Seki – Biography – MacTutor, University of St Andrews",
       "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Seki/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3187",
+      "id": "S3351",
       "title": "MacTutor History of Mathematics (University of St Andrews): Chronology 1675 - 1700",
       "url": "https://mathshistory.st-andrews.ac.uk/Chronology/12/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3188",
+      "id": "S3352",
       "title": "Asante Traditional Buildings - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/35/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3189",
+      "id": "S3353",
       "title": "The Jantar Mantar, Jaipur – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1338/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3190",
+      "id": "S3354",
       "title": "Ironbridge Gorge - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/371/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3191",
+      "id": "S3355",
       "title": "The Jamaican Maroons – National Library of Jamaica",
       "url": "https://nlj.gov.jm/history-notes/The%20Maroons%20edited%20final.htm",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3192",
+      "id": "S3356",
       "title": "Royal Botanic Gardens, Kew - UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1084/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3193",
+      "id": "S3357",
       "title": "Longitude found - the story of Harrison's timekeepers | Royal Museums Greenwich",
       "url": "https://www.rmg.co.uk/stories/topics/harrisons-clocks-longitude-problem",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3194",
+      "id": "S3358",
       "title": "Tupaia's Map – University of Potsdam",
       "url": "https://www.uni-potsdam.de/en/iaa-cult/staff/schwarz/tupaias-map",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3195",
+      "id": "S3359",
       "title": "On tour with Tupaia – Natural History Museum",
       "url": "https://www.nhm.ac.uk/discover/on-tour-with-tupaia.html",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3196",
+      "id": "S3360",
       "title": "National History Park – Citadel, Sans Souci, Ramiers – UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/180/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3197",
+      "id": "S3361",
       "title": "Stick chart from the Marshall Islands – Royal Museums Greenwich",
       "url": "https://rmg.co.uk/collections/objects/rmgc-object-670368",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3198",
+      "id": "S3362",
       "title": "Ways of Recording African History – The Met, Heilbrunn Timeline of Art History",
       "url": "https://www.metmuseum.org/en/essays/ways-of-recording-african-history",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3199",
+      "id": "S3363",
       "title": "Memory Board (Lukasa) – The Metropolitan Museum of Art",
       "url": "https://www.metmuseum.org/art/collection/search/690570",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3200",
+      "id": "S3364",
       "title": "Penn State / Palmer Museum of Art: African Brilliance, catalogue 55",
       "url": "https://exhibitions.psu.edu/s/african-brilliance/page/catalogue-55",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3201",
+      "id": "S3365",
       "title": "South African star myths – Royal Museums Greenwich",
       "url": "https://www.rmg.co.uk/stories/space-astronomy/south-african-star-myths",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3202",
+      "id": "S3366",
       "title": "African Ethnoastronomy – Astronomical Society of Southern Africa",
       "url": "https://assa.saao.ac.za/astronomy-in-south-africa/ethnoastronomy/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3203",
+      "id": "S3367",
       "title": "University of Pretoria Sci-Enza",
       "url": "https://www.up.ac.za/sci-enza/news/dinaledi",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3204",
+      "id": "S3368",
       "title": "Parliament and the British Slave Trade: Overview - UK Parliament",
       "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/tradeindustry/slavetrade/overview/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3205",
+      "id": "S3369",
       "title": "Kamehameha I – Britannica",
       "url": "https://www.britannica.com/biography/Kamehameha-I",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3206",
+      "id": "S3370",
       "title": "Sequoyah – Britannica",
       "url": "https://www.britannica.com/biography/Sequoyah",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3207",
+      "id": "S3371",
       "title": "Vai syllabary - Omniglot (institutional source)",
       "url": "https://shh.mpg.de/2089042/evolution-of-writing",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3208",
+      "id": "S3372",
       "title": "Slavery Abolition Act – Britannica",
       "url": "https://www.britannica.com/topic/Slavery-Abolition-Act",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3209",
+      "id": "S3373",
       "title": "Treaty of Waitangi – Britannica",
       "url": "https://www.britannica.com/event/Treaty-of-Waitangi",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3210",
+      "id": "S3374",
       "title": "Female power figure (nkisi), Kongo – The Metropolitan Museum of Art",
       "url": "https://www.metmuseum.org/art/collection/search/844658",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3211",
+      "id": "S3375",
       "title": "Sona, drawings and geometric figures on sand – UNESCO Intangible Cultural Heritage",
       "url": "https://ich.unesco.org/en/RL/sona-drawings-and-geometric-figures-on-sand-01994",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3212",
+      "id": "S3376",
       "title": "Demaine et al., 'Properties of sona drawings', Journal of Mathematics and the Arts",
       "url": "https://erikdemaine.org/papers/Sona_JMA/paper.pdf",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3213",
+      "id": "S3377",
       "title": "Leveraging Economic Growth through Benefit Sharing – World Intellectual Property Organization",
       "url": "https://www.wipo.int/ipadvantage/en/details.jsp?id=2594",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3214",
+      "id": "S3378",
       "title": "'Case Study 7. The Commercial Development of Hoodia', document for the 6th meeting of the Ad Hoc Open-ended Working Group on Access and Benefit-sharing, Convention on Biological Diversity (drawing on Wynberg 2004; Wynberg and Chennells 2008)",
       "url": "https://www.cbd.int/doc/meetings/abs/abswg-06/other/abswg-06-cs-07-en.pdf",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3215",
+      "id": "S3379",
       "title": "Cultural Survival, 'Sharing the Secrets of the Hoodia: San to Reap Financial Benefits of Traditional Knowledge' (2 May 2003)",
       "url": "https://www.culturalsurvival.org/news/sharing-secrets-hoodia-san-reap-financial-benefits-traditional-knowledge",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3216",
+      "id": "S3380",
       "title": "Merriam-Webster, half-caste",
       "url": "https://www.merriam-webster.com/dictionary/half-caste",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3217",
+      "id": "S3381",
       "title": "Dictionary.com (incl. Collins English Dictionary), half-caste",
       "url": "https://www.dictionary.com/browse/half-caste",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3218",
+      "id": "S3382",
       "title": "Merriam-Webster, colored (usage paragraph)",
       "url": "https://www.merriam-webster.com/dictionary/colored",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3219",
+      "id": "S3383",
       "title": "GOV.UK History of Government blog, 50 years of collecting ethnicity data (2019)",
       "url": "https://history.blog.gov.uk/2019/03/07/50-years-of-collecting-ethnicity-data/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3220",
+      "id": "S3384",
       "title": "TUC 150, Bristol bus boycott",
       "url": "https://tuc150.tuc.org.uk/stories/bristol-bus-boycott/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3221",
+      "id": "S3385",
       "title": "English Heritage, Dr Harold Moody blue plaque",
       "url": "https://www.english-heritage.org.uk/visit/blue-plaques/dr-harold-moody/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3222",
+      "id": "S3386",
       "title": "Historic England (Heritage Calling), The story of the Bristol Bus Boycott (2023)",
       "url": "https://heritagecalling.com/2023/04/20/the-story-of-the-bristol-bus-boycott/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3223",
+      "id": "S3387",
       "title": "South African History Online, Parliament passes legislation separating people of South Africa into four distinct races",
       "url": "https://sahistory.org.za/dated-event/parliament-passes-legislation-separating-people-south-africa-four-distinct-races",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3224",
+      "id": "S3388",
       "title": "Camissa Museum, Race classification",
       "url": "https://camissamuseum.co.za/index.php/orientation/race-classification",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3225",
+      "id": "S3389",
       "title": "DataFirst (University of Cape Town), Statistics South Africa Census 2022, variable P07A_POP_GROUP",
       "url": "https://datafirst.uct.ac.za/dataportal/index.php/catalog/982/variable/V47",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3226",
+      "id": "S3390",
       "title": "Mixed Race Studies, summary of Mohamed Adhikari, Not White Enough, Not Black Enough: Racial Identity in the South African Coloured Community (2005)",
       "url": "https://mixedracestudies.org/?p=7545",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3227",
+      "id": "S3391",
       "title": "Merriam-Webster, Negro (usage paragraph)",
       "url": "https://www.merriam-webster.com/dictionary/Negro",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3228",
+      "id": "S3392",
       "title": "Library of Congress, Songs of America: Spirituals",
       "url": "https://www.loc.gov/collections/songs-of-america/articles-and-essays/musical-styles/ritual-and-worship/spirituals",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3229",
+      "id": "S3393",
       "title": "Parks Canada, Universal Negro Improvement Association National Historic Event",
       "url": "https://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=15477",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3230",
+      "id": "S3394",
       "title": "University of Stirling, John Stuart Mill 'On the Negro Question' Fraser's Magazine (1850)",
       "url": "https://campuspress.stir.ac.uk/hisu9g5/?p=333",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3231",
+      "id": "S3395",
       "title": "Glasgow Life Museums, Thomas Carlyle, historian, writer, racist",
       "url": "https://www.glasgowlife.org.uk/museums/legacies-of-slavery-and-empire/thomas-carlyle-historian-writer-racist",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3232",
+      "id": "S3396",
       "title": "Pew Research Center, What Census calls us / The changing categories the U.S. census has used to measure race (2020)",
       "url": "https://pewresearch.org/fact-tank/2020/02/25/the-changing-categories-the-u-s-has-used-to-measure-race/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3233",
+      "id": "S3397",
       "title": "Merriam-Webster, West Indian",
       "url": "https://www.merriam-webster.com/dictionary/West%20Indian",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3234",
+      "id": "S3398",
       "title": "The National Archives, On the Record: Windrush 75 (podcast transcript)",
       "url": "https://cdn.nationalarchives.gov.uk/documents/on-the-record-windrush75.pdf",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3235",
+      "id": "S3399",
       "title": "History Today, How Windrush changed the Caribbean",
       "url": "https://www.historytoday.com/archive/feature/how-windrush-changed-caribbean",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3236",
+      "id": "S3400",
       "title": "Journal of Social Policy (Cambridge University Press), Immigrant Children: A Review of Problems and Policy in Education (abstract)",
       "url": "https://www.cambridge.org/core/journals/journal-of-social-policy/article/abs/immigrant-children-a-review-of-problems-and-policy-in-education/B15318CB22A0FFCAD22F70134CFD2C5C",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3237",
+      "id": "S3401",
       "title": "DES Circular 7/65 (1965), The Education of Immigrants (education-uk.org transcription)",
       "url": "https://education-uk.org/documents/des/circular7-65.html",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3238",
+      "id": "S3402",
       "title": "Discover Society, Babylon By Bus? (Olivier Esteves, 2019)",
       "url": "https://archive.discoversociety.org/2019/04/03/babylon-by-bus-the-introduction-of-and-the-resistance-to-bussing-in-southall-and-elsewhere/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3239",
+      "id": "S3403",
       "title": "Margaret Thatcher Foundation, Select Committee on Race Relations and Immigration (Education), 20 June 1973, DES memorandum",
       "url": "https://www.margaretthatcher.org/document/102286",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3240",
+      "id": "S3404",
       "title": "IBHM UK, Bernard Coard: educator, author and catalyst for change in Black education",
       "url": "https://www.ibhm-uk.org/post/bernard-coard-educator-author-and-catalyst-for-change-in-black-education",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3241",
+      "id": "S3405",
       "title": "Special Needs in Education, White Paper Cmnd 7996 (1980) (education-uk.org transcription)",
       "url": "https://education-uk.org/documents/official-papers/1980-wp-special-needs.html",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3242",
+      "id": "S3406",
       "title": "University of Bath, Guidance on the categorisation of ethnicity",
       "url": "https://www.bath.ac.uk/guides/guidance-on-the-categorisation-of-ethnicity/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3243",
+      "id": "S3407",
       "title": "Bar Council, Equality and Diversity Guides: Race Terminology (November 2020)",
       "url": "https://www.barcouncilethics.co.uk/wp-content/uploads/2020/12/Bar-Council_ED-Guides_Race-Terminology_November-2020-1.pdf",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3244",
+      "id": "S3408",
       "title": "Africa Policy Information Center, Talking about 'Tribe': Moving from Stereotypes to Analysis (1997), via University of Pennsylvania African Studies Center",
       "url": "https://www.africa.upenn.edu/Urgent_Action/apic_122197.html",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3245",
+      "id": "S3409",
       "title": "Monash University, Writing Africa into MOS: the dangerous perpetuation of 'tribe(s)' and other misrepresentations (abstract)",
       "url": "https://research.monash.edu/en/publications/writing-africa-into-mos-the-dangerous-perpetuation-of-tribes-and-/",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3246",
+      "id": "S3410",
       "title": "National Congress of American Indians, Tribal governance",
       "url": "https://archive.ncai.org/policy-issues/tribal-governance",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3247",
+      "id": "S3411",
       "title": "Merriam-Webster, tribe",
       "url": "https://www.merriam-webster.com/dictionary/tribe",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3248",
+      "id": "S3412",
       "title": "James Robert Burns, 'Slaves' and 'Slave Owners' or 'Enslaved People' and 'Enslavers'?, Transactions of the Royal Historical Society (2024)",
       "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/8442245D3523F8DB72C653A7EE9FB5C7/S0080440123000282a.pdf/slaves-and-slave-owners-or-enslaved-people-and-enslavers.pdf",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3249",
+      "id": "S3413",
       "title": "UCL News, New Centre for the Study of the Legacies of British Slave-ownership launched at UCL (2016)",
       "url": "https://www.ucl.ac.uk/news/2016/sep/new-centre-study-legacies-british-slave-ownership-launched-ucl",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3250",
+      "id": "S3414",
       "title": "Merriam-Webster, mulatto",
       "url": "https://www.merriam-webster.com/dictionary/mulatto",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3251",
+      "id": "S3415",
       "title": "Merriam-Webster, quadroon",
       "url": "https://www.merriam-webster.com/dictionary/quadroon",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3252",
+      "id": "S3416",
       "title": "US Census Bureau, Measuring Race and Ethnicity Across the Decades: 1790-2010",
       "url": "https://www.census.gov/data-tools/demo/race/MREAD_1790_2010.html",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3253",
+      "id": "S3417",
       "title": "Merriam-Webster, Dark Continent",
       "url": "https://www.merriam-webster.com/dictionary/Dark%20Continent",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3254",
+      "id": "S3418",
       "title": "Critical Inquiry (University of Chicago), Patrick Brantlinger",
       "url": "https://criticalinquiry.uchicago.edu/authors/author/patrick_brantlinger",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3255",
+      "id": "S3419",
       "title": "UCL Faculty of Population Health Sciences, ethnicity guide (2026)",
       "url": "https://www.ucl.ac.uk/population-health-sciences/sites/population_health_sciences/files/2026-07/FPHS_pdf_ethnicity-guide_20260713_na_0.pdf",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3256",
+      "id": "S3420",
       "title": "Merriam-Webster, Afro-Caribbean",
       "url": "https://www.merriam-webster.com/dictionary/Afro-Caribbean",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3257",
+      "id": "S3421",
       "title": "National Gallery of Australia, Destiny Deacon obituary",
       "url": "https://nga.gov.au/about-us/obituaries/destiny-deacon",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3258",
+      "id": "S3422",
       "title": "Clothing the Gaps (Aboriginal-led social enterprise), A tribute to Destiny Deacon",
       "url": "https://www.clothingthegaps.com.au/blogs/blogs/blak",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3259",
+      "id": "S3423",
       "title": "Race and national origin (NIH style guide)",
       "url": "https://www.nih.gov/nih-style-guide/race-national-origin",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3260",
+      "id": "S3424",
       "title": "GOV.UK: Government functions (Cabinet Office, updated 3 November 2025)",
       "url": "https://www.gov.uk/government/publications/government-functions/government-functions",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3261",
+      "id": "S3425",
       "title": "GOV.UK: Government professions (updated 30 September 2026)",
       "url": "https://www.gov.uk/government/publications/government-professions/government-professions",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },
     {
-      "id": "S3262",
+      "id": "S3426",
       "title": "The Seven Principles of Public Life (gov.uk)",
       "url": "https://www.gov.uk/government/publications/the-7-principles-of-public-life/the-7-principles-of-public-life--2",
       "read": "2026-10-21",
