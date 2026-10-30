@@ -39,8 +39,8 @@ All of them hold the same content. Saving votes, shared ideas and the AI assista
 ## 3. The eight menus
 | Menu | Pages |
 |---|---|
-| **This month** | The 2026 theme · Calendar · Organiser toolkit · Posters · Get involved · Networks and communities · Book and film club · Remember · Food and heritage |
-| **Lead** | For leaders · Inequalities and action · Life stages and identities · Beyond government · Young lives: NEET, BEET and CHEET · Taking part in public life · Representation across the state |
+| **This month** | The 2026 theme · Calendar · Organiser toolkit and posters · Get involved · Networks and communities · Book and film club · Remember · Food and heritage |
+| **Lead** | For leaders · Inequalities and action · Life stages and identities · Beyond government · Young lives: NEET, BEET and CHEET · Taking part in public life · Recognition and awards · Representation across the state |
 | **Careers** | Joining government · If you are treated unfairly · Careers and development · Talent, leadership and research · Your profession (routes into the hub for every profession and function) · Black enterprise |
 | **Practice** | Designing for Black and Mixed-heritage people (policy, service, content and data design) · Words matter: race, ethnicity and language · Benchmarks and comparisons · Dashboards · Through other lenses · The DEEIA lens |
 | **Learn** | History · Africa's knowledge and its journeys · What was taken, lost and might have been · Who built the stereotypes · Africa: patterns, symbols and languages · Innovation and invention · Frontier tech in Africa · Culture, sport and enterprise · Futures 2030 to 2100 |
@@ -76,7 +76,7 @@ To report a barrier, see [section 7](#7-ideas-wishes-corrections-and-bugs).
 | Suggest an event for the calendar | GitHub: the **Event for the calendar** form | Write the dates as YYYY-MM-DD and give the organiser's public page. Once a maintainer accepts it, it is added through a reviewed change and appears in the calendar, marked as suggested by the community |
 | Follow what is new | Any feed reader | Add `https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-releases.atom` |
 | Plan an event | This month → Organiser toolkit | Checklist and activity ideas filtered by setting, effort and format |
-| Make a poster | This month → Posters | Type your event's title, date and place once; every poster updates. Choose a palette, then download or copy. Add alternative text when you share it |
+| Make a poster | This month → Organiser toolkit and posters | Type your event's title, date and place once; every poster updates. Choose a palette, then download or copy. Add alternative text when you share it |
 | Download templates | Resources → Brand and media | Slide, report and induction pack templates |
 | Run a book or film club | This month → Book and film club | Filter by type, genre and audience; read the content notes; open the discussion guide; download the meeting dates |
 | Find evidence for a briefing | Lead → Inequalities and action | Read "At a glance", open the domain you need, and open each source before quoting it. Benchmarks shows how the UK compares |

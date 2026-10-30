@@ -23,15 +23,9 @@
     },
     {
       "id": "toolkit",
-      "title": "Organiser toolkit",
+      "title": "Organiser toolkit and posters",
       "menu": "This month",
       "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#toolkit"
-    },
-    {
-      "id": "posters",
-      "title": "Posters",
-      "menu": "This month",
-      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#posters"
     },
     {
       "id": "involve",
@@ -98,6 +92,12 @@
       "title": "Taking part in public life",
       "menu": "Lead",
       "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#participate"
+    },
+    {
+      "id": "awards",
+      "title": "Recognition and awards",
+      "menu": "Lead",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#awards"
     },
     {
       "id": "represent",

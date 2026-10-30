@@ -74,7 +74,7 @@ It is unofficial and made in a personal capacity.`],
  ["Email or Teams message",`Planning something for Black History Month, or just curious? The BHM 2026 Hub has history, a calendar you can subscribe to, posters, a toolkit and sourced evidence on one page: ${PAGES_URL}`],
  ["Viva Engage or social post",`Black and Black-Mixed history, heritage and cultures, with every figure sourced: the BHM 2026 Hub. Calendar, toolkit, posters, book and film club. ${PAGES_URL}`]];
 function renderChampions(){const host=$("#chCopy");if(!host)return;
-  host.innerHTML=CHAMP_COPY.map(([h,t],i)=>`<div class="card"><h4>${esc(h)}</h4><pre class="champtext" id="chText${i}" tabindex="0">${esc(t)}</pre><button type="button" class="btn" data-chcopy="${i}">${icon("doc")} Copy<span class="vh"> the ${esc(h.toLowerCase())}</span></button></div>`).join("");
+  host.innerHTML=CHAMP_COPY.map(([h,t],i)=>`<div class="card"><h3>${esc(h)}</h3><pre class="champtext" id="chText${i}" tabindex="0">${esc(t)}</pre><button type="button" class="btn" data-chcopy="${i}">${icon("doc")} Copy<span class="vh"> the ${esc(h.toLowerCase())}</span></button></div>`).join("");
   host.querySelectorAll("[data-chcopy]").forEach(b=>b.addEventListener("click",()=>copyText(CHAMP_COPY[+b.dataset.chcopy][1])))}
 
 /* ---------- audits and checks ---------- */

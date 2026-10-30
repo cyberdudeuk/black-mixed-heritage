@@ -434,3 +434,15 @@ details.dvtable > summary{cursor:pointer;color:var(--link,var(--green));text-dec
 .tgpr{margin-top:1rem}.tgtable td{vertical-align:top}
 #tgWho [aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .palist{padding-left:1.1rem}.palist li{margin:.35rem 0}
+
+/* 2.27.0 design review (D-156) */
+.lpshort h2.lpshorth{font-size:1.12rem;font-weight:600;font-family:inherit;letter-spacing:0;margin:0}
+#calTitle{font-size:var(--t-lg);font-weight:600;letter-spacing:0;margin:0}
+.champtext{white-space:pre-wrap;overflow-wrap:anywhere;max-width:100%}
+.ftsteps>li>*,.ftdl>*{min-width:0}.ftsteps,.ftdl{overflow-wrap:anywhere}
+.view p{max-width:75ch}.view .lpshort{max-width:min(100%,80ch)}
+.bandcap,.maphint{font-size:.8125rem}
+.view p.mono.muted,.view p.mono{font-size:max(.8125rem,1em*.8)}
+.view input[type=checkbox],.view input[type=radio]{width:1.5rem;height:1.5rem;min-width:24px;min-height:24px;flex:none}
+@media (pointer:coarse){.view input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=color]),.view select,.view textarea{min-height:44px}.view input[type=range]{min-height:24px}.view .linkbtn{min-height:24px}}
+.btn.sm{min-height:24px}

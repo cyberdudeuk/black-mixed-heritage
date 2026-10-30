@@ -24947,8 +24947,8 @@
     {
       "@type": "Dataset",
       "@id": "urn:bhm26:dataset-lp-awards",
-      "name": "Recognition and representation",
-      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#culture",
+      "name": "Recognition and awards",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#awards",
       "isPartOf": "urn:bhm26:hub"
     },
     {
