@@ -1,0 +1,31 @@
+name: "Black History Month feedback"
+description: "Tell us how Black History Month 2026 went, or send a summary of your network's survey results"
+title: "[Feedback] "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: "Issues are public. Do not include names, contact details, or anything that could identify you or anyone else. Summaries must cover 10 or more responses, with any count under 5 left out."
+  - type: dropdown
+    id: kind
+    attributes:
+      label: "What are you sending?"
+      options:
+        - "My own feedback"
+        - "A summary of our network's or organisation's results"
+    validations:
+      required: true
+  - type: textarea
+    id: answers
+    attributes:
+      label: "Your answers, or your summary"
+      description: "The hub fills this in when you send from its feedback page. For a summary, give the number of responses, the period, the type of organisation and the count for each answer."
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: "Privacy"
+      options:
+        - label: "I have not included names, contact details or anything that could identify someone"
+          required: true

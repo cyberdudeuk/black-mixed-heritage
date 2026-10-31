@@ -1,800 +1,782 @@
 {
  "title": "BHM 2026 Hub: what changed",
- "version": "2.27.0",
+ "version": "2.28.0",
  "generated": "2026-10-21",
- "base": "2.26.0",
+ "base": "2.27.0",
  "added": [
   {
-   "key": "joining:jn-trwhat-start-with-the-vacancy-s-own-identifiers",
-   "heading": "Start with the vacancy's own identifiers: reference, department, grade",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trwhat-start-with-the-vacancy-s-own-identifiers"
+   "key": "yearreview:bhm26-001",
+   "heading": "Black History Month UK: Black History Month 2026",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "joining:jn-trwhat-save-the-advert-and-the-exact-version-yo",
-   "heading": "Save the advert and the exact version you submitted",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trwhat-save-the-advert-and-the-exact-version-yo"
+   "key": "yearreview:bhm26-002",
+   "heading": "Black History Month UK (article by Cherron Inko-Tariah MBE): Black History Month 2026: Honouring Our Communities",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "joining:jn-trwhat-note-which-success-profiles-elements-eac",
-   "heading": "Note which Success Profiles elements each stage assesses",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trwhat-note-which-success-profiles-elements-eac"
+   "key": "yearreview:bhm26-003",
+   "heading": "Black History Month UK: Honouring Black Britain 2026",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "joining:jn-trwhat-log-every-stage-its-date-and-its-result",
-   "heading": "Log every stage, its date and its result",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trwhat-log-every-stage-its-date-and-its-result"
+   "key": "yearreview:bhm26-004",
+   "heading": "Black History Month UK: Community Nominations – Black History Month UK 2026",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "joining:jn-trwhat-if-you-are-put-on-a-reserve-list-record-",
-   "heading": "If you are put on a reserve list, record the date and when it ends",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trwhat-if-you-are-put-on-a-reserve-list-record-"
+   "key": "yearreview:bhm26-005",
+   "heading": "Black History Month UK: Advertising & Partnerships",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "joining:jn-trwhat-track-the-offer-each-pre-employment-chec",
-   "heading": "Track the offer, each pre-employment check and the start date",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trwhat-track-the-offer-each-pre-employment-chec"
+   "key": "yearreview:bhm26-006",
+   "heading": "Black History Month UK (article by Ian Thomas): Tapestry of Black Britons to Tour UK in 2026, Expanding National Storytelling Project",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "joining:jn-trtools-use-the-applications-page-in-your-civil-",
-   "heading": "Use the Applications page in your Civil Service Jobs account",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trtools-use-the-applications-page-in-your-civil-"
+   "key": "yearreview:bhm26-007",
+   "heading": "Black History Month UK (listing): Scrap It, Revamp It: 100 Years of Black History Commemorations (1926–2026)",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "joining:jn-trtools-keep-your-own-record-for-anything-applie",
-   "heading": "Keep your own record for anything applied for elsewhere",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trtools-keep-your-own-record-for-anything-applie"
+   "key": "yearreview:bhm26-008",
+   "heading": "UK Mission to the WTO, UN and other international organisations (Geneva), GOV.UK: UN Human Rights Council 63: UK Statement for the Item 9 General Debate",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "joining:jn-trtools-let-job-alerts-bring-vacancies-to-you-an",
-   "heading": "Let job alerts bring vacancies to you, and pause them when needed",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trtools-let-job-alerts-bring-vacancies-to-you-an"
+   "key": "yearreview:bhm26-009",
+   "heading": "Cabinet Office, GOV.UK: Civil Service 2025/2026 External Expenditure on Equality, Diversity and Inclusion",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "joining:jn-trtools-a-spreadsheet-tracker-one-row-per-applic",
-   "heading": "A spreadsheet tracker: one row per application",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trtools-a-spreadsheet-tracker-one-row-per-applic"
+   "key": "yearreview:bhm26-010",
+   "heading": "HM Prison and Probation Service, GOV.UK: Criminal Justice Anti-Racism Action Plan for Wales Annual Report 2025 to 2026",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "joining:jn-trtools-calendar-reminders-and-a-task-list-for-t",
-   "heading": "Calendar reminders and a task list for the steps in between",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trtools-calendar-reminders-and-a-task-list-for-t"
+   "key": "yearreview:bhm26-011",
+   "heading": "HM Prison and Probation Service, GOV.UK: Criminal Justice Anti-Racism Action Plan for Wales Annual Report 2025 to 2026",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "joining:jn-trtools-one-folder-for-adverts-applications-and-",
-   "heading": "One folder for adverts, applications and letters",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trtools-one-folder-for-adverts-applications-and-"
+   "key": "yearreview:bhm26-012",
+   "heading": "Scottish Parliament: S7M-01411 Celebrating Scotland's 25th Black History Month",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "joining:jn-trdates-closing-times-often-23-55-on-the-closing",
-   "heading": "Closing times: often 23:55 on the closing date",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trdates-closing-times-often-23-55-on-the-closing"
+   "key": "yearreview:bhm26-013",
+   "heading": "Cambridge City Council: Black History Month",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "joining:jn-trdates-sift-and-interview-dates-vary-by-campaig",
-   "heading": "Sift and interview dates vary by campaign",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trdates-sift-and-interview-dates-vary-by-campaig"
+   "key": "yearreview:bhm26-014",
+   "heading": "Southwark Council: Black History Month grants",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "joining:jn-trdates-online-tests-have-their-own-completion-w",
-   "heading": "Online tests have their own completion window",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trdates-online-tests-have-their-own-completion-w"
+   "key": "yearreview:bhm26-015",
+   "heading": "Community Southwark: Southwark Council: Black History Month 2026 Funding Pre-launch Information",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "joining:jn-trdates-reserve-lists-last-up-to-12-months",
-   "heading": "Reserve lists last up to 12 months",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trdates-reserve-lists-last-up-to-12-months"
+   "key": "yearreview:bhm26-016",
+   "heading": "Lewisham Council: Black History Lewisham 365",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "joining:jn-trdates-pre-employment-checks-several-weeks-long",
-   "heading": "Pre-employment checks: several weeks, longer with vetting",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trdates-pre-employment-checks-several-weeks-long"
+   "key": "yearreview:bhm26-017",
+   "heading": "Lambeth Council: Black History Month",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "joining:jn-trdates-notice-periods-check-your-contract-befor",
-   "heading": "Notice periods: check your contract before you resign",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trdates-notice-periods-check-your-contract-befor"
+   "key": "yearreview:bhm26-018",
+   "heading": "Bristol City Council: Black History Month",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "joining:jn-trdates-complaints-about-fair-recruitment-within",
-   "heading": "Complaints about fair recruitment: within 12 months of closing",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trdates-complaints-about-fair-recruitment-within"
+   "key": "yearreview:bhm26-019",
+   "heading": "Reading Borough Council: Black History Month 2026",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "joining:jn-trfeedback-ask-for-feedback-whatever-the-outcome",
-   "heading": "Ask for feedback whatever the outcome",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trfeedback-ask-for-feedback-whatever-the-outcome"
+   "key": "yearreview:bhm26-020",
+   "heading": "Manchester Community Central (event listing): Black History Month – Greater Manchester Civic Launch",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "joining:jn-trfeedback-know-what-feedback-to-expect-at-each-sta",
-   "heading": "Know what feedback to expect at each stage",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trfeedback-know-what-feedback-to-expect-at-each-sta"
+   "key": "yearreview:bhm26-021",
+   "heading": "Novara Media (news report by Tom Midlane): Reform ‘Bans Essex Libraries From Promoting Pride and Black History Month’",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "joining:jn-trfeedback-record-feedback-against-the-scale-and-th",
-   "heading": "Record feedback against the scale and the Success Profiles element",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trfeedback-record-feedback-against-the-scale-and-th"
+   "key": "yearreview:bhm26-022",
+   "heading": "Writing on the Wall (Liverpool arts organisation): Black History Month 2026",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "joining:jn-trfeedback-build-a-bank-of-star-examples-and-reuse-",
-   "heading": "Build a bank of STAR examples and reuse the best",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trfeedback-build-a-bank-of-star-examples-and-reuse-"
+   "key": "yearreview:bhm26-023",
+   "heading": "University of East London: Black History Month 2026: Honouring Our Communities",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "joining:jn-trfeedback-treat-setbacks-as-information-and-set-sm",
-   "heading": "Treat setbacks as information, and set small goals",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trfeedback-treat-setbacks-as-information-and-set-sm"
+   "key": "yearreview:bhm26-024",
+   "heading": "Imperial College London: Black History Month 2026: Honouring our Communities",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "joining:jn-trfeedback-look-after-your-wellbeing-during-a-long-",
-   "heading": "Look after your wellbeing during a long search",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trfeedback-look-after-your-wellbeing-during-a-long-"
+   "key": "yearreview:bhm26-025",
+   "heading": "University of York: Black History Month 2026",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "joining:jn-trfeedback-you-do-not-have-to-do-it-alone",
-   "heading": "You do not have to do it alone",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trfeedback-you-do-not-have-to-do-it-alone"
+   "key": "yearreview:bhm26-026",
+   "heading": "University of Exeter: Black History Month 2026",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdrecruit-equality-law-protects-applicants-not-onl",
-   "heading": "Equality law protects applicants, not only employees",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdrecruit-equality-law-protects-applicants-not-onl"
+   "key": "yearreview:bhm26-027",
+   "heading": "Queen Mary University of London: Black History Month events programme 2026",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdrecruit-ask-the-recruiting-department-first-usin",
-   "heading": "Ask the recruiting department first, using the steps in the advert",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdrecruit-ask-the-recruiting-department-first-usin"
+   "key": "yearreview:bhm26-028",
+   "heading": "University of Warwick, School of Law: Law School Black History Month Lecture 2026",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdrecruit-the-civil-service-commission-who-can-com",
-   "heading": "The Civil Service Commission: who can complain and when",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdrecruit-the-civil-service-commission-who-can-com"
+   "key": "yearreview:bhm26-029",
+   "heading": "University of Chester: Black History Month 2026: Black Britain, Blue Britain",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdrecruit-what-the-commission-cannot-look-at",
-   "heading": "What the Commission cannot look at",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdrecruit-what-the-commission-cannot-look-at"
+   "key": "yearreview:bhm26-030",
+   "heading": "University of Westminster: Black History Year",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdrecruit-most-complaints-to-the-commission-are-ou",
-   "heading": "Most complaints to the Commission are out of scope",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdrecruit-most-complaints-to-the-commission-are-ou"
+   "key": "yearreview:bhm26-031",
+   "heading": "REACH Staff Network, University Hospitals Birmingham NHS Foundation Trust: Special Extended REACH Staff Network meeting celebrating Black History Month",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdrecruit-if-a-reasonable-adjustment-is-refused",
-   "heading": "If a reasonable adjustment is refused",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdrecruit-if-a-reasonable-adjustment-is-refused"
+   "key": "yearreview:bhm26-032",
+   "heading": "Royal College of Nursing, Eastern region: RCN Eastern Black History Month - Honouring Our Communities",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdrecruit-northern-ireland-a-separate-civil-servic",
-   "heading": "Northern Ireland: a separate Civil Service and separate laws",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdrecruit-northern-ireland-a-separate-civil-servic"
+   "key": "yearreview:bhm26-034",
+   "heading": "Usdaw: Black History Month",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdrecruit-scotland-and-wales-same-commission-own-c",
-   "heading": "Scotland and Wales: same Commission, own codes",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdrecruit-scotland-and-wales-same-commission-own-c"
+   "key": "yearreview:bhm26-035",
+   "heading": "Inclusive Employers: Black History Month: Exploring the theme “Honouring Our Communities”",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdwork-start-informally-where-it-is-safe-to-do-",
-   "heading": "Start informally where it is safe to do so",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdwork-start-informally-where-it-is-safe-to-do-"
+   "key": "yearreview:bhm26-036",
+   "heading": "Brixton Buzz (local news): Black Culture Market returns for a Black History Month event in Lambeth Town Hall, 10th and 11th October 2026",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdwork-use-the-department-s-grievance-and-anti-",
-   "heading": "Use the department's grievance and anti-bullying procedures",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdwork-use-the-department-s-grievance-and-anti-"
+   "key": "yearreview:bhm26-037",
+   "heading": "Diocese of Southwark: 'Honouring our Communities, Sharing our Stories': annual diocesan service of thanksgiving for Black History month",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdwork-the-acas-code-sets-the-minimum-standard",
-   "heading": "The Acas Code sets the minimum standard",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdwork-the-acas-code-sets-the-minimum-standard"
+   "key": "yearreview:bhm26-038",
+   "heading": "Black History Wales: National Launch of Black History Cymru 365",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdwork-civil-service-code-concerns-nominated-of",
-   "heading": "Civil Service Code concerns: nominated officers, then the Commission",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdwork-civil-service-code-concerns-nominated-of"
+   "key": "yearreview:bhm26-039",
+   "heading": "Equality and Diversity UK (blog, author Alyson Malach): Black History Month 2026 Community Voices Report",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdwork-whistleblowing-covers-public-interest-wr",
-   "heading": "Whistleblowing covers public-interest wrongdoing, not grievances",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdwork-whistleblowing-covers-public-interest-wr"
+   "key": "yearreview:bhm26-040",
+   "heading": "Equality and Diversity UK (blog, author Alyson Malach): Black History Month 2026 Community Voices Report",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdwork-trade-unions-can-advise-accompany-and-re",
-   "heading": "Trade unions can advise, accompany and represent",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdwork-trade-unions-can-advise-accompany-and-re"
+   "key": "yearreview:bhm26-041",
+   "heading": "West Yorkshire Police: Police Race Action Plan: May 2026 progress update",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdwork-staff-networks-and-employee-assistance",
-   "heading": "Staff networks and employee assistance",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdwork-staff-networks-and-employee-assistance"
+   "key": "yearreview:bhm26-042",
+   "heading": "Hits Radio Cumbria (news), reporting North Cumbria Integrated Care NHS Foundation Trust: Racism and discrimination concerns rise among NHS staff in Cumbria",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdwork-protection-from-victimisation-and-third-",
-   "heading": "Protection from victimisation and third-party harassment",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdwork-protection-from-victimisation-and-third-"
+   "key": "yearreview:bhm26-043",
+   "heading": "Insanity Radio (student radio news): The Music is Black: V&A East Honours British History Through Sound",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdexternal-acas-early-conciliation-comes-before-mos",
-   "heading": "Acas early conciliation comes before most tribunal claims",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdexternal-acas-early-conciliation-comes-before-mos"
+   "key": "yearreview:bhm26-044",
+   "heading": "Office for Equality and Opportunity, GOV.UK: Government launches Black History Month alongside ethnic minority leaders to further race equality",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdexternal-tribunal-time-limit-now-6-months-minus-1",
-   "heading": "Tribunal time limit: now 6 months minus 1 day in Great Britain",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdexternal-tribunal-time-limit-now-6-months-minus-1"
+   "key": "yearreview:bhm26-045",
+   "heading": "Parallel Parliament (Hansard extract), House of Commons debate: Black History Month - ministerial extracts",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdexternal-northern-ireland-labour-relations-agency",
-   "heading": "Northern Ireland: Labour Relations Agency and a 3-month limit",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdexternal-northern-ireland-labour-relations-agency"
+   "key": "yearreview:bhm26-046",
+   "heading": "Civil Service blog (post by Cat Little, Civil Service COO and Race Champion): Black History Month 2025: Standing Firm in Power and Pride",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdexternal-equality-advisory-and-support-service-ea",
-   "heading": "Equality Advisory and Support Service (EASS)",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdexternal-equality-advisory-and-support-service-ea"
+   "key": "yearreview:bhm26-047",
+   "heading": "PCS (national Black members' committee): Celebrating Black History Month: Standing firm in power and pride",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdexternal-the-equality-commissions-great-britain-a",
-   "heading": "The equality commissions: Great Britain and Northern Ireland",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdexternal-the-equality-commissions-great-britain-a"
+   "key": "yearreview:bhm26-048",
+   "heading": "NHS Employers: Supporting Black History Month 2025",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdexternal-free-legal-advice-citizens-advice-law-ce",
-   "heading": "Free legal advice: Citizens Advice, Law Centres, unions and legal aid",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdexternal-free-legal-advice-citizens-advice-law-ce"
+   "key": "yearreview:bhm26-049",
+   "heading": "The Star (republishing Reuters): London police chief vows more change after another damning report on racism",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdexternal-ombudsmen-do-not-handle-appointments-or-",
-   "heading": "Ombudsmen do not handle appointments or personnel matters",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdexternal-ombudsmen-do-not-handle-appointments-or-"
+   "key": "yearreview:bhm26-050",
+   "heading": "London Fire Brigade: London Fire Brigade celebrates Black History Month by honouring inspirational staff",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdexternal-asking-questions-no-statutory-form-in-gr",
-   "heading": "Asking questions: no statutory form in Great Britain since 2014",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdexternal-asking-questions-no-statutory-form-in-gr"
+   "key": "yearreview:bhm26-051",
+   "heading": "Buckinghamshire Fire & Rescue Service: Celebrating Black History Month",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdevidence-keep-a-dated-record-from-the-start",
-   "heading": "Keep a dated record from the start",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdevidence-keep-a-dated-record-from-the-start"
+   "key": "yearreview:bhm26-052",
+   "heading": "British Educational Research Association (BERA Blog, Prof. Denise Miller): Black History Month: Moving beyond tokenism",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdevidence-keep-the-recruitment-paper-trail",
-   "heading": "Keep the recruitment paper trail",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdevidence-keep-the-recruitment-paper-trail"
+   "key": "yearreview:bhm26-053",
+   "heading": "British Educational Research Association (BERA Blog, Prof. Denise Miller): Black History Month: Moving beyond tokenism",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdevidence-ask-for-your-own-data-with-a-subject-acc",
-   "heading": "Ask for your own data with a subject access request",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdevidence-ask-for-your-own-data-with-a-subject-acc"
+   "key": "yearreview:bhm26-054",
+   "heading": "The Guardian (opinion, Nesrine Malik), read via inkl: Black History Month is a reflection of the political moment - so how do we revamp it? (title from URL slug)",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdevidence-how-to-word-a-complaint",
-   "heading": "How to word a complaint",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdevidence-how-to-word-a-complaint"
+   "key": "yearreview:bhm26-055",
+   "heading": "Big Issue (opinion, Dahaba Ali Hussen): Black History Month is even more important in frightening times of racist violence",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdevidence-name-people-in-the-complaint-use-roles-i",
-   "heading": "Name people in the complaint, use roles in public",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdevidence-name-people-in-the-complaint-use-roles-i"
+   "key": "yearreview:bhm26-056",
+   "heading": "Fortune (republishing Bloomberg): City of London given up on inclusion, Black workers say (title from URL slug)",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdevidence-do-not-let-internal-steps-run-down-the-c",
-   "heading": "Do not let internal steps run down the clock",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdevidence-do-not-let-internal-steps-run-down-the-c"
+   "key": "yearreview:bhm26-057",
+   "heading": "The Black Curriculum: The Black Curriculum Response to the Curriculum and Assessment Review (November 2025)",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "fairtreat:ft-rdevidence-look-after-your-wellbeing-during-a-compl",
-   "heading": "Look after your wellbeing during a complaint",
-   "page": "fairtreat",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdevidence-look-after-your-wellbeing-during-a-compl"
+   "key": "yearreview:bhm26-058",
+   "heading": "Historical Association: Curriculum and Assessment Review Final Report – response",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "leadtargets:tg-tgcs-ethnic-minority-civil-servants-at-a-reco",
-   "heading": "Ethnic minority civil servants at a record 19.2%, SCS level at 10.6%",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgcs-ethnic-minority-civil-servants-at-a-reco"
+   "key": "yearreview:bhm26-059",
+   "heading": "GMB Race Network: Black History Month pack",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "leadtargets:tg-tgcs-no-current-civil-service-wide-scs-ethnic",
-   "heading": "No current Civil Service-wide SCS ethnicity target",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgcs-no-current-civil-service-wide-scs-ethnic"
+   "key": "yearreview:bhm26-060",
+   "heading": "NHS Cheshire and Merseyside: Why should we celebrate Black History Month?",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "leadtargets:tg-tgcs-places-for-growth-2030-half-of-uk-based-",
-   "heading": "Places for Growth 2030: half of UK-based SCS outside London",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgcs-places-for-growth-2030-half-of-uk-based-"
+   "key": "yearreview:bhm26-061",
+   "heading": "Ipsos UK: New Ipsos research for Black History Month shows appetite for education on Black British History",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "leadtargets:tg-tgcs-civil-service-ethnicity-pay-gaps-2026-bl",
-   "heading": "Civil Service ethnicity pay gaps 2026: Black and Mixed groups",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgcs-civil-service-ethnicity-pay-gaps-2026-bl"
+   "key": "yearreview:bhm26-062",
+   "heading": "Nation.Cymru (opinion, Leanne Wood MS): Black history is Welsh history - we can't confine it to just one month (title from URL slug)",
+   "page": "yearreview",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yr-web"
   },
   {
-   "key": "leadtargets:tg-tgcs-people-survey-discrimination-at-7-ethnic",
-   "heading": "People Survey: discrimination at 7%, ethnic background cited by 11%",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgcs-people-survey-discrimination-at-7-ethnic"
+   "key": "pathways:nsg-01",
+   "heading": "Cabinet Office: Move fast, fix things: Darren Jones sets out plan to rewire Whitehall and incentivise innovation in the civil service",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "leadtargets:tg-tgdept-dcms-equality-objectives-2025-to-2030-in",
-   "heading": "DCMS equality objectives 2025 to 2030 include a sponsorship pilot",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgdept-dcms-equality-objectives-2025-to-2030-in"
+   "key": "pathways:nsg-02",
+   "heading": "Cabinet Office: Minister launches new campus for National School of Government",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "leadtargets:tg-tgdept-departmental-pay-gap-reporting-gender-pu",
-   "heading": "Departmental pay gap reporting: gender published, ethnicity not listed",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgdept-departmental-pay-gap-reporting-gender-pu"
+   "key": "pathways:nsg-03",
+   "heading": "Cabinet Office: Minister launches new campus for National School of Government",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "leadtargets:tg-tgdept-psed-publish-information-yearly-and-obje",
-   "heading": "PSED: publish information yearly and objectives every four years",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgdept-psed-publish-information-yearly-and-obje"
+   "key": "pathways:nsg-04",
+   "heading": "National School of Government and Public Services: National School of Government and Public Services: Theory of Change",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "leadtargets:tg-tgdept-ethnicity-pay-gap-law-proposed-not-intro",
-   "heading": "Ethnicity pay gap law: proposed, not introduced at 30 October 2026",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgdept-ethnicity-pay-gap-law-proposed-not-intro"
+   "key": "pathways:nsg-05",
+   "heading": "National School of Government and Public Services: National School of Government and Public Services: Theory of Change",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "leadtargets:tg-tgdept-proposed-reporting-would-show-black-and-",
-   "heading": "Proposed reporting would show Black and Mixed groups separately",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgdept-proposed-reporting-would-show-black-and-"
+   "key": "pathways:nsg-06",
+   "heading": "National School of Government and Public Services (GOV.UK organisation page): National School of Government and Public Services",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "leadtargets:tg-tgdept-equality-action-plans-voluntary-to-30-ma",
-   "heading": "Equality action plans: voluntary to 30 March 2027, mandatory planned",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgdept-equality-action-plans-voluntary-to-30-ma"
+   "key": "pathways:nsg-07",
+   "heading": "National School of Government and Public Services: National School website home page",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "leadtargets:tg-tgwider-nhs-wres-tenth-national-report-published",
-   "heading": "NHS WRES: tenth national report published April 2026",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgwider-nhs-wres-tenth-national-report-published"
+   "key": "pathways:nsg-08",
+   "heading": "UK Parliament written answer (via Parallel Parliament mirror); answered by Anna Turley, Minister without Portfolio: Written question 109150: National School of Government and Public Services",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "leadtargets:tg-tgwider-mann-review-on-nhs-racism-progress-repor",
-   "heading": "Mann review on NHS racism: progress reports due 2026 and 2027",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgwider-mann-review-on-nhs-racism-progress-repor"
+   "key": "pathways:nsg-09",
+   "heading": "UK Parliament written answer (via Parallel Parliament mirror); answered by Baroness Anderson of Stoke-on-Trent: Written question HL14150: National School of Government and Public Services: Finance",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "leadtargets:tg-tgwider-police-race-action-plan-continues-in-a-n",
-   "heading": "Police Race Action Plan continues in a new form after 2026 review",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgwider-police-race-action-plan-continues-in-a-n"
+   "key": "pathways:nsg-10",
+   "heading": "UK Parliament written answer (via Parallel Parliament mirror); answered by Baroness Anderson of Stoke-on-Trent: Written question HL15768: National School of Government and Public Services",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "leadtargets:tg-tgwider-windrush-compensation-scheme-monthly-dat",
-   "heading": "Windrush Compensation Scheme: monthly data, no closing target",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgwider-windrush-compensation-scheme-monthly-dat"
+   "key": "pathways:nsg-11",
+   "heading": "Government Skills: How Government Skills is changing the way it delivers learning",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "leadtargets:tg-tgwider-no-standalone-uk-race-equality-strategy-",
-   "heading": "No standalone UK race equality strategy; REEG and maternity pledge",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgwider-no-standalone-uk-race-equality-strategy-"
+   "key": "pathways:nsg-12",
+   "heading": "Government Skills: About us - Government Skills",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "leadtargets:tg-tgwider-wales-aims-to-be-an-anti-racist-nation-b",
-   "heading": "Wales aims to be an anti-racist nation by 2030",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgwider-wales-aims-to-be-an-anti-racist-nation-b"
+   "key": "pathways:nsg-13",
+   "heading": "Cabinet Office: Shake-up of civil service training",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "leadtargets:tg-tgadvocate-ask-for-data-by-black-and-mixed-groups-n",
-   "heading": "Ask for data by Black and Mixed groups, not only 'ethnic minority'",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgadvocate-ask-for-data-by-black-and-mixed-groups-n"
+   "key": "pathways:nsg-14",
+   "heading": "Cabinet Office: Shake-up of civil service training",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "leadtargets:tg-tgadvocate-press-for-published-pay-gap-action-plans",
-   "heading": "Press for published pay gap action plans with targets",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgadvocate-press-for-published-pay-gap-action-plans"
+   "key": "pathways:nsg-15",
+   "heading": "Civil Service World (trade press): Civil service must 'fill the void' left by National School of Government, MPs say",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "leadtargets:tg-tgadvocate-turn-mentoring-into-sponsorship-that-cha",
-   "heading": "Turn mentoring into sponsorship that changes careers",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgadvocate-turn-mentoring-into-sponsorship-that-cha"
+   "key": "pathways:mdc-01",
+   "heading": "Government Property Agency and Cabinet Office: Manchester Digital Campus confirmed",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "leadtargets:tg-tgadvocate-ask-for-a-stated-ambition-for-progressio",
-   "heading": "Ask for a stated ambition for progression to senior grades",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgadvocate-ask-for-a-stated-ambition-for-progressio"
+   "key": "pathways:mdc-02",
+   "heading": "Government Property Agency and Cabinet Office: Manchester Digital Campus confirmed",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "leadtargets:tg-tgadvocate-use-lawful-positive-action-in-developmen",
-   "heading": "Use lawful positive action in development and recruitment",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgadvocate-use-lawful-positive-action-in-developmen"
+   "key": "pathways:mdc-03",
+   "heading": "Government Property Agency and Cabinet Office: Manchester Digital Campus confirmed",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "leadtargets:tg-tgadvocate-hold-executive-sponsors-to-account-with-",
-   "heading": "Hold executive sponsors to account with objectives and reports",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgadvocate-hold-executive-sponsors-to-account-with-"
+   "key": "pathways:mdc-04",
+   "heading": "Government Property Agency: Work underway on site of Manchester Digital Campus",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "leadtargets:tg-tgadvocate-give-networks-a-formal-advisory-voice",
-   "heading": "Give networks a formal advisory voice",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgadvocate-give-networks-a-formal-advisory-voice"
+   "key": "pathways:mdc-05",
+   "heading": "Cabinet Office: Thousands of civil service roles moved out of London in latest reform to the state",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "leadtargets:tg-tgally-executive-sponsors-own-the-race-agenda-v",
-   "heading": "Executive sponsors: own the race agenda visibly",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgally-executive-sponsors-own-the-race-agenda-v"
+   "key": "pathways:pfg-01",
+   "heading": "Cabinet Office: Thousands of civil service roles moved out of London in latest reform to the state",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "leadtargets:tg-tgally-take-part-in-reverse-mentoring-and-360-d",
-   "heading": "Take part in reverse mentoring and 360-degree feedback",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgally-take-part-in-reverse-mentoring-and-360-d"
+   "key": "pathways:pfg-02",
+   "heading": "Cabinet Office: Thousands of civil service roles moved out of London in latest reform to the state",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "leadtargets:tg-tgally-sponsor-actively-advocate-open-doors-fin",
-   "heading": "Sponsor actively: advocate, open doors, find stretch work",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgally-sponsor-actively-advocate-open-doors-fin"
+   "key": "pathways:pfg-03",
+   "heading": "Cabinet Office: Thousands of civil service roles moved out of London in latest reform to the state",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "leadtargets:tg-tgally-be-an-active-bystander-and-call-out-raci",
-   "heading": "Be an active bystander and call out racism",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgally-be-an-active-bystander-and-call-out-raci"
+   "key": "pathways:pfg-04",
+   "heading": "Cabinet Office: Thousands of civil service roles moved out of London in latest reform to the state",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "leadtargets:tg-tgally-lead-by-example-on-zero-tolerance-of-har",
-   "heading": "Lead by example on zero tolerance of harassment",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgally-lead-by-example-on-zero-tolerance-of-har"
+   "key": "pathways:pfg-05",
+   "heading": "Cabinet Office: Places for Growth relocations data 2020-2023",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "leadtargets:tg-tgally-learn-continuously-and-accept-you-will-m",
-   "heading": "Learn continuously and accept you will make mistakes",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgally-learn-continuously-and-accept-you-will-m"
+   "key": "pathways:pfg-06",
+   "heading": "Cabinet Office, MHCLG and DfT: West Midlands to become government centre for transport and infrastructure with new campus",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "leadtargets:tg-tgally-put-allyship-into-objectives-and-apprais",
-   "heading": "Put allyship into objectives and appraisal",
-   "page": "leaders",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgally-put-allyship-into-objectives-and-apprais"
+   "key": "pathways:pfg-07",
+   "heading": "Government Property Agency with HM Treasury: Chancellor marks beginning of construction at new government hub",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-pavoice-uk-youth-parliament-elected-members-aged",
-   "heading": "UK Youth Parliament: elected members aged 11 to 18",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-pavoice-uk-youth-parliament-elected-members-aged"
+   "key": "pathways:pfg-08",
+   "heading": "Cabinet Office: Sheffield to be centre for policy jobs under Whitehall shake-up",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-pavoice-make-your-mark-and-the-house-of-commons-",
-   "heading": "Make Your Mark and the House of Commons sitting",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-pavoice-make-your-mark-and-the-house-of-commons-"
+   "key": "pathways:pfg-09",
+   "heading": "Cabinet Office: Minister launches new campus for National School of Government",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-pavoice-scottish-youth-parliament-vote-at-12-to-",
-   "heading": "Scottish Youth Parliament: vote at 12 to 25, stand at 14 to 25",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-pavoice-scottish-youth-parliament-vote-at-12-to-"
+   "key": "pathways:ddat-01",
+   "heading": "Government Digital Service (service.gov.uk): Government Digital and Data Profession Capability Framework",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-pavoice-welsh-youth-parliament-senedd-ieuenctid-",
-   "heading": "Welsh Youth Parliament (Senedd Ieuenctid): 60 members",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-pavoice-welsh-youth-parliament-senedd-ieuenctid-"
+   "key": "pathways:ddat-02",
+   "heading": "Government Digital Service (service.gov.uk): Government Digital and Data Profession Capability Framework",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-pavoice-northern-ireland-youth-assembly-90-membe",
-   "heading": "Northern Ireland Youth Assembly: 90 members chosen at random",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-pavoice-northern-ireland-youth-assembly-90-membe"
+   "key": "pathways:ddat-03",
+   "heading": "A Modern Civil Service (GOV.UK campaign): One Big Thing",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-pavoice-children-s-commissioners-young-advisers",
-   "heading": "Children's Commissioners' young advisers",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-pavoice-children-s-commissioners-young-advisers"
+   "key": "pathways:ddat-04",
+   "heading": "Government Reform, A Modern Civil Service blog (Cabinet Office): One Big Thing: AI for All is live",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-pavoice-local-youth-councils-and-young-mayors",
-   "heading": "Local youth councils and young mayors",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-pavoice-local-youth-councils-and-young-mayors"
+   "key": "pathways:ddat-05",
+   "heading": "Government Skills: Digital, data, innovation and artificial intelligence learning",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-pavoice-school-and-college-councils",
-   "heading": "School and college councils",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-pavoice-school-and-college-councils"
+   "key": "pathways:ddat-06",
+   "heading": "Government Digital Service: Government Digital and Data essentials for senior civil servants",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-padem-voting-age-now-16-in-scotland-and-wales-",
-   "heading": "Voting age now: 16 in Scotland and Wales, 18 elsewhere",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-padem-voting-age-now-16-in-scotland-and-wales-"
+   "key": "pathways:ddat-07",
+   "heading": "Civil Service Careers: TechTrack",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-padem-votes-at-16-for-all-uk-elections-a-bill-",
-   "heading": "Votes at 16 for all UK elections: a Bill, not yet law",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-padem-votes-at-16-for-all-uk-elections-a-bill-"
+   "key": "pathways:ddat-08",
+   "heading": "Civil Service Careers: Working in digital, data and technology",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-padem-register-to-vote-about-five-minutes-onli",
-   "heading": "Register to vote: about five minutes online",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-padem-register-to-vote-about-five-minutes-onli"
+   "key": "pathways:ddat-09",
+   "heading": "Civil Service Careers: Digital and Data Fast Stream scheme",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-padem-petitions-thresholds-differ-by-parliamen",
-   "heading": "Petitions: thresholds differ by parliament",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-padem-petitions-thresholds-differ-by-parliamen"
+   "key": "pathways:ddat-10",
+   "heading": "Government Skills / Government Campus: Government Campus",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-padem-give-evidence-to-committees-and-answer-c",
-   "heading": "Give evidence to committees and answer consultations",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-padem-give-evidence-to-committees-and-answer-c"
+   "key": "pathways:ddat-11",
+   "heading": "Government Skills (via Government Campus): New learning tools launched",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-padem-free-education-services-and-visits-at-ea",
-   "heading": "Free education services and visits at each parliament",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-padem-free-education-services-and-visits-at-ea"
+   "key": "pathways:ddat-12",
+   "heading": "UK Government Security (security.gov.uk), Government Cyber Unit: Government Cyber Security Academy",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-paservice-magistrate-from-18-at-least-13-days-a-ye",
-   "heading": "Magistrate: from 18, at least 13 days a year",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paservice-magistrate-from-18-at-least-13-days-a-ye"
+   "key": "pathways:ddat-13",
+   "heading": "UK Government Security (security.gov.uk): Government Security Profession Career Framework",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-paservice-special-constable-volunteer-police-offic",
-   "heading": "Special constable: volunteer police officer from 18",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paservice-special-constable-volunteer-police-offic"
+   "key": "pathways:ddat-14",
+   "heading": "Cabinet Office: Government Cyber Security Strategy: 2022 to 2030",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-paservice-volunteer-police-cadets-a-uniformed-yout",
-   "heading": "Volunteer Police Cadets: a uniformed youth group",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paservice-volunteer-police-cadets-a-uniformed-yout"
+   "key": "pathways:ddat-15",
+   "heading": "Government Analysis Function (ONS): Government Analysis Function home page",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-paservice-nhs-youth-voice-and-patient-involvement",
-   "heading": "NHS youth voice and patient involvement",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paservice-nhs-youth-voice-and-patient-involvement"
+   "key": "pathways:ddat-16",
+   "heading": "Government Analysis Function (ONS): Get Tech Certified with GDS",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-paservice-school-or-academy-governor-from-18",
-   "heading": "School or academy governor: from 18",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paservice-school-or-academy-governor-from-18"
+   "key": "pathways:ddat-17",
+   "heading": "UKAuthority (trade press): GDS Academy set to close this month",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-paservice-independent-custody-visitors-and-monitor",
-   "heading": "Independent custody visitors and monitoring boards",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paservice-independent-custody-visitors-and-monitor"
+   "key": "pathways:ddat-18",
+   "heading": "Government Property Agency and Cabinet Office: Manchester Digital Campus confirmed",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-paservice-jury-service-a-civic-duty-from-18",
-   "heading": "Jury service: a civic duty from 18",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paservice-jury-service-a-civic-duty-from-18"
+   "key": "pathways:ddat-19",
+   "heading": "Cabinet Office: Civil Service Statistics 2026: statistical bulletin",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-paservice-public-appointments-to-boards-of-public-",
-   "heading": "Public appointments to boards of public bodies",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paservice-public-appointments-to-boards-of-public-"
+   "key": "pathways:inc-01",
+   "heading": "Cabinet Office: Civil Service Statistics 2026: statistical bulletin",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-paeducation-civil-service-routes-from-age-16",
-   "heading": "Civil Service routes from age 16",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paeducation-civil-service-routes-from-age-16"
+   "key": "pathways:inc-02",
+   "heading": "Cabinet Office: Civil Service Statistics 2026: statistical bulletin",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-paeducation-summer-internship-programme-apply-by-5-n",
-   "heading": "Summer Internship Programme: apply by 5 November 2026",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paeducation-summer-internship-programme-apply-by-5-n"
+   "key": "pathways:inc-03",
+   "heading": "Cabinet Office (Ethnicity facts and figures): Civil Service workforce",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-paeducation-care-leavers-internship-scheme-18-months",
-   "heading": "Care Leavers Internship Scheme: 18 months, ages 18 to 30",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paeducation-care-leavers-internship-scheme-18-months"
+   "key": "pathways:inc-04",
+   "heading": "BCS, The Chartered Institute for IT: BCS diversity report 2024: ethnicity - key findings",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-paeducation-youth-select-committee-12-members-of-the",
-   "heading": "Youth Select Committee: 12 members of the Youth Parliament",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paeducation-youth-select-committee-12-members-of-the"
+   "key": "pathways:inc-05",
+   "heading": "Civil Service Commission and Cabinet Office (GFiE blog): All about Going Forward into Employment",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-paeducation-dofe-debating-and-model-un-through-schoo",
-   "heading": "DofE, debating and Model UN through school",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paeducation-dofe-debating-and-model-un-through-schoo"
+   "key": "pathways:inc-06",
+   "heading": "Civil Service World (trade press): Civil service internship scheme now targets only 'working class' applicants",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-paeducation-cadet-forces-over-137-000-young-people",
-   "heading": "Cadet forces: over 137,000 young people",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paeducation-cadet-forces-over-137-000-young-people"
+   "key": "pathways:prof-01",
+   "heading": "Cabinet Office with Government Skills: Government professions",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-paeducation-national-citizen-service-has-closed",
-   "heading": "National Citizen Service has closed",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paeducation-national-citizen-service-has-closed"
+   "key": "pathways:prof-02",
+   "heading": "A Modern Civil Service (GOV.UK campaign): Learn more about government professions",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-paeducation-iwill-and-youth-social-action",
-   "heading": "#iWill and youth social action",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paeducation-iwill-and-youth-social-action"
+   "key": "pathways:prof-03",
+   "heading": "Cabinet Office: Functional standards (collection)",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-paholiday-holiday-activities-and-food-programme-en",
-   "heading": "Holiday Activities and Food programme (England)",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paholiday-holiday-activities-and-food-programme-en"
+   "key": "pathways:prof-04",
+   "heading": "Government Skills: The new curriculum and campus for government skills",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-paholiday-council-and-community-holiday-schemes",
-   "heading": "Council and community holiday schemes",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paholiday-council-and-community-holiday-schemes"
+   "key": "pathways:prof-05",
+   "heading": "Government Skills / Government Campus: Government Campus",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-paholiday-museums-archives-and-heritage-takeover-d",
-   "heading": "Museums, archives and heritage: Takeover Day",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paholiday-museums-archives-and-heritage-takeover-d"
+   "key": "pathways:prof-06",
+   "heading": "Leadership College for Government: About - Leadership College for Government",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-paholiday-gap-year-paid-placements-and-apprentices",
-   "heading": "Gap year: paid placements and apprenticeships",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paholiday-gap-year-paid-placements-and-apprentices"
+   "key": "pathways:prof-07",
+   "heading": "Cabinet Office and Government Skills and Curriculum Unit: Civil Service Leadership Academy (collection, withdrawn)",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-paholiday-summer-placements-in-government",
-   "heading": "Summer placements in government",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paholiday-summer-placements-in-government"
+   "key": "pathways:prof-08",
+   "heading": "Policy Profession: Policy profession standards: annex",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-paholiday-volunteering-in-the-holidays-and-gap-yea",
-   "heading": "Volunteering in the holidays and gap years",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paholiday-volunteering-in-the-holidays-and-gap-yea"
+   "key": "pathways:prof-09",
+   "heading": "National School of Government and Public Services: National School website home page",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-paholiday-working-in-the-holidays-if-you-are-under",
-   "heading": "Working in the holidays if you are under 16",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paholiday-working-in-the-holidays-if-you-are-under"
+   "key": "pathways:prof-10",
+   "heading": "Government Analysis Function (ONS): Government Analysis Function home page",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-paholiday-safeguarding-for-under-18s",
-   "heading": "Safeguarding for under-18s",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paholiday-safeguarding-for-under-18s"
+   "key": "pathways:prof-11",
+   "heading": "UK Government Security (security.gov.uk): Government Security Profession Career Framework",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-parepresent-uk-youth-parliament-black-members-in-lin",
-   "heading": "UK Youth Parliament: Black members in line with population",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-parepresent-uk-youth-parliament-black-members-in-lin"
+   "key": "pathways:prof-12",
+   "heading": "Civil Service (School of Design site): School of Design",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-parepresent-magistrates-5-black-2-mixed-in-2026",
-   "heading": "Magistrates: 5% Black, 2% Mixed in 2026",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-parepresent-magistrates-5-black-2-mixed-in-2026"
+   "key": "pathways:prof-13",
+   "heading": "NHS Leadership Academy: NHS Leadership Academy home page",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   },
   {
-   "key": "participate:yp-parepresent-public-appointments-13-from-ethnic-minor",
-   "heading": "Public appointments: 13% from ethnic minorities",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-parepresent-public-appointments-13-from-ethnic-minor"
-  },
-  {
-   "key": "participate:yp-parepresent-civic-engagement-black-adults-at-the-eng",
-   "heading": "Civic engagement: Black adults at the England average",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-parepresent-civic-engagement-black-adults-at-the-eng"
-  },
-  {
-   "key": "participate:yp-parepresent-voter-registration-gaps-for-black-and-mi",
-   "heading": "Voter registration gaps for Black and Mixed-heritage people",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-parepresent-voter-registration-gaps-for-black-and-mi"
-  },
-  {
-   "key": "participate:yp-parepresent-council-candidates-in-wales-about-1-blac",
-   "heading": "Council candidates in Wales: about 1% Black, 1% Mixed",
-   "page": "participate",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-parepresent-council-candidates-in-wales-about-1-blac"
+   "key": "pathways:prof-14",
+   "heading": "Local Government Association: Leadership Essentials",
+   "page": "pathways",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   }
  ],
  "changed": [],

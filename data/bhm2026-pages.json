@@ -1,6 +1,6 @@
 {
   "title": "BHM 2026 Hub pages",
-  "version": "2.27.0",
+  "version": "2.28.0",
   "generated": "2026-10-21",
   "pages": [
     {
@@ -20,6 +20,12 @@
       "title": "Calendar",
       "menu": "This month",
       "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#calendar"
+    },
+    {
+      "id": "yearreview",
+      "title": "Year in review and feedback",
+      "menu": "This month",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yearreview"
     },
     {
       "id": "toolkit",
@@ -122,6 +128,12 @@
       "title": "Careers and development",
       "menu": "Careers",
       "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#careers"
+    },
+    {
+      "id": "pathways",
+      "title": "Learning pathways",
+      "menu": "Careers",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pathways"
     },
     {
       "id": "talent",
