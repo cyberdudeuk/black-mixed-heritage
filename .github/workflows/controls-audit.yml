@@ -1,0 +1,39 @@
+# Controls audit: checks that the rules GitHub actually enforces on main and on release tags match the rulesets
+# recorded in .github/rulesets/. Drift (a rule removed, a required check dropped, a bypass added) opens or updates
+# one issue labelled "controls-drift"; when the rules match again it closes it. Repository settings cannot be
+# changed by workflows or by Claude, so this only reports.
+name: Controls audit
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Compare enforced rules with .github/rulesets
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          gh api "repos/$REPO/rules/branches/main" > enforced-main.json
+          gh api "repos/$REPO/rulesets" --jq '.[].id' | while read -r id; do gh api "repos/$REPO/rulesets/$id"; done | jq -s . > rulesets.json
+          python3 scripts/controls_audit.py enforced-main.json rulesets.json .github/rulesets > audit.md || drift=1
+          cat audit.md
+          num=$(gh issue list --repo "$REPO" --label controls-drift --state open --json number --jq '.[0].number // empty')
+          if [ "${drift:-0}" = 1 ]; then
+            if [ -n "$num" ]; then gh issue comment "$num" --repo "$REPO" --body-file audit.md
+            else gh issue create --repo "$REPO" --title "Repository controls do not match .github/rulesets" --label controls-drift --body-file audit.md; fi
+            exit 1
+          elif [ -n "$num" ]; then
+            gh issue close "$num" --repo "$REPO" --comment "The enforced rules match .github/rulesets again."
+          fi
