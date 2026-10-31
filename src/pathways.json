@@ -1,0 +1,626 @@
+{
+ "nsg": [
+  {
+   "id": "nsg-01",
+   "publisher": "Cabinet Office",
+   "title": "Move fast, fix things: Darren Jones sets out plan to rewire Whitehall and incentivise innovation in the civil service",
+   "url": "https://gov.uk/government/news/move-fast-fix-things-darren-jones-sets-out-plan-to-rewire-whitehall-and-incentivise-innovation-in-the-civil-service",
+   "date": "21 January 2026 (speech 20 January 2026)",
+   "quote": "properly skilled for a more digital approach to government",
+   "point": "Announcement of the National School of Government and Public Services by Chief Secretary to the Prime Minister Darren Jones; in-house training aligned to priorities such as AI."
+  },
+  {
+   "id": "nsg-02",
+   "publisher": "Cabinet Office",
+   "title": "Minister launches new campus for National School of Government",
+   "url": "https://www.gov.uk/government/news/minister-launches-new-campus-for-national-school-of-government",
+   "date": "27 October 2026",
+   "quote": "Training will also be offered in AI, covering the full range of skills needed now and in the future",
+   "point": "Opened by Cabinet Office Minister Mark Ferguson; regional hubs planned, first opened in York; curriculum covers devolution, national security, leadership, innovation and AI; partnered with One Big Thing."
+  },
+  {
+   "id": "nsg-03",
+   "publisher": "Cabinet Office",
+   "title": "Minister launches new campus for National School of Government",
+   "url": "https://www.gov.uk/government/news/minister-launches-new-campus-for-national-school-of-government",
+   "date": "27 October 2026",
+   "quote": "Regional hubs will be developed across the country, with the first opened in York this week",
+   "point": "Delivery model: regional hubs plus digital access routes."
+  },
+  {
+   "id": "nsg-04",
+   "publisher": "National School of Government and Public Services",
+   "title": "National School of Government and Public Services: Theory of Change",
+   "url": "https://www.gov.uk/government/publications/national-school-of-government-and-public-services-theory-of-change/national-school-of-government-and-public-services-theory-of-change-html",
+   "date": "26 October 2026",
+   "quote": "L&D in universal skills including leadership and management, digital and AI and working in government",
+   "point": "Published theory of change: universal skills, targeted curriculum on priority skills incl. digital, data, innovation and AI; flagship national venue plus regional venues and a digital platform. No milestones given."
+  },
+  {
+   "id": "nsg-05",
+   "publisher": "National School of Government and Public Services",
+   "title": "National School of Government and Public Services: Theory of Change",
+   "url": "https://www.gov.uk/government/publications/national-school-of-government-and-public-services-theory-of-change/national-school-of-government-and-public-services-theory-of-change-html",
+   "date": "26 October 2026",
+   "quote": "A flagship national venue for in-person learning and network of regional venues across the UK",
+   "point": "Venue model that a Places for Growth / Manchester proposal could align to."
+  },
+  {
+   "id": "nsg-06",
+   "publisher": "National School of Government and Public Services (GOV.UK organisation page)",
+   "title": "National School of Government and Public Services",
+   "url": "https://www.gov.uk/government/organisations/national-school-of-government-and-public-services",
+   "date": "undated, read 31 October 2026",
+   "quote": "The National School of Government and Public Services is part of the Cabinet Office.",
+   "point": "Governance: part of the Cabinet Office; no named leaders on the page; also publishes an evaluation strategy and evidence-based L&D guidance (26 October 2026)."
+  },
+  {
+   "id": "nsg-07",
+   "publisher": "National School of Government and Public Services",
+   "title": "National School website home page",
+   "url": "https://nationalschool.gov.uk/",
+   "date": "undated, read 31 October 2026",
+   "quote": "provides world-class learning and development for everyone across the Civil Service and for public sector leaders",
+   "point": "Offer areas: Universal Skills (incl. One Big Thing 'AI in Action'), Specialist Skills, Talent Programmes (Fast Stream, early talent), Public Sector Leadership; residential campus at The Hawkhills, Yorkshire; access via Civil Service Learning log-in. 'Established in autumn 2026'."
+  },
+  {
+   "id": "nsg-08",
+   "publisher": "UK Parliament written answer (via Parallel Parliament mirror); answered by Anna Turley, Minister without Portfolio",
+   "title": "Written question 109150: National School of Government and Public Services",
+   "url": "https://parallelparliament.co.uk/question/109150/national-school-of-government-and-public-service",
+   "date": "answered 3 February 2026",
+   "quote": "The National School of Government and Public Services will be part of the Cabinet Office.",
+   "point": "Governance confirmed in Parliament; budget set through normal Cabinet Office processes."
+  },
+  {
+   "id": "nsg-09",
+   "publisher": "UK Parliament written answer (via Parallel Parliament mirror); answered by Baroness Anderson of Stoke-on-Trent",
+   "title": "Written question HL14150: National School of Government and Public Services: Finance",
+   "url": "https://parallelparliament.co.uk/question/HL14150/national-school-of-government-and-public-service",
+   "date": "answered 13 February 2026",
+   "quote": "efficiency savings of between £4m-£15m across the spending review period 2026-29",
+   "point": "Expected efficiency savings; budget not specified."
+  },
+  {
+   "id": "nsg-10",
+   "publisher": "UK Parliament written answer (via Parallel Parliament mirror); answered by Baroness Anderson of Stoke-on-Trent",
+   "title": "Written question HL15768: National School of Government and Public Services",
+   "url": "https://parallelparliament.co.uk/question/HL15768/national-school-of-government-and-public-service",
+   "date": "answered 31 March 2026",
+   "quote": "is scheduled to be launched later this year",
+   "point": "Launch timing as stated in March 2026; superseded by October 2026 launch."
+  },
+  {
+   "id": "nsg-11",
+   "publisher": "Government Skills",
+   "title": "How Government Skills is changing the way it delivers learning",
+   "url": "https://www.gov.uk/guidance/how-government-skills-is-changing-the-way-it-delivers-learning",
+   "date": "19 May 2026",
+   "quote": "the start of a journey of improvement that will see more and better learning - much of it free",
+   "point": "Pre-launch Government Skills changes; free courses including digital, data, innovation and AI (A to Z of free courses); from April 2026 a number of leadership and management courses free to book for civil servants in many departments."
+  },
+  {
+   "id": "nsg-12",
+   "publisher": "Government Skills",
+   "title": "About us - Government Skills",
+   "url": "https://www.gov.uk/government/organisations/government-skills/about",
+   "date": "first published 9 July 2024; updated 17 July 2026",
+   "quote": "the skills, knowledge and networks they need",
+   "point": "Government Skills (the central L&D unit) references the National School plans: in-house training, streamlined curriculum, senior leadership investment."
+  },
+  {
+   "id": "nsg-13",
+   "publisher": "Cabinet Office",
+   "title": "Shake-up of civil service training",
+   "url": "https://www.gov.uk/government/news/shake-up-of-civil-service-training",
+   "date": "1 March 2012",
+   "quote": "As part of these reforms, the National School of Government will close on 31 March 2012.",
+   "point": "The former National School of Government closed 31 March 2012, replaced by Civil Service Learning (Francis Maude, Minister for the Cabinet Office)."
+  },
+  {
+   "id": "nsg-14",
+   "publisher": "Cabinet Office",
+   "title": "Shake-up of civil service training",
+   "url": "https://www.gov.uk/government/news/shake-up-of-civil-service-training",
+   "date": "1 March 2012",
+   "quote": "The new Civil Service Learning will focus on work-based approaches, including e-learning",
+   "point": "The 2012 release replaced the National School of Government with Civil Service Learning (work-based approaches incl. e-learning). Later lineage (Government Campus/Government Skills, then the 2026 National School of Government and Public Services) is compiled from other sources, not this page."
+  },
+  {
+   "id": "nsg-15",
+   "publisher": "Civil Service World (trade press)",
+   "title": "Civil service must 'fill the void' left by National School of Government, MPs say",
+   "url": "https://www.civilserviceworld.com/articles/news/civil-service-must-fill-void-left-national-school-government-mps-say",
+   "date": "22 July 2019",
+   "quote": "the government must set up a dedicated institution with a physical presence that is able to offer residential courses",
+   "point": "PACAC 2019 recommendation that preceded the 2026 school; describes the 2012 closure as premature."
+  }
+ ],
+ "mdc": [
+  {
+   "id": "mdc-01",
+   "publisher": "Government Property Agency and Cabinet Office",
+   "title": "Manchester Digital Campus confirmed",
+   "url": "https://www.gov.uk/government/news/manchester-digital-campus-confirmed",
+   "date": "19 March 2026",
+   "quote": "Built on brownfield land in central Manchester, the Campus will bring together approximately 8,800 people",
+   "point": "Treasury approved outline business case; Ancoats site; multi-department, digital focus."
+  },
+  {
+   "id": "mdc-02",
+   "publisher": "Government Property Agency and Cabinet Office",
+   "title": "Manchester Digital Campus confirmed",
+   "url": "https://www.gov.uk/government/news/manchester-digital-campus-confirmed",
+   "date": "19 March 2026",
+   "quote": "Once operational - targeted for 2032 - MDC will provide approximately 900,000 square feet",
+   "point": "Size and target opening date; enabling works 2026/27."
+  },
+  {
+   "id": "mdc-03",
+   "publisher": "Government Property Agency and Cabinet Office",
+   "title": "Manchester Digital Campus confirmed",
+   "url": "https://www.gov.uk/government/news/manchester-digital-campus-confirmed",
+   "date": "19 March 2026",
+   "quote": "having one in ten civil servants in technology and digital roles by 2030",
+   "point": "Headcount ambition (currently just over 5%) tied to the campus. Page does not mention training, apprenticeships, academies or the National School."
+  },
+  {
+   "id": "mdc-04",
+   "publisher": "Government Property Agency",
+   "title": "Work underway on site of Manchester Digital Campus",
+   "url": "https://gpa.gov.uk/?p=6781",
+   "date": "23 June 2026",
+   "quote": "approximately 8,800 people from multiple government departments",
+   "point": "Contractors on site in Ancoats; main build from 2028; target opening 2032; no DDaT learning provision described."
+  },
+  {
+   "id": "mdc-05",
+   "publisher": "Cabinet Office",
+   "title": "Thousands of civil service roles moved out of London in latest reform to the state",
+   "url": "https://www.gov.uk/government/news/thousands-of-civil-service-roles-moved-out-of-london-in-latest-reform-to-the-state",
+   "date": "14 May 2025",
+   "quote": "The first two of these, the new Government Digital and AI Innovation Campus and Energy Campus, will be in Manchester and Aberdeen.",
+   "point": "Original announcement (Pat McFadden, Chancellor of the Duchy of Lancaster) of a 'Government Digital and AI Innovation Campus' in Manchester and an Energy Campus in Aberdeen."
+  }
+ ],
+ "pfg": [
+  {
+   "id": "pfg-01",
+   "publisher": "Cabinet Office",
+   "title": "Thousands of civil service roles moved out of London in latest reform to the state",
+   "url": "https://www.gov.uk/government/news/thousands-of-civil-service-roles-moved-out-of-london-in-latest-reform-to-the-state",
+   "date": "14 May 2025",
+   "quote": "roles will be created in Birmingham, Leeds, Cardiff, Glasgow, Darlington, Newcastle and Tyneside,",
+   "point": "Named locations part 1 (plus Manchester and Aberdeen campuses)."
+  },
+  {
+   "id": "pfg-02",
+   "publisher": "Cabinet Office",
+   "title": "Thousands of civil service roles moved out of London in latest reform to the state",
+   "url": "https://www.gov.uk/government/news/thousands-of-civil-service-roles-moved-out-of-london-in-latest-reform-to-the-state",
+   "date": "14 May 2025",
+   "quote": "Sheffield, Bristol, Edinburgh, Belfast and York.",
+   "point": "Named locations part 2. Total 13: Manchester, Aberdeen, Birmingham, Leeds, Cardiff, Glasgow, Darlington, Newcastle and Tyneside, Sheffield, Bristol, Edinburgh, Belfast, York."
+  },
+  {
+   "id": "pfg-03",
+   "publisher": "Cabinet Office",
+   "title": "Thousands of civil service roles moved out of London in latest reform to the state",
+   "url": "https://www.gov.uk/government/news/thousands-of-civil-service-roles-moved-out-of-london-in-latest-reform-to-the-state",
+   "date": "14 May 2025",
+   "quote": "as the number of roles in the capital is reduced by 12,000.",
+   "point": "London roles reduced by 12,000 by 2030; 50% of UK-based SCS outside London by 2030; Fast Stream 50% outside London by 2030."
+  },
+  {
+   "id": "pfg-04",
+   "publisher": "Cabinet Office",
+   "title": "Thousands of civil service roles moved out of London in latest reform to the state",
+   "url": "https://www.gov.uk/government/news/thousands-of-civil-service-roles-moved-out-of-london-in-latest-reform-to-the-state",
+   "date": "14 May 2025",
+   "quote": "A new ‘Career Launch Apprenticeship’ programme will also open for applications this Summer, starting in 2026.",
+   "point": "Level 3 Business Administrator apprenticeship in Birmingham, Manchester and London - an entry route for young people/NEET audiences."
+  },
+  {
+   "id": "pfg-05",
+   "publisher": "Cabinet Office",
+   "title": "Places for Growth relocations data 2020-2023",
+   "url": "https://www.gov.uk/government/publications/places-for-growth-relocations-data-2020-2023/places-for-growth-relocations-data-2020-2023",
+   "date": "12 December 2023",
+   "quote": "22,000 Government roles will now be relocated to places across the UK by 2027",
+   "point": "Programme baseline: 16,061 roles relocated by Q3 2023; 22,000 target brought forward to 2027."
+  },
+  {
+   "id": "pfg-06",
+   "publisher": "Cabinet Office, MHCLG and DfT",
+   "title": "West Midlands to become government centre for transport and infrastructure with new campus",
+   "url": "https://www.gov.uk/government/news/west-midlands-to-become-government-centre-for-transport-and-infrastructure-with-new-campus-to-accelerate-regional-growth-and-delivery",
+   "date": "3 February 2026",
+   "quote": "The Places for Growth programme is about bringing the civil service closer to the communities it serves",
+   "point": "West Midlands transport/infrastructure campus; release also lists Darlington Economic Campus, the Digital and AI Innovation Campus (Manchester) and the Energy Campus (Aberdeen)."
+  },
+  {
+   "id": "pfg-07",
+   "publisher": "Government Property Agency with HM Treasury",
+   "title": "Chancellor marks beginning of construction at new government hub",
+   "url": "https://www.gov.uk/government/news/chancellor-marks-beginning-of-construction-at-new-government-hub",
+   "date": "16 January 2026",
+   "quote": "The Darlington Economic Campus has brought hundreds of skilled jobs and real economic benefits to this town",
+   "point": "Darlington hub for 1,600+ civil servants from seven departments; opening Q1 2028 (quote from Chancellor Rachel Reeves)."
+  },
+  {
+   "id": "pfg-08",
+   "publisher": "Cabinet Office",
+   "title": "Sheffield to be centre for policy jobs under Whitehall shake-up",
+   "url": "https://www.gov.uk/government/news/sheffield-to-be-centre-for-policy-jobs-under-whitehall-shake-up",
+   "date": "8 June 2023",
+   "quote": "This policy campus is a commitment to the people of Sheffield that local people will have a central role",
+   "point": "Sheffield policy campus (quote from minister Alex Burghart)."
+  },
+  {
+   "id": "pfg-09",
+   "publisher": "Cabinet Office",
+   "title": "Minister launches new campus for National School of Government",
+   "url": "https://www.gov.uk/government/news/minister-launches-new-campus-for-national-school-of-government",
+   "date": "27 October 2026",
+   "quote": "Regional hubs will be developed across the country, with the first opened in York this week",
+   "point": "York is both a Places for Growth location and the first NSG regional hub."
+  }
+ ],
+ "ddat": [
+  {
+   "id": "ddat-01",
+   "publisher": "Government Digital Service (service.gov.uk)",
+   "title": "Government Digital and Data Profession Capability Framework",
+   "url": "https://understand-digital-data-roles-skills.service.gov.uk/",
+   "date": "last updated 30 September 2026",
+   "quote": "The Government Digital and Data Profession Capability Framework is maintained by the Government Digital Service.",
+   "point": "The Government Digital and Data Profession Capability Framework sets out role groups and roles (8 and 53, counted from the page), with four skill levels: awareness, working, practitioner and expert."
+  },
+  {
+   "id": "ddat-02",
+   "publisher": "Government Digital Service (service.gov.uk)",
+   "title": "Government Digital and Data Profession Capability Framework",
+   "url": "https://understand-digital-data-roles-skills.service.gov.uk/",
+   "date": "last updated 30 September 2026",
+   "quote": "Learn about the digital, data and technology roles in government, and the skills you need to do them.",
+   "point": "Primary skills taxonomy for any DDaT curriculum."
+  },
+  {
+   "id": "ddat-03",
+   "publisher": "A Modern Civil Service (GOV.UK campaign)",
+   "title": "One Big Thing",
+   "url": "https://moderncivilservice.campaign.gov.uk/one-big-thing/",
+   "date": "last modified 22 October 2025",
+   "quote": "The theme for One Big Thing 2025 is AI for All.",
+   "point": "60-minute AI e-learning plus departmental activity; 2023 edition was data (212,000 civil servants). 2026 theme 'AI in Action' is stated on NSG pages."
+  },
+  {
+   "id": "ddat-04",
+   "publisher": "Government Reform, A Modern Civil Service blog (Cabinet Office)",
+   "title": "One Big Thing: AI for All is live",
+   "url": "https://moderncivilservice.blog.gov.uk/2025/10/14/one-big-thing-ai-for-all-is-live",
+   "date": "14 October 2025",
+   "quote": "This year’s initiative is about all civil servants becoming more confident and responsible users of AI.",
+   "point": "Four 15-minute modules; only 28% of civil servants feel confident using AI at work."
+  },
+  {
+   "id": "ddat-05",
+   "publisher": "Government Skills",
+   "title": "Digital, data, innovation and artificial intelligence learning",
+   "url": "https://www.gov.uk/guidance/digital-and-data-learning",
+   "date": "first published 23 August 2024; updated 31 March 2026",
+   "quote": "Recommended data learning to help you improve your data skills, whatever your level of expertise.",
+   "point": "Curriculum strands: digital, data, innovation and AI skills for all, aimed at non-specialists; specialists pointed to a curated Government Digital and Data profession collection."
+  },
+  {
+   "id": "ddat-06",
+   "publisher": "Government Digital Service",
+   "title": "Government Digital and Data essentials for senior civil servants",
+   "url": "https://www.gov.uk/government/publications/digital-data-and-technology-essentials-for-senior-civil-servants/digital-data-and-technology-essentials-for-senior-civil-servants",
+   "date": "31 May 2022; updated 29 November 2023",
+   "quote": "These Government Digital and Data essentials identify how senior civil servants",
+   "point": "The 'Digital and Data Essentials' exist as SCS skills guidance (not a general course)."
+  },
+  {
+   "id": "ddat-07",
+   "publisher": "Civil Service Careers",
+   "title": "TechTrack",
+   "url": "https://www.civil-service-careers.gov.uk/professions/working-in-digital-data-and-technology/techtrack",
+   "date": "undated, read 31 October 2026",
+   "quote": "You don't need a traditional tech background to make an impact",
+   "point": "Level 4 apprenticeship at HEO: Software Developer, DevOps Engineer, Business Analyst, Cyber Security Technologist; open to civil servants and external applicants in England."
+  },
+  {
+   "id": "ddat-08",
+   "publisher": "Civil Service Careers",
+   "title": "Working in digital, data and technology",
+   "url": "https://www.civil-service-careers.gov.uk/professions/working-in-digital-data-and-technology",
+   "date": "undated, read 31 October 2026",
+   "quote": "TechTrack is a Level 4 advanced digital apprenticeship with additional tailored content covering AI and leadership skills.",
+   "point": "TechTrack aims to bring 2,000 apprentices into Whitehall departments by 2030; early-careers routes listed: Apprenticeships, Care Leavers, Internship Scheme, Fast Stream. Separately, a Digital Secondments Programme (data architects, technical architects, data engineers)."
+  },
+  {
+   "id": "ddat-09",
+   "publisher": "Civil Service Careers",
+   "title": "Digital and Data Fast Stream scheme",
+   "url": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/fs-digital-scheme",
+   "date": "undated, read 31 October 2026",
+   "quote": "Existing civil servants can apply without a degree",
+   "point": "3-year scheme (12-month postings); non-technical roles: product manager, delivery manager, business analyst, user researcher; technical roles from 2026: software developer, data scientist."
+  },
+  {
+   "id": "ddat-10",
+   "publisher": "Government Skills / Government Campus",
+   "title": "Government Campus",
+   "url": "https://www.civil-service-careers.gov.uk/governmentpeoplegroup/government-campus",
+   "date": "undated, read 31 October 2026",
+   "quote": "give all 500,000 people who work in central government easy access to high-quality learning and development opportunities",
+   "point": "Government Campus offer: Civil Service Essentials (foundational package), Data and Digital Learning Journey and the Digital Excellence Programme (SCS, G6, G7), line manager learning, Navigating Your Career; apprenticeships with qualifications up to postgraduate level."
+  },
+  {
+   "id": "ddat-11",
+   "publisher": "Government Skills (via Government Campus)",
+   "title": "New learning tools launched",
+   "url": "https://www.gov.uk/government/news/new-learning-tools-launched",
+   "date": "8 May 2024",
+   "quote": "Government Campus has launched three new tools",
+   "point": "Government Campus learning delivered via Civil Service Learning; no One Login reference."
+  },
+  {
+   "id": "ddat-12",
+   "publisher": "UK Government Security (security.gov.uk), Government Cyber Unit",
+   "title": "Government Cyber Security Academy",
+   "url": "https://www.security.gov.uk/careers-and-learning/careers/government-cyber-security-academy/",
+   "date": "last modified 24 September 2026",
+   "quote": "highly targeted 10-week programme featuring industry-recognised qualifications, mentoring and experiential learning",
+   "point": "Entry route to the Government Cyber Profession; no technical qualifications required; suits career changers."
+  },
+  {
+   "id": "ddat-13",
+   "publisher": "UK Government Security (security.gov.uk)",
+   "title": "Government Security Profession Career Framework",
+   "url": "https://www.security.gov.uk/policy-and-guidance/government-cyber-security-skills-strategy",
+   "date": "last modified 28 September 2026",
+   "quote": "sets out the skills needed for roles in government security, that is separate to the Government Cyber Profession.",
+   "point": "Security profession framework distinct from cyber profession (cyber-profession.gov.uk capability framework linked, not opened). URL path says skills strategy but page is the GSP Career Framework."
+  },
+  {
+   "id": "ddat-14",
+   "publisher": "Cabinet Office",
+   "title": "Government Cyber Security Strategy: 2022 to 2030",
+   "url": "https://www.gov.uk/government/publications/government-cyber-security-strategy-2022-to-2030",
+   "date": "25 January 2022; updated 6 January 2026",
+   "quote": "building a cyber resilient public sector",
+   "point": "Strategy page now directs readers to the Government Cyber Action Plan (published 6 January 2026) for the latest details"
+  },
+  {
+   "id": "ddat-15",
+   "publisher": "Government Analysis Function (ONS)",
+   "title": "Government Analysis Function home page",
+   "url": "https://analysisfunction.civilservice.gov.uk/",
+   "date": "undated, read 31 October 2026",
+   "quote": "The Government Analysis Function is a network for all civil servants working in government analysis.",
+   "point": "Seven analytical professions named (GSS, actuarial, Digital and Data, GES, geography, operational research, social research) plus others working in analysis; site run by the Analysis Function Central Team at ONS."
+  },
+  {
+   "id": "ddat-16",
+   "publisher": "Government Analysis Function (ONS)",
+   "title": "Get Tech Certified with GDS",
+   "url": "https://analysisfunction.civilservice.gov.uk/news/get-tech-certified-with-gds/",
+   "date": "27 November 2025",
+   "quote": "all civil and public servants can access over 200 free learning and certification pathways",
+   "point": "GDS Get Tech Certified (cloud, AI, data, security) - ran until 31 December 2025; open to public servants too."
+  },
+  {
+   "id": "ddat-17",
+   "publisher": "UKAuthority (trade press)",
+   "title": "GDS Academy set to close this month",
+   "url": "https://ukauthority.com/articles/gds-academy-set-to-close-this-month",
+   "date": "undated, read 31 October 2026 (year not shown on page)",
+   "quote": "The GDS Academy run by the Government Digital Service is scheduled to close by the end of November.",
+   "point": "GDS Academy no longer operates; publication year unconfirmed on the page."
+  },
+  {
+   "id": "ddat-18",
+   "publisher": "Government Property Agency and Cabinet Office",
+   "title": "Manchester Digital Campus confirmed",
+   "url": "https://www.gov.uk/government/news/manchester-digital-campus-confirmed",
+   "date": "19 March 2026",
+   "quote": "having one in ten civil servants in technology and digital roles by 2030",
+   "point": ""
+  },
+  {
+   "id": "ddat-19",
+   "publisher": "Cabinet Office",
+   "title": "Civil Service Statistics 2026: statistical bulletin",
+   "url": "https://www.gov.uk/government/statistics/civil-service-statistics-2026/statistical-bulletin-civil-service-statistics-2026",
+   "date": "29 July 2026; updated 28 October 2026",
+   "quote": "followed by Digital and Data (5.8%)",
+   "point": "Digital and Data is third-largest profession at 5.8% of civil servants (31 March 2026); headcount 557,825."
+  }
+ ],
+ "inclusion": [
+  {
+   "id": "inc-01",
+   "publisher": "Cabinet Office",
+   "title": "Civil Service Statistics 2026: statistical bulletin",
+   "url": "https://www.gov.uk/government/statistics/civil-service-statistics-2026/statistical-bulletin-civil-service-statistics-2026",
+   "date": "29 July 2026; updated 28 October 2026",
+   "quote": "Of those with a known ethnicity, the percentage who are from an ethnic minority background is at a record high of 19.2%.",
+   "point": "Ethnic minority share 19.2%; SCS lowest at 10.6%; disability 18.4%."
+  },
+  {
+   "id": "inc-02",
+   "publisher": "Cabinet Office",
+   "title": "Civil Service Statistics 2026: statistical bulletin",
+   "url": "https://www.gov.uk/government/statistics/civil-service-statistics-2026/statistical-bulletin-civil-service-statistics-2026",
+   "date": "29 July 2026; updated 28 October 2026",
+   "quote": "those at SCS level having the lowest representation rate at 10.6%",
+   "point": "Seniority gap for ethnic minority civil servants."
+  },
+  {
+   "id": "inc-03",
+   "publisher": "Cabinet Office (Ethnicity facts and figures)",
+   "title": "Civil Service workforce",
+   "url": "https://www.ethnicity-facts-figures.service.gov.uk/workforce-and-business/workforce-diversity/civil-service-workforce/latest",
+   "date": "11 October 2024 (data at 31 March 2024)",
+   "quote": "4.5% were black",
+   "point": "Black civil servants 4.5%; Mixed 2.4% ('2.4% had mixed ethnicity')."
+  },
+  {
+   "id": "inc-04",
+   "publisher": "BCS, The Chartered Institute for IT",
+   "title": "BCS diversity report 2024: ethnicity - key findings",
+   "url": "https://www.bcs.org/policy-and-influence/equity-diversity-and-inclusion/bcs-diversity-report-2024-ethnicity/ethnicity-key-findings/",
+   "date": "undated (2024 report, 2023 data), read 31 October 2026",
+   "quote": "At 21%, BAME representation was higher amongst IT specialists than within the workforce as a whole (15%)",
+   "point": "About 416,000 IT specialists from ethnic minority groups; equal likelihood of positions of responsibility (40%). No separate Black figure."
+  },
+  {
+   "id": "inc-05",
+   "publisher": "Civil Service Commission and Cabinet Office (GFiE blog)",
+   "title": "All about Going Forward into Employment",
+   "url": "https://gfie.blog.gov.uk/2022/05/24/all-about-going-forward-into-employment/",
+   "date": "24 May 2022",
+   "quote": "Going Forward into Employment is a government wide scheme aimed at providing life chances for people",
+   "point": "Life Chance schemes accredited by the Civil Service Commission for prison leavers, veterans/military partners/service leavers, care leavers, carers and people affected by homelessness."
+  },
+  {
+   "id": "inc-06",
+   "publisher": "Civil Service World (trade press)",
+   "title": "Civil service internship scheme now targets only 'working class' applicants",
+   "url": "https://www.civilserviceworld.com/professions/article/civil-service-internship-scheme-now-targets-only-working-class-applicants",
+   "date": "1 August 2025",
+   "quote": "it will only be for students from a lower socioeconomic background",
+   "point": "Positive-action history: the Summer Diversity Internship was initially for ethnic minority and lower socioeconomic undergraduates; diversity criteria later removed."
+  }
+ ],
+ "professions": [
+  {
+   "id": "prof-01",
+   "publisher": "Cabinet Office with Government Skills",
+   "title": "Government professions",
+   "url": "https://www.gov.uk/government/publications/government-professions/government-professions",
+   "date": "16 February 2024; updated 30 September 2026",
+   "quote": "Professions work across government on behalf of departments, agencies and functions",
+   "point": "Four types: operational delivery, policy, functional, specialist. Functional (21): Actuary, Commercial, Communications, Counter Fraud, Cyber, Debt, Digital and Data, Economics, Finance, Geography, Grants, Human Resources, Internal Audit, Legal, Project Delivery, Property, Operational Research, Risk Management, Security, Social research, Statistics. Specialist (10): Corporate Finance, Intelligence Analysis, Knowledge and Information Management, Clinical, Occupational Psychology, Planning, Planning Inspection, Science and Engineering, Tax, Veterinary."
+  },
+  {
+   "id": "prof-02",
+   "publisher": "A Modern Civil Service (GOV.UK campaign)",
+   "title": "Learn more about government professions",
+   "url": "https://moderncivilservice.campaign.gov.uk/learn-more-about-government-professions/",
+   "date": "last modified 4 September 2025",
+   "quote": "A government profession focuses on developing specialist skills, knowledge, and career pathways",
+   "point": "States 32 professions; every civil servant should belong to one."
+  },
+  {
+   "id": "prof-03",
+   "publisher": "Cabinet Office",
+   "title": "Functional standards (collection)",
+   "url": "https://www.gov.uk/government/collections/functional-standards",
+   "date": "first published 4 November 2020",
+   "quote": "A suite of management standards and associated documentation to guide people working in and with the UK government.",
+   "point": "GovS 001 Government functions, 002 Project Delivery, 003 People, 004 Property, 005 Digital, 006 Finance, 007 Security, 008 Commercial, 009 Internal Audit, 010 Analysis, 011 Communication, 013 Counter Fraud, 014 Debt, 015 Grants."
+  },
+  {
+   "id": "prof-04",
+   "publisher": "Government Skills",
+   "title": "The new curriculum and campus for government skills",
+   "url": "https://www.gov.uk/government/publications/the-new-curriculum-and-campus-for-government-skills",
+   "date": "23 August 2024; updated 29 May 2025",
+   "quote": "Government Campus has a range of courses designed to help civil servants increase their personal effectiveness",
+   "point": "Curriculum categories: A to Z of free courses, centrally-funded programmes, Civil Service Essentials, Induction, Coaching, Digital/data/innovation/AI, Line management, Personal Effectiveness, Policy and Strategy, Accelerated Development, SCS Induction, Specialist skills from government professions, Working with Parliament, Writing skills."
+  },
+  {
+   "id": "prof-05",
+   "publisher": "Government Skills / Government Campus",
+   "title": "Government Campus",
+   "url": "https://www.civil-service-careers.gov.uk/governmentpeoplegroup/government-campus",
+   "date": "undated, read 31 October 2026",
+   "quote": "a new cross-government learning and skills portal – Government Skills Campus",
+   "point": "Planned Government Skills Campus portal with a skills record that stays with you across civil service jobs; offer includes Civil Service Essentials, Data and Digital Learning Journey, line manager learning, Navigating Your Career."
+  },
+  {
+   "id": "prof-06",
+   "publisher": "Leadership College for Government",
+   "title": "About - Leadership College for Government",
+   "url": "https://www.gov.uk/government/organisations/leadership-college-for-government/about",
+   "date": "2 February 2022; updated 29 January 2024",
+   "quote": "equips public and Civil Service leaders with the skills, knowledge, and networks to solve today’s most complex problems.",
+   "point": "Launched April 2022 within the Government Skills and Curriculum Unit; current status relative to the National School not stated."
+  },
+  {
+   "id": "prof-07",
+   "publisher": "Cabinet Office and Government Skills and Curriculum Unit",
+   "title": "Civil Service Leadership Academy (collection, withdrawn)",
+   "url": "https://www.gov.uk/government/collections/civil-service-leadership-academy",
+   "date": "27 September 2017; withdrawn 7 July 2022",
+   "quote": "has been replaced by the Leadership College for Government",
+   "point": "CSLA no longer exists."
+  },
+  {
+   "id": "prof-08",
+   "publisher": "Policy Profession",
+   "title": "Policy profession standards: annex",
+   "url": "https://www.gov.uk/government/publications/policy-profession-standards/policy-profession-standards-annex",
+   "date": "12 April 2024",
+   "quote": "The Standards set out the expectations of all policy professionals across the UK.",
+   "point": "Themes Strategy, Democracy, Delivery; levels 1 Developing, 2 Practitioner, 3 Expert."
+  },
+  {
+   "id": "prof-09",
+   "publisher": "National School of Government and Public Services",
+   "title": "National School website home page",
+   "url": "https://nationalschool.gov.uk/",
+   "date": "undated, read 31 October 2026",
+   "quote": "Professional and technical skills people need",
+   "point": "Specialist Skills pillar; references College for National Security and Public Leaders Programme / National Leadership Forum."
+  },
+  {
+   "id": "prof-10",
+   "publisher": "Government Analysis Function (ONS)",
+   "title": "Government Analysis Function home page",
+   "url": "https://analysisfunction.civilservice.gov.uk/",
+   "date": "undated, read 31 October 2026",
+   "quote": "The Government Analysis Function is a network for all civil servants working in government analysis.",
+   "point": "Analysis professions: GSS, actuarial, Digital and Data, GES, geography, operational research, social research."
+  },
+  {
+   "id": "prof-11",
+   "publisher": "UK Government Security (security.gov.uk)",
+   "title": "Government Security Profession Career Framework",
+   "url": "https://www.security.gov.uk/policy-and-guidance/government-cyber-security-skills-strategy",
+   "date": "last modified 28 September 2026",
+   "quote": "sets out the skills needed for roles in government security, that is separate to the Government Cyber Profession.",
+   "point": "Security profession capability framework."
+  },
+  {
+   "id": "prof-12",
+   "publisher": "Civil Service (School of Design site)",
+   "title": "School of Design",
+   "url": "https://schoolofdesign.gov.uk/",
+   "date": "undated, read 31 October 2026",
+   "quote": "builds public design capability across the UK's Civil Service",
+   "point": "Design capability offer; operator not named on page."
+  },
+  {
+   "id": "prof-13",
+   "publisher": "NHS Leadership Academy",
+   "title": "NHS Leadership Academy home page",
+   "url": "https://www.leadershipacademy.nhs.uk/",
+   "date": "undated, read 31 October 2026",
+   "quote": "designed to help everyone in health and care discover their full leadership potential",
+   "point": "NHS equivalent; relationship to NHS England changes not stated."
+  },
+  {
+   "id": "prof-14",
+   "publisher": "Local Government Association",
+   "title": "Leadership Essentials",
+   "url": "https://www.local.gov.uk/our-support/highlighting-political-leadership/leadership-essentials",
+   "date": "undated, read 31 October 2026 (events listed 2018-19)",
+   "quote": "'Leadership Essentials' is a series of events designed as themed learning opportunities for councillors.",
+   "point": "Local government equivalent for councillors; page content dated, current offer unconfirmed."
+  }
+ ]
+}

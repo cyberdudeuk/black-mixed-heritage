@@ -26,7 +26,7 @@ function enhanceTables(root){(root||document).querySelectorAll(".view table").fo
   if(t.dataset.smart||t.closest(".tskip,[role=grid]")||t.matches(".cal"))return;const head=t.tHead&&t.tHead.rows[0];const body=t.tBodies[0];if(!head||!body)return;
   const rows=[...body.rows];if(rows.length<4||rows.some(r=>[...r.cells].some(c=>c.rowSpan>1||c.colSpan>1)))return;
   const cols=[...head.cells];if(cols.some(c=>c.colSpan>1))return;t.dataset.smart="1";
-  const st={sort:-1,dir:1,q:"",grp:-1,closed:new Set()};
+  const st={sort:-1,dir:1,q:"",grp:-1,closed:new Set(),lim:(rows.length>150&&!rows.some(r=>r.id))?50:Infinity}; /* D-157: long registers show 50 rows at a time; filter and CSV still cover every row */
   const host=t.closest(".tablewrap,.scrollx,.tscroll")||t;const bar=document.createElement("div");bar.className="tbar";bar.setAttribute("role","group");bar.setAttribute("aria-label","Table tools");
   const name=(t.caption&&t.caption.textContent)||(t.getAttribute("aria-label"))||"table";
   bar.innerHTML=`<label>Filter rows<input type="search" class="tq" placeholder="type to filter"></label><label>Group by<select class="tg"><option value="-1">No grouping</option></select></label><label class="tsortl">Sort<select class="ts"><option value="">As shown</option></select></label><span class="tn mono" aria-live="polite"></span><button type="button" class="btn small tcsv">${icon("doc")} Download CSV</button>`;
@@ -39,7 +39,9 @@ function enhanceTables(root){(root||document).querySelectorAll(".view table").fo
   const ssel=bar.querySelector(".ts");cols.forEach((c,i)=>{const l=c.textContent.replace(/[↕↑↓]/g,"").trim();ssel.insertAdjacentHTML("beforeend",`<option value="${i}:1">${esc(l)}, ascending</option><option value="${i}:-1">${esc(l)}, descending</option>`)});
   ssel.addEventListener("change",()=>{const v=ssel.value;if(!v){st.sort=-1}else{const [i,d]=v.split(":").map(Number);st.sort=i;st.dir=d}render()});
   rows.forEach(r=>[...r.cells].forEach((td,i)=>{if(!td.dataset.label&&cols[i])td.dataset.label=cols[i].textContent.replace(/[↕↑↓]/g,"").trim()}));if(cols.length<=6&&!t.closest(".nostack"))t.classList.add("stackable");
-  let busy=false,tobs=null;
+  let busy=false,tobs=null,more=null;
+  if(st.lim<Infinity){more=document.createElement("div");more.className="tmorebar";more.innerHTML=`<button type="button" class="btn tmore"></button> <button type="button" class="btn tall"></button>`;host.after(more);
+    more.querySelector(".tmore").addEventListener("click",()=>{st.lim+=50;render()});more.querySelector(".tall").addEventListener("click",()=>{st.lim=Infinity;t.dataset.showall="1";render();more.hidden=true})}
   const render=()=>{busy=true;[...body.querySelectorAll("tr.grp")].forEach(r=>r.remove());let rs=data();
     if(st.sort>=0){const i=st.sort;const num=_colNumeric(rs,i);rs.sort((a,b)=>{const x=_cellVal(a.cells[i]),y=_cellVal(b.cells[i]);if(num){const xn=x.n===null?-Infinity:x.n,yn=y.n===null?-Infinity:y.n;return st.dir*(xn-yn)}return st.dir*x.t.localeCompare(y.t,"en",{numeric:true})})}
     if(ssel)ssel.value=st.sort<0?"":(st.sort+":"+st.dir);
@@ -50,8 +52,9 @@ function enhanceTables(root){(root||document).querySelectorAll(".view table").fo
         const h=document.createElement("tr");h.className="grp";const open=!st.closed.has(k);h.innerHTML=`<th colspan="${cols.length}" scope="rowgroup"><button type="button" class="grpb" data-k="${esc(k)}" aria-expanded="${open}">${icon(open?"down":"right")} ${esc(k)} <span class="mono muted">${vis.length}</span></button></th>`;
         h.querySelector("button").addEventListener("click",()=>{open?st.closed.add(k):st.closed.delete(k);render();const nb=[...body.querySelectorAll("button.grpb")].find(x=>x.dataset.k===k);if(nb)nb.focus()});body.appendChild(h);
         list.forEach(r=>{body.appendChild(r);const ok=vis.includes(r)&&open;r.hidden=!ok;if(vis.includes(r))shown++})})}
-    else rs.forEach(r=>{body.appendChild(r);const ok=!q||r.textContent.toLowerCase().includes(q);r.hidden=!ok;if(ok)shown++});
-    const total=data().length;bar.querySelector(".tn").textContent=shown===total?`${total} rows`:`${shown} of ${total} rows`;if(tobs)tobs.takeRecords();busy=false};
+    else rs.forEach(r=>{body.appendChild(r);const ok=!q||r.textContent.toLowerCase().includes(q);r.hidden=!ok||shown>=st.lim;if(ok)shown++});
+    const total=data().length;const vis=Math.min(shown,st.lim);bar.querySelector(".tn").textContent=vis===total?`${total} rows`:(vis<shown?`${vis} of ${shown} matching rows shown (${total} in all)`:`${shown} of ${total} rows`);
+    if(more){more.hidden=!(shown>st.lim&&st.grp<0);more.querySelector(".tmore").textContent=`Show ${Math.min(50,shown-st.lim)} more`;more.querySelector(".tall").textContent=`Show all ${shown}`}if(tobs)tobs.takeRecords();busy=false};
   bar.querySelector(".tq").addEventListener("input",e=>{st.q=e.target.value;render()});
   gsel.addEventListener("change",e=>{st.grp=+e.target.value;st.closed.clear();render()});
   bar.querySelector(".tcsv").addEventListener("click",async()=>{const q=v=>{let x=String(v);if(/^[=+\-@\t\r]/.test(x))x="'"+x;return `"${x.replace(/"/g,'""')}"`};const lines=[cols.map(c=>q(c.textContent.replace(/[↕↑↓]/g,"").trim())).join(","),...data().filter(r=>!st.q||r.textContent.toLowerCase().includes(st.q.toLowerCase())).map(r=>[...r.cells].map(c=>q(c.textContent.trim())).join(","))];const text=lines.join("\r\n");

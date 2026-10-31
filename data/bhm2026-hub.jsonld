@@ -8,7 +8,7 @@
       "@type": "CreativeWork",
       "@id": "urn:bhm26:hub",
       "name": "Black History Month 2026 Hub",
-      "version": "2.27.0",
+      "version": "2.28.0",
       "dateModified": "2026-10-21",
       "about": "Honouring Our Communities"
     },
@@ -30347,6 +30347,1181 @@
       "isPartOf": "urn:bhm26:dataset-participate",
       "citation": [
         "https://www.gov.wales/local-government-candidates-survey-2022-summary-html"
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:bhm26:dataset-yearreview",
+      "name": "Black History Month 2026 in review",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yearreview",
+      "isPartOf": "urn:bhm26:hub"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-001",
+      "name": "Black History Month UK: Black History Month 2026",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.blackhistorymonth.org.uk/black-history-month-2026/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-002",
+      "name": "Black History Month UK (article by Cherron Inko-Tariah MBE): Black History Month 2026: Honouring Our Communities",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.blackhistorymonth.org.uk/?p=73883"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-003",
+      "name": "Black History Month UK: Honouring Black Britain 2026",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.blackhistorymonth.org.uk/honouring-black-britain-2026/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-004",
+      "name": "Black History Month UK: Community Nominations – Black History Month UK 2026",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.blackhistorymonth.org.uk/?p=73539"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-005",
+      "name": "Black History Month UK: Advertising & Partnerships",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.blackhistorymonth.org.uk/advertise-with-us"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-006",
+      "name": "Black History Month UK (article by Ian Thomas): Tapestry of Black Britons to Tour UK in 2026, Expanding National Storytelling Project",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.blackhistorymonth.org.uk/?p=74463"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-007",
+      "name": "Black History Month UK (listing): Scrap It, Revamp It: 100 Years of Black History Commemorations (1926–2026)",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.blackhistorymonth.org.uk/?p=73792"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-008",
+      "name": "UK Mission to the WTO, UN and other international organisations (Geneva), GOV.UK: UN Human Rights Council 63: UK Statement for the Item 9 General Debate",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.gov.uk/government/news/un-human-rights-council-63-uk-statement-for-the-item-9-general-debate"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-009",
+      "name": "Cabinet Office, GOV.UK: Civil Service 2025/2026 External Expenditure on Equality, Diversity and Inclusion",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.gov.uk/government/publications/civil-service-equality-diversity-and-inclusion-external-expenditure/civil-service-20252026-external-expenditure-on-equality-diversity-and-inclusion"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-010",
+      "name": "HM Prison and Probation Service, GOV.UK: Criminal Justice Anti-Racism Action Plan for Wales Annual Report 2025 to 2026",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.gov.uk/government/publications/criminal-justice-anti-racism-action-plan-for-wales-annual-report-2025-to-2026/criminal-justice-anti-racism-action-plan-for-wales-annual-report-2025-to-2026"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-011",
+      "name": "HM Prison and Probation Service, GOV.UK: Criminal Justice Anti-Racism Action Plan for Wales Annual Report 2025 to 2026",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.gov.uk/government/publications/criminal-justice-anti-racism-action-plan-for-wales-annual-report-2025-to-2026/criminal-justice-anti-racism-action-plan-for-wales-annual-report-2025-to-2026"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-012",
+      "name": "Scottish Parliament: S7M-01411 Celebrating Scotland's 25th Black History Month",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.parliament.scot/chamber-and-committees/votes-and-motions/S7M-01411"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-013",
+      "name": "Cambridge City Council: Black History Month",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.cambridge.gov.uk/black-history-month"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-014",
+      "name": "Southwark Council: Black History Month grants",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://southwark.gov.uk/events-culture-and-heritage/black-history-month"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-015",
+      "name": "Community Southwark: Southwark Council: Black History Month 2026 Funding Pre-launch Information",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://communitysouthwark.org/?p=26181"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-016",
+      "name": "Lewisham Council: Black History Lewisham 365",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://lewisham.gov.uk/bhl365"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-017",
+      "name": "Lambeth Council: Black History Month",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.lambeth.gov.uk/black-history-month"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-018",
+      "name": "Bristol City Council: Black History Month",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.bristol.gov.uk/people-communities/black-history-month"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-019",
+      "name": "Reading Borough Council: Black History Month 2026",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.reading.gov.uk/leisure/things-to-do/black-history-month/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-020",
+      "name": "Manchester Community Central (event listing): Black History Month – Greater Manchester Civic Launch",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://manchestercommunitycentral.org/node/157547"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-021",
+      "name": "Novara Media (news report by Tom Midlane): Reform ‘Bans Essex Libraries From Promoting Pride and Black History Month’",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://novaramedia.com/2026/06/07/reform-bans-essex-libraries-from-promoting-pride-and-black-history-month/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-022",
+      "name": "Writing on the Wall (Liverpool arts organisation): Black History Month 2026",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://writingonthewall.org.uk/black-history-month-2026/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-023",
+      "name": "University of East London: Black History Month 2026: Honouring Our Communities",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.uel.ac.uk/blog/black-history-month-2026-honouring-our-communities"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-024",
+      "name": "Imperial College London: Black History Month 2026: Honouring our Communities",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.imperial.ac.uk/news/articles/admin-services/careers/2026/black-history-month-2026-honouring-our-communities/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-025",
+      "name": "University of York: Black History Month 2026",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.york.ac.uk/about/equality/news-events/2026/black-history-month-2026/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-026",
+      "name": "University of Exeter: Black History Month 2026",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.exeter.ac.uk/departments/inclusion/nep/events/blackhistorymonth/bhm2026/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-027",
+      "name": "Queen Mary University of London: Black History Month events programme 2026",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.qmul.ac.uk/blackhistorymonth/events-programme-2026/whats-going-on/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-028",
+      "name": "University of Warwick, School of Law: Law School Black History Month Lecture 2026",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://warwick.ac.uk/fac/soc/law/events/bhm-2026/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-029",
+      "name": "University of Chester: Black History Month 2026: Black Britain, Blue Britain",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://chester.ac.uk/about/events/all-events/event-details/black-history-month-2026-black-britain-blue-britain.php"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-030",
+      "name": "University of Westminster: Black History Year",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://westminster.ac.uk/about-us/our-university/equality-diversity-and-inclusion/black-history-year"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-031",
+      "name": "REACH Staff Network, University Hospitals Birmingham NHS Foundation Trust: Special Extended REACH Staff Network meeting celebrating Black History Month",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.tickettailor.com/events/universityhospitalsbirminghamnhsfoundationtrust/2445746"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-032",
+      "name": "Royal College of Nursing, Eastern region: RCN Eastern Black History Month - Honouring Our Communities",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.rcn.org.uk/news-and-events/events/E-Black-History-Month-Event-Eastern-231026"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-034",
+      "name": "Usdaw: Black History Month",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.usdaw.org.uk/member-support/how-to-get-involved/events/black-history-month/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-035",
+      "name": "Inclusive Employers: Black History Month: Exploring the theme “Honouring Our Communities”",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.inclusiveemployers.co.uk/event/black-history-month-2026/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-036",
+      "name": "Brixton Buzz (local news): Black Culture Market returns for a Black History Month event in Lambeth Town Hall, 10th and 11th October 2026",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.brixtonbuzz.com/2026/09/black-culture-market-returns-for-a-black-history-month-event-in-lambeth-town-hall-10th-and-11th-october-2026/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-037",
+      "name": "Diocese of Southwark: 'Honouring our Communities, Sharing our Stories': annual diocesan service of thanksgiving for Black History month",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.tickettailor.com/events/dioceseofsouthwark/2263747"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-038",
+      "name": "Black History Wales: National Launch of Black History Cymru 365",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://blackhistorywales.org.uk/?p=10083965"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-039",
+      "name": "Equality and Diversity UK (blog, author Alyson Malach): Black History Month 2026 Community Voices Report",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://blog.equalityanddiversity.co.uk/?p=1155"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-040",
+      "name": "Equality and Diversity UK (blog, author Alyson Malach): Black History Month 2026 Community Voices Report",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://blog.equalityanddiversity.co.uk/?p=1155"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-041",
+      "name": "West Yorkshire Police: Police Race Action Plan: May 2026 progress update",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.westyorkshire.police.uk/node/200381"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-042",
+      "name": "Hits Radio Cumbria (news), reporting North Cumbria Integrated Care NHS Foundation Trust: Racism and discrimination concerns rise among NHS staff in Cumbria",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.hellorayo.co.uk/hits-radio/cumbria/news/cumbria-nhs-racism"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-043",
+      "name": "Insanity Radio (student radio news): The Music is Black: V&A East Honours British History Through Sound",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://insanityradio.com/?p=296164"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-044",
+      "name": "Office for Equality and Opportunity, GOV.UK: Government launches Black History Month alongside ethnic minority leaders to further race equality",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.gov.uk/government/news/government-launches-black-history-month-alongside-ethnic-minority-leaders-to-further-race-equality"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-045",
+      "name": "Parallel Parliament (Hansard extract), House of Commons debate: Black History Month - ministerial extracts",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://parallelparliament.co.uk/debate/2025-10-23/commons/commons-chamber/black-history-month/ministerial-extracts"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-046",
+      "name": "Civil Service blog (post by Cat Little, Civil Service COO and Race Champion): Black History Month 2025: Standing Firm in Power and Pride",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://civilservice.blog.gov.uk/2025/10/02/black-history-month-2025-standing-firm-in-power-and-pride/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-047",
+      "name": "PCS (national Black members' committee): Celebrating Black History Month: Standing firm in power and pride",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.pcs.org.uk/news-events/news/celebrating-black-history-month-standing-firm-power-pride"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-048",
+      "name": "NHS Employers: Supporting Black History Month 2025",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.nhsemployers.org/articles/supporting-black-history-month-2025"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-049",
+      "name": "The Star (republishing Reuters): London police chief vows more change after another damning report on racism",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.thestar.com.my/news/world/2025/11/07/london-police-chief-vows-more-change-after-another-damning-report-on-racism"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-050",
+      "name": "London Fire Brigade: London Fire Brigade celebrates Black History Month by honouring inspirational staff",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.london-fire.gov.uk/news/2025-news/october/london-fire-brigade-celebrates-black-history-month-by-honouring-inspirational-staff"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-051",
+      "name": "Buckinghamshire Fire & Rescue Service: Celebrating Black History Month",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://bucksfire.gov.uk/?p=91117"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-052",
+      "name": "British Educational Research Association (BERA Blog, Prof. Denise Miller): Black History Month: Moving beyond tokenism",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://bera.ac.uk/?p=53687"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-053",
+      "name": "British Educational Research Association (BERA Blog, Prof. Denise Miller): Black History Month: Moving beyond tokenism",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://bera.ac.uk/?p=53687"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-054",
+      "name": "The Guardian (opinion, Nesrine Malik), read via inkl: Black History Month is a reflection of the political moment - so how do we revamp it? (title from URL slug)",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.inkl.com/news/black-history-month-is-a-reflection-of-the-political-moment-so-how-do-we-revamp-it"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-055",
+      "name": "Big Issue (opinion, Dahaba Ali Hussen): Black History Month is even more important in frightening times of racist violence",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.bigissue.com/opinion/black-history-month-2025-racism-violence/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-056",
+      "name": "Fortune (republishing Bloomberg): City of London given up on inclusion, Black workers say (title from URL slug)",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://fortune.com/europe/2024/10/18/city-of-london-given-up-on-inclusion-black-workers-say/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-057",
+      "name": "The Black Curriculum: The Black Curriculum Response to the Curriculum and Assessment Review (November 2025)",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://theblackcurriculum.com/blog/the-black-curriculum-response-to-the-curriculum-and-assessment-review-november-2025"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-058",
+      "name": "Historical Association: Curriculum and Assessment Review Final Report – response",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.history.org.uk/primary/news/4477/curriculum-and-assessment-review-final-report-re"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-059",
+      "name": "GMB Race Network: Black History Month pack",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.gmb.org.uk/assets/race-network-black-history-month-pack!-(1).pdf"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-060",
+      "name": "NHS Cheshire and Merseyside: Why should we celebrate Black History Month?",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://cheshireandmerseyside.nhs.uk/posts/why-should-we-celebrate-black-history-month"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-061",
+      "name": "Ipsos UK: New Ipsos research for Black History Month shows appetite for education on Black British History",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://www.ipsos.com/en-uk/node/1008721"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:bhm26-062",
+      "name": "Nation.Cymru (opinion, Leanne Wood MS): Black history is Welsh history - we can't confine it to just one month (title from URL slug)",
+      "isPartOf": "urn:bhm26:dataset-yearreview",
+      "citation": [
+        "https://nation.cymru/opinion/black-history-is-welsh-history-we-cant-confine-it-to-just-one-month"
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:bhm26:dataset-pathways",
+      "name": "Learning pathways: what exists",
+      "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pathways",
+      "isPartOf": "urn:bhm26:hub"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:nsg-01",
+      "name": "Cabinet Office: Move fast, fix things: Darren Jones sets out plan to rewire Whitehall and incentivise innovation in the civil service",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://gov.uk/government/news/move-fast-fix-things-darren-jones-sets-out-plan-to-rewire-whitehall-and-incentivise-innovation-in-the-civil-service"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:nsg-02",
+      "name": "Cabinet Office: Minister launches new campus for National School of Government",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/news/minister-launches-new-campus-for-national-school-of-government"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:nsg-03",
+      "name": "Cabinet Office: Minister launches new campus for National School of Government",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/news/minister-launches-new-campus-for-national-school-of-government"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:nsg-04",
+      "name": "National School of Government and Public Services: National School of Government and Public Services: Theory of Change",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/publications/national-school-of-government-and-public-services-theory-of-change/national-school-of-government-and-public-services-theory-of-change-html"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:nsg-05",
+      "name": "National School of Government and Public Services: National School of Government and Public Services: Theory of Change",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/publications/national-school-of-government-and-public-services-theory-of-change/national-school-of-government-and-public-services-theory-of-change-html"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:nsg-06",
+      "name": "National School of Government and Public Services (GOV.UK organisation page): National School of Government and Public Services",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/organisations/national-school-of-government-and-public-services"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:nsg-07",
+      "name": "National School of Government and Public Services: National School website home page",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://nationalschool.gov.uk/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:nsg-08",
+      "name": "UK Parliament written answer (via Parallel Parliament mirror); answered by Anna Turley, Minister without Portfolio: Written question 109150: National School of Government and Public Services",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://parallelparliament.co.uk/question/109150/national-school-of-government-and-public-service"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:nsg-09",
+      "name": "UK Parliament written answer (via Parallel Parliament mirror); answered by Baroness Anderson of Stoke-on-Trent: Written question HL14150: National School of Government and Public Services: Finance",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://parallelparliament.co.uk/question/HL14150/national-school-of-government-and-public-service"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:nsg-10",
+      "name": "UK Parliament written answer (via Parallel Parliament mirror); answered by Baroness Anderson of Stoke-on-Trent: Written question HL15768: National School of Government and Public Services",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://parallelparliament.co.uk/question/HL15768/national-school-of-government-and-public-service"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:nsg-11",
+      "name": "Government Skills: How Government Skills is changing the way it delivers learning",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/guidance/how-government-skills-is-changing-the-way-it-delivers-learning"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:nsg-12",
+      "name": "Government Skills: About us - Government Skills",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/organisations/government-skills/about"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:nsg-13",
+      "name": "Cabinet Office: Shake-up of civil service training",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/news/shake-up-of-civil-service-training"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:nsg-14",
+      "name": "Cabinet Office: Shake-up of civil service training",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/news/shake-up-of-civil-service-training"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:nsg-15",
+      "name": "Civil Service World (trade press): Civil service must 'fill the void' left by National School of Government, MPs say",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.civilserviceworld.com/articles/news/civil-service-must-fill-void-left-national-school-government-mps-say"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mdc-01",
+      "name": "Government Property Agency and Cabinet Office: Manchester Digital Campus confirmed",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/news/manchester-digital-campus-confirmed"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mdc-02",
+      "name": "Government Property Agency and Cabinet Office: Manchester Digital Campus confirmed",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/news/manchester-digital-campus-confirmed"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mdc-03",
+      "name": "Government Property Agency and Cabinet Office: Manchester Digital Campus confirmed",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/news/manchester-digital-campus-confirmed"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mdc-04",
+      "name": "Government Property Agency: Work underway on site of Manchester Digital Campus",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://gpa.gov.uk/?p=6781"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:mdc-05",
+      "name": "Cabinet Office: Thousands of civil service roles moved out of London in latest reform to the state",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/news/thousands-of-civil-service-roles-moved-out-of-london-in-latest-reform-to-the-state"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pfg-01",
+      "name": "Cabinet Office: Thousands of civil service roles moved out of London in latest reform to the state",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/news/thousands-of-civil-service-roles-moved-out-of-london-in-latest-reform-to-the-state"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pfg-02",
+      "name": "Cabinet Office: Thousands of civil service roles moved out of London in latest reform to the state",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/news/thousands-of-civil-service-roles-moved-out-of-london-in-latest-reform-to-the-state"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pfg-03",
+      "name": "Cabinet Office: Thousands of civil service roles moved out of London in latest reform to the state",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/news/thousands-of-civil-service-roles-moved-out-of-london-in-latest-reform-to-the-state"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pfg-04",
+      "name": "Cabinet Office: Thousands of civil service roles moved out of London in latest reform to the state",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/news/thousands-of-civil-service-roles-moved-out-of-london-in-latest-reform-to-the-state"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pfg-05",
+      "name": "Cabinet Office: Places for Growth relocations data 2020-2023",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/publications/places-for-growth-relocations-data-2020-2023/places-for-growth-relocations-data-2020-2023"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pfg-06",
+      "name": "Cabinet Office, MHCLG and DfT: West Midlands to become government centre for transport and infrastructure with new campus",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/news/west-midlands-to-become-government-centre-for-transport-and-infrastructure-with-new-campus-to-accelerate-regional-growth-and-delivery"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pfg-07",
+      "name": "Government Property Agency with HM Treasury: Chancellor marks beginning of construction at new government hub",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/news/chancellor-marks-beginning-of-construction-at-new-government-hub"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pfg-08",
+      "name": "Cabinet Office: Sheffield to be centre for policy jobs under Whitehall shake-up",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/news/sheffield-to-be-centre-for-policy-jobs-under-whitehall-shake-up"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:pfg-09",
+      "name": "Cabinet Office: Minister launches new campus for National School of Government",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/news/minister-launches-new-campus-for-national-school-of-government"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ddat-01",
+      "name": "Government Digital Service (service.gov.uk): Government Digital and Data Profession Capability Framework",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://understand-digital-data-roles-skills.service.gov.uk/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ddat-02",
+      "name": "Government Digital Service (service.gov.uk): Government Digital and Data Profession Capability Framework",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://understand-digital-data-roles-skills.service.gov.uk/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ddat-03",
+      "name": "A Modern Civil Service (GOV.UK campaign): One Big Thing",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://moderncivilservice.campaign.gov.uk/one-big-thing/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ddat-04",
+      "name": "Government Reform, A Modern Civil Service blog (Cabinet Office): One Big Thing: AI for All is live",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://moderncivilservice.blog.gov.uk/2025/10/14/one-big-thing-ai-for-all-is-live"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ddat-05",
+      "name": "Government Skills: Digital, data, innovation and artificial intelligence learning",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/guidance/digital-and-data-learning"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ddat-06",
+      "name": "Government Digital Service: Government Digital and Data essentials for senior civil servants",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/publications/digital-data-and-technology-essentials-for-senior-civil-servants/digital-data-and-technology-essentials-for-senior-civil-servants"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ddat-07",
+      "name": "Civil Service Careers: TechTrack",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/professions/working-in-digital-data-and-technology/techtrack"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ddat-08",
+      "name": "Civil Service Careers: Working in digital, data and technology",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/professions/working-in-digital-data-and-technology"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ddat-09",
+      "name": "Civil Service Careers: Digital and Data Fast Stream scheme",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/fs-digital-scheme"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ddat-10",
+      "name": "Government Skills / Government Campus: Government Campus",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/governmentpeoplegroup/government-campus"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ddat-11",
+      "name": "Government Skills (via Government Campus): New learning tools launched",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/news/new-learning-tools-launched"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ddat-12",
+      "name": "UK Government Security (security.gov.uk), Government Cyber Unit: Government Cyber Security Academy",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.security.gov.uk/careers-and-learning/careers/government-cyber-security-academy/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ddat-13",
+      "name": "UK Government Security (security.gov.uk): Government Security Profession Career Framework",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.security.gov.uk/policy-and-guidance/government-cyber-security-skills-strategy"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ddat-14",
+      "name": "Cabinet Office: Government Cyber Security Strategy: 2022 to 2030",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/publications/government-cyber-security-strategy-2022-to-2030"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ddat-15",
+      "name": "Government Analysis Function (ONS): Government Analysis Function home page",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://analysisfunction.civilservice.gov.uk/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ddat-16",
+      "name": "Government Analysis Function (ONS): Get Tech Certified with GDS",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://analysisfunction.civilservice.gov.uk/news/get-tech-certified-with-gds/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ddat-17",
+      "name": "UKAuthority (trade press): GDS Academy set to close this month",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://ukauthority.com/articles/gds-academy-set-to-close-this-month"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ddat-18",
+      "name": "Government Property Agency and Cabinet Office: Manchester Digital Campus confirmed",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/news/manchester-digital-campus-confirmed"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:ddat-19",
+      "name": "Cabinet Office: Civil Service Statistics 2026: statistical bulletin",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/statistics/civil-service-statistics-2026/statistical-bulletin-civil-service-statistics-2026"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:inc-01",
+      "name": "Cabinet Office: Civil Service Statistics 2026: statistical bulletin",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/statistics/civil-service-statistics-2026/statistical-bulletin-civil-service-statistics-2026"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:inc-02",
+      "name": "Cabinet Office: Civil Service Statistics 2026: statistical bulletin",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/statistics/civil-service-statistics-2026/statistical-bulletin-civil-service-statistics-2026"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:inc-03",
+      "name": "Cabinet Office (Ethnicity facts and figures): Civil Service workforce",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.ethnicity-facts-figures.service.gov.uk/workforce-and-business/workforce-diversity/civil-service-workforce/latest"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:inc-04",
+      "name": "BCS, The Chartered Institute for IT: BCS diversity report 2024: ethnicity - key findings",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.bcs.org/policy-and-influence/equity-diversity-and-inclusion/bcs-diversity-report-2024-ethnicity/ethnicity-key-findings/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:inc-05",
+      "name": "Civil Service Commission and Cabinet Office (GFiE blog): All about Going Forward into Employment",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://gfie.blog.gov.uk/2022/05/24/all-about-going-forward-into-employment/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:inc-06",
+      "name": "Civil Service World (trade press): Civil service internship scheme now targets only 'working class' applicants",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.civilserviceworld.com/professions/article/civil-service-internship-scheme-now-targets-only-working-class-applicants"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:prof-01",
+      "name": "Cabinet Office with Government Skills: Government professions",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/publications/government-professions/government-professions"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:prof-02",
+      "name": "A Modern Civil Service (GOV.UK campaign): Learn more about government professions",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://moderncivilservice.campaign.gov.uk/learn-more-about-government-professions/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:prof-03",
+      "name": "Cabinet Office: Functional standards (collection)",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/collections/functional-standards"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:prof-04",
+      "name": "Government Skills: The new curriculum and campus for government skills",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/publications/the-new-curriculum-and-campus-for-government-skills"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:prof-05",
+      "name": "Government Skills / Government Campus: Government Campus",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.civil-service-careers.gov.uk/governmentpeoplegroup/government-campus"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:prof-06",
+      "name": "Leadership College for Government: About - Leadership College for Government",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/organisations/leadership-college-for-government/about"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:prof-07",
+      "name": "Cabinet Office and Government Skills and Curriculum Unit: Civil Service Leadership Academy (collection, withdrawn)",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/collections/civil-service-leadership-academy"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:prof-08",
+      "name": "Policy Profession: Policy profession standards: annex",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.gov.uk/government/publications/policy-profession-standards/policy-profession-standards-annex"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:prof-09",
+      "name": "National School of Government and Public Services: National School website home page",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://nationalschool.gov.uk/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:prof-10",
+      "name": "Government Analysis Function (ONS): Government Analysis Function home page",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://analysisfunction.civilservice.gov.uk/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:prof-11",
+      "name": "UK Government Security (security.gov.uk): Government Security Profession Career Framework",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.security.gov.uk/policy-and-guidance/government-cyber-security-skills-strategy"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:prof-12",
+      "name": "Civil Service (School of Design site): School of Design",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://schoolofdesign.gov.uk/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:prof-13",
+      "name": "NHS Leadership Academy: NHS Leadership Academy home page",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.leadershipacademy.nhs.uk/"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "urn:bhm26:prof-14",
+      "name": "Local Government Association: Leadership Essentials",
+      "isPartOf": "urn:bhm26:dataset-pathways",
+      "citation": [
+        "https://www.local.gov.uk/our-support/highlighting-political-leadership/leadership-essentials"
       ]
     }
   ]

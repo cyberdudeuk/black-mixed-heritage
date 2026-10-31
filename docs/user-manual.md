@@ -39,9 +39,9 @@ All of them hold the same content. Saving votes, shared ideas and the AI assista
 ## 3. The eight menus
 | Menu | Pages |
 |---|---|
-| **This month** | The 2026 theme · Calendar · Organiser toolkit and posters · Get involved · Networks and communities · Book and film club · Remember · Food and heritage |
+| **This month** | The 2026 theme · Calendar · Year in review and feedback · Organiser toolkit and posters · Get involved · Networks and communities · Book and film club · Remember · Food and heritage |
 | **Lead** | For leaders · Inequalities and action · Life stages and identities · Beyond government · Young lives: NEET, BEET and CHEET · Taking part in public life · Recognition and awards · Representation across the state |
-| **Careers** | Joining government · If you are treated unfairly · Careers and development · Talent, leadership and research · Your profession (routes into the hub for every profession and function) · Black enterprise |
+| **Careers** | Joining government · If you are treated unfairly · Careers and development · Learning pathways · Talent, leadership and research · Your profession (routes into the hub for every profession and function) · Black enterprise |
 | **Practice** | Designing for Black and Mixed-heritage people (policy, service, content and data design) · Words matter: race, ethnicity and language · Benchmarks and comparisons · Dashboards · Through other lenses · The DEEIA lens |
 | **Learn** | History · Africa's knowledge and its journeys · What was taken, lost and might have been · Who built the stereotypes · Africa: patterns, symbols and languages · Innovation and invention · Frontier tech in Africa · Culture, sport and enterprise · Futures 2030 to 2100 |
 | **Understand** | What it means to be Black · Mixed heritage · The African diaspora · Africa: many cultures, many kinds of knowledge · Africa: peoples, regions, borders and displacement · DNA, genomes and African ancestry · Myths and facts · Identity, heritage and respect · Current debates |

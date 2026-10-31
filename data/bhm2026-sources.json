@@ -1,6 +1,6 @@
 {
   "title": "BHM 2026 Hub sources",
-  "version": "2.27.0",
+  "version": "2.28.0",
   "generated": "2026-10-21",
   "note": "Each source is due to be read again 12 months after it was last read.",
   "sources": [
@@ -8,8 +8,8 @@
       "id": "S1",
       "title": "University of York: Black History Month 2026",
       "url": "https://www.york.ac.uk/about/equality/news-events/2026/black-history-month-2026/",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
+      "read": "2026-10-31",
+      "due": "2027-10-31"
     },
     {
       "id": "S2",
@@ -22,8 +22,8 @@
       "id": "S3",
       "title": "Imperial College London: Honouring our Communities",
       "url": "https://www.imperial.ac.uk/news/articles/admin-services/careers/2026/black-history-month-2026-honouring-our-communities/",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
+      "read": "2026-10-31",
+      "due": "2027-10-31"
     },
     {
       "id": "S4",
@@ -50,8 +50,8 @@
       "id": "S7",
       "title": "Civil Service blog: Black History Month 2025 (Cat Little)",
       "url": "https://civilservice.blog.gov.uk/2025/10/02/black-history-month-2025-standing-firm-in-power-and-pride/",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
+      "read": "2026-10-31",
+      "due": "2027-10-31"
     },
     {
       "id": "S8",
@@ -127,8 +127,8 @@
       "id": "S18",
       "title": "Royal College of Nursing Eastern: Honouring Our Communities",
       "url": "https://www.rcn.org.uk/news-and-events/events/E-Black-History-Month-Event-Eastern-231026",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
+      "read": "2026-10-31",
+      "due": "2027-10-31"
     },
     {
       "id": "S19",
@@ -246,15 +246,15 @@
       "id": "S35",
       "title": "Historical Association: response to the Curriculum and Assessment Review",
       "url": "https://www.history.org.uk/primary/news/4477/curriculum-and-assessment-review-final-report-re",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
+      "read": "2026-10-31",
+      "due": "2027-10-31"
     },
     {
       "id": "S36",
       "title": "The Black Curriculum: response to the Curriculum and Assessment Review",
       "url": "https://theblackcurriculum.com/blog/the-black-curriculum-response-to-the-curriculum-and-assessment-review-november-2025",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
+      "read": "2026-10-31",
+      "due": "2027-10-31"
     },
     {
       "id": "S37",
@@ -274,8 +274,8 @@
       "id": "S39",
       "title": "University of Exeter: Black History Month 2026",
       "url": "https://www.exeter.ac.uk/departments/inclusion/nep/events/blackhistorymonth/bhm2026/",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
+      "read": "2026-10-31",
+      "due": "2027-10-31"
     },
     {
       "id": "S40",
@@ -750,8 +750,8 @@
       "id": "S108",
       "title": "Civil Service Careers: Government Campus",
       "url": "https://www.civil-service-careers.gov.uk/governmentpeoplegroup/government-campus",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
+      "read": "2026-10-31",
+      "due": "2027-10-31"
     },
     {
       "id": "S109",
@@ -771,8 +771,8 @@
       "id": "S111",
       "title": "Cabinet Office: Civil Service staff networks to meet outside working hours",
       "url": "https://www.gov.uk/government/news/civil-service-staff-networks-to-only-meet-outside-working-hours-and-have-all-events-signed-off-by-senior-managers",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
+      "read": "2026-10-31",
+      "due": "2027-10-31"
     },
     {
       "id": "S112",
@@ -8009,8 +8009,8 @@
       "id": "S1145",
       "title": "Black History Month: Moving beyond tokenism | BERA blog, Denise Miller, University of Greenwich (2024)",
       "url": "https://bera.ac.uk/?p=53687",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
+      "read": "2026-10-31",
+      "due": "2027-10-31"
     },
     {
       "id": "S1146",
@@ -9122,8 +9122,8 @@
       "id": "S1304",
       "title": "Standards for ethnicity data (GOV.UK)",
       "url": "https://www.gov.uk/government/publications/standards-for-ethnicity-data/standards-for-ethnicity-data",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
+      "read": "2026-10-31",
+      "due": "2027-10-31"
     },
     {
       "id": "S1305",
@@ -9220,8 +9220,8 @@
       "id": "S1318",
       "title": "Statistical bulletin: Civil Service Statistics 2026 (Cabinet Office)",
       "url": "https://www.gov.uk/government/statistics/civil-service-statistics-2026/statistical-bulletin-civil-service-statistics-2026",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
+      "read": "2026-10-31",
+      "due": "2027-10-31"
     },
     {
       "id": "S1319",
@@ -15443,8 +15443,8 @@
       "id": "S2207",
       "title": "Black History Month 2026 – Inclusive Employers",
       "url": "https://www.inclusiveemployers.co.uk/event/black-history-month-2026/",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
+      "read": "2026-10-31",
+      "due": "2027-10-31"
     },
     {
       "id": "S2208",
@@ -17606,8 +17606,8 @@
       "id": "S2516",
       "title": "Civil Service workforce (Ethnicity facts and figures, October 2024)",
       "url": "https://www.ethnicity-facts-figures.service.gov.uk/workforce-and-business/workforce-diversity/civil-service-workforce/latest",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
+      "read": "2026-10-31",
+      "due": "2027-10-31"
     },
     {
       "id": "S2517",
@@ -20140,8 +20140,8 @@
       "id": "S2878",
       "title": "UK government: Government Digital and Data Profession Capability Framework (last updated 30 September 2026)",
       "url": "https://understand-digital-data-roles-skills.service.gov.uk/",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
+      "read": "2026-10-31",
+      "due": "2027-10-31"
     },
     {
       "id": "S2879",
@@ -20448,8 +20448,8 @@
       "id": "S2922",
       "title": "UK government (Modern Civil Service campaign): One Big Thing (undated page, read 29 October 2026)",
       "url": "https://moderncivilservice.campaign.gov.uk/one-big-thing/",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
+      "read": "2026-10-31",
+      "due": "2027-10-31"
     },
     {
       "id": "S2923",
@@ -20819,8 +20819,8 @@
       "id": "S2975",
       "title": "Going Forward into Employment blog: All about Going Forward into Employment (24 May 2022)",
       "url": "https://gfie.blog.gov.uk/2022/05/24/all-about-going-forward-into-employment/",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
+      "read": "2026-10-31",
+      "due": "2027-10-31"
     },
     {
       "id": "S2976",
@@ -21022,8 +21022,8 @@
       "id": "S3004",
       "title": "BCS: Diversity report 2024 – Ethnicity: key findings (2024; page undated)",
       "url": "https://www.bcs.org/policy-and-influence/equity-diversity-and-inclusion/bcs-diversity-report-2024-ethnicity/ethnicity-key-findings/",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
+      "read": "2026-10-31",
+      "due": "2027-10-31"
     },
     {
       "id": "S3005",
@@ -21414,8 +21414,8 @@
       "id": "S3060",
       "title": "UK government: Thousands of Civil Service roles moved out of London in latest reform to the state (press release, 2025)",
       "url": "https://www.gov.uk/government/news/thousands-of-civil-service-roles-moved-out-of-london-in-latest-reform-to-the-state",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
+      "read": "2026-10-31",
+      "due": "2027-10-31"
     },
     {
       "id": "S3061",
@@ -23969,11 +23969,669 @@
       "id": "S3425",
       "title": "GOV.UK: Government professions (updated 30 September 2026)",
       "url": "https://www.gov.uk/government/publications/government-professions/government-professions",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
+      "read": "2026-10-31",
+      "due": "2027-10-31"
     },
     {
       "id": "S3426",
+      "title": "Black History Month 2026 (Black History Month UK)",
+      "url": "https://www.blackhistorymonth.org.uk/black-history-month-2026/",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3427",
+      "title": "Black History Month 2026: Honouring Our Communities (Black History Month UK (article by Cherron Inko-Tariah MBE))",
+      "url": "https://www.blackhistorymonth.org.uk/?p=73883",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3428",
+      "title": "Honouring Black Britain 2026 (Black History Month UK)",
+      "url": "https://www.blackhistorymonth.org.uk/honouring-black-britain-2026/",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3429",
+      "title": "Community Nominations – Black History Month UK 2026 (Black History Month UK)",
+      "url": "https://www.blackhistorymonth.org.uk/?p=73539",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3430",
+      "title": "Advertising & Partnerships (Black History Month UK)",
+      "url": "https://www.blackhistorymonth.org.uk/advertise-with-us",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3431",
+      "title": "Tapestry of Black Britons to Tour UK in 2026, Expanding National Storytelling Project (Black History Month UK (article by Ian Thomas))",
+      "url": "https://www.blackhistorymonth.org.uk/?p=74463",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3432",
+      "title": "Scrap It, Revamp It: 100 Years of Black History Commemorations (1926–2026) (Black History Month UK (listing))",
+      "url": "https://www.blackhistorymonth.org.uk/?p=73792",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3433",
+      "title": "UN Human Rights Council 63: UK Statement for the Item 9 General Debate (UK Mission to the WTO, UN and other international organisations (Geneva), GOV.UK)",
+      "url": "https://www.gov.uk/government/news/un-human-rights-council-63-uk-statement-for-the-item-9-general-debate",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3434",
+      "title": "Civil Service 2025/2026 External Expenditure on Equality, Diversity and Inclusion (Cabinet Office, GOV.UK)",
+      "url": "https://www.gov.uk/government/publications/civil-service-equality-diversity-and-inclusion-external-expenditure/civil-service-20252026-external-expenditure-on-equality-diversity-and-inclusion",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3435",
+      "title": "Criminal Justice Anti-Racism Action Plan for Wales Annual Report 2025 to 2026 (HM Prison and Probation Service, GOV.UK)",
+      "url": "https://www.gov.uk/government/publications/criminal-justice-anti-racism-action-plan-for-wales-annual-report-2025-to-2026/criminal-justice-anti-racism-action-plan-for-wales-annual-report-2025-to-2026",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3436",
+      "title": "S7M-01411 Celebrating Scotland's 25th Black History Month (Scottish Parliament)",
+      "url": "https://www.parliament.scot/chamber-and-committees/votes-and-motions/S7M-01411",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3437",
+      "title": "Black History Month (Cambridge City Council)",
+      "url": "https://www.cambridge.gov.uk/black-history-month",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3438",
+      "title": "Black History Month grants (Southwark Council)",
+      "url": "https://southwark.gov.uk/events-culture-and-heritage/black-history-month",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3439",
+      "title": "Southwark Council: Black History Month 2026 Funding Pre-launch Information (Community Southwark)",
+      "url": "https://communitysouthwark.org/?p=26181",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3440",
+      "title": "Black History Lewisham 365 (Lewisham Council)",
+      "url": "https://lewisham.gov.uk/bhl365",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3441",
+      "title": "Black History Month (Lambeth Council)",
+      "url": "https://www.lambeth.gov.uk/black-history-month",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3442",
+      "title": "Black History Month (Bristol City Council)",
+      "url": "https://www.bristol.gov.uk/people-communities/black-history-month",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3443",
+      "title": "Black History Month 2026 (Reading Borough Council)",
+      "url": "https://www.reading.gov.uk/leisure/things-to-do/black-history-month/",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3444",
+      "title": "Black History Month – Greater Manchester Civic Launch (Manchester Community Central (event listing))",
+      "url": "https://manchestercommunitycentral.org/node/157547",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3445",
+      "title": "Reform ‘Bans Essex Libraries From Promoting Pride and Black History Month’ (Novara Media (news report by Tom Midlane))",
+      "url": "https://novaramedia.com/2026/06/07/reform-bans-essex-libraries-from-promoting-pride-and-black-history-month/",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3446",
+      "title": "Black History Month 2026 (Writing on the Wall (Liverpool arts organisation))",
+      "url": "https://writingonthewall.org.uk/black-history-month-2026/",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3447",
+      "title": "Black History Month 2026: Honouring Our Communities (University of East London)",
+      "url": "https://www.uel.ac.uk/blog/black-history-month-2026-honouring-our-communities",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3448",
+      "title": "Black History Month events programme 2026 (Queen Mary University of London)",
+      "url": "https://www.qmul.ac.uk/blackhistorymonth/events-programme-2026/whats-going-on/",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3449",
+      "title": "Law School Black History Month Lecture 2026 (University of Warwick, School of Law)",
+      "url": "https://warwick.ac.uk/fac/soc/law/events/bhm-2026/",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3450",
+      "title": "Black History Month 2026: Black Britain, Blue Britain (University of Chester)",
+      "url": "https://chester.ac.uk/about/events/all-events/event-details/black-history-month-2026-black-britain-blue-britain.php",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3451",
+      "title": "Black History Year (University of Westminster)",
+      "url": "https://westminster.ac.uk/about-us/our-university/equality-diversity-and-inclusion/black-history-year",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3452",
+      "title": "Special Extended REACH Staff Network meeting celebrating Black History Month (REACH Staff Network, University Hospitals Birmingham NHS Foundation Trust)",
+      "url": "https://www.tickettailor.com/events/universityhospitalsbirminghamnhsfoundationtrust/2445746",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3453",
+      "title": "Black History Month (Usdaw)",
+      "url": "https://www.usdaw.org.uk/member-support/how-to-get-involved/events/black-history-month/",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3454",
+      "title": "Black Culture Market returns for a Black History Month event in Lambeth Town Hall, 10th and 11th October 2026 (Brixton Buzz (local news))",
+      "url": "https://www.brixtonbuzz.com/2026/09/black-culture-market-returns-for-a-black-history-month-event-in-lambeth-town-hall-10th-and-11th-october-2026/",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3455",
+      "title": "'Honouring our Communities, Sharing our Stories': annual diocesan service of thanksgiving for Black History month (Diocese of Southwark)",
+      "url": "https://www.tickettailor.com/events/dioceseofsouthwark/2263747",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3456",
+      "title": "National Launch of Black History Cymru 365 (Black History Wales)",
+      "url": "https://blackhistorywales.org.uk/?p=10083965",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3457",
+      "title": "Black History Month 2026 Community Voices Report (Equality and Diversity UK (blog, author Alyson Malach))",
+      "url": "https://blog.equalityanddiversity.co.uk/?p=1155",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3458",
+      "title": "Police Race Action Plan: May 2026 progress update (West Yorkshire Police)",
+      "url": "https://www.westyorkshire.police.uk/node/200381",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3459",
+      "title": "Racism and discrimination concerns rise among NHS staff in Cumbria (Hits Radio Cumbria (news), reporting North Cumbria Integrated Care NHS Foundation Trust)",
+      "url": "https://www.hellorayo.co.uk/hits-radio/cumbria/news/cumbria-nhs-racism",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3460",
+      "title": "The Music is Black: V&A East Honours British History Through Sound (Insanity Radio (student radio news))",
+      "url": "https://insanityradio.com/?p=296164",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3461",
+      "title": "Government launches Black History Month alongside ethnic minority leaders to further race equality (Office for Equality and Opportunity, GOV.UK)",
+      "url": "https://www.gov.uk/government/news/government-launches-black-history-month-alongside-ethnic-minority-leaders-to-further-race-equality",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3462",
+      "title": "Black History Month - ministerial extracts (Parallel Parliament (Hansard extract), House of Commons debate)",
+      "url": "https://parallelparliament.co.uk/debate/2025-10-23/commons/commons-chamber/black-history-month/ministerial-extracts",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3463",
+      "title": "Celebrating Black History Month: Standing firm in power and pride (PCS (national Black members' committee))",
+      "url": "https://www.pcs.org.uk/news-events/news/celebrating-black-history-month-standing-firm-power-pride",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3464",
+      "title": "Supporting Black History Month 2025 (NHS Employers)",
+      "url": "https://www.nhsemployers.org/articles/supporting-black-history-month-2025",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3465",
+      "title": "London police chief vows more change after another damning report on racism (The Star (republishing Reuters))",
+      "url": "https://www.thestar.com.my/news/world/2025/11/07/london-police-chief-vows-more-change-after-another-damning-report-on-racism",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3466",
+      "title": "London Fire Brigade celebrates Black History Month by honouring inspirational staff (London Fire Brigade)",
+      "url": "https://www.london-fire.gov.uk/news/2025-news/october/london-fire-brigade-celebrates-black-history-month-by-honouring-inspirational-staff",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3467",
+      "title": "Celebrating Black History Month (Buckinghamshire Fire & Rescue Service)",
+      "url": "https://bucksfire.gov.uk/?p=91117",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3468",
+      "title": "Black History Month is a reflection of the political moment - so how do we revamp it? (title from URL slug) (The Guardian (opinion, Nesrine Malik), read via inkl)",
+      "url": "https://www.inkl.com/news/black-history-month-is-a-reflection-of-the-political-moment-so-how-do-we-revamp-it",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3469",
+      "title": "Black History Month is even more important in frightening times of racist violence (Big Issue (opinion, Dahaba Ali Hussen))",
+      "url": "https://www.bigissue.com/opinion/black-history-month-2025-racism-violence/",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3470",
+      "title": "City of London given up on inclusion, Black workers say (title from URL slug) (Fortune (republishing Bloomberg))",
+      "url": "https://fortune.com/europe/2024/10/18/city-of-london-given-up-on-inclusion-black-workers-say/",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3471",
+      "title": "Black History Month pack (GMB Race Network)",
+      "url": "https://www.gmb.org.uk/assets/race-network-black-history-month-pack!-(1).pdf",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3472",
+      "title": "Why should we celebrate Black History Month? (NHS Cheshire and Merseyside)",
+      "url": "https://cheshireandmerseyside.nhs.uk/posts/why-should-we-celebrate-black-history-month",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3473",
+      "title": "New Ipsos research for Black History Month shows appetite for education on Black British History (Ipsos UK)",
+      "url": "https://www.ipsos.com/en-uk/node/1008721",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3474",
+      "title": "Black history is Welsh history - we can't confine it to just one month (title from URL slug) (Nation.Cymru (opinion, Leanne Wood MS))",
+      "url": "https://nation.cymru/opinion/black-history-is-welsh-history-we-cant-confine-it-to-just-one-month",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3475",
+      "title": "Measuring user satisfaction (Government Digital Service (GOV.UK Service Manual, Performance analysis community))",
+      "url": "https://www.gov.uk/service-manual/measuring-success/measuring-user-satisfaction",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3476",
+      "title": "Agile tools and techniques (Government Digital Service (GOV.UK Service Manual))",
+      "url": "https://www.gov.uk/service-manual/agile-delivery/agile-tools-techniques",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3477",
+      "title": "Breaking Barriers to Progression (Business in the Community)",
+      "url": "https://www.bitc.org.uk/wp-content/uploads/2025/06/bitc-race-report-breaking-barriers-ten-year-progression-report-june2025.pdf",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3478",
+      "title": "Ethnicity pay reporting: A guide for UK employers (CIPD)",
+      "url": "https://www.cipd.org/uk/knowledge/guides/ethnicity-pay-reporting-guide/",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3479",
+      "title": "Move fast, fix things: Darren Jones sets out plan to rewire Whitehall and incentivise innovation in the civil service (Cabinet Office)",
+      "url": "https://gov.uk/government/news/move-fast-fix-things-darren-jones-sets-out-plan-to-rewire-whitehall-and-incentivise-innovation-in-the-civil-service",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3480",
+      "title": "Minister launches new campus for National School of Government (Cabinet Office)",
+      "url": "https://www.gov.uk/government/news/minister-launches-new-campus-for-national-school-of-government",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3481",
+      "title": "National School of Government and Public Services: Theory of Change (National School of Government and Public Services)",
+      "url": "https://www.gov.uk/government/publications/national-school-of-government-and-public-services-theory-of-change/national-school-of-government-and-public-services-theory-of-change-html",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3482",
+      "title": "National School of Government and Public Services (National School of Government and Public Services (GOV.UK organisation page))",
+      "url": "https://www.gov.uk/government/organisations/national-school-of-government-and-public-services",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3483",
+      "title": "National School website home page (National School of Government and Public Services)",
+      "url": "https://nationalschool.gov.uk/",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3484",
+      "title": "Written question 109150: National School of Government and Public Services (UK Parliament written answer (via Parallel Parliament mirror); answered by Anna Turley, Minister without Portfolio)",
+      "url": "https://parallelparliament.co.uk/question/109150/national-school-of-government-and-public-service",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3485",
+      "title": "Written question HL14150: National School of Government and Public Services: Finance (UK Parliament written answer (via Parallel Parliament mirror); answered by Baroness Anderson of Stoke-on-Trent)",
+      "url": "https://parallelparliament.co.uk/question/HL14150/national-school-of-government-and-public-service",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3486",
+      "title": "Written question HL15768: National School of Government and Public Services (UK Parliament written answer (via Parallel Parliament mirror); answered by Baroness Anderson of Stoke-on-Trent)",
+      "url": "https://parallelparliament.co.uk/question/HL15768/national-school-of-government-and-public-service",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3487",
+      "title": "How Government Skills is changing the way it delivers learning (Government Skills)",
+      "url": "https://www.gov.uk/guidance/how-government-skills-is-changing-the-way-it-delivers-learning",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3488",
+      "title": "About us - Government Skills (Government Skills)",
+      "url": "https://www.gov.uk/government/organisations/government-skills/about",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3489",
+      "title": "Shake-up of civil service training (Cabinet Office)",
+      "url": "https://www.gov.uk/government/news/shake-up-of-civil-service-training",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3490",
+      "title": "Civil service must 'fill the void' left by National School of Government, MPs say (Civil Service World (trade press))",
+      "url": "https://www.civilserviceworld.com/articles/news/civil-service-must-fill-void-left-national-school-government-mps-say",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3491",
+      "title": "Manchester Digital Campus confirmed (Government Property Agency and Cabinet Office)",
+      "url": "https://www.gov.uk/government/news/manchester-digital-campus-confirmed",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3492",
+      "title": "Work underway on site of Manchester Digital Campus (Government Property Agency)",
+      "url": "https://gpa.gov.uk/?p=6781",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3493",
+      "title": "Places for Growth relocations data 2020-2023 (Cabinet Office)",
+      "url": "https://www.gov.uk/government/publications/places-for-growth-relocations-data-2020-2023/places-for-growth-relocations-data-2020-2023",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3494",
+      "title": "West Midlands to become government centre for transport and infrastructure with new campus (Cabinet Office, MHCLG and DfT)",
+      "url": "https://www.gov.uk/government/news/west-midlands-to-become-government-centre-for-transport-and-infrastructure-with-new-campus-to-accelerate-regional-growth-and-delivery",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3495",
+      "title": "Chancellor marks beginning of construction at new government hub (Government Property Agency with HM Treasury)",
+      "url": "https://www.gov.uk/government/news/chancellor-marks-beginning-of-construction-at-new-government-hub",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3496",
+      "title": "Sheffield to be centre for policy jobs under Whitehall shake-up (Cabinet Office)",
+      "url": "https://www.gov.uk/government/news/sheffield-to-be-centre-for-policy-jobs-under-whitehall-shake-up",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3497",
+      "title": "One Big Thing: AI for All is live (Government Reform, A Modern Civil Service blog (Cabinet Office))",
+      "url": "https://moderncivilservice.blog.gov.uk/2025/10/14/one-big-thing-ai-for-all-is-live",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3498",
+      "title": "Digital, data, innovation and artificial intelligence learning (Government Skills)",
+      "url": "https://www.gov.uk/guidance/digital-and-data-learning",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3499",
+      "title": "Government Digital and Data essentials for senior civil servants (Government Digital Service)",
+      "url": "https://www.gov.uk/government/publications/digital-data-and-technology-essentials-for-senior-civil-servants/digital-data-and-technology-essentials-for-senior-civil-servants",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3500",
+      "title": "TechTrack (Civil Service Careers)",
+      "url": "https://www.civil-service-careers.gov.uk/professions/working-in-digital-data-and-technology/techtrack",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3501",
+      "title": "Working in digital, data and technology (Civil Service Careers)",
+      "url": "https://www.civil-service-careers.gov.uk/professions/working-in-digital-data-and-technology",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3502",
+      "title": "Digital and Data Fast Stream scheme (Civil Service Careers)",
+      "url": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/fs-digital-scheme",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3503",
+      "title": "New learning tools launched (Government Skills (via Government Campus))",
+      "url": "https://www.gov.uk/government/news/new-learning-tools-launched",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3504",
+      "title": "Government Cyber Security Academy (UK Government Security (security.gov.uk), Government Cyber Unit)",
+      "url": "https://www.security.gov.uk/careers-and-learning/careers/government-cyber-security-academy/",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3505",
+      "title": "Government Security Profession Career Framework (UK Government Security (security.gov.uk))",
+      "url": "https://www.security.gov.uk/policy-and-guidance/government-cyber-security-skills-strategy",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3506",
+      "title": "Government Cyber Security Strategy: 2022 to 2030 (Cabinet Office)",
+      "url": "https://www.gov.uk/government/publications/government-cyber-security-strategy-2022-to-2030",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3507",
+      "title": "Government Analysis Function home page (Government Analysis Function (ONS))",
+      "url": "https://analysisfunction.civilservice.gov.uk/",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3508",
+      "title": "Get Tech Certified with GDS (Government Analysis Function (ONS))",
+      "url": "https://analysisfunction.civilservice.gov.uk/news/get-tech-certified-with-gds/",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3509",
+      "title": "GDS Academy set to close this month (UKAuthority (trade press))",
+      "url": "https://ukauthority.com/articles/gds-academy-set-to-close-this-month",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3510",
+      "title": "Civil service internship scheme now targets only 'working class' applicants (Civil Service World (trade press))",
+      "url": "https://www.civilserviceworld.com/professions/article/civil-service-internship-scheme-now-targets-only-working-class-applicants",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3511",
+      "title": "Learn more about government professions (A Modern Civil Service (GOV.UK campaign))",
+      "url": "https://moderncivilservice.campaign.gov.uk/learn-more-about-government-professions/",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3512",
+      "title": "Functional standards (collection) (Cabinet Office)",
+      "url": "https://www.gov.uk/government/collections/functional-standards",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3513",
+      "title": "The new curriculum and campus for government skills (Government Skills)",
+      "url": "https://www.gov.uk/government/publications/the-new-curriculum-and-campus-for-government-skills",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3514",
+      "title": "About - Leadership College for Government (Leadership College for Government)",
+      "url": "https://www.gov.uk/government/organisations/leadership-college-for-government/about",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3515",
+      "title": "Civil Service Leadership Academy (collection, withdrawn) (Cabinet Office and Government Skills and Curriculum Unit)",
+      "url": "https://www.gov.uk/government/collections/civil-service-leadership-academy",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3516",
+      "title": "Policy profession standards: annex (Policy Profession)",
+      "url": "https://www.gov.uk/government/publications/policy-profession-standards/policy-profession-standards-annex",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3517",
+      "title": "School of Design (Civil Service (School of Design site))",
+      "url": "https://schoolofdesign.gov.uk/",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3518",
+      "title": "NHS Leadership Academy home page (NHS Leadership Academy)",
+      "url": "https://www.leadershipacademy.nhs.uk/",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3519",
+      "title": "Leadership Essentials (Local Government Association)",
+      "url": "https://www.local.gov.uk/our-support/highlighting-political-leadership/leadership-essentials",
+      "read": "2026-10-31",
+      "due": "2027-10-31"
+    },
+    {
+      "id": "S3520",
       "title": "The Seven Principles of Public Life (gov.uk)",
       "url": "https://www.gov.uk/government/publications/the-7-principles-of-public-life/the-7-principles-of-public-life--2",
       "read": "2026-10-21",
