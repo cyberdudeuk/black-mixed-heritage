@@ -10,8 +10,13 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GUARD = os.path.join(ROOT, "scripts", "controls_guard.py")
 
 
-def run(cmd, cwd):
-    return subprocess.run(cmd, cwd=cwd, capture_output=True, text=True, check=False)
+def run(cmd, cwd, ok=True):
+    """Run a command; a failed git step stops the test loudly instead of leaving the clone in the
+    previous case's state (that silently made the G0 case test the wrong thing in a shallow CI checkout)."""
+    r = subprocess.run(cmd, cwd=cwd, capture_output=True, text=True, check=False)
+    if ok and cmd[0] == "git" and r.returncode != 0:
+        raise SystemExit(f"test setup failed: {' '.join(cmd)}: {r.stderr.strip()}")
+    return r
 
 
 def main():
@@ -31,7 +36,7 @@ def main():
             run(["git", "add", "-A"], repo)
             run(["git", "commit", "-q", "-m", name], repo)
             head = run(["git", "rev-parse", "HEAD"], repo).stdout.strip()
-            r = run([sys.executable, GUARD, against or base, head, *labels], repo)
+            r = run([sys.executable, GUARD, against or base, head, *labels], repo, ok=False)
             failed = r.returncode != 0
             if failed != want_fail or want_text not in r.stdout:
                 fails += 1
@@ -88,9 +93,15 @@ def main():
              sub("scripts/controls_audit.py", r"return 1\n", "return 0\n"), [], True, "scripts/controls_audit.py")
         case("G1 an npm script CI runs replaced (review finding 5)",
              sub("package.json", r'"test:quick": "[^"]*"', '"test:quick": "true"'), [], True, "package.json (scripts)")
+        # main moves on after the branch was cut; made here so the case needs no history (CI clones shallowly)
+        run(["git", "checkout", "-q", "-B", "newer-main", base], repo)
+        open(os.path.join(repo, "NEWER.md"), "w").write("main moved on\n")
+        run(["git", "add", "-A"], repo)
+        run(["git", "commit", "-q", "-m", "main moves on"], repo)
+        newer = run(["git", "rev-parse", "HEAD"], repo).stdout.strip()
         case("G0 a branch that does not contain the latest main (review finding 8)",
              sub("CONTRIBUTING.md", r"\Z", "\n"), [], True, "G0 the pull request does not contain the latest main",
-             start=base + "~1")
+             against=newer)
         case("G3 a check removed and its call left in a comment (review finding 11)",
              lambda r: (sub_first_check()(r), open(os.path.join(r, "src", "zz_note.js"), "w").write("// CHECKS.push({id:'C0'})\n")),
              [], True, "G3 self-check registrations")
