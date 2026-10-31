@@ -1,0 +1,205 @@
+[
+ {
+  "stage": "At school (11-16)",
+  "option": "Stand or vote in UK Youth Parliament elections",
+  "min_age": 11,
+  "nation": "UK",
+  "src_url": "https://www.gov.uk/government/publications/evaluation-of-the-uk-youth-parliament/evaluation-of-the-uk-youth-parliament"
+ },
+ {
+  "stage": "At school (11-16)",
+  "option": "Vote in Welsh Youth Parliament elections",
+  "min_age": 11,
+  "nation": "Wales",
+  "src_url": "https://senedd.wales/senedd-now/news/voter-registration-opens-for-new-welsh-youth-parliament"
+ },
+ {
+  "stage": "At school (11-16)",
+  "option": "Northern Ireland Youth Assembly (school years 9 to 12; next recruitment round)",
+  "min_age": 12,
+  "nation": "Northern Ireland",
+  "src_url": "https://niyouthassembly.org/learn-more/"
+ },
+ {
+  "stage": "At school (11-16)",
+  "option": "Vote in Scottish Youth Parliament elections (2 to 15 November 2026)",
+  "min_age": 12,
+  "nation": "Scotland",
+  "src_url": "https://syp.org.uk/?p=13237"
+ },
+ {
+  "stage": "At school (11-16)",
+  "option": "Scottish Children's Commissioner's Young Advisors (ages 12 to 17; check for recruitment)",
+  "min_age": 12,
+  "nation": "Scotland",
+  "src_url": "https://www.cypcs.org.uk/about-us/young-advisors/"
+ },
+ {
+  "stage": "At school (11-16)",
+  "option": "Join a school council",
+  "min_age": null,
+  "nation": "Wales (statutory, maintained schools except nursery and infant); elsewhere by school",
+  "src_url": "https://www.legislation.gov.uk/wsi/2005/3200/regulation/3/made"
+ },
+ {
+  "stage": "At school (11-16)",
+  "option": "Join Volunteer Police Cadets (juniors from 11 in some forces)",
+  "min_age": 13,
+  "nation": "England, Wales, Scotland",
+  "src_url": "https://tvpcareers.co.uk/opportunities/cadets/"
+ },
+ {
+  "stage": "At school (11-16)",
+  "option": "Start the Duke of Edinburgh's Award",
+  "min_age": 14,
+  "nation": "UK",
+  "src_url": "https://www.dofe.org/do/"
+ },
+ {
+  "stage": "At school (11-16)",
+  "option": "Register to vote (from 14 in Scotland and Wales)",
+  "min_age": 14,
+  "nation": "Scotland, Wales",
+  "src_url": "https://www.gov.uk/register-to-vote"
+ },
+ {
+  "stage": "At school (11-16)",
+  "option": "Sign or start a Scottish Parliament petition (any age)",
+  "min_age": null,
+  "nation": "Scotland",
+  "src_url": "https://petitions.parliament.scot/help"
+ },
+ {
+  "stage": "16-18 and college",
+  "option": "Vote in Scottish Parliament, Senedd and council elections",
+  "min_age": 16,
+  "nation": "Scotland, Wales",
+  "src_url": "https://www.gov.uk/elections-in-the-uk/print"
+ },
+ {
+  "stage": "16-18 and college",
+  "option": "Start a Civil Service apprenticeship",
+  "min_age": 16,
+  "nation": "UK",
+  "src_url": "https://www.civil-service-careers.gov.uk/home/civil-service-early-careers/"
+ },
+ {
+  "stage": "16-18 and college",
+  "option": "Stand for the Scottish Youth Parliament (next round expected 2028)",
+  "min_age": 14,
+  "nation": "Scotland",
+  "src_url": "https://syp.org.uk/?p=13237"
+ },
+ {
+  "stage": "16-18 and college",
+  "option": "Apply for a special constable role (offered at 18)",
+  "min_age": 17,
+  "nation": "England, Wales",
+  "src_url": "https://www.joiningthepolice.co.uk/career-progression/volunteering-with-the-police"
+ },
+ {
+  "stage": "University",
+  "option": "Civil Service Summer Internship Programme (apply by 5 November 2026)",
+  "min_age": null,
+  "nation": "UK",
+  "src_url": "https://www.civil-service-careers.gov.uk/fast-stream/fs-summer-internship-programme/"
+ },
+ {
+  "stage": "University",
+  "option": "Become a magistrate",
+  "min_age": 18,
+  "nation": "England, Wales",
+  "src_url": "https://www.gov.uk/become-magistrate/print"
+ },
+ {
+  "stage": "University",
+  "option": "Become a school governor",
+  "min_age": 18,
+  "nation": "England",
+  "src_url": "https://www.gov.uk/government/publications/maintained-schools-governance-guide/maintained-schools-governance-guide"
+ },
+ {
+  "stage": "Gap year or after education",
+  "option": "Year in Industry paid STEM placement",
+  "min_age": null,
+  "nation": "UK",
+  "src_url": "https://www.etrust.org.uk/the-year-in-industry"
+ },
+ {
+  "stage": "Gap year or after education",
+  "option": "Care Leavers Internship Scheme (ages 18 to 30)",
+  "min_age": 18,
+  "nation": "UK",
+  "src_url": "https://www.civil-service-careers.gov.uk/civil-service-care-leavers-internship-scheme"
+ },
+ {
+  "stage": "Gap year or after education",
+  "option": "Volunteer with an Independent Monitoring Board",
+  "min_age": null,
+  "nation": "England, Wales",
+  "src_url": "https://www.gov.uk/volunteer-to-check-standards-in-prison/print"
+ },
+ {
+  "stage": "Holidays and half-term",
+  "option": "Holiday Activities and Food programme (eligible children)",
+  "min_age": null,
+  "nation": "England",
+  "src_url": "https://www.gov.uk/government/publications/holiday-activities-and-food-programme/holiday-activities-and-food-programme-2026-to-2027"
+ },
+ {
+  "stage": "Holidays and half-term",
+  "option": "Council holiday play schemes",
+  "min_age": null,
+  "nation": "England, Wales",
+  "src_url": "https://www.gov.uk/after-school-holiday-club"
+ },
+ {
+  "stage": "Holidays and half-term",
+  "option": "Volunteers' Week (7 to 13 June 2027)",
+  "min_age": null,
+  "nation": "UK",
+  "src_url": "https://www.volunteersweek.org/about"
+ },
+ {
+  "stage": "Holidays and half-term",
+  "option": "Part-time holiday work within legal hour limits",
+  "min_age": 14,
+  "nation": "England",
+  "src_url": "https://www.gov.uk/child-employment/print"
+ },
+ {
+  "stage": "Any age (adults)",
+  "option": "Contact your MP, MSP, MS, MLA or councillor",
+  "min_age": null,
+  "nation": "UK",
+  "src_url": "https://www.gov.uk/find-your-local-councillors"
+ },
+ {
+  "stage": "Any age (adults)",
+  "option": "Start or sign a UK Parliament petition",
+  "min_age": null,
+  "nation": "UK",
+  "src_url": "https://petition.parliament.uk/help"
+ },
+ {
+  "stage": "Any age (adults)",
+  "option": "Respond to a government consultation",
+  "min_age": null,
+  "nation": "UK",
+  "src_url": "https://www.gov.uk/search/policy-papers-and-consultations"
+ },
+ {
+  "stage": "Any age (adults)",
+  "option": "Apply for a public appointment",
+  "min_age": null,
+  "nation": "UK",
+  "src_url": "https://publicappointments.cabinetoffice.gov.uk/"
+ },
+ {
+  "stage": "Any age (adults)",
+  "option": "Jury service when summoned (ages 18 to 75)",
+  "min_age": 18,
+  "nation": "England, Wales",
+  "src_url": "https://www.gov.uk/jury-service/print"
+ }
+]

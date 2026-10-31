@@ -406,6 +406,43 @@ details.dvtable > summary{cursor:pointer;color:var(--link,var(--green));text-dec
 .jnopts{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(18rem,100%),1fr));gap:.3rem .8rem}
 .jnfs{border:0;padding:0;margin:0 0 1rem}
 .jnchk{display:flex;gap:.5rem;align-items:flex-start;min-height:44px;padding:.35rem .5rem;border-radius:8px;cursor:pointer}
-.jnchk input,.jnprep input{width:1.3rem;height:1.3rem;flex:none;margin-top:.15rem}
-.jnprep{padding-left:1.4rem}.jnprep li{margin:.5rem 0}.jnprep .chk{display:inline-flex;gap:.5rem;align-items:flex-start;min-height:44px}
+.jnchk input,.jnprep input{width:1.5rem;height:1.5rem;min-width:24px;min-height:24px;flex:none;margin:.1rem}
+.jnprep{padding-left:1.4rem}.jnprep li{margin:.5rem 0}.jnprep li>.muted{display:block;margin:.15rem 0 0 2rem}.jnprep .chk{display:inline-flex;gap:.5rem;align-items:flex-start;min-height:44px}
 .jngrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(20rem,100%),1fr));gap:1rem;align-items:start}
+/* 2.27.0 Careers menu accent and topic signposts */
+[data-accent="car"]{--ac:#8A3B12}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) [data-accent="car"]{--ac:#F0A27A}}
+:root[data-theme="dark"] [data-accent="car"]{--ac:#F0A27A}
+.iasign{border-left:4px solid var(--ac,#5A4E42);padding:.4rem .8rem;margin:.6rem 0 1rem;background:color-mix(in srgb,var(--ac,#5A4E42) 6%,transparent);border-radius:0 8px 8px 0}
+.iasign .iah{margin:.1rem 0 .3rem}.iasign ul{margin:0;padding-left:1.1rem}.iasign li{margin:.15rem 0}
+/* 2.27.0 application tracker */
+.trkform fieldset{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(22rem,100%),1fr));gap:.9rem 1.4rem;border:1px solid var(--line,#ccc);border-radius:10px;padding:1rem}
+.trkform legend{font-weight:700;padding:0 .3rem}
+.trkf{display:flex;flex-direction:column;gap:.25rem;min-width:0}
+.trkf label{font-weight:600}
+.trkf input,.trkf select,.trkf textarea{width:100%;max-width:100%;min-height:44px;box-sizing:border-box}
+.trkwhy{font-size:.9em}
+.trkbar{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.8rem}
+.trktable th[scope=row]{text-transform:none;letter-spacing:0;font-family:inherit;font-size:1em}
+/* 2.27.0 escalation ladder */
+.ftsteps{list-style:none;padding:0;margin:.5rem 0;display:grid;gap:.6rem}
+.ftsteps>li{display:grid;grid-template-columns:2.4rem 1fr;gap:.8rem;align-items:start;border-left:4px solid var(--ac,#8A3B12);padding:.5rem .8rem;border-radius:0 8px 8px 0;background:color-mix(in srgb,var(--ac,#8A3B12) 5%,transparent)}
+.ftn{display:inline-grid;place-items:center;width:2.2rem;height:2.2rem;border-radius:50%;background:var(--ac,#8A3B12);color:#fff;font-weight:700}
+.ftdl{display:grid;grid-template-columns:max-content 1fr;gap:.2rem .8rem;margin:.3rem 0}.ftdl dt{font-weight:600}.ftdl dd{margin:0}
+@media (max-width:480px){.ftdl{grid-template-columns:1fr}}
+#ft-ladder [role=tab][aria-selected=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.tgpr{margin-top:1rem}.tgtable td{vertical-align:top}
+#tgWho [aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.palist{padding-left:1.1rem}.palist li{margin:.35rem 0}
+
+/* 2.27.0 design review (D-156) */
+.lpshort h2.lpshorth{font-size:1.12rem;font-weight:600;font-family:inherit;letter-spacing:0;margin:0}
+#calTitle{font-size:var(--t-lg);font-weight:600;letter-spacing:0;margin:0}
+.champtext{white-space:pre-wrap;overflow-wrap:anywhere;max-width:100%}
+.ftsteps>li>*,.ftdl>*{min-width:0}.ftsteps,.ftdl{overflow-wrap:anywhere}
+.view p{max-width:75ch}.view .lpshort{max-width:min(100%,80ch)}
+.bandcap,.maphint{font-size:.8125rem}
+.view p.mono.muted,.view p.mono{font-size:max(.8125rem,1em*.8)}
+.view input[type=checkbox],.view input[type=radio]{width:1.5rem;height:1.5rem;min-width:24px;min-height:24px;flex:none}
+@media (pointer:coarse){.view input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=color]),.view select,.view textarea{min-height:44px}.view input[type=range]{min-height:24px}.view .linkbtn{min-height:24px}}
+.btn.sm{min-height:24px}

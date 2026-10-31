@@ -1,503 +1,802 @@
 {
  "title": "BHM 2026 Hub: what changed",
- "version": "2.26.0",
+ "version": "2.27.0",
  "generated": "2026-10-21",
- "base": "2.25.0",
+ "base": "2.26.0",
  "added": [
   {
-   "key": "joining:jn-jnroutes-civil-service-jobs-is-where-you-find-and",
-   "heading": "Civil Service Jobs is where you find and apply for roles",
+   "key": "joining:jn-trwhat-start-with-the-vacancy-s-own-identifiers",
+   "heading": "Start with the vacancy's own identifiers: reference, department, grade",
    "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnroutes-civil-service-jobs-is-where-you-find-and"
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trwhat-start-with-the-vacancy-s-own-identifiers"
   },
   {
-   "key": "joining:jn-jnroutes-fast-stream-the-graduate-leadership-prog",
-   "heading": "Fast Stream: the graduate leadership programme, closing 5 November",
+   "key": "joining:jn-trwhat-save-the-advert-and-the-exact-version-yo",
+   "heading": "Save the advert and the exact version you submitted",
    "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnroutes-fast-stream-the-graduate-leadership-prog"
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trwhat-save-the-advert-and-the-exact-version-yo"
   },
   {
-   "key": "joining:jn-jnroutes-apprenticeships-earn-while-you-learn-fro",
-   "heading": "Apprenticeships: earn while you learn from age 16",
+   "key": "joining:jn-trwhat-note-which-success-profiles-elements-eac",
+   "heading": "Note which Success Profiles elements each stage assesses",
    "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnroutes-apprenticeships-earn-while-you-learn-fro"
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trwhat-note-which-success-profiles-elements-eac"
   },
   {
-   "key": "joining:jn-jnroutes-summer-internship-programme-paid-placeme",
-   "heading": "Summer Internship Programme: paid placements for students",
+   "key": "joining:jn-trwhat-log-every-stage-its-date-and-its-result",
+   "heading": "Log every stage, its date and its result",
    "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnroutes-summer-internship-programme-paid-placeme"
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trwhat-log-every-stage-its-date-and-its-result"
   },
   {
-   "key": "joining:jn-jnroutes-supported-routes-for-people-facing-barri",
-   "heading": "Supported routes for people facing barriers to work",
+   "key": "joining:jn-trwhat-if-you-are-put-on-a-reserve-list-record-",
+   "heading": "If you are put on a reserve list, record the date and when it ends",
    "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnroutes-supported-routes-for-people-facing-barri"
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trwhat-if-you-are-put-on-a-reserve-list-record-"
   },
   {
-   "key": "joining:jn-jnroutes-join-from-outside-government-or-come-in-",
-   "heading": "Join from outside government, or come in on a secondment",
+   "key": "joining:jn-trwhat-track-the-offer-each-pre-employment-chec",
+   "heading": "Track the offer, each pre-employment check and the start date",
    "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnroutes-join-from-outside-government-or-come-in-"
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trwhat-track-the-offer-each-pre-employment-chec"
   },
   {
-   "key": "joining:jn-jnroutes-grades-run-from-administrative-assistant",
-   "heading": "Grades run from administrative assistant to Senior Civil Service",
+   "key": "joining:jn-trtools-use-the-applications-page-in-your-civil-",
+   "heading": "Use the Applications page in your Civil Service Jobs account",
    "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnroutes-grades-run-from-administrative-assistant"
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trtools-use-the-applications-page-in-your-civil-"
   },
   {
-   "key": "joining:jn-jnroutes-digital-data-and-technology-roles-includ",
-   "heading": "Digital, data and technology roles, including at GDS",
+   "key": "joining:jn-trtools-keep-your-own-record-for-anything-applie",
+   "heading": "Keep your own record for anything applied for elsewhere",
    "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnroutes-digital-data-and-technology-roles-includ"
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trtools-keep-your-own-record-for-anything-applie"
   },
   {
-   "key": "joining:jn-jnapply-success-profiles-the-five-things-you-may",
-   "heading": "Success Profiles: the five things you may be assessed on",
+   "key": "joining:jn-trtools-let-job-alerts-bring-vacancies-to-you-an",
+   "heading": "Let job alerts bring vacancies to you, and pause them when needed",
    "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnapply-success-profiles-the-five-things-you-may"
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trtools-let-job-alerts-bring-vacancies-to-you-an"
   },
   {
-   "key": "joining:jn-jnapply-write-behaviour-examples-with-the-star-m",
-   "heading": "Write behaviour examples with the STAR method",
+   "key": "joining:jn-trtools-a-spreadsheet-tracker-one-row-per-applic",
+   "heading": "A spreadsheet tracker: one row per application",
    "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnapply-write-behaviour-examples-with-the-star-m"
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trtools-a-spreadsheet-tracker-one-row-per-applic"
   },
   {
-   "key": "joining:jn-jnapply-cvs-and-personal-statements-match-the-es",
-   "heading": "CVs and personal statements: match the essential criteria",
+   "key": "joining:jn-trtools-calendar-reminders-and-a-task-list-for-t",
+   "heading": "Calendar reminders and a task list for the steps in between",
    "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnapply-cvs-and-personal-statements-match-the-es"
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trtools-calendar-reminders-and-a-task-list-for-t"
   },
   {
-   "key": "joining:jn-jnapply-the-sift-aim-for-at-least-4-out-of-7-on-",
-   "heading": "The sift: aim for at least 4 out of 7 on each example",
+   "key": "joining:jn-trtools-one-folder-for-adverts-applications-and-",
+   "heading": "One folder for adverts, applications and letters",
    "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnapply-the-sift-aim-for-at-least-4-out-of-7-on-"
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trtools-one-folder-for-adverts-applications-and-"
   },
   {
-   "key": "joining:jn-jnapply-online-tests-practise-first-with-the-fre",
-   "heading": "Online tests: practise first with the free official versions",
+   "key": "joining:jn-trdates-closing-times-often-23-55-on-the-closing",
+   "heading": "Closing times: often 23:55 on the closing date",
    "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnapply-online-tests-practise-first-with-the-fre"
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trdates-closing-times-often-23-55-on-the-closing"
   },
   {
-   "key": "joining:jn-jnapply-use-ai-to-prepare-never-to-answer-for-yo",
-   "heading": "Use AI to prepare, never to answer for you",
+   "key": "joining:jn-trdates-sift-and-interview-dates-vary-by-campaig",
+   "heading": "Sift and interview dates vary by campaign",
    "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnapply-use-ai-to-prepare-never-to-answer-for-yo"
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trdates-sift-and-interview-dates-vary-by-campaig"
   },
   {
-   "key": "joining:jn-jnapply-by-law-appointments-are-on-merit-after-f",
-   "heading": "By law, appointments are on merit after fair and open competition",
+   "key": "joining:jn-trdates-online-tests-have-their-own-completion-w",
+   "heading": "Online tests have their own completion window",
    "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnapply-by-law-appointments-are-on-merit-after-f"
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trdates-online-tests-have-their-own-completion-w"
   },
   {
-   "key": "joining:jn-jnapply-when-roles-can-be-filled-without-open-co",
-   "heading": "When roles can be filled without open competition",
+   "key": "joining:jn-trdates-reserve-lists-last-up-to-12-months",
+   "heading": "Reserve lists last up to 12 months",
    "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnapply-when-roles-can-be-filled-without-open-co"
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trdates-reserve-lists-last-up-to-12-months"
   },
   {
-   "key": "joining:jn-jninterview-prepare-real-examples-for-behaviour-ques",
-   "heading": "Prepare real examples for behaviour questions",
+   "key": "joining:jn-trdates-pre-employment-checks-several-weeks-long",
+   "heading": "Pre-employment checks: several weeks, longer with vetting",
    "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jninterview-prepare-real-examples-for-behaviour-ques"
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trdates-pre-employment-checks-several-weeks-long"
   },
   {
-   "key": "joining:jn-jninterview-strength-questions-answer-genuinely-do-n",
-   "heading": "Strength questions: answer genuinely, do not rehearse",
+   "key": "joining:jn-trdates-notice-periods-check-your-contract-befor",
+   "heading": "Notice periods: check your contract before you resign",
    "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jninterview-strength-questions-answer-genuinely-do-n"
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trdates-notice-periods-check-your-contract-befor"
   },
   {
-   "key": "joining:jn-jninterview-technical-interviews-presentations-and-e",
-   "heading": "Technical interviews, presentations and exercises",
+   "key": "joining:jn-trdates-complaints-about-fair-recruitment-within",
+   "heading": "Complaints about fair recruitment: within 12 months of closing",
    "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jninterview-technical-interviews-presentations-and-e"
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trdates-complaints-about-fair-recruitment-within"
   },
   {
-   "key": "joining:jn-jninterview-video-and-pre-recorded-interviews",
-   "heading": "Video and pre-recorded interviews",
+   "key": "joining:jn-trfeedback-ask-for-feedback-whatever-the-outcome",
+   "heading": "Ask for feedback whatever the outcome",
    "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jninterview-video-and-pre-recorded-interviews"
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trfeedback-ask-for-feedback-whatever-the-outcome"
   },
   {
-   "key": "joining:jn-jninterview-assessment-centres-combine-several-exerc",
-   "heading": "Assessment centres combine several exercises",
+   "key": "joining:jn-trfeedback-know-what-feedback-to-expect-at-each-sta",
+   "heading": "Know what feedback to expect at each stage",
    "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jninterview-assessment-centres-combine-several-exerc"
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trfeedback-know-what-feedback-to-expect-at-each-sta"
   },
   {
-   "key": "joining:jn-jninterview-bring-your-own-questions-the-interview-w",
-   "heading": "Bring your own questions: the interview works both ways",
+   "key": "joining:jn-trfeedback-record-feedback-against-the-scale-and-th",
+   "heading": "Record feedback against the scale and the Success Profiles element",
    "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jninterview-bring-your-own-questions-the-interview-w"
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trfeedback-record-feedback-against-the-scale-and-th"
   },
   {
-   "key": "joining:jn-jninterview-always-ask-for-feedback-whatever-the-out",
-   "heading": "Always ask for feedback, whatever the outcome",
+   "key": "joining:jn-trfeedback-build-a-bank-of-star-examples-and-reuse-",
+   "heading": "Build a bank of STAR examples and reuse the best",
    "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jninterview-always-ask-for-feedback-whatever-the-out"
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trfeedback-build-a-bank-of-star-examples-and-reuse-"
   },
   {
-   "key": "joining:jn-jninterview-reserve-lists-a-near-miss-can-still-lead",
-   "heading": "Reserve lists: a near miss can still lead to a job",
+   "key": "joining:jn-trfeedback-treat-setbacks-as-information-and-set-sm",
+   "heading": "Treat setbacks as information, and set small goals",
    "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jninterview-reserve-lists-a-near-miss-can-still-lead"
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trfeedback-treat-setbacks-as-information-and-set-sm"
   },
   {
-   "key": "joining:jn-jnday-no-typical-day-what-digital-and-early-ca",
-   "heading": "No typical day: what digital and early careers staff describe",
+   "key": "joining:jn-trfeedback-look-after-your-wellbeing-during-a-long-",
+   "heading": "Look after your wellbeing during a long search",
    "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnday-no-typical-day-what-digital-and-early-ca"
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trfeedback-look-after-your-wellbeing-during-a-long-"
   },
   {
-   "key": "joining:jn-jnday-hybrid-working-at-least-60-of-your-time-",
-   "heading": "Hybrid working: at least 60% of your time in the office",
+   "key": "joining:jn-trfeedback-you-do-not-have-to-do-it-alone",
+   "heading": "You do not have to do it alone",
    "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnday-hybrid-working-at-least-60-of-your-time-"
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-trfeedback-you-do-not-have-to-do-it-alone"
   },
   {
-   "key": "joining:jn-jnday-pension-alpha-a-career-average-defined-b",
-   "heading": "Pension: alpha, a career average defined benefit scheme",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnday-pension-alpha-a-career-average-defined-b"
+   "key": "fairtreat:ft-rdrecruit-equality-law-protects-applicants-not-onl",
+   "heading": "Equality law protects applicants, not only employees",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdrecruit-equality-law-protects-applicants-not-onl"
   },
   {
-   "key": "joining:jn-jnday-annual-leave-usually-starts-at-25-days-a",
-   "heading": "Annual leave usually starts at 25 days and rises to 30",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnday-annual-leave-usually-starts-at-25-days-a"
+   "key": "fairtreat:ft-rdrecruit-ask-the-recruiting-department-first-usin",
+   "heading": "Ask the recruiting department first, using the steps in the advert",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdrecruit-ask-the-recruiting-department-first-usin"
   },
   {
-   "key": "joining:jn-jnday-learning-at-least-5-days-a-year-plus-civ",
-   "heading": "Learning: at least 5 days a year, plus Civil Service Learning",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnday-learning-at-least-5-days-a-year-plus-civ"
+   "key": "fairtreat:ft-rdrecruit-the-civil-service-commission-who-can-com",
+   "heading": "The Civil Service Commission: who can complain and when",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdrecruit-the-civil-service-commission-who-can-com"
   },
   {
-   "key": "joining:jn-jnday-one-big-thing-a-yearly-learning-push-for",
-   "heading": "One Big Thing: a yearly learning push for every civil servant",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnday-one-big-thing-a-yearly-learning-push-for"
+   "key": "fairtreat:ft-rdrecruit-what-the-commission-cannot-look-at",
+   "heading": "What the Commission cannot look at",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdrecruit-what-the-commission-cannot-look-at"
   },
   {
-   "key": "joining:jn-jnday-staff-networks-and-the-civil-service-rac",
-   "heading": "Staff networks and the Civil Service Race Champion",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnday-staff-networks-and-the-civil-service-rac"
+   "key": "fairtreat:ft-rdrecruit-most-complaints-to-the-commission-are-ou",
+   "heading": "Most complaints to the Commission are out of scope",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdrecruit-most-complaints-to-the-commission-are-ou"
   },
   {
-   "key": "joining:jn-jnvet-nationality-rules-decide-which-jobs-you-",
-   "heading": "Nationality rules decide which jobs you can apply for",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnvet-nationality-rules-decide-which-jobs-you-"
+   "key": "fairtreat:ft-rdrecruit-if-a-reasonable-adjustment-is-refused",
+   "heading": "If a reasonable adjustment is refused",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdrecruit-if-a-reasonable-adjustment-is-refused"
   },
   {
-   "key": "joining:jn-jnvet-baseline-personnel-security-standard-bps",
-   "heading": "Baseline Personnel Security Standard (BPSS): four checks",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnvet-baseline-personnel-security-standard-bps"
+   "key": "fairtreat:ft-rdrecruit-northern-ireland-a-separate-civil-servic",
+   "heading": "Northern Ireland: a separate Civil Service and separate laws",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdrecruit-northern-ireland-a-separate-civil-servic"
   },
   {
-   "key": "joining:jn-jnvet-some-roles-need-security-clearance-ctc-s",
-   "heading": "Some roles need security clearance: CTC, SC or DV",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnvet-some-roles-need-security-clearance-ctc-s"
+   "key": "fairtreat:ft-rdrecruit-scotland-and-wales-same-commission-own-c",
+   "heading": "Scotland and Wales: same Commission, own codes",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdrecruit-scotland-and-wales-same-commission-own-c"
   },
   {
-   "key": "joining:jn-jnvet-clearance-usually-needs-years-of-uk-resi",
-   "heading": "Clearance usually needs years of UK residence",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnvet-clearance-usually-needs-years-of-uk-resi"
+   "key": "fairtreat:ft-rdwork-start-informally-where-it-is-safe-to-do-",
+   "heading": "Start informally where it is safe to do so",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdwork-start-informally-where-it-is-safe-to-do-"
   },
   {
-   "key": "joining:jn-jnvet-prove-your-right-to-work-before-your-fir",
-   "heading": "Prove your right to work before your first day",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnvet-prove-your-right-to-work-before-your-fir"
+   "key": "fairtreat:ft-rdwork-use-the-department-s-grievance-and-anti-",
+   "heading": "Use the department's grievance and anti-bullying procedures",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdwork-use-the-department-s-grievance-and-anti-"
   },
   {
-   "key": "joining:jn-jnvet-do-not-resign-until-you-have-a-formal-of",
-   "heading": "Do not resign until you have a formal offer",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnvet-do-not-resign-until-you-have-a-formal-of"
+   "key": "fairtreat:ft-rdwork-the-acas-code-sets-the-minimum-standard",
+   "heading": "The Acas Code sets the minimum standard",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdwork-the-acas-code-sets-the-minimum-standard"
   },
   {
-   "key": "joining:jn-jnvet-probation-a-settling-in-period-for-new-j",
-   "heading": "Probation: a settling-in period for new joiners",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnvet-probation-a-settling-in-period-for-new-j"
+   "key": "fairtreat:ft-rdwork-civil-service-code-concerns-nominated-of",
+   "heading": "Civil Service Code concerns: nominated officers, then the Commission",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdwork-civil-service-code-concerns-nominated-of"
   },
   {
-   "key": "joining:jn-cvisa-who-can-work-in-the-civil-service-the-na",
-   "heading": "Who can work in the Civil Service: the nationality rules",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-cvisa-who-can-work-in-the-civil-service-the-na"
+   "key": "fairtreat:ft-rdwork-whistleblowing-covers-public-interest-wr",
+   "heading": "Whistleblowing covers public-interest wrongdoing, not grievances",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdwork-whistleblowing-covers-public-interest-wr"
   },
   {
-   "key": "joining:jn-cvisa-some-posts-are-reserved-for-uk-nationals",
-   "heading": "Some posts are reserved for UK nationals only",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-cvisa-some-posts-are-reserved-for-uk-nationals"
+   "key": "fairtreat:ft-rdwork-trade-unions-can-advise-accompany-and-re",
+   "heading": "Trade unions can advise, accompany and represent",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdwork-trade-unions-can-advise-accompany-and-re"
   },
   {
-   "key": "joining:jn-cvisa-eu-eea-and-swiss-nationals-and-the-eu-se",
-   "heading": "EU, EEA and Swiss nationals and the EU Settlement Scheme",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-cvisa-eu-eea-and-swiss-nationals-and-the-eu-se"
+   "key": "fairtreat:ft-rdwork-staff-networks-and-employee-assistance",
+   "heading": "Staff networks and employee assistance",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdwork-staff-networks-and-employee-assistance"
   },
   {
-   "key": "joining:jn-cvisa-visa-sponsorship-is-possible-but-limited",
-   "heading": "Visa sponsorship is possible but limited by salary thresholds",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-cvisa-visa-sponsorship-is-possible-but-limited"
+   "key": "fairtreat:ft-rdwork-protection-from-victimisation-and-third-",
+   "heading": "Protection from victimisation and third-party harassment",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdwork-protection-from-victimisation-and-third-"
   },
   {
-   "key": "joining:jn-cvisa-which-departments-hold-a-sponsor-licence",
-   "heading": "Which departments hold a sponsor licence",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-cvisa-which-departments-hold-a-sponsor-licence"
+   "key": "fairtreat:ft-rdexternal-acas-early-conciliation-comes-before-mos",
+   "heading": "Acas early conciliation comes before most tribunal claims",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdexternal-acas-early-conciliation-comes-before-mos"
   },
   {
-   "key": "joining:jn-cvisa-graduate-visas-dependants-and-proving-yo",
-   "heading": "Graduate visas, dependants and proving your right to work",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-cvisa-graduate-visas-dependants-and-proving-yo"
+   "key": "fairtreat:ft-rdexternal-tribunal-time-limit-now-6-months-minus-1",
+   "heading": "Tribunal time limit: now 6 months minus 1 day in Great Britain",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdexternal-tribunal-time-limit-now-6-months-minus-1"
   },
   {
-   "key": "joining:jn-cvisa-where-to-get-regulated-immigration-advic",
-   "heading": "Where to get regulated immigration advice",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-cvisa-where-to-get-regulated-immigration-advic"
+   "key": "fairtreat:ft-rdexternal-northern-ireland-labour-relations-agency",
+   "heading": "Northern Ireland: Labour Relations Agency and a 3-month limit",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdexternal-northern-ireland-labour-relations-agency"
   },
   {
-   "key": "joining:jn-cfamily-you-can-ask-for-flexible-working-from-yo",
-   "heading": "You can ask for flexible working from your first day",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-cfamily-you-can-ask-for-flexible-working-from-yo"
+   "key": "fairtreat:ft-rdexternal-equality-advisory-and-support-service-ea",
+   "heading": "Equality Advisory and Support Service (EASS)",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdexternal-equality-advisory-and-support-service-ea"
   },
   {
-   "key": "joining:jn-cfamily-part-time-work-and-job-shares-in-the-civ",
-   "heading": "Part-time work and job shares in the Civil Service",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-cfamily-part-time-work-and-job-shares-in-the-civ"
+   "key": "fairtreat:ft-rdexternal-the-equality-commissions-great-britain-a",
+   "heading": "The equality commissions: Great Britain and Northern Ireland",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdexternal-the-equality-commissions-great-britain-a"
   },
   {
-   "key": "joining:jn-cfamily-maternity-adoption-and-shared-parental-l",
-   "heading": "Maternity, adoption and shared parental leave",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-cfamily-maternity-adoption-and-shared-parental-l"
+   "key": "fairtreat:ft-rdexternal-free-legal-advice-citizens-advice-law-ce",
+   "heading": "Free legal advice: Citizens Advice, Law Centres, unions and legal aid",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdexternal-free-legal-advice-citizens-advice-law-ce"
   },
   {
-   "key": "joining:jn-cfamily-partners-can-take-paternity-leave-from-d",
-   "heading": "Partners can take paternity leave from day one",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-cfamily-partners-can-take-paternity-leave-from-d"
+   "key": "fairtreat:ft-rdexternal-ombudsmen-do-not-handle-appointments-or-",
+   "heading": "Ombudsmen do not handle appointments or personnel matters",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdexternal-ombudsmen-do-not-handle-appointments-or-"
   },
   {
-   "key": "joining:jn-cfamily-carer-s-leave-one-week-a-year-from-your-",
-   "heading": "Carer's leave: one week a year from your first day",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-cfamily-carer-s-leave-one-week-a-year-from-your-"
+   "key": "fairtreat:ft-rdexternal-asking-questions-no-statutory-form-in-gr",
+   "heading": "Asking questions: no statutory form in Great Britain since 2014",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdexternal-asking-questions-no-statutory-form-in-gr"
   },
   {
-   "key": "joining:jn-cfamily-tax-free-childcare-2-for-every-8-you-pay",
-   "heading": "Tax-Free Childcare: £2 for every £8 you pay",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-cfamily-tax-free-childcare-2-for-every-8-you-pay"
+   "key": "fairtreat:ft-rdevidence-keep-a-dated-record-from-the-start",
+   "heading": "Keep a dated record from the start",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdevidence-keep-a-dated-record-from-the-start"
   },
   {
-   "key": "joining:jn-creturn-a-returnship-pilot-for-software-develope",
-   "heading": "A returnship pilot for software developers",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-creturn-a-returnship-pilot-for-software-develope"
+   "key": "fairtreat:ft-rdevidence-keep-the-recruitment-paper-trail",
+   "heading": "Keep the recruitment paper trail",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdevidence-keep-the-recruitment-paper-trail"
   },
   {
-   "key": "joining:jn-creturn-experience-from-outside-paid-work-counts",
-   "heading": "Experience from outside paid work counts",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-creturn-experience-from-outside-paid-work-counts"
+   "key": "fairtreat:ft-rdevidence-ask-for-your-own-data-with-a-subject-acc",
+   "heading": "Ask for your own data with a subject access request",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdevidence-ask-for-your-own-data-with-a-subject-acc"
   },
   {
-   "key": "joining:jn-creturn-age-is-not-a-barrier",
-   "heading": "Age is not a barrier",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-creturn-age-is-not-a-barrier"
+   "key": "fairtreat:ft-rdevidence-how-to-word-a-complaint",
+   "heading": "How to word a complaint",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdevidence-how-to-word-a-complaint"
   },
   {
-   "key": "joining:jn-creturn-changing-career-no-government-background",
-   "heading": "Changing career: no government background needed",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-creturn-changing-career-no-government-background"
+   "key": "fairtreat:ft-rdevidence-name-people-in-the-complaint-use-roles-i",
+   "heading": "Name people in the complaint, use roles in public",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdevidence-name-people-in-the-complaint-use-roles-i"
   },
   {
-   "key": "joining:jn-cvets-great-place-to-work-for-veterans-get-thr",
-   "heading": "Great Place to Work for Veterans: get through to the next stage",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-cvets-great-place-to-work-for-veterans-get-thr"
+   "key": "fairtreat:ft-rdevidence-do-not-let-internal-steps-run-down-the-c",
+   "heading": "Do not let internal steps run down the clock",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdevidence-do-not-let-internal-steps-run-down-the-c"
   },
   {
-   "key": "joining:jn-cvets-going-forward-into-employment-for-vetera",
-   "heading": "Going Forward into Employment for veterans and military partners",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-cvets-going-forward-into-employment-for-vetera"
+   "key": "fairtreat:ft-rdevidence-look-after-your-wellbeing-during-a-compl",
+   "heading": "Look after your wellbeing during a complaint",
+   "page": "fairtreat",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ft-rdevidence-look-after-your-wellbeing-during-a-compl"
   },
   {
-   "key": "joining:jn-cvets-the-career-transition-partnership-helps-",
-   "heading": "The Career Transition Partnership helps you plan the move",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-cvets-the-career-transition-partnership-helps-"
+   "key": "leadtargets:tg-tgcs-ethnic-minority-civil-servants-at-a-reco",
+   "heading": "Ethnic minority civil servants at a record 19.2%, SCS level at 10.6%",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgcs-ethnic-minority-civil-servants-at-a-reco"
   },
   {
-   "key": "joining:jn-cvets-the-office-for-veterans-affairs-and-the-",
-   "heading": "The Office for Veterans' Affairs and the Armed Forces Covenant",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-cvets-the-office-for-veterans-affairs-and-the-"
+   "key": "leadtargets:tg-tgcs-no-current-civil-service-wide-scs-ethnic",
+   "heading": "No current Civil Service-wide SCS ethnicity target",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgcs-no-current-civil-service-wide-scs-ethnic"
   },
   {
-   "key": "joining:jn-csecond-going-forward-into-employment-started-wi",
-   "heading": "Going Forward into Employment started with prison leavers",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-csecond-going-forward-into-employment-started-wi"
+   "key": "leadtargets:tg-tgcs-places-for-growth-2030-half-of-uk-based-",
+   "heading": "Places for Growth 2030: half of UK-based SCS outside London",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgcs-places-for-growth-2030-half-of-uk-based-"
   },
   {
-   "key": "joining:jn-csecond-ban-the-box-no-conviction-questions-at-t",
-   "heading": "'Ban the Box': no conviction questions at the first stage",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-csecond-ban-the-box-no-conviction-questions-at-t"
+   "key": "leadtargets:tg-tgcs-civil-service-ethnicity-pay-gaps-2026-bl",
+   "heading": "Civil Service ethnicity pay gaps 2026: Black and Mixed groups",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgcs-civil-service-ethnicity-pay-gaps-2026-bl"
   },
   {
-   "key": "joining:jn-csecond-spent-convictions-under-the-rehabilitati",
-   "heading": "Spent convictions under the Rehabilitation of Offenders Act 1974",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-csecond-spent-convictions-under-the-rehabilitati"
+   "key": "leadtargets:tg-tgcs-people-survey-discrimination-at-7-ethnic",
+   "heading": "People Survey: discrimination at 7%, ethnic background cited by 11%",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgcs-people-survey-discrimination-at-7-ethnic"
   },
   {
-   "key": "joining:jn-csecond-security-checks-unspent-convictions-are-",
-   "heading": "Security checks: unspent convictions are judged case by case",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-csecond-security-checks-unspent-convictions-are-"
+   "key": "leadtargets:tg-tgdept-dcms-equality-objectives-2025-to-2030-in",
+   "heading": "DCMS equality objectives 2025 to 2030 include a sponsorship pilot",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgdept-dcms-equality-objectives-2025-to-2030-in"
   },
   {
-   "key": "joining:jn-csecond-new-futures-network-links-prisons-with-e",
-   "heading": "New Futures Network links prisons with employers",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-csecond-new-futures-network-links-prisons-with-e"
+   "key": "leadtargets:tg-tgdept-departmental-pay-gap-reporting-gender-pu",
+   "heading": "Departmental pay gap reporting: gender published, ethnicity not listed",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgdept-departmental-pay-gap-reporting-gender-pu"
   },
   {
-   "key": "joining:jn-cother-care-leavers-internship-scheme",
-   "heading": "Care Leavers Internship Scheme",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-cother-care-leavers-internship-scheme"
+   "key": "leadtargets:tg-tgdept-psed-publish-information-yearly-and-obje",
+   "heading": "PSED: publish information yearly and objectives every four years",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgdept-psed-publish-information-yearly-and-obje"
   },
   {
-   "key": "joining:jn-cother-refugees-eligibility-depends-on-your-nat",
-   "heading": "Refugees: eligibility depends on your nationality",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-cother-refugees-eligibility-depends-on-your-nat"
+   "key": "leadtargets:tg-tgdept-ethnicity-pay-gap-law-proposed-not-intro",
+   "heading": "Ethnicity pay gap law: proposed, not introduced at 30 October 2026",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgdept-ethnicity-pay-gap-law-proposed-not-intro"
   },
   {
-   "key": "joining:jn-cother-disability-confident-an-interview-if-you",
-   "heading": "Disability Confident: an interview if you meet the minimum criteria",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-cother-disability-confident-an-interview-if-you"
+   "key": "leadtargets:tg-tgdept-proposed-reporting-would-show-black-and-",
+   "heading": "Proposed reporting would show Black and Mixed groups separately",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgdept-proposed-reporting-would-show-black-and-"
   },
   {
-   "key": "joining:jn-cother-adjustments-at-every-stage-access-to-wor",
-   "heading": "Adjustments at every stage, Access to Work and the passport",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-cother-adjustments-at-every-stage-access-to-wor"
+   "key": "leadtargets:tg-tgdept-equality-action-plans-voluntary-to-30-ma",
+   "heading": "Equality action plans: voluntary to 30 March 2027, mandatory planned",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgdept-equality-action-plans-voluntary-to-30-ma"
   },
   {
-   "key": "joining:jn-cother-qualifications-from-overseas-uk-enic",
-   "heading": "Qualifications from overseas: UK ENIC",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-cother-qualifications-from-overseas-uk-enic"
+   "key": "leadtargets:tg-tgwider-nhs-wres-tenth-national-report-published",
+   "heading": "NHS WRES: tenth national report published April 2026",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgwider-nhs-wres-tenth-national-report-published"
   },
   {
-   "key": "joining:jn-cother-faith-and-religious-observance-are-prote",
-   "heading": "Faith and religious observance are protected",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-cother-faith-and-religious-observance-are-prote"
+   "key": "leadtargets:tg-tgwider-mann-review-on-nhs-racism-progress-repor",
+   "heading": "Mann review on NHS racism: progress reports due 2026 and 2027",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgwider-mann-review-on-nhs-racism-progress-repor"
   },
   {
-   "key": "joining:jn-cother-more-jobs-outside-london-places-for-grow",
-   "heading": "More jobs outside London: Places for Growth",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-cother-more-jobs-outside-london-places-for-grow"
+   "key": "leadtargets:tg-tgwider-police-race-action-plan-continues-in-a-n",
+   "heading": "Police Race Action Plan continues in a new form after 2026 review",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgwider-police-race-action-plan-continues-in-a-n"
   },
   {
-   "key": "joining:jn-cother-early-careers-and-routes-without-a-degre",
-   "heading": "Early careers and routes without a degree",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-cother-early-careers-and-routes-without-a-degre"
+   "key": "leadtargets:tg-tgwider-windrush-compensation-scheme-monthly-dat",
+   "heading": "Windrush Compensation Scheme: monthly data, no closing target",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgwider-windrush-compensation-scheme-monthly-dat"
   },
   {
-   "key": "joining:jn-jnbarriers-black-african-fast-stream-applicants-14-",
-   "heading": "Black African Fast Stream applicants: 14% of applicants, 0.3% success",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnbarriers-black-african-fast-stream-applicants-14-"
+   "key": "leadtargets:tg-tgwider-no-standalone-uk-race-equality-strategy-",
+   "heading": "No standalone UK race equality strategy; REEG and maternity pledge",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgwider-no-standalone-uk-race-equality-strategy-"
   },
   {
-   "key": "joining:jn-jnbarriers-ethnic-minority-fast-stream-success-is-j",
-   "heading": "Ethnic minority Fast Stream success is just over half the white rate",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnbarriers-ethnic-minority-fast-stream-success-is-j"
+   "key": "leadtargets:tg-tgwider-wales-aims-to-be-an-anti-racist-nation-b",
+   "heading": "Wales aims to be an anti-racist nation by 2030",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgwider-wales-aims-to-be-an-anti-racist-nation-b"
   },
   {
-   "key": "joining:jn-jnbarriers-black-women-are-1-8-of-the-uk-workforce-",
-   "heading": "Black women are 1.8% of the UK workforce but 0.7% of IT professionals",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnbarriers-black-women-are-1-8-of-the-uk-workforce-"
+   "key": "leadtargets:tg-tgadvocate-ask-for-data-by-black-and-mixed-groups-n",
+   "heading": "Ask for data by Black and Mixed groups, not only 'ethnic minority'",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgadvocate-ask-for-data-by-black-and-mixed-groups-n"
   },
   {
-   "key": "joining:jn-jnbarriers-black-people-are-3-of-it-specialists-eth",
-   "heading": "Black people are 3% of IT specialists; ethnic minority IT unemployment is nearly three times the white rate",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnbarriers-black-people-are-3-of-it-specialists-eth"
+   "key": "leadtargets:tg-tgadvocate-press-for-published-pay-gap-action-plans",
+   "heading": "Press for published pay gap action plans with targets",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgadvocate-press-for-published-pay-gap-action-plans"
   },
   {
-   "key": "joining:jn-jnbarriers-61-of-black-graduates-felt-their-ethnici",
-   "heading": "61% of Black graduates felt their ethnicity disadvantaged them in job applications",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnbarriers-61-of-black-graduates-felt-their-ethnici"
+   "key": "leadtargets:tg-tgadvocate-turn-mentoring-into-sponsorship-that-cha",
+   "heading": "Turn mentoring into sponsorship that changes careers",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgadvocate-turn-mentoring-into-sponsorship-that-cha"
   },
   {
-   "key": "joining:jn-jnbarriers-ethnic-minority-civil-servants-report-mo",
-   "heading": "Ethnic minority civil servants report more discrimination, every year",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnbarriers-ethnic-minority-civil-servants-report-mo"
+   "key": "leadtargets:tg-tgadvocate-ask-for-a-stated-ambition-for-progressio",
+   "heading": "Ask for a stated ambition for progression to senior grades",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgadvocate-ask-for-a-stated-ambition-for-progressio"
   },
   {
-   "key": "joining:jn-jnbarriers-hidden-unwritten-rules-and-london-tilt-s",
-   "heading": "Hidden 'unwritten rules' and London tilt slow progression",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnbarriers-hidden-unwritten-rules-and-london-tilt-s"
+   "key": "leadtargets:tg-tgadvocate-use-lawful-positive-action-in-developmen",
+   "heading": "Use lawful positive action in development and recruitment",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgadvocate-use-lawful-positive-action-in-developmen"
   },
   {
-   "key": "joining:jn-jnbarriers-ethnic-minority-staff-are-least-represen",
-   "heading": "Ethnic minority staff are least represented in the Senior Civil Service",
-   "page": "joining",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#jn-jnbarriers-ethnic-minority-staff-are-least-represen"
+   "key": "leadtargets:tg-tgadvocate-hold-executive-sponsors-to-account-with-",
+   "heading": "Hold executive sponsors to account with objectives and reports",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgadvocate-hold-executive-sponsors-to-account-with-"
+  },
+  {
+   "key": "leadtargets:tg-tgadvocate-give-networks-a-formal-advisory-voice",
+   "heading": "Give networks a formal advisory voice",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgadvocate-give-networks-a-formal-advisory-voice"
+  },
+  {
+   "key": "leadtargets:tg-tgally-executive-sponsors-own-the-race-agenda-v",
+   "heading": "Executive sponsors: own the race agenda visibly",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgally-executive-sponsors-own-the-race-agenda-v"
+  },
+  {
+   "key": "leadtargets:tg-tgally-take-part-in-reverse-mentoring-and-360-d",
+   "heading": "Take part in reverse mentoring and 360-degree feedback",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgally-take-part-in-reverse-mentoring-and-360-d"
+  },
+  {
+   "key": "leadtargets:tg-tgally-sponsor-actively-advocate-open-doors-fin",
+   "heading": "Sponsor actively: advocate, open doors, find stretch work",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgally-sponsor-actively-advocate-open-doors-fin"
+  },
+  {
+   "key": "leadtargets:tg-tgally-be-an-active-bystander-and-call-out-raci",
+   "heading": "Be an active bystander and call out racism",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgally-be-an-active-bystander-and-call-out-raci"
+  },
+  {
+   "key": "leadtargets:tg-tgally-lead-by-example-on-zero-tolerance-of-har",
+   "heading": "Lead by example on zero tolerance of harassment",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgally-lead-by-example-on-zero-tolerance-of-har"
+  },
+  {
+   "key": "leadtargets:tg-tgally-learn-continuously-and-accept-you-will-m",
+   "heading": "Learn continuously and accept you will make mistakes",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgally-learn-continuously-and-accept-you-will-m"
+  },
+  {
+   "key": "leadtargets:tg-tgally-put-allyship-into-objectives-and-apprais",
+   "heading": "Put allyship into objectives and appraisal",
+   "page": "leaders",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#tg-tgally-put-allyship-into-objectives-and-apprais"
+  },
+  {
+   "key": "participate:yp-pavoice-uk-youth-parliament-elected-members-aged",
+   "heading": "UK Youth Parliament: elected members aged 11 to 18",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-pavoice-uk-youth-parliament-elected-members-aged"
+  },
+  {
+   "key": "participate:yp-pavoice-make-your-mark-and-the-house-of-commons-",
+   "heading": "Make Your Mark and the House of Commons sitting",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-pavoice-make-your-mark-and-the-house-of-commons-"
+  },
+  {
+   "key": "participate:yp-pavoice-scottish-youth-parliament-vote-at-12-to-",
+   "heading": "Scottish Youth Parliament: vote at 12 to 25, stand at 14 to 25",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-pavoice-scottish-youth-parliament-vote-at-12-to-"
+  },
+  {
+   "key": "participate:yp-pavoice-welsh-youth-parliament-senedd-ieuenctid-",
+   "heading": "Welsh Youth Parliament (Senedd Ieuenctid): 60 members",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-pavoice-welsh-youth-parliament-senedd-ieuenctid-"
+  },
+  {
+   "key": "participate:yp-pavoice-northern-ireland-youth-assembly-90-membe",
+   "heading": "Northern Ireland Youth Assembly: 90 members chosen at random",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-pavoice-northern-ireland-youth-assembly-90-membe"
+  },
+  {
+   "key": "participate:yp-pavoice-children-s-commissioners-young-advisers",
+   "heading": "Children's Commissioners' young advisers",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-pavoice-children-s-commissioners-young-advisers"
+  },
+  {
+   "key": "participate:yp-pavoice-local-youth-councils-and-young-mayors",
+   "heading": "Local youth councils and young mayors",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-pavoice-local-youth-councils-and-young-mayors"
+  },
+  {
+   "key": "participate:yp-pavoice-school-and-college-councils",
+   "heading": "School and college councils",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-pavoice-school-and-college-councils"
+  },
+  {
+   "key": "participate:yp-padem-voting-age-now-16-in-scotland-and-wales-",
+   "heading": "Voting age now: 16 in Scotland and Wales, 18 elsewhere",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-padem-voting-age-now-16-in-scotland-and-wales-"
+  },
+  {
+   "key": "participate:yp-padem-votes-at-16-for-all-uk-elections-a-bill-",
+   "heading": "Votes at 16 for all UK elections: a Bill, not yet law",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-padem-votes-at-16-for-all-uk-elections-a-bill-"
+  },
+  {
+   "key": "participate:yp-padem-register-to-vote-about-five-minutes-onli",
+   "heading": "Register to vote: about five minutes online",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-padem-register-to-vote-about-five-minutes-onli"
+  },
+  {
+   "key": "participate:yp-padem-petitions-thresholds-differ-by-parliamen",
+   "heading": "Petitions: thresholds differ by parliament",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-padem-petitions-thresholds-differ-by-parliamen"
+  },
+  {
+   "key": "participate:yp-padem-give-evidence-to-committees-and-answer-c",
+   "heading": "Give evidence to committees and answer consultations",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-padem-give-evidence-to-committees-and-answer-c"
+  },
+  {
+   "key": "participate:yp-padem-free-education-services-and-visits-at-ea",
+   "heading": "Free education services and visits at each parliament",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-padem-free-education-services-and-visits-at-ea"
+  },
+  {
+   "key": "participate:yp-paservice-magistrate-from-18-at-least-13-days-a-ye",
+   "heading": "Magistrate: from 18, at least 13 days a year",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paservice-magistrate-from-18-at-least-13-days-a-ye"
+  },
+  {
+   "key": "participate:yp-paservice-special-constable-volunteer-police-offic",
+   "heading": "Special constable: volunteer police officer from 18",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paservice-special-constable-volunteer-police-offic"
+  },
+  {
+   "key": "participate:yp-paservice-volunteer-police-cadets-a-uniformed-yout",
+   "heading": "Volunteer Police Cadets: a uniformed youth group",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paservice-volunteer-police-cadets-a-uniformed-yout"
+  },
+  {
+   "key": "participate:yp-paservice-nhs-youth-voice-and-patient-involvement",
+   "heading": "NHS youth voice and patient involvement",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paservice-nhs-youth-voice-and-patient-involvement"
+  },
+  {
+   "key": "participate:yp-paservice-school-or-academy-governor-from-18",
+   "heading": "School or academy governor: from 18",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paservice-school-or-academy-governor-from-18"
+  },
+  {
+   "key": "participate:yp-paservice-independent-custody-visitors-and-monitor",
+   "heading": "Independent custody visitors and monitoring boards",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paservice-independent-custody-visitors-and-monitor"
+  },
+  {
+   "key": "participate:yp-paservice-jury-service-a-civic-duty-from-18",
+   "heading": "Jury service: a civic duty from 18",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paservice-jury-service-a-civic-duty-from-18"
+  },
+  {
+   "key": "participate:yp-paservice-public-appointments-to-boards-of-public-",
+   "heading": "Public appointments to boards of public bodies",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paservice-public-appointments-to-boards-of-public-"
+  },
+  {
+   "key": "participate:yp-paeducation-civil-service-routes-from-age-16",
+   "heading": "Civil Service routes from age 16",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paeducation-civil-service-routes-from-age-16"
+  },
+  {
+   "key": "participate:yp-paeducation-summer-internship-programme-apply-by-5-n",
+   "heading": "Summer Internship Programme: apply by 5 November 2026",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paeducation-summer-internship-programme-apply-by-5-n"
+  },
+  {
+   "key": "participate:yp-paeducation-care-leavers-internship-scheme-18-months",
+   "heading": "Care Leavers Internship Scheme: 18 months, ages 18 to 30",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paeducation-care-leavers-internship-scheme-18-months"
+  },
+  {
+   "key": "participate:yp-paeducation-youth-select-committee-12-members-of-the",
+   "heading": "Youth Select Committee: 12 members of the Youth Parliament",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paeducation-youth-select-committee-12-members-of-the"
+  },
+  {
+   "key": "participate:yp-paeducation-dofe-debating-and-model-un-through-schoo",
+   "heading": "DofE, debating and Model UN through school",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paeducation-dofe-debating-and-model-un-through-schoo"
+  },
+  {
+   "key": "participate:yp-paeducation-cadet-forces-over-137-000-young-people",
+   "heading": "Cadet forces: over 137,000 young people",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paeducation-cadet-forces-over-137-000-young-people"
+  },
+  {
+   "key": "participate:yp-paeducation-national-citizen-service-has-closed",
+   "heading": "National Citizen Service has closed",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paeducation-national-citizen-service-has-closed"
+  },
+  {
+   "key": "participate:yp-paeducation-iwill-and-youth-social-action",
+   "heading": "#iWill and youth social action",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paeducation-iwill-and-youth-social-action"
+  },
+  {
+   "key": "participate:yp-paholiday-holiday-activities-and-food-programme-en",
+   "heading": "Holiday Activities and Food programme (England)",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paholiday-holiday-activities-and-food-programme-en"
+  },
+  {
+   "key": "participate:yp-paholiday-council-and-community-holiday-schemes",
+   "heading": "Council and community holiday schemes",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paholiday-council-and-community-holiday-schemes"
+  },
+  {
+   "key": "participate:yp-paholiday-museums-archives-and-heritage-takeover-d",
+   "heading": "Museums, archives and heritage: Takeover Day",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paholiday-museums-archives-and-heritage-takeover-d"
+  },
+  {
+   "key": "participate:yp-paholiday-gap-year-paid-placements-and-apprentices",
+   "heading": "Gap year: paid placements and apprenticeships",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paholiday-gap-year-paid-placements-and-apprentices"
+  },
+  {
+   "key": "participate:yp-paholiday-summer-placements-in-government",
+   "heading": "Summer placements in government",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paholiday-summer-placements-in-government"
+  },
+  {
+   "key": "participate:yp-paholiday-volunteering-in-the-holidays-and-gap-yea",
+   "heading": "Volunteering in the holidays and gap years",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paholiday-volunteering-in-the-holidays-and-gap-yea"
+  },
+  {
+   "key": "participate:yp-paholiday-working-in-the-holidays-if-you-are-under",
+   "heading": "Working in the holidays if you are under 16",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paholiday-working-in-the-holidays-if-you-are-under"
+  },
+  {
+   "key": "participate:yp-paholiday-safeguarding-for-under-18s",
+   "heading": "Safeguarding for under-18s",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-paholiday-safeguarding-for-under-18s"
+  },
+  {
+   "key": "participate:yp-parepresent-uk-youth-parliament-black-members-in-lin",
+   "heading": "UK Youth Parliament: Black members in line with population",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-parepresent-uk-youth-parliament-black-members-in-lin"
+  },
+  {
+   "key": "participate:yp-parepresent-magistrates-5-black-2-mixed-in-2026",
+   "heading": "Magistrates: 5% Black, 2% Mixed in 2026",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-parepresent-magistrates-5-black-2-mixed-in-2026"
+  },
+  {
+   "key": "participate:yp-parepresent-public-appointments-13-from-ethnic-minor",
+   "heading": "Public appointments: 13% from ethnic minorities",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-parepresent-public-appointments-13-from-ethnic-minor"
+  },
+  {
+   "key": "participate:yp-parepresent-civic-engagement-black-adults-at-the-eng",
+   "heading": "Civic engagement: Black adults at the England average",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-parepresent-civic-engagement-black-adults-at-the-eng"
+  },
+  {
+   "key": "participate:yp-parepresent-voter-registration-gaps-for-black-and-mi",
+   "heading": "Voter registration gaps for Black and Mixed-heritage people",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-parepresent-voter-registration-gaps-for-black-and-mi"
+  },
+  {
+   "key": "participate:yp-parepresent-council-candidates-in-wales-about-1-blac",
+   "heading": "Council candidates in Wales: about 1% Black, 1% Mixed",
+   "page": "participate",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#yp-parepresent-council-candidates-in-wales-about-1-blac"
   }
  ],
- "changed": [
-  {
-   "key": "equityact:eqa-tech-2",
-   "heading": "Algorithmic Transparency Recording Standard (UK government)",
-   "page": "equity",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#eqa-tech-2"
-  },
-  {
-   "key": "ethdata:ed-attitudes-public-trust-and-the-pay-gap-reporting-l",
-   "heading": "Public trust and the pay gap reporting law",
-   "page": "language",
-   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#ed-attitudes-public-trust-and-the-pay-gap-reporting-l"
-  }
- ],
+ "changed": [],
  "removed": []
 }

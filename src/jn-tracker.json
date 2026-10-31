@@ -1,0 +1,92 @@
+[
+ {
+  "field": "Vacancy reference number",
+  "why": "The unique identifier for the campaign; use it to name files and to quote in any query.",
+  "src": "https://www.lancaster.ac.uk/lums/careers/blogs/managing-your-job-search"
+ },
+ {
+  "field": "Job title and recruiting organisation",
+  "why": "Tells you which campaign is which and who to contact.",
+  "src": "https://www.lancaster.ac.uk/lums/careers/blogs/managing-your-job-search"
+ },
+ {
+  "field": "Grade (as worded in the advert)",
+  "why": "Grade structures vary between organisations; behaviours are pitched at the grade.",
+  "src": "https://www.gov.uk/guidance/using-the-civil-service-jobs-website"
+ },
+ {
+  "field": "Where you applied (Civil Service Jobs, employer's site or email)",
+  "why": "Applications made outside Civil Service Jobs cannot be tracked in your account.",
+  "src": "https://www.gov.uk/guidance/using-the-civil-service-jobs-website"
+ },
+ {
+  "field": "Link to the advert and saved copy of the advert",
+  "why": "Adverts come down after closing; you need them to prepare for interview.",
+  "src": "https://www.lancaster.ac.uk/lums/careers/blogs/managing-your-job-search"
+ },
+ {
+  "field": "Closing date and time",
+  "why": "Many adverts close at 23:55 (indicative); the advert's own closing time takes precedence.",
+  "src": "https://www.gov.uk/guidance/create-and-publish-job-adverts"
+ },
+ {
+  "field": "Date applied",
+  "why": "Shows how long each stage is taking and when to follow up.",
+  "src": "https://www.lancaster.ac.uk/lums/careers/blogs/managing-your-job-search"
+ },
+ {
+  "field": "Success Profiles elements and behaviours assessed",
+  "why": "Lets you match examples and feedback to what is being tested.",
+  "src": "https://www.civil-service-careers.gov.uk/how-to-apply/"
+ },
+ {
+  "field": "Version of CV, statement or examples submitted",
+  "why": "Keep a copy of what you sent so you can reuse it and refer back to it if you are invited to interview.",
+  "src": "https://nationalcareers.service.gov.uk/careers-advice/application-forms"
+ },
+ {
+  "field": "Online test window and result",
+  "why": "Tests can usually be taken within a set number of days given in the invitation email.",
+  "src": "https://www.gov.uk/government/publications/success-profiles/success-profiles-candidate-overview"
+ },
+ {
+  "field": "Sift date and score",
+  "why": "A significant number of organisations use a 1 to 7 scale where a score of at least 4 is generally needed to progress.",
+  "src": "https://www.gov.uk/guidance/using-the-civil-service-jobs-website"
+ },
+ {
+  "field": "Interview or assessment date, format and panel contact",
+  "why": "Interviews usually last 30 to 60 minutes and may include a presentation.",
+  "src": "https://www.gov.uk/government/publications/success-profiles/success-profiles-candidate-overview"
+ },
+ {
+  "field": "Outcome and date notified",
+  "why": "Closes the loop and starts any feedback request.",
+  "src": "https://www.civil-service-careers.gov.uk/how-to-apply/"
+ },
+ {
+  "field": "Feedback requested, received and key points",
+  "why": "Feedback helps you improve future applications.",
+  "src": "https://nationalcareers.service.gov.uk/careers-advice/application-forms"
+ },
+ {
+  "field": "Reserve list placement date and expiry",
+  "why": "Reserve lists can be used for up to 12 months.",
+  "src": "https://civilservicecommission.independent.gov.uk/document/02a-recruitment-principles-april-2018-final/"
+ },
+ {
+  "field": "Provisional offer, pre-employment checks and formal offer dates",
+  "why": "Checks can take several weeks; do not resign before a formal offer.",
+  "src": "https://www.gov.uk/guidance/using-the-civil-service-jobs-website"
+ },
+ {
+  "field": "Your notice period and agreed start date",
+  "why": "Your contract sets your notice; the statutory minimum is one week after a month's service.",
+  "src": "https://www.acas.org.uk/notice-periods/notice-when-resigning"
+ },
+ {
+  "field": "Next action and reminder date",
+  "why": "Follow-up reminders keep each application moving.",
+  "src": "https://www.liverpool.ac.uk/careers/students/blog/hits-tip-advice/step-by-stepguideforstudentsapplyingforjobsintheuk/"
+ }
+]
