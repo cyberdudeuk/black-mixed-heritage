@@ -446,3 +446,19 @@ details.dvtable > summary{cursor:pointer;color:var(--link,var(--green));text-dec
 .view input[type=checkbox],.view input[type=radio]{width:1.5rem;height:1.5rem;min-width:24px;min-height:24px;flex:none}
 @media (pointer:coarse){.view input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=color]),.view select,.view textarea{min-height:44px}.view input[type=range]{min-height:24px}.view .linkbtn{min-height:24px}}
 .btn.sm{min-height:24px}
+/* 2.28.0 type floor (D-159): no reading text under 12px */
+.tag,.tag.src,.tag.ref,.tag.ptst,.bhub,.lbl-long{font-size:.75rem}
+.view th,span.state{font-size:max(.75rem,1em)}
+small{font-size:max(.75rem,80%)}
+.bhub,.mtag,#a11yBtn,#a11yH,#a11yPanel legend,#dayLbl,.ribbon i,figcaption,.maker label,.filters label,#arcLegend span{font-size:max(.75rem,1em)}
+small{font-size:.75rem}
+.bhub,.mtag,.ribbon i,figcaption,small,.lvt,#a11yBtn,#a11yH,#a11yPanel legend,.maker label,.filters label,#arcLegend span,.cal button.ev{font-size:max(.75rem,1em)!important}
+small,figcaption,.bhub,.mtag,.ribbon i,.lvt,.cal button.ev{font-size:.75rem!important}
+.mcard dt,.mdl dt,.scard dt,.vbadge,.mini,.yf,.view .count,.view legend span{font-size:.75rem!important}
+.legend,.legend span,#linHeads span{font-size:.75rem!important}
+.awstory dt{font-weight:700;margin-top:.6rem}.awstory dd{margin:0 0 .2rem}.awrow{text-decoration:none;color:inherit}
+table.rowtext tbody th[scope=row]{text-transform:none;font-family:inherit;font-size:inherit;letter-spacing:0;font-weight:600}
+.fbform{max-width:44rem}.fbopts{display:grid;gap:.5rem;margin:.6rem 0}.fbopt{display:flex;gap:.6rem;align-items:flex-start;min-height:44px;padding:.4rem .2rem}
+.fbq{border:0;padding:0;margin:0}.fbq legend h3{margin:0;font-size:1.25rem}.fbq textarea{width:100%;min-height:8rem}.fberr{color:var(--red,#a3271e);font-weight:600}
+.fbbar{height:6px;background:var(--sunk);border-radius:3px;margin:.3rem 0 1rem}.fbbar span{display:block;height:100%;background:var(--ink);border-radius:3px}
+.fbnav,.fbsend{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;margin-top:1rem}.fbcheck>div{border-bottom:1px solid var(--line);padding:.5rem 0}.fbcheck dt{font-weight:700}.fbcheck dd{margin:.2rem 0 0}

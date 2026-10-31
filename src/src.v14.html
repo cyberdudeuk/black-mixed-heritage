@@ -2913,7 +2913,7 @@ const CHECKS=[
   breakIt:c=>{c.reviewed="2025-01-01";return c}},
  {id:"C11",n:"Global navigation fits the screen width",run:c=>({ok:!c.navOverflow,d:c.navOverflow?"Navigation overflows":"Fits, overflow folds into More"}),
   breakIt:c=>{c.navOverflow=true;return c}},
- {id:"C13",n:"No email addresses are published anywhere on the page",run:c=>{const m=c.emailText.match(/[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+\.[A-Za-z0-9.-]+/g)||[];return{ok:!m.length,d:m.length?"Found: "+[...new Set(m)].join(", "):"None found in text, links or form fields"}},
+ {id:"C13",n:"No email addresses are published anywhere on the page",run:c=>{const m=c.emailText.split(/\s+/).filter(x=>x.includes("@")).join(" ").match(/[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+\.[A-Za-z0-9.-]+/g)||[]; /* D-158: scan only words with an @, the same matches without backtracking over the whole page */return{ok:!m.length,d:m.length?"Found: "+[...new Set(m)].join(", "):"None found in text, links or form fields"}},
   breakIt:c=>{c.emailText+=" someone@example.gov.uk";return c}},
  {id:"C14",n:"Every diaspora place has valid coordinates, a category and an evidence level",run:c=>{const bad=c.diaspora.filter(d=>!(d.lat>=-90&&d.lat<=90&&d.lon>=-180&&d.lon<=180)||!DCATS[d.cat]||(d.src&&!SOURCES[d.src])||d.xy[0]<0||d.xy[0]>960||d.xy[1]<0||d.xy[1]>420);return{ok:!bad.length,d:bad.length?"Invalid: "+bad.map(b=>b.id).join(", "):`${c.diaspora.length} places, ${c.diaspora.filter(d=>d.src).length} with sources`}},
   breakIt:c=>{c.diaspora.push({id:"nowhere",lat:200,lon:0,cat:"x",src:null,xy:[-5,900]});return c}},

@@ -88,5 +88,11 @@ f = sys.argv[1]; d = json.load(open(f)); d['points'][1]['key'] = d['points'][0][
 PY
 expect_fail "data validation on a duplicate key in the open data" "duplicate keys" bash -c "cd '$T/pt-repo' && python3 tests/validate_data.py"
 
+# 13. data validation: a network feedback summary with too few responses (individual answers could be inferred)
+mkdir -p "$T/fs-repo"; cp -r data site dist tests src scripts package.json .github README.md CITATION.cff codemeta.json "$T/fs-repo/"
+printf '%s' '[{"id":"t1","period":"October 2026","org_type":"NHS or health body","channel":"Teams","n":6,"counts":{"value":{"Very valuable":3}}}]' > "$T/fs-repo/src/feedback-summaries.json"
+grep -q '"n":6' "$T/fs-repo/src/feedback-summaries.json" || { echo "injection 13 did not apply"; exit 2; }
+expect_fail "data validation on a feedback summary of fewer than 10 responses" "fewer than 10 responses" bash -c "cd '$T/fs-repo' && python3 tests/validate_data.py"
+
 if [ "$fails" -gt 0 ]; then echo "$fails check(s) did not catch their defect"; exit 1; fi
 echo "all injected defects were caught"

@@ -35,6 +35,18 @@ blocks = ics.split('BEGIN:VEVENT')[1:]
 dl_blocks = [b for b in blocks if 'CATEGORIES:Nomination deadlines' in b]
 need(all(b.count('BEGIN:VALARM') == 2 and b.count('END:VALARM') == 2 for b in dl_blocks), 'ics: a nomination deadline lacks its two reminders')
 need(all('VALARM' not in b for b in blocks if b not in dl_blocks), 'ics: reminders on an event that is not a deadline')
+# network and organisation feedback summaries (src/feedback-summaries.json): counts only, never individual answers (D-163)
+fs = json.load(open('src/feedback-summaries.json', encoding='utf8'))
+need(isinstance(fs, list), 'feedback-summaries.json: not a list')
+for x in fs if isinstance(fs, list) else []:
+    sid = x.get('id', '?')
+    need(all(x.get(k) for k in ('id', 'period', 'org_type', 'channel')), f'feedback summary {sid}: missing id, period, org_type or channel')
+    need(isinstance(x.get('n'), int) and x['n'] >= 10, f'feedback summary {sid}: fewer than 10 responses')
+    for q, c in (x.get('counts') or {}).items():
+        for o, v in c.items():
+            need(isinstance(v, int) and (v == 0 or 5 <= v <= x.get('n', 0)), f'feedback summary {sid}: count for {q} / {o} is under 5 or out of range')
+    need(not re.search(r'[\w.+-]+@[\w-]+\.[\w.-]+', json.dumps(x)), f'feedback summary {sid}: contains an email address')
+need(os.path.exists('.github/ISSUE_TEMPLATE/feedback.yml') and re.search(r'id:\s*answers\b', open('.github/ISSUE_TEMPLATE/feedback.yml', encoding='utf8').read()), 'issue form feedback.yml: missing, or has no answers field for the hub to fill in')
 # community events accepted through the repository (src/community-events.json): same rules as scripts/event_intake.py and the hub
 ce = json.load(open('src/community-events.json', encoding='utf8'))
 need(isinstance(ce, list), 'community-events.json: not a list')
