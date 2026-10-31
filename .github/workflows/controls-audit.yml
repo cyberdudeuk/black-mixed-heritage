@@ -22,11 +22,15 @@ jobs:
           persist-credentials: false
       - name: Compare enforced rules with .github/rulesets
         env:
+          # an optional fine-grained token with Administration: read lets the audit see bypass actors
+          RULES_TOKEN: ${{ secrets.CONTROLS_AUDIT_TOKEN || github.token }}
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
+        shell: bash
         run: |
-          gh api "repos/$REPO/rules/branches/main" > enforced-main.json
-          gh api "repos/$REPO/rulesets" --jq '.[].id' | while read -r id; do gh api "repos/$REPO/rulesets/$id"; done | jq -s . > rulesets.json
+          set -euo pipefail
+          GH_TOKEN="$RULES_TOKEN" gh api "repos/$REPO/rules/branches/main" > enforced-main.json
+          GH_TOKEN="$RULES_TOKEN" gh api "repos/$REPO/rulesets" --jq '.[].id' | while read -r id; do GH_TOKEN="$RULES_TOKEN" gh api "repos/$REPO/rulesets/$id"; done | jq -s . > rulesets.json
           python3 scripts/controls_audit.py enforced-main.json rulesets.json .github/rulesets > audit.md || drift=1
           cat audit.md
           num=$(gh issue list --repo "$REPO" --label controls-drift --state open --json number --jq '.[0].number // empty')

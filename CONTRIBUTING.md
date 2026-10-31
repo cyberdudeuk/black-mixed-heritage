@@ -34,7 +34,7 @@ The full suite (`npm test`, about an hour) runs every page at several widths and
 ## Pull requests
 - Use the template and tick each check honestly.
 - Keep each pull request to one change.
-- `main` is protected by the rulesets in `.github/rulesets/`: the required checks, including the **Controls guard**, must pass on an up-to-date branch, and every pull request is reviewed (see [GOVERNANCE.md](GOVERNANCE.md#checks-and-balances)). A pull request that changes workflows, rulesets or checks needs the owner's `controls-approved` label.
+- Once the owner has imported the rulesets in `.github/rulesets/`, `main` is protected by them: the required checks, including the **Controls guard**, must pass on an up-to-date branch, and every pull request is reviewed (see [GOVERNANCE.md](GOVERNANCE.md#checks-and-balances)). A pull request that changes workflows, rulesets or checks needs the owner's `controls-approved` label.
 - If users will notice the change, add a line to `docs/release-notes.md`.
 
 ## Being thanked

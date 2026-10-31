@@ -24,13 +24,14 @@ def main():
         run(["git", "config", "user.name", "guard test"], repo)
         base = run(["git", "rev-parse", "HEAD"], repo).stdout.strip()
 
-        def case(name, edit, labels, want_fail, want_text):
+        def case(name, edit, labels, want_fail, want_text, start=None, against=None):
             nonlocal fails
-            run(["git", "checkout", "-q", "-B", "t", base], repo)
+            run(["git", "checkout", "-q", "-B", "t", start or base], repo)
             edit(repo)
-            run(["git", "commit", "-q", "-am", name], repo)
+            run(["git", "add", "-A"], repo)
+            run(["git", "commit", "-q", "-m", name], repo)
             head = run(["git", "rev-parse", "HEAD"], repo).stdout.strip()
-            r = run([sys.executable, GUARD, base, head, *labels], repo)
+            r = run([sys.executable, GUARD, against or base, head, *labels], repo)
             failed = r.returncode != 0
             if failed != want_fail or want_text not in r.stdout:
                 fails += 1
@@ -70,7 +71,31 @@ def main():
         case("G1 the same change with the owner's label",
              sub(".github/workflows/checks.yml", r"^name: Checks$", "name: Checks (reviewed)"), ["controls-approved"], False, "G1 control files changed")
         case("G2 a line removed from a validator",
-             sub("tests/validate_data.py", r"^.*\S.*\n", ""), [], True, "G2 lines removed from checks")
+             sub("tests/validate_data.py", r"^.*\S.*\n", ""), [], True, "G2 checks changed")
+        case("G2 one ADDED line that switches a validator off (review finding 3)",
+             sub("tests/validate_data.py", r"\A", "import sys; sys.exit(0)\n"), [], True, "G2 checks changed")
+        case("G2 expect_fail redefined to always pass, injection count unchanged (review finding 3)",
+             sub("tests/negative.sh", r"^(expect_fail\(\) \{)", "expect_fail() { echo caught; }\n_old_\\1"), [], True, "G2 checks changed")
+        case("G2 a check renamed and shortened (review finding 4)",
+             lambda r: (run(["git", "mv", "tests/validate_data.py", "tests/vd.py"], r), sub("tests/vd.py", r"^.*\S.*\n", "")(r)),
+             [], True, "G2 checks changed")
+        case("G2 a new file in a tests/ subfolder (review finding 4)",
+             lambda r: (os.makedirs(os.path.join(r, "tests", "sub"), exist_ok=True),
+                        open(os.path.join(r, "tests", "sub", "x.py"), "w").write("pass\n")), [], True, "G2 checks changed")
+        case("G1 a workflow with a non-ASCII file name (review finding 2)",
+             lambda r: open(os.path.join(r, ".github", "workflows", "\u00fc.yml"), "w").write("name: x\n"), [], True, ".github/workflows/\u00fc.yml")
+        case("G1 the audit script switched off (review finding 5)",
+             sub("scripts/controls_audit.py", r"return 1\n", "return 0\n"), [], True, "scripts/controls_audit.py")
+        case("G1 an npm script CI runs replaced (review finding 5)",
+             sub("package.json", r'"test:quick": "[^"]*"', '"test:quick": "true"'), [], True, "package.json (scripts)")
+        case("G0 a branch that does not contain the latest main (review finding 8)",
+             sub("CONTRIBUTING.md", r"\Z", "\n"), [], True, "G0 the pull request does not contain the latest main",
+             start=base + "~1")
+        case("G3 a check removed and its call left in a comment (review finding 11)",
+             lambda r: (sub_first_check()(r), open(os.path.join(r, "src", "zz_note.js"), "w").write("// CHECKS.push({id:'C0'})\n")),
+             [], True, "G3 self-check registrations")
+        case("G5 version files deleted to dodge the comparison (review finding 12)",
+             lambda r: [os.remove(os.path.join(r, f)) for f in ("CITATION.cff", "codemeta.json")], [], True, "G5 the version can no longer be read")
         case("G3 a self-check removed",
              sub_first_check(), [], True, "G3 self-check registrations")
         case("G4 an injected-defect test removed (label cannot excuse it)",
@@ -124,6 +149,16 @@ def audit_cases(tmp):
     bypass = [dict(main_rs, bypass_actors=[{"actor_type": "RepositoryRole", "actor_id": 5}]), live[1]]
     fails += check("a bypass added", good_main, bypass, True, "has bypass actors")
     fails += check("tag ruleset removed", good_main, live[:1], True, "no active tag ruleset")
+    fails += check("bypass not visible is reported as unverified, not passed (review finding 6)", good_main,
+                   [{k: v for k, v in x.items() if k != "bypass_actors"} for x in live], False, "UNVERIFIED (not a pass)")
+    weak = json.loads(json.dumps(good_main))
+    for r in weak:
+        if r["type"] == "code_scanning":
+            r["parameters"]["code_scanning_tools"][0]["security_alerts_threshold"] = "critical"
+        if r["type"] == "pull_request":
+            r["parameters"]["dismiss_stale_reviews_on_push"] = False
+    fails += check("code scanning loosened", weak, live, True, "code scanning thresholds are weaker")
+    fails += check("stale approvals kept", weak, live, True, "approvals are not dismissed")
     return fails
 
 

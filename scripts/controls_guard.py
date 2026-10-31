@@ -8,9 +8,12 @@ cannot weaken or switch off the checks that judge it. It only READS the pull req
 Usage: python3 scripts/controls_guard.py BASE_SHA HEAD_SHA [LABEL ...]   (or labels as JSON in GUARD_LABELS)
 Exit 0 = pass, 1 = a control failed (each failure is printed as a GitHub error annotation).
 
-G1  Control files (workflows, rulesets, code owners, Dependabot, this guard) changed  -> needs the owner's
-    `controls-approved` label. Claude never applies that label; only the repository owner does.
-G2  A line removed from a check or validator in tests/                                -> needs the label.
+G0  The pull request does not contain the latest main                                -> fails ("update the branch").
+G1  Control files changed (workflows, actions, rulesets, code owners, Dependabot, the guard and audit,
+    the npm scripts CI runs)                                                          -> needs the owner's label.
+G2  Any change to anything under tests/ (additions too: one added line can disable a check) -> needs the label.
+    The label counts only when applied after the latest push: the workflow ignores it on a push event and
+    removes it, so the owner approves exactly the commits they saw. Claude never applies that label.
 G3  Fewer in-page self-checks (CHECKS.push) than on the base branch                   -> fails.
 G4  Fewer injected defects in tests/negative.sh than on the base branch               -> fails.
 G5  Version changed but not increased, or the five version places disagree            -> fails.
@@ -18,9 +21,9 @@ G5  Version changed but not increased, or the five version places disagree      
 import json, os, re, subprocess, sys
 
 APPROVAL_LABEL = "controls-approved"
-CONTROL_PATHS = (".github/workflows/", ".github/rulesets/", ".github/CODEOWNERS", ".github/dependabot.yml",
-                 "scripts/controls_guard.py", "tests/test_controls_guard.py")
-CHECK_FILES = re.compile(r"^tests/[^/]+\.(py|mjs|sh)$")
+CONTROL_PATHS = (".github/workflows/", ".github/actions/", ".github/rulesets/", ".github/CODEOWNERS",
+                 ".github/dependabot.yml", "scripts/controls_guard.py", "scripts/controls_audit.py")
+CHECK_PATHS = ("tests/",)
 
 
 def git(*args):
@@ -32,12 +35,32 @@ def show(sha, path):
     return r.stdout if r.returncode == 0 else None
 
 
+def changed_paths(base, head):
+    """Every path touched, both sides of a rename, unquoted (a non-ASCII name must not slip past a prefix test)."""
+    out = subprocess.run(["git", "-c", "core.quotePath=false", "diff", "--no-renames", "--name-only", "-z",
+                          f"{base}...{head}"], capture_output=True, check=False).stdout
+    return [p.decode("utf8", "surrogateescape") for p in out.split(b"\0") if p]
+
+
+_COMMENTS = re.compile(r"/\*.*?\*/|(?:^|(?<=\s))//[^\n]*|^\s*#[^\n]*", re.S | re.M)
+
+
 def count_selfchecks(sha):
+    """Real CHECKS.push( calls in src/, with comments removed so a commented-out or quoted-in-a-comment check
+    does not count. Limit: a check whose body is emptied still counts; the in-page checks and their
+    deliberate-break tests (tests/negative.sh) cover what each check does."""
     n = 0
     for path in git("ls-tree", "-r", "--name-only", sha, "--", "src").split():
-        if path.endswith((".js", ".html", ".py")):
-            n += (show(sha, path) or "").count("CHECKS.push(")
+        if path.endswith((".js", ".html", ".py", ".mjs")):
+            n += len(re.findall(r"\bCHECKS\.push\(", _COMMENTS.sub("", show(sha, path) or "")))
     return n
+
+
+def npm_scripts(sha):
+    try:
+        return json.loads(show(sha, "package.json") or "{}").get("scripts")
+    except ValueError:
+        return "unreadable"
 
 
 def count_injections(sha):
@@ -85,21 +108,24 @@ def main(argv):
     approved = APPROVAL_LABEL in labels
     errors, notes = [], []
 
-    changed = git("diff", "--name-only", f"{base}...{head}").split()
+    if subprocess.run(["git", "merge-base", "--is-ancestor", base, head], check=False).returncode != 0:
+        print("::error::G0 the pull request does not contain the latest main: update the branch, then the guard re-runs")
+        print("controls guard: FAILED")
+        return 1
+
+    changed = changed_paths(base, head)
     control = [p for p in changed if p.startswith(CONTROL_PATHS)]
+    if npm_scripts(base) != npm_scripts(head):
+        control.append("package.json (scripts)")
     if control:
         (notes if approved else errors).append(
             "G1 control files changed: " + ", ".join(control) +
             ("" if approved else f" (needs the owner's '{APPROVAL_LABEL}' label)"))
 
-    weakened = []
-    for line in git("diff", "--numstat", f"{base}...{head}").splitlines():
-        parts = line.split("\t")
-        if len(parts) == 3 and CHECK_FILES.match(parts[2]) and parts[1] not in ("0", "-"):
-            weakened.append(f"{parts[2]} (-{parts[1]} lines)")
-    if weakened:
+    touched = [p for p in changed if p.startswith(CHECK_PATHS)]
+    if touched:
         (notes if approved else errors).append(
-            "G2 lines removed from checks: " + ", ".join(weakened) +
+            "G2 checks changed: " + ", ".join(touched) +
             ("" if approved else f" (needs the owner's '{APPROVAL_LABEL}' label)"))
 
     b, h = count_selfchecks(base), count_selfchecks(head)
@@ -109,6 +135,9 @@ def main(argv):
     (errors if h < b else notes).append(f"G4 injected-defect tests: base {b}, pull request {h}")
 
     vb, vh = versions(base), versions(head)
+    lost = [k for k in vb if vb[k] is not None and vh.get(k) is None]
+    if lost:
+        errors.append("G5 the version can no longer be read from: " + ", ".join(lost))
     places = {k: v for k, v in vh.items() if v is not None}
     if len(set(places.values())) > 1:
         errors.append("G5 version places disagree: " + ", ".join(f"{k}={v}" for k, v in places.items()))
@@ -118,7 +147,7 @@ def main(argv):
             errors.append(f"G5 version went down: {vb['package.json']} -> {vh['package.json']}")
         else:
             v = vh["package.json"]
-            if v not in (show(head, "CHANGELOG.md") or ""):
+            if not re.search(rf"^\| {re.escape(v)} \|", show(head, "CHANGELOG.md") or "", re.M):
                 errors.append(f"G5 CHANGELOG.md has no entry for {v}")
             if not re.search(rf"^## {re.escape(v)}\b", show(head, "docs/release-notes.md") or "", re.M):
                 errors.append(f"G5 docs/release-notes.md has no '## {v}' section")
