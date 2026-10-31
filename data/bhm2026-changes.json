@@ -5,6 +5,30 @@
  "base": "2.27.0",
  "added": [
   {
+   "key": "quiz:q-e1961",
+   "heading": "In which year: Portugal ends the indigenato regime?",
+   "page": "learn",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#lg-games"
+  },
+  {
+   "key": "quiz:q-e1975",
+   "heading": "In which year: Angola, Mozambique and Cabo Verde become inde",
+   "page": "learn",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#lg-games"
+  },
+  {
+   "key": "quiz:q-e1981",
+   "heading": "In which year: The New Cross fire?",
+   "page": "learn",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#lg-games"
+  },
+  {
+   "key": "quiz:q-e2007",
+   "heading": "In which year: M-Pesa launches in Kenya?",
+   "page": "learn",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#lg-games"
+  },
+  {
    "key": "yearreview:bhm26-001",
    "heading": "Black History Month UK: Black History Month 2026",
    "page": "yearreview",
@@ -779,6 +803,119 @@
    "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#pw-now"
   }
  ],
- "changed": [],
- "removed": []
+ "changed": [
+  {
+   "key": "events:e-75k",
+   "heading": "c. 75,000 years ago: Engraved ochre at Blombos Cave",
+   "page": "history",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#e-75k"
+  },
+  {
+   "key": "events:e1961",
+   "heading": "1961: Portugal ends the indigenato regime",
+   "page": "history",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#e1961"
+  },
+  {
+   "key": "events:e1975",
+   "heading": "1975: Angola, Mozambique and Cabo Verde become independent",
+   "page": "history",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#e1975"
+  },
+  {
+   "key": "events:e1981",
+   "heading": "1981: The New Cross fire",
+   "page": "history",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#e1981"
+  },
+  {
+   "key": "events:e2007",
+   "heading": "2007: M-Pesa launches in Kenya",
+   "page": "history",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#e2007"
+  },
+  {
+   "key": "networks:nw-8",
+   "heading": "Local Government Association",
+   "page": "networks",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#nw-list"
+  },
+  {
+   "key": "networks:nw-12",
+   "heading": "BEMIS Scotland",
+   "page": "networks",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#nw-list"
+  },
+  {
+   "key": "networks:nw-13",
+   "heading": "Business in the Community: Race at Work Charter",
+   "page": "networks",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#nw-list"
+  },
+  {
+   "key": "networks:nw-14",
+   "heading": "10,000 Black Interns",
+   "page": "networks",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#nw-list"
+  },
+  {
+   "key": "networks:nw-15",
+   "heading": "UKBlackTech",
+   "page": "networks",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#nw-list"
+  },
+  {
+   "key": "networks:nw-16",
+   "heading": "Association for Black and Minority Engineers (AFBE-UK)",
+   "page": "networks",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#nw-list"
+  },
+  {
+   "key": "networks:nw-17",
+   "heading": "Runnymede Trust",
+   "page": "networks",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#nw-list"
+  },
+  {
+   "key": "networks:nw-18",
+   "heading": "Black Cultural Archives",
+   "page": "networks",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#nw-list"
+  },
+  {
+   "key": "networks:nw-19",
+   "heading": "The Black Curriculum",
+   "page": "networks",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#nw-list"
+  },
+  {
+   "key": "networks:nw-20",
+   "heading": "Historical Association",
+   "page": "networks",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#nw-list"
+  },
+  {
+   "key": "networks:nw-21",
+   "heading": "The National Archives",
+   "page": "networks",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#nw-list"
+  },
+  {
+   "key": "networks:nw-22",
+   "heading": "Stephen Lawrence Day Foundation",
+   "page": "networks",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#nw-list"
+  },
+  {
+   "key": "networks:nw-23",
+   "heading": "Your local council's Black History Month programme",
+   "page": "networks",
+   "url": "https://cyberdudeuk.github.io/black-mixed-heritage/#nw-list"
+  }
+ ],
+ "removed": [
+  {
+   "key": "networks:nw-24"
+  }
+ ]
 }

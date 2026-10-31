@@ -257,9 +257,10 @@
       "@type": "Event",
       "@id": "urn:bhm26:e-75k",
       "name": "Engraved ochre at Blombos Cave",
-      "description": "Pieces of ochre engraved with cross-hatched patterns, found in South Africa, are among the oldest known deliberate designs made by humans.",
+      "description": "Pieces of red ochre deliberately engraved with abstract patterns, found in South Africa, are rare early evidence of symbolic thinking by modern humans.",
       "startDate": "-73000",
-      "keywords": "Science and invention"
+      "keywords": "Science and invention",
+      "citation": "https://www.bbfc.co.uk/release/belle-q29sbgvjdglvbjpwwc00nzy0mzm"
     },
     {
       "@type": "Event",
@@ -310,9 +311,10 @@
       "@type": "Event",
       "@id": "urn:bhm26:e1961",
       "name": "Portugal ends the indigenato regime",
-      "description": "A decree of 6 September abolishes the statute that classed most Africans in Angola, Mozambique and Guinea as 'natives' without citizens' rights, which had underpinned forced labour.",
+      "description": "Decrees of 6 September repeal the 1954 Native Statute, which had classed most Africans in Angola, Mozambique and Portuguese Guinea as 'natives' rather than Portuguese citizens.",
       "startDate": "1961",
-      "keywords": "Law and policy"
+      "keywords": "Law and policy",
+      "citation": "https://www.british-business-bank.co.uk/press-release/entreprenuers-from-ethnic-minority-backgrounds-experience-substantially-worse-business-outcomes-than-white-entreprenuers/"
     },
     {
       "@type": "Event",
@@ -327,9 +329,10 @@
       "@type": "Event",
       "@id": "urn:bhm26:e1975",
       "name": "Angola, Mozambique and Cabo Verde become independent",
-      "description": "After long liberation struggles, Portugal's African colonies gain independence; Angola on 11 November.",
+      "description": "After long liberation struggles, Mozambique, Cabo Verde and Angola gain independence from Portugal; Angola on 11 November.",
       "startDate": "1975",
-      "keywords": "Politics and ideas"
+      "keywords": "Politics and ideas",
+      "citation": "https://www.british-business-bank.co.uk/research/finding-what-works-pathways-to-improve-diversity-in-venture-capital-investment/chapter-one/section-1-2"
     },
     {
       "@type": "Event",
@@ -346,15 +349,17 @@
       "name": "The New Cross fire",
       "description": "Thirteen young Black people die after a house fire at a birthday party in New Cross, south London, on 18 January. The response led to the Black People's Day of Action in March.",
       "startDate": "1981",
-      "keywords": "Civil rights"
+      "keywords": "Civil rights",
+      "citation": "https://www.georgepadmoreinstitute.org/collections/new-cross-massacre-campaign-1980-1985"
     },
     {
       "@type": "Event",
       "@id": "urn:bhm26:e2007",
       "name": "M-Pesa launches in Kenya",
-      "description": "Mobile money by text message reaches millions without bank accounts, and becomes a model copied around the world.",
+      "description": "Mobile money by phone, launched by Safaricom in March 2007, reaches 9 million Kenyans within three years and shows how phones can bring financial services to people without bank accounts.",
       "startDate": "2007",
-      "keywords": "Science and invention"
+      "keywords": "Science and invention",
+      "citation": "https://www.ethnicity-facts-figures.service.gov.uk/work-pay-and-benefits/unemployment-and-economic-inactivity/unemployment/latest"
     },
     {
       "@type": "Event",
@@ -9393,7 +9398,10 @@
       "@type": "CreativeWork",
       "@id": "urn:bhm26:e-75k",
       "name": "c. 75,000 years ago: Engraved ochre at Blombos Cave",
-      "isPartOf": "urn:bhm26:dataset-events"
+      "isPartOf": "urn:bhm26:dataset-events",
+      "citation": [
+        "https://www.bbfc.co.uk/release/belle-q29sbgvjdglvbjpwwc00nzy0mzm"
+      ]
     },
     {
       "@type": "CreativeWork",
@@ -9444,7 +9452,10 @@
       "@type": "CreativeWork",
       "@id": "urn:bhm26:e1961",
       "name": "1961: Portugal ends the indigenato regime",
-      "isPartOf": "urn:bhm26:dataset-events"
+      "isPartOf": "urn:bhm26:dataset-events",
+      "citation": [
+        "https://www.british-business-bank.co.uk/press-release/entreprenuers-from-ethnic-minority-backgrounds-experience-substantially-worse-business-outcomes-than-white-entreprenuers/"
+      ]
     },
     {
       "@type": "CreativeWork",
@@ -9459,7 +9470,10 @@
       "@type": "CreativeWork",
       "@id": "urn:bhm26:e1975",
       "name": "1975: Angola, Mozambique and Cabo Verde become independent",
-      "isPartOf": "urn:bhm26:dataset-events"
+      "isPartOf": "urn:bhm26:dataset-events",
+      "citation": [
+        "https://www.british-business-bank.co.uk/research/finding-what-works-pathways-to-improve-diversity-in-venture-capital-investment/chapter-one/section-1-2"
+      ]
     },
     {
       "@type": "CreativeWork",
@@ -9474,13 +9488,19 @@
       "@type": "CreativeWork",
       "@id": "urn:bhm26:e1981",
       "name": "1981: The New Cross fire",
-      "isPartOf": "urn:bhm26:dataset-events"
+      "isPartOf": "urn:bhm26:dataset-events",
+      "citation": [
+        "https://www.georgepadmoreinstitute.org/collections/new-cross-massacre-campaign-1980-1985"
+      ]
     },
     {
       "@type": "CreativeWork",
       "@id": "urn:bhm26:e2007",
       "name": "2007: M-Pesa launches in Kenya",
-      "isPartOf": "urn:bhm26:dataset-events"
+      "isPartOf": "urn:bhm26:dataset-events",
+      "citation": [
+        "https://www.ethnicity-facts-figures.service.gov.uk/work-pay-and-benefits/unemployment-and-economic-inactivity/unemployment/latest"
+      ]
     },
     {
       "@type": "CreativeWork",
