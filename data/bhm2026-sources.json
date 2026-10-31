@@ -5,6 +5,188 @@
   "note": "Each source is due to be read again 12 months after it was last read.",
   "sources": [
     {
+      "id": "S322",
+      "title": "BBFC: Belle",
+      "url": "https://www.bbfc.co.uk/release/belle-q29sbgvjdglvbjpwwc00nzy0mzm",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S310",
+      "title": "British Business Bank: Alone, together, entrepreneurship and diversity in the UK",
+      "url": "https://www.british-business-bank.co.uk/press-release/entreprenuers-from-ethnic-minority-backgrounds-experience-substantially-worse-business-outcomes-than-white-entreprenuers/",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S311",
+      "title": "British Business Bank: Finding what works, diversity in venture capital (citing Extend Ventures)",
+      "url": "https://www.british-business-bank.co.uk/research/finding-what-works-pathways-to-improve-diversity-in-venture-capital-investment/chapter-one/section-1-2",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S334",
+      "title": "Unemployment",
+      "url": "https://www.ethnicity-facts-figures.service.gov.uk/work-pay-and-benefits/unemployment-and-economic-inactivity/unemployment/latest",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S313",
+      "title": "Sky Sports: Black Footballers Partnership on the lack of Black coaches",
+      "url": "https://www.skysports.com/football/news/11711/12910631/black-footballers-partnership-football-association-refusing-to-address-lack-of-black-coaches",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S314",
+      "title": "Ofcom: diversity in the broadcasting workforce",
+      "url": "https://www.ofcom.org.uk/tv-radio-and-on-demand/equity-and-diversity/disabled-people-remain-underrepresented-across-broadcasting-workforce",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S315",
+      "title": "Advance HE: Equality in higher education, staff statistical report 2024",
+      "url": "https://advance-he.ac.uk/news-and-views/equality-higher-education-staff-statistical-report-2024",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S316",
+      "title": "Royal Museums Greenwich library: Natives (Two Roads, 2018)",
+      "url": "https://www.rmg.co.uk/collections/library/rmgl-157007",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S317",
+      "title": "Wikipedia: Noughts + Crosses",
+      "url": "https://en.wikipedia.org/wiki/Noughts_%2B_Crosses",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S318",
+      "title": "Bookreporter: Candice Carty-Williams",
+      "url": "https://www.bookreporter.com/authors/candice-carty-williams",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S319",
+      "title": "Wikipedia: Paradise (Gurnah novel)",
+      "url": "https://en.wikipedia.org/wiki/Paradise_(Gurnah_novel)",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S320",
+      "title": "The Booker Prizes: Paradise",
+      "url": "https://thebookerprizes.com/the-booker-library/books/paradise",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S321",
+      "title": "BBFC: Rocks",
+      "url": "https://www.bbfc.co.uk/release/rocks-q29sbgvjdglvbjpwwc00oty0mty",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S323",
+      "title": "BBFC: 12 Years a Slave",
+      "url": "https://www.bbfc.co.uk/release/12-years-a-slave-q29sbgvjdglvbjpwwc0zodqymtk",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S324",
+      "title": "Wikipedia: Babylon (1980 film)",
+      "url": "https://en.wikipedia.org/wiki/Babylon_(1980_film)",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S325",
+      "title": "BBFC: Summer of Soul",
+      "url": "https://www.bbfc.co.uk/release/summer-of-soul-q29sbgvjdglvbjpwwc01mza4otm",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S326",
+      "title": "BBFC: Queen of Katwe",
+      "url": "https://www.bbfc.co.uk/release/queen-of-katwe-q29sbgvjdglvbjpwwc00mzq3ndq",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S332",
+      "title": "Permanent exclusions",
+      "url": "https://www.ethnicity-facts-figures.service.gov.uk/education-skills-and-training/absence-and-exclusions/permanent-exclusions/latest",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S328",
+      "title": "Age groups",
+      "url": "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/demographics/age-groups/latest",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S329",
+      "title": "People in low income households",
+      "url": "https://www.ethnicity-facts-figures.service.gov.uk/work-pay-and-benefits/pay-and-income/people-in-low-income-households/latest",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S330",
+      "title": "Pupil exclusions (suspensions)",
+      "url": "https://www.ethnicity-facts-figures.service.gov.uk/education-skills-and-training/absence-and-exclusions/pupil-exclusions/latest",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S331",
+      "title": "GCSE results (Attainment 8)",
+      "url": "https://www.ethnicity-facts-figures.service.gov.uk/education-skills-and-training/11-to-16-years-old/gcse-results-attainment-8-for-children-aged-14-to-16-key-stage-4/latest",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S333",
+      "title": "Entry rates into higher education",
+      "url": "https://www.ethnicity-facts-figures.service.gov.uk/education-skills-and-training/higher-education/entry-rates-into-higher-education/latest",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S335",
+      "title": "Young people not in employment, education or training (NEET)",
+      "url": "https://www.ethnicity-facts-figures.service.gov.uk/work-pay-and-benefits/unemployment-and-economic-inactivity/young-people-not-in-employment-education-or-training-neet/latest",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S336",
+      "title": "Employment",
+      "url": "https://www.ethnicity-facts-figures.service.gov.uk/work-pay-and-benefits/employment/employment/latest",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
+      "id": "S337",
+      "title": "Ethnicity pay gaps, UK: 2012 to 2022",
+      "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/articles/ethnicitypaygapsingreatbritain/latest",
+      "read": "2026-10-21",
+      "due": "2027-10-21"
+    },
+    {
       "id": "S1",
       "title": "University of York: Black History Month 2026",
       "url": "https://www.york.ac.uk/about/equality/news-events/2026/black-history-month-2026/",
@@ -2161,20 +2343,6 @@
       "due": "2027-10-21"
     },
     {
-      "id": "S310",
-      "title": "British Business Bank: Alone, together, entrepreneurship and diversity in the UK",
-      "url": "https://www.british-business-bank.co.uk/press-release/entreprenuers-from-ethnic-minority-backgrounds-experience-substantially-worse-business-outcomes-than-white-entreprenuers/",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
-    },
-    {
-      "id": "S311",
-      "title": "British Business Bank: Finding what works, diversity in venture capital (citing Extend Ventures)",
-      "url": "https://www.british-business-bank.co.uk/research/finding-what-works-pathways-to-improve-diversity-in-venture-capital-investment/chapter-one/section-1-2",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
-    },
-    {
       "id": "S312",
       "title": "DCMS: Sector economic estimates, employment, January to December 2024",
       "url": "https://www.gov.uk/government/statistics/economic-estimates-employment-january-2024-to-december-2024-for-dcms-sectors/dcms-sector-economic-estimates-employment-january-2024-to-december-2024",
@@ -2182,177 +2350,9 @@
       "due": "2027-10-21"
     },
     {
-      "id": "S313",
-      "title": "Sky Sports: Black Footballers Partnership on the lack of Black coaches",
-      "url": "https://www.skysports.com/football/news/11711/12910631/black-footballers-partnership-football-association-refusing-to-address-lack-of-black-coaches",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
-    },
-    {
-      "id": "S314",
-      "title": "Ofcom: diversity in the broadcasting workforce",
-      "url": "https://www.ofcom.org.uk/tv-radio-and-on-demand/equity-and-diversity/disabled-people-remain-underrepresented-across-broadcasting-workforce",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
-    },
-    {
-      "id": "S315",
-      "title": "Advance HE: Equality in higher education, staff statistical report 2024",
-      "url": "https://advance-he.ac.uk/news-and-views/equality-higher-education-staff-statistical-report-2024",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
-    },
-    {
-      "id": "S316",
-      "title": "Royal Museums Greenwich library: Natives (Two Roads, 2018)",
-      "url": "https://www.rmg.co.uk/collections/library/rmgl-157007",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
-    },
-    {
-      "id": "S317",
-      "title": "Wikipedia: Noughts + Crosses",
-      "url": "https://en.wikipedia.org/wiki/Noughts_%2B_Crosses",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
-    },
-    {
-      "id": "S318",
-      "title": "Bookreporter: Candice Carty-Williams",
-      "url": "https://www.bookreporter.com/authors/candice-carty-williams",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
-    },
-    {
-      "id": "S319",
-      "title": "Wikipedia: Paradise (Gurnah novel)",
-      "url": "https://en.wikipedia.org/wiki/Paradise_(Gurnah_novel)",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
-    },
-    {
-      "id": "S320",
-      "title": "The Booker Prizes: Paradise",
-      "url": "https://thebookerprizes.com/the-booker-library/books/paradise",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
-    },
-    {
-      "id": "S321",
-      "title": "BBFC: Rocks",
-      "url": "https://www.bbfc.co.uk/release/rocks-q29sbgvjdglvbjpwwc00oty0mty",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
-    },
-    {
-      "id": "S322",
-      "title": "BBFC: Belle",
-      "url": "https://www.bbfc.co.uk/release/belle-q29sbgvjdglvbjpwwc00nzy0mzm",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
-    },
-    {
-      "id": "S323",
-      "title": "BBFC: 12 Years a Slave",
-      "url": "https://www.bbfc.co.uk/release/12-years-a-slave-q29sbgvjdglvbjpwwc0zodqymtk",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
-    },
-    {
-      "id": "S324",
-      "title": "Wikipedia: Babylon (1980 film)",
-      "url": "https://en.wikipedia.org/wiki/Babylon_(1980_film)",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
-    },
-    {
-      "id": "S325",
-      "title": "BBFC: Summer of Soul",
-      "url": "https://www.bbfc.co.uk/release/summer-of-soul-q29sbgvjdglvbjpwwc01mza4otm",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
-    },
-    {
-      "id": "S326",
-      "title": "BBFC: Queen of Katwe",
-      "url": "https://www.bbfc.co.uk/release/queen-of-katwe-q29sbgvjdglvbjpwwc00mzq3ndq",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
-    },
-    {
       "id": "S327",
       "title": "Graphic Online: African Science Academy inaugurated in Tema (8 February 2017)",
       "url": "https://www.graphic.com.gh/news/general-news/african-science-academy-inaugurated-in-tema.html",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
-    },
-    {
-      "id": "S328",
-      "title": "Age groups",
-      "url": "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/demographics/age-groups/latest",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
-    },
-    {
-      "id": "S329",
-      "title": "People in low income households",
-      "url": "https://www.ethnicity-facts-figures.service.gov.uk/work-pay-and-benefits/pay-and-income/people-in-low-income-households/latest",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
-    },
-    {
-      "id": "S330",
-      "title": "Pupil exclusions (suspensions)",
-      "url": "https://www.ethnicity-facts-figures.service.gov.uk/education-skills-and-training/absence-and-exclusions/pupil-exclusions/latest",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
-    },
-    {
-      "id": "S331",
-      "title": "GCSE results (Attainment 8)",
-      "url": "https://www.ethnicity-facts-figures.service.gov.uk/education-skills-and-training/11-to-16-years-old/gcse-results-attainment-8-for-children-aged-14-to-16-key-stage-4/latest",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
-    },
-    {
-      "id": "S332",
-      "title": "Permanent exclusions",
-      "url": "https://www.ethnicity-facts-figures.service.gov.uk/education-skills-and-training/absence-and-exclusions/permanent-exclusions/latest",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
-    },
-    {
-      "id": "S333",
-      "title": "Entry rates into higher education",
-      "url": "https://www.ethnicity-facts-figures.service.gov.uk/education-skills-and-training/higher-education/entry-rates-into-higher-education/latest",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
-    },
-    {
-      "id": "S334",
-      "title": "Unemployment",
-      "url": "https://www.ethnicity-facts-figures.service.gov.uk/work-pay-and-benefits/unemployment-and-economic-inactivity/unemployment/latest",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
-    },
-    {
-      "id": "S335",
-      "title": "Young people not in employment, education or training (NEET)",
-      "url": "https://www.ethnicity-facts-figures.service.gov.uk/work-pay-and-benefits/unemployment-and-economic-inactivity/young-people-not-in-employment-education-or-training-neet/latest",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
-    },
-    {
-      "id": "S336",
-      "title": "Employment",
-      "url": "https://www.ethnicity-facts-figures.service.gov.uk/work-pay-and-benefits/employment/employment/latest",
-      "read": "2026-10-21",
-      "due": "2027-10-21"
-    },
-    {
-      "id": "S337",
-      "title": "Ethnicity pay gaps, UK: 2012 to 2022",
-      "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/articles/ethnicitypaygapsingreatbritain/latest",
       "read": "2026-10-21",
       "due": "2027-10-21"
     },

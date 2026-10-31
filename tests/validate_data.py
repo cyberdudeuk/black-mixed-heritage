@@ -172,6 +172,13 @@ for f, limit in [('dist/bhm-2026-hub.html', 6_000_000), ('site/index.html', 6_30
     size = os.path.getsize(f)
     need(size <= limit, f'{f}: {size:,} bytes is over the {limit:,} byte budget')
     print(f'{f}: {size:,} bytes (budget {limit:,})')
+# unsourced claims may only go down (2.29.0, 31 October 2026: 33 claims gained a checked source, NICEM was removed as
+# dissolved in 2021); a new item with src:null fails here. Lower the baseline when more claims are sourced.
+UNSOURCED_BASELINE = 53
+def unsourced(text): return len(re.findall(r'\bsrc:null\b', text))
+_src = open('src/src.v14.html', encoding='utf-8').read()
+need(unsourced(_src) <= UNSOURCED_BASELINE, f'src/src.v14.html: {unsourced(_src)} items with no source, baseline {UNSOURCED_BASELINE}: add a source')
+assert unsourced(_src + ',src:null}') > UNSOURCED_BASELINE or unsourced(_src) < UNSOURCED_BASELINE, 'self-test: an added unsourced item must be caught'
 print(f'events {len(ids)} ({len(dl_blocks)} deadlines with reminders, {len(ce)} community), glossary {len(rows)}, sources {len(srcs)}, feed entries {len(entries)}, linked-data nodes {len(ld.get("@graph", []))}')
 if problems:
     print('\n'.join('PROBLEM ' + p for p in problems)); sys.exit(1)
