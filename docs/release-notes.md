@@ -32,7 +32,12 @@ The document identifier changes from `BHM26-PSH-` to `BHHUB-PSH-`, and the Teams
 ### How it was checked
 - **New build-time check (D-166).** The build fails if the old name appears anywhere in the page except the two places meant to keep it, or anywhere inside the downloadable Office templates. It was shown failing on a page with the old name added back in, and on the old slide template.
 - **Self-checks.** All 179 pass, and all are proven, on the renamed Claude edition.
-- **Full suite.** FULLSUITE_RESULT
+- **Full build suite on the Claude edition.**
+  - It passes at all four widths and themes: 1280px light 33/33, 1280px dark 30/30, 390px light 29/29 and 390px dark 28/28.
+  - Its injected-defect run showed every one of the 179 self-checks failing on its own planted defect.
+  - Two problems with the suite itself were fixed on the way:
+    - **D-170.** Its accessibility audit scanned the whole document, about 100 seconds a page across 63 pages, so the suite could not finish. It now scans each page plus the header, menu and footer, as CI does. It was shown catching an image with no text alternative.
+    - **D-171.** Two runs in parallel shared one copy of the page, so one run tested the other's deliberately broken copy. That produced three false failures, which did not recur once each run had its own copy.
 - **Repository checks.** Data, privacy and licence checks pass, and so do the in-page self-checks on both editions in CI.
 - **Launch edition.** It can still be rebuilt with `BHH_RENAME=0`.
 
