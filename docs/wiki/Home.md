@@ -1,4 +1,6 @@
-# BHM 2026 Hub
+# Black History and Heritage Hub
+
+Launched as the BHM 2026 Hub for Black History Month 2026; renamed on 1 November 2026 (3.0.0). The name is provisional until staff networks have been asked.
 
 An evidence-based hub on Black and Black-Mixed history, heritage and cultures, Africa and the African diaspora, built for Black History Month 2026 in the UK and designed to run all year, for the UK public sector and the communities it serves.
 

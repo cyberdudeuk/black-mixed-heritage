@@ -21,7 +21,7 @@ function openPoints(){const out=[];DATASETS.forEach(d=>{let arr=[];try{arr=d.arr
 /* what changed since the previous release (POINTS_BASE is embedded at build time from the previous release's points file) */
 function ptChanges(pts){pts=pts||openPoints();const B=typeof POINTS_BASE!=="undefined"&&POINTS_BASE&&POINTS_BASE.hashes?POINTS_BASE:null;if(!B)return{base:null,added:[],changed:[],removed:[],status:{}};
   const cur=new Map(pts.map(p=>[p.key,p]));const status={};const added=[],changed=[],removed=[];
-  pts.forEach(p=>{const h=B.hashes[p.key];if(h===undefined){added.push(p.key);status[p.key]="new"}else if(h!==p.hash){changed.push(p.key);status[p.key]="changed"}});
+  pts.forEach(p=>{const h=B.hashes[p.key];if(h===undefined){added.push(p.key);status[p.key]="new"}else if(h!==p.hash.slice(0,h.length)){changed.push(p.key);status[p.key]="changed"}});
   Object.keys(B.hashes).forEach(k=>{if(!cur.has(k))removed.push(k)});return{base:B.version,added,changed,removed,status}}
 let _ptStatusById=null;function ptStatusById(){if(_ptStatusById)return _ptStatusById;const pts=openPoints();const c=ptChanges(pts);_ptStatusById={};pts.forEach(p=>{if(c.status[p.key])_ptStatusById[p.id]=c.status[p.key]});return _ptStatusById}
 function ptCitation(id,h){const v=META.version;return `BHM 2026 Hub (${new Date(Date.parse(META.reviewed)).getFullYear()}). ‘${h}’. Version ${v}. ${SITE_URL}#${id}`}

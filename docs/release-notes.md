@@ -4,6 +4,35 @@ Repository: https://github.com/cyberdudeuk/black-mixed-heritage. Current version
 
 
 
+## 3.0.0 (1 November 2026): a lasting name
+
+Black History Month 2026 has ended, and the hub carries on all year under a lasting name: **Black History and Heritage Hub**. Black History Month 2026 (theme: Honouring Our Communities) stays as its launch edition.
+
+**The name is provisional** until staff networks have been asked. The feedback survey (open until 30 November) is one place to say what it should be called.
+
+### What changed
+- The title, masthead, linked-data name, calendar names, assistant name, self-report, citations, share text for intranets, email and social posts, contribution records and the application tracker's calendar now use the new name. The linked data keeps the old name as `alternateName`.
+- The repository README, citation file, CodeMeta record, licence credit line, wiki, user manual and the Release workflow's release title use the new name. Credit for material taken before 1 November can still say "BHM 2026 Hub".
+- Teams app package 1.2.0 with the new name and the same app id, so it replaces the existing app.
+- **Not changed:** the link and QR codes, page addresses (`#calendar` and so on), open-data file names and fields, the repository name and the website address.
+- **Kept on purpose:** the feedback survey still asks "Did you use the BHM 2026 Hub?", because the survey is already in circulation and answers must stay comparable.
+
+### Found and fixed while releasing
+- **Fingerprints shortened (D-167).** The single file passed its 6,000,000-byte budget, because each release embeds the previous release's point fingerprints and 2.28.0 added 133 points. Fingerprints are now stored as 6 of their 8 hex characters, about 6 KB smaller; the budget was not raised. A one-word change to one event is still reported as changed.
+- **Duplicate sources removed (D-168).** Three sources (S322, S332, S334) were each defined twice, with identical copies. The duplicates are removed, and the build now fails on any repeated source id.
+- **Wrong comparison in the Claude edition (D-169).** The Claude edition of 2.28.0 compared "what changed" with 2.26.0 instead of 2.27.0, because its copy of the previous release had not been refreshed. Both editions now compare 3.0.0 with 2.28.0, and the build fails if the comparison is with anything other than the previous release.
+- **Work merged straight into `main` carried over (#25).** The sources for 33 claims and the NICEM removal, merged on 31 October, are carried into the Claude edition.
+
+### Why it is a major version
+The document identifier changes from `BHM26-PSH-` to `BHHUB-PSH-`, and the Teams app's display name changes. Both are things people may rely on.
+
+### How it was checked
+- **New build-time check (D-166).** The build fails if the old name appears anywhere except the two places meant to keep it. It was shown failing on a page with the old name added back in.
+- **Self-checks.** All 179 pass, and all are proven, on the renamed Claude edition.
+- **Full suite.** The full build suite and its injected-defect run were run on the renamed edition.
+- **Repository checks.** Data, privacy and licence checks pass, and so do the in-page self-checks on both editions in CI.
+- **Launch edition.** It can still be rebuilt with `BHH_RENAME=0`.
+
 ## 2.28.0 (31 October 2026): Black History Month 2026 in review, feedback, learning pathways, and the design review acted on
 - **Why:** people asked for a post-mortem of what Black History Month 2026 achieved, based on user, community and network feedback; a way for people and organisations to give that feedback through the hub; survey content for Teams, Viva Engage and Slack feeding one shared evidence base; what the hub should be until next October; the syllabus the new National School of Government and Public Services should offer through the Manchester Digital Campus and every Places for Growth location, for every profession; and action on every design review recommendation. These became requirements R107 to R111.
 - **Year in review and feedback** (new page, This month menu): what went well, what did not, what was learned, and five actions with owners and dates, built on 61 published pages (42 from 2026, 19 marked as background), each read on 31 October 2026 and re-read word for word by an independent reviewer (15 corrected, one dropped because its page did not support it). It says plainly where evidence is thin: central government published little for BHM 2026 compared with 2025, almost no one published reach or outcomes, and the hub itself heard almost nothing back (no feedback saved in the Claude edition, which had not been shared, and 3 unique repository visitors in the fortnight to 31 October).

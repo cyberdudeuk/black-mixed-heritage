@@ -1,4 +1,6 @@
-# BHM 2026 Hub: Honouring Our Communities
+# Black History and Heritage Hub
+
+*Launched for Black History Month 2026 (theme: Honouring Our Communities) as the BHM 2026 Hub; renamed in 3.0.0 (1 November 2026) as a year-round resource. The link, QR codes, page addresses and open-data fields are unchanged. The name is provisional until staff networks have been asked.*
 
 [![Checks](https://github.com/cyberdudeuk/black-mixed-heritage/actions/workflows/checks.yml/badge.svg)](https://github.com/cyberdudeuk/black-mixed-heritage/actions/workflows/checks.yml)
 [![Deploy](https://github.com/cyberdudeuk/black-mixed-heritage/actions/workflows/pages.yml/badge.svg)](https://github.com/cyberdudeuk/black-mixed-heritage/actions/workflows/pages.yml)
@@ -29,13 +31,13 @@ Made in a personal capacity. Unofficial: not published or endorsed by Black Hist
 | **Open data** | Calendar (ICS, JSON), glossary (CSV), the whole hub as linked data (JSON-LD), sources, nomination deadlines, a release feed, and every item and sourced point with what changed since the last release, described by a [data package](data/datapackage.json), an [OpenAPI description](data/openapi.json) and a [DCAT catalogue](data/catalog.jsonld); see the [data dictionary](docs/data-dictionary.md) |
 | **Quality** | **179** self-checks run in every visitor's browser, each proven able to fail; WCAG 2.2 AA, with axe-core on every page at desktop and phone widths in CI; no personal data, cookies or tracking |
 | **Editions** | Website (GitHub Pages), one self-contained file that works offline, a Microsoft Teams tab, and inside Claude (where club votes and the shared ideas box are saved) |
-| **Version** | **2.28.0**: see the [release notes](docs/release-notes.md) and the [releases](https://github.com/cyberdudeuk/black-mixed-heritage/releases) |
+| **Version** | **3.0.0**: see the [release notes](docs/release-notes.md) and the [releases](https://github.com/cyberdudeuk/black-mixed-heritage/releases) |
 
 ## Use it
 - **Website (GitHub Pages):** https://cyberdudeuk.github.io/black-mixed-heritage/ (see [docs/teams-and-github-pages.md](docs/teams-and-github-pages.md)).
 - **Single file:** `dist/bhm-2026-hub.html` (also attached to each [release](https://github.com/cyberdudeuk/black-mixed-heritage/releases/latest), with checksums and a signed build attestation) is the whole hub in one self-contained page; it works offline with system fonts (the web fonts, QR codes and barcodes need a connection).
 - **Open data:** `data/` holds JSON-LD (Schema.org and SKOS), a glossary CSV, the events calendar as JSON and ICS (with deadline reminders), every source with its read and re-read dates, nomination deadlines, a release feed (Atom), every item and sourced point (`bhm2026-points.json`) with what changed since the last release, an OpenAPI 3.1 description and a DCAT catalogue. Every point on the website can be cited, linked to or corrected from its card.
-- **Microsoft Teams:** `teams/bhm-hub-teams-app-1.1.0.zip` shows the hub as a Teams tab.
+- **Microsoft Teams:** `teams/bhm-hub-teams-app-1.2.0.zip` shows the hub as a Teams tab.
 
 ## Help
 - **Report a bug, an accessibility barrier or a wrong fact:** open an issue using the forms. Issues are public, so do not include personal or sensitive information.

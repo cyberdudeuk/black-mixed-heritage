@@ -1,6 +1,6 @@
 # User manual
 
-The BHM 2026 Hub brings together Black and Black-Mixed history, heritage and cultures, Africa and the African diaspora, for Black History Month 2026 and all year. It was built for colleagues across the UK public sector and the communities they serve, and anyone can use it. Every figure links to a source that was read.
+The Black History and Heritage Hub (launched as the BHM 2026 Hub) brings together Black and Black-Mixed history, heritage and cultures, Africa and the African diaspora, for Black History Month 2026 and all year. It was built for colleagues across the UK public sector and the communities they serve, and anyone can use it. Every figure links to a source that was read.
 
 This manual explains how to open the hub, find your way, use its tools and take part. Inside the hub, **About → User guide and tours** has guided tours and step-by-step tutorials.
 
@@ -106,7 +106,7 @@ Go to **About → Help run the hub**.
 - It is unofficial, made in a personal capacity, and not endorsed by Black History Month UK or HM Government.
 
 ## 9. Reusing content and data
-- Text and data created for the hub: Creative Commons Attribution 4.0. Credit "BHM 2026 Hub".
+- Text and data created for the hub: Creative Commons Attribution 4.0. Credit "Black History and Heritage Hub".
 - Code: MIT.
 - Third-party content keeps its own licence (for example the Open Government Licence for public sector information).
 - Open data in `data/` and on the website: the events calendar (ICS and JSON), the glossary (CSV), the whole hub as linked data (JSON-LD), every source with its read date (JSON), nomination deadlines (JSON) and a release feed (Atom). See the [data dictionary](data-dictionary.md).

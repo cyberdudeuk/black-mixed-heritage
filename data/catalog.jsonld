@@ -7,8 +7,8 @@
   },
   "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/catalog.jsonld",
   "@type": "dcat:Catalog",
-  "dct:title": "BHM 2026 Hub open data",
-  "dct:description": "Open data from the BHM 2026 Hub: Black and Black-Mixed history, heritage and cultures, Africa and the African diaspora, for the UK public sector and the communities it serves. Generated from the hub itself on every build. Every event and figure links to the source it was checked against.",
+  "dct:title": "Black History and Heritage Hub open data",
+  "dct:description": "Open data from the Black History and Heritage Hub: Black and Black-Mixed history, heritage and cultures, Africa and the African diaspora, for the UK public sector and the communities it serves. Generated from the hub itself on every build. Every event and figure links to the source it was checked against.",
   "dct:language": {
     "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
   },
@@ -24,7 +24,7 @@
   },
   "dct:publisher": {
     "@type": "foaf:Organization",
-    "foaf:name": "BHM 2026 Hub"
+    "foaf:name": "Black History and Heritage Hub"
   },
   "dcat:dataset": [
     {
@@ -401,7 +401,7 @@
   "dcat:service": [
     {
       "@type": "dcat:DataService",
-      "dct:title": "BHM 2026 Hub open data (static API)",
+      "dct:title": "Black History and Heritage Hub open data (static API)",
       "dcat:endpointURL": {
         "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/"
       },

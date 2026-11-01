@@ -1,6 +1,6 @@
 {
   "name": "black-mixed-heritage",
-  "version": "2.28.0",
+  "version": "3.0.0",
   "private": true,
   "description": "Black and Black-Mixed history, heritage and cultures, Africa and the African diaspora: an evidence-based hub for Black History Month 2026 and all year, for the UK public sector and the communities it serves. Every figure is sourced. Source, build, tests and open data.",
   "keywords": [
@@ -33,7 +33,7 @@
   "bugs": {
     "url": "https://github.com/cyberdudeuk/black-mixed-heritage/issues/new/choose"
   },
-  "author": "BHM 2026 Hub",
+  "author": "Black History and Heritage Hub",
   "license": "MIT",
   "type": "module",
   "engines": {
