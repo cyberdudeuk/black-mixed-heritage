@@ -1,4 +1,4 @@
-**BHM 2026 Hub**
+**Black History and Heritage Hub**
 - [[Home]]
 - [[Using the hub]]
 - [[Taking part]]

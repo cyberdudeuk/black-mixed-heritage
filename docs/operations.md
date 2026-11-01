@@ -15,7 +15,7 @@ How the hub and this repository meet their non-functional requirements, how each
 ## 1. Service summary
 | Item | Value |
 |---|---|
-| Service | BHM 2026 Hub: a static, self-contained web page with open data |
+| Service | Black History and Heritage Hub (launched as the BHM 2026 Hub): a static, self-contained web page with open data |
 | Hosting | GitHub Pages (website and open data), GitHub Releases (downloads), the single file in `dist/` (offline), a Microsoft Teams tab (loads the website) |
 | Back end | None. No server code, database, login, cookies, analytics or personal data |
 | Run-time dependencies | Optional only: web fonts, QR code and barcode libraries from public CDNs. Without them the hub falls back to system fonts and hides QR codes and barcodes |

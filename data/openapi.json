@@ -1,9 +1,9 @@
 {
   "openapi": "3.1.0",
   "info": {
-    "title": "BHM 2026 Hub open data",
-    "version": "2.28.0",
-    "description": "Read-only open data files published with the BHM 2026 Hub on GitHub Pages. No key or sign-in. Text is licensed under Creative Commons Attribution 4.0.",
+    "title": "Black History and Heritage Hub open data",
+    "version": "3.0.0",
+    "description": "Read-only open data files published with the Black History and Heritage Hub on GitHub Pages. No key or sign-in. Text is licensed under Creative Commons Attribution 4.0.",
     "license": {
       "name": "CC BY 4.0",
       "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -139,7 +139,7 @@
       "get": {
         "operationId": "get_points",
         "summary": "Items and sourced points",
-        "description": "Every item the hub publishes: a stable key, the dataset and page it belongs to, its address, heading, text, figure, year, note, whether it is disputed, its sources, and a fingerprint used to detect changes between releases.",
+        "description": "Every item the hub publishes: a stable key, the dataset and page it belongs to, its address, heading, text, figure, year, note, whether it is disputed, its sources, and a fingerprint used to detect changes between releases. The baseline holds the fingerprints of the previous release; from 3.0.0 they are shortened to baseline.hashLength characters, so compare point.hash.slice(0, hashLength) with them.",
         "responses": {
           "200": {
             "description": "Items and sourced points",

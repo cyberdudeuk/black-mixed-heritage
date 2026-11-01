@@ -1,6 +1,6 @@
 # Reusing content and data
 
-- **Text and data created for the hub:** Creative Commons Attribution 4.0. Credit "BHM 2026 Hub".
+- **Text and data created for the hub:** Creative Commons Attribution 4.0. Credit "Black History and Heritage Hub".
 - **Code:** MIT.
 - **Third-party material** keeps its own licence (for example the Open Government Licence v3.0); see [THIRD_PARTY_NOTICES.md](https://github.com/cyberdudeuk/black-mixed-heritage/blob/main/THIRD_PARTY_NOTICES.md).
 

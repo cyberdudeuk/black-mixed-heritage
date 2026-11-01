@@ -41,7 +41,7 @@ The page loads the Microsoft Teams JavaScript library (version 2.56.0, embedded 
 
 ## 4. On 1 November (lasting name)
 
-The hub switches to the lasting name *Black History and Heritage Hub*, with BHM 2026 as its launch edition. Rebuild the site, then run `node teams/mkmanifest.mjs https://OWNER.github.io/REPO/ 1.1.0 rename` and `python3 teams/package.py`, and upload the new package to replace the app.
+The hub switches to the lasting name *Black History and Heritage Hub*, with BHM 2026 as its launch edition. Rebuild the site, then run `node teams/mkmanifest.mjs https://OWNER.github.io/REPO/ 1.2.0 rename` (done for this repository in 3.0.0: app package 1.2.0, same app id) and `python3 teams/package.py`, and upload the new package to replace the app.
 
 ## How this was checked
 

@@ -1,17 +1,17 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.19/MicrosoftTeams.schema.json",
   "manifestVersion": "1.19",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "id": "747f5b2b-ffc2-47d8-bbff-a9572a89f052",
   "developer": {
-    "name": "BHM 2026 Hub",
+    "name": "Black History and Heritage Hub",
     "websiteUrl": "https://cyberdudeuk.github.io/black-mixed-heritage/",
     "privacyUrl": "https://cyberdudeuk.github.io/black-mixed-heritage/#about",
     "termsOfUseUrl": "https://cyberdudeuk.github.io/black-mixed-heritage/#about"
   },
   "name": {
-    "short": "BHM 2026 Hub",
-    "full": "Black History Month 2026 Hub: Honouring Our Communities"
+    "short": "Black History Hub",
+    "full": "Black History and Heritage Hub (launched for Black History Month 2026)"
   },
   "description": {
     "short": "Black history, heritage and inclusion for the UK public sector.",
@@ -25,7 +25,7 @@
   "staticTabs": [
     {
       "entityId": "hub",
-      "name": "BHM 2026 Hub",
+      "name": "Black History Hub",
       "contentUrl": "https://cyberdudeuk.github.io/black-mixed-heritage/",
       "websiteUrl": "https://cyberdudeuk.github.io/black-mixed-heritage/",
       "scopes": [

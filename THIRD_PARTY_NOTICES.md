@@ -4,7 +4,7 @@
 | Part | Licence | Notes |
 |---|---|---|
 | Code written for the hub (`src/`, `tests/`, workflows) | MIT (`LICENSE`) | Permissive; suits reuse by public bodies and others |
-| Text and data created for the hub | CC BY 4.0 (`LICENSE-CONTENT.md`) | Attribution: "BHM 2026 Hub". Compatible with the Open Government Licence v3.0 |
+| Text and data created for the hub | CC BY 4.0 (`LICENSE-CONTENT.md`) | Attribution: "Black History and Heritage Hub" (earlier releases: "BHM 2026 Hub"). Compatible with the Open Government Licence v3.0 |
 | Public sector information quoted or summarised | Open Government Licence v3.0 | Attributed to the publisher on each point |
 | Short quotations from other publications | Fair dealing for criticism, review and quotation (Copyright, Designs and Patents Act 1988, s.30) | Quotes are short, attributed and linked; whole works are never reproduced |
 | Wikipedia | Not used as a source | Where a summary mentions Wikipedia, the words are the hub's own |
