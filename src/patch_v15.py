@@ -221,6 +221,17 @@ if os.environ.get('BHH_RENAME','1')=='1':  # on by default from 3.0.0 (1 Novembe
         import sys,re as _r2
         ctx=[t[m.start()-60:m.end()+20] for x in left for m in _r2.finditer(_r2.escape(x),t)]
         sys.exit('D-166: old name left where it should not be: '+' | '.join(ctx[:5]))
+    # D-166 also covers the downloadable Office templates embedded as zips (the review found the old name in their
+    # properties and on slide 8, where a page-text scan could not see it)
+    import zipfile as _zf,glob as _gl
+    _tdir=next((d for d in ('dist/templates','vendor/templates') if os.path.isdir(d)),None)
+    assert _tdir,'D-166: template folder not found'
+    for _f in sorted(_gl.glob(_tdir+'/*.pptx')+_gl.glob(_tdir+'/*.docx')):
+        with _zf.ZipFile(_f) as _z:
+            for _n in _z.namelist():
+                _d=_z.read(_n)
+                if b'BHM 2026 Hub' in _d or b'Black History Month 2026 Hub' in _d:
+                    __import__('sys').exit(f'D-166: old name inside {_f} ({_n})')
     print('rename applied; old name kept only where intended:',len(KEEP))
 # 2.27.0: Resources is merged into Partners and archives when the page starts (v53_ia.js); the static view is marked so that page counts match what visitors can open
 rep('<h3 id="calTitle" aria-live="polite" style="min-width:11ch;text-align:center"></h3>','<h2 id="calTitle" aria-live="polite" style="min-width:11ch;text-align:center"></h2>')
@@ -233,10 +244,15 @@ rep('const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s
 # because points-prev.json had not been refreshed). Checked on the finished page: the first two changelog entries and POINTS_BASE.
 _ci=s.index('const CHANGELOG=[');_prev=_re.findall(r'"([0-9]+\.[0-9]+\.[0-9]+) \(',s[_ci:_ci+40000])[:2]
 _pb=_re.search(r'const POINTS_BASE=.*?"version":"([0-9.]+)"',s)
-if len(_prev)==2 and (not _pb or _pb.group(1)!=_prev[1]):
+if len(_prev)<2 or _prev[0]!=_cur:  # fail loudly rather than pass silently (review of 3.0.0)
+    __import__('sys').exit(f"D-169: the changelog must start with this version {_cur} followed by the previous release; found {_prev}")
+if not _pb or _pb.group(1)!=_prev[1]:
     __import__('sys').exit(f"D-169: 'what changed' compares with {_pb.group(1) if _pb else 'nothing'}, not the previous release {_prev[1]}: refresh points-prev.json (or data/bhm2026-points.json) from release {_prev[1]}")
-_i=s.index('const SOURCES={');_blk=s[_i:s.index('\n};',_i)]
-_keys=_re.findall(r'^\s*(S\d+):\{',_blk,_re.M)
+_blocks=[]
+_i=s.index('const SOURCES={');_blocks.append(s[_i:s.index('\n};',_i)])
+for _m in _re.finditer(r'Object\.assign\(SOURCES,\{',s):  # sources added later in the page count too (review of 3.0.0)
+    _e=s.find('});',_m.end());_blocks.append(s[_m.end():_e if _e>0 else _m.end()])
+_keys=[k for b in _blocks for k in _re.findall(r'(?:^|[,{])\s*(S\d+):\{',b,_re.M)]
 _dup=sorted({k for k in _keys if _keys.count(k)>1})
 if _dup: __import__('sys').exit('D-168: source ids defined more than once (the later one silently wins): '+', '.join(_dup))
 open('src.html','w',encoding='utf8').write(s)

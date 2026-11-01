@@ -327,7 +327,7 @@
       "@id": "https://cyberdudeuk.github.io/black-mixed-heritage/data/bhm2026-points.json#dataset",
       "@type": "dcat:Dataset",
       "dct:title": "Items and sourced points",
-      "dct:description": "Every item the hub publishes: a stable key, the dataset and page it belongs to, its address, heading, text, figure, year, note, whether it is disputed, its sources, and a fingerprint used to detect changes between releases.",
+      "dct:description": "Every item the hub publishes: a stable key, the dataset and page it belongs to, its address, heading, text, figure, year, note, whether it is disputed, its sources, and a fingerprint used to detect changes between releases. The baseline holds the fingerprints of the previous release; from 3.0.0 they are shortened to baseline.hashLength characters, so compare point.hash.slice(0, hashLength) with them.",
       "dcat:keyword": [
         "Black history",
         "Black History Month",
