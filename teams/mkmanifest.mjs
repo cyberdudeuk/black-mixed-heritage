@@ -8,7 +8,7 @@ const idf=new URL('./app-id.txt',import.meta.url);const id=existsSync(idf)?readF
 const short=renamed?"Black History Hub":"BHM 2026 Hub";
 const full=renamed?"Black History and Heritage Hub (launched for Black History Month 2026)":"Black History Month 2026 Hub: Honouring Our Communities";
 const m={"$schema":"https://developer.microsoft.com/json-schemas/teams/v1.19/MicrosoftTeams.schema.json","manifestVersion":"1.19","version":ver,"id":id,
- "developer":{"name":"BHM 2026 Hub","websiteUrl":url,"privacyUrl":url+"#about","termsOfUseUrl":url+"#about"},
+ "developer":{"name":renamed?"Black History and Heritage Hub":"BHM 2026 Hub","websiteUrl":url,"privacyUrl":url+"#about","termsOfUseUrl":url+"#about"},
  "name":{"short":short,"full":full},
  "description":{"short":"Black history, heritage and inclusion for the UK public sector.","full":"A shared hub for departments, agencies, the NHS, local government, policing, justice and schools: the Black History Month 2026 theme, history and heritage, Africa and the diaspora, language guidance, a ready-to-run toolkit, posters, leadership actions and the evidence behind them. Every fact links to its source. Content only: the hub collects no personal data when used in Teams; anything you save stays in your own browser."},
  "icons":{"outline":"outline.png","color":"color.png"},"accentColor":"#2A1F17",

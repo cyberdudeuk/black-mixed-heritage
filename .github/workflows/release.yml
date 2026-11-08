@@ -61,5 +61,5 @@ jobs:
           VERSION: ${{ steps.v.outputs.version }}
         run: |
           v="v$VERSION"
-          gh release create "$v" --target "$GITHUB_SHA" --title "BHM 2026 Hub $v" --notes-file notes.md \
+          gh release create "$v" --target "$GITHUB_SHA" --title "Black History and Heritage Hub $v" --notes-file notes.md \
             dist/bhm-2026-hub.html data/* teams/*.zip SHA256SUMS.txt

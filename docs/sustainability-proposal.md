@@ -1,4 +1,4 @@
-# Help run the BHM 2026 Hub all year round
+# Help run the Black History and Heritage Hub all year round
 
 *A proposal for comment. Version 0.1, 21 October 2026. Nothing here is decided.*
 
