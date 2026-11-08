@@ -7,8 +7,9 @@
     {
       "@type": "CreativeWork",
       "@id": "urn:bhm26:hub",
-      "name": "Black History Month 2026 Hub",
-      "version": "2.28.0",
+      "name": "Black History and Heritage Hub",
+      "alternateName": "Black History Month 2026 Hub",
+      "version": "3.0.0",
       "dateModified": "2026-10-21",
       "about": "Honouring Our Communities"
     },

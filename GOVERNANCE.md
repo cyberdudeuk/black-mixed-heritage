@@ -1,7 +1,7 @@
 # Governance
 
 ## Status
-The BHM 2026 Hub is an unofficial project made in a personal capacity. It is not published or endorsed by Black History Month UK, HM Government or any employer.
+The Black History and Heritage Hub (launched as the BHM 2026 Hub) is an unofficial project made in a personal capacity. It is not published or endorsed by Black History Month UK, HM Government or any employer.
 
 ## Roles
 | Role | Who | Responsibilities |

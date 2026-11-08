@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use or adapt the hub, please cite it as below."
-title: "BHM 2026 Hub: Honouring Our Communities"
+title: "Black History and Heritage Hub (launched as the BHM 2026 Hub: Honouring Our Communities)"
 abstract: >-
   An evidence-based hub on Black and Black-Mixed history, heritage and cultures, Africa and the African diaspora,
   built for Black History Month 2026 in the UK and designed to run all year, for the UK public sector and the
@@ -13,8 +13,8 @@ abstract: >-
 type: software
 authors:
   - name: "BHM 2026 Hub contributors"
-version: "2.28.0"
-date-released: "2026-10-26"
+version: "3.0.0"
+date-released: "2026-11-01"
 url: "https://cyberdudeuk.github.io/black-mixed-heritage/"
 repository-code: "https://github.com/cyberdudeuk/black-mixed-heritage"
 license: [MIT, CC-BY-4.0]
