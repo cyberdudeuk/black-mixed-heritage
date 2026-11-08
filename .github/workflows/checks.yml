@@ -29,6 +29,8 @@ jobs:
         run: python3 tests/licence_check.py
       - name: Event suggestions are checked before they reach the calendar
         run: python3 tests/test_event_intake.py
+      - name: The controls guard and controls audit fail on every kind of weakening they exist to stop
+        run: python3 tests/test_controls_guard.py
       - name: Workflows are valid (actionlint, with shellcheck on every script)
         run: |
           python3 -m pip install --quiet --user --break-system-packages actionlint-py==1.7.12.25 shellcheck-py==0.11.0.1

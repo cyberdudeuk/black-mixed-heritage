@@ -1,0 +1,54 @@
+# Controls guard: the second line of defence on every pull request (see GOVERNANCE.md, "Checks and balances").
+# It runs from the BASE branch (pull_request_target), so a pull request cannot change or switch off the guard
+# that judges it. It only reads the pull request's files with git; it never checks them out or runs them, and its
+# token can read only. A change to the guard itself is judged by the version already on main.
+# The owner's controls-approved label counts only on the run its application triggers: on a push, a new or a
+# reopened pull request it is ignored and removed, so an approval covers exactly the commits the owner saw.
+name: Controls guard
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened, labeled, unlabeled, edited]
+    branches: [main]
+permissions:
+  contents: read
+  pull-requests: read
+jobs:
+  controls-guard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - name: Fetch the pull request's commits as data only
+        env:
+          PR: ${{ github.event.pull_request.number }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          git fetch --no-tags --quiet origin "refs/pull/${PR}/head"
+          test "$(git rev-parse FETCH_HEAD)" = "$HEAD_SHA" || { echo "::error::pull request head moved while checking; re-run"; exit 1; }
+      - name: Controls G1 to G5
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          ACTION: ${{ github.event.action }}
+          LABELS_JSON: ${{ toJSON(github.event.pull_request.labels.*.name) }}
+        run: |
+          case "$ACTION" in labeled|unlabeled|edited) GUARD_LABELS="$LABELS_JSON" ;; *) GUARD_LABELS="[]" ;; esac
+          export GUARD_LABELS
+          python3 scripts/controls_guard.py "$BASE_SHA" "$HEAD_SHA"
+  withdraw-approval:
+    # a new push withdraws the owner's approval: it covered the commits they saw, not these
+    if: github.event.action == 'synchronize' && contains(github.event.pull_request.labels.*.name, 'controls-approved')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      pull-requests: write
+    steps:
+      - name: Remove the controls-approved label
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          PR: ${{ github.event.pull_request.number }}
+        run: gh api -X DELETE "repos/$REPO/issues/$PR/labels/controls-approved" --silent

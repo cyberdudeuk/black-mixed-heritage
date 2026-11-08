@@ -123,5 +123,15 @@
   "name": "deadline",
   "color": "d4c5f9",
   "description": "An award or nomination deadline is coming up"
+ },
+ {
+  "name": "controls-approved",
+  "color": "0b4f2e",
+  "description": "Owner only: approves a change to the repository's controls (workflows, rulesets, checks)"
+ },
+ {
+  "name": "controls-drift",
+  "color": "b60205",
+  "description": "The rules GitHub enforces no longer match .github/rulesets"
  }
 ]
