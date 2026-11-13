@@ -77,7 +77,7 @@ Builds are deterministic: CI rebuilds `dist/` and `site/` and fails if the commi
 | Status shown on the hub | Labels `status: accepted`, `planned`, `in-progress`, `done`, `declined` | Set at the monthly triage |
 | Labels | `labels.yml` creates and updates labels from `.github/labels.json` | When that file changes |
 | Quality | `checks.yml`: privacy scan of the tree and of every embedded file; open data and licence checks; checks the committed pages match a fresh build; all in-page self-checks on both editions; checks of the checks; axe-core on every page at 1280px light and 390px dark | Every pull request and push to `main` |
-| Security | `codeql.yml` scans the JavaScript and the workflows; `scorecard.yml` rates supply-chain practices (all actions pinned by commit, least-privilege tokens) | Pull requests and pushes that change scripts or workflows, and weekly |
+| Security | `codeql.yml` scans the JavaScript and the workflows; `scorecard.yml` rates supply-chain practices (all actions pinned by commit, least-privilege tokens); `dependency-review.yml` stops a pull request that adds a dependency with a known moderate or worse vulnerability | Pull requests and pushes that change scripts or workflows, and weekly; dependency review on every pull request |
 | Availability | `uptime.yml` checks the website, calendar, linked data, ideas list and security contact, and opens an `uptime` issue if any fails | Every six hours |
 | Sources | `link-check.yml` checks every external link and opens a report issue | Monthly |
 | Routine | `monthly-triage.yml` opens the monthly triage and freshness checklist | First of each month |
