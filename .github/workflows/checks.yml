@@ -54,7 +54,8 @@ jobs:
       - name: Linters, failing on any finding (Ruff, ESLint, and the assembled page script; D-LINT-01)
         run: |
           python3 -m pip install --quiet --user --break-system-packages ruff==0.16.9
-          export PATH="$(python3 -m site --user-base)/bin:$PATH"
+          base=$(python3 -m site --user-base)
+          export PATH="$base/bin:$PATH"
           npm run -s lint
       - name: The committed pages match a fresh build from src/
         run: |
