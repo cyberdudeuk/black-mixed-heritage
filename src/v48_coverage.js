@@ -94,10 +94,10 @@ function covRows(pts){const rx=s=>new RegExp("\\b"+s.replace(/[.*+?^${}()|[\]\\]
   if(GOV_FUNCTIONS.length)groups.push(["functions","Government functions",GOV_FUNCTIONS.map(([n,re])=>{const r=re instanceof RegExp?re:rx(n);const P=pts.filter(p=>r.test(p.t));return{n,points:P.length,pages:new Set(P.map(p=>p.v)).size}})]);
   if(CS_PROFESSIONS.length)groups.push(["professions","Civil Service professions",CS_PROFESSIONS.map(([n,re])=>{const r=re instanceof RegExp?re:rx(n);const P=pts.filter(p=>r.test(p.t));return{n,points:P.length,pages:new Set(P.map(p=>p.v)).size}})]);
   return groups}
-let COV_CACHE=null;
+let _COV_CACHE=null;
 function renderCoverage(){const host=$("#covBody"),sum=$("#covSum");if(!host)return;
   const pts=covPoints();if(pts.length<500){host.innerHTML=`<p class="muted">Counting needs every page drawn. <button type="button" class="btn" id="covGo">Count now</button></p>`;const g=$("#covGo");if(g)g.addEventListener("click",()=>{if(typeof warmAll26==="function")warmAll26();setTimeout(renderCoverage,300)});return}
-  const groups=covRows(pts);COV_CACHE={pts:pts.length,groups};const all=groups.flatMap(([,,r])=>r);const by=b=>all.filter(r=>covBand(r.points)===b).length;
+  const groups=covRows(pts);_COV_CACHE={pts:pts.length,groups};const all=groups.flatMap(([,,r])=>r);const by=b=>all.filter(r=>covBand(r.points)===b).length;
   sum.innerHTML=COV_BANDS.map(([,b])=>kpi(String(by(b)),b+" ("+(b==="Gap"?"under 5":b==="Thin"?"5 to 14":b==="Moderate"?"15 to 39":b==="Good"?"40 to 99":"100 or more")+" points)",b==="Gap"||b==="Thin"?"info":"shield")).join("");
   const filt=($("#covFilt")||{}).value||"all";
   host.innerHTML=groups.map(([k,h,rows])=>{const list=rows.filter(r=>filt==="all"||(filt==="thin"&&(covBand(r.points)==="Thin"||covBand(r.points)==="Gap")));if(!list.length)return"";

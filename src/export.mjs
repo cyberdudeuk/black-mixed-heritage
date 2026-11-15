@@ -45,7 +45,7 @@ const pkg={profile:'data-package',name:'bhm-2026-hub',id:'https://cyberdudeuk.gi
 writeFileSync('data/datapackage.json',JSON.stringify(pkg,null,2));
 // 2.25.0: an OpenAPI 3.1 description of the static files, and a DCAT catalogue built from the data package
 const SITE='https://cyberdudeuk.github.io/black-mixed-heritage/';
-const MT={json:'application/json',jsonld:'application/ld+json',ics:'text/calendar',csv:'text/csv',atom:'application/atom+xml'};
+const _MT={json:'application/json',jsonld:'application/ld+json',ics:'text/calendar',csv:'text/csv',atom:'application/atom+xml'};
 const paths={};pkg.resources.forEach(r=>{paths['/data/'+r.path]={get:{operationId:'get_'+r.name.replace(/[^a-z0-9]/gi,'_'),summary:r.title,description:r.description,responses:{'200':{description:r.title,content:{[r.mediatype]:{}}}}}}});
 paths['/data/datapackage.json']={get:{operationId:'get_datapackage',summary:'Data package',description:'Frictionless Data Package describing every file.',responses:{'200':{description:'Data package',content:{'application/json':{}}}}}};
 const openapi={openapi:'3.1.0',info:{title:'Black History and Heritage Hub open data',version:pkg.version,description:'Read-only open data files published with the Black History and Heritage Hub on GitHub Pages. No key or sign-in. Text is licensed under Creative Commons Attribution 4.0.',license:{name:'CC BY 4.0',url:'https://creativecommons.org/licenses/by/4.0/'}},servers:[{url:SITE.replace(/\/$/,'')}],paths};

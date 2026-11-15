@@ -1,5 +1,5 @@
 """Tests for scripts/event_intake.py: valid suggestions are added; unsafe or malformed ones are refused with a reason."""
-import datetime, json, os, subprocess, sys, tempfile
+import json, os, subprocess, sys, tempfile
 HERE = os.path.dirname(os.path.abspath(__file__)); SCRIPT = os.path.join(HERE, '..', 'scripts', 'event_intake.py')
 TODAY = '2026-10-26'
 def body(what='Community heritage walk', start='2027-02-06', end='_No response_', where='Bristol', link='https://example.org/walk', why='_No response_', tick='X'):

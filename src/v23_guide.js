@@ -57,11 +57,11 @@ const GUIDE_FIND=[
  ["Related pages, previous and next","At the end of every page, follow related pages or step through the menus in order.","link"],
  ["Sources","Every fact links to its source; the Sources section at the end of each page lists what was read and when.","book"]];
 function renderGuide(){const v=$("#v-guide");if(!v||$("#gd-start .card"))return;
-  $("#gdMenus").innerHTML=NAV_GROUPS.map(g=>`<div class="card" data-accent="${ACCENT_V23[g.g]||"about"}"><h3>${icon(GROUP_ICONS[g.g]||"layers")} ${esc(g.g)}</h3><ul>${g.items.map(id=>`<li><a href="#${id}">${esc((VIEWS.find(x=>x[0]===id)||[,id])[1])}</a></li>`).join("")}</ul></div>`).join("");
+  $("#gdMenus").innerHTML=NAV_GROUPS.map(g=>`<div class="card" data-accent="${ACCENT_V23[g.g]||"about"}"><h3>${icon(GROUP_ICONS[g.g]||"layers")} ${esc(g.g)}</h3><ul>${g.items.map(id=>`<li><a href="#${id}">${esc((VIEWS.find(x=>x[0]===id)||[0,id])[1])}</a></li>`).join("")}</ul></div>`).join("");
   $("#gdFind").innerHTML=GUIDE_FIND.map(([h,p,ic])=>`<div class="card"><h3>${icon(ic)} ${esc(h)}</h3><p>${esc(p)}</p></div>`).join("");
   $("#gdTours").innerHTML=TOURS.map(t=>`<div class="card"><h3>${icon(t.ic)} ${esc(t.n)}</h3><p class="muted">${t.steps.length} steps</p><button type="button" class="btn" data-tour="${t.id}">${icon("right")} Start the tour</button></div>`).join("");
   $$("#gdTours [data-tour]").forEach(b=>b.addEventListener("click",()=>startTour(b.dataset.tour)));
-  $("#gdTuts").innerHTML=TUTORIALS.map(([h,view,steps])=>`<details class="card tut"><summary><b>${esc(h)}</b></summary><ol>${steps.map(s=>`<li>${esc(s)}</li>`).join("")}</ol><p><a href="#${view}">Go to ${esc((VIEWS.find(x=>x[0]===view)||[,view])[1])}</a></p></details>`).join("");
+  $("#gdTuts").innerHTML=TUTORIALS.map(([h,view,steps])=>`<details class="card tut"><summary><b>${esc(h)}</b></summary><ol>${steps.map(s=>`<li>${esc(s)}</li>`).join("")}</ol><p><a href="#${view}">Go to ${esc((VIEWS.find(x=>x[0]===view)||[0,view])[1])}</a></p></details>`).join("");
   window.__guide={tours:TOURS.length,tuts:TUTORIALS.length}}
 /* checks */
 CHECKS.push(

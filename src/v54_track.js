@@ -48,7 +48,7 @@ function trkRender(){const box=$("#trkApp");if(!box)return;let list=trkLoad();le
     if(b.dataset.d!=null&&confirm("Delete this application from your tracker?")){list.splice(+b.dataset.d,1);trkSave(list);draw();msg.textContent="Deleted."}});
   $("#trkCsv").addEventListener("click",()=>trkDownload("my-applications.csv","text/csv;charset=utf-8","﻿"+trkCsv(list)));
   $("#trkIcs").addEventListener("click",()=>trkDownload("my-application-dates.ics","text/calendar;charset=utf-8",trkIcs(list)));
-  $("#trkImport").addEventListener("change",e=>{const f=e.target.files&&e.target.files[0];if(!f)return;f.text().then(t=>{const add=trkParseCsv(t.replace(/^﻿/,""));list=add.concat(list).slice(0,200);trkSave(list);draw();msg.textContent=`Imported ${add.length} application(s).`}).catch(()=>{msg.textContent="That file could not be read."});e.target.value=""});
+  $("#trkImport").addEventListener("change",e=>{const f=e.target.files&&e.target.files[0];if(!f)return;f.text().then(t=>{const add=trkParseCsv(t.replace(/^\uFEFF/,""));list=add.concat(list).slice(0,200);trkSave(list);draw();msg.textContent=`Imported ${add.length} application(s).`}).catch(()=>{msg.textContent="That file could not be read."});e.target.value=""});
   $("#trkClear").addEventListener("click",()=>{if(list.length&&confirm("Delete every application in this tracker? Download a copy first if you want to keep it.")){list=[];trkSave(list);draw();msg.textContent="All deleted."}});
   draw()}
 function trkAudit(){const bad=[];const F=typeof JN_TRACK_FIELDS!=="undefined"?JN_TRACK_FIELDS:[];

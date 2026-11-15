@@ -113,7 +113,7 @@ const YR_YEAR=[
  ["Won't (for now)","Ask about ethnicity in feedback unless the analysis needs it and enough people answer to report it safely",["M28","M26"]]];
 function yrIds(ids){const seen=new Set();return (ids||[]).map(i=>{let k=YR_SRC[i]?i:null;if(!k){const m=(YR.yearround||[]).concat(YR.methods||[]).find(x=>x.alias===i);k=m?m.id:null}if(!k||seen.has(YR_SRC[k]))return "";seen.add(YR_SRC[k]);return yrTag(k)}).join("")}
 function yrRender(){const v=document.getElementById("v-yearreview");if(!v||typeof YR==="undefined")return;
-  const W=YR.items||[];const y26=W.filter(i=>i.year===2026);
+  const W=YR.items||[];const _y26=W.filter(i=>i.year===2026);
   const s1=document.getElementById("yrShort");if(s1)s1.innerHTML=`<aside class="card lpshort" aria-labelledby="yrShortH"><h2 class="lpshorth" id="yrShortH">${icon("info")} In short</h2><ul>
    <li>The 2026 theme, ${esc(YR.theme.name)}, was taken up widely, mostly by councils, universities, NHS networks and unions. ${yrTag("bhm26-001")}</li>
    <li>Little was published by central government compared with 2025, and almost no one published reach or outcomes. ${yrTag("bhm26-008")}${yrTag("bhm26-009")}</li>

@@ -12,7 +12,7 @@ const LT_SKIP=".biblio,[role=tooltip],button,[role=button],label,summary,select,
 function ltAnnotate(){if(typeof LT==="undefined")return 0;let n=0;const res=LT.filter(t=>t.re).map(t=>({t,rx:new RegExp(t.re,"i")}));
   document.querySelectorAll(".view").forEach(v=>{if(v.id==="v-review"||v.id==="v-assurance"||v.id==="v-design")return;const seen=new Set();
     const w=document.createTreeWalker(v,NodeFilter.SHOW_TEXT);const todo=[];let node;
-    while(node=w.nextNode()){const p=node.parentElement;if(!p||p.closest(LT_SKIP))continue;const box=p.closest(".card,section.block,li,tr")||v;
+    while((node=w.nextNode())){const p=node.parentElement;if(!p||p.closest(LT_SKIP))continue;const box=p.closest(".card,section.block,li,tr")||v;
       for(const {t,rx} of res){const m=node.nodeValue.match(rx);if(!m)continue;const key=t.id+"|"+(box.id||"")+"|"+[...v.querySelectorAll(".card,section.block,li,tr")].indexOf(box);if(seen.has(key))continue;
         /* only quoted or named uses: inside quotation marks, a citation, or a proper name (capitalised context) */
         const before=node.nodeValue.slice(0,m.index),after=node.nodeValue.slice(m.index+m[0].length);

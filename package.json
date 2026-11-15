@@ -51,9 +51,11 @@
     "check:data": "python3 tests/validate_data.py",
     "check:licences": "python3 tests/licence_check.py",
     "test:checks": "bash tests/negative.sh",
-    "test:a11y": "node tests/ci-axe.mjs site/index.html"
+    "test:a11y": "node tests/ci-axe.mjs site/index.html",
+    "lint": "ruff check . && eslint . && node tests/lint_bundle.mjs dist/bhm-2026-hub.html site/index.html"
   },
   "devDependencies": {
+    "@eslint/js": "9.39.5",
     "@fontsource/atkinson-hyperlegible": "5.3.0",
     "@fontsource/bricolage-grotesque": "5.3.0",
     "@fontsource/ibm-plex-mono": "5.3.0",
@@ -61,6 +63,8 @@
     "@fontsource/noto-sans-tifinagh": "5.3.0",
     "@fontsource/source-serif-4": "5.3.1",
     "axe-core": "4.14.0",
+    "eslint": "9.39.5",
+    "globals": "16.5.0",
     "pdf-lib": "1.17.1",
     "playwright": "1.64.1"
   }

@@ -17,7 +17,7 @@ const SRC_READ={
  S67:{s:"Beans roasted, ground and brewed in a clay jebena and served in three rounds; a daily gathering with relatives, neighbours and visitors"},
  S122:{t:"Bar Council: 10,000 Black Interns",u:"https://www.barcouncil.org.uk/support-for-barristers/equality-diversity-and-inclusion/race/10000-black-interns.html",s:"Paid internships for Black students and graduates at the London Living Wage, run by the 10,000 Interns Foundation"},
  S129:{s:"BYP Network connects Black professionals with each other and with corporations; careers festival and conference",also:{t:"BYP Network: Conference",u:"https://www.byp.network/conference"}},
- S265:{},S308:{s:"Co-founded 2016; Black Tech Fest first held virtually in 2020 and held during Black History Month (article from 2023)"}};
+ S308:{s:"Co-founded 2016; Black Tech Fest first held virtually in 2020 and held during Black History Month (article from 2023)"}};
 Object.entries(SRC_READ).forEach(([k,p])=>{const s=SOURCES[k];if(!s)throw new Error("v16_fix: no "+k);delete s.loc;s.rd=RD;Object.keys(p).forEach(f=>{if(p[f]!==undefined&&p[f]!=="")s[f]=p[f]})});
 /* S42: full text read on SciELO (Portuguese edition); the abstract alone did not give the figures */
 Object.assign(SOURCES.S42,{t:"Curto, J. C. (2023), 'Uma vila esclavagista: proprietários e seus cativos em Moçâmedes, 1855', Revista Brasileira de História 43(93): 225–263",u:"https://www.scielo.br/j/rbh/a/KTxBcTfhCsqh3rdCbGcvLgv/?lang=pt",s:"Late 1855: 850 people registered as enslaved in Moçâmedes, held by 111 owners; 19 men held 605 of them",rd:RD,also:{t:"DOI record: 10.1590/1806-93472023v43n93-12",u:"https://doi.org/10.1590/1806-93472023v43n93-12"}});delete SOURCES.S42.loc;

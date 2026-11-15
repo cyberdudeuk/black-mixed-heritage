@@ -51,6 +51,12 @@ jobs:
         run: |
           npm ci || npm install --no-audit --no-fund
           npx playwright install --with-deps chromium
+      - name: Linters, failing on any finding (Ruff, ESLint, and the assembled page script; D-LINT-01)
+        run: |
+          python3 -m pip install --quiet --user --break-system-packages ruff==0.16.9
+          base=$(python3 -m site --user-base)
+          export PATH="$base/bin:$PATH"
+          npm run -s lint
       - name: The committed pages match a fresh build from src/
         run: |
           npm run -s build

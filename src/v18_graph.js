@@ -71,7 +71,7 @@ function kgDetails(){const box=$("#kgDetails");const id=KG.sel||KG.focus;const n
 function kgSelect(id){if(!KG.nodes.has(id))return;KG.sel=id;const ids=kgVisible().ids;if(!ids.includes(id)){KG.focus=id}renderKG();const el=$(`#kgSvg [data-id="${CSS.escape(id)}"]`);if(el)el.focus({preventScroll:true})}
 function kgFocus(id){if(!KG.nodes.has(id))return;KG.focus=id;KG.sel=id;KG.pos=new Map();KG.zoom=1;KG.pan=[0,0];renderKG()}
 function kgSetMode(m){KG.mode=m;renderKG()}
-function kgMoveFocus(id,key){const P=KG.mode==="network"?KG.pos:null;const nodes=$$("#kgSvg .kgn");const cur=nodes.find(n=>n.dataset.id===id);if(!cur)return;
+function kgMoveFocus(id,key){const _P=KG.mode==="network"?KG.pos:null;const nodes=$$("#kgSvg .kgn");const cur=nodes.find(n=>n.dataset.id===id);if(!cur)return;
   const xy=g=>{const m=/translate\(([-\d.]+) ([-\d.]+)\)/.exec(g.getAttribute("transform"));return m?[+m[1],+m[2]]:[0,0]};const [x0,y0]=xy(cur);const dir={ArrowRight:[1,0],ArrowLeft:[-1,0],ArrowDown:[0,1],ArrowUp:[0,-1]}[key];
   let best=null,bd=Infinity;nodes.forEach(n=>{if(n===cur)return;const [x,y]=xy(n);const dx=x-x0,dy=y-y0;const along=dx*dir[0]+dy*dir[1];if(along<=0)return;const off=Math.abs(dx*dir[1])+Math.abs(dy*dir[0]);const d=along+off*2;if(d<bd){bd=d;best=n}});
   if(best){nodes.forEach(n=>n.tabIndex=-1);best.tabIndex=0;best.focus()}}
