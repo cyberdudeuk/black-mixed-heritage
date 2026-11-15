@@ -161,7 +161,7 @@ for(const [w,scheme] of [[1280,'light'],[1280,'dark'],[390,'light'],[390,'dark']
      MAPS.africa.setView('heat');out.views['africa:heat']=[...document.querySelectorAll('#afSvg .af')].filter(p=>p.style.fill).length;MAPS.africa.setView('map');
      MAPS.world.setView('globe');const n0=window.__globe.n;document.querySelector('[data-c="120,0"]').click();const n1=window.__globe.n;out.globeTurns=window.__globe.c.lon===120;out.globeChange=n0!==n1;
      ['world','africa','uk'].forEach(i=>MAPS[i].setView(MAPS[i].cfg.views[0].k));out.expect={world:DIASPORA.length,af:WORLD.countries.filter(c=>c.r).length,uk:PLACES.length};return out});
-   const vbad=Object.entries(m.views).filter(([k,v])=>!v);const rows=m.views['world:table']===m.expect.world&&m.views['africa:table']===m.expect.af&&m.views['uk:table']===m.expect.uk;
+   const vbad=Object.entries(m.views).filter(([,v])=>!v);const rows=m.views['world:table']===m.expect.world&&m.views['africa:table']===m.expect.af&&m.views['uk:table']===m.expect.uk;
    (m.zoom&&m.key&&m.reset&&!vbad.length&&rows&&m.globeTurns)?pass(`Interactive maps ${tag}`,`zoom, keyboard pan, reset, ${Object.keys(m.views).length} views, tables complete, globe turns`):fail(`Interactive maps ${tag}`,JSON.stringify(m));}
   // D-011: the masthead shows the logo; the drawer toggle sits outside it, is visible and works
   {await p.evaluate(()=>{location.hash='history'});await p.waitForTimeout(200);
@@ -177,7 +177,7 @@ for(const [w,scheme] of [[1280,'light'],[1280,'dark'],[390,'light'],[390,'dark']
    (a.open&&a.res>0&&a.closed&&a.skills>=5&&a.spec>500)?pass(`AI assistant ${tag}`,`${a.skills} skills, fallback found ${a.res} results`):fail(`AI assistant ${tag}`,JSON.stringify(a));}
   // D-014: agentic tools act on the page and can be undone
   if(w===1280){const g=await p.evaluate(async()=>{const T=n=>AI_TOOLS.find(t=>t.name===n);const before=document.querySelector('#pTitle').value;T('fill_poster').execute({title:'Test lunch'});const filled=document.querySelector('#pTitle').value;const undo=document.querySelector('#aiLog [data-undo]');if(undo)undo.click();const restored=document.querySelector('#pTitle').value===before;
-     const r=T('search_hub').execute({q:'Windrush'}).length;const nets=T('filter_networks').execute({nation:'Wales'}).length;document.querySelector('#nwNation').value='all';renderNetworks();let threw=false;try{T('navigate').execute({href:'javascript:alert(1)'})}catch(e){threw=true}return{filled:filled==='Test lunch',restored,r,nets,threw}});
+     const r=T('search_hub').execute({q:'Windrush'}).length;const nets=T('filter_networks').execute({nation:'Wales'}).length;document.querySelector('#nwNation').value='all';renderNetworks();let threw=false;try{T('navigate').execute({href:'javascript:alert(1)'})}catch{threw=true}return{filled:filled==='Test lunch',restored,r,nets,threw}});
    (g.filled&&g.restored&&g.r>0&&g.nets>0&&g.threw)?pass(`AI page tools ${tag}`,`fill and undo, search ${g.r}, Wales networks ${g.nets}, unsafe link refused`):fail(`AI page tools ${tag}`,JSON.stringify(g));}
   // D-015: every page that cites sources has a matching bibliography, and myths/schemes trace into the lineage
   {const b=await p.evaluate(()=>{const r=VIEWS.filter(([id])=>id!=='assurance').map(([id])=>{const v=document.querySelector('#v-'+id);return{id,c:citedIn(v).length,l:document.querySelectorAll('#'+id+'-sources li').length}});return{bad:r.filter(x=>x.c!==x.l),pages:r.filter(x=>x.c).length,refs:r.reduce((a,x)=>a+x.l,0),lin:window.__lineage}});
@@ -191,7 +191,7 @@ for(const [w,scheme] of [[1280,'light'],[1280,'dark'],[390,'light'],[390,'dark']
    (h.own&&h.dlg==='none')?pass('Hidden stays hidden','page carries its own [hidden] rule'):fail('Hidden stays hidden',JSON.stringify(h));}
   // D-020: maps must use the full content width (project preference)
   {const mw=[];for(const [v,s] of [['diaspora','#worldSvg'],['africa','#afSvg'],['history','#mapSvg']]){await p.evaluate(v=>{location.hash=v},v);await p.waitForTimeout(150);mw.push(await p.evaluate(([v,s])=>{const r=document.querySelector(s).getBoundingClientRect(),V=document.querySelector('#v-'+v).getBoundingClientRect();return [v,r.width/V.width]},[v,s]))}
-   const bad=mw.filter(([v,r])=>r<0.9);bad.length?fail(`Maps full width ${tag}`,bad.map(([v,r])=>v+' '+(r*100).toFixed(0)+'%').join(', ')):pass(`Maps full width ${tag}`,mw.map(([v,r])=>v+' '+(r*100).toFixed(0)+'%').join(', '));}
+   const bad=mw.filter(([,r])=>r<0.9);bad.length?fail(`Maps full width ${tag}`,bad.map(([v,r])=>v+' '+(r*100).toFixed(0)+'%').join(', ')):pass(`Maps full width ${tag}`,mw.map(([v,r])=>v+' '+(r*100).toFixed(0)+'%').join(', '));}
   // D-022: club filters, guides and local voting work without shared storage
   {await p.evaluate(()=>{location.hash='club'});await p.waitForTimeout(200);
    const k=await p.evaluate(async()=>{const all=document.querySelectorAll('#clubList .clubcard').length;document.querySelector('#clubChips [data-k="film"]').click();const films=[...document.querySelectorAll('#clubList .clubcard')].filter(c=>!c.hidden).length;document.querySelector('#clubChips [data-k="all"]').click();
@@ -200,7 +200,7 @@ for(const [w,scheme] of [[1280,'light'],[1280,'dark'],[390,'light'],[390,'dark']
    (k.all>=18&&k.films>0&&k.films<k.all&&k.qn>=4&&k.after==='true'&&k.plan===4&&k.shared===false)?pass(`Book and film club ${tag}`,`${k.all} picks, film filter ${k.films}, ${k.qn} questions, local vote and 4-meeting plan`):fail(`Book and film club ${tag}`,JSON.stringify(k));}
   // D-025: tables sort, filter and group; cards switch to a list
   {await p.evaluate(()=>{location.hash='lives'});await p.waitForTimeout(400);
-   const k=await p.evaluate(async()=>{const t=document.querySelector('#lsTable table');if(!t||!t.dataset.smart)return{smart:false};const bar=t.closest('.tablewrap').previousElementSibling;const col=[...t.tHead.rows[0].cells].findIndex(c=>/Figure/.test(c.textContent));
+   const k=await p.evaluate(async()=>{const t=document.querySelector('#lsTable table');if(!t||!t.dataset.smart)return{smart:false};const bar=t.closest('.tablewrap').previousElementSibling;const _col=[...t.tHead.rows[0].cells].findIndex(c=>/Figure/.test(c.textContent));
      t.querySelectorAll('button.thsort')[0].click();const asc=t.tHead.rows[0].cells[0].getAttribute('aria-sort');const g=bar.querySelector('.tg');g.value=g.options[1].value;g.dispatchEvent(new Event('change'));const grp=t.querySelectorAll('tr.grp').length;
      const q=bar.querySelector('.tq');q.value='zzzz-no-match';q.dispatchEvent(new Event('input'));const none=[...t.tBodies[0].rows].filter(r=>!r.classList.contains('grp')&&!r.hidden).length;q.value='';q.dispatchEvent(new Event('input'));g.value='-1';g.dispatchEvent(new Event('change'));
      const lb=document.querySelector('#v-lives .vtbar .vtb[data-m="list"]');lb.click();const list=document.querySelector('#v-lives .grid').classList.contains('as-list');document.querySelector('#v-lives .vtbar .vtb[data-m="cards"]').click();
@@ -261,7 +261,7 @@ for(const [w,scheme] of [[1280,'light'],[1280,'dark'],[390,'light'],[390,'dark']
 // D-102: tablets keep a navigation bar; any menu scrolls within the screen and reaches every page
 for(const [w,h] of (process.env.TEST_NONAV?[]:[[1024,768],[820,1180],[768,1024],[600,900],[390,844]])){const {p,ctx}=await mk(w,'light',true);await p.setViewportSize({width:w,height:h});await p.evaluate(()=>fitNav());await p.waitForTimeout(300);
   const r=await p.evaluate(async()=>{const vis=e=>e&&!e.hidden&&getComputedStyle(e).display!=='none'&&e.offsetParent!==null;const g=document.querySelector('#gnav');const bar=vis(g)?[...g.children].filter(vis).length:0;
-    const btn=document.querySelector('#moreBtn');let menu=null;if(vis(document.querySelector('#moreWrap'))){btn.click();await new Promise(r=>setTimeout(r,200));const m=document.querySelector('#moreMenu');const rc=m.getBoundingClientRect();
+    const btn=document.querySelector('#moreBtn');let menu=null;if(vis(document.querySelector('#moreWrap'))){btn.click();await new Promise(r=>setTimeout(r,200));const m=document.querySelector('#moreMenu');const _rc=m.getBoundingClientRect();
       [...m.querySelectorAll('.mhead')].forEach(b=>{if(b.getAttribute('aria-expanded')!=='true'&&!b.closest('[hidden]'))b.click()});await new Promise(r=>setTimeout(r,100));
       menu={left:Math.round(m.getBoundingClientRect().left),right:Math.round(m.getBoundingClientRect().right),bottom:Math.round(m.getBoundingClientRect().bottom),vh:innerHeight,scrolls:m.scrollHeight>m.clientHeight?/auto|scroll/.test(getComputedStyle(m).overflowY):true,links:[...m.querySelectorAll('a[data-view]')].filter(a=>!a.closest('[hidden]')).length};btn.click()}
     return{bar,menu,sw:document.documentElement.scrollWidth,iw:innerWidth}});

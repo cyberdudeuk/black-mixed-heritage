@@ -1,0 +1,11 @@
+# Python linter (OpenSSF warnings criterion; secure development standing rule, 15 Nov 2026).
+# CI runs `ruff check .` and fails on any finding.
+target-version = "py312"
+line-length = 200
+
+[lint]
+# pyflakes (F), pycodestyle errors and warnings (E4, E7, E9, W) and bugbear (B).
+select = ["E4", "E7", "E9", "F", "W", "B"]
+# House style, not defects: compact one-line blocks (E701, E702), several imports on a line (E401),
+# imports after a sys.path set-up in scripts and tests (E402), short lambdas (E731), short names (E741).
+ignore = ["E401", "E402", "E701", "E702", "E731", "E741"]

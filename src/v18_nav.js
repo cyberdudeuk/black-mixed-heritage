@@ -4,7 +4,7 @@ const _activate18=activate;activate=function(tl,t){if(tl&&tl.dataset&&tl.dataset
 function groupOf(id){const g=NAV_GROUPS.find(x=>x.items.includes(id));return g?g.g:"Overview"}
 function addBreadcrumbs(){const order=VIEWS.map(v=>v[0]);VIEWS.forEach(([id,n],i)=>{const v=$("#v-"+id);if(!v||v.querySelector(".crumbs"))return;
   v.insertAdjacentHTML("afterbegin",`<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="#overview">Home</a></li>${id==="overview"?"":`<li><span>${esc(groupOf(id))}</span></li>`}<li aria-current="page">${esc(n)}</li></ol></nav>`);
-  const prev=order[i-1],next=order[i+1];const nm=k=>(VIEWS.find(x=>x[0]===k)||[,""])[1];
+  const prev=order[i-1],next=order[i+1];const nm=k=>(VIEWS.find(x=>x[0]===k)||[0,""])[1];
   v.insertAdjacentHTML("beforeend",`<nav class="pagenav" aria-label="Previous and next page">${prev?`<a class="btn" href="#${prev}" rel="prev">${icon("left")} <span><small>Previous</small> ${esc(nm(prev))}</span></a>`:"<span></span>"}${next?`<a class="btn" href="#${next}" rel="next"><span><small>Next</small> ${esc(nm(next))}</span> ${icon("right")}</a>`:""}</nav>`)})}
 function buildAZ(){const items=[];VIEWS.forEach(([id,n])=>items.push({l:n,k:"Page",h:"#"+id}));$$(".view .block[id]").forEach(b=>{const h=b.querySelector(".sechead h2");if(h)items.push({l:h.textContent.trim(),k:"Section",h:"#"+b.id})});
   DATASETS.forEach(d=>{let arr=[];try{arr=d.arr()}catch(e){}arr.forEach((x,i)=>{let l="",h="#"+d.view;try{l=d.lab(x);h=d.href(x)||h}catch(e){}if(l)items.push({l:String(l),k:d.n,h})})});GLOSSARY.forEach(g=>items.push({l:g.t,k:"Glossary",h:"#knowledge"}));

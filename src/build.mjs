@@ -15,7 +15,7 @@ if(n0!==7||left!==0){console.error('BUILD FAIL placeholders',n0,left);process.ex
 const js=s.slice(s.lastIndexOf('<script>')+8,s.lastIndexOf('</script>'));
 try{new Function(js)}catch(e){console.error('BUILD FAIL script syntax:',e.message);process.exit(1)}
 /* D-040: a second top-level function with the same name silently replaces the first (renderIdeas, showTip, hideTip did) */
-{const names=[...js.matchAll(/(?:^|[;\n}{)])\s*(?:async\s+)?function\s+([A-Za-z_$][\w$]*)\s*\(/g)].map(x=>x[1]);const seen={};names.forEach(n=>seen[n]=(seen[n]||0)+1);const dup=Object.entries(seen).filter(([k,v])=>v>1);
+{const names=[...js.matchAll(/(?:^|[;\n}{)])\s*(?:async\s+)?function\s+([A-Za-z_$][\w$]*)\s*\(/g)].map(x=>x[1]);const seen={};names.forEach(n=>seen[n]=(seen[n]||0)+1);const dup=Object.entries(seen).filter(([,v])=>v>1);
  if(dup.length){console.error('BUILD FAIL duplicate function declarations (one replaces the other):',dup.map(d=>d[0]).join(', '));process.exit(1)}}
 writeFileSync(process.argv[3]||'bhm-2026-hub.html',s);
 console.log('built',s.length,'bytes');

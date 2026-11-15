@@ -13,7 +13,7 @@ const PW_SRC={};(function(){if(typeof PW==="undefined")return;Object.values(PW).
 const pwTag=ids=>{const seen=new Set();return (Array.isArray(ids)?ids:[ids]).map(i=>PW_SRC[i]&&!seen.has(PW_SRC[i])?(seen.add(PW_SRC[i]),evTag(PW_SRC[i])):"").join("")};
 const PW_GROUPS=[["nsg","The National School of Government and Public Services"],["mdc","The Manchester Digital Campus"],["pfg","Places for Growth"],["ddat","Digital, data, cyber and AI learning today"],["professions","Professions, functions and their frameworks"],["inclusion","Who is in the professions now"]];
 /* The hub's proposal. Layers follow the school's own four areas; levels follow the Digital and Data capability framework */
-const PW_LEVELS=["Awareness","Working","Practitioner","Expert"];
+const _PW_LEVELS=["Awareness","Working","Practitioner","Expert"];
 const PW_LAYERS=[
  ["Universal skills","Everyone, from day one, wherever they work",[
    ["Digital, data and AI for everyone","Awareness to working: finding and judging evidence, data basics, using AI tools safely and fairly, accessibility basics, cyber hygiene",["ddat-03","ddat-04","ddat-05"]],

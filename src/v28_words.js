@@ -27,7 +27,7 @@ const _QUOTED=/“[^”]{0,300}”|‘(?:[^’]|’(?=[a-z])){0,300}’|"[^"]{0,
 const LANG_SKIP="#checkRows,.checkrow,a,.tags,q,blockquote,cite,code,pre,script,style,svg,select,option,.mono,.lw-mention,[data-quote],script[type='application/ld+json'],#v-language .lwterm h3,#thesBody,.ltm,.ltlink,#lw-time";
 function langLint(root){root=root||document;const hits=[];
   (root===document?[...document.querySelectorAll(".view")]:[root]).forEach(v=>{const w=document.createTreeWalker(v,NodeFilter.SHOW_TEXT);let n;
-    while(n=w.nextNode()){let t=n.nodeValue;if(!t||t.length<4)continue;const p=n.parentElement;if(!p||p.closest(LANG_SKIP))continue;
+    while((n=w.nextNode())){let t=n.nodeValue;if(!t||t.length<4)continue;const p=n.parentElement;if(!p||p.closest(LANG_SKIP))continue;
       t=t.replace(_QUOTED," ");LANG_NAMES.forEach(r=>{t=t.replace(r," ")});
       for(const b of LANG_BANNED){const m=t.match(b.re);if(m){hits.push({k:b.k,view:v.id.replace(/^v-/,""),ctx:t.slice(Math.max(0,m.index-50),m.index+60).replace(/\s+/g," ").trim(),use:b.use})}}}});
   return hits}

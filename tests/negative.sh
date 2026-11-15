@@ -94,5 +94,10 @@ printf '%s' '[{"id":"t1","period":"October 2026","org_type":"NHS or health body"
 grep -q '"n":6' "$T/fs-repo/src/feedback-summaries.json" || { echo "injection 13 did not apply"; exit 2; }
 expect_fail "data validation on a feedback summary of fewer than 10 responses" "fewer than 10 responses" bash -c "cd '$T/fs-repo' && python3 tests/validate_data.py"
 
+# 14. bundle lint (D-LINT-01): a source summary defined twice in one object, as S265 was, so the first is dropped
+sed 's/S308:{s:"Co-founded 2016/S265:{},S308:{s:"Co-founded 2016/' dist/bhm-2026-hub.html > "$T/dupe.html"
+grep -q 'S265:{},S308:' "$T/dupe.html" || { echo "injection 14 did not apply"; exit 2; }
+expect_fail "bundle lint on a duplicate source key" "no-dupe-keys" node tests/lint_bundle.mjs "$T/dupe.html"
+
 if [ "$fails" -gt 0 ]; then echo "$fails check(s) did not catch their defect"; exit 1; fi
 echo "all injected defects were caught"

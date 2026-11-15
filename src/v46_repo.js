@@ -7,7 +7,7 @@
 const CE_ISO=/^\d{4}-\d{2}-\d{2}$/;
 /* the same rules as scripts/event_intake.py and tests/validate_data.py (2.21.0 review: a link with quotes in its host passed new URL()) */
 const CE_INVISIBLE=/[\u00AD\u061C\u180E\u200B-\u200F\u202A-\u202E\u2060-\u2064\u2066-\u206F\uFEFF]/;
-const CE_PII=[/[\w.+-]+@[\w-]+\.[\w.-]+/,/\b[\w.+-]+\s*[\(\[]\s*at\s*[\)\]]\s*[\w-]+\s*[\(\[]\s*dot\s*[\)\]]/i,/(?:\+44[\s.-]?|\b0)(?:\d[\s.-]?){9,10}\b/,/\b[A-CEGHJ-PR-TW-Z]{2}\s?\d{2}\s?\d{2}\s?\d{2}\s?[A-D]\b/i,/\b[A-Z]{1,2}\d[A-Z\d]?\s*\d[ABD-HJLNP-UW-Z]{2}\b/i,/\b\d{1,4}[a-z]?,?\s+(?:[A-Z][a-z]+\s+){1,3}(?:Street|St|Road|Rd|Avenue|Ave|Lane|Ln|Close|Drive|Dr|Way|Place|Pl|Crescent|Court|Ct|Gardens|Gdns|Terrace|Grove|Hill|Square|Sq|Mews|Row|Walk|Park|Rise|View|Green)\b/];
+const CE_PII=[/[\w.+-]+@[\w-]+\.[\w.-]+/,/\b[\w.+-]+\s*[([]\s*at\s*[)\]]\s*[\w-]+\s*[([]\s*dot\s*[)\]]/i,/(?:\+44[\s.-]?|\b0)(?:\d[\s.-]?){9,10}\b/,/\b[A-CEGHJ-PR-TW-Z]{2}\s?\d{2}\s?\d{2}\s?\d{2}\s?[A-D]\b/i,/\b[A-Z]{1,2}\d[A-Z\d]?\s*\d[ABD-HJLNP-UW-Z]{2}\b/i,/\b\d{1,4}[a-z]?,?\s+(?:[A-Z][a-z]+\s+){1,3}(?:Street|St|Road|Rd|Avenue|Ave|Lane|Ln|Close|Drive|Dr|Way|Place|Pl|Crescent|Court|Ct|Gardens|Gdns|Terrace|Grove|Hill|Square|Sq|Mews|Row|Walk|Park|Rise|View|Green)\b/];
 function ceUrlOk(u){if(typeof u!=="string"||u.length>300||/[\s"'<>`\\]/.test(u)||CE_INVISIBLE.test(u))return null;let url;try{url=new URL(u)}catch(e){return null}
   if(url.protocol!=="https:"||url.username||url.password||!/^[a-z0-9-]+(\.[a-z0-9-]+)+$/.test(url.hostname))return null;return url.href}
 function ceSafe(o){if(!o||typeof o!=="object")return null;const n=+o.issue;const t=String(o.t||"").replace(/\s+/g," ").trim();const w=String(o.where||"").replace(/\s+/g," ").trim();const u=String(o.url||"");

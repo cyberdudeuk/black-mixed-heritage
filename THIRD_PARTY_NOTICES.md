@@ -10,7 +10,7 @@
 | Wikipedia | Not used as a source | Where a summary mentions Wikipedia, the words are the hub's own |
 | Images of people | None reproduced | Avoids third-party image rights and personality rights |
 
-**Assessment.** MIT for code and CC BY 4.0 for content are the right pair for an open, reusable public-interest resource: both are permissive, widely understood and compatible with the Open Government Licence, so public bodies can adopt and adapt the hub. The obligations that arise from third-party material are only attribution notices, listed below; none of the third-party components imposes copyleft on the hub. axe-core (MPL-2.0) and Playwright (Apache-2.0) are test tools only and are not distributed in the website or the single file.
+**Assessment.** MIT for code and CC BY 4.0 for content are the right pair for an open, reusable public-interest resource: both are permissive, widely understood and compatible with the Open Government Licence, so public bodies can adopt and adapt the hub. The obligations that arise from third-party material are only attribution notices, listed below; none of the third-party components imposes copyleft on the hub. axe-core (MPL-2.0), Playwright (Apache-2.0) and ESLint with its rule set and globals list (MIT) are test tools only and are not distributed in the website or the single file.
 
 If the hub is adopted as departmental work, Crown copyright and the Open Government Licence may apply to new contributions made in that capacity.
 
@@ -34,6 +34,9 @@ If the hub is adopted as departmental work, Crown copyright and the Open Governm
 |---|---|
 | playwright | Apache-2.0 |
 | axe-core | MPL-2.0 |
+| eslint | MIT |
+| @eslint/js | MIT |
+| globals | MIT |
 | pdf-lib | MIT |
 | @fontsource/* (fonts for tests) | SIL Open Font License 1.1 |
 

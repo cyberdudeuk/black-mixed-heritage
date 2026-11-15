@@ -1,8 +1,27 @@
 # BHM 2026 Hub: release notes and verification log
 
-Repository: https://github.com/cyberdudeuk/black-mixed-heritage. Current version: 2.28.0 (31 October 2026).
+Repository: https://github.com/cyberdudeuk/black-mixed-heritage. Current version: 3.0.0 (1 November 2026).
 
 
+
+## Unreleased (15 November 2026): linters, and a source summary that was being dropped
+
+Part of applying the secure development standard to every project.
+
+- **Defect D-LINT-01, found by the new linter.** Source S265 (the documentary on Black children placed in
+  "educationally subnormal" schools) was read in full on 21 October and given a checked summary, but a second, empty
+  `S265:{}` later in the same object replaced it, so the hub never showed the summary. The duplicate is removed, and
+  the page now shows it.
+- **Linters fail the build on any finding.** Ruff checks the Python, ESLint checks the build and test scripts, and
+  `tests/lint_bundle.mjs` checks the page's assembled script as the browser runs it, because the fragments in `src/`
+  only make sense joined. Its rule choices are stated in the file: functions re-wrapped by later fragments, empty
+  catch blocks where storage is blocked, and the runtime-provided names are allowed. The vendored Teams SDK is skipped.
+- **Other findings fixed:** nine sparse-array fallbacks written as `[0, …]`, eight needless escapes, two
+  assignments in loop conditions made explicit, an empty `finally`, a constant condition, a literal byte-order mark
+  written as `\uFEFF`, and unused variables (renamed with `_` where kept on purpose, such as superseded route cards).
+- **Checks of the checks:** `tests/negative.sh` case 14 plants a duplicate source key and the bundle lint must catch it;
+  the bundle linter also self-tests on every run.
+- **Also corrected:** this file's "Current version" line still said 2.28.0.
 
 ## 3.0.0 (1 November 2026): a lasting name
 

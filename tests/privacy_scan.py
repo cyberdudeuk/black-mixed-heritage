@@ -4,7 +4,7 @@ Checks the page text and every embedded file (Office templates, images) carried 
 - PNG images: no Author, Artist or Copyright text chunks;
 - the page: no email addresses at personal mail providers and no links to private claude.ai artifacts.
 Usage: python3 tests/privacy_scan.py dist/bhm-2026-hub.html site/index.html"""
-import base64, io, re, sys, zipfile, zlib, struct
+import base64, io, re, sys, zipfile, struct
 
 ALLOWED_AUTHOR = {'Black History and Heritage Hub', 'BHM 2026 Hub', 'Un-named', ''}  # the old name stays allowed for files made before 3.0.0
 EMAIL = re.compile(rb'[A-Za-z0-9._%+-]+@(?:gmail|googlemail|hotmail|outlook|live|yahoo|icloud|me|aol|proton|protonmail)\.[a-z.]+', re.I)

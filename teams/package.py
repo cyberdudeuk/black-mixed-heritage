@@ -1,5 +1,5 @@
 # Packages the Teams app: manifest.json and the two icons at the root of a zip, as Teams requires.
-import zipfile,json,struct,sys,os
+import zipfile,json,struct,os
 d=os.path.dirname(os.path.abspath(__file__))
 m=json.load(open(os.path.join(d,'manifest.json')))
 def size(p):
