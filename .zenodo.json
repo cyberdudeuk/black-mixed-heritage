@@ -1,0 +1,42 @@
+{
+  "upload_type": "software",
+  "title": "Black History and Heritage Hub (launched as the BHM 2026 Hub: Honouring Our Communities)",
+  "creators": [
+    {
+      "name": "Silva, Emanuel",
+      "orcid": "0009-0000-5880-7219"
+    }
+  ],
+  "description": "An evidence-based hub on Black and Black-Mixed history, heritage and cultures, Africa and the African diaspora, built for Black History Month 2026 in the UK and designed to run all year, for the UK public sector and the communities it serves. It covers history and journeys, Africa and the diaspora, language and terms, myths and facts, identities and life stages, recognition and representation, inequalities and action, learning and a curriculum, events and a calendar, careers and leadership, dashboards, a knowledge graph and benchmarks. Every figure links to a source that was read. It is one accessible, self-contained web page (website, single file, Microsoft Teams tab) that checks itself in the browser, with open data (calendar, glossary, linked data, sources, nomination deadlines). Unofficial; made in a personal capacity.",
+  "keywords": [
+    "Black history",
+    "Black History Month",
+    "African diaspora",
+    "Africa",
+    "heritage",
+    "Black-Mixed heritage",
+    "public sector",
+    "United Kingdom",
+    "inclusion",
+    "education",
+    "accessibility",
+    "open data",
+    "linked data"
+  ],
+  "notes": "Prototype or personal project, not an official GOV.UK service or endorsed standard unless its README says otherwise. Status at release: Personal project, unofficial (name provisional).",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/cyberdudeuk/black-mixed-heritage",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "version": "3.0.0",
+  "contributors": [
+    {
+      "name": "BHM 2026 Hub contributors",
+      "type": "Other"
+    }
+  ],
+  "license": "mit"
+}
