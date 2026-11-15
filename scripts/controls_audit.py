@@ -7,13 +7,35 @@ Usage: python3 scripts/controls_audit.py ENFORCED_MAIN.json RULESETS.json .githu
 Prints a Markdown report; exit 0 when everything recorded is enforced, 1 on drift.
 A ruleset may be stricter than recorded; it may not be weaker.
 Bypass actors are visible only to a token that can administer rulesets. Without one (the default
-GITHUB_TOKEN) the report says bypass is UNVERIFIED rather than passing it.
+GITHUB_TOKEN) the report says bypass is UNVERIFIED rather than passing it. A live ruleset may have only
+the bypass actors its recorded file lists, each with the same or a narrower mode (ADR 0010).
 """
 import glob, json, os, sys
 
 
 def contexts(rule):
     return {c["context"] for c in (rule.get("parameters") or {}).get("required_status_checks", [])}
+
+
+# Narrowest first: "pull_request" lets the actor merge a pull request past a failing rule but never push
+# directly; "always" also allows direct pushes; "exempt" skips the ruleset silently.
+BYPASS_RANK = {"pull_request": 1, "always": 2, "exempt": 3}
+
+
+def bypass_problems(recorded, live_ruleset, name):
+    """Every live bypass actor must be recorded, with the same or a narrower mode. A missing mode counts as the
+    widest, so an unreadable entry never passes."""
+    allowed = {(a["actor_type"], a.get("actor_id")): BYPASS_RANK[a.get("bypass_mode", "always")]
+               for a in recorded.get("bypass_actors") or []}
+    out = []
+    for a in live_ruleset.get("bypass_actors") or []:
+        key = (a.get("actor_type"), a.get("actor_id"))
+        mode = a.get("bypass_mode")
+        if key not in allowed:
+            out.append(f"{name}: ruleset '{live_ruleset.get('name')}' has bypass actors not recorded: {key[0]} {key[1]}")
+        elif BYPASS_RANK.get(mode, 99) > allowed[key]:
+            out.append(f"{name}: ruleset '{live_ruleset.get('name')}' lets {key[0]} {key[1]} bypass more widely ('{mode}') than recorded")
+    return out
 
 
 def compare(recorded, enforced_rules, where):
@@ -72,8 +94,8 @@ def main(argv):
         for r in live:
             if "bypass_actors" not in r:
                 unknown.append(f"{name}: bypass actors of '{r.get('name')}' are not visible to this token")
-            elif r.get("bypass_actors"):
-                problems.append(f"{name}: ruleset '{r.get('name')}' has bypass actors; recorded rulesets have none")
+            else:
+                problems += bypass_problems(recorded, r, name)
     print("## Controls audit\n")
     if problems:
         print("The rules GitHub enforces are weaker than those recorded in `.github/rulesets/`:\n")
