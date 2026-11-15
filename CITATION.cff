@@ -12,6 +12,9 @@ abstract: >-
   Unofficial; made in a personal capacity.
 type: software
 authors:
+  - given-names: Emanuel
+    family-names: Silva
+    orcid: "https://orcid.org/0009-0000-5880-7219"
   - name: "BHM 2026 Hub contributors"
 version: "3.0.0"
 date-released: "2026-11-01"
