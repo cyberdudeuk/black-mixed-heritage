@@ -34,7 +34,7 @@ How the hub and this repository meet their non-functional requirements, how each
 | Valid open data | Events are sourced (https), ICS and JSON agree, the glossary is complete, the linked data parses, `security.txt` has not expired, pages stay within size budgets | `tests/validate_data.py` (every pull request) |
 | Accessibility | WCAG 2.2 AA | axe-core on all 59 pages at 1280px light and 390px dark (every pull request); manual checks quarterly ([ACCESSIBILITY.md](../ACCESSIBILITY.md)) |
 | Safe defaults | Unknown or missing data degrades to text; features that need Claude say so and offer an alternative elsewhere | Self-checks on each edition |
-| Change control | Once the owner has imported the recorded rulesets (not yet in force on 31 October 2026), `main`: pull requests only, squash merges, required checks on an up-to-date branch, no force pushes, deletion or bypass; release tags cannot be moved or deleted; changes to the controls need the owner | Rulesets recorded in `.github/rulesets/`; the **Controls guard** on every pull request; the **Controls audit** daily (opens a `controls-drift` issue); OpenSSF Scorecard |
+| Change control | `main` (in force from 15 November 2026): pull requests only, squash merges, required checks on an up-to-date branch, no force pushes or deletion; only the repository admin may bypass, and only by merging a pull request (ADR 0010); release tags cannot be moved or deleted; changes to the controls need the owner | Rulesets recorded in `.github/rulesets/`; the **Controls guard** on every pull request; the **Controls audit** daily (opens a `controls-drift` issue); OpenSSF Scorecard |
 
 ## 3. Resilient: failure modes, backup and recovery
 ### Failure modes
@@ -78,7 +78,7 @@ The integrity of the content (people trust its facts), the reputation of the com
 | Compromised action or tool | Pinned by full commit SHA; Dependabot proposes updates; CodeQL scans workflows; OpenSSF Scorecard reports regressions |
 | Token misuse | Default token is read-only; each job asks for only what it needs; `persist-credentials: false` on every checkout; the only optional secret (`PROJECT_TOKEN`) is scoped to Projects |
 | Tampered downloads | Releases carry SHA-256 checksums and a signed build-provenance attestation (`gh attestation verify`) |
-| Defacement through the account | Two-factor authentication on every account with write access; rulesets with no bypass; the Controls audit reports any weakening |
+| Defacement through the account | Two-factor authentication on every account with write access; rulesets whose only bypass is the admin merging a pull request, never a direct push; the Controls audit reports any weakening |
 | Third-party scripts | Only two optional libraries from cdnjs, pinned by version; nothing else is loaded |
 
 ### Reporting

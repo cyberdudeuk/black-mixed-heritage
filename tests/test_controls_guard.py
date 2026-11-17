@@ -147,6 +147,8 @@ def audit_cases(tmp):
     good_main = [dict(r) for r in main_rs["rules"]]
     live = [dict(main_rs, bypass_actors=None), dict(tags_rs, bypass_actors=None)]
     fails += check("rules match", good_main, live, False, "Every recorded rule is enforced")
+    fails += check("recorded admin bypass, pull requests only (ADR 0010)", good_main,
+                   [dict(main_rs), dict(tags_rs, bypass_actors=[])], False, "Every recorded rule is enforced")
     dropped = json.loads(json.dumps(good_main))
     for r in dropped:
         if r["type"] == "required_status_checks":
@@ -157,8 +159,14 @@ def audit_cases(tmp):
         if r["type"] == "pull_request":
             r["parameters"]["allowed_merge_methods"] = ["merge", "squash"]
     fails += check("merge commits allowed again", merges, live, True, "merge methods other than squash")
-    bypass = [dict(main_rs, bypass_actors=[{"actor_type": "RepositoryRole", "actor_id": 5}]), live[1]]
-    fails += check("a bypass added", good_main, bypass, True, "has bypass actors")
+    bypass = [dict(main_rs, bypass_actors=[{"actor_type": "RepositoryRole", "actor_id": 4, "bypass_mode": "pull_request"}]), live[1]]
+    fails += check("a bypass added", good_main, bypass, True, "has bypass actors not recorded")
+    widened = [dict(main_rs, bypass_actors=[{"actor_type": "RepositoryRole", "actor_id": 5, "bypass_mode": "always"}]), live[1]]
+    fails += check("admin bypass widened to direct pushes (ADR 0010)", good_main, widened, True, "bypass more widely ('always')")
+    no_mode = [dict(main_rs, bypass_actors=[{"actor_type": "RepositoryRole", "actor_id": 5}]), live[1]]
+    fails += check("bypass with no readable mode counts as widest", good_main, no_mode, True, "bypass more widely")
+    tag_bypass = [live[0], dict(tags_rs, bypass_actors=[{"actor_type": "RepositoryRole", "actor_id": 5, "bypass_mode": "pull_request"}])]
+    fails += check("any bypass on the tag ruleset (none recorded)", good_main, tag_bypass, True, "has bypass actors not recorded")
     fails += check("tag ruleset removed", good_main, live[:1], True, "no active tag ruleset")
     fails += check("bypass not visible is reported as unverified, not passed (review finding 6)", good_main,
                    [{k: v for k, v in x.items() if k != "bypass_actors"} for x in live], False, "UNVERIFIED (not a pass)")
