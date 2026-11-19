@@ -17,9 +17,8 @@ jobs:
           persist-credentials: false
       - name: Collect the external links from the hub
         run: |
-          grep -oE 'https://[A-Za-z0-9._~:/?#@!$&()*+,;=%-]+' dist/bhm-2026-hub.html \
-            | sed -E 's/[),.;:]+$//' | grep -v '\$' | grep -vE 'fonts\.(googleapis|gstatic)\.com|cyberdudeuk\.github\.io|schema\.org|w3\.org' \
-            | sort -u > links.txt
+          python3 -I scripts/collect_links.py --self-test
+          python3 -I scripts/collect_links.py dist/bhm-2026-hub.html > links.txt
           wc -l links.txt
       - name: Check the links
         id: lychee
