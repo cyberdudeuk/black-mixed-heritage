@@ -6,6 +6,11 @@ Repository: https://github.com/cyberdudeuk/black-mixed-heritage. Current version
 
 ## Unreleased (15 November 2026): linters, and a source summary that was being dropped
 
+- **Fewer stops for the owner (ADR 0011).** The controls guard no longer asks for the `controls-approved` label when a
+  pull request only edits the shell commands of a read-only, non-required workflow such as the monthly link check.
+  Everything that could weaken the controls still needs it; `tests/test_controls_guard.py` adds seven refusal cases that
+  show the exception refusing each way around it.
+
 Part of applying the secure development standard to every project.
 
 - **Defect D-LINT-01, found by the new linter.** Source S265 (the documentary on Black children placed in

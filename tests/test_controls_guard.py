@@ -75,6 +75,33 @@ def main():
              sub(".github/workflows/checks.yml", r"^name: Checks$", "name: Checks (weakened)"), [], True, "G1 control files changed")
         case("G1 the same change with the owner's label",
              sub(".github/workflows/checks.yml", r"^name: Checks$", "name: Checks (reviewed)"), ["controls-approved"], False, "G1 control files changed")
+        # ADR 0011: a shell-command edit in a read-only, non-required workflow passes without the label;
+        # everything that could weaken the controls still needs it (each case below must fail without it).
+        lc = ".github/workflows/link-check.yml"
+        case("G1 low-risk: a shell command edited in the monthly link check (ADR 0011)",
+             sub(lc, r"^          wc -l links.txt$", "          wc -l links.txt\n          sort -c links.txt"), [], False,
+             "G1 low-risk workflow edit")
+        case("G1 low-risk refused: a new action added to that workflow",
+             sub(lc, r"^          wc -l links.txt$", "          wc -l links.txt\n      - uses: actions/cache@v4"), [], True,
+             "G1 control files changed")
+        case("G1 low-risk refused: an expression added to a shell command (script injection)",
+             sub(lc, r"^          wc -l links.txt$", "          echo ${{ github.event.issue.title }}"), [], True,
+             "G1 control files changed")
+        case("G1 low-risk refused: a permission widened",
+             sub(lc, r"^  contents: read$", "  contents: write"), [], True, "G1 control files changed")
+        case("G1 low-risk refused: a job renamed to a required check's name",
+             sub(lc, r"^  links:$", "  controls-guard:"), [], True, "G1 control files changed")
+        case("G1 low-risk refused: credentials no longer dropped after checkout",
+             sub(lc, r"^          persist-credentials: false\n", ""), [], True, "G1 control files changed")
+        case("G1 low-risk refused: a shell command edited in a workflow that runs required checks",
+             sub(".github/workflows/checks.yml", r"^(\s+)run: python3 tests/test_controls_guard.py$",
+                 r"\1run: python3 tests/test_controls_guard.py || true"), [], True, "G1 control files changed")
+
+        def new_workflow(repo):
+            open(os.path.join(repo, ".github", "workflows", "extra.yml"), "w").write(
+                "name: Extra\non: workflow_dispatch\njobs:\n  x:\n    runs-on: ubuntu-latest\n    steps:\n      - run: echo hi\n")
+        case("G1 low-risk refused: a new workflow", new_workflow, [], True, "G1 control files changed")
+
         case("G2 a line removed from a validator",
              sub("tests/validate_data.py", r"^.*\S.*\n", ""), [], True, "G2 checks changed")
         case("G2 one ADDED line that switches a validator off (review finding 3)",

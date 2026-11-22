@@ -14,5 +14,6 @@ Short records of the decisions that shape the hub and this repository: the conte
 | [0008](0008-wiki-from-docs.md) | The wiki is generated from `docs/wiki/`; Discussions start as announcements only | Accepted |
 | [0009](0009-event-intake-through-pull-requests.md) | Community events reach the calendar through pull requests | Accepted |
 | [0010](0010-admin-bypass-for-pull-requests.md) | The repository admin may bypass the main ruleset, for pull requests only | Accepted |
+| [0011](0011-low-risk-workflow-edits.md) | Low-risk workflow edits pass the controls guard without the owner's label | Accepted |
 
 Template: copy any record, give it the next number, and keep it to one page.
