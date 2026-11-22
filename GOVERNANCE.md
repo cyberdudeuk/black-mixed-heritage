@@ -35,7 +35,7 @@ Claude prepares, checks and merges routine changes on the owner's behalf. It wor
 
 What the controls guard stops (each has a test that shows it failing, and was shown to pass on the earlier guard that missed it: `tests/test_controls_guard.py`):
 - **G0** a branch that does not contain the latest `main`.
-- **G1** a change to workflows, actions, rulesets, code owners, Dependabot, the guard, the audit or the npm scripts CI runs, without the owner's label. This includes renames and non-ASCII file names.
+- **G1** a change to workflows, actions, rulesets, code owners, Dependabot, the guard, the audit or the npm scripts CI runs, without the owner's label. This includes renames and non-ASCII file names. One exception (ADR 0011): an edit to the shell commands of an existing workflow that cannot write code, holds no secrets and produces no required check passes without the label, provided no changed line touches an action, permission, trigger, token, input, condition or `${{ }}` expression.
 - **G2** any change under `tests/`, additions included, without the label. One added line can switch a check off.
 - **G3** fewer in-page self-check calls than on `main`. Calls left in comments are not counted.
 - **G4** fewer injected-defect tests in `tests/negative.sh`. The label cannot excuse this.

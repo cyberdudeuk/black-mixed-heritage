@@ -11,6 +11,9 @@ Exit 0 = pass, 1 = a control failed (each failure is printed as a GitHub error a
 G0  The pull request does not contain the latest main                                -> fails ("update the branch").
 G1  Control files changed (workflows, actions, rulesets, code owners, Dependabot, the guard and audit,
     the npm scripts CI runs)                                                          -> needs the owner's label.
+    Exception (ADR 0011): an edit to the shell commands of an existing workflow that cannot write code, holds
+    no secrets and produces no required check passes without the label, as long as every changed line is
+    inside a step and touches no action, permission, trigger, token, input, condition or ${{ }} expression.
 G2  Any change to anything under tests/ (additions too: one added line can disable a check) -> needs the label.
     The label counts only when applied after the latest push: the workflow ignores it on a push event and
     removes it, so the owner approves exactly the commits they saw. Claude never applies that label.
@@ -18,12 +21,21 @@ G3  Fewer in-page self-checks (CHECKS.push) than on the base branch             
 G4  Fewer injected defects in tests/negative.sh than on the base branch               -> fails.
 G5  Version changed but not increased, or the five version places disagree            -> fails.
 """
-import json, os, re, subprocess, sys
+import difflib, json, os, re, subprocess, sys
 
 APPROVAL_LABEL = "controls-approved"
 CONTROL_PATHS = (".github/workflows/", ".github/actions/", ".github/rulesets/", ".github/CODEOWNERS",
                  ".github/dependabot.yml", "scripts/controls_guard.py", "scripts/controls_audit.py")
 CHECK_PATHS = ("tests/",)
+
+# ADR 0011: what a "low-risk workflow edit" may not touch. Anything that matches needs the owner's label.
+NEVER_LOW_RISK = (".github/workflows/controls-guard.yml", ".github/workflows/controls-audit.yml")
+STRONG_WRITE = re.compile(r"\b(contents|actions|pull-requests|id-token|packages|pages|deployments|statuses|checks|"
+                          r"security-events|attestations)\s*:\s*write\b|write-all")
+RISKY_LINE = re.compile(r"\$\{\{|\buses\s*:|\bpermissions\b|\bwrite\b|secrets|token|\benv\s*:|\bwith\s*:|"
+                        r"persist-credentials|\bif\s*:|continue-on-error|\bshell\s*:|\bservices\s*:|\bcontainer\s*:|"
+                        r"pull_request_target|workflow_run|\bon\s*:", re.I)
+STEP_INDENT = 6  # steps sit at six spaces under jobs.<id>.steps; job and top-level keys are shallower
 
 
 def git(*args):
@@ -94,6 +106,62 @@ def versions(sha):
     return out
 
 
+def required_contexts(sha):
+    """The status checks the main ruleset requires, as recorded on the base branch."""
+    try:
+        rules = json.loads(show(sha, ".github/rulesets/main.json") or "{}").get("rules", [])
+    except ValueError:
+        return None
+    out = []
+    for r in rules:
+        if r.get("type") == "required_status_checks":
+            out += [c.get("context", "") for c in r.get("parameters", {}).get("required_status_checks", [])]
+    return out
+
+
+def job_labels(text):
+    """Job ids (two spaces under jobs:) and job names (four spaces), which GitHub uses as check names."""
+    labels, in_jobs = [], False
+    for line in text.splitlines():
+        if re.match(r"^jobs\s*:", line):
+            in_jobs = True
+            continue
+        if in_jobs and re.match(r"^\S", line):
+            in_jobs = False
+        if in_jobs:
+            m = re.match(r"^  ([A-Za-z0-9_-]+)\s*:\s*$", line) or re.match(r"^    name\s*:\s*[\"']?([^\"'#]+?)[\"']?\s*(#.*)?$", line)
+            if m:
+                labels.append(m.group(1).strip())
+    return labels
+
+
+def low_risk_workflow(base, head, path, required):
+    """True when this workflow edit can pass without the owner's label (ADR 0011). Fails closed: anything it cannot
+    show to be harmless needs the label."""
+    if required is None or not path.startswith(".github/workflows/") or path in NEVER_LOW_RISK:
+        return False
+    if not path.endswith((".yml", ".yaml")):
+        return False
+    b, h = show(base, path), show(head, path)
+    if b is None or h is None:  # added, deleted or renamed workflows always need the label
+        return False
+    for text in (b, h):
+        if STRONG_WRITE.search(text) or "secrets." in text:
+            return False
+        for job in job_labels(text):
+            if any(c == job or c.startswith(job + " (") for c in required):
+                return False
+    for line in difflib.ndiff(b.splitlines(), h.splitlines()):
+        if not line.startswith(("+ ", "- ")):
+            continue
+        text = line[2:]
+        if not text.strip() or text.lstrip().startswith("#"):
+            continue
+        if len(text) - len(text.lstrip(" ")) < STEP_INDENT or RISKY_LINE.search(text) or "\t" in text:
+            return False
+    return True
+
+
 def main(argv):
     if len(argv) < 3:
         print(__doc__)
@@ -115,6 +183,11 @@ def main(argv):
 
     changed = changed_paths(base, head)
     control = [p for p in changed if p.startswith(CONTROL_PATHS)]
+    required = required_contexts(base)
+    low_risk = [p for p in control if low_risk_workflow(base, head, p, required)]
+    control = [p for p in control if p not in low_risk]
+    if low_risk:
+        notes.append("G1 low-risk workflow edit, no label needed (ADR 0011): " + ", ".join(low_risk))
     if npm_scripts(base) != npm_scripts(head):
         control.append("package.json (scripts)")
     if control:
